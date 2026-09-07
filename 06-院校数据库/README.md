@@ -45,7 +45,7 @@
 
 ```bash
 python tools/etl_build_db.py     # 需要本机有源 xlsx（路径见脚本头部 WS）
-python tools/validate_db.py report.txt
+python tools/validate_db.py [output_file]
 ```
 
 ## 五、v1 范围与已知边界
