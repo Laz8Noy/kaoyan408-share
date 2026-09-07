@@ -16,8 +16,8 @@
 **② 独立全量推荐器**（输入预估分 → 冲/稳/保自动分档）：
 👉 [kaoyan-recommender-full.html](https://laz8noy.github.io/kaoyan408-share/08-%E6%8E%A8%E8%8D%90%E5%99%A8%E7%BD%91%E9%A1%B5/kaoyan-recommender-full.html)
 
-**③ 408 排序算法交互演示器**（11 种排序动画 + 代码同步 + 考点刷题，见 [`11-408专业课交互课件`](11-408专业课交互课件/)）：
-👉 [408-sorting-visualizer.html](https://laz8noy.github.io/kaoyan408-share/11-408%E4%B8%93%E4%B8%9A%E8%AF%BE%E4%BA%A4%E4%BA%92%E8%AF%BE%E4%BB%B6/408-sorting-visualizer.html)
+**③ 排序算法可视化（交互演示）**（11 种排序动画 + 代码同步 + 考点刷题，见 [`11-408专业课交互课件`](11-408专业课交互课件/)）：
+👉 [%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%8F%AF%E8%A7%86%E5%8C%96.html](https://laz8noy.github.io/kaoyan408-share/11-408%E4%B8%93%E4%B8%9A%E8%AF%BE%E4%BA%A4%E4%BA%92%E8%AF%BE%E4%BB%B6/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%8F%AF%E8%A7%86%E5%8C%96.html)
 
 ## 10 分钟上手
 
