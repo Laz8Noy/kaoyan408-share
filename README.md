@@ -22,7 +22,7 @@
 **④ 排序算法可视化（交互演示）**（11 种排序动画 + 代码同步 + 考点刷题，见 [`11-408专业课交互课件`](11-408专业课交互课件/)）：
 👉 [排序算法可视化.html](https://laz8noy.github.io/kaoyan408-share/11-408%E4%B8%93%E4%B8%9A%E8%AF%BE%E4%BA%A4%E4%BA%92%E8%AF%BE%E4%BB%B6/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%8F%AF%E8%A7%86%E5%8C%96.html)
 
-> 数据更新：改 `06-院校数据库/data/schools/*.json`、`10-录取分数统计/data` 或 04 的 xlsx 明细 sheet 后，仓库根目录跑 `python 09-生成脚本/build_school_browser_data.py` 重新生成浏览器索引再推送。
+> 数据更新流程（发布工作流）：改 `06-院校数据库` / `10-录取分数统计` 的 JSON 或 04 明细后，在仓库根目录跑 `python 09-生成脚本/publish_check.py`（自动再生浏览器索引 + 门禁自检：懒加载路径、xlsx↔网页同步、死链/泄露扫描），全 PASS 后 `git push` 即发布（Pages 一两分钟生效）。详见 [`09-生成脚本/README.md`](09-生成脚本/README.md)。
 
 ## 10 分钟上手
 

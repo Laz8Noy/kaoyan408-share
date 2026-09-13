@@ -15,7 +15,16 @@
 | 终极版 20260826 xlsx（与 html 同步） | `make_final_xlsx_v2.py` | 解析 20260826 html 的 S/C/K/O/SRCS + `var CB`（408 分位列）导出 12+Sheet；改数据/复核后重跑本脚本可保持 xlsx 与网页一致 |
 | 09-03 复核修正打进两主网页 | `apply_verify_0903_pages.py` | 幂等补丁（已执行于 04 html 与 08 推荐器） |
 | CodeBrick 分位数注入两主网页 | `inject_codebrick_pages.py` | 幂等补丁（检测 `var CB=` 已注入则跳过） |
-| 浏览器页派生索引 | `build_school_browser_data.py` | 幂等；改动 06/10 两库 JSON 后重跑，再推送 |
+| 浏览器页派生索引 | `build_school_browser_data.py` | 幂等；改动 06/10 两库 JSON 或本目录 xlsx 明细后重跑 |
+| **发布门禁（一条命令全流程自检）** | `publish_check.py` | 改完任何数据后跑：自动再生索引 + 懒加载路径/`xlsx↔网页`同步/死链与本机路径泄露/py 编译 六项检查，全 PASS 再 commit+push |
+
+## 发布工作流（数据更新 → 上线）
+
+1. 新资料归位：考情字段进 06 JSON，分数分位进 10 库（勿新增第四数据源）
+2. 再生派生物：动过 04 html → `make_final_xlsx_v2.py`；动过任何数据源 → `build_school_browser_data.py`
+3. 门禁：`python 09-生成脚本/publish_check.py`（exit 0 才继续）
+4. 提交推送（origin 为 SSH）：`git -c core.sshCommand="C:/Windows/System32/OpenSSH/ssh.exe" push origin main`
+5. 线上验证：curl 改动 URL 比对 200/字节一致（Pages 约 1~2 分钟生效）
 
 ## ⚠️ 重要警告
 
