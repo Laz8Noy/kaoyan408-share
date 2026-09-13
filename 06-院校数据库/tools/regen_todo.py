@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
+"""再生 data/todo_patch_list.json（每校剩余待补字段清单）。在仓库任意位置运行均可。"""
 import json, os, glob
 from collections import Counter
 
-DB = r'C:\Users\华硕\Desktop\考研085410_22408_资料汇总_20260818\deliverables\20260903-考研院校数据库AI版'
+DB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 06-院校数据库/
 SCH = os.path.join(DB, 'data', 'schools')
 files = sorted(glob.glob(os.path.join(SCH, '*.json')))
 

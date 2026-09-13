@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-"""更新 meta.json 中的 conflicts 计数和 nUnits。"""
+"""更新 meta.json 中的 conflicts 计数和 nUnits。在仓库任意位置运行均可。"""
 import json, os, glob
 
-DB = r'C:\Users\华硕\Desktop\考研085410_22408_资料汇总_20260818\deliverables\20260903-考研院校数据库AI版'
+DB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 06-院校数据库/
 SCH = os.path.join(DB, 'data', 'schools')
 
 with open(os.path.join(DB, 'data', 'meta.json'), 'r', encoding='utf-8') as f:
     meta = json.load(f)
 
 meta['date'] = '2026-09-13'
-meta['nSchools'] = 177
+meta['nSchools'] = len(meta['schools'])
 
 for s in meta['schools']:
     fp = os.path.join(SCH, s['file'])

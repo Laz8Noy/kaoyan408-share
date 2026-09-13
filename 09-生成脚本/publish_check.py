@@ -107,10 +107,28 @@ try:
 except Exception as e:  # noqa: BLE001
     check("C3 xlsx与主网页同步", False, str(e))
 
-# C4 卫生：泄露 + 死链（排除本脚本：其内含检测关键词字面量，扫描器不自咬）
-leak = sh(["git", "grep", "-l", "-i", "some work", "--", ".", ":(exclude)09-生成脚本/publish_check.py"])
-leak2 = sh(["git", "grep", "-l", "华硕", "--", ".", ":(exclude)09-生成脚本/publish_check.py"])
-leaked = sorted(set((leak.stdout or "").split() + (leak2.stdout or "").split()))
+# C4 卫生：泄露 + 死链
+# 泄露扫描用 Python 直读（git grep 传 C:\ 形态参数会被 MSYS 转换弄坏正则；且默认漏扫 untracked）
+def leaked_files():
+    # core.quotePath=false：否则 git 把中文路径转成八进制转义，全部 open 失败被静默跳过（09-14 实测）
+    files = sh(["git", "-c", "core.quotePath=false", "ls-files", "-co", "--exclude-standard"]).stdout.splitlines()
+    pat = re.compile("[A-Za-z]:" + B * 2 + "+Users" + B * 2, re.I)  # 匹配 X:\Users\ 形态盘符路径
+    hits = []
+    for f in files:
+        if not os.path.isfile(f) or os.path.getsize(f) > 3 * 1024 * 1024:
+            continue
+        try:
+            t = io.open(f, encoding="utf-8", errors="ignore").read()
+        except OSError:
+            continue
+        if "publish_check.py" in f.replace("\\", "/").split("/")[-1]:
+            continue  # 扫描器不自咬（内含关键词字面量）
+        if pat.search(t) or "some work" in t.lower():
+            hits.append(f)
+    return hits
+
+
+leaked = leaked_files()
 from urllib.parse import unquote
 dead = []
 link_pat = re.compile(r'href="([^"]+)"')
