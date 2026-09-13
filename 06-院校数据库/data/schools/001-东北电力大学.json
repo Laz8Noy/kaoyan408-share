@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "东北电力大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "吉林",
+   "region": "东北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机学院",
+   "direction": "电子信息-计算机",
+   "line2026": "318",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "314",
+    "2026": "318"
+   },
+   "plan2026": "14一志愿+39调剂",
+   "fill": "调剂为主",
+   "retestCnt": "14一志愿+59调剂",
+   "admitCnt": "14一志愿+39调剂",
+   "admitMax": "401",
+   "admitMin": "264",
+   "admitAvg": "318",
+   "scope": "N诺2026：计算机学院无校线(NC)；电子信息-计算机22408，一志愿进复试14+调剂59，进复试均分318【264-401】，单科政64英63数98 408=93，拟录取14+39调剂；计算机学硕11408",
+   "aiTag": "无AI方向",
+   "nn408avg": "93",
+   "nnRate": null,
+   "note": "无085410人工智能方向，仅电子信息-计算机(22408)；电力行业特色校，计算机方向调剂量大；26改考408",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/194/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情": "https://mp.weixin.qq.com/s/ugabBumQO4rwowaK8FHD5A"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 东北电力大学",
+   "url": "https://noobdream.com/schoolinfo/194/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无085410人工智能方向；电子信息-计算机22408调剂友好(一志愿14+调剂59)，进复试均分318【264-401】。"
 }

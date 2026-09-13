@@ -1,8 +1,70 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "西南石油大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "四川",
+   "region": "西南",
+   "tier": "双一流",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机科学学院",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机科学学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=国家线",
+   "linesByYear": {
+    "2023": null,
+    "2024": "286",
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "约65",
+   "fill": "一志愿为主(含少量专项)",
+   "retestCnt": "97+2专项",
+   "admitCnt": "63+2专项",
+   "admitMax": "395",
+   "admitMin": "300",
+   "admitAvg": "340",
+   "scope": "相关口径=085404电子信息-计算机(非085410人工智能)。计算机科学学院2026首年改408；线264(=工学国家线)，进复试97+2专项均333【300-395】，拟录63+2专项均340【300-395】。注意：N诺2026表无085410人工智能行，该校不招085410",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "65%",
+   "note": "N诺schoolinfo/282核对：不招085410人工智能；电子信息专硕为085404计算机技术(22408)。2026改408(原自命题825/925数据结构+操作系统)。电子信息-软件工程22408线264复37录26均315",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/282/",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/282/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学学院",
+   "tier": "双一流",
+   "subjects": "22408",
+   "program": "085404电子信息-计算机",
+   "line2026": "264",
+   "plan": "约65",
+   "retestCnt": "97+2专项",
+   "admitCnt": "63+2专项",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "395",
+   "admitMin": "300",
+   "admitAvg": "340",
+   "scope": "相关(085404非085410)；2026首年改408；线264=国家线",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/282/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "西南石油大学",
@@ -22,7 +84,7 @@
    "admitAvg": "340",
    "rate": "60%",
    "ratioNN": "1.5",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；含电子信息；已提升为units(口径085404非085410)"
   }
  ],
  "wangdaoLinks": {
@@ -35,8 +97,26 @@
   "25考情": "https://mp.weixin.qq.com/s/Pr0GHYoDctxAfrYu1937oQ",
   "26考情": "https://mp.weixin.qq.com/s/mNezxAKQ00Goq3pecAI9yQ"
  },
+ "updates2027": [
+  {
+   "院校": "西南石油大学",
+   "层次": "双一流",
+   "专业/范围": "计算机科学学院 085400电子信息/081200计科/083500软工等",
+   "原科目": "自命题825/925(数据结构+操作系统)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/282",
+   "备注": "2026起计算机科学学院全部改408；085404电子信息-计算机为22408；2027沿用408。该校不招085410人工智能"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺西南石油大学考情",
+   "url": "https://noobdream.com/schoolinfo/282/"
+  }
+ ],
+ "note": "经N诺核对，西南石油大学不招085410人工智能(无电子信息-人工智能行)；计算机类电子信息专硕为085404计算机技术，2026首年改408，22408线264(=国家线)。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

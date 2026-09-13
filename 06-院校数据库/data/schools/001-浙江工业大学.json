@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "浙江工业大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "浙江",
+   "region": "华东",
+   "tier": "双非(省重点)",
+   "subjectClass": "11408",
+   "college": "计算机科学与技术学院",
+   "direction": "电子信息-计算机(全英一数一)",
+   "line2026": "300",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "289",
+    "2026": "300"
+   },
+   "plan2026": "179",
+   "fill": "一志愿为主",
+   "retestCnt": "222",
+   "admitCnt": "179",
+   "admitMax": "405",
+   "admitMin": "300",
+   "admitAvg": "335",
+   "scope": "N诺2026：计算机学院全部11408(英一数一408)，电子信息-计算机线300，进复试222，拟录取335【300-405】录179；无22408方向；地理信息学院/能源学院亦11408",
+   "aiTag": "⚠️全11408",
+   "nn408avg": "95",
+   "nnRate": null,
+   "note": "⚠️全校计算机/电子信息均为英一数一408(11408)，无英二数二(22408)方向，与22408目标不符；实力较强但考数一",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机科学与技术学院",
+   "nnSubjects": "英一数一408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/122/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -36,7 +71,12 @@
   "26考情": "https://mp.weixin.qq.com/s/pFl2_6yJCs1IhLEFIGk0Cw"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 浙江工业大学",
+   "url": "https://noobdream.com/schoolinfo/122/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -45,5 +85,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "⚠️全11408(英一数一)，无22408方向；电子信息-计算机线300拟录取335。与22408目标不符。"
 }

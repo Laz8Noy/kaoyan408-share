@@ -7,30 +7,42 @@
    "province": "安徽",
    "region": "华东",
    "tier": "双非",
-   "subjectClass": "待确认",
-   "direction": "不区分研究方向",
+   "subjectClass": null,
+   "direction": "电子信息-人工智能(085410,2026新增)",
+   "college": "人工智能学院(2026新设)",
+   "line2026": "264(国家线,待核)",
+   "lineDelta": "新增",
    "linesByYear": {
     "2023": null,
     "2024": null,
     "2025": "260",
-    "2026": null
+    "2026": "264(待核)"
    },
-   "fill": "待确认",
-   "aiTag": "❓未注明",
+   "plan2026": null,
+   "fill": null,
+   "retestCnt": null,
+   "admitCnt": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "⚠️2026新增人工智能学院并首招085410；公开来源显示该校多数专业执行A区国家线(264)；是否统考408及具体复试线/录取分未在N诺2026表与官方公示中明确，需研招网2027目录或学院复试细则核实",
+   "aiTag": "❓未注明(2026新增)",
    "heatNet": "42",
    "heatComp": "40",
-   "note": "2026新增085410；复试线待核",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "2026新设人工智能学院(院系代码独立)首招085410；N诺2026表未明确该专业408口径与录取分；第三方称多数专业执行国家线264；是否统考408、复试线、录取分均待学院复试细则/研招网目录核实，未硬编",
    "srcLabel": "官方",
    "src": [
     "总览",
     "区域榜",
-    "招录比对比",
-    "三源核对"
+    "三源核对",
+    "官方(复试名单)"
    ],
    "wdCount": "5",
    "wdYears": "22考情分析,23考情分析,24考情分析,25考情分析,26考研分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/BI1L4FTnC3sYU2-v4YGtXg",
-   "college": "计算机与信息学院"
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/206/"
   }
  ],
  "crossRefs": [],
@@ -43,17 +55,54 @@
   "25考情分析": "https://mp.weixin.qq.com/s/WpGjLCLb3DMEJ1B3t2gdkw",
   "26考研分析": "https://mp.weixin.qq.com/s/BI1L4FTnC3sYU2-v4YGtXg"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "安徽工程大学",
+   "层次": "双非",
+   "专业/范围": "新设人工智能学院085410",
+   "原科目": null,
+   "新科目": "待核(是否408)",
+   "生效年份": "2026",
+   "来源": "招生简章2025-09",
+   "备注": "2026新设AI学院首招085410；是否统考408待研招网目录核实"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
- "conflicts": [],
- "sources": [
+ "conflicts": [
   {
-   "label": "安徽工程大学2026招生简章",
-   "url": "https://grs.ahpu.edu.cn/_t44/2025/0930/c905a256235/page.psp"
+   "field": "subjectClass/line2026",
+   "unit": "085410人工智能",
+   "claims": [
+    {
+     "src": "第三方",
+     "value": "多数专业执行国家线264"
+    },
+    {
+     "src": "N诺2026表/官方",
+     "value": "未明确085410是否408及录取分"
+    }
+   ],
+   "status": "待核-未硬编",
+   "action": "2026新增AI学院首招085410；是否统考408/线/录取分待学院复试细则或研招网2027目录核实"
   }
  ],
+ "sources": [
+  {
+   "label": "N诺 安徽工程大学",
+   "url": "https://noobdream.com/schoolinfo/206/"
+  },
+  {
+   "label": "安徽工程大学2026招生简章(新设人工智能学院)",
+   "url": "https://grs.ahpu.edu.cn/_t44/2025/0930/c905a256235/page.psp"
+  },
+  {
+   "label": "安徽工程大学人工智能学院2026复试结果",
+   "url": "https://sai.ahpu.edu.cn/_t902/2026/0329/c10229a266300/page.htm"
+  }
+ ],
+ "note": "2026新设人工智能学院首招085410；是否统考408、复试线、录取分均待官方目录/细则核实，未硬编；第三方称多数专业执行国家线264。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

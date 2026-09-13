@@ -6,25 +6,67 @@
    "category": "C-对照",
    "province": "黑龙江",
    "region": "东北",
-   "tier": "985",
-   "subjectClass": "待确认",
-   "heatComp": "54",
+   "tier": "985(C9)",
+   "subjectClass": "11408",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "计算学部(本部)",
+   "line2026": "365",
+   "lineDelta": "高位",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "365"
+   },
+   "plan2026": "8",
+   "fill": "一志愿为主",
+   "retestCnt": "2(本部)",
+   "admitCnt": "8",
+   "admitMax": "401",
+   "admitMin": "384",
+   "admitAvg": "393",
+   "scope": "085410人工智能(计算学部本部)2026线365(50/45/70)；11408(英一数一408)；本部一志愿进复试仅2人，进复试均分385；拟录取8人均393【384-401】；另有计算机校企联培11408线365、拟录取22人均385【331-411】",
+   "aiTag": "✅真AI方向(但11408,高位)",
    "heatNet": "90",
-   "aiTag": "✅真AI方向",
-   "note": "085410线待官方核实，作985对照",
-   "srcLabel": "网络热度",
+   "heatComp": "54",
+   "nn408avg": "113(联培计算机)",
+   "nnRate": null,
+   "note": "⚠️C9 985，AI方向考11408(英一数一408)非用户22408；2026线365、拟录取均393，远超310档，仅作985高位对照；本部AI一志愿生源少(进复试2人)；威海/深圳校区另有划线",
+   "srcLabel": "第三方+官方",
    "src": [
     "区域榜",
-    "三源核对"
+    "三源核对",
+    "N诺",
+    "官方(复试基本线)"
    ],
+   "lineUltimate2026": "365",
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/wdeNNMUElUcnPs3VngwR5w",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/28/",
    "college": "计算机科学与技术学院"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算学部",
+   "tier": "985",
+   "subjects": "11408",
+   "line2026": "365",
+   "plan": "8",
+   "retestCnt": "2",
+   "admitCnt": "8",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "401",
+   "admitMin": "384",
+   "admitAvg": "393",
+   "scope": "085410人工智能11408线365，拟录取均393【384-401】；C9高位，非22408目标",
+   "verify": "第三方(N诺)+官方(复试线)",
+   "url": "https://noobdream.com/schoolinfo/28/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666147778&idx=2&sn=1bdfd063d0cd85881f1ad3ec1da1ec97&scene=21&poc_token=HNcADGmjeB3z5ugxjPC6loy7nm-Kz_VELPeIw6cs",
@@ -41,7 +83,17 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 哈尔滨工业大学",
+   "url": "https://noobdream.com/schoolinfo/28/"
+  },
+  {
+   "label": "哈工大2026硕士复试基本线",
+   "url": "https://yzb.hit.edu.cn/2026/0313/c8822a388280/page.htm"
+  }
+ ],
+ "note": "C9 985高位对照：085410人工智能11408线365、拟录取均393【384-401】，非用户22408/310档目标。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

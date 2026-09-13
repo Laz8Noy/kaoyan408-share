@@ -9,63 +9,72 @@
    "tier": "双非",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
+   "college": "计算机科学与工程学院",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机科学与工程学院",
+   "nnSubjects": "英二数二408",
    "line2026": "264",
    "lineDelta": "=国家线",
    "linesByYear": {
     "2023": null,
-    "2024": null,
-    "2025": null,
+    "2024": "298",
+    "2025": "260",
     "2026": "264"
    },
-   "fill": "调剂",
-   "scope": "复试线264；拟录取名单附件官网反爬(412)，录取人数查无",
+   "plan2026": "约18(一志愿5+调剂13)",
+   "fill": "调剂为主",
+   "retestCnt": "5+37调剂",
+   "admitCnt": "5+13调剂",
+   "admitMax": "293",
+   "admitMin": "267",
+   "admitAvg": "279",
+   "scope": "085410人工智能；22408。N诺2026：一志愿进复试5人+调剂37人，进复试均分279【267-293】，单科均61/70/80/69；拟录取一志愿5+调剂13。复试线264(=工学国家线；官方085404线268，其余264)。2025该方向无一志愿、全调剂",
    "aiTag": "✅真AI方向",
    "heatNet": "48",
    "heatComp": "26",
    "nn408avg": "69",
-   "nnRate": "100%",
-   "note": "2026调剂公告含085410，408；拟录取附件反爬",
-   "srcLabel": "官方",
+   "nnRate": "约35%(一志愿+调剂整体)",
+   "note": "2026调剂公告含085410，408；N诺schoolinfo/376核对：一志愿仅5人，大量调剂，均分279，适合22408低分/调剂考生。原记录学院名'计算机与人工智能学院'与N诺'计算机科学与工程学院'并存，以N诺/官方目录为准",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
     "三源核对",
-    "考情明细"
+    "考情明细",
+    "N诺"
    ],
    "lineUltimate2026": "264",
-   "nnProg": "电子信息-人工智能",
-   "nnCollege": "计算机科学与工程学院",
-   "nnSubjects": "英二数二408",
    "cyCode": "083500",
    "cyRetest": "78",
    "cyAdmit": "49",
    "wdCount": "4",
    "wdYears": "23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/d3E8wYulroyY9yGp3PrsVw",
-   "remark": "川渝参考083500",
-   "kaoqingUrl": "https://yjsglxt.swun.edu.cn/info/1047/2338.htm",
-   "college": "计算机与人工智能学院"
+   "remark": "川渝参考083500；N诺schoolinfo/376",
+   "kaoqingUrl": "https://yjsglxt.swun.edu.cn/info/1047/2273.htm",
+   "nnUrl": "https://noobdream.com/schoolinfo/376/"
   }
  ],
  "crossRefs": [],
  "kaoqingDetail2026": [
   {
-   "college": "计算机与人工智能学院",
+   "college": "计算机科学与工程学院",
    "tier": "双非",
    "subjects": "22408",
+   "program": "085410人工智能",
    "line2026": "264",
-   "plan": null,
-   "retestCnt": null,
-   "admitCnt": null,
+   "plan": "约18(一志愿5+调剂13)",
+   "retestCnt": "5+37调剂",
+   "admitCnt": "5+13调剂",
    "ratioRetest": null,
    "ratioApply": null,
-   "admitMax": null,
-   "admitMin": null,
-   "admitAvg": null,
-   "scope": "复试线264；拟录取名单附件官网反爬(412)，录取人数查无",
-   "verify": "官方🔍(线)",
-   "url": "https://yjsglxt.swun.edu.cn/info/1047/2338.htm"
+   "admitMax": "293",
+   "admitMin": "267",
+   "admitAvg": "279",
+   "scope": "085410人工智能22408；一志愿5+调剂37进复试，录5+13；均分279【267-293】；线264=国家线",
+   "verify": "N诺+官方(线)",
+   "url": "https://noobdream.com/schoolinfo/376/"
   }
  ],
  "nnCandidates": [],
@@ -75,7 +84,18 @@
   "25考情": "https://mp.weixin.qq.com/s/onI5Kxp7xdITAz1CneheUQ",
   "26考情": "https://mp.weixin.qq.com/s/d3E8wYulroyY9yGp3PrsVw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "西南民族大学",
+   "层次": "双非",
+   "专业/范围": "085410人工智能/085400电子信息(计算机科学与工程学院)",
+   "原科目": "自命题DS+OS",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/376",
+   "备注": "2026起计算机类改408；085410人工智能为22408(英二数二408)；2027沿用"
+  }
+ ],
  "tutors": [],
  "inTJList": {
   "subjects": "22408",
@@ -92,6 +112,14 @@
   {
    "label": "西南民族大学085410调剂公告",
    "url": "https://jkxy.swun.edu.cn/info/1084/4814.htm"
+  },
+  {
+   "label": "西南民族大学2026复试分数线(官方)",
+   "url": "https://yjsglxt.swun.edu.cn/info/1047/2273.htm"
+  },
+  {
+   "label": "N诺西南民族大学考情",
+   "url": "https://noobdream.com/schoolinfo/376/"
   }
  ],
  "generated": {

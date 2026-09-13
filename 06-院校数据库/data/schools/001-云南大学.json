@@ -23,7 +23,25 @@
    "wdCount": "7",
    "wdYears": "19考情,20考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/_v-kQcecgxjtTcVqfIrjbg",
-   "college": "信息学院/软件学院（人工智能学院）"
+   "college": "信息学院/软件学院（人工智能学院）",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "280",
+    "2026": "339"
+   },
+   "retestCnt": "74+8专项(信息学院)",
+   "admitCnt": "69+8专项",
+   "admitMax": "403",
+   "admitMin": "339",
+   "admitAvg": "363",
+   "fill": "一志愿为主",
+   "nn408avg": "96",
+   "plan2026": "69+8专项",
+   "scope": "N诺2026：信息学院电子信息-人工智能22408，线339，进复试74+8专项，均分362【339-403】，单科政72英74数121 408=96，录取69+8专项，拟录取363【339-403】；软件学院AI 22408线329录46拟录取355；云大26复试后扩招",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "信息学院/软件学院(人工智能学院)",
+   "nnSubjects": "英二数二408"
   }
  ],
  "crossRefs": [],
@@ -45,7 +63,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 云南大学",
+   "url": "https://noobdream.com/schoolinfo/8/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -55,5 +78,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "双一流B；22408 AI线339拟录取363，分数偏高超310档；信息/软件两学院招AI。"
 }

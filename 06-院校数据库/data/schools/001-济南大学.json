@@ -1,30 +1,87 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "济南大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "济南大学",
+   "category": "S-主体",
    "province": "山东",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-人工智能(085410)",
    "college": "人工智能研究院",
-   "program": "电子信息-人工智能",
-   "subjects": "推测408",
-   "line": null,
-   "retestCnt": "10",
-   "adjCnt": "0",
-   "avgTotal": "285",
-   "avg408": "81",
-   "avgPol": "52",
-   "avgEng": "66",
-   "avgMath": "87",
-   "admitCnt": "10",
-   "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "✅22408兼容；含AI"
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "278",
+    "2024": "287",
+    "2025": "261",
+    "2026": "国家线(264)"
+   },
+   "plan2026": "10一志愿+12调剂",
+   "fill": "一志愿为主+调剂",
+   "retestCnt": "10一志愿+调剂",
+   "admitCnt": "10一志愿+12调剂",
+   "admitMax": "323",
+   "admitMin": "266",
+   "admitAvg": "285",
+   "scope": "085410电子信息-人工智能(人工智能研究院)2026线国家线264；一志愿进复试10人，进复试均分285【266-323】；拟录取10一志愿+12调剂均285【266-323】；408单科均分81",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "81",
+   "nnRate": null,
+   "note": "真085410人工智能(人工智能研究院)22408，线国家线264，一志愿10人+12调剂，拟录取均285【266-323】，低于310档；2026全校计算机类改考408；同校正大学学院电子信息-计算机22408线国家线、一志愿78人拟录取65均300【265-350】",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(成绩公示)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "人工智能研究院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "7",
+   "wdYears": "19考情,20考情,22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/4CoBUCKoj2qrK4OBCuCfXg",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/145/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [
+  {
+   "name": "信息科学与工程学院-电子信息计算机",
+   "subjects": "22408",
+   "line2026": "国家线(NC)",
+   "note": "2026首改408，一志愿78人拟录取65，均300【265-350】，408均分82"
+  },
+  {
+   "name": "卓越工程师学院-电子信息人工智能",
+   "subjects": "22408",
+   "line2026": "国家线(NC)",
+   "note": "一志愿2+4调剂，拟录取均313【292-334】"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "人工智能研究院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(264)",
+   "plan": "10一志愿+12调剂",
+   "retestCnt": "10一志愿+调剂",
+   "admitCnt": "10一志愿+12调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "323",
+   "admitMin": "266",
+   "admitAvg": "285",
+   "scope": "真085410，线国家线264，一志愿拟录取均285【266-323】；408均分81；低于310档",
+   "verify": "第三方(N诺)+官方(085410成绩公示)",
+   "url": "https://noobdream.com/schoolinfo/145/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233210&idx=5&sn=be1411db254b969065ec0476044614a4&scene=21&poc_token=HOUDDGmjH2iRkt8ARbw33jGCBCet_QybTzxNMp5w",
   "20考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233210&idx=4&sn=c358c43906b597614d2e5b004f5ba857&scene=21&poc_token=HOIDDGmjm9JEQZXm0c4vaBhCq5B-KIF5m9Fw6gZP",
@@ -34,8 +91,33 @@
   "25考情": "https://mp.weixin.qq.com/s/c-2SgsfaIvcCqqWCVkCNBQ",
   "26考情": "https://mp.weixin.qq.com/s/4CoBUCKoj2qrK4OBCuCfXg"
  },
+ "updates2027": [
+  {
+   "院校": "济南大学",
+   "层次": "双非",
+   "专业/范围": "081200计科/085404计算机/085410人工智能",
+   "原科目": "847算法与数据结构(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/145",
+   "备注": "2026起全校计算机类改408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 济南大学",
+   "url": "https://noobdream.com/schoolinfo/145/"
+  },
+  {
+   "label": "济南大学085410人工智能一志愿成绩公示",
+   "url": "https://yjs.ujn.edu.cn/info/1382/19396.htm"
+  }
+ ],
+ "note": "真085410人工智能(人工智能研究院)22408，2026全校改408，线国家线264、拟录取均285，低于310档；信息科学与工程学院计算机方向一志愿78人较大。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

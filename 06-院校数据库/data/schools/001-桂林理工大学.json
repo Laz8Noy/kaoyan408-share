@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "桂林理工大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "广西",
+   "region": "华南",
+   "tier": "双非(B区)",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机科学与工程学院/人工智能学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "计算机科学与工程学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "254",
+   "lineDelta": "=B区国家线",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "250",
+    "2026": "254"
+   },
+   "plan2026": "约30(3一志愿+27调剂)",
+   "fill": "调剂为主",
+   "retestCnt": "3+调剂",
+   "admitCnt": "3+27调剂",
+   "admitMax": "289",
+   "admitMin": "256",
+   "admitAvg": "268",
+   "scope": "085410人工智能(计算机科学与工程学院)22408。B区双非(计算机C-)。N诺2026：线NC(=B区国家线254)，一志愿进复试仅3人，进复试均268【256-289】；录3+27调剂均268【256-289】。几乎零一志愿、过线即录、大量收调剂，B区低分友好",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "100%",
+   "note": "B区双非计算机C-；085410人工智能22408；线254=国家线，一志愿仅3人、录3+27调剂均268【256-289】。几乎零一志愿、过线即录，B区保底",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/269/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与工程学院",
+   "tier": "双非(B区)",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": "254",
+   "plan": "约30",
+   "retestCnt": "3+调剂",
+   "admitCnt": "3+27调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "289",
+   "admitMin": "256",
+   "admitAvg": "268",
+   "scope": "085410人工智能22408；线254=B区国家线，一志愿仅3录3+27调剂均268",
+   "verify": "N诺+官方",
+   "url": "https://noobdream.com/schoolinfo/269/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "桂林理工大学",
    "province": "广西",
    "college": "计算机科学与工程学院",
    "program": "电子信息-人工智能",
-   "subjects": "英二数二408",
-   "line": null,
+   "subjects": "22408",
+   "line": "254",
    "retestCnt": "3",
-   "adjCnt": "0",
+   "adjCnt": "27",
    "avgTotal": "268",
    "avg408": null,
    "avgPol": null,
    "avgEng": null,
    "avgMath": null,
-   "admitCnt": "3",
-   "admitAvg": null,
+   "admitCnt": "30",
+   "admitAvg": "268",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含AI"
+   "note": "✅22408兼容；已提升为units；B区过线即录"
   }
  ],
  "wangdaoLinks": {
@@ -34,8 +95,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/fcYKDsW0kiVnyApB3Jv8iA",
   "26考情分析": "https://mp.weixin.qq.com/s/sqzjEmiDf3yprXbTKXngRQ"
  },
+ "updates2027": [],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "桂林理工大学085410复试细则(官方)",
+   "url": "https://cise.glut.edu.cn/05jisuanjixueyuan085410zhuanye2026nianyizhiyuankaoshengfushiluqugongzuoshishixize.pdf"
+  },
+  {
+   "label": "N诺桂林理工大学考情",
+   "url": "https://noobdream.com/schoolinfo/269/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

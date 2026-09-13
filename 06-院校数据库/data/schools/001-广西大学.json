@@ -8,22 +8,44 @@
    "region": "华南",
    "tier": "211",
    "subjectClass": "22408",
-   "heatComp": "44",
-   "heatNet": "56",
+   "direction": "电子信息-人工智能",
+   "college": "计算机与电子信息学院",
+   "line2026": "254(国家线)",
+   "lineDelta": "-23",
+   "linesByYear": {
+    "2023": "263",
+    "2024": "264",
+    "2025": "277",
+    "2026": "254"
+   },
+   "plan2026": "全日制67(含推免35)+非全30",
+   "fill": "调剂为主",
+   "retestCnt": "65一志愿+96调剂",
+   "admitCnt": "52一志愿+2专项+55调剂(全日制)",
+   "admitMax": "357",
+   "admitMin": "260",
+   "admitAvg": "307",
+   "scope": "085410电子信息-人工智能(全日制)2026线254(国家线)；一志愿进复试65人，进复试均分300【254-357】；一志愿拟录取均分307【260-357】；另招调剂96进复试、拟录取55，调剂为主；408单科均分96",
    "aiTag": "✅真AI方向",
-   "note": "085410全日制67+非全30，408；线待核；2026全日制67+非全30均22408",
-   "srcLabel": "官方",
+   "heatNet": "56",
+   "heatComp": "44",
+   "nn408avg": "96",
+   "nnRate": null,
+   "note": "085410全日制67+非全30均22408；2026由程序设计+DS改考408；线254(国家线)，一志愿拟录取均307【260-357】；一志愿65进复试、96调剂进复试，调剂为主；2025线277(自命题)，2024线264，2023线263",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
     "三源核对",
-    "考情明细"
+    "考情明细",
+    "N诺"
    ],
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/U1M4U5VGX-Vqy8hYKCIp_w",
    "kaoqingUrl": "https://scei.gxu.edu.cn/info/1005/4015.htm",
-   "scope": "全日制67(含推免35)+非全30，均22408(2026)；4/8调剂复试名单：全日制96人+非全44人；一志愿拟录取附件官网404，录取人数查无",
-   "college": "计算机与电子信息学院"
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机与电子信息学院",
+   "nnSubjects": "英二数二408"
   }
  ],
  "crossRefs": [],
@@ -32,18 +54,18 @@
    "college": "计算机与电子信息学院",
    "tier": "211",
    "subjects": "22408",
-   "line2026": null,
-   "plan": "67+30非全",
-   "retestCnt": null,
-   "admitCnt": null,
+   "line2026": "254(国家线)",
+   "plan": "67全日制(含推免35)+30非全",
+   "retestCnt": "65一志愿+96调剂",
+   "admitCnt": "52一志愿+2专项+55调剂",
    "ratioRetest": null,
    "ratioApply": null,
-   "admitMax": null,
-   "admitMin": null,
-   "admitAvg": null,
-   "scope": "全日制67(含推免35)+非全30，均22408(2026)；4/8调剂复试名单：全日制96人+非全44人；一志愿拟录取附件官网404，录取人数查无",
-   "verify": "机构✅(科目)+官方(名单)",
-   "url": "https://scei.gxu.edu.cn/info/1005/4015.htm"
+   "admitMax": "357",
+   "admitMin": "260",
+   "admitAvg": "307",
+   "scope": "一志愿拟录取均307【260-357】，进复试均分300【254-357】；线254(国家线)；调剂为主；408均分96",
+   "verify": "第三方(N诺)+官方(复试线PDF)",
+   "url": "https://noobdream.com/schoolinfo/7/"
   }
  ],
  "nnCandidates": [],
@@ -57,19 +79,30 @@
   "25考情分析": "https://mp.weixin.qq.com/s/oPirM92F8fDQBK9yhs9N5A",
   "26考情分析": "https://mp.weixin.qq.com/s/U1M4U5VGX-Vqy8hYKCIp_w"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "广西大学",
+   "层次": "211",
+   "专业/范围": "085410电子信息-人工智能/085404计算机",
+   "原科目": "程序设计+数据结构(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/7",
+   "备注": "2026起计电学院各专业改考408，英二数二408；2027维持408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
  "sources": [
   {
-   "label": "广西大学085410招生",
-   "url": "https://www.kaoyana.com/s1108/085410/"
+   "label": "N诺 广西大学",
+   "url": "https://noobdream.com/schoolinfo/7/"
   },
   {
-   "label": "历年线·启航院校库（河北大学/常州大学/苏大/广西大学等）",
-   "url": "https://jixun.iqihang.com/"
+   "label": "广西大学2026复试线(085410人工智能254)",
+   "url": "https://yjsc.gxu.edu.cn/system/_content/download.jsp?owner=1934138075&wbfileid=17913380"
   },
   {
    "label": "广西大学2026调剂复试名单",

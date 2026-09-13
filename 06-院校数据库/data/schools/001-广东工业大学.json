@@ -9,31 +9,43 @@
    "tier": "双非",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
+   "college": "计算机学院",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二408",
    "line2026": "337",
-   "lineDelta": "+73",
+   "lineDelta": "+34",
    "linesByYear": {
-    "2023": null,
+    "2023": "320",
     "2024": null,
-    "2025": null,
+    "2025": "303",
     "2026": "337"
    },
+   "plan2026": "约94(91+3专项)",
    "fill": "一志愿为主",
-   "aiTag": "❓未注明",
+   "retestCnt": "133+4专项",
+   "admitCnt": "91+3专项",
+   "admitMax": "409",
+   "admitMin": "337",
+   "admitAvg": "360",
+   "scope": "085410人工智能(计算机学院)22408；珠三角热门双非。N诺2026：自划线337，进复试133+4专项均356【337-409】，单科70/78/115/93；拟录91+3专项均360【337-370】。近三年线320→303→337走高。复录比约1.4:1。官方2026目录拟招80",
+   "aiTag": "✅真AI方向",
    "heatNet": "66",
    "heatComp": "57",
    "nn408avg": "93",
    "nnRate": "70%",
-   "note": "计算机学院085410=英二数二408(22408)，拟招80（官方2026目录）；复试线337（自划线）；近三年线279/303/337",
-   "srcLabel": "官方",
+   "note": "计算机学院085410=英二数二408(22408)，拟招80(官方2026目录)；复试线337(自划线)；近三年线279/303/337走高，均360。分数线高于用户310档，珠三角热门",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
-    "招录比对比"
+    "招录比对比",
+    "N诺"
    ],
-   "college": "计算机学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/138/"
   },
   {
-   "category": "S-主体",
+   "category": "C-对照",
    "province": "广东",
    "region": "华南",
    "tier": "双非",
@@ -53,7 +65,7 @@
    "heatComp": "45",
    "nn408avg": "93",
    "nnRate": "70%",
-   "note": "自动化学院085410=英二数二+809信号与系统（非408）；复试线264(国线)；调剂通知要求初试总分≥301",
+   "note": "自动化学院085410=英二数二+809信号与系统(非408)；复试线264(国线)；调剂通知要求初试总分≥301",
    "srcLabel": "官方",
    "src": [
     "总览",
@@ -80,26 +92,28 @@
    "wdYears": "20考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/0qqSpIBG4XVn-NS2t10bQg",
    "remark": "N诺线差36"
-  },
-  {
-   "tier": "双非",
-   "lineUltimate2026": "337",
-   "nnProg": "电子信息-人工智能",
-   "nnCollege": "计算机学院",
-   "nnSubjects": "英二数二408",
-   "nn408avg": "93",
-   "nnRate": "70%",
-   "cyCode": null,
-   "cyRetest": null,
-   "cyAdmit": null,
-   "cyAvg": null,
-   "wdCount": "5",
-   "wdYears": "20考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
-   "wdUrl26": "https://mp.weixin.qq.com/s/0qqSpIBG4XVn-NS2t10bQg",
-   "remark": null
   }
  ],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": "337",
+   "plan": "约94",
+   "retestCnt": "133+4专项",
+   "admitCnt": "91+3专项",
+   "ratioRetest": "约1.4:1",
+   "ratioApply": null,
+   "admitMax": "409",
+   "admitMin": "337",
+   "admitAvg": "360",
+   "scope": "085410人工智能22408；线337自划，进复试133+4均356【337-409】录91+3均360",
+   "verify": "N诺+官方",
+   "url": "https://noobdream.com/schoolinfo/138/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "20考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236018&idx=4&sn=d6594475d318710da8706ab8b561f8ef&scene=21&poc_token=HK75Cmmj7CiTREGU2NuB77yCOSk2kByYw6tLxRNJ",
@@ -128,18 +142,22 @@
   "初试科目": "22408",
   "方向": "不区分研究方向",
   "2026线": "337",
-  "拟招": null,
-  "一志愿/调剂": "待确认",
-  "AI方向": "❓未注明",
-  "来源": "官方",
+  "拟招": "80",
+  "一志愿/调剂": "一志愿为主",
+  "AI方向": "✅真AI方向",
+  "来源": "官方+N诺",
   "综合热度": "57",
-  "备注": "自动化学院调剂通知要求初试总分≥301；2026两学院分别301/337；337学院归属待核"
+  "备注": "计算机学院085410人工智能22408线337均360；自动化学院085410为809信号非408"
  },
  "conflicts": [],
  "sources": [
   {
    "label": "广东工业大学自动化学院调剂通知",
    "url": "https://automation.gdut.edu.cn/info/1081/10526.htm"
+  },
+  {
+   "label": "N诺广东工业大学考情",
+   "url": "https://noobdream.com/schoolinfo/138/"
   }
  ],
  "generated": {

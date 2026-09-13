@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "北京印刷学院",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "北京",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "信息工程学院",
+   "nnProg": "电子信息(085400)",
+   "nnCollege": "信息工程学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": "273",
+    "2024": "310",
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "5+调剂",
+   "fill": "一志愿极少+大量调剂",
+   "retestCnt": "5+调剂",
+   "admitCnt": "5+调剂",
+   "admitMax": "319",
+   "admitMin": "292",
+   "admitAvg": "303",
+   "scope": "电子信息(085400)22408。北京双非。2026首年改408(此前二二程序设计自命题)。N诺2026：线264(=国家线)，进复试5+调剂均303【292-319】，单科59/72/93/80；录5+调剂，一志愿均303【292-319】。招生规模小、一志愿少、收调剂。无085410专列",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "80",
+   "nnRate": "100%",
+   "note": "经N诺schoolinfo/301核对：北印2026首年改22408；线264=国家线，一志愿5+调剂录5+调剂均303【292-319】。无085410专列，北京区位但规模小",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/301/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "电子信息085400",
+   "line2026": "264",
+   "plan": "5+调剂",
+   "retestCnt": "5+调剂",
+   "admitCnt": "5+调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "319",
+   "admitMin": "292",
+   "admitAvg": "303",
+   "scope": "电子信息22408(无085410专列)；线264=国家线，一志愿5+调剂均303录5+调剂",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/301/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "北京印刷学院",
    "province": "北京",
    "college": "信息工程学院",
    "program": "电子信息",
-   "subjects": "英二数二408",
+   "subjects": "22408",
    "line": "264",
    "retestCnt": "5",
-   "adjCnt": "0",
+   "adjCnt": null,
    "avgTotal": "303",
    "avg408": "80",
    "avgPol": "59",
    "avgEng": "72",
    "avgMath": "93",
-   "admitCnt": "5",
-   "admitAvg": null,
+   "admitCnt": "5+调剂",
+   "admitAvg": "303",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；2026改408；无085410专列"
   }
  ],
  "wangdaoLinks": {
@@ -32,8 +93,29 @@
   "25考情分析": "https://mp.weixin.qq.com/s/ydl72BDEnwaLRoYs0pmCyg",
   "26考情分析": "https://mp.weixin.qq.com/s/F5Q5AQfCirnVNE5-U-Y5AQ"
  },
+ "updates2027": [
+  {
+   "院校": "北京印刷学院",
+   "层次": "双非",
+   "专业/范围": "信息工程学院电子信息",
+   "原科目": "二二程序设计自命题",
+   "新科目": "22408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/301",
+   "备注": "2026起电子信息改22408；2027沿用；无085410专列"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "北京印刷学院2026招生简章(官方)",
+   "url": "https://gs.bigc.edu.cn/yjszs/sszs/2026nzs/index.htm"
+  },
+  {
+   "label": "N诺北京印刷学院考情",
+   "url": "https://noobdream.com/schoolinfo/301/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

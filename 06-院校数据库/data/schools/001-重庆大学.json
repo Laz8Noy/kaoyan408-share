@@ -11,17 +11,19 @@
    "heatComp": "54",
    "heatNet": "90",
    "aiTag": "✅真AI方向",
-   "note": "085410线待官方核实，作985对照未设085410",
-   "srcLabel": "网络热度",
+   "note": "经N诺schoolinfo/39核对：重庆大学未设085410人工智能；计算机专硕走085404计算机技术(电子信息-计算机,22408,2026线355复221录107均390【357-430】)。卓越工程师学院电子信息22408线310录27均364。作985对照",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
     "三源核对",
-    "考情明细"
+    "考情明细",
+    "N诺"
    ],
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/dlbgyyh3cuomc5wh9hEqOA",
-   "scope": "未设085410（计算机专硕走085400/085404）",
+   "scope": "未设085410（计算机专硕走085400/085404）；N诺2026表无电子信息-人工智能行。计院电子信息-计算机22408线355复221拟录107均390【357-430】；卓越工程师学院电子信息22408线310录27均364【315-413】",
+   "nnUrl": "https://noobdream.com/schoolinfo/39/",
    "college": "计算机学院（相关）"
   }
  ],
@@ -40,9 +42,37 @@
    "admitMax": null,
    "admitMin": null,
    "admitAvg": null,
-   "scope": "未设085410（计算机专硕走085400/085404）",
+   "scope": "未设085410（计算机专硕走085400/085404）；N诺2026表确认无085410",
    "verify": "机构🔍",
-   "url": null
+   "url": "https://noobdream.com/schoolinfo/39/"
+  },
+  {
+   "college": "计算机学院",
+   "program": "085404计算机技术(电子信息-计算机)",
+   "subjects": "22408",
+   "line2026": "355",
+   "retestCnt": "221",
+   "admitCnt": "107",
+   "admitMin": "357",
+   "admitMax": "430",
+   "admitAvg": "390",
+   "scope": "相关对照(非085410)；2026计院首年改408",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/39/"
+  },
+  {
+   "college": "国家(重庆)卓越工程师学院",
+   "program": "085400电子信息",
+   "subjects": "22408",
+   "line2026": "310",
+   "retestCnt": null,
+   "admitCnt": "27",
+   "admitMin": "315",
+   "admitMax": "413",
+   "admitAvg": "364",
+   "scope": "相关对照(非085410)",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/39/"
   }
  ],
  "nnCandidates": [],
@@ -56,12 +86,32 @@
   "25考情分析": "https://mp.weixin.qq.com/s/axWSVKtX_mk2Oa6aG-Jqvg",
   "26考情分析": "https://mp.weixin.qq.com/s/dlbgyyh3cuomc5wh9hEqOA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "重庆大学",
+   "层次": "985",
+   "专业/范围": "计算机学院081200/085404",
+   "原科目": "961自命题",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "重庆大学计算机学院官网(cs.cqu.edu.cn/info/1553/11416.htm)",
+   "备注": "2026起计院081200/085404改408；大数据与软件学院2026仍自命题(C+DB+DS)，2027改408；全校未设085410人工智能"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺重庆大学考情",
+   "url": "https://noobdream.com/schoolinfo/39/"
+  },
+  {
+   "label": "重庆大学计算机学院2026考试科目变更通知",
+   "url": "https://cs.cqu.edu.cn/info/1553/11416.htm"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

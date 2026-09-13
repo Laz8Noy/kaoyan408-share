@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "上海海洋大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "上海",
+   "region": "华东",
+   "tier": "双一流",
+   "subjectClass": "22408",
+   "college": "信息学院",
+   "direction": "电子信息-计算机(全日制)/人工智能(非全)",
+   "line2026": "276",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "300",
+    "2026": "276"
+   },
+   "plan2026": "136(计算机全日制)",
+   "fill": "一志愿为主",
+   "retestCnt": null,
+   "admitCnt": "136",
+   "admitMax": "386",
+   "admitMin": "276",
+   "admitAvg": "317",
+   "scope": "N诺2026：信息学院26改考408；电子信息-计算机22408全日制线276，录取136，拟录取317【276-386】；电子信息-人工智能22408仅非全日制，线264，一志愿4+调剂27，拟录取313【285-339】；全日制无AI方向",
+   "aiTag": "⚠️AI仅非全",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "全日制085410为计算机方向；人工智能方向仅招非全日制(22408)；26考研由自命题改考408",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机/人工智能(非全)",
+   "nnCollege": "信息学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/117/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +67,12 @@
   "26考情": "https://mp.weixin.qq.com/s/FncU7OLH_WuKpVw_TzZYPA"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 上海海洋大学",
+   "url": "https://noobdream.com/schoolinfo/117/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +81,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "26改考408；全日制22408为计算机方向(线276录取136)，人工智能仅非全；全日制AI不适用22408目标。"
 }

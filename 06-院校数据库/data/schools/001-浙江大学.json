@@ -20,7 +20,25 @@
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/l_nOYstjbPF8vAocMJ0MBw",
-   "college": "计算机科学与技术学院（相关）"
+   "college": "计算机科学与技术学院（相关）",
+   "line2026": "335",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "351",
+    "2026": "335"
+   },
+   "retestCnt": "14(海洋学院)",
+   "admitCnt": "9",
+   "admitMax": "382",
+   "admitMin": "343",
+   "admitAvg": "368",
+   "fill": "一志愿为主",
+   "nn408avg": "106",
+   "scope": "N诺2026：海洋学院电子信息-人工智能11408线335，进复试14，均分361【335-382】，单科政66英66数123 408=106，录9，拟录取368【343-382】；软件学院AI 11408录87拟录取402；全部11408",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "软件学院/海洋学院",
+   "nnSubjects": "英一数一408"
   }
  ],
  "crossRefs": [],
@@ -41,7 +59,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 浙江大学",
+   "url": "https://noobdream.com/schoolinfo/18/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -51,5 +74,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "C9；AI方向全11408(英一数一)，软件学院AI拟录取402，与目标不符。"
 }

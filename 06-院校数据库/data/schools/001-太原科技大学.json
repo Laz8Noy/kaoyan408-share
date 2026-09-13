@@ -1,30 +1,80 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "太原科技大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "太原科技大学",
+   "category": "C-对照",
    "province": "山西",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "非408",
+   "direction": "电子信息-人工智能(085410)",
    "college": "计算机科学与技术学院",
-   "program": "计算机科学与技术",
-   "subjects": "英一数一408",
-   "line": null,
-   "retestCnt": "1",
-   "adjCnt": "52",
-   "avgTotal": "268",
-   "avg408": null,
-   "avgPol": null,
-   "avgEng": null,
-   "avgMath": null,
-   "admitCnt": "1",
-   "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "⚠️非22408(英一数一408)"
+   "line2026": "287",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "291",
+    "2024": "299",
+    "2025": "312",
+    "2026": "287"
+   },
+   "plan2026": "17",
+   "fill": "一志愿为主",
+   "retestCnt": "17",
+   "admitCnt": "17",
+   "admitMax": "375",
+   "admitMin": "287",
+   "admitAvg": "328",
+   "scope": "085410电子信息-人工智能(计算机学院)2026线287；初试为英二数二+数据结构(22DS自命题,非408)；一志愿进复试17人、拟录取17人均328【287-375】",
+   "aiTag": "⚠️真AI但自命题非408",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "100%",
+   "note": "⚠️085410人工智能考二二数据结构(自命题DS)，非408，不符合用户408目标；线287，一志愿拟录取均328【287-375】；同院电子信息各方向(计算机/软件/大数据)均22DS自命题；仅学硕计科2026改11408(英一数一408)",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机科学与技术学院",
+   "nnSubjects": "英二数二+数据结构(自命题)",
+   "wdCount": "5",
+   "wdYears": "22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/xpMkEDPtIncnf92QHfY4bQ",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/233/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [
+  {
+   "name": "计算机科学与技术(学硕)",
+   "subjects": "11408",
+   "line2026": "国家线(NC)",
+   "note": "仅1名一志愿+52调剂，2026学硕改11408；非专硕085410"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与技术学院",
+   "tier": "双非",
+   "subjects": "二二DS(非408)",
+   "line2026": "287",
+   "plan": "17",
+   "retestCnt": "17",
+   "admitCnt": "17",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "375",
+   "admitMin": "287",
+   "admitAvg": "328",
+   "scope": "085410人工智能考自命题数据结构(非408)；线287；拟录取均328",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/schoolinfo/233/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666186380&idx=4&sn=11aee78dfc58f8da0bc92c67ae81c5ef&scene=21&poc_token=HJb9C2mjpdjAdV0YpF6qPd8cH8pvpDuigQTH5KNY",
   "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666215335&idx=6&sn=88c3836938082917f3d5699da2aef0de&scene=21&poc_token=HJP9C2mj902RStNMj9EkmqVU6hGFkZfjA2Wzq04p",
@@ -32,8 +82,42 @@
   "25考情": "https://mp.weixin.qq.com/s/61TzPwDdfwzE_wMSBzwgsA",
   "26考情": "https://mp.weixin.qq.com/s/xpMkEDPtIncnf92QHfY4bQ"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [
+  {
+   "院校": "太原科技大学",
+   "层次": "双非",
+   "专业/范围": "081200计科(学硕)",
+   "原科目": "11DS(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/233",
+   "备注": "学硕计科2026改11408；但085400/085410电子信息专硕仍为22DS自命题(非408)，2027是否改408待官方目录确认"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "unit": "电子信息-人工智能",
+   "claims": [
+    {
+     "src": "N诺",
+     "value": "二二DS(数据结构自命题,非408)"
+    }
+   ],
+   "status": "警告-非408",
+   "action": "085410人工智能考自命题数据结构，非408；仅学硕计科11408；不符合用户408目标"
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺 太原科技大学",
+   "url": "https://noobdream.com/schoolinfo/233/"
+  }
+ ],
+ "note": "085410人工智能为二二数据结构自命题(非408)，不符合用户408目标；仅学硕计科2026改11408。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

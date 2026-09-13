@@ -1,30 +1,74 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "温州大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "温州大学",
+   "category": "S-主体",
    "province": "浙江",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息(085400)",
    "college": "计算机与人工智能学院",
-   "program": "电子信息",
-   "subjects": "英二数二408",
-   "line": null,
-   "retestCnt": "47",
-   "adjCnt": "24",
-   "avgTotal": "303",
-   "avg408": "80",
-   "avgPol": "62",
-   "avgEng": "65",
-   "avgMath": "96",
-   "admitCnt": "40",
-   "admitAvg": null,
-   "rate": "90%",
-   "ratioNN": "1.2",
-   "note": "✅22408兼容；含电子信息"
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "299",
+    "2024": "273",
+    "2025": "260",
+    "2026": "国家线(264)"
+   },
+   "plan2026": "40一志愿+6调剂",
+   "fill": "一志愿为主",
+   "retestCnt": "47一志愿+24调剂",
+   "admitCnt": "40一志愿+6调剂",
+   "admitMax": "365",
+   "admitMin": "264",
+   "admitAvg": "309",
+   "scope": "085400电子信息(计算机与人工智能学院,不区分方向)2026线国家线264；目录为政治+英二+数二+408，招24人；一志愿进复试47人，进复试均分303【264-365】；拟录取40一志愿+6调剂均309【264-365】；408单科均分80",
+   "aiTag": "⚠️电子信息大类(非085410单列)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "80",
+   "nnRate": "90%",
+   "note": "085400电子信息(不区分方向)22408，线国家线264，一志愿为主40+6调剂，拟录取均309【264-365】，贴近310档；无单列085410；学硕计科11408招大量调剂",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(目录/调剂预告)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息",
+   "nnCollege": "计算机与人工智能学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "5",
+   "wdYears": "22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/Dqw6NIdZrsZLnHYpbES24A",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/126/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与人工智能学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(264)",
+   "plan": "40一志愿+6调剂",
+   "retestCnt": "47一志愿+24调剂",
+   "admitCnt": "40一志愿+6调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "365",
+   "admitMin": "264",
+   "admitAvg": "309",
+   "scope": "电子信息22408，线国家线264，一志愿拟录取均309【264-365】；408均分80；贴近310档",
+   "verify": "第三方(N诺)+官方(目录英二数二408)",
+   "url": "https://noobdream.com/schoolinfo/126/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666184738&idx=6&sn=3894230089bfe3aca95ee21998f3692a&scene=21&poc_token=HCukCmmjZvPje7E3AWY7qodFAvYQ4MLzTlCOn5C0",
   "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666217175&idx=4&sn=85d11be1ab3089b06ade779ffa12020d&scene=21&poc_token=HCikCmmjVTXpH5rF1tLTTGW6tnBEyGVFlrEJzvWN",
@@ -32,8 +76,22 @@
   "25考情": "https://mp.weixin.qq.com/s/gCSDyM48Yq8Ck8dT3wSKRw",
   "26考情": "https://mp.weixin.qq.com/s/Dqw6NIdZrsZLnHYpbES24A"
  },
+ "updates2027": [],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 温州大学",
+   "url": "https://noobdream.com/schoolinfo/126/"
+  },
+  {
+   "label": "温州大学计算机与人工智能学院2026调剂预告(085400英二数二408)",
+   "url": "https://ai.wzu.edu.cn/info/1331/27700.htm"
+  }
+ ],
+ "note": "085400电子信息(不区分方向,非085410单列)22408，线国家线264、一志愿为主、拟录取均309，贴近用户310档。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -7,23 +7,23 @@
    "province": "江苏",
    "region": "华东",
    "tier": "双非",
-   "subjectClass": "两者",
+   "subjectClass": "22408",
    "direction": "不区分研究方向",
-   "line2026": "264",
+   "line2026": "国家线",
    "lineDelta": "=国家线",
    "linesByYear": {
     "2023": null,
-    "2024": null,
-    "2025": null,
-    "2026": "264"
+    "2024": "312",
+    "2025": "260",
+    "2026": "国家线"
    },
-   "fill": "一志愿为主",
+   "fill": "一志愿为主+较多调剂",
    "aiTag": "❓未注明",
    "heatNet": "58",
    "heatComp": "33",
    "nn408avg": "76",
-   "note": "国家A线；汽车研究院另有自划308",
-   "srcLabel": "官方",
+   "note": "双非；计算机学院电子信息-人工智能22408走国家线，一志愿9+8调剂录17均312；2026改考408(此前程序设计自命题)；汽车院另招",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -37,7 +37,13 @@
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/3OymEIJTJNDi6v7h6q_JgA",
-   "college": "计算机科学与通信工程学院"
+   "college": "计算机科学与通信工程学院",
+   "retestCnt": "14+11调剂",
+   "admitCnt": "9+8调剂",
+   "admitAvg": "312",
+   "admitMin": "284",
+   "admitMax": "351",
+   "scope": "N诺2026(schoolinfo163)：计算机学院电子信息-人工智能22408执行国家线(NC)，复试14+11调剂录9+8调剂，一志愿拟录取312【284-351】；汽车工程研究院另招AI录10+1非全均307【266-375】；2026改考408"
   }
  ],
  "crossRefs": [],
@@ -53,12 +59,28 @@
   "25考情": "https://mp.weixin.qq.com/s/KEQwcoMrekfmUJLcG5xdmg",
   "26考情": "https://mp.weixin.qq.com/s/3OymEIJTJNDi6v7h6q_JgA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "江苏大学",
+   "层次": "双非",
+   "专业/范围": "计算机学院电子信息",
+   "原科目": "程序设计自命题",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺163",
+   "备注": "2026起改考408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺江苏大学schoolinfo/163",
+   "url": "https://noobdream.com/schoolinfo/163/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

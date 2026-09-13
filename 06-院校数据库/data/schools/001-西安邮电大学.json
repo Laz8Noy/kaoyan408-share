@@ -9,35 +9,98 @@
    "tier": "双非",
    "subjectClass": "非408",
    "direction": "不区分研究方向",
+   "college": "通信与信息工程学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "通信与信息工程学院",
+   "nnSubjects": "自命题(非408)",
    "line2026": "350",
-   "lineDelta": "+86",
+   "lineDelta": "+61",
    "linesByYear": {
     "2023": null,
     "2024": null,
-    "2025": null,
+    "2025": "289",
     "2026": "350"
    },
    "fill": "一志愿为主",
    "aiTag": "✅真AI方向",
    "heatNet": "85",
    "heatComp": "69",
-   "note": "官方复试线350；通信/电子方向另有265",
-   "srcLabel": "官方",
+   "note": "085410人工智能原在通信与信息工程学院(2025线289)，2026线350；⚠️计算机学院电子信息(085404)2026仍考22DS+CN自命题非408。2027起085410调整至人工智能学院/自动化学院(004)",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
-    "三源核对"
+    "三源核对",
+    "N诺"
    ],
    "lineUltimate2026": "350",
    "wdCount": "5",
    "wdYears": "22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/z1szb6_oOqVheuPDf4UM6A",
-   "college": "通信与信息工程学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/246/"
+  },
+  {
+   "category": "C-对照",
+   "province": "陕西",
+   "region": "西北",
+   "tier": "双非",
+   "subjectClass": "非408",
+   "direction": "不区分研究方向",
+   "college": "计算机学院",
+   "nnProg": "电子信息-计算机技术(085404)",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二+数据结构+计算机网络自命题",
+   "line2026": "290",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "328",
+    "2024": "306",
+    "2025": "341",
+    "2026": "290"
+   },
+   "plan2026": "81+1专项",
+   "fill": "一志愿为主",
+   "retestCnt": "103+1专项",
+   "admitCnt": "81+1专项",
+   "admitMax": "417",
+   "admitMin": "294",
+   "admitAvg": "350",
+   "scope": "⚠️西邮计算机学院电子信息(085404)2026仍考22DS+CN(英二数二+数据结构+计算机网络)自命题，非408。N诺2026：计算机技术线290，进复试103+1均340【290-417】，拟录81+1均350【294-417】；大数据技术22DS+CN线264录88+2均331",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "计算机学院085404电子信息2026仍自命题(DS+CN)非408，不匹配用户408目标；N诺schoolinfo/246",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/246/"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机学院",
+   "tier": "双非",
+   "subjects": "非408(22DS+CN)",
+   "program": "085404电子信息-计算机技术",
+   "line2026": "290",
+   "plan": "82",
+   "retestCnt": "103+1专项",
+   "admitCnt": "81+1专项",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "417",
+   "admitMin": "294",
+   "admitAvg": "350",
+   "scope": "⚠️计算机学院085404仍考DS+CN自命题非408；线290进复试103均340录82均350",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/246/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232773&idx=3&sn=011e783b4e169411b653a43723018c11&scene=21&poc_token=HLH2C2mjKTBBNk2leqnPDMcusLOQeSxqGZxxd9uX",
@@ -46,7 +109,18 @@
   "25考情": "https://mp.weixin.qq.com/s/AP4BiKIlO3n7NbZoZ0U6BA",
   "26考情": "https://mp.weixin.qq.com/s/z1szb6_oOqVheuPDf4UM6A"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "西安邮电大学",
+   "层次": "双非",
+   "专业/范围": "085410人工智能",
+   "原科目": "通信学院自命题",
+   "新科目": "调整至人工智能学院/自动化学院(004)",
+   "生效年份": "2027",
+   "来源": "西安邮电大学研招网《2027初试复试科目调整公告》gr.xupt.edu.cn/info/1172/9449.htm",
+   "备注": "2027起085410人工智能调整至人工智能学院/自动化学院(004)招生；计算机学院085404电子信息2026仍自命题(DS+CN)，非408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": {
@@ -54,22 +128,30 @@
   "省份": "陕西",
   "大区": "西北",
   "层次": "双非",
-  "学院": "通信与信息工程学院",
+  "学院": "通信与信息工程学院→2027人工智能学院",
   "初试科目": "非408",
   "方向": "不区分研究方向",
   "2026线": "350",
   "拟招": null,
   "一志愿/调剂": "一志愿为主",
   "AI方向": "✅真AI方向",
-  "来源": "官方",
+  "来源": "官方+N诺",
   "综合热度": "69",
-  "备注": "官方复试线350；通信/电子方向另有265"
+  "备注": "计算机学院085404仍自命题非408；085410于2027调整至人工智能学院"
  },
  "conflicts": [],
  "sources": [
   {
    "label": "西安邮电大学085410复试安排",
    "url": "https://tg.xupt.edu.cn/info/1088/5389.htm"
+  },
+  {
+   "label": "西安邮电大学2027初试复试科目调整公告(官方)",
+   "url": "https://gr.xupt.edu.cn/info/1172/9449.htm"
+  },
+  {
+   "label": "N诺西安邮电大学考情",
+   "url": "https://noobdream.com/schoolinfo/246/"
   }
  ],
  "generated": {

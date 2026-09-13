@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "江西财经大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "江西",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机与人工智能学院/信息管理学院",
+   "nnProg": "电子信息-计算机(085404)",
+   "nnCollege": "计算机与人工智能学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": "326",
+    "2024": "284",
+    "2025": "289",
+    "2026": "264"
+   },
+   "plan2026": "168+6专项",
+   "fill": "一志愿为主",
+   "retestCnt": "205+12专项",
+   "admitCnt": "168+6专项",
+   "admitMax": "380",
+   "admitMin": "271",
+   "admitAvg": "315",
+   "scope": "相关口径=电子信息-计算机(085404，非085410)。2026首年改408(此前二二程序设计基础自命题)。N诺2026：线NC(=A区国家线264)，进复试205+12专项均307【264-380】，单科58/66/100/82；录168+6专项，一志愿均315【271-380】。招生量大(168人)。无085410专列(财经人工智能为学硕1201J1，2026无招生)",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "82",
+   "nnRate": "80%",
+   "note": "经N诺schoolinfo/259+官方改考公告核对：江财2026首年改22408；线国家线264，电子信息-计算机录168+6专项均315【271-380】，招生量大。无085410专列",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/259/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与人工智能学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "电子信息-计算机085404",
+   "line2026": "264",
+   "plan": "168+6专项",
+   "retestCnt": "205+12专项",
+   "admitCnt": "168+6专项",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "380",
+   "admitMin": "271",
+   "admitAvg": "315",
+   "scope": "085404(非085410)2026首年改22408；线264=国家线，进复试205+12均307录168+6均315",
+   "verify": "官方+N诺",
+   "url": "https://noobdream.com/schoolinfo/259/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "江西财经大学",
    "province": "江西",
-   "college": "计算机与人工智能学院+信息管理学院",
+   "college": "计算机与人工智能学院",
    "program": "电子信息-计算机",
-   "subjects": "推测408",
-   "line": null,
+   "subjects": "22408",
+   "line": "264",
    "retestCnt": "205",
-   "adjCnt": "0",
+   "adjCnt": "12",
    "avgTotal": "307",
    "avg408": "82",
    "avgPol": "58",
    "avgEng": "66",
    "avgMath": "100",
-   "admitCnt": "168",
-   "admitAvg": null,
+   "admitCnt": "174",
+   "admitAvg": "315",
    "rate": "80%",
    "ratioNN": "1.2",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；2026改408；无085410专列"
   }
  ],
  "wangdaoLinks": {
@@ -32,8 +93,29 @@
   "25考情": "https://mp.weixin.qq.com/s/QmZW2bOkUyi-1mFrTw3kTA",
   "26考情": "https://mp.weixin.qq.com/s/zBAPEoVhGdVhG2WiBa7vuw"
  },
+ "updates2027": [
+  {
+   "院校": "江西财经大学",
+   "层次": "双非",
+   "专业/范围": "计算机与人工智能学院/软件学院等",
+   "原科目": "831程序设计基础/C语言自命题",
+   "新科目": "408(专硕22408/学硕11408)",
+   "生效年份": "2026",
+   "来源": "江财研究生院改考公告grs.jxufe.edu.cn/news-show-4267 + N诺schoolinfo/259",
+   "备注": "2026起081200/083500/085404/085405等改408；2027沿用；无085410专列"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "江西财经大学改考408公告(官方)",
+   "url": "http://grs.jxufe.edu.cn/news-show-4267.html"
+  },
+  {
+   "label": "N诺江西财经大学考情",
+   "url": "https://noobdream.com/schoolinfo/259/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

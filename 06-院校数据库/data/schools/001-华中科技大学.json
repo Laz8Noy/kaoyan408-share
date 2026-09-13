@@ -7,24 +7,66 @@
    "province": "湖北",
    "region": "华中",
    "tier": "985",
-   "subjectClass": "待确认",
-   "heatComp": "55",
+   "subjectClass": "11408",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "人工智能与自动化学院",
+   "line2026": "363(据N诺择校表,待学院官网精确核对)",
+   "lineDelta": "高位",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "363"
+   },
+   "plan2026": "17(据N诺)",
+   "fill": "一志愿为主",
+   "retestCnt": "24(据N诺)",
+   "admitCnt": "17(据N诺)",
+   "admitMax": "406",
+   "admitMin": "368",
+   "admitAvg": "388",
+   "scope": "085410人工智能(人工智能与自动化学院)2026线约363(50/75)；11408(英一数一408)；据N诺择校表：进复试24人均381【363-406】、拟录取17人均388【368-406】；具体分数线与名额以学院官网/研招网为准",
+   "aiTag": "✅真AI方向(但11408,高位)",
    "heatNet": "92",
-   "aiTag": "✅真AI方向",
-   "note": "085410线待官方核实，作985对照",
-   "srcLabel": "网络热度",
+   "heatComp": "55",
+   "nn408avg": "111(据N诺单科132/111)",
+   "nnRate": null,
+   "note": "⚠️985顶尖，AI方向考11408非用户22408；线约363、拟录取均388，远超310档，仅作985高位对照；计算机学院计学线约360、计专招100+为另一大池子；085410精确线/名额需以人工智能与自动化学院官网最终核对(本表线363来自N诺择校汇总，非学院直接公示)",
+   "srcLabel": "第三方+官方",
    "src": [
     "区域榜",
-    "三源核对"
+    "三源核对",
+    "N诺择校表",
+    "研招网复试线"
    ],
+   "lineUltimate2026": "363",
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/BVENOfJojz_txpR4V-lpVA",
+   "kaoqingUrl": "https://noobdream.com/zexiao/",
    "college": "人工智能与自动化学院（相关）"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "人工智能与自动化学院",
+   "tier": "985",
+   "subjects": "11408",
+   "line2026": "363(待官方核对)",
+   "plan": "17",
+   "retestCnt": "24",
+   "admitCnt": "17",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "406",
+   "admitMin": "368",
+   "admitAvg": "388",
+   "scope": "085410人工智能11408，据N诺择校表线363、拟录取均388【368-406】；985高位非22408；精确线待学院官网核对",
+   "verify": "第三方(N诺择校表)+研招网复试线",
+   "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450423.html"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666147405&idx=1&sn=67f2afcc767daba10558d3ff9bcbcd32&scene=21&poc_token=HIQJDGmji0WpXYitVhjVPTSv2vml3Ua5ZGmkLujd",
@@ -40,8 +82,39 @@
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
- "conflicts": [],
- "sources": [],
+ "conflicts": [
+  {
+   "field": "line2026(085410)",
+   "unit": "电子信息-人工智能",
+   "claims": [
+    {
+     "src": "原JSON",
+     "value": "待官方核实"
+    },
+    {
+     "src": "N诺择校汇总表",
+     "value": "约363(11408)、拟录取均388"
+    }
+   ],
+   "status": "据第三方估算,待官方精确",
+   "action": "985高位对照,11408非22408;具体线/名额需人工智能与自动化学院官网最终核对"
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺2027择校数据汇总(含华科AI 11408)",
+   "url": "https://noobdream.com/zexiao/"
+  },
+  {
+   "label": "华中科技大学2026硕士复试基本分数要求",
+   "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450423.html"
+  },
+  {
+   "label": "华中科技大学人工智能与自动化学院研究生招生",
+   "url": "https://aia.hust.edu.cn/tzgg/yjs.htm"
+  }
+ ],
+ "note": "985高位对照：085410人工智能11408线约363、拟录取均388，非用户22408/310档目标；精确线待学院官网核对。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

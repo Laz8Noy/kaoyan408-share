@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "广西民族大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "广西",
+   "region": "华南",
+   "tier": "双非",
+   "subjectClass": "11408",
+   "college": "人工智能学院",
+   "direction": "计算机科学与技术(学硕)",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "250",
+    "2026": "264"
+   },
+   "plan2026": "4一志愿+57调剂",
+   "fill": "大量调剂",
+   "retestCnt": "4一志愿+调剂",
+   "admitCnt": "4一志愿+57调剂",
+   "admitMax": "291",
+   "admitMin": "261",
+   "admitAvg": "276",
+   "scope": "N诺2026：人工智能学院仅计算机科学与技术学硕11408，走国家线，一志愿4人+调剂，进复试均分276【261-291】，单科政52英56数80 408=89，录取4+57调剂；无085410专硕",
+   "aiTag": "不招085410",
+   "nn408avg": "89",
+   "nnRate": null,
+   "note": "无085410电子信息专硕，仅计算机学硕11408且纯调剂；民族地区校，调剂友好",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "计算机科学与技术",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英一数一408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/271/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +67,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/Hmqi_8rr7K3KuM-8lZj7mA"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 广西民族大学",
+   "url": "https://noobdream.com/schoolinfo/271/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +81,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "不招085410；仅计算机学硕11408纯调剂，进复试均分276。"
 }

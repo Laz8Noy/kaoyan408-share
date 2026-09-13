@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "天津城建大学",
- "units": [],
+ "units": [
+  {
+   "category": "C-对照",
+   "province": "天津",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "11408",
+   "direction": "计算机科学与技术",
+   "line2026": null,
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "plan2026": null,
+   "fill": "调剂为主",
+   "retestCnt": "0",
+   "admitCnt": "0",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：计算机科学与技术；复试0人 拟录取0人 调剂37人；进复试总分均None；408均None 政治None 英语None 数学None",
+   "aiTag": "⚠️偏传统",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "⚠️非22408(英一数一408)；复试0录取0调剂37；进复试总分均None；⚠️N诺仅有计算机科学与技术(学硕,11408英一数一408)，085410一志愿0人全靠调剂37人；与22408目标不符",
+   "srcLabel": "第三方",
+   "nnProg": "计算机科学与技术",
+   "nnCollege": "计算机与信息工程学院",
+   "nnSubjects": "英一数一408",
+   "college": "计算机与信息工程学院"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +68,12 @@
   "26考情": "https://mp.weixin.qq.com/s/74tqS5tIYZvdiY4S5riaeQ"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +82,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与信息工程学院",
+   "tier": "双非",
+   "subjects": "英一数一408",
+   "line2026": null,
+   "plan": null,
+   "retestCnt": "0",
+   "admitCnt": "0",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：计算机科学与技术；复试0人 拟录取0人 调剂37人；进复试总分均None；408均None 政治None 英语None 数学None",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

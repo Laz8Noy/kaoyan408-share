@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "北京物资学院",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "北京",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-人工智能",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "264"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主",
+   "retestCnt": "2",
+   "admitCnt": "2",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-人工智能；复试2人 拟录取2人 调剂0人；进复试总分均281；408均None 政治None 英语None 数学None",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "100%",
+   "note": "✅22408兼容；含AI；复试2录取2调剂0；进复试总分均281",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机与人工智能学院",
+   "nnSubjects": "英二数二408",
+   "college": "计算机与人工智能学院"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +68,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/nOumC3oio4aadbCYgMpnAQ"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +82,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与人工智能学院",
+   "tier": "双非",
+   "subjects": "英二数二408",
+   "line2026": "264",
+   "plan": null,
+   "retestCnt": "2",
+   "admitCnt": "2",
+   "ratioRetest": "1",
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-人工智能；复试2人 拟录取2人 调剂0人；进复试总分均281；408均None 政治None 英语None 数学None",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

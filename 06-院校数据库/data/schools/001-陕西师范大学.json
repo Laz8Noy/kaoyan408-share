@@ -8,28 +8,55 @@
    "region": "西北",
    "tier": "211",
    "subjectClass": "22408",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "人工智能与计算机学院",
    "line2026": "264",
-   "lineDelta": "=国家线",
-   "heatComp": "34",
-   "heatNet": "62",
+   "lineDelta": "=国家线(改考首年)",
+   "linesByYear": {
+    "2023": "313",
+    "2024": "321",
+    "2025": "305(自命题22DS+程序设计)",
+    "2026": "264"
+   },
+   "plan2026": "6",
+   "fill": "一志愿为主+少量专项",
+   "retestCnt": "6一志愿+1专项",
+   "admitCnt": "6一志愿+1专项",
+   "admitMax": "361",
+   "admitMin": "276",
+   "admitAvg": "313",
+   "scope": "085410人工智能(人工智能与计算机学院)2026线国家线264；22408(2026首改408,原22DS+程序设计自命题)；一志愿进复试6+1专项，进复试均分313【276-361】；拟录取6+1专项均313【276-361】；408单科均分77；复试专业综合笔试150+面试100+外语50，初复试各50%",
    "aiTag": "✅真AI方向",
-   "note": "官方复试线264，拟招6；拟录取9人（含退役1）",
-   "srcLabel": "官方",
+   "heatNet": "62",
+   "heatComp": "34",
+   "nn408avg": "77",
+   "nnRate": "约100%",
+   "note": "211师范，2026全部改408(含085410 AI)；线264(改考首年国家线)，但名额少(拟录取6+1专项)；一志愿拟录取均313【276-361】；408均分77；就业偏教育/教育智能化方向",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
     "三源核对",
-    "考情明细"
+    "考情明细",
+    "N诺",
+    "官方(复试线)"
    ],
    "lineUltimate2026": "264",
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/_Rz1sAEc73kyTe1h94VLNQ",
-   "kaoqingUrl": "http://sa.kaoyan365.cn/yanzhaoxinxi/sakyfsx/67721.html",
-   "scope": "中公录取数据：拟录取9人（含退役1人318）；普通全日制8人初试361/325/361/361/314/310/289/276，最高361、最低276、均324.6",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/245/",
+   "scope2": "N诺:一志愿6+1专项进复试均分313【276-361】拟录取同；第三方(中公):拟录取9人含退役1人318，普通8人初试361/325/361/361/314/310/289/276，最高361最低276均324.6",
    "college": "人工智能与计算机学院"
   }
  ],
- "crossRefs": [],
+ "crossRefs": [
+  {
+   "name": "电子信息-计算机(085404)",
+   "subjects": "22408",
+   "line2026": "264",
+   "note": "线264、拟录取16+1专项均302【266-345】，名额多于AI"
+  }
+ ],
  "kaoqingDetail2026": [
   {
    "college": "人工智能与计算机学院",
@@ -37,16 +64,16 @@
    "subjects": "22408",
    "line2026": "264",
    "plan": "6",
-   "retestCnt": null,
-   "admitCnt": "9",
+   "retestCnt": "6一志愿+1专项",
+   "admitCnt": "6一志愿+1专项",
    "ratioRetest": null,
    "ratioApply": null,
    "admitMax": "361",
    "admitMin": "276",
-   "admitAvg": "324.6",
-   "scope": "中公录取数据：拟录取9人（含退役1人318）；普通全日制8人初试361/325/361/361/314/310/289/276，最高361、最低276、均324.6",
-   "verify": "机构🔍",
-   "url": "http://sa.kaoyan365.cn/yanzhaoxinxi/sakyfsx/67721.html"
+   "admitAvg": "313",
+   "scope": "085410人工智能22408线264(2026首改408)，一志愿拟录取均313【276-361】；408均分77；名额少(6+1专项)",
+   "verify": "第三方(N诺)+官方(复试线264)",
+   "url": "https://noobdream.com/schoolinfo/245/"
   }
  ],
  "nnCandidates": [],
@@ -60,12 +87,37 @@
   "25考情": "https://mp.weixin.qq.com/s/3F8xWbPg2-RlSI_n_DDkww",
   "26考情": "https://mp.weixin.qq.com/s/_Rz1sAEc73kyTe1h94VLNQ"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "陕西师范大学",
+   "层次": "211",
+   "专业/范围": "计算机/软件/电子信息(含085410)",
+   "原科目": "自命题DS+程序设计",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/245",
+   "备注": "2026全部改408；085410 AI线264国家线、名额少；2027维持408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 陕西师范大学",
+   "url": "https://noobdream.com/schoolinfo/245/"
+  },
+  {
+   "label": "陕西师范大学2026复试分数线",
+   "url": "http://yz.snnu.edu.cn/info/1008/7951.htm"
+  },
+  {
+   "label": "陕西师范大学085410录取(中公)",
+   "url": "http://sa.kaoyan365.cn/yanzhaoxinxi/sakyfsx/67721.html"
+  }
+ ],
+ "note": "211师范，2026全部改22408；085410人工智能线264(国家线)、一志愿拟录取均313【276-361】、名额少(6+1专项)；408均分77；就业偏教育智能化。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

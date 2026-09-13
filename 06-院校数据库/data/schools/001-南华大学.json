@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "南华大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "湖南",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机学院",
+   "nnProg": "电子信息-软件工程(085405)",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "266",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "273",
+    "2024": "273",
+    "2025": "260",
+    "2026": "266"
+   },
+   "plan2026": "约95(18一志愿+77调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "21+218调剂",
+   "admitCnt": "18+77调剂",
+   "admitMax": "331",
+   "admitMin": "266",
+   "admitAvg": "303",
+   "scope": "相关口径=电子信息-软件工程(085405，非085410)。2026首年改408(此前22CN计算机网络自命题)。N诺2026：线266，进复试21+218调剂均298【266-331】，单科62/63/94/79；录18+77调剂，一志愿均303【266-331】。改考首年一志愿少、大量调剂",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "79",
+   "nnRate": "90%",
+   "note": "经N诺schoolinfo/336核对：南华大学无085410专列；2026起计算机学院电子信息-软件工程改22408，线266，进复试21+218调剂录95均303。改考首年调剂多",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/336/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "电子信息-软件工程085405",
+   "line2026": "266",
+   "plan": "约95",
+   "retestCnt": "21+218调剂",
+   "admitCnt": "18+77调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "331",
+   "admitMin": "266",
+   "admitAvg": "303",
+   "scope": "085405(非085410)2026首年改22408；线266，进复试21+218调剂均298录95均303",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/336/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "南华大学",
    "province": "湖南",
    "college": "计算机学院",
    "program": "电子信息-软件工程",
-   "subjects": "英二数二408",
+   "subjects": "22408",
    "line": "266",
    "retestCnt": "21",
-   "adjCnt": "0",
+   "adjCnt": "218",
    "avgTotal": "298",
    "avg408": "79",
    "avgPol": "62",
    "avgEng": "63",
    "avgMath": "94",
-   "admitCnt": "18",
-   "admitAvg": null,
+   "admitCnt": "95",
+   "admitAvg": "303",
    "rate": "90%",
    "ratioNN": "1.2",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；2026改408；无085410专列"
   }
  ],
  "wangdaoLinks": {
@@ -33,8 +94,25 @@
   "25考情分析": "https://mp.weixin.qq.com/s/i99pPTkeAE2gYF3R19l8lg",
   "26考情分析": "https://mp.weixin.qq.com/s/pL2ajEzsE1I9dxUNWL9BqA"
  },
+ "updates2027": [
+  {
+   "院校": "南华大学",
+   "层次": "双非",
+   "专业/范围": "计算机学院(083500/085405)",
+   "原科目": "11/22 CN计算机网络自命题",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/336",
+   "备注": "2026起软件工程/电子信息-软件改408(学硕11408、专硕22408)；2027沿用；无085410专列"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺南华大学考情",
+   "url": "https://noobdream.com/schoolinfo/336/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -8,41 +8,75 @@
    "region": "华北",
    "tier": "双非",
    "subjectClass": "22408",
-   "direction": "不区分研究方向",
-   "line2026": "319",
-   "lineDelta": "+55",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "计算机科学与技术学院（大数据学院）",
+   "line2026": "264(国家线,NC)",
+   "lineDelta": "改考首年",
    "linesByYear": {
     "2023": null,
-    "2024": null,
+    "2024": "324(自命题)",
     "2025": null,
-    "2026": "319"
+    "2026": "264"
    },
-   "fill": "一志愿为主",
-   "aiTag": "❓未注明",
+   "plan2026": "5一志愿+1调剂",
+   "fill": "一志愿不足+少量调剂",
+   "retestCnt": "6一志愿+3调剂",
+   "admitCnt": "5一志愿+1调剂",
+   "admitMax": "354",
+   "admitMin": "291",
+   "admitAvg": "315(一志愿)",
+   "scope": "085410人工智能(计算机学院/大数据学院)2026线国家线264；22408(2026改408,学硕811数据结构改408)；一志愿进复试6人+3调剂，进复试均分310【281-354】；拟录取一志愿5人+1调剂，一志愿拟录取均315【291-354】；408单科均分84",
+   "aiTag": "✅真AI方向",
    "heatNet": "68",
    "heatComp": "53",
    "nn408avg": "84",
-   "nnRate": "80%",
-   "note": "复试线319为机构整理，官方公示待核",
-   "srcLabel": "机构估算",
+   "nnRate": null,
+   "note": "⚠️纠正：原机构估算线319有误，N诺显示2026执行国家线264(NC)；一志愿仅6人进复试、录5人+1调剂，进复试均310【281-354】；408均分84；同院085404计算机技术线304；2026起学硕/专硕改408",
+   "srcLabel": "第三方+官方",
    "src": [
     "总览",
     "区域榜",
-    "招录比对比",
-    "三源核对"
+    "三源核对",
+    "N诺",
+    "官方(复试线/细则)"
    ],
-   "lineUltimate2026": "319",
+   "lineUltimate2026": "264",
    "nnProg": "电子信息-人工智能",
    "nnCollege": "计算机科学与技术学院（大数据学院）",
-   "nnSubjects": "推测408",
+   "nnSubjects": "英二数二408",
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/9G28Mu74bUcWWYm8icCPvg",
-   "college": "计算机科学与技术学院"
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/234/"
   }
  ],
- "crossRefs": [],
- "kaoqingDetail2026": [],
+ "crossRefs": [
+  {
+   "name": "电子信息-计算机(085404)",
+   "subjects": "22408",
+   "line2026": "304",
+   "note": "线304，高于AI方向"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与技术学院(大数据学院)",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "264",
+   "plan": "5一志愿+1调剂",
+   "retestCnt": "6一志愿+3调剂",
+   "admitCnt": "5一志愿+1调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "354",
+   "admitMin": "291",
+   "admitAvg": "315",
+   "scope": "085410人工智能22408线264(2026改408)，一志愿拟录取均315【291-354】；408均分84",
+   "verify": "第三方(N诺)+官方(改考408通知)",
+   "url": "https://noobdream.com/schoolinfo/234/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233166&idx=6&sn=c31456f9c5948f5fdb8c176d077bf89c&scene=21&poc_token=HOv_C2mjIfkRLVwNRRyVU_KHp-Xukg32-1QLAM1K",
@@ -54,27 +88,62 @@
   "25考情": "https://mp.weixin.qq.com/s/mKLghE7lsXMAm4Nb5f3ybg",
   "26考情": "https://mp.weixin.qq.com/s/9G28Mu74bUcWWYm8icCPvg"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "中北大学",
+   "层次": "双非",
+   "专业/范围": "计算机学院/大数据学院(计科/AI/计算机技术)",
+   "原科目": "811数据结构(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "中北计算机学院改考通知2025-03+N诺",
+   "备注": "2026起学硕811改408，专硕22408"
+  }
+ ],
  "tutors": [],
- "inTJList": null,
- "inKeyList": {
-  "院校": "中北大学",
-  "省份": "山西",
-  "大区": "华北",
-  "层次": "双非",
-  "学院": "计算机科学与技术学院",
-  "初试科目": "22408",
-  "方向": "不区分研究方向",
-  "2026线": "319",
-  "拟招": null,
-  "一志愿/调剂": "一志愿为主",
-  "AI方向": "❓未注明",
-  "来源": "机构估算",
-  "综合热度": "53",
-  "备注": "复试线319为机构整理，官方公示待核"
+ "inTJList": {
+  "subjects": "22408",
+  "region": "华北",
+  "tier": "双非",
+  "line": "264",
+  "fill": "一志愿不足+调剂",
+  "aiTag": "✅真AI方向",
+  "src": "N诺+官方"
  },
- "conflicts": [],
- "sources": [],
+ "inKeyList": null,
+ "conflicts": [
+  {
+   "field": "line2026(AI)",
+   "unit": "电子信息-人工智能",
+   "claims": [
+    {
+     "src": "原JSON(机构估算)",
+     "value": "319"
+    },
+    {
+     "src": "N诺2026表",
+     "value": "NC(国家线264),一志愿6人进复试"
+    }
+   ],
+   "status": "已纠正",
+   "action": "机构估的319有误；2026执行国家线264，一志愿仅6人、录5+1调剂"
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺 中北大学",
+   "url": "https://noobdream.com/schoolinfo/234/"
+  },
+  {
+   "label": "中北大学2026复试分数线(085404计算机技术304)",
+   "url": "https://grs.nuc.edu.cn/info/1015/9105.htm"
+  },
+  {
+   "label": "中北计算机学院2026改考408通知",
+   "url": "https://cst.nuc.edu.cn/info/1039/8937.htm"
+  }
+ ],
+ "note": "双非，085410人工智能22408，2026改408线国家线264；一志愿仅6人进复试、录5+1调剂，一志愿拟录取均315【291-354】；408均分84。原机构线319已纠正。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

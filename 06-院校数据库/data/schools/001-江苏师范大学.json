@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "江苏师范大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "江苏",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "智慧教育学院(计算机科学与技术学院)",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "智慧教育学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "264"
+   },
+   "plan2026": "约35(12一志愿+23调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "14+48调剂",
+   "admitCnt": "12+23调剂",
+   "admitMax": "321",
+   "admitMin": "270",
+   "admitAvg": "291",
+   "scope": "085410人工智能(智慧教育学院)22408。双非。2026改考408(此前22程序设计+DS自命题)。N诺2026：线NC(=A区国家线264)，进复试14+48调剂，录12+23调剂，一志愿均291【270-321】。改考首年一志愿少、大量调剂",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "90%",
+   "note": "经N诺schoolinfo/323核对：江苏师大2026起智慧教育学院085410人工智能改22408；线国家线264，一志愿14+48调剂录35均291。改考首年调剂多",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/323/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "智慧教育学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": "264",
+   "plan": "约35",
+   "retestCnt": "14+48调剂",
+   "admitCnt": "12+23调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "321",
+   "admitMin": "270",
+   "admitAvg": "291",
+   "scope": "085410人工智能2026改22408；线264=国家线，进复试14+48调剂录35均291",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/323/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "江苏师范大学",
    "province": "江苏",
-   "college": "智慧教育学院（计算机科学与技术学院）",
+   "college": "智慧教育学院(计算机科学与技术学院)",
    "program": "电子信息-人工智能",
-   "subjects": "英二数二408",
-   "line": null,
+   "subjects": "22408",
+   "line": "264",
    "retestCnt": "14",
    "adjCnt": "48",
-   "avgTotal": null,
+   "avgTotal": "291",
    "avg408": null,
    "avgPol": null,
    "avgEng": null,
    "avgMath": null,
-   "admitCnt": "12",
-   "admitAvg": null,
+   "admitCnt": "35",
+   "admitAvg": "291",
    "rate": "90%",
    "ratioNN": "1.2",
-   "note": "✅22408兼容；含AI"
+   "note": "✅22408兼容；已提升为units；2026改408"
   }
  ],
  "wangdaoLinks": {
@@ -33,8 +94,25 @@
   "25考情": "https://mp.weixin.qq.com/s/qTxQdhA3M_QlPTqBDfstgg",
   "26考情": "https://mp.weixin.qq.com/s/oTzMmEz3R3M2ZXERuqcQVA"
  },
+ "updates2027": [
+  {
+   "院校": "江苏师范大学",
+   "层次": "双非",
+   "专业/范围": "智慧教育学院(085404计算机技术/085410人工智能)",
+   "原科目": "22程序设计+DS自命题",
+   "新科目": "22408",
+   "生效年份": "2026",
+   "来源": "江苏师大2026招生简章+N诺schoolinfo/323",
+   "备注": "2026起智慧教育学院085404/085410改22408；2027沿用"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺江苏师范大学考情",
+   "url": "https://noobdream.com/schoolinfo/323/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

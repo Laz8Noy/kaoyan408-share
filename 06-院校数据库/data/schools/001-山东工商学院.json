@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "山东工商学院",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "山东",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机科学与技术学院",
+   "direction": "电子信息-计算机",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "271",
+    "2026": "264"
+   },
+   "plan2026": "5一志愿+调剂",
+   "fill": "大量调剂",
+   "retestCnt": "5一志愿+122调剂",
+   "admitCnt": "5一志愿+调剂",
+   "admitMax": "367",
+   "admitMin": "279",
+   "admitAvg": "303",
+   "scope": "N诺2026：电子信息-计算机22408走国家线，一志愿5人+122调剂进复试，进复试均分303【279-367】，单科政52英65数102 408=84；无AI方向",
+   "aiTag": "无AI方向",
+   "nn408avg": "84",
+   "nnRate": null,
+   "note": "无AI方向；电子信息-计算机22408纯调剂(一志愿仅5)，进复试均分303【279-367】",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机科学与技术学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/155/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +67,12 @@
   "26考情": "https://mp.weixin.qq.com/s/kc6LGMMSOKP9DU9_7NAKuA"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 山东工商学院",
+   "url": "https://noobdream.com/schoolinfo/155/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +81,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无AI；计算机22408调剂极多(122)，进复试均分303【279-367】。"
 }

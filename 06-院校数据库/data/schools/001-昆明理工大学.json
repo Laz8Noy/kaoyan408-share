@@ -6,43 +6,71 @@
    "category": "S-主体",
    "province": "云南",
    "region": "西南",
-   "tier": "双非",
+   "tier": "双非(B区)",
    "subjectClass": "非408",
    "direction": "不区分研究方向",
+   "college": "信息工程与自动化学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "信息工程与自动化学院",
+   "nnSubjects": "英二数二+891计算机专业核心综合(DS+DB+OS+CN自命题)",
    "line2026": "254",
-   "lineDelta": "=国家线",
+   "lineDelta": "=B区国家线",
    "linesByYear": {
-    "2023": null,
-    "2024": null,
-    "2025": null,
+    "2023": "312",
+    "2024": "266",
+    "2025": "250",
     "2026": "254"
    },
-   "fill": "一志愿为主",
-   "aiTag": "❓未注明",
+   "plan2026": "约86(61+25调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "62+55调剂",
+   "admitCnt": "61+25调剂",
+   "admitMax": "376",
+   "admitMin": "254",
+   "admitAvg": "294",
+   "scope": "⚠️B区双非。085410人工智能(信息工程与自动化学院)2026初试为英二数二+891计算机专业核心综合(DS+DB+OS+CN)自命题，非408。N诺2026：线NC(=B区国家线254)，进复试62+55调剂均293【254-376】，单科67/63/83/80；录61+25调剂均294【254-376】。B区走国家线、大量收调剂",
+   "aiTag": "✅真AI方向",
    "heatNet": "46",
    "heatComp": "29",
-   "nn408avg": "84",
+   "nn408avg": null,
    "nnRate": "90%",
-   "note": "B区国家线254",
-   "srcLabel": "官方",
+   "note": "B区双非，085410人工智能2026仍自命题(891=DS+DB+OS+CN)非408；线254(B区国家线)录86均294。⚠️2027宣讲会提到计算机/软件/人工智能可能改408，待官方目录确认",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
-    "三源核对"
+    "三源核对",
+    "N诺"
    ],
    "lineUltimate2026": "254",
-   "nnProg": "电子信息-计算机",
-   "nnCollege": "信息工程与自动化学院",
-   "nnSubjects": "推测408",
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/iXybBe02ReM2kiyDCHaLUw",
-   "college": "信息工程与自动化学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/264/"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息工程与自动化学院",
+   "tier": "双非(B区)",
+   "subjects": "非408(22+891自命题)",
+   "program": "085410人工智能",
+   "line2026": "254",
+   "plan": "约86",
+   "retestCnt": "62+55调剂",
+   "admitCnt": "61+25调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "376",
+   "admitMin": "254",
+   "admitAvg": "294",
+   "scope": "085410人工智能2026仍891自命题非408；线254=B区国家线，进复试62+55调剂均293录86均294",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/264/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=6&sn=700df12577cfb42e85271790f8765dc9&scene=21&poc_token=HKaoCmmjM10izeKQN1g7SnzkaHpAZjfdba9CdTBP",
@@ -54,15 +82,40 @@
   "25考情": "https://mp.weixin.qq.com/s/CltAsNYUTHUUYqlWqp_Ypw",
   "26考情": "https://mp.weixin.qq.com/s/iXybBe02ReM2kiyDCHaLUw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "昆明理工大学",
+   "层次": "双非(B区)",
+   "专业/范围": "计算机技术/软件工程/人工智能(信息工程与自动化学院)",
+   "原科目": "891计算机专业核心综合(自命题)",
+   "新科目": "可能改408(待官方确认)",
+   "生效年份": "2027",
+   "来源": "2027招生宣讲会(抖音/第三方)；待研招网正式目录",
+   "备注": "2027宣讲会提到计算机技术/软件工程/人工智能可能改考408，具体以官网通知为准；2026仍自命题非408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
- "conflicts": [],
+ "conflicts": [
+  {
+   "field": "nnSubjects",
+   "old": "推测408",
+   "new": "非408(891自命题=DS+DB+OS+CN)",
+   "reason": "N诺2026表显示085410人工智能初试为22+891(DS+DB+OS+CN四门自命题)，非408；仅2027拟可能改408",
+   "sources": [
+    "https://noobdream.com/schoolinfo/264/"
+   ]
+  }
+ ],
  "sources": [
   {
    "label": "昆明理工大学085410专业介绍",
    "url": "https://www.ludengkaoyan.com/school340/qrz/zsml/385927.html"
+  },
+  {
+   "label": "N诺昆明理工大学考情",
+   "url": "https://noobdream.com/schoolinfo/264/"
   }
  ],
  "generated": {

@@ -7,15 +7,15 @@
    "province": "山东",
    "region": "华东",
    "tier": "双非",
-   "subjectClass": "非408",
+   "subjectClass": "22408",
    "direction": "不区分研究方向",
-   "line2026": "264",
+   "line2026": "300",
    "lineDelta": "=国家线",
    "linesByYear": {
     "2023": null,
     "2024": null,
     "2025": null,
-    "2026": "264"
+    "2026": "300"
    },
    "fill": "一志愿为主",
    "aiTag": "❓未注明",
@@ -23,8 +23,8 @@
    "heatComp": "32",
    "nn408avg": "90",
    "nnRate": "80%",
-   "note": "085410考英二数二+813电路（非408）；复试线264（国线）；另有计科/计技/软工自划线297-312",
-   "srcLabel": "官方",
+   "note": "双非；电子信息-计算机22408线300录104+专项均332；⚠️电子信息-人工智能方向考22电路自命题(非408)以调剂为主；22408口径为电子信息-计算机方向",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -39,7 +39,13 @@
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/vR72cE0c94QLzeAdULR7jQ",
    "remark": "已复核：官方2026目录 085410=英二数二+813电路（电气与自动化工程学院，6人+科教专项5人）；复试线264（不在自划线名单，执行A类国线）",
-   "college": "电气与自动化工程学院"
+   "college": "计算机科学与工程学院",
+   "retestCnt": "134+2专项+5专项调剂",
+   "admitCnt": "104+1专项+1专项调剂",
+   "admitAvg": "332",
+   "admitMin": "300",
+   "admitMax": "399",
+   "scope": "N诺2026(schoolinfo142)：计算机学院电子信息-计算机22408线300复试134+2专项录104+1专项均分332【300-399】；注：电子信息-人工智能方向考22电路(自命题非408)走调剂，勿混报"
   }
  ],
  "crossRefs": [],
@@ -60,7 +66,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺山东科技大学schoolinfo/142",
+   "url": "https://noobdream.com/schoolinfo/142/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

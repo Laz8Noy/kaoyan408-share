@@ -7,12 +7,12 @@
    "province": "安徽",
    "region": "华中",
    "tier": "211",
-   "subjectClass": "待确认",
+   "subjectClass": "22408",
    "heatComp": "46",
    "heatNet": "68",
    "aiTag": "✅真AI方向",
-   "note": "官方调剂通知：085410初试须含408",
-   "srcLabel": "官方",
+   "note": "211；计算机学院电子信息-人工智能22408线356录46+专项均375；2026由21408改22408；卓越工程师学院AI线325以调剂为主(7+50调剂)",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
     "三源核对"
@@ -20,7 +20,20 @@
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/DgetQSNfo8LhOUzjEeRAzQ",
-   "college": "人工智能创新学院"
+   "college": "计算机与信息学院(人工智能学院)",
+   "line2026": "356",
+   "linesByYear": {
+    "2023": null,
+    "2024": "327",
+    "2025": "317",
+    "2026": "356"
+   },
+   "retestCnt": "61+5专项",
+   "admitCnt": "46+专项",
+   "admitAvg": "375",
+   "admitMin": "356",
+   "admitMax": "420",
+   "scope": "N诺2026(schoolinfo203)：计算机与信息学院电子信息-人工智能22408线356复试61+5专项拟录取46+专项均分375【356-420】单科64/78/130/101；2026由21408改22408"
   }
  ],
  "crossRefs": [],
@@ -36,7 +49,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/hgiMKivfptGbgwSY3P7DoA",
   "26考情分析": "https://mp.weixin.qq.com/s/DgetQSNfo8LhOUzjEeRAzQ"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "合肥工业大学",
+   "层次": "211",
+   "专业/范围": "计算机与信息学院电子信息",
+   "原科目": "21408(英一数一408)",
+   "新科目": "22408(英二数二408)",
+   "生效年份": "2026",
+   "来源": "N诺203/官方",
+   "备注": "2026起改考22408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
@@ -45,6 +69,10 @@
   {
    "label": "合肥工业大学085410调剂通知",
    "url": "https://iai.hfut.edu.cn/info/1029/1141.htm"
+  },
+  {
+   "label": "N诺合肥工业大学schoolinfo/203",
+   "url": "https://noobdream.com/schoolinfo/203/"
   }
  ],
  "generated": {

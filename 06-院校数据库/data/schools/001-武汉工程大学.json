@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "武汉工程大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机科学与工程学院（人工智能学院）",
+   "direction": "电子信息-人工智能",
+   "line2026": "285",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "285"
+   },
+   "plan2026": "3",
+   "fill": "一志愿为主",
+   "retestCnt": "3",
+   "admitCnt": "3",
+   "admitMax": "296",
+   "admitMin": "272",
+   "admitAvg": "285",
+   "scope": "N诺2026：电子信息-人工智能22408走国家线，一志愿进复试3人，进复试均分285【272-296】，单科政60英44数96 408=86，录取3人；同院电子信息-计算机22408线NC录32+3专项；26起0854改408且英一改英二",
+   "aiTag": "✅真AI方向",
+   "nn408avg": "86",
+   "nnRate": "100%",
+   "note": "22408 AI但招生极少(仅3人)，进复试均分285【272-296】；26年由自命题改考408、英一改英二",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机科学与工程学院（人工智能学院）",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/91/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -35,7 +70,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/T_hMdzpIGvoyPucaKQc-IQ"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 武汉工程大学",
+   "url": "https://noobdream.com/schoolinfo/91/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -44,5 +84,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "22408 AI，招生仅3人，进复试均分285【272-296】；26改408英二。"
 }

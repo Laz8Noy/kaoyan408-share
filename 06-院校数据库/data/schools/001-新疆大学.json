@@ -7,43 +7,85 @@
    "province": "新疆",
    "region": "西北",
    "tier": "211",
-   "subjectClass": "未单设",
-   "heatComp": "46",
-   "heatNet": "64",
+   "subjectClass": "非408",
+   "direction": "不区分研究方向",
+   "college": "智能科学与技术学院(未来技术学院)",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "智能科学与技术学院",
+   "nnSubjects": "英二数二842程序设计+DS",
+   "line2026": "254",
+   "lineDelta": "=B区国家线",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "254"
+   },
+   "plan2026": "约23(4+19调剂)",
+   "fill": "调剂为主",
+   "retestCnt": "4+55调剂",
+   "admitCnt": "4+19调剂",
+   "admitMax": "350",
+   "admitMin": "273",
+   "admitAvg": "325",
+   "scope": "⚠️口径陷阱：新疆大学085410人工智能(智能学院)2026初试仍为22842(英语二+数学二+842程序设计+数据结构)自命题，非408！N诺2026表：线254(B区国家线)，一志愿进复试仅4人+调剂55人，进复试均325【273-350】，单科均59/64/95/130；拟录4+19调剂。软件学院电子信息-软件工程为22408(线289录136)但属085405非085410。B区211",
    "aiTag": "✅真AI方向",
-   "note": "2026电子信息[085400]（含人工智能方向）线254（B区国家线）；085410线待核未单设085410；085404计算机技术274人",
-   "srcLabel": "网络热度",
+   "heatNet": "64",
+   "heatComp": "46",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "经N诺schoolinfo/9核对：085410人工智能(智能学院)2026仍考842自命题，非408，不匹配用户408目标。仅当2027正式改408后才兼容。软件学院085405软工为22408但非085410",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
     "三源核对",
-    "考情明细"
+    "考情明细",
+    "N诺"
    ],
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/DUooqynTgNUZZW8R7UQ7Pw",
    "kaoqingUrl": "http://sa.kaoyan365.cn/yanzhaoxinxi/sakyfsx/66985.html",
-   "scope": "未单设085410（AI方向在085400电子信息/085404计算机技术内）；085404拟录取274人、初试最低254（中公）",
-   "college": "计算机科学与技术学院（相关）"
+   "nnUrl": "https://noobdream.com/schoolinfo/9/"
   }
  ],
  "crossRefs": [],
  "kaoqingDetail2026": [
   {
-   "college": "计算机科学与技术学院（相关）",
+   "college": "智能科学与技术学院(未来技术学院)",
    "tier": "211",
-   "subjects": "未单设",
-   "line2026": null,
-   "plan": null,
-   "retestCnt": null,
-   "admitCnt": null,
+   "subjects": "非408(22842)",
+   "program": "085410人工智能",
+   "line2026": "254",
+   "plan": "约23",
+   "retestCnt": "4+55调剂",
+   "admitCnt": "4+19调剂",
    "ratioRetest": null,
    "ratioApply": null,
-   "admitMax": null,
-   "admitMin": null,
-   "admitAvg": null,
-   "scope": "未单设085410（AI方向在085400电子信息/085404计算机技术内）；085404拟录取274人、初试最低254（中公）",
-   "verify": "机构🔍",
-   "url": "http://sa.kaoyan365.cn/yanzhaoxinxi/sakyfsx/66985.html"
+   "admitMax": "350",
+   "admitMin": "273",
+   "admitAvg": "325",
+   "scope": "⚠️085410人工智能2026仍考842程序设计+DS自命题(非408)；线254(B区国家线)，一志愿4+调剂55，录4+19调剂均325【273-350】",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/9/"
+  },
+  {
+   "college": "软件学院",
+   "tier": "211",
+   "subjects": "22408",
+   "program": "085405电子信息-软件工程",
+   "line2026": "289",
+   "plan": "136",
+   "retestCnt": "167+1专项",
+   "admitCnt": "136",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "392",
+   "admitMin": "289",
+   "admitAvg": "323",
+   "scope": "相关(085405非085410)22408；线289进复试167均319【289-392】录136均323",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/9/"
   }
  ],
  "nnCandidates": [],
@@ -57,15 +99,40 @@
   "25考情": "https://mp.weixin.qq.com/s/OhnDgcUqb9seQt1hNJnN7w",
   "26考情": "https://mp.weixin.qq.com/s/DUooqynTgNUZZW8R7UQ7Pw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "新疆大学",
+   "层次": "211",
+   "专业/范围": "智能科学与技术学院/信息学院 计算机类",
+   "原科目": "842程序设计+DS(自命题)",
+   "新科目": "408",
+   "生效年份": "2027(拟)",
+   "来源": "N诺schoolinfo/9(2025表注'26考研专业课829改考408')",
+   "备注": "⚠️N诺2026表显示085410人工智能仍为22842自命题，改408可能未完全覆盖AI方向或推迟至2027；报考前务必核对2027正式目录"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
- "conflicts": [],
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "old": "未单设/疑似408",
+   "new": "非408(842自命题)",
+   "reason": "N诺2026表显示智能学院085410人工智能初试为22842程序设计+数据结构自命题，非408；与'2026改408'宣传存在口径差异，需以2027正式目录为准",
+   "sources": [
+    "https://noobdream.com/schoolinfo/9/"
+   ]
+  }
+ ],
  "sources": [
   {
    "label": "新疆大学2026录取最低分(中公)",
    "url": "http://sa.kaoyan365.cn/yanzhaoxinxi/sakyfsx/66985.html"
+  },
+  {
+   "label": "N诺新疆大学考情",
+   "url": "https://noobdream.com/schoolinfo/9/"
   }
  ],
  "generated": {

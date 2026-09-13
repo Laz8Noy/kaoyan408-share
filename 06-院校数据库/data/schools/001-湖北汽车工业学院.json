@@ -1,35 +1,99 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "湖北汽车工业学院",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "湖北汽车工业学院",
+   "category": "S-主体",
    "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机方向",
    "college": "智能网联汽车学院",
-   "program": "电子信息-计算机",
-   "subjects": "英二数二408",
-   "line": null,
-   "retestCnt": "2",
-   "adjCnt": "56",
-   "avgTotal": "294",
-   "avg408": "84",
-   "avgPol": "52",
-   "avgEng": "67",
-   "avgMath": "92",
-   "admitCnt": "2",
-   "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "line2026": "国家线(NC)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "273",
+    "2024": "274(最低分)",
+    "2025": "260",
+    "2026": "国家线(NC)"
+   },
+   "plan2026": "30(目录,含调剂)",
+   "fill": "调剂为主",
+   "retestCnt": "2一志愿+1专项+55调剂",
+   "admitCnt": "2一志愿+1专项+25调剂",
+   "admitMax": "297",
+   "admitMin": "290",
+   "admitAvg": "294",
+   "scope": "085400电子信息-计算机方向(智能网联汽车学院)2026改22408；一志愿仅进复试2人+专项1，大量招调剂；一志愿拟录取2人最高297最低290均294；调剂拟录取25人；人工智能学院的085410人工智能考电子技术基础(非408)",
+   "aiTag": "⚠️电子信息-计算机(非085410)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "84",
+   "nnRate": "100%(一志愿)",
+   "note": "2026由电气与信息工程学院803计算机网络改考为智能网联汽车学院22408；一志愿2人全录，调剂为主；408均分84；085410人工智能(人工智能学院)为自命题电子技术基础数字部分，非408，不纳入",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "智能网联汽车学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "1",
+   "wdYears": "26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/t5MQwvgW66wJAK_Zhx5-4Q",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/335/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "智能网联汽车学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(NC)",
+   "plan": "30",
+   "retestCnt": "2一志愿+1专项+55调剂",
+   "admitCnt": "2一志愿+1专项+25调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "297",
+   "admitMin": "290",
+   "admitAvg": "294",
+   "scope": "一志愿2人全录(290-297均294)，调剂为主；2026改考408",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/schoolinfo/335/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "26考情分析": "https://mp.weixin.qq.com/s/t5MQwvgW66wJAK_Zhx5-4Q"
  },
+ "updates2027": [
+  {
+   "院校": "湖北汽车工业学院",
+   "层次": "双非",
+   "专业/范围": "085400电子信息-计算机",
+   "原科目": "803计算机网络(自命题,电气与信息工程学院)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/335",
+   "备注": "2026起智能网联汽车学院22408；085410人工智能(人工智能学院)仍为自命题电子技术基础数字部分，非408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 湖北汽车工业学院",
+   "url": "https://noobdream.com/schoolinfo/335/"
+  }
+ ],
+ "note": "408项目为085400电子信息-计算机方向(智能网联汽车学院)，非085410；一志愿常年招不满、调剂为主。真正085410人工智能在人工智能学院但考自命题(电子技术基础)，非408。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

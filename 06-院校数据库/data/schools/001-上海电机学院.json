@@ -1,30 +1,73 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "上海电机学院",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "上海电机学院",
+   "category": "S-主体",
    "province": "上海",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-大类招生",
    "college": "电子信息学院",
-   "program": "电子信息-大类招生",
-   "subjects": "英二数二408",
-   "line": null,
-   "retestCnt": "5",
-   "adjCnt": "290",
-   "avgTotal": "307",
-   "avg408": "77",
-   "avgPol": "58",
-   "avgEng": "71",
-   "avgMath": "101",
-   "admitCnt": "4",
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "273",
+    "2024": "273",
+    "2025": "260",
+    "2026": "国家线(264)"
+   },
+   "plan2026": "约180(研招网,含大量调剂)",
+   "fill": "调剂为主",
+   "retestCnt": "5一志愿+290调剂",
+   "admitCnt": "4一志愿+151调剂",
+   "admitMax": "326",
+   "admitMin": "281",
    "admitAvg": "309",
-   "rate": "80%",
-   "ratioNN": "1.2",
-   "note": "✅22408兼容；含电子信息"
+   "scope": "085400电子信息(大类招生,电子信息学院)2026第一年改考408；一志愿仅进复试5人、拟录取4人，巨量招调剂(290进复试/151录取)；一志愿拟录取均309【281-326】；408单科均分77",
+   "aiTag": "⚠️电子信息大类(非085410单列)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "77",
+   "nnRate": "80%(一志愿)",
+   "note": "2026由自命题(数据结构+C语言)改考22408；大类招生，一志愿常年招不满、调剂为主；一志愿拟录取均309【281-326】，408均分77；另光电文理学院/商学院电子信息全为调剂",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-大类招生",
+   "nnCollege": "电子信息学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "5",
+   "wdYears": "22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/OeHjb0AcWg9BzRv7KswS8Q",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/322/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "电子信息学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(264)",
+   "plan": "约180",
+   "retestCnt": "5一志愿+290调剂",
+   "admitCnt": "4一志愿+151调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "326",
+   "admitMin": "281",
+   "admitAvg": "309",
+   "scope": "一志愿4人拟录取均309【281-326】，调剂为主；2026首改408",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/schoolinfo/322/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666186380&idx=5&sn=f8075890977198d3e5729e2acd0fadfc&scene=21&poc_token=HLkHC2mjEqKbGg6Om3biqGVVoUgp98Jf3l7R10ML",
   "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666218230&idx=8&sn=7533610b9c887790c1fa74758fefdb8a&scene=21&poc_token=HKUHC2mjlFAl5cJAq17ztfBtyaEjviWRwm7xIj6X",
@@ -32,8 +75,29 @@
   "25考情": "https://mp.weixin.qq.com/s/0arytTX_YV-qjJyMdEsaFQ",
   "26考情": "https://mp.weixin.qq.com/s/OeHjb0AcWg9BzRv7KswS8Q"
  },
+ "updates2027": [
+  {
+   "院校": "上海电机学院",
+   "层次": "双非",
+   "专业/范围": "085400电子信息(电子信息学院/光电文理/商学院)",
+   "原科目": "数据结构+C语言(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/322",
+   "备注": "2026起各学院电子信息改考22408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 上海电机学院",
+   "url": "https://noobdream.com/schoolinfo/322/"
+  }
+ ],
+ "note": "085400电子信息大类招生(非085410单列)，2026首改408，一志愿常年招不满、调剂为主，适合压线/调剂考生。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

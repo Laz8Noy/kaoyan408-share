@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "西南科技大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "四川",
+   "region": "西南",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机科学与技术学院",
+   "direction": "电子信息-计算机/软件",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "60+2专项(计算机)",
+   "fill": "一志愿为主",
+   "retestCnt": "68(计算机)",
+   "admitCnt": "60+2专项",
+   "admitMax": "384",
+   "admitMin": "268",
+   "admitAvg": "305",
+   "scope": "N诺2026：计算机学院电子信息-计算机22408走国家线，进复试68，录取60+2专项，拟录取305【268-384】；电子信息-软件22408录70拟录取298；无独立AI方向；26改考408",
+   "aiTag": "无独立AI方向",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "无085410 AI独立方向；电子信息-计算机22408国家线，拟录取305【268-384】；四川绵阳，核工业背景",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机科学与技术学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/10/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情": "https://mp.weixin.qq.com/s/2nz9omqzeWRX1S_NpTbBtQ"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 西南科技大学",
+   "url": "https://noobdream.com/schoolinfo/10/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无独立AI；电子信息-计算机22408国家线，拟录取305【268-384】。"
 }

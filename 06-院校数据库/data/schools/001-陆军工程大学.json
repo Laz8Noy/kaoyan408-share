@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "陆军工程大学",
- "units": [],
+ "units": [
+  {
+   "category": "C-对照",
+   "province": "江苏",
+   "region": "华东",
+   "tier": "军校",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机",
+   "line2026": null,
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "plan2026": null,
+   "fill": "一志愿为主",
+   "retestCnt": null,
+   "admitCnt": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-计算机；复试None人 拟录取None人 调剂0人；进复试总分均None；408均None 政治None 英语None 数学None",
+   "aiTag": "⚠️偏传统",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "✅22408兼容；含电子信息；复试None录取None调剂0；进复试总分均None；军校(南京/石家庄)招无军籍地方生；N诺无公开复试录取数据，按军校不公开处理",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "校本部（江苏南京）石家庄校区（河北石家庄）可招收无军籍地方生",
+   "nnSubjects": "英二数二408",
+   "college": "校本部（江苏南京）石家庄校区（河北石家庄）可招收无军籍地方生"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +68,12 @@
   "26考情": "https://mp.weixin.qq.com/s/wrgX8Vqz22iP2EXRDJRg8A"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +82,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "校本部（江苏南京）石家庄校区（河北石家庄）可招收无军籍地方生",
+   "tier": "军校",
+   "subjects": "英二数二408",
+   "line2026": null,
+   "plan": null,
+   "retestCnt": null,
+   "admitCnt": null,
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-计算机；复试None人 拟录取None人 调剂0人；进复试总分均None；408均None 政治None 英语None 数学None",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

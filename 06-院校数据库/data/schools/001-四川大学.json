@@ -7,12 +7,12 @@
    "province": "四川",
    "region": "西南",
    "tier": "985",
-   "subjectClass": "无085410",
+   "subjectClass": "22408",
    "heatComp": "55",
    "heatNet": "92",
    "aiTag": "✅真AI方向",
-   "note": "085410线待官方核实，作985对照全日制无085410；AI相关为140500学硕(英一数一408)/085400",
-   "srcLabel": "网络热度",
+   "note": "985；计算机学院电子信息(085400大类)22408线361均分389，高分热门；非单列085410，作川渝对照参考",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
     "三源核对",
@@ -27,8 +27,22 @@
    "wdUrl26": "https://mp.weixin.qq.com/s/KCcb5Jq3HQB8aI06Uo8Yzg",
    "remark": "川渝参考085400",
    "kaoqingUrl": "https://www.kaoyana.com/s1015/140500/50900/",
-   "scope": "全日制未设085410（AI相关为140500学硕·英一数一408或085400电子信息）；2024仅航空航天学院非全085410，不符合22408",
-   "college": "计算机学院（相关）"
+   "scope": "N诺2026(zexiao/schoolinfo13)：计算机学院电子信息(085400大类)22408线361，复试166+5专项录103+5专项，均分389【362-426】；学硕计科11408线328；非单列085410人工智能",
+   "college": "计算机学院(软件学院/智能科学与技术学院)",
+   "line2026": "361",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "361"
+   },
+   "retestCnt": "166+5专项",
+   "admitCnt": "103+5专项",
+   "admitAvg": "389",
+   "admitMin": "362",
+   "admitMax": "426",
+   "fill": "一志愿为主",
+   "nn408avg": null
   }
  ],
  "crossRefs": [],
@@ -67,7 +81,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺四川大学schoolinfo/13",
+   "url": "https://noobdream.com/schoolinfo/13/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

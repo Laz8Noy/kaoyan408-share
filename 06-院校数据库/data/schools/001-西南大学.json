@@ -22,7 +22,24 @@
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/vJjuJQnlOpcrqOL0V_q7LA",
    "scope": "2026年无085410（085400）；2027年改设085410并考408，历史线无",
-   "college": "人工智能学院"
+   "college": "人工智能学院",
+   "line2026": "307",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "292",
+    "2026": "307"
+   },
+   "retestCnt": "67+1专项",
+   "admitCnt": "45",
+   "admitMax": "408",
+   "admitMin": "322",
+   "admitAvg": "371",
+   "fill": "一志愿为主",
+   "plan2026": "45",
+   "nnProg": "电子信息(085400→085410)",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "2026:891计算机基础与数字电路;2027改408"
   }
  ],
  "crossRefs": [],
@@ -74,7 +91,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 西南大学",
+   "url": "https://noobdream.com/schoolinfo/6/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -84,5 +106,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "2026考891(非408)线307拟录取371；2027改408且更名085410。仅2027备考适用408。"
 }

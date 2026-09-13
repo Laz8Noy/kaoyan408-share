@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "长江大学",
- "units": [],
+ "units": [
+  {
+   "category": "C-对照",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机科学学院",
+   "nnProg": "电子信息-计算机(085404)",
+   "nnCollege": "计算机科学学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": "273",
+    "2024": "273",
+    "2025": "292",
+    "2026": "264"
+   },
+   "plan2026": "约57(21一志愿+36调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "22+调剂",
+   "admitCnt": "21+36调剂",
+   "admitMax": "344",
+   "admitMin": "266",
+   "admitAvg": "301",
+   "scope": "相关口径=085404电子信息-计算机(非085410)。2026首年改408(此前22DS自命题)。N诺2026：线NC(=A区国家线264)，进复试22+调剂均299【266-344】，单科56/66/99/78；录21+36调剂，一志愿均301【266-344】。改考首年线降、大量调剂",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "78",
+   "nnRate": null,
+   "note": "经N诺schoolinfo/90核对：长江大学无085410专列；2026起计算机学院电子信息-计算机改22408；线国家线264，录21+36调剂均301。改考首年调剂多",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/90/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085404电子信息-计算机",
+   "line2026": "264",
+   "plan": "约57",
+   "retestCnt": "22+调剂",
+   "admitCnt": "21+36调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "344",
+   "admitMin": "266",
+   "admitAvg": "301",
+   "scope": "085404(非085410)2026首年改22408；线264=国家线，进复试22+调剂均299录57均301",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/90/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "长江大学",
    "province": "湖北",
    "college": "计算机科学学院",
    "program": "电子信息-计算机",
-   "subjects": "英二数二408",
-   "line": null,
+   "subjects": "22408",
+   "line": "264",
    "retestCnt": "22",
-   "adjCnt": "0",
+   "adjCnt": "36",
    "avgTotal": "299",
    "avg408": "78",
    "avgPol": "56",
    "avgEng": "66",
    "avgMath": "99",
-   "admitCnt": "21",
-   "admitAvg": null,
+   "admitCnt": "57",
+   "admitAvg": "301",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；2026改408；无085410"
   }
  ],
  "wangdaoLinks": {
@@ -32,8 +93,25 @@
   "25考情分析": "https://mp.weixin.qq.com/s/IlZ2Kkid14PUqhe5tLNoGg",
   "26考情分析": "https://mp.weixin.qq.com/s/EiKLdBt0WVNvcDF65xgajg"
  },
+ "updates2027": [
+  {
+   "院校": "长江大学",
+   "层次": "双非",
+   "专业/范围": "计算机科学学院电子信息",
+   "原科目": "22DS自命题",
+   "新科目": "22408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/90",
+   "备注": "2026起计算机学院电子信息-计算机改22408；2027沿用；无085410专列"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺长江大学考情",
+   "url": "https://noobdream.com/schoolinfo/90/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

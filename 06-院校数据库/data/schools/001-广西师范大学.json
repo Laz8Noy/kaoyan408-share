@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "广西师范大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "广西",
+   "region": "华南",
+   "tier": "双非(B区)",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机科学与信息工程学院",
+   "nnProg": "电子信息-软件工程(085405)",
+   "nnCollege": "计算机科学与信息工程学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "254",
+   "lineDelta": "=B区国家线",
+   "linesByYear": {
+    "2023": "263",
+    "2024": "256",
+    "2025": "250",
+    "2026": "254"
+   },
+   "plan2026": "约67(15一志愿+52调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "15+调剂",
+   "admitCnt": "15+52调剂",
+   "admitMax": "332",
+   "admitMin": "257",
+   "admitAvg": "279",
+   "scope": "相关口径=电子信息-软件工程/计算机/大数据(085400，非085410)。B区双非(计算机C+软工B-)。2026首年改408(此前22DS+CN自命题)。N诺2026：线NC(=B区国家线254)。电子信息-软件工程进复试15+调剂均279【257-332】录15+52；计算机方向进复试13+调剂均273【256-304】录13+12；大数据方向进复试6+调剂均290【267-310】录6+24。改考首年大量调剂",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "73",
+   "nnRate": "100%",
+   "note": "经N诺schoolinfo/270核对：广西师大2026首年改22408(B区国家线)；无085410专列。电子信息各方向(计算机/软件/大数据)均22408，一志愿少、大量调剂，B区性价比",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/270/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与信息工程学院",
+   "tier": "双非(B区)",
+   "subjects": "22408",
+   "program": "电子信息(计算机/软件/大数据方向)",
+   "line2026": "254",
+   "plan": "约",
+   "retestCnt": "13+15+6",
+   "admitCnt": "13+12 / 15+52 / 6+24",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "332",
+   "admitMin": "256",
+   "admitAvg": "279",
+   "scope": "2026首年改22408；B区国家线；电子信息各方向均大量调剂",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/270/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "广西师范大学",
    "province": "广西",
    "college": "计算机科学与信息工程学院",
    "program": "电子信息-软件工程",
-   "subjects": "英二数二408",
-   "line": null,
+   "subjects": "22408",
+   "line": "254",
    "retestCnt": "15",
-   "adjCnt": "0",
+   "adjCnt": "52",
    "avgTotal": "279",
    "avg408": "73",
    "avgPol": "55",
    "avgEng": "63",
    "avgMath": "88",
-   "admitCnt": "15",
-   "admitAvg": null,
+   "admitCnt": "67",
+   "admitAvg": "279",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；2026改408；无085410专列"
   }
  ],
  "wangdaoLinks": {
@@ -34,8 +95,25 @@
   "25考情分析": "https://mp.weixin.qq.com/s/K7EPQxAMs7e0lDtVVfkIrw",
   "26考情分析": "https://mp.weixin.qq.com/s/pEdl9x1Pa7o7aJ9CvpWTWQ"
  },
+ "updates2027": [
+  {
+   "院校": "广西师范大学",
+   "层次": "双非(B区)",
+   "专业/范围": "计算机科学与信息工程学院",
+   "原科目": "22DS+CN自命题",
+   "新科目": "22408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/270",
+   "备注": "2026起全改408(学硕11408/12408、专硕22408)；2027沿用；无085410专列"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺广西师范大学考情",
+   "url": "https://noobdream.com/schoolinfo/270/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

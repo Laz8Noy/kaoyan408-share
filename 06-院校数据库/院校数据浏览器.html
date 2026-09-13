@@ -294,7 +294,7 @@ function dhtml(db,cbj,s){
   if(db){
     var kq=db.kaoqingDetail2026||[];
     if(kq.length){
-      h+="<h3>2026 分学院考情明细</h3>"+tbl([["college","学院"],["subjects","科目"],["line2026","2026线"],["plan","拟招"],
+      h+="<h3>2026 分学院考情明细</h3>"+tbl([["college","学院"],["program","志愿专业"],["batch","批次"],["subjects","科目"],["line2026","2026线"],["plan","拟招"],
         ["retestCnt","复试数"],["admitCnt","录取数"],["ratioRetest","复录比"],["ratioApply","报录比"],
         ["admitMax","最高"],["admitMin","最低"],["admitAvg","均分"],["verify","核实"]],kq)+
         kq.filter(function(r){return r.scope}).map(function(r){return "<p class='note'>📌 "+esc(r.college)+"："+esc(r.scope)+
@@ -377,10 +377,11 @@ var LBL={college:"学院",province:"省份",region:"地区",tier:"层次",subjec
  lineUltimate2026:"终极线",plan2026:"拟招",fill:"调剂",ratioRetest:"复录比",retestCnt:"复试数",admitCnt:"录取数",
  admitMax:"最高分",admitMin:"最低分",admitAvg:"均分",ratioApply:"报录比",heatComp:"热度(竞品)",heatNet:"热度(网络)",
  aiTag:"AI方向",nn408avg:"N诺408均",nnRate:"N诺录取率",nnProg:"N诺专业",nnCollege:"N诺学院",nnSubjects:"N诺科目",
+ lineDelta:"线差",nnUrl:"N诺链接",scope2:"录取明细",fill2026:"2026调剂",direction:"方向",subjectClaim2026:"2026科目官宣",subjectStatus:"科目状态",
  cyCode:"川渝代码",cyRetest:"川渝复试",cyAdmit:"川渝录取",cyAvg:"川渝均分",wdCount:"王道链接数"};
-var UKS=["province","region","tier","subjectClass","line2026","lineUltimate2026","plan2026","fill","ratioRetest",
+var UKS=["province","region","tier","subjectClass","line2026","lineUltimate2026","plan2026","fill","fill2026","ratioRetest",
  "retestCnt","admitCnt","admitMax","admitMin","admitAvg","ratioApply","heatComp","heatNet","aiTag","nn408avg",
- "nnRate","nnProg","nnCollege","nnSubjects","cyCode","cyRetest","cyAdmit","cyAvg","wdCount"];
+ "nnRate","nnProg","nnCollege","nnSubjects","nnUrl","lineDelta","scope2","cyCode","cyRetest","cyAdmit","cyAvg","wdCount"];
 </script>
 </body>
 </html>

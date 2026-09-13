@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "北京工商大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "北京",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机与人工智能学院",
+   "direction": "电子信息-计算机",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "316",
+    "2026": "264"
+   },
+   "plan2026": "33一志愿+36调剂",
+   "fill": "调剂为主",
+   "retestCnt": "33一志愿+147调剂",
+   "admitCnt": "33一志愿+36调剂",
+   "admitMax": "376",
+   "admitMin": "266",
+   "admitAvg": "307",
+   "scope": "N诺2026：计算机与人工智能学院电子信息-计算机22408走国家线264，一志愿33+调剂147进复试，进复试均分307【266-376】，单科政56英71数97 408=84，录取33+36调剂；大数据/网安方向无一志愿；26数据结构改408",
+   "aiTag": "无AI方向",
+   "nn408avg": "84",
+   "nnRate": null,
+   "note": "无085410人工智能独立方向；电子信息-计算机22408，北京地区但调剂量极大(147调剂)；26改考408",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机与人工智能学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/64/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/ar7zDuGMsG-4oVlLzMvQqA"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 北京工商大学",
+   "url": "https://noobdream.com/schoolinfo/64/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无独立AI方向；电子信息-计算机22408走国家线，调剂极多(147)，进复试均分307【266-376】。"
 }

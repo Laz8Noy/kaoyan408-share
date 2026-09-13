@@ -1,30 +1,52 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "长春师范大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "长春师范大学",
+   "category": "C-对照",
    "province": "吉林",
+   "region": "东北",
+   "tier": "双非",
+   "subjectClass": null,
+   "direction": "软件工程(083500学硕)/计算机类",
    "college": "计算机科学与技术学院",
-   "program": "软件工程",
-   "subjects": "推测408",
-   "line": null,
-   "retestCnt": "30",
-   "adjCnt": "5",
-   "avgTotal": "334",
-   "avg408": "128",
-   "avgPol": "62",
-   "avgEng": "60",
-   "avgMath": "85",
-   "admitCnt": "30",
+   "line2026": "264(国家线)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "273",
+    "2024": "273",
+    "2025": null,
+    "2026": "264"
+   },
+   "plan2026": null,
+   "fill": null,
+   "retestCnt": null,
+   "admitCnt": null,
+   "admitMax": null,
+   "admitMin": null,
    "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "✅22408兼容"
+   "scope": "⚠️未确认是否408。N诺(noobdream.com)无该校schoolinfo页面；公开来源仅见083500软件工程(学硕)执行国家线264，复试笔试为'数据结构与算法'(机考C)，疑为自命题而非统考408；原nnCandidate专业课均分128偏高(408单科均分通常70-90)，进一步佐证疑为自命题两门",
+   "aiTag": "⚠️未确认408",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "数据不足，未硬编。N诺无schoolinfo页；官方2026目录未明确标注▲408；复试考数据结构与算法(自命题风格)；原表'推测408'无可靠依据。是否统考408、是否招085410需查研招网2027硕士目录或学校2027招生简章确认",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(分数线)"
+   ],
+   "wdCount": "5",
+   "wdYears": "22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/HJqUGVcVs0xQUAvP8TZPzA",
+   "kaoqingUrl": null
   }
  ],
+ "categoryGuess": "N诺新增候选(未确认408)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666185314&idx=6&sn=eb40f4ffd859e72b152f98c94bb62b52&scene=21&poc_token=HP5tDGmjiunflK9bd3-lAREvc3OPu9BzMuBSUzKy",
   "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666213145&idx=7&sn=2178058f31504ed5b059cdf7b6fa19a0&scene=21&poc_token=HPxtDGmjIopOK_c7KJnFzT0tFdfRVNanAKf9r7aq",
@@ -32,8 +54,39 @@
   "25考情": "https://mp.weixin.qq.com/s/Lftd62n33GaXCet-EnhTWg",
   "26考情": "https://mp.weixin.qq.com/s/HJqUGVcVs0xQUAvP8TZPzA"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "unit": "软件工程",
+   "claims": [
+    {
+     "src": "原nnCandidate",
+     "value": "推测408(专业课均分128)"
+    },
+    {
+     "src": "官方复试细则",
+     "value": "复试笔试=数据结构与算法(自命题风格)"
+    }
+   ],
+   "status": "待确认-疑自命题",
+   "action": "N诺无页面、官方未标▲408、专业课均分128疑自命题；是否统考408及是否招085410待研招网2027目录核实，未硬编数字"
+  }
+ ],
+ "sources": [
+  {
+   "label": "长春师范大学2026招生简章",
+   "url": "https://yjs.ccsfu.edu.cn/info/1065/265400.htm"
+  },
+  {
+   "label": "长春师范大学计算机学院2025复试细则(笔试数据结构与算法)",
+   "url": "https://jisuanji.ccsfu.edu.cn/info/1034/62770.htm"
+  }
+ ],
+ "note": "⚠️未确认408。N诺无schoolinfo页；公开来源仅见083500软件工程(学硕)线264、复试考数据结构与算法，疑自命题。是否统考408/招085410待研招网2027目录核实。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

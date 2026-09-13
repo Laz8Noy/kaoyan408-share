@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "南京信息工程大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "江苏",
+   "region": "华东",
+   "tier": "双一流",
+   "subjectClass": "22408",
+   "college": "人工智能学院",
+   "direction": "电子信息-人工智能",
+   "line2026": "323",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "323"
+   },
+   "plan2026": "167+3补录",
+   "fill": "一志愿为主",
+   "retestCnt": "209",
+   "admitCnt": "167+3补录",
+   "admitMax": "411",
+   "admitMin": "323",
+   "admitAvg": "349",
+   "scope": "N诺2026：人工智能学院电子信息-人工智能22408，复试线323，进复试209人，进复试均分346【323-411】，单科政62英74数118 408=92，拟录取167+3补录，拟录取349【323-411】；创新港AI 22408线301录11；未来技术学院AI 22408线324录5；2027起改811信号与系统",
+   "aiTag": "✅真AI方向",
+   "nn408avg": "92",
+   "nnRate": null,
+   "note": "22408 AI规模大(进复试209录167)，线323偏高，拟录取均分349【323-411】；⚠️2027起085410由408改考811信号与系统(官方2026-06-18)，2027不再适用408",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/164/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -35,7 +70,12 @@
   "26考情": "https://mp.weixin.qq.com/s/eFdHzYLm6OMDcpH_On_lDg"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 南京信息工程大学",
+   "url": "https://noobdream.com/schoolinfo/164/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

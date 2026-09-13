@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "天津财经大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "天津",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "11408",
+   "college": "理工学院",
+   "direction": "计算机科学与技术(学硕)",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "273",
+    "2026": "264"
+   },
+   "plan2026": "1一志愿+19调剂",
+   "fill": "大量调剂",
+   "retestCnt": "1一志愿+57调剂",
+   "admitCnt": "1一志愿+19调剂",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "306",
+   "scope": "N诺2026：理工学院仅计算机科学与技术学硕11408，走国家线，一志愿1人+57调剂，进复试均分306，录取1+19调剂；无085410电子信息专硕",
+   "aiTag": "不招085410",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "该校无085410/电子信息专硕，仅有计算机学硕(11408)；不适用22408专硕目标",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "计算机科学与技术",
+   "nnCollege": "理工学院",
+   "nnSubjects": "英一数一408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/176/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情": "https://mp.weixin.qq.com/s/JZQ06bM71xUtaPtn_YYniw"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 天津财经大学",
+   "url": "https://noobdream.com/schoolinfo/176/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "不招085410/电子信息专硕，仅计算机学硕11408且纯调剂；与22408专硕目标不符。"
 }

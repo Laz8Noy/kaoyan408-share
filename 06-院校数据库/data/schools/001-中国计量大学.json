@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "中国计量大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "浙江",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "信息工程学院",
+   "direction": "电子信息-人工智能",
+   "line2026": "270",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "270"
+   },
+   "plan2026": "27",
+   "fill": "一志愿为主",
+   "retestCnt": "35",
+   "admitCnt": "27",
+   "admitMax": "343",
+   "admitMin": "284",
+   "admitAvg": "306",
+   "scope": "N诺2026：信息工程学院电子信息-人工智能22408，复试线270，进复试35人，进复试均分299【272-343】，拟录取27人，拟录取分306【284-343】；电子信息-计算机22408线285录48；26改考408",
+   "aiTag": "✅真AI方向",
+   "nn408avg": null,
+   "nnRate": "77%",
+   "note": "22408 AI方向，复试线270，一志愿35进复试录27，拟录取均分306；26年由自命题改考408",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "信息工程学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/128/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情": "https://mp.weixin.qq.com/s/rQ7yDp-XapayMmoNAA88Ew"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 中国计量大学",
+   "url": "https://noobdream.com/schoolinfo/128/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "22408 AI，线270，进复试35录27，拟录取均分306【284-343】；26改考408。"
 }

@@ -11,8 +11,8 @@
    "heatComp": "53",
    "heatNet": "78",
    "aiTag": "✅真AI方向",
-   "note": "计科院2025线351（2026待核）；未来学院2025线343、复试Python程序设计；复试=程序设计60%+DS20%+算法20%",
-   "srcLabel": "官方",
+   "note": "211；计算机学院电子信息-人工智能22408线326录10+12联培均356；历年线23=334/24=333/25=351/26=326；未来科学与工程学院AI另招(见U1)",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
     "三源核对"
@@ -20,7 +20,55 @@
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/PsdOHtvKt1kR_QphQHSWXw",
-   "college": "计算机科学与技术学院+未来科学与工程学院"
+   "college": "计算机科学与技术学院",
+   "line2026": "326",
+   "linesByYear": {
+    "2023": "334",
+    "2024": "333",
+    "2025": "351",
+    "2026": "326"
+   },
+   "retestCnt": "27",
+   "admitCnt": "10+12联培",
+   "admitAvg": "356",
+   "admitMin": "326",
+   "admitMax": "396",
+   "scope": "N诺2026(schoolinfo46)：计算机学院电子信息-人工智能22408线326复试27拟录取10+12联培均分356【326-396】单科61/79/119/94"
+  },
+  {
+   "category": "C-对照",
+   "province": "江苏",
+   "region": "华东",
+   "tier": "211",
+   "subjectClass": "22408",
+   "direction": "电子信息-人工智能",
+   "line2026": "340",
+   "lineDelta": "-3",
+   "linesByYear": {
+    "2023": null,
+    "2024": "303",
+    "2025": "343",
+    "2026": "340"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主",
+   "retestCnt": "29",
+   "admitCnt": "19",
+   "admitMax": "420",
+   "admitMin": "340",
+   "admitAvg": "371",
+   "scope": "N诺2026：未来科学与工程学院电子信息-人工智能22408线340复试29拟录取19均分371【340-420】单科62/78/124/100",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "100",
+   "nnRate": null,
+   "note": "211；未来科学与工程学院电子信息-人工智能22408线340录19均371，分数偏高",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "未来科学与工程学院",
+   "nnSubjects": "英二数二408",
+   "college": "未来科学与工程学院"
   }
  ],
  "crossRefs": [],
@@ -43,7 +91,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺苏州大学schoolinfo/46",
+   "url": "https://noobdream.com/schoolinfo/46/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

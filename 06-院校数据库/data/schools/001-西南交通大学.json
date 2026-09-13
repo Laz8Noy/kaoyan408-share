@@ -8,17 +8,39 @@
    "region": "西南",
    "tier": "211",
    "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机与人工智能学院",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机与人工智能学院",
+   "nnSubjects": "英二数二408",
    "line2026": "310",
    "lineDelta": "+46",
-   "heatComp": "54",
-   "heatNet": "78",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "360",
+    "2026": "310"
+   },
+   "plan2026": "约19",
+   "fill": "一志愿为主",
+   "retestCnt": "26",
+   "admitCnt": "19",
+   "admitMax": "384",
+   "admitMin": "313",
+   "admitAvg": "345",
+   "scope": "085410人工智能；2026首年改408。进复试26人，进复试均分342【311-384】，单科均61/77/115/89；拟录取19人，录取均分345【313-384】；复试线310(官方细则)；2025为自命题(DS+程序设计)线360",
    "aiTag": "✅真AI方向",
-   "note": "川渝版已核实：085410复试线310，408首年；2026计算机与AI学院30+信息学院18，均22408",
-   "srcLabel": "官方",
+   "heatNet": "78",
+   "heatComp": "54",
+   "nn408avg": null,
+   "nnRate": "73%",
+   "note": "川渝版已核实：085410复试线310，408首年；2026计算机与AI学院录19(复26)、信科学院录6(复6)，均22408；N诺2026表核对",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
     "三源核对",
-    "考情明细"
+    "考情明细",
+    "N诺"
    ],
    "lineUltimate2026": "310",
    "cyCode": "085404",
@@ -26,10 +48,49 @@
    "wdCount": "7",
    "wdYears": "20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/Z6__6iULK8pJSX5wk9zvew",
-   "remark": "川渝参考085404",
-   "kaoqingUrl": "https://www.kaoyana.com/s1071/085410/",
-   "scope": "计算机与AI学院30人+信息学院18人，均22408（kaoyana）；复试线310（官方）；复试名单PDF下载受限，明细查无",
-   "college": "计算机与人工智能学院"
+   "remark": "川渝参考085404；N诺schoolinfo/50",
+   "kaoqingUrl": "https://yz.swjtu.edu.cn/download/retrial/2026/202603211015558ecfab5914244fdd845269d4adda1928.pdf"
+  },
+  {
+   "category": "C-对照",
+   "province": "四川",
+   "region": "西南",
+   "tier": "211",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "信息科学与技术学院",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "信息科学与技术学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "275",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "275"
+   },
+   "plan2026": "约6",
+   "fill": "一志愿为主",
+   "retestCnt": "6",
+   "admitCnt": "6",
+   "admitMax": "355",
+   "admitMin": "277",
+   "admitAvg": "319",
+   "scope": "085410人工智能；2026改408。信科学院AI方向进复试6人全部录取，均分319【277-355】，单科均61/81/90/87；复试线275(国家线35/53)"
+,
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "100%",
+   "note": "信科学院085410人工智能22408，2026线275(即国家线)，复6录6，进复试即录；N诺2026表",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/50/",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/50/"
   }
  ],
  "crossRefs": [],
@@ -39,17 +100,34 @@
    "tier": "211",
    "subjects": "22408",
    "line2026": "310",
-   "plan": null,
-   "retestCnt": null,
-   "admitCnt": null,
+   "plan": "约19",
+   "retestCnt": "26",
+   "admitCnt": "19",
    "ratioRetest": null,
    "ratioApply": null,
-   "admitMax": null,
-   "admitMin": null,
-   "admitAvg": null,
-   "scope": "计算机与AI学院30人+信息学院18人，均22408（kaoyana）；复试线310（官方）；复试名单PDF下载受限，明细查无",
-   "verify": "机构🔍(科目)+官方(线)",
-   "url": "https://www.kaoyana.com/s1071/085410/"
+   "admitMax": "384",
+   "admitMin": "313",
+   "admitAvg": "345",
+   "scope": "085410人工智能22408；进复试26均342【311-384】；拟录取19均345【313-384】；复试线310官方细则",
+   "verify": "官方(线)+N诺(明细)",
+   "url": "https://yz.swjtu.edu.cn/download/retrial/2026/202603211015558ecfab5914244fdd845269d4adda1928.pdf"
+  },
+  {
+   "college": "信息科学与技术学院",
+   "tier": "211",
+   "subjects": "22408",
+   "line2026": "275",
+   "plan": "约6",
+   "retestCnt": "6",
+   "admitCnt": "6",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "355",
+   "admitMin": "277",
+   "admitAvg": "319",
+   "scope": "085410人工智能22408；进复试6人全录，均分319【277-355】；线275=国家线",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/50/"
   }
  ],
  "nnCandidates": [],
@@ -62,12 +140,32 @@
   "25考情": "https://mp.weixin.qq.com/s/ELcM2saN4NzM0AQ9JEtNjg",
   "26考情": "https://mp.weixin.qq.com/s/Z6__6iULK8pJSX5wk9zvew"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "西南交通大学",
+   "层次": "211",
+   "专业/范围": "085410人工智能(计科院/信科学院)",
+   "原科目": "自命题DS+程序设计",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/50 + 新东方在线(2025-11-14公告)",
+   "备注": "计算机与AI学院、信息科学与技术学院2026起全部改408；085410两学院均22408(英二数二408)；2027沿用408，暂无再改通知"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺西南交通大学考情",
+   "url": "https://noobdream.com/schoolinfo/50/"
+  },
+  {
+   "label": "西南交大计算机与AI学院2026复试细则(官方PDF)",
+   "url": "https://yz.swjtu.edu.cn/download/retrial/2026/202603211015558ecfab5914244fdd845269d4adda1928.pdf"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

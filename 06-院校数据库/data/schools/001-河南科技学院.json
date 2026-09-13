@@ -14,14 +14,21 @@
    "linesByYear": {
     "2023": null,
     "2024": null,
-    "2025": null,
+    "2025": "260",
     "2026": "264"
    },
-   "fill": "调剂",
+   "plan2026": "约7",
+   "fill": "调剂为主",
+   "retestCnt": null,
+   "admitCnt": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "河南科技学院(新乡)人工智能学院085410电子信息(人工智能)专硕,2026首年改考408(原C++程序设计自命题),22408;2025线260,2026执行A区国家线264;一志愿基本无上线、全部靠调剂(2026官方调剂细则明确085410接收调剂,要求初试含408)",
    "aiTag": "✅真AI方向",
    "heatNet": "38",
    "heatComp": "23",
-   "note": "调剂细则要求初试含408",
+   "note": "经官方调剂细则+新东方考情核对:河科院085410人工智能2026首年改22408,线国家线264,招生约7人、大量调剂;一志愿录取均分/最高分未公示",
    "srcLabel": "官方",
    "src": [
     "总览",
@@ -37,7 +44,26 @@
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "人工智能学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085410电子信息(人工智能)",
+   "line2026": "264",
+   "plan": "约7",
+   "retestCnt": null,
+   "admitCnt": null,
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "2026首年改408(原C++自命题);线264=国家线,大量调剂,一志愿上线/录取未公示",
+   "verify": "官方",
+   "url": "https://ai.hist.edu.cn/info/1828/7799.htm"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "23考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666208790&idx=5&sn=8ca0af8e631f5312d0e43629bb917ca6&scene=21&poc_token=HEf9C2mjvrLQK4Q8pJe0XA09RDj2-pzh5nhynbzJ",
@@ -45,7 +71,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/Q6HtatRH-xEVHh5K4NNwWQ",
   "26考情分析": "https://mp.weixin.qq.com/s/ALCwNcb1hJvPD6GcOdkF9w"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "河南科技学院",
+   "层次": "双非",
+   "专业/范围": "085410电子信息(人工智能)",
+   "原科目": "C++程序设计自命题",
+   "新科目": "22408(英二数二408)",
+   "生效年份": "2026",
+   "来源": "新东方考情(2026改408)+官方调剂细则",
+   "备注": "2026首年改408;2027沿用;招生约7人,调剂为主"
+  }
+ ],
  "tutors": [],
  "inTJList": {
   "subjects": "22408",
@@ -60,8 +97,12 @@
  "conflicts": [],
  "sources": [
   {
-   "label": "河南科技学院085410调剂细则",
+   "label": "河南科技学院085410调剂细则(官方)",
    "url": "https://ai.hist.edu.cn/info/1828/7799.htm"
+  },
+  {
+   "label": "河南科技学院2026改408考情(新东方)",
+   "url": "https://m.koolearn.com/kaoyan/20251114/1901766.html"
   }
  ],
  "generated": {

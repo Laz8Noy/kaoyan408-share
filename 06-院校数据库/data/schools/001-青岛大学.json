@@ -9,41 +9,68 @@
    "tier": "双非",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
+   "college": "计算机科学与技术学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "计算机科学与技术学院",
+   "nnSubjects": "英二数二408",
    "line2026": "264",
-   "lineDelta": "=国家线",
+   "lineDelta": "=A区国家线",
    "linesByYear": {
     "2023": null,
     "2024": null,
     "2025": null,
     "2026": "264"
    },
-   "plan2026": "35",
-   "fill": "一志愿为主",
+   "plan2026": "约39(24一志愿+15调剂)",
+   "fill": "一志愿为主+调剂",
+   "retestCnt": "24+27调剂",
+   "admitCnt": "24+15调剂",
+   "admitMax": "378",
+   "admitMin": "270",
+   "admitAvg": "305",
+   "scope": "085410人工智能(计算机科学与技术学院)22408。双非(计算机C+)。2026新增专业(停招软件工程、改考408后新设085410)。N诺2026：线NC(=A区国家线264)，进复试24+27调剂均305【270-378】，单科53/72/99/82；录24+15调剂，一志愿均305【270-378】。改考+新增首年，调剂名额多",
    "aiTag": "✅真AI方向",
    "heatNet": "58",
    "heatComp": "33",
    "nn408avg": "82",
    "nnRate": "100%",
-   "note": "2026新增招生专业；学院全部改考408",
-   "srcLabel": "官方",
+   "note": "2026新增085410人工智能(计科院22408)；线264=国家线，进复试24+27调剂均305录39。学院2026全部取消自命题改408",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
-    "三源核对"
+    "三源核对",
+    "N诺"
    ],
    "lineUltimate2026": "264",
-   "nnProg": "电子信息-人工智能",
-   "nnCollege": "计算机科学与技术学院",
-   "nnSubjects": "推测408",
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/p-2sL4EpGseIliTwHyV8Rw",
-   "college": "计算机科学技术学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/154/"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与技术学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": "264",
+   "plan": "约39",
+   "retestCnt": "24+27调剂",
+   "admitCnt": "24+15调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "378",
+   "admitMin": "270",
+   "admitAvg": "305",
+   "scope": "085410人工智能22408(2026新增)；线264=国家线，进复试24+27调剂均305录39",
+   "verify": "N诺+官方",
+   "url": "https://noobdream.com/schoolinfo/154/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233310&idx=6&sn=21eea5de6ab459c51f9021ffa413f597&scene=21&poc_token=HJEFDGmj3rrR5jLBvz7GYNcCUs1hMuPvfc6od_YB",
@@ -59,12 +86,12 @@
   {
    "院校": "青岛大学",
    "层次": "双非",
-   "专业/范围": "085410人工智能(新增专业)",
-   "原科目": null,
-   "新科目": "408",
+   "专业/范围": "计算机科学与技术学院(第四单元)",
+   "原科目": "910数据结构自命题",
+   "新科目": "408(专硕22408)",
    "生效年份": "2026",
-   "来源": "官方公告2025-07",
-   "备注": "计科院35人22408；执行国家线"
+   "来源": "官方公告2025-07 + N诺schoolinfo/154",
+   "备注": "2026计科院取消自命题改408，停招软件工程、新增085410人工智能(22408)；2027沿用"
   }
  ],
  "tutors": [],
@@ -75,6 +102,10 @@
   {
    "label": "青岛大学085410招生",
    "url": "https://www.kaoyana.com/s1135/085410/"
+  },
+  {
+   "label": "N诺青岛大学考情",
+   "url": "https://noobdream.com/schoolinfo/154/"
   }
  ],
  "generated": {

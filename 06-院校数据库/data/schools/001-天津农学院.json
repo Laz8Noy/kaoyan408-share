@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "天津农学院",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "天津",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机与信息工程学院",
+   "direction": "电子信息-人工智能",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "264"
+   },
+   "plan2026": "0一志愿+38调剂",
+   "fill": "大量调剂",
+   "retestCnt": "0一志愿+86调剂",
+   "admitCnt": "0一志愿+38调剂",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-人工智能22408走国家线，一志愿无人上线，进复试全部86为调剂，录取38全部调剂；电子信息-计算机22408一志愿仅1人+72调剂；2025年AI方向一志愿1人+12调剂拟录取290",
+   "aiTag": "✅真AI方向(调剂友好)",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "085410 AI方向22408但纯调剂(一志愿0人)，报考极冷，过国家线调剂机会大；工程技术学院也招AI(0+10调剂)",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机与信息工程学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/306/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +67,12 @@
   "26考情": "https://mp.weixin.qq.com/s/Brqwt19bI4WAlCQB0sgvXw"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 天津农学院",
+   "url": "https://noobdream.com/schoolinfo/306/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +81,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "22408 AI纯调剂校(一志愿0，调剂86进复试录38)，国家线即可，极冷门调剂选择。"
 }

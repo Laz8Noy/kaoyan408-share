@@ -9,13 +9,13 @@
    "tier": "双非",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
-   "line2026": "264",
+   "line2026": "国家线",
    "lineDelta": "=国家线",
    "linesByYear": {
     "2023": null,
     "2024": null,
-    "2025": null,
-    "2026": "264"
+    "2025": "260",
+    "2026": "国家线"
    },
    "plan2026": "35",
    "fill": "一志愿复试17人",
@@ -25,8 +25,8 @@
    "heatComp": "35",
    "nn408avg": "76",
    "nnRate": "80%",
-   "note": "复试考察C++；2026拟招35",
-   "srcLabel": "官方+机构",
+   "note": "双非；人工智能与大数据学院电子信息-人工智能22408走国家线，复试22录17均307；信息学院电子信息-计算机22408线307录100均332",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -40,7 +40,13 @@
    "wdCount": "5",
    "wdYears": "22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/9EPRYdO4rXFTKkXywN1gXQ",
-   "college": "人工智能与大数据学院"
+   "college": "人工智能与大数据学院",
+   "retestCnt": "22",
+   "admitCnt": "17",
+   "admitAvg": "307",
+   "admitMin": "275",
+   "admitMax": "356",
+   "scope": "N诺2026(schoolinfo213)：人工智能与大数据学院电子信息-人工智能22408执行国家线，复试22录17均分307【275-356】单科62/66/96/76；信息学院电子信息-计算机22408另招线307录100均332"
   }
  ],
  "crossRefs": [],
@@ -64,6 +70,10 @@
   {
    "label": "河南工业大学085410复试细则",
    "url": "https://aidata.haut.edu.cn/info/1208/11368.htm"
+  },
+  {
+   "label": "N诺河南工业大学schoolinfo/213",
+   "url": "https://noobdream.com/schoolinfo/213/"
   }
  ],
  "generated": {

@@ -1,30 +1,73 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "天津师范大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "天津师范大学",
+   "category": "S-主体",
    "province": "天津",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-软件工程/大数据",
    "college": "计算机与信息工程学院",
-   "program": "电子信息-软件工程",
-   "subjects": "英二数二408",
-   "line": "266",
-   "retestCnt": "27",
-   "adjCnt": "0",
-   "avgTotal": "304",
-   "avg408": "78",
-   "avgPol": "64",
-   "avgEng": "65",
-   "avgMath": "97",
-   "admitCnt": "26",
+   "line2026": "266",
+   "lineDelta": "+6",
+   "linesByYear": {
+    "2023": "274",
+    "2024": "277",
+    "2025": "260",
+    "2026": "266"
+   },
+   "plan2026": "软件26+大数据22+13调剂",
+   "fill": "一志愿为主",
+   "retestCnt": "软件27+大数据22+44调剂",
+   "admitCnt": "软件26+大数据22+13调剂",
+   "admitMax": "382",
+   "admitMin": "266",
    "admitAvg": "305",
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "scope": "085400电子信息(计算机+软件)2026线266；软件工程22408进复试27人、拟录取26人均305【266-382】；大数据方向22408进复试22+44调剂、拟录取297【266-330】；408单科均分软件78/大数据72",
+   "aiTag": "⚠️电子信息软件/大数据(非085410单列)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "78",
+   "nnRate": "100%(软件)",
+   "note": "2025起由808自命题改考22408；电子信息分软件工程/大数据方向，线266，软件工程一志愿为主均305【266-382】；大数据方向招44调剂；无单列085410人工智能；408均分78",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-软件工程",
+   "nnCollege": "计算机与信息工程学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "7",
+   "wdYears": "19考情,21考情,22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/h4s5cj5QIMrDHAB1kMiVYA",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/305/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与信息工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "266",
+   "plan": "软件26+大数据22+13调剂",
+   "retestCnt": "软件27+大数据22+44调剂",
+   "admitCnt": "软件26+大数据22+13调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "382",
+   "admitMin": "266",
+   "admitAvg": "305",
+   "scope": "软件工程一志愿均305【266-382】；大数据招调剂均297；线266；2025改考408",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/schoolinfo/305/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666151919&idx=3&sn=eb05fd2a3103d2c10e9b119b53c47f61&scene=21&poc_token=HHm7Cmmj8IdJhX8xSxcSwAM2T52CRqJAcevYS0s-",
   "21考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666163819&idx=5&sn=c2b5002af3a24a80024cf6fa83445921&scene=21&poc_token=HE27CmmjUxK1hhpzvtKARZCVsNqf9jfgcrKg_01z",
@@ -34,8 +77,29 @@
   "25考情": "https://mp.weixin.qq.com/s/IfyPFdAGiQZf-b0jbZAoag",
   "26考情": "https://mp.weixin.qq.com/s/h4s5cj5QIMrDHAB1kMiVYA"
  },
+ "updates2027": [
+  {
+   "院校": "天津师范大学",
+   "层次": "双非",
+   "专业/范围": "077500计科/085400电子信息",
+   "原科目": "808数据结构与C++(自命题)",
+   "新科目": "408",
+   "生效年份": "2025",
+   "来源": "N诺schoolinfo/305",
+   "备注": "2025起电子信息22408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 天津师范大学",
+   "url": "https://noobdream.com/schoolinfo/305/"
+  }
+ ],
+ "note": "085400电子信息(软件/大数据方向，非085410单列)，2025改考22408，线266、软件工程拟录取均305，贴近用户310档。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

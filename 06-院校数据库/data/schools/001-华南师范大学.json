@@ -23,7 +23,24 @@
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/6OW8MwOmtJCfT5nn_tBSxg",
-   "college": "计算机学院（相关）"
+   "college": "计算机学院（相关）",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "309",
+    "2026": "324"
+   },
+   "retestCnt": "123(人工智能学院)",
+   "admitCnt": "70",
+   "admitMax": "403",
+   "admitMin": "327",
+   "admitAvg": "359",
+   "fill": "一志愿为主",
+   "plan2026": "70",
+   "scope": "N诺2026：人工智能学院电子信息-人工智能22408，线324，进复试123，均分352【324-403】，录70，拟录取359【327-403】；计算机学院/数据学院另有电子信息-计算机/软件方向",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二408"
   }
  ],
  "crossRefs": [],
@@ -44,7 +61,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 华南师范大学",
+   "url": "https://noobdream.com/schoolinfo/133/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -54,5 +76,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "211；22408 AI线324拟录取359【327-403】，偏高。"
 }

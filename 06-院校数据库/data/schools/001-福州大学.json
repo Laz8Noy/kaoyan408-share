@@ -8,45 +8,75 @@
    "region": "华东",
    "tier": "211",
    "subjectClass": "22408",
-   "line2026": "264",
-   "lineDelta": "=国家线",
-   "heatComp": "34",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "计算机与大数据学院",
+   "line2026": "366",
+   "lineDelta": "+40",
+   "linesByYear": {
+    "2023": "348",
+    "2024": "285",
+    "2025": "326",
+    "2026": "366"
+   },
+   "plan2026": "36",
+   "fill": "一志愿为主",
+   "retestCnt": "44",
+   "admitCnt": "36",
+   "admitMax": "411",
+   "admitMin": "366",
+   "admitAvg": "381",
+   "scope": "085410人工智能(计算机与大数据学院)2026线366；22408；一志愿进复试44人，进复试均分379【366-411】；拟录取36人均381【366-411】；2026复试笔试改机试、缩招20人",
+   "aiTag": "✅真AI方向(但分数爆涨)",
    "heatNet": "72",
-   "aiTag": "✅真AI方向",
-   "note": "2025一志愿62人复试录取51人，复录比约1.2；机试参考《程序设计导引及在线实践》《数据结构(C语言描述)》；2026院线待核；计划28",
-   "srcLabel": "官方",
+   "heatComp": "34",
+   "nn408avg": null,
+   "nnRate": "约82%",
+   "note": "⚠️2026分数线暴涨：AI由2025的326涨至366、计算机技术376(超部分985)，远超用户310档；复试初7:3；复试考机试+专业基础(操作系统+人工智能)；同院计算机技术线376、软件工程359。原文件line2026=264系误录(2024线)，已据N诺+抖音校正为366",
+   "srcLabel": "第三方+官方",
    "src": [
     "区域榜",
     "三源核对",
-    "考情明细"
+    "N诺",
+    "官方(复试方案)"
    ],
-   "lineUltimate2026": "264",
+   "lineUltimate2026": "366",
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/r0MuZvkW2_dz0eLZb5ruiQ",
-   "kaoqingUrl": "https://www.kaoyana.com/s1096/085410/",
-   "scope": "计划28（kaoyana），线264；复试结果附件在镜像站为付费文档，官网明细查无；复录比1.2为2025口径（62进51）",
-   "college": "计算机与大数据学院"
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/53/"
   }
  ],
- "crossRefs": [],
+ "crossRefs": [
+  {
+   "name": "电子信息-计算机(085404)",
+   "subjects": "22408",
+   "line2026": "376",
+   "note": "极卷，线376、拟录取85+1专项均390【377-417】"
+  },
+  {
+   "name": "电子信息-软件工程",
+   "subjects": "22408",
+   "line2026": "359",
+   "note": "线359、拟录取28人均377【359-416】"
+  }
+ ],
  "kaoqingDetail2026": [
   {
    "college": "计算机与大数据学院",
    "tier": "211",
    "subjects": "22408",
-   "line2026": "264",
-   "plan": "28",
-   "retestCnt": null,
-   "admitCnt": null,
+   "line2026": "366",
+   "plan": "36",
+   "retestCnt": "44",
+   "admitCnt": "36",
    "ratioRetest": "1.2",
    "ratioApply": null,
-   "admitMax": null,
-   "admitMin": null,
-   "admitAvg": null,
-   "scope": "计划28（kaoyana），线264；复试结果附件在镜像站为付费文档，官网明细查无；复录比1.2为2025口径（62进51）",
-   "verify": "机构🔍",
-   "url": "https://www.kaoyana.com/s1096/085410/"
+   "admitMax": "411",
+   "admitMin": "366",
+   "admitAvg": "381",
+   "scope": "085410人工智能22408线366(2025为326)，拟录取均381【366-411】；2026复试改机试、缩招",
+   "verify": "第三方(N诺)+官方(复试方案/结果公示)",
+   "url": "https://noobdream.com/schoolinfo/53/"
   }
  ],
  "nnCandidates": [],
@@ -60,19 +90,56 @@
   "25考情分析": "https://mp.weixin.qq.com/s/wqmmkTJI9Zxe_oyaUtsOSA",
   "26考情分析": "https://mp.weixin.qq.com/s/r0MuZvkW2_dz0eLZb5ruiQ"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "福州大学",
+   "层次": "211",
+   "专业/范围": "085400电子信息(计算机/AI/软件)",
+   "原科目": "自命题",
+   "新科目": "408",
+   "生效年份": "已改",
+   "来源": "N诺schoolinfo/53",
+   "备注": "22408；2026复试笔试改机试、缩招20人；2026分数线爆涨(AI366/计算机376)"
+  }
+ ],
  "tutors": [
   "於志勇（普适计算、智能物联网、人机共融智能、群智感知、城市计算）；林羽钦（大语言模型、深度学习、智能语音、AI医疗健康）；程日（低层视觉、图像增强、语义分割、多模态学习、AI for Science）；张劲松（三维视觉、图像生成、数字人重建、具身智能）"
  ],
  "inTJList": null,
  "inKeyList": null,
- "conflicts": [],
- "sources": [
+ "conflicts": [
   {
-   "label": "福州大学085410招生(kaoyana)",
-   "url": "https://www.kaoyana.com/s1096/085410/"
+   "field": "line2026",
+   "unit": "电子信息-人工智能",
+   "claims": [
+    {
+     "src": "原JSON",
+     "value": "264(国家线)"
+    },
+    {
+     "src": "N诺2026表+抖音考情",
+     "value": "AI线366、计算机技术线376"
+    }
+   ],
+   "status": "已纠正",
+   "action": "原264系误录(2024线)；2026真实AI院线366、拟录取均381，远超310档，不宜作为310分档目标校"
   }
  ],
+ "sources": [
+  {
+   "label": "N诺 福州大学",
+   "url": "https://noobdream.com/schoolinfo/53/"
+  },
+  {
+   "label": "福州大学计算机与大数据学院2026复试方案",
+   "url": "https://ccds.fzu.edu.cn/info/1138/11673.htm"
+  },
+  {
+   "label": "福州大学2026复试结果公示(专业型)",
+   "url": "https://ccds.fzu.edu.cn/info/1138/11688.htm"
+  }
+ ],
+ "note": "⚠️2026爆涨：085410人工智能线366、拟录取均381(2025为326)，计算机技术376超部分985，已远超用户310分档目标。原文件line2026=264系误录已纠正。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -8,23 +8,110 @@
    "region": "华东",
    "tier": "211",
    "subjectClass": "22408",
-   "heatComp": "47",
-   "heatNet": "60",
+   "direction": "电子信息-人工智能",
+   "line2026": "297",
+   "lineDelta": "-45",
+   "linesByYear": {
+    "2023": "320",
+    "2024": "327",
+    "2025": "342",
+    "2026": "297"
+   },
+   "plan2026": "11",
+   "fill": "一志愿为主",
+   "retestCnt": "17",
+   "admitCnt": "11",
+   "admitMax": "373",
+   "admitMin": "301",
+   "admitAvg": "331",
+   "scope": "N诺2026(schoolinfo143)：计算机学院/青岛软件学院 电子信息-人工智能 22408；线297复试17进复试均分324【297-373】单科54/74/109/87；预计招11，拟录取331【301-373】；2025及以前考22DS，2026改408",
    "aiTag": "✅真AI方向",
-   "note": "2026起085410由859数据结构改408（官方公告2025-08）；海洋学院22-24线312/350/最低、软件学院336/320/327；⚠️控制学院085410考830信号与系统（非408）勿报",
-   "srcLabel": "官方",
-   "src": [
-    "区域榜",
-    "三源核对"
-   ],
+   "heatNet": "60",
+   "heatComp": "47",
+   "nn408avg": "87",
+   "nnRate": null,
+   "note": "计算机/青岛软件学院 电子信息-人工智能 22408(2026起由859数据结构改408)；线297录11拟录取均331；历年线23=320/24=327/25=342(22DS)/26=297",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机学院/青岛软件学院",
+   "nnSubjects": "英二数二408",
    "wdCount": "7",
-   "wdYears": "19考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/w91JoKzDORdRxYt_-8MTrA",
-   "college": "海洋与空间信息学院+青岛软件学院/计科院"
+   "college": "计算机科学与技术学院/青岛软件学院"
+  },
+  {
+   "category": "C-对照",
+   "province": "山东",
+   "region": "华东",
+   "tier": "211",
+   "subjectClass": "非408",
+   "direction": "电子信息-人工智能",
+   "line2026": "278",
+   "lineDelta": "-65",
+   "linesByYear": {
+    "2023": "350",
+    "2024": "273",
+    "2025": "343",
+    "2026": "278"
+   },
+   "plan2026": "18+2专项",
+   "fill": "一志愿为主",
+   "retestCnt": "27+2专项",
+   "admitCnt": "20",
+   "admitMax": "392",
+   "admitMin": "278",
+   "admitAvg": "337",
+   "scope": "N诺2026(schoolinfo143)：海洋与空间信息学院 电子信息-人工智能 22DS(自命题,非408)；线278复试27+2专项进复试均分324【278-392】单科53/70/105/95；预计18+2专项拟录取337【278-392】",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "⚠️海洋与空间信息学院考22DS自命题(非408)；线278录20均337；与22408目标不符勿混报；控制学院085410考830信号与系统亦非408",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "海洋与空间信息学院",
+   "nnSubjects": "22DS(自命题)",
+   "college": "海洋与空间信息学院"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机学院/青岛软件学院",
+   "tier": "211",
+   "subjects": "22408",
+   "line2026": "297",
+   "plan": "11",
+   "retestCnt": "17",
+   "admitCnt": "11",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "373",
+   "admitMin": "301",
+   "admitAvg": "331",
+   "scope": "电子信息-人工智能22408 线297录11均331",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/schoolinfo/143/"
+  },
+  {
+   "college": "海洋与空间信息学院",
+   "tier": "211",
+   "subjects": "22DS非408",
+   "line2026": "278",
+   "plan": "18+2专项",
+   "retestCnt": "27+2专项",
+   "admitCnt": "20",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "392",
+   "admitMin": "278",
+   "admitAvg": "337",
+   "scope": "电子信息-人工智能22DS自命题 线278录20均337",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/schoolinfo/143/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666148759&idx=4&sn=d3771384d2dd3c744cd84737fd8c57bb&scene=21&poc_token=HIQNDGmjiYFxcnk4MseabO9TD3kLbTM_Kf806oQK",
@@ -35,12 +122,28 @@
   "25考情": "https://mp.weixin.qq.com/s/geovn_LB5W3nBnAo-8uEhw",
   "26考情": "https://mp.weixin.qq.com/s/w91JoKzDORdRxYt_-8MTrA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "中国石油大学(华东)",
+   "层次": "211",
+   "专业/范围": "计算机学院085410",
+   "原科目": "859数据结构",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "官方公告/N诺",
+   "备注": "2026起改408(22408)；海洋学院22DS与控制学院830仍自命题"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺中国石油大学华东schoolinfo/143",
+   "url": "https://noobdream.com/schoolinfo/143/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -1,16 +1,77 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "青岛农业大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "山东",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "理学与信息科学学院(软件服务外包学院)",
+   "nnProg": "电子信息(含085410人工智能)",
+   "nnCollege": "理学与信息科学学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "264"
+   },
+   "plan2026": "约41(6一志愿+35调剂)",
+   "fill": "一志愿极少+大量调剂",
+   "retestCnt": "6+71调剂",
+   "admitCnt": "6+35调剂",
+   "admitMax": "306",
+   "admitMin": "264",
+   "admitAvg": "281",
+   "scope": "电子信息(含085404/085410人工智能方向)22408。双非(计算机B)。2026首年改408(此前2农综3+C语言)。N诺2026：线NC(=A区国家线264)，进复试6+71调剂均281【264-306】；录6+35调剂，一志愿均281【264-306】。改考首年一志愿极少、大量调剂。官方学位点含085410人工智能",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "100%",
+   "note": "经N诺schoolinfo/413核对：青农大2026首年改22408；官方学位点含085410人工智能(理学与信息科学学院)。线国家线264，一志愿6+71调剂录41均281。改考首年调剂多",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/413/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "理学与信息科学学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "电子信息(含085410人工智能)",
+   "line2026": "264",
+   "plan": "约41",
+   "retestCnt": "6+71调剂",
+   "admitCnt": "6+35调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "306",
+   "admitMin": "264",
+   "admitAvg": "281",
+   "scope": "电子信息22408(含085410人工智能)；线264=国家线，进复试6+71调剂均281录41",
+   "verify": "N诺+官方",
+   "url": "https://noobdream.com/schoolinfo/413/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "青岛农业大学",
    "province": "山东",
-   "college": "理学与信息科学学院（软件服务外包学院）",
-   "program": "电子信息",
-   "subjects": "英二数二408",
-   "line": null,
+   "college": "理学与信息科学学院",
+   "program": "电子信息(含085410)",
+   "subjects": "22408",
+   "line": "264",
    "retestCnt": "6",
    "adjCnt": "71",
    "avgTotal": "281",
@@ -18,18 +79,39 @@
    "avgPol": null,
    "avgEng": null,
    "avgMath": null,
-   "admitCnt": "6",
-   "admitAvg": null,
+   "admitCnt": "41",
+   "admitAvg": "281",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；2026改408"
   }
  ],
  "wangdaoLinks": {
   "26考情": "https://mp.weixin.qq.com/s/3p-MfEqxQ6ZKGNljMMkhuQ"
  },
+ "updates2027": [
+  {
+   "院校": "青岛农业大学",
+   "层次": "双非",
+   "专业/范围": "理学与信息科学学院电子信息",
+   "原科目": "2农综3+C语言",
+   "新科目": "22408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/413",
+   "备注": "2026起电子信息改22408；2027沿用；官方学位点含085410人工智能"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "青岛农业大学学位点信息(官方)",
+   "url": "https://grad.qau.edu.cn/content/xueweidianxinxi/b345dfc8b4ad4b1ea4aa27b4b1506337"
+  },
+  {
+   "label": "N诺青岛农业大学考情",
+   "url": "https://noobdream.com/schoolinfo/413/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

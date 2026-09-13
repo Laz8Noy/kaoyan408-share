@@ -1,30 +1,87 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "山西大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "山西大学",
+   "category": "C-对照",
    "province": "山西",
+   "region": "华北",
+   "tier": "双一流",
+   "subjectClass": "非408",
+   "direction": "电子信息-人工智能(085410)",
    "college": "计算机与信息技术学院",
-   "program": "计算机科学与技术",
-   "subjects": "英一数一408",
-   "line": null,
-   "retestCnt": "20",
-   "adjCnt": "67",
-   "avgTotal": "290",
-   "avg408": "89",
-   "avgPol": "55",
-   "avgEng": "56",
-   "avgMath": "90",
-   "admitCnt": "20",
-   "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "⚠️非22408(英一数一408)"
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "286",
+    "2024": "314",
+    "2025": "332",
+    "2026": "国家线(264)"
+   },
+   "plan2026": "22+20调剂",
+   "fill": "调剂为主",
+   "retestCnt": "22一志愿+55调剂",
+   "admitCnt": "22一志愿+20调剂",
+   "admitMax": "383",
+   "admitMin": "264",
+   "admitAvg": "313",
+   "scope": "085410电子信息-人工智能(计算机与信息技术学院)2026线国家线264；初试英二数二+数据结构+C语言(二二DS+C自命题,非408)；一志愿进复试22人，进复试均分313【264-383】；拟录取22一志愿+20调剂；调剂为主",
+   "aiTag": "⚠️真AI但2026自命题非408",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "⚠️2026年085410人工智能仍考二二DS+C自命题(非408)，不符合用户408目标；一志愿22人+55调剂，拟录取均313【264-383】；学硕计科2026已改11408；N诺注'26考研改考408'指学硕，专硕是否2027改408待研招网目录确认",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(复试线)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机与信息技术学院",
+   "nnSubjects": "英二数二+数据结构C(自命题)",
+   "wdCount": "8",
+   "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/bTLsp8s6TG_VuSYGea_ZEw",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/232/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [
+  {
+   "name": "计算机科学与技术(学硕)",
+   "subjects": "11408",
+   "line2026": "国家线(NC)",
+   "note": "2026学硕改11408(英一数一408)，一志愿20+67调剂，均290【264-322】；非专硕085410"
+  },
+  {
+   "name": "电子信息-计算机",
+   "subjects": "二二DS+C(非408)",
+   "line2026": "291",
+   "note": "2026线291，拟录取均327【301-375】；同样自命题非408"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与信息技术学院",
+   "tier": "双一流",
+   "subjects": "二二DS+C(非408)",
+   "line2026": "国家线(264)",
+   "plan": "22+20调剂",
+   "retestCnt": "22一志愿+55调剂",
+   "admitCnt": "22一志愿+20调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "383",
+   "admitMin": "264",
+   "admitAvg": "313",
+   "scope": "085410人工智能2026仍二二DS+C自命题(非408)；线264；一志愿拟录取均313【264-383】；调剂为主",
+   "verify": "第三方(N诺)+官方(复试线PDF)",
+   "url": "https://noobdream.com/schoolinfo/232/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666150455&idx=3&sn=f8eeabd240083f463ea2c890ceee56b3&scene=21&poc_token=HOn8C2mjzKbf2WceYMDv4aVc5BKQ6YODl78QY-zY",
   "20考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155906&idx=4&sn=8916887e26213d00c74c99cd77188840&scene=21&poc_token=HNn8C2mjoxr9eaeQQP8iO-RT93x3Mje1oR22KLTx",
@@ -35,8 +92,50 @@
   "25考情": "https://mp.weixin.qq.com/s/hzf-lVjn1Rrp8UI3A9IpYQ",
   "26考情": "https://mp.weixin.qq.com/s/bTLsp8s6TG_VuSYGea_ZEw"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [
+  {
+   "院校": "山西大学",
+   "层次": "双一流",
+   "专业/范围": "081200计科(学硕)",
+   "原科目": "一一DS+C(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/232",
+   "备注": "2026学硕计科改11408；085400/085410电子信息专硕2026仍二二DS+C自命题(非408)，2027专硕是否改408待研招网目录确认"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "unit": "电子信息-人工智能",
+   "claims": [
+    {
+     "src": "N诺2026表",
+     "value": "二二DS+C(数据结构+C自命题,非408)"
+    },
+    {
+     "src": "N诺注'26改考408'",
+     "value": "2026改408"
+    }
+   ],
+   "status": "警告-非408",
+   "action": "2026表显示专硕电子信息仍二二DS+C(非408)，'改408'指学硕计科；报考前务必核对2027目录085410是否改408"
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺 山西大学",
+   "url": "https://noobdream.com/schoolinfo/232/"
+  },
+  {
+   "label": "山西大学2026复试线(085404计算机技术291)",
+   "url": "http://yjszsw.sxu.edu.cn/docs/2026-03/bb5edf4054f84d3c9960b8579b78ff6c.pdf"
+  }
+ ],
+ "note": "双一流。2026年085410人工智能仍二二DS+C自命题(非408)，不符合用户408目标；仅学硕计科改11408。专硕2027是否改408待官方目录确认。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

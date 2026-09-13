@@ -7,12 +7,12 @@
    "province": "湖北",
    "region": "华中",
    "tier": "211",
-   "subjectClass": "待确认",
+   "subjectClass": "22408",
    "heatComp": "49",
    "heatNet": "66",
    "aiTag": "✅真AI方向",
-   "note": "085410全日制43+非全1，408；复试线待核",
-   "srcLabel": "官方+机构",
+   "note": "211；信息学院电子信息-人工智能22408线325录66均350；历年线23=295/24=317/25=306/26=325；崖州湾人工智能学院27拟招",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
     "三源核对"
@@ -20,7 +20,20 @@
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/OLN9KayS39pVSRgzzCl-rw",
-   "college": "信息学院"
+   "college": "信息学院",
+   "line2026": "325",
+   "linesByYear": {
+    "2023": "295",
+    "2024": "317",
+    "2025": "306",
+    "2026": "325"
+   },
+   "retestCnt": "86",
+   "admitCnt": "66",
+   "admitAvg": "350",
+   "admitMin": "325",
+   "admitMax": "400",
+   "scope": "N诺2026(schoolinfo95)：信息学院电子信息-人工智能22408线325复试86拟录取66均分350【325-400】单科60/74/118/94；电子信息专硕2023首招"
   }
  ],
  "crossRefs": [],
@@ -41,7 +54,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺华中农业大学schoolinfo/95",
+   "url": "https://noobdream.com/schoolinfo/95/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

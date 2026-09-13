@@ -1,15 +1,76 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "浙江农林大学",
- "units": [],
+ "units": [
+  {
+   "category": "C-对照",
+   "province": "浙江",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "非408",
+   "direction": "不区分研究方向",
+   "college": "数学与计算机科学学院",
+   "nnProg": "电子信息-计算机(085404)",
+   "nnCollege": "数学与计算机科学学院",
+   "nnSubjects": "英二数二+数据库+程序设计自命题",
+   "line2026": "271",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": "275",
+    "2025": "274",
+    "2026": "271"
+   },
+   "plan2026": "35",
+   "fill": "一志愿为主",
+   "retestCnt": "45",
+   "admitCnt": "35",
+   "admitMax": "395",
+   "admitMin": "278",
+   "admitAvg": "336",
+   "scope": "⚠️浙江农林电子信息-计算机(085404)2026初试为英二数二+数据库+程序设计(自命题)，非408！N诺2026：线271，进复试45均325【271-395】，单科60/67/91/107；录35均336【278-395】。仅学硕计算机科学与技术0812为11408(2026无一志愿、收28调剂)。官方0854调剂要求初试含408，一志愿仍自命题。无085410专列",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "经N诺schoolinfo/316核对：浙农林电子信息专硕2026仍考数据库+程序设计自命题(非408)，线271录35均336。仅学硕0812计算机11408。不匹配用户408专硕目标；无085410专列",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/316/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "数学与计算机科学学院",
+   "tier": "双非",
+   "subjects": "非408(22 DB+程序设计)",
+   "program": "085404电子信息-计算机",
+   "line2026": "271",
+   "plan": "35",
+   "retestCnt": "45",
+   "admitCnt": "35",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "395",
+   "admitMin": "278",
+   "admitAvg": "336",
+   "scope": "⚠️电子信息专硕2026仍DB+程序设计自命题非408；线271，进复试45均325录35均336",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/316/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "浙江农林大学",
    "province": "浙江",
    "college": "数学与计算机科学学院",
-   "program": "计算机科学与技术",
-   "subjects": "英一数一408",
+   "program": "计算机科学与技术(学硕)",
+   "subjects": "11408",
    "line": null,
    "retestCnt": "0",
    "adjCnt": "28",
@@ -22,7 +83,7 @@
    "admitAvg": null,
    "rate": null,
    "ratioNN": null,
-   "note": "⚠️非22408(英一数一408)"
+   "note": "⚠️学硕0812计算机11408(2026无一志愿收28调剂)；专硕电子信息仍自命题非408；已标注"
   }
  ],
  "wangdaoLinks": {
@@ -31,8 +92,39 @@
   "25考情": "https://mp.weixin.qq.com/s/1WmaqRlGTPMmovIxK7OpeA",
   "26考情": "https://mp.weixin.qq.com/s/SOiL2LSGpu_hg4K9hM8nBQ"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [
+  {
+   "院校": "浙江农林大学",
+   "层次": "双非",
+   "专业/范围": "电子信息专硕",
+   "原科目": "22 DB+程序设计自命题",
+   "新科目": "可能改408(待官方目录确认)",
+   "生效年份": "2027",
+   "来源": "官方复试细则(0854调剂须408)+N诺schoolinfo/316",
+   "备注": "2026电子信息专硕一志愿仍DB+程序设计自命题(非408)，但官方要求0854调剂生业务课须408；2027是否全面改408待正式目录"
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "subjectClass(电子信息专硕)",
+   "old": "推测22408",
+   "new": "非408(22 DB+程序设计自命题)",
+   "reason": "N诺2026表显示电子信息-计算机初试为22、DB+程序设计自命题，非408；仅学硕0812计算机为11408",
+   "sources": [
+    "https://noobdream.com/schoolinfo/316/"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "浙江农林大学2026复试细则(官方)",
+   "url": "https://yjszs.zafu.edu.cn/info/1022/3231.htm"
+  },
+  {
+   "label": "N诺浙江农林大学考情",
+   "url": "https://noobdream.com/schoolinfo/316/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

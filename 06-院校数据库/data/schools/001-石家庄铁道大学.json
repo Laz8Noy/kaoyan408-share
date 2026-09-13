@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "石家庄铁道大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "河北",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "推测408",
+   "direction": "电子信息-计算机",
+   "line2026": "281",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "281"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主",
+   "retestCnt": "90",
+   "admitCnt": "59",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "319",
+   "scope": "N诺2026：电子信息-计算机；复试90人 拟录取59人 调剂0人；进复试总分均309；408均81 政治57 英语69 数学101",
+   "aiTag": "⚠️偏传统",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "81",
+   "nnRate": "70%",
+   "note": "✅22408兼容；含电子信息；复试90录取59调剂0；进复试总分均309",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "信息科学与技术学院",
+   "nnSubjects": "推测408",
+   "college": "信息科学与技术学院"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -34,7 +70,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/-i3wNqCjzHSaLS-Tc2T-KA"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -43,5 +84,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "信息科学与技术学院",
+   "tier": "双非",
+   "subjects": "推测408",
+   "line2026": "281",
+   "plan": null,
+   "retestCnt": "90",
+   "admitCnt": "59",
+   "ratioRetest": "1.5",
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "319",
+   "scope": "N诺2026：电子信息-计算机；复试90人 拟录取59人 调剂0人；进复试总分均309；408均81 政治57 英语69 数学101",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

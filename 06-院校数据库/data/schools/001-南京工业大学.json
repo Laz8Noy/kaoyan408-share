@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "南京工业大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "江苏",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机科学与技术学院（人工智能学院）",
+   "direction": "电子信息-计算机1-4方向",
+   "line2026": "327",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "312",
+    "2026": "327"
+   },
+   "plan2026": "73一志愿+2专项",
+   "fill": "一志愿为主",
+   "retestCnt": "93一志愿+2专项+3专项调剂",
+   "admitCnt": "73一志愿+2专项+1专项调剂",
+   "admitMax": "400",
+   "admitMin": "334",
+   "admitAvg": "353",
+   "scope": "N诺2026：电子信息-计算机1-4方向22408，复试线327，进复试93+2专项+3调剂，进复试均分348【327-400】，单科政62英75数119 408=92，录取73+2专项+1调剂，拟录取353【334-400】；智能科学与技术学硕11408；26 DS+OS改408",
+   "aiTag": "无085410 AI方向",
+   "nn408avg": "92",
+   "nnRate": null,
+   "note": "无085410人工智能专硕(智能科学与技术为学硕11408)；电子信息-计算机22408线327偏高；26改考408",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机科学与技术学院（人工智能学院）",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/159/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -36,7 +71,12 @@
   "26考情": "https://mp.weixin.qq.com/s/gUtsthSoch2K5MD-NqQOmw"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 南京工业大学",
+   "url": "https://noobdream.com/schoolinfo/159/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -45,5 +85,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无085410 AI专硕；电子信息-计算机22408线327，拟录取均分353，分数偏高。"
 }

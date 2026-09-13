@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "太原师范学院",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "山西",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机",
+   "line2026": null,
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "plan2026": null,
+   "fill": "调剂为主",
+   "retestCnt": "7",
+   "admitCnt": "7",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-计算机；复试7人 拟录取7人 调剂136人；进复试总分均295；408均78 政治58 英语71 数学89",
+   "aiTag": "⚠️偏传统",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "78",
+   "nnRate": "100%",
+   "note": "✅22408兼容；含电子信息；复试7录取7调剂136；进复试总分均295",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机系",
+   "nnSubjects": "英二数二408",
+   "college": "计算机系"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +68,12 @@
   "26考情": "https://mp.weixin.qq.com/s/1LYi-3aJBeKn7X-uVjHZHA"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +82,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机系",
+   "tier": "双非",
+   "subjects": "英二数二408",
+   "line2026": null,
+   "plan": null,
+   "retestCnt": "7",
+   "admitCnt": "7",
+   "ratioRetest": "1",
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-计算机；复试7人 拟录取7人 调剂136人；进复试总分均295；408均78 政治58 英语71 数学89",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

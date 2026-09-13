@@ -7,14 +7,14 @@
    "province": "北京",
    "region": "华北",
    "tier": "211",
-   "subjectClass": "22408",
-   "line2026": "326",
+   "subjectClass": "11408",
+   "line2026": "273",
    "lineDelta": "+62",
    "heatComp": "61",
    "heatNet": "85",
    "aiTag": "✅真AI方向",
-   "note": "电信学院22408（线326/20人）；自动化与智能学院2027改408（2026线285/22人，公共课英二数二已确认）；⚠️计算机学院085410为11408勿报；在职中心非全264",
-   "srcLabel": "官方",
+   "note": "⚠️211电子信息-人工智能为11408(英一数一408)非22408；线273录15(含5渤海计划)均317；2025改考408；与英二数二目标不同",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
     "三源核对"
@@ -23,7 +23,19 @@
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/XIwz79c1lNlN6d2EUrcj3w",
-   "college": "电子信息工程学院+自动化与智能学院"
+   "college": "电子信息工程学院+自动化与智能学院",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "300",
+    "2026": "273"
+   },
+   "retestCnt": "17",
+   "admitCnt": "15(含5渤海计划)",
+   "admitAvg": "317",
+   "admitMin": "282",
+   "admitMax": "385",
+   "scope": "N诺2026(schoolinfo59)：计算机学院电子信息-人工智能11408(英一数一408)线273复试17拟录取15(含5渤海计划)均分317【282-385】单科60/65/93/94"
   }
  ],
  "crossRefs": [],
@@ -54,8 +66,30 @@
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
- "conflicts": [],
- "sources": [],
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "unit": "计算机学院电子信息-人工智能",
+   "claims": [
+    {
+     "src": "既有整理",
+     "value": "22408"
+    },
+    {
+     "src": "N诺59",
+     "value": "11408(英一数一408)"
+    }
+   ],
+   "status": "已按N诺更正为11408",
+   "action": "211该校AI专硕考英一数一408，非22408"
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺北京交通大学schoolinfo/59",
+   "url": "https://noobdream.com/schoolinfo/59/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

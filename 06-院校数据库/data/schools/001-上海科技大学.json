@@ -1,18 +1,79 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "上海科技大学",
- "units": [],
+ "units": [
+  {
+   "category": "C-对照",
+   "province": "上海",
+   "region": "华东",
+   "tier": "双一流",
+   "subjectClass": "11408",
+   "direction": "不区分研究方向",
+   "college": "信息科学与技术学院",
+   "nnProg": "电子信息(085400)",
+   "nnCollege": "信息科学与技术学院",
+   "nnSubjects": "英一数一408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "预期17(生物医学工程学院)起；信息学院名额推免占比高",
+   "fill": "一志愿为主+部分调剂",
+   "retestCnt": null,
+   "admitCnt": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "双一流研究型高校(中科院共建)。⚠️不匹配用户22408：全11408(英一数一408)。2026改考408(此前11 DS与算法自命题)。N诺2026：计科本部线298、联培264、电子信息264。官方2026复试线：计科0812本部298/联培264、电子信息0854线264。无085410专列(电子信息不细分方向)。推免占比高、不透明，统考名额少",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "经N诺schoolinfo/119+官方目录核对：上海科技大学(研究型双一流)2026起全改408，但为11408(英一数一)，不匹配用户22408(英二数二)。无085410专列。推免占比高、统考名额不透明、复试55开",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/119/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息科学与技术学院",
+   "tier": "双一流",
+   "subjects": "11408",
+   "program": "电子信息085400(不细分方向)",
+   "line2026": "264",
+   "plan": null,
+   "retestCnt": null,
+   "admitCnt": null,
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "⚠️全11408(英一数一408)非22408；电子信息0854线264；无085410专列；推免占比高不透明",
+   "verify": "官方+N诺",
+   "url": "https://noobdream.com/schoolinfo/119/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "上海科技大学",
    "province": "上海",
    "college": "信息科学与技术学院",
    "program": "电子信息",
-   "subjects": "英一数一408",
+   "subjects": "11408",
    "line": "264",
    "retestCnt": null,
-   "adjCnt": "0",
+   "adjCnt": 0,
    "avgTotal": null,
    "avg408": null,
    "avgPol": null,
@@ -22,7 +83,7 @@
    "admitAvg": null,
    "rate": null,
    "ratioNN": null,
-   "note": "⚠️非22408(英一数一408)；含电子信息"
+   "note": "⚠️11408(英一数一)非22408；已提升为units并标注研究型"
   }
  ],
  "wangdaoLinks": {
@@ -32,8 +93,45 @@
   "25考情": "https://mp.weixin.qq.com/s/Os6ojzflbEN3EXXYs0TgoA",
   "26考情": "https://mp.weixin.qq.com/s/nkhre9e8jFr9L4J5xSAQTQ"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [
+  {
+   "院校": "上海科技大学",
+   "层次": "双一流",
+   "专业/范围": "信息科学与技术学院",
+   "原科目": "11 DS与算法自命题",
+   "新科目": "11408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/119+上科大2026目录",
+   "备注": "2026改408但为11408(英一数一)；无085410专列；研究型、推免占比高"
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "old": "推测22408",
+   "new": "11408(英一数一408)",
+   "reason": "官方目录+N诺显示上科大电子信息为英一数一408(11408)，非英二数二；研究型大学不细分085410",
+   "sources": [
+    "https://noobdream.com/schoolinfo/119/",
+    "https://yanzhao.shanghaitech.edu.cn/2025/0926/c1100a1115504/page.htm"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "上海科技大学2026复试基本要求(官方)",
+   "url": "https://yanzhao.shanghaitech.edu.cn/2026/0316/c1119a1119869/page.htm"
+  },
+  {
+   "label": "上海科技大学2026硕士招生专业目录(官方)",
+   "url": "https://yanzhao.shanghaitech.edu.cn/2025/0926/c1100a1115504/page.htm"
+  },
+  {
+   "label": "N诺上海科技大学考情",
+   "url": "https://noobdream.com/schoolinfo/119/"
+  }
+ ],
+ "note": "双一流研究型高校(中科院共建)；2026改408但全11408(英一数一)，不匹配用户22408；无085410专列；推免占比高、统考名额不透明",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

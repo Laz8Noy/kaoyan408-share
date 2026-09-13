@@ -107,9 +107,9 @@ try:
 except Exception as e:  # noqa: BLE001
     check("C3 xlsx与主网页同步", False, str(e))
 
-# C4 卫生：泄露 + 死链
-leak = sh(["git", "grep", "-l", "-i", "some work"])
-leak2 = sh(["git", "grep", "-l", "华硕"])
+# C4 卫生：泄露 + 死链（排除本脚本：其内含检测关键词字面量，扫描器不自咬）
+leak = sh(["git", "grep", "-l", "-i", "some work", "--", ".", ":(exclude)09-生成脚本/publish_check.py"])
+leak2 = sh(["git", "grep", "-l", "华硕", "--", ".", ":(exclude)09-生成脚本/publish_check.py"])
 leaked = sorted(set((leak.stdout or "").split() + (leak2.stdout or "").split()))
 from urllib.parse import unquote
 dead = []

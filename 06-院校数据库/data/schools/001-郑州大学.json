@@ -8,26 +8,83 @@
    "region": "华中",
    "tier": "211",
    "subjectClass": "22408",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "计算机与人工智能学院",
    "line2026": "335",
-   "lineDelta": "+71",
-   "heatComp": "60",
-   "heatNet": "80",
+   "lineDelta": "-1",
+   "linesByYear": {
+    "2023": null,
+    "2024": "326",
+    "2025": "336",
+    "2026": "335"
+   },
+   "plan2026": "86",
+   "fill": "一志愿为主",
+   "retestCnt": "101",
+   "admitCnt": "86",
+   "admitMax": "427",
+   "admitMin": "337",
+   "admitAvg": "369",
+   "scope": "085410人工智能(计算机与人工智能学院)2026线335；22408；一志愿进复试101人，进复试均分365【335-427】；拟录取86人均369【337-427】；408单科均分98；复试=数据库笔试25%+上机编程25%+外语20%+面试30%；复试差额120%",
    "aiTag": "✅真AI方向",
-   "note": "名额最多；复试=外语口语听力20%+数据库笔试25%+上机编程25%+面试30%；复试差额120%（复录比约1.2）",
-   "srcLabel": "官方",
+   "heatNet": "80",
+   "heatComp": "60",
+   "nn408avg": "98",
+   "nnRate": "约85%",
+   "note": "211，AI方向名额较多(录86人)；线335、拟录取均369偏高(高于用户310档)；408均分98；同院计算机技术(085404)线353更卷；河南先进技术研究院计算机22408线335；网络空间安全学院计算机22408线282(相对洼地)",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
-    "三源核对"
+    "三源核对",
+    "N诺",
+    "官方(复试线/细则)"
    ],
    "lineUltimate2026": "335",
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/IB2CV2IJsyaQB5fPEL7h_A",
-   "college": "计算机与人工智能学院"
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/54/"
   }
  ],
- "crossRefs": [],
- "kaoqingDetail2026": [],
+ "crossRefs": [
+  {
+   "name": "电子信息-计算机(085404,计算机与人工智能学院)",
+   "subjects": "22408",
+   "line2026": "353",
+   "note": "更卷，线353、拟录取138+4专项均380【353-426】"
+  },
+  {
+   "name": "电子信息-计算机(河南先进技术研究院)",
+   "subjects": "22408",
+   "line2026": "335",
+   "note": "拟录取21+1专项均361【337-397】"
+  },
+  {
+   "name": "电子信息-计算机(网络空间安全学院)",
+   "subjects": "22408",
+   "line2026": "282",
+   "note": "相对洼地，线282、拟录取18+1专项均322【285-369】"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与人工智能学院",
+   "tier": "211",
+   "subjects": "22408",
+   "line2026": "335",
+   "plan": "86",
+   "retestCnt": "101",
+   "admitCnt": "86",
+   "ratioRetest": "1.2",
+   "ratioApply": null,
+   "admitMax": "427",
+   "admitMin": "337",
+   "admitAvg": "369",
+   "scope": "085410人工智能22408线335，一志愿拟录取均369【337-427】；408均分98",
+   "verify": "第三方(N诺)+官方(复试线335)",
+   "url": "https://noobdream.com/schoolinfo/54/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236429&idx=6&sn=e29146cf1a0b519e76a760d28647340b&scene=21&poc_token=HHX6C2mjFsSogKTA3qB0tvPy52w-imFDCYCYU_33",
@@ -46,7 +103,21 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 郑州大学",
+   "url": "https://noobdream.com/schoolinfo/54/"
+  },
+  {
+   "label": "郑州大学计算机与人工智能学院2026一志愿复试录取细则",
+   "url": "http://www7.zzu.edu.cn/csai/info/1147/3965.htm"
+  },
+  {
+   "label": "郑州大学2026一志愿复试分数线",
+   "url": "https://yz.zzu.edu.cn/info/1070/2376.htm"
+  }
+ ],
+ "note": "211，085410人工智能(计算机与人工智能学院)22408线335、拟录取均369、录86人，名额多但分数偏高，高于用户310档；网安学院计算机22408线282为相对洼地。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

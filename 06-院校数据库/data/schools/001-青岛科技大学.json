@@ -1,16 +1,77 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "青岛科技大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "山东",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "信息科学与技术学院",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "信息科学与技术学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": "308",
+    "2024": "273",
+    "2025": "325",
+    "2026": "264"
+   },
+   "plan2026": "约58(33+1专项+24调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "33+1专项+48调剂",
+   "admitCnt": "33+1专项+24调剂",
+   "admitMax": "358",
+   "admitMin": "265",
+   "admitAvg": "298",
+   "scope": "相关口径=085404电子信息-计算机(非085410)。2026首年改408(此前22DS自命题)。N诺2026：线NC(=A区国家线264)，进复试33+1专项+48调剂均298【265-358】，单科53/69/98/77；一志愿录33+1专项+校外调剂24。改考首年线骤降(2025线325→2026国家线)，调剂名额多",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "77",
+   "nnRate": null,
+   "note": "经N诺schoolinfo/144核对：青科大2026起电子信息-计算机改22408(首年)；线国家线264，进复试33+48调剂均298录58。无085410专列。改考首年分数线友好",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/144/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息科学与技术学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085404电子信息-计算机",
+   "line2026": "264",
+   "plan": "约58",
+   "retestCnt": "33+1专项+48调剂",
+   "admitCnt": "33+1专项+24调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "358",
+   "admitMin": "265",
+   "admitAvg": "298",
+   "scope": "085404(非085410)2026首年改22408；线264=国家线，进复试33+48调剂均298【265-358】录58",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/144/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "青岛科技大学",
    "province": "山东",
    "college": "信息科学与技术学院",
    "program": "电子信息-计算机",
-   "subjects": "推测408",
-   "line": null,
+   "subjects": "22408",
+   "line": "264",
    "retestCnt": "33",
    "adjCnt": "49",
    "avgTotal": "298",
@@ -18,11 +79,11 @@
    "avgPol": "53",
    "avgEng": "69",
    "avgMath": "98",
-   "admitCnt": "33",
-   "admitAvg": null,
+   "admitCnt": "58",
+   "admitAvg": "298",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；2026首年改408"
   }
  ],
  "wangdaoLinks": {
@@ -31,8 +92,25 @@
   "25考情": "https://mp.weixin.qq.com/s/eBrbLRhVNSBuaRMDZeUPGQ",
   "26考情": "https://mp.weixin.qq.com/s/bzDiJCXmRSxtYLpDYrahlw"
  },
+ "updates2027": [
+  {
+   "院校": "青岛科技大学",
+   "层次": "双非",
+   "专业/范围": "电子信息(信息学院)",
+   "原科目": "22DS(851数据结构自命题)",
+   "新科目": "22408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/144(标注'26考研改考408')",
+   "备注": "2026起信息学院电子信息-计算机改22408；2027沿用；无085410专列"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺青岛科技大学考情",
+   "url": "https://noobdream.com/schoolinfo/144/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

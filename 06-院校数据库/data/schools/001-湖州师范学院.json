@@ -1,37 +1,113 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "湖州师范学院",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "湖州师范学院",
+   "category": "S-主体",
    "province": "浙江",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机",
    "college": "信息工程学院",
-   "program": "电子信息-人工智能",
-   "subjects": "英二数二408",
-   "line": null,
-   "retestCnt": "0",
-   "adjCnt": "145",
-   "avgTotal": null,
-   "avg408": null,
-   "avgPol": null,
-   "avgEng": null,
-   "avgMath": null,
-   "admitCnt": "0",
-   "admitAvg": null,
-   "rate": null,
-   "ratioNN": null,
-   "note": "✅22408兼容；含AI"
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "273",
+    "2024": "273",
+    "2025": "287",
+    "2026": "国家线(264)"
+   },
+   "plan2026": "15一志愿+67调剂",
+   "fill": "调剂为主",
+   "retestCnt": "15一志愿+174调剂",
+   "admitCnt": "15一志愿+67调剂",
+   "admitMax": "340",
+   "admitMin": "268",
+   "admitAvg": "291",
+   "scope": "085404电子信息-计算机(信息工程学院)2026线国家线264；2026首改22408(2025为22C语言自命题)；一志愿仅进复试15人、拟录取15人+67调剂，进复试均分291【268-340】；408单科均分75；大量招调剂",
+   "aiTag": "⚠️电子信息-计算机(非085410单列)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "75",
+   "nnRate": "100%(一志愿)",
+   "note": "085404计算机22408，2026首改408；一志愿仅15人、大量招调剂(174进复试/67录取)；线国家线264，一志愿拟录取均291【268-340】；真085410人工智能方向2026为0一志愿、全调剂(拟录取60调剂,均319【294-377】)",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方目录(▲408)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "信息工程学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "3",
+   "wdYears": "24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/7ccG5ldmRlTEejRZsxgjIg",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/313/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [
+  {
+   "name": "电子信息-人工智能(085410)",
+   "subjects": "22408",
+   "line2026": "国家线(NC)",
+   "note": "2026为0一志愿、全调剂(0+145调剂进复试)，拟录取60调剂均319【294-377】"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(264)",
+   "plan": "计算机15+67调剂/AI60调剂",
+   "retestCnt": "计算机15+174调剂",
+   "admitCnt": "计算机15+67调剂/AI0+60调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "377",
+   "admitMin": "268",
+   "admitAvg": "291",
+   "scope": "2026首改408；计算机一志愿15人拟录取均291【268-340】；AI方向0一志愿全调剂均319；408均分75",
+   "verify": "第三方(N诺)+官方目录(▲408)",
+   "url": "https://noobdream.com/schoolinfo/313/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "24考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666234771&idx=4&sn=f1a48c181636c5ebcc008f4708fc8fe8&scene=21&poc_token=HFOlCmmjZYFTzSqDjQ94XS1GxvFya31clT8AULSw",
   "25考情": "https://mp.weixin.qq.com/s/FL9wVbX93DfGv7SQ3qTUcA",
   "26考情": "https://mp.weixin.qq.com/s/7ccG5ldmRlTEejRZsxgjIg"
  },
+ "updates2027": [
+  {
+   "院校": "湖州师范学院",
+   "层次": "双非",
+   "专业/范围": "085400电子信息(计算机/人工智能)",
+   "原科目": "22C语言(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/313+官方目录(▲408)",
+   "备注": "2026起电子信息改22408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 湖州师范学院",
+   "url": "https://noobdream.com/schoolinfo/313/"
+  },
+  {
+   "label": "湖州师范学院2026招生目录(085404▲408)",
+   "url": "https://kaoyan.eol.cn/zhejiang/yanzhao/202601/t20260109_2715038.shtml"
+  }
+ ],
+ "note": "2026首改22408；电子信息-计算机一志愿仅15人、调剂为主；真085410人工智能方向2026为0一志愿全调剂(均319)。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

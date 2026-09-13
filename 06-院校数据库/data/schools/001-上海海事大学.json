@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "上海海事大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "上海",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-人工智能",
+   "line2026": "266",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "266"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主",
+   "retestCnt": "28",
+   "admitCnt": "27",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-人工智能；复试28人 拟录取27人 调剂0人；进复试总分均305；408均79 政治58 英语72 数学96",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "79",
+   "nnRate": "100%",
+   "note": "✅22408兼容；含AI；复试28录取27调剂0；进复试总分均305",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "信息工程学院",
+   "nnSubjects": "英二数二408",
+   "college": "信息工程学院"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -36,7 +72,12 @@
   "26考情": "https://mp.weixin.qq.com/s/dMLTQdYDuCxIKkPopdJkjQ"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -45,5 +86,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "信息工程学院",
+   "tier": "双非",
+   "subjects": "英二数二408",
+   "line2026": "266",
+   "plan": null,
+   "retestCnt": "28",
+   "admitCnt": "27",
+   "ratioRetest": "1",
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "N诺2026：电子信息-人工智能；复试28人 拟录取27人 调剂0人；进复试总分均305；408均79 政治58 英语72 数学96",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

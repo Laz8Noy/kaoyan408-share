@@ -7,14 +7,14 @@
    "province": "辽宁",
    "region": "东北",
    "tier": "211",
-   "subjectClass": "待确认",
+   "subjectClass": "22408",
    "line2026": "311",
    "lineDelta": "+47",
    "heatComp": "46",
    "heatNet": "64",
    "aiTag": "✅真AI方向",
-   "note": "官方复试线311，复试差额120%（复录比约1.2）",
-   "srcLabel": "官方",
+   "note": "211；信息学部电子信息-人工智能22408线311录15均347；2025线260(当年仅4人复试)",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
     "三源核对"
@@ -23,7 +23,19 @@
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/qAny4OWe6uikk1yIZR7CBw",
-   "college": "信息学部"
+   "college": "信息学部(信息学院)",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "260",
+    "2026": "311"
+   },
+   "retestCnt": "18",
+   "admitCnt": "15",
+   "admitAvg": "347",
+   "admitMin": "316",
+   "admitMax": "379",
+   "scope": "N诺2026(schoolinfo178)：信息学部电子信息-人工智能22408线311复试18录取15均分347【316-379】单科67/72/111/92"
   }
  ],
  "crossRefs": [],
@@ -48,6 +60,10 @@
   {
    "label": "辽宁大学085410复试细则",
    "url": "https://sist.lnu.edu.cn/info/12675/2144.htm"
+  },
+  {
+   "label": "N诺辽宁大学schoolinfo/178",
+   "url": "https://noobdream.com/schoolinfo/178/"
   }
  ],
  "generated": {

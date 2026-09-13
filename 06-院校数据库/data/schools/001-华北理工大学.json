@@ -9,38 +9,66 @@
    "tier": "双非",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
+   "college": "人工智能学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
    "linesByYear": {
     "2023": "273",
-    "2024": "273",
-    "2025": "260",
-    "2026": null
+    "2024": "275",
+    "2025": "265",
+    "2026": "264"
    },
-   "plan2026": "14",
-   "fill": "待确认",
+   "plan2026": "约14",
+   "fill": "调剂为主",
+   "retestCnt": "2+24调剂",
+   "admitCnt": "2+12调剂",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "293",
+   "scope": "华北理工(唐山)人工智能学院085410电子信息-人工智能,2026首年改408(原815C程序设计自命题),22408;N诺2026:线NC(=国家线264),进复试2+24调剂,单科60/68/95/70,录2+12调剂,一志愿均293。同院085404电子信息-计算机22408:线264复34+42调剂录31+11调剂均292【264-341】",
    "aiTag": "✅真AI方向",
    "heatNet": "42",
    "heatComp": "40",
    "nn408avg": "70",
    "nnRate": "100%",
-   "note": "2026目录拟招14，408；复试线未单独查到",
-   "srcLabel": "官方",
+   "note": "经N诺schoolinfo/224核对:华北理工085410人工智能2026首年改22408,线国家线264,一志愿仅2人、大量调剂(2+24)录2+12,一志愿均293",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
     "三源核对"
    ],
-   "nnProg": "电子信息-人工智能",
-   "nnCollege": "人工智能学院",
-   "nnSubjects": "英二数二408",
+   "nnUrl": "https://noobdream.com/schoolinfo/224/",
    "wdCount": "7",
    "wdYears": "19考情分析,20考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
-   "wdUrl26": "https://mp.weixin.qq.com/s/_MMGZ99SzWhEBJ1S2f87mw",
-   "college": "人工智能学院"
+   "wdUrl26": "https://mp.weixin.qq.com/s/_MMGZ99SzWhEBJ1S2f87mw"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "人工智能学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085410电子信息-人工智能",
+   "line2026": "264",
+   "plan": "约14",
+   "retestCnt": "2+24调剂",
+   "admitCnt": "2+12调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "293",
+   "scope": "085410人工智能2026首年改408;线264=国家线,一志愿2人+大量调剂,一志愿均293",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/224/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666152574&idx=3&sn=a8ff687df5fe77fca9ffa9df9630e761&scene=21&poc_token=HPcLC2mj2eNLEt9l1CNrMvWfWu_0rXxtbjdAeCfp",
@@ -51,7 +79,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/6VHKyBCcvdRNPYKddQxATQ",
   "26考情分析": "https://mp.weixin.qq.com/s/_MMGZ99SzWhEBJ1S2f87mw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "华北理工大学",
+   "层次": "双非",
+   "专业/范围": "人工智能学院085404计算机/085410人工智能",
+   "原科目": "815C程序设计自命题",
+   "新科目": "408(22408)",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/224",
+   "备注": "2026起085404/085410第四科由815C改408;理学院0839/085411/085412由827DS改408;2027沿用"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
@@ -60,6 +99,10 @@
   {
    "label": "华北理工大学2026专业目录",
    "url": "https://kaoyan.koolearn.com/20251010/1883222.html"
+  },
+  {
+   "label": "N诺华北理工大学考情",
+   "url": "https://noobdream.com/schoolinfo/224/"
   }
  ],
  "generated": {

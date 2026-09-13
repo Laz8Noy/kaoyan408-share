@@ -9,32 +9,68 @@
    "tier": "双非",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
+   "college": "微电子与控制工程学院",
+   "nnProg": "人工智能(085410)",
+   "nnCollege": "微电子与控制工程学院",
+   "nnSubjects": "英二数二408",
+   "line2026": null,
+   "lineDelta": null,
    "linesByYear": {
     "2023": "273",
     "2024": "315",
     "2025": "278",
     "2026": null
    },
-   "fill": "待确认",
+   "plan2026": "5",
+   "fill": "一志愿为主",
+   "retestCnt": "8(2024,改408前)",
+   "admitCnt": "5(2024,改408前)",
+   "admitMax": "362(2024)",
+   "admitMin": "315(2024)",
+   "admitAvg": "342(2024)",
+   "scope": "085410人工智能(全日制)，英二数二。2026起第四门由858数据结构改408(官方公告2025-06-11)。N诺最新仅到2024：微电子学院人工智能二二858线315复8录5均342【315-362】。2026首年408线待官方公示；招生规模小(约5人)。注意：085410在微电子与控制工程学院，非计算机与人工智能学院",
    "aiTag": "✅真AI方向",
    "heatNet": "48",
    "heatComp": "42",
-   "note": "2026年858→408；复试线待核",
-   "srcLabel": "官方+机构",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "2026年858数据结构→408(官方)；复试线待核(N诺无2026表)；085410在微电子与控制工程学院，计划约5人。2024(改前)线315均342可作参考",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
-    "三源核对"
+    "三源核对",
+    "N诺"
    ],
    "wdCount": "7",
    "wdYears": "20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/4qzx3Sb793p5gKwpWZrWQw",
-   "college": "计算机科学与人工智能学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/160/",
+   "kaoqingUrl": "https://gs.cczu.edu.cn/2025/0611/c1798a393957/page.htm"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "微电子与控制工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": null,
+   "plan": "5",
+   "retestCnt": null,
+   "admitCnt": null,
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": null,
+   "scope": "2026首年改408，线待官方公示；2024(改前858)线315复8录5均342【315-362】",
+   "verify": "官方公告+N诺(2024)",
+   "url": "https://noobdream.com/schoolinfo/160/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "20考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666156852&idx=4&sn=a6de7e0174ef7fba8091f21b6ca8a7cd&scene=21&poc_token=HBhgDGmjXL8BJ4ze3PeJU4naxUwSFBkC1BRFR6W9",
@@ -45,7 +81,18 @@
   "25考情": "https://mp.weixin.qq.com/s/6Imu372SRdMXT-MGzyJDzg",
   "26考情": "https://mp.weixin.qq.com/s/4qzx3Sb793p5gKwpWZrWQw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "常州大学",
+   "层次": "双非",
+   "专业/范围": "081200/085404/085405/085410/083900(计算机与人工智能学院+微电子学院)",
+   "原科目": "858数据结构",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "常州大学研究生院《关于调整2026年初试科目的通知》gs.cczu.edu.cn/2025/0611",
+   "备注": "2026起085410人工智能第四门改408(英二数二408=22408)；2027沿用408。085410在微电子与控制工程学院，计划约5人"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
@@ -54,6 +101,14 @@
   {
    "label": "历年线·启航院校库（河北大学/常州大学/苏大/广西大学等）",
    "url": "https://jixun.iqihang.com/"
+  },
+  {
+   "label": "常州大学2026初试科目调整通知(858→408,官方)",
+   "url": "https://gs.cczu.edu.cn/2025/0611/c1798a393957/page.htm"
+  },
+  {
+   "label": "N诺常州大学考情",
+   "url": "https://noobdream.com/schoolinfo/160/"
   }
  ],
  "generated": {

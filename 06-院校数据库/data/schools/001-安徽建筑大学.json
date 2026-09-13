@@ -1,38 +1,107 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "安徽建筑大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "安徽建筑大学",
+   "category": "S-主体",
    "province": "安徽",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机",
    "college": "电子与信息工程学院",
-   "program": "电子信息-计算机",
-   "subjects": "英二数二408",
-   "line": null,
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "316",
+    "2024": "275",
+    "2025": "260",
+    "2026": "国家线(264)"
+   },
+   "plan2026": "52+12调剂",
+   "fill": "一志愿为主",
    "retestCnt": "55",
-   "adjCnt": "0",
-   "avgTotal": "297",
-   "avg408": "75",
-   "avgPol": "60",
-   "avgEng": "68",
-   "avgMath": "94",
-   "admitCnt": "52",
-   "admitAvg": null,
-   "rate": "90%",
-   "ratioNN": "1.1",
-   "note": "✅22408兼容；含电子信息"
+   "admitCnt": "52+12调剂",
+   "admitMax": "370",
+   "admitMin": "264",
+   "admitAvg": "297",
+   "scope": "085404电子信息-计算机(电子与信息工程学院)2026线国家线264；一志愿进复试55人，进复试均分297【264-370】；拟录取52+12调剂均297【264-370】；408单科均分75",
+   "aiTag": "⚠️电子信息-计算机(非085410单列)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "75",
+   "nnRate": "90%",
+   "note": "2025起由二二DS自命题改考22408；电子信息-计算机一志愿为主(52人)+12调剂，线即国家线264，拟录取均297【264-370】；408均分75；另有联培(南信大)/中科院合肥研究院招调剂；无单列085410",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(复试线)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "电子与信息工程学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "4",
+   "wdYears": "23考情分析,24考情分析,25考情分析,26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/X2LNC9ZJlXKwjc4rKWSxDQ",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/363/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "电子与信息工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(264)",
+   "plan": "52+12调剂",
+   "retestCnt": "55",
+   "admitCnt": "52+12调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "370",
+   "admitMin": "264",
+   "admitAvg": "297",
+   "scope": "电子信息-计算机22408，线国家线264，一志愿拟录取均297【264-370】；408均分75；2025改408",
+   "verify": "第三方(N诺)+官方(复试线264)",
+   "url": "https://noobdream.com/schoolinfo/363/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "23考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666208790&idx=7&sn=309f6cdad97e792c6e5495a95654599a&scene=21&poc_token=HOipCWmjB_AAggc4lmklKtUrQzJRPkusxnvIPtvP",
   "24考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666230739&idx=6&sn=04ede494b57f0fb3861588854ac2b0ff&scene=21&poc_token=HOWpCWmjZ9-WqMw3zMAtKcVtNVPeUdITfwqEUu-y",
   "25考情分析": "https://mp.weixin.qq.com/s/HxCrNWpeEwXjlrFDg3Cn9Q",
   "26考情分析": "https://mp.weixin.qq.com/s/X2LNC9ZJlXKwjc4rKWSxDQ"
  },
+ "updates2027": [
+  {
+   "院校": "安徽建筑大学",
+   "层次": "双非",
+   "专业/范围": "085404电子信息-计算机",
+   "原科目": "二二DS(自命题)",
+   "新科目": "408",
+   "生效年份": "2025",
+   "来源": "N诺schoolinfo/363",
+   "备注": "2025起电子信息-计算机改22408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 安徽建筑大学",
+   "url": "https://noobdream.com/schoolinfo/363/"
+  },
+  {
+   "label": "安徽建筑大学2026复试线(085404计算机技术264)",
+   "url": "https://static.kaoyan.cn/file/2026/03/27/10cde23685dbfc5905f0b8093eee2f18.pdf"
+  }
+ ],
+ "note": "085404电子信息-计算机(非085410单列)，2025改22408，线即国家线264、拟录取均297，贴近用户310档，一志愿为主。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

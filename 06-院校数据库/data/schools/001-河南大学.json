@@ -3,36 +3,52 @@
  "name": "河南大学",
  "units": [
   {
-   "category": "C-对照",
+   "category": "S-主体",
    "province": "河南",
    "region": "华中",
    "tier": "双一流",
    "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "人工智能学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二408",
    "line2026": "264",
-   "lineDelta": "=国家线",
+   "lineDelta": "=A区国家线(较2025降74)",
+   "linesByYear": {
+    "2023": "273",
+    "2024": "293",
+    "2025": "338",
+    "2026": "264"
+   },
+   "plan2026": "35",
+   "fill": "一志愿为主",
+   "retestCnt": "35",
+   "admitCnt": "35",
+   "admitMax": "396",
+   "admitMin": "264",
+   "admitAvg": "313",
+   "scope": "085410人工智能(人工智能学院)22408。双一流。N诺2026：线264(=A区国家线)，进复试35均313【264-396】，录35均313，复录比≈1:1。线较2025(338)骤降74分(大小年)。复试含机试(专硕机试占60%)",
+   "aiTag": "✅真AI方向",
    "heatComp": "29",
    "heatNet": "62",
-   "aiTag": "✅真AI方向",
-   "note": "双一流建设高校；首批入驻郑州校区全建制学院；22408；执行A区国家线264；复录比≈1:1",
-   "srcLabel": "官方",
+   "note": "双一流建设高校；人工智能学院085410=22408；2026线264=国家线录35均313【264-396】；线较2025(338)大降。复录比≈1:1，复试含机试",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
     "三源核对",
-    "考情明细"
+    "考情明细",
+    "N诺"
    ],
    "lineUltimate2026": "264",
-   "nnProg": "电子信息-软件工程",
-   "nnCollege": "软件学院",
-   "nnSubjects": "推测408",
-   "nn408avg": "89",
-   "nnRate": "80%",
+   "nn408avg": null,
+   "nnRate": "100%",
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/3szPQOLj0d5o_iW_u3QnQw",
-   "remark": "N诺线差31",
+   "remark": "双一流22408，2026线=国家线，大小年明显",
    "kaoqingUrl": "https://ai.henu.edu.cn/info/1085/16422.htm",
-   "scope": "拟招35、进复试35，复录比≈1:1，线264；复试含机试",
-   "college": "人工智能学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/216/"
   }
  ],
  "crossRefs": [],
@@ -41,18 +57,19 @@
    "college": "人工智能学院",
    "tier": "双一流",
    "subjects": "22408",
+   "program": "085410人工智能",
    "line2026": "264",
    "plan": "35",
    "retestCnt": "35",
    "admitCnt": "35",
    "ratioRetest": "1",
    "ratioApply": null,
-   "admitMax": null,
-   "admitMin": null,
-   "admitAvg": null,
-   "scope": "拟招35、进复试35，复录比≈1:1，线264；复试含机试",
-   "verify": "官方✅",
-   "url": "https://ai.henu.edu.cn/info/1085/16422.htm"
+   "admitMax": "396",
+   "admitMin": "264",
+   "admitAvg": "313",
+   "scope": "085410人工智能22408；线264=国家线，进复试35均313【264-396】录35；复录比1:1",
+   "verify": "官方+N诺",
+   "url": "https://noobdream.com/schoolinfo/216/"
   }
  ],
  "nnCandidates": [],
@@ -75,6 +92,10 @@
   {
    "label": "河南大学AI学院2026复试细则",
    "url": "https://ai.henu.edu.cn/info/1085/16422.htm"
+  },
+  {
+   "label": "N诺河南大学考情",
+   "url": "https://noobdream.com/schoolinfo/216/"
   }
  ],
  "generated": {
@@ -87,5 +108,5 @@
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
  },
- "note": "双一流建设高校；首批入驻郑州校区全建制学院；22408；执行A区国家线264；拟考试招生35、进复试35，复录比≈1:1"
+ "note": "双一流建设高校；人工智能学院085410=22408；2026线264=国家线录35均313【264-396】；线较2025(338)骤降；复录比≈1:1，复试含机试"
 }

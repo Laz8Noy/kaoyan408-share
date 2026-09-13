@@ -1,30 +1,74 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "南京邮电大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "南京邮电大学",
+   "category": "C-对照",
    "province": "江苏",
+   "region": "华东",
+   "tier": "双一流",
+   "subjectClass": "22408",
+   "direction": "电子信息-人工智能",
    "college": "人工智能学院",
-   "program": "电子信息-人工智能",
-   "subjects": "英二数二408",
-   "line": "325",
+   "line2026": "325",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "325"
+   },
+   "plan2026": "40(目录全日制含推免14)",
+   "fill": "一志愿为主",
    "retestCnt": "64",
-   "adjCnt": "0",
-   "avgTotal": "352",
-   "avg408": "95",
-   "avgPol": "62",
-   "avgEng": "75",
-   "avgMath": "119",
    "admitCnt": "40",
+   "admitMax": "401",
+   "admitMin": "327",
    "admitAvg": "362",
-   "rate": "60%",
-   "ratioNN": "1.6",
-   "note": "✅22408兼容；含AI"
+   "scope": "085410电子信息-人工智能(人工智能学院)2026线325；一志愿进复试64人，进复试均分352【325-401】；拟录取40人均362【327-401】；408单科均分95；报名255人",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "95",
+   "nnRate": "60%",
+   "note": "真085410人工智能方向(22408)，双一流热门，线325、拟录取均362【327-401】，高于用户310档；2026计算机类由811数据结构改考408；同校计算机学院电子信息-计算机22408线339(更热，拟录取均378)",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(复试线/录取表)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "8",
+   "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/MYtjYkW8claczSCAzHhVQw",
+   "kaoqingUrl": "https://yzb.njupt.edu.cn/2026/0529/c7813a302875/page.htm"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "人工智能学院",
+   "tier": "双一流",
+   "subjects": "22408",
+   "line2026": "325",
+   "plan": "40",
+   "retestCnt": "64",
+   "admitCnt": "40",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "401",
+   "admitMin": "327",
+   "admitAvg": "362",
+   "scope": "真085410，线325，拟录取均362【327-401】；408均分95；高于310档",
+   "verify": "第三方(N诺)+官方(报考录取表)",
+   "url": "https://noobdream.com/schoolinfo/161/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666149832&idx=4&sn=2b9dab6887682227736530a921be5754&scene=21&poc_token=HKVoDGmjY98ozfT1tdUAGPzgO9jj3OJM2FEebTUJ",
   "20考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155435&idx=4&sn=a67dad08404357688751636a011ccedd&scene=21&poc_token=HKJoDGmjRzcunkIIuMwOSpiqSmVgQelCAzQJcnPR",
@@ -35,8 +79,33 @@
   "25考情": "https://mp.weixin.qq.com/s/5pBBAKw0_9rd5hDi8tUSgQ",
   "26考情": "https://mp.weixin.qq.com/s/MYtjYkW8claczSCAzHhVQw"
  },
+ "updates2027": [
+  {
+   "院校": "南京邮电大学",
+   "层次": "双一流",
+   "专业/范围": "计算机类(计科/软工/网安/电子信息)",
+   "原科目": "811数据结构(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/161+官方",
+   "备注": "2026起计算机学硕11408、电子信息22408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 南京邮电大学",
+   "url": "https://noobdream.com/schoolinfo/161/"
+  },
+  {
+   "label": "南邮2026各学院分专业报考录取情况",
+   "url": "https://yzb.njupt.edu.cn/2026/0529/c7813a302875/page.htm"
+  }
+ ],
+ "note": "真085410人工智能(22408)，双一流热门，线325、拟录取均362，明显高于用户310分档，属冲刺校。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -1,28 +1,89 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "天津职业技术师范大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "天津",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "信息技术工程学院",
+   "nnProg": "电子信息-软件工程(085405)",
+   "nnCollege": "信息技术工程学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "281",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "345",
+    "2024": "289",
+    "2025": null,
+    "2026": "281"
+   },
+   "plan2026": "约21(3一志愿+18调剂)",
+   "fill": "一志愿极少+大量调剂",
+   "retestCnt": "3+调剂",
+   "admitCnt": "3+18调剂",
+   "admitMax": "349",
+   "admitMin": "281",
+   "admitAvg": "321",
+   "scope": "相关口径=电子信息-软件工程(085405，非085410)。2026已22408(此前22DS自命题)。N诺2026：线281，进复试3+调剂均321【281-349】；录3+18调剂，一志愿均321【281-349】。一志愿极少、大量调剂。无085410专列",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "100%",
+   "note": "经N诺schoolinfo/304核对：天津职师无085410专列；信息技术工程学院电子信息-软件工程22408，线281，一志愿3+18调剂录21均321。学硕软件工程12408",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/304/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息技术工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "电子信息-软件工程085405",
+   "line2026": "281",
+   "plan": "约21",
+   "retestCnt": "3+调剂",
+   "admitCnt": "3+18调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "349",
+   "admitMin": "281",
+   "admitAvg": "321",
+   "scope": "085405(非085410)22408；线281，一志愿3+18调剂录21均321",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/304/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "天津职业技术师范大学",
    "province": "天津",
    "college": "信息技术工程学院",
    "program": "电子信息-软件工程",
-   "subjects": "英二数二408",
+   "subjects": "22408",
    "line": "281",
    "retestCnt": "3",
-   "adjCnt": "0",
+   "adjCnt": "18",
    "avgTotal": "321",
    "avg408": null,
    "avgPol": null,
    "avgEng": null,
    "avgMath": null,
-   "admitCnt": "3",
-   "admitAvg": null,
+   "admitCnt": "21",
+   "admitAvg": "321",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；无085410专列"
   }
  ],
  "wangdaoLinks": {
@@ -31,8 +92,14 @@
   "25考情": "https://mp.weixin.qq.com/s/84nyIFGAIGm1tzAwphtZYg",
   "26考情": "https://mp.weixin.qq.com/s/0IzSfuayR39OC1arA_JxyQ"
  },
+ "updates2027": [],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺天津职业技术师范大学考情",
+   "url": "https://noobdream.com/schoolinfo/304/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -27,7 +27,15 @@ category(S-主体/C-对照), college, province, region, tier, subjectClass(科�
 line2026, lineDelta, linesByYear{2023..2026}, plan2026, fill(一志愿/调剂), ratioApply, ratioRetest,
 retestCnt, admitCnt, admitMax/Min/Avg, scope(口径), aiTag, heatNet, heatComp, nn408avg, nnRate,
 wdCount/wdYears/wdUrl26, note, srcLabel, nnProg/nnCollege/nnSubjects(若有), kaoqingUrl,
+nnUrl(N诺院校页), scope2(录取明细拆解:一志愿/调剂各分段与最高最低), fill2026(2026 调剂实况),
 subjectClaim2026[（成信工深档）], subjectStatus[（成信工深档）]
+
+### kaoqingDetail2026 行字段
+college, program(志愿专业), batch(批次), subjects, tier, line2026, plan, retestCnt, admitCnt,
+ratioRetest, ratioApply, admitMax/Min/Avg, scope(口径), verify(核实状态), url(来源)
+
+### todo_patch_list.json（2026-09-13 新增）
+177 条：每校剩余待补字段清单（name/file/category/n_missing/missing/wangdaoLinks），由 tools/regen_todo.py 再生。
 
 ### conflict 字段
 field(冲突字段), unit(相关单位), claims[{src,value}], status(已核实/待核/警告-非22408/参考/差异),

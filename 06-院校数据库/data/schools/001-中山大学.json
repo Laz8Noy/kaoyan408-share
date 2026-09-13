@@ -7,24 +7,69 @@
    "province": "广东",
    "region": "华南",
    "tier": "985",
-   "subjectClass": "待确认",
-   "heatComp": "56",
-   "heatNet": "94",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机学院(广州校区)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "379",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "371",
+    "2026": "379"
+   },
+   "plan2026": "约73(66+7专项)",
+   "fill": "一志愿为主",
+   "retestCnt": "81+11专项",
+   "admitCnt": "66+7专项",
+   "admitMax": "439",
+   "admitMin": "379",
+   "admitAvg": "404",
+   "scope": "985对照。计算机学院电子信息-计算机(085404口径)22408，2026线379，进复试81+11专项均401【379-439】，拟录66+7专项均404【379-439】。中山大学无独立'085410人工智能'单列；AI方向在人工智能学院招085400电子信息(22408,2026线约330档)。仅作985对照，远超用户310分档目标",
    "aiTag": "✅真AI方向",
-   "note": "085410线待官方核实，作985对照",
-   "srcLabel": "网络热度",
+   "heatNet": "94",
+   "heatComp": "56",
+   "nn408avg": null,
+   "nnRate": "约80%",
+   "note": "经N诺schoolinfo/26核对：中大计算机类全408，22408/11408并存；计算机学院电子信息-计算机22408线379(极高)；人工智能学院085400电子信息22408；无085410专列。作985对照",
+   "srcLabel": "第三方",
    "src": [
     "区域榜",
-    "三源核对"
+    "三源核对",
+    "N诺"
    ],
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/ThObE-012awsIwxIrewX3w",
+   "nnUrl": "https://noobdream.com/schoolinfo/26/",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/26/",
    "college": "人工智能学院（相关）"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机学院(广州校区)",
+   "tier": "985",
+   "subjects": "22408",
+   "program": "085400电子信息-计算机",
+   "line2026": "379",
+   "plan": "约73",
+   "retestCnt": "81+11专项",
+   "admitCnt": "66+7专项",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "439",
+   "admitMin": "379",
+   "admitAvg": "404",
+   "scope": "985对照；电子信息-计算机22408；线379进复试81+11均401；录66+7均404【379-439】",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/26/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666237408&idx=6&sn=8c7c52d2bc8ee2f0112cd9cec16428df&scene=21&poc_token=HO_0Cmmj7joevzgsEMdumtcxBAz00Zec9XdlKTQo",
@@ -41,7 +86,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺中山大学考情",
+   "url": "https://noobdream.com/schoolinfo/26/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

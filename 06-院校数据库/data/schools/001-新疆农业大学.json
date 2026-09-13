@@ -33,7 +33,13 @@
    "wdCount": "1",
    "wdYears": "26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/nWcXsMHB62lAeBDph1Tmfw",
-   "college": "计算机与信息工程学院"
+   "college": "计算机与信息工程学院",
+   "scope": "N诺最新仅2024：电子信息-人工智能二二DS自命题，2024线304，进复试3，均分322【304-335】，单科政61英53数79专业课130，录取3+7调剂，拟录取322；2024为自命题",
+   "retestCnt": "3(2024)",
+   "admitCnt": "3+7调剂(2024)",
+   "admitMax": "335",
+   "admitMin": "304",
+   "admitAvg": "322"
   }
  ],
  "crossRefs": [],
@@ -66,6 +72,10 @@
   {
    "label": "新疆农业大学2027改考408公告",
    "url": "https://yjsc.xjau.edu.cn/2026/0709/c2155a117335/page.htm"
+  },
+  {
+   "label": "N诺 新疆农业大学",
+   "url": "https://noobdream.com/schoolinfo/397/"
   }
  ],
  "generated": {
@@ -77,5 +87,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "N诺2024：AI二二DS自命题线304录3+7调剂；2026改408待核。"
 }

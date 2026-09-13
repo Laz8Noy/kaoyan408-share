@@ -1,16 +1,134 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "湖北大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "非408",
+   "direction": "不区分研究方向",
+   "college": "人工智能学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二+811数据结构自命题",
+   "line2026": "275",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": "285",
+    "2025": "273",
+    "2026": "275"
+   },
+   "plan2026": "50+1专项",
+   "fill": "一志愿为主",
+   "retestCnt": "60",
+   "admitCnt": "50+1专项",
+   "admitMax": "400",
+   "admitMin": "278",
+   "admitAvg": "319",
+   "scope": "⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "约85%",
+   "note": "经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/330/"
+  },
+  {
+   "category": "C-对照",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机学院",
+   "nnProg": "电子信息(085404)",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": "325",
+    "2024": "310",
+    "2025": "295",
+    "2026": "264"
+   },
+   "plan2026": "约181(96+85调剂)",
+   "fill": "调剂为主",
+   "retestCnt": "97+307调剂",
+   "admitCnt": "96+85调剂",
+   "admitMax": "370",
+   "admitMin": "266",
+   "admitAvg": "302",
+   "scope": "相关(085404非085410)。计算机学院电子信息2026首年改408(22408)，线NC(=A区国家线264)，因首年改考报考遇冷，进复试97+307调剂均302【266-370】，录96+85调剂。大量调剂名额",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "80",
+   "nnRate": null,
+   "note": "计算机学院085404电子信息2026首年改408，国家线264，一志愿仅97人但有307调剂进复试，录96+85，求稳/调剂友好；但非085410",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/330/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "人工智能学院",
+   "tier": "双非",
+   "subjects": "非408(22DS)",
+   "program": "085410人工智能",
+   "line2026": "275",
+   "plan": "51",
+   "retestCnt": "60",
+   "admitCnt": "51",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "400",
+   "admitMin": "278",
+   "admitAvg": "319",
+   "scope": "⚠️085410人工智能2026仍考811数据结构自命题(非408)；线275进复试60均316【275-400】录51均319",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/330/"
+  },
+  {
+   "college": "计算机学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085404电子信息",
+   "line2026": "264",
+   "plan": "约181",
+   "retestCnt": "97+307调剂",
+   "admitCnt": "96+85调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "370",
+   "admitMin": "266",
+   "admitAvg": "302",
+   "scope": "085404(非085410)2026首年改408；线264=国家线，进复试97+307调剂均302【266-370】录96+85",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/330/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "湖北大学",
    "province": "湖北",
    "college": "计算机学院",
-   "program": "电子信息",
+   "program": "电子信息(085404)",
    "subjects": "英二数二408",
-   "line": null,
+   "line": "264",
    "retestCnt": "97",
    "adjCnt": "307",
    "avgTotal": "302",
@@ -18,11 +136,11 @@
    "avgPol": "56",
    "avgEng": "65",
    "avgMath": "102",
-   "admitCnt": "96",
-   "admitAvg": null,
+   "admitCnt": "181",
+   "admitAvg": "302",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；注意085410人工智能学院仍22DS自命题非408"
   }
  ],
  "wangdaoLinks": {
@@ -35,8 +153,42 @@
   "25考情分析": "https://mp.weixin.qq.com/s/iTHJknyvdkwzxt5GZxwcYQ",
   "26考情分析": "https://mp.weixin.qq.com/s/oTFhOtsCflH6ZZ6G9RCw1g"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [
+  {
+   "院校": "湖北大学",
+   "层次": "双非",
+   "专业/范围": "计算机学院085404电子信息",
+   "原科目": "811数据结构",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "湖北大学研招网2026目录 + N诺schoolinfo/330",
+   "备注": "2026计算机学院085404电子信息改408；⚠️人工智能学院085410人工智能2026仍考22DS(811数据结构自命题)，未改408，需关注2027是否跟进"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
+ "conflicts": [
+  {
+   "field": "subjectClass(085410)",
+   "old": "22408",
+   "new": "非408(22DS自命题)",
+   "reason": "N诺2026表显示人工智能学院085410人工智能初试为22DS(英二数二+811数据结构)，非408；'改408'仅适用计算机学院085404，勿混淆",
+   "sources": [
+    "https://noobdream.com/schoolinfo/330/"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺湖北大学考情",
+   "url": "https://noobdream.com/schoolinfo/330/"
+  },
+  {
+   "label": "湖北大学2026硕士招生专业目录(官方)",
+   "url": "https://yz.hubu.edu.cn/info/1011/3299.htm"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

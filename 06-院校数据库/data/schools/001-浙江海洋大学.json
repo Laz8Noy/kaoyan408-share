@@ -1,36 +1,101 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "浙江海洋大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "浙江海洋大学",
+   "category": "S-主体",
    "province": "浙江",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机技术(085404)",
    "college": "信息工程学院",
-   "program": "085404 计算机技术",
-   "subjects": "英二数二408",
-   "line": null,
-   "retestCnt": "6",
-   "adjCnt": "46",
-   "avgTotal": "293",
-   "avg408": "72",
-   "avgPol": "62",
-   "avgEng": "64",
-   "avgMath": "95",
-   "admitCnt": "6",
-   "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "✅22408兼容"
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "国家线",
+    "2024": "252",
+    "2025": "291",
+    "2026": "国家线(264)"
+   },
+   "plan2026": "6一志愿+24调剂",
+   "fill": "调剂为主",
+   "retestCnt": "6一志愿+46调剂",
+   "admitCnt": "6一志愿+24调剂",
+   "admitMax": "326",
+   "admitMin": "264",
+   "admitAvg": "293",
+   "scope": "085404计算机技术(信息工程学院)2026线国家线264；2025改考22408；一志愿仅进复试6人、拟录取6人+24调剂，进复试均分293【264-326】；408单科均分72；大量招调剂",
+   "aiTag": "⚠️电子信息-计算机(非085410单列)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "72",
+   "nnRate": "100%(一志愿)",
+   "note": "085404计算机技术22408，2025改408；一志愿常年招不满(仅6人)、大量招调剂(46进复试/24录取)；线国家线264，一志愿拟录取均293【264-326】；无单列085410",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(复试线)",
+    "三源核对"
+   ],
+   "nnProg": "085404计算机技术",
+   "nnCollege": "信息工程学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "2",
+   "wdYears": "25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/rWqMvh9Hu2WBYMvfLGWetw",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/317/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(264)",
+   "plan": "6一志愿+24调剂",
+   "retestCnt": "6一志愿+46调剂",
+   "admitCnt": "6一志愿+24调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "326",
+   "admitMin": "264",
+   "admitAvg": "293",
+   "scope": "085404计算机技术22408，线国家线264，一志愿仅6人、调剂为主，拟录取均293【264-326】；408均分72",
+   "verify": "第三方(N诺)+官方(复试线国家线)",
+   "url": "https://noobdream.com/schoolinfo/317/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "25考情": "https://mp.weixin.qq.com/s/2Hc9xPdTxwdGFMkA8X-gug",
   "26考情": "https://mp.weixin.qq.com/s/rWqMvh9Hu2WBYMvfLGWetw"
  },
+ "updates2027": [
+  {
+   "院校": "浙江海洋大学",
+   "层次": "双非",
+   "专业/范围": "085404计算机技术",
+   "原科目": "农综三/电子技术基础(自命题)",
+   "新科目": "408",
+   "生效年份": "2025",
+   "来源": "N诺schoolinfo/317",
+   "备注": "2025起计算机技术改22408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 浙江海洋大学",
+   "url": "https://noobdream.com/schoolinfo/317/"
+  }
+ ],
+ "note": "085404计算机技术(非085410)，2025改22408，线国家线264、一志愿仅6人、调剂为主，拟录取均293。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

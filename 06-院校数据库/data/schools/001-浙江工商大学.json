@@ -9,36 +9,64 @@
    "tier": "双非",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
+   "college": "计算机科学与技术学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "计算机科学与技术学院",
+   "nnSubjects": "英二数二408",
    "line2026": "264",
    "lineDelta": "=国家线",
    "linesByYear": {
-    "2023": null,
-    "2024": null,
-    "2025": null,
+    "2023": "300",
+    "2024": "278",
+    "2025": "269",
     "2026": "264"
    },
    "plan2026": "37-38",
-   "fill": "一志愿为主",
-   "aiTag": "❓未注明",
+   "fill": "一志愿+调剂",
+   "retestCnt": "47+56调剂",
+   "admitCnt": "27+12调剂",
+   "admitMax": "386",
+   "admitMin": "271",
+   "admitAvg": "317",
+   "scope": "浙江工商(杭州,计算机B-)计算机科学与技术学院085410电子信息-人工智能22408;N诺最新:线NC(=国家线264),进复试47+56调剂,单科63/77/120/99,录27+12调剂,一志愿均317【271-386】。另有信息与电子工程学院085410人工智能22408:线270复60录43均312【273-366】",
+   "aiTag": "✅真AI方向",
    "heatNet": "50",
    "heatComp": "30",
-   "note": "拟招37-38，执行A区国家线",
-   "srcLabel": "机构估算",
+   "note": "经N诺schoolinfo/127+官方2026目录核对:浙商大085410人工智能22408,线国家线264,计算机学院录27+12均317【271-386】;信电学院线270录43均312",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
     "三源核对"
    ],
-   "lineUltimate2026": "264",
+   "nnUrl": "https://noobdream.com/schoolinfo/127/",
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
-   "wdUrl26": "https://mp.weixin.qq.com/s/IwD56a1Pq44POD_Y124ufQ",
-   "college": "计算机科学与技术学院"
+   "wdUrl26": "https://mp.weixin.qq.com/s/IwD56a1Pq44POD_Y124ufQ"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与技术学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085410电子信息-人工智能",
+   "line2026": "264",
+   "plan": "37-38",
+   "retestCnt": "47+56调剂",
+   "admitCnt": "27+12调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "386",
+   "admitMin": "271",
+   "admitAvg": "317",
+   "scope": "085410人工智能22408;线264=国家线,进复试47+56调剂录27+12一志愿均317【271-386】;信电学院另招线270录43均312",
+   "verify": "官方+N诺",
+   "url": "https://noobdream.com/schoolinfo/127/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666151545&idx=4&sn=38bc6efecb301012953a6d785b1f2a75&scene=21&poc_token=HLegCmmjxzMgbXwasUx69o6h0BReC6YduCdkfiU4",
@@ -55,7 +83,16 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "浙江工商大学2026招生目录(官方)",
+   "url": "https://scie.zjgsu.edu.cn/zh-hans/node/2779"
+  },
+  {
+   "label": "N诺浙江工商大学考情",
+   "url": "https://noobdream.com/schoolinfo/127/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -1,30 +1,112 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "中南民族大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "中南民族大学",
+   "category": "S-主体",
    "province": "湖北",
-   "college": "计算机学院",
-   "program": "电子信息-人工智能",
-   "subjects": "英二数二408",
-   "line": "264",
-   "retestCnt": "2",
-   "adjCnt": "24",
-   "avgTotal": "268",
-   "avg408": null,
-   "avgPol": null,
-   "avgEng": null,
-   "avgMath": null,
-   "admitCnt": "2",
-   "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "✅22408兼容；含AI"
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-人工智能",
+   "college": "计算机科学学院",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "264"
+   },
+   "plan2026": "2一志愿+24调剂",
+   "fill": "调剂为主",
+   "retestCnt": "2一志愿+24调剂",
+   "admitCnt": "2一志愿(调剂拟录取未单列)",
+   "admitMax": "270",
+   "admitMin": "265",
+   "admitAvg": "268",
+   "scope": "085410电子信息-人工智能(计算机科学学院)2026线264；一志愿仅进复试2人(265-270均268)，另24人调剂进复试；一志愿拟录取2人；调剂为主",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "100%(一志愿)",
+   "note": "真085410人工智能方向，22408；一志愿仅2人过线、招24调剂，调剂为主，分数线即国家线264；408均分N诺未公布",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机科学学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "8",
+   "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/diMhPYt4xNMUcfeFNkfjGA",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/97/"
+  },
+  {
+   "category": "C-对照",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机",
+   "college": "计算机科学学院",
+   "line2026": "264",
+   "lineDelta": "+4",
+   "linesByYear": {
+    "2023": "295",
+    "2024": "280",
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "75+6补录",
+   "fill": "一志愿为主",
+   "retestCnt": "87",
+   "admitCnt": "75+6补录",
+   "admitMax": "367",
+   "admitMin": "266",
+   "admitAvg": "300",
+   "scope": "085404电子信息-计算机(计算机科学学院)2026线264；一志愿进复试87人，进复试均分296【265-367】；拟录取均300【266-367】，75+6补录；408单科均分77",
+   "aiTag": "⚠️电子信息-计算机(非085410)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "77",
+   "nnRate": null,
+   "note": "计算机方向为该学院主力408项目，一志愿为主、75+6补录，拟录取均300【266-367】；线264(2025为260)；408均分77",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机科学学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/97/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "264",
+   "plan": "AI2+计算机75+6补录",
+   "retestCnt": "AI2+24调剂 / 计算机87",
+   "admitCnt": "AI2 / 计算机75+6补录",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "367",
+   "admitMin": "265",
+   "admitAvg": "300",
+   "scope": "085410人工智能一志愿2人(265-270)招调剂；085404计算机一志愿87进复试拟录取均300【266-367】；线264",
+   "verify": "第三方(N诺)+官方(复试办法)",
+   "url": "https://noobdream.com/schoolinfo/97/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233629&idx=6&sn=f80fcdd3022cfa7157e3b7a6cf287b2a&scene=21&poc_token=HAcPDGmjwbhu820b_5VJ_ndzPsEQMBFJ0OBpsoDQ",
   "20考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233629&idx=5&sn=a4cf1a9ddce9b8980884af961692c707&scene=21&poc_token=HAQPDGmjKpUg4j4yOLnrIn3IHLPhX-7fbGo7Fw3A",
@@ -35,8 +117,33 @@
   "25考情分析": "https://mp.weixin.qq.com/s/FONywmkuT13L6URJ1v03hg",
   "26考情分析": "https://mp.weixin.qq.com/s/diMhPYt4xNMUcfeFNkfjGA"
  },
+ "updates2027": [
+  {
+   "院校": "中南民族大学",
+   "层次": "双非",
+   "专业/范围": "081200计科/085400电子信息",
+   "原科目": "842计算机专业基础综合(自命题)",
+   "新科目": "408",
+   "生效年份": "2025",
+   "来源": "N诺schoolinfo/97",
+   "备注": "计算机科学学院计科11408、电子信息22408；2026维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 中南民族大学",
+   "url": "https://noobdream.com/schoolinfo/97/"
+  },
+  {
+   "label": "中南民族大学2026复试录取办法",
+   "url": "https://www.scuec.edu.cn/yjsy/info/1052/3667.htm"
+  }
+ ],
+ "note": "真085410人工智能方向(22408)一志愿常年招不满、调剂为主；同院085404计算机方向为主力408项目(一志愿为主，拟录取均300)。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -89,7 +89,12 @@
  },
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 中国民用航空飞行学院",
+   "url": "https://noobdream.com/schoolinfo/407/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

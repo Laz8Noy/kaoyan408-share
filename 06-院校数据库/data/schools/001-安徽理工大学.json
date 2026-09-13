@@ -1,28 +1,146 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "安徽理工大学",
- "units": [],
+ "units": [
+  {
+   "category": "C-对照",
+   "province": "安徽",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "计算机科学与工程学院",
+   "nnProg": "电子信息-计算机(085404)",
+   "nnCollege": "计算机科学与工程学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "286",
+   "lineDelta": "=校线(高于国家线)",
+   "linesByYear": {
+    "2023": null,
+    "2024": "311",
+    "2025": "279",
+    "2026": "286"
+   },
+   "plan2026": "148+1专项",
+   "fill": "一志愿为主",
+   "retestCnt": "180",
+   "admitCnt": "148+1专项",
+   "admitMax": "383",
+   "admitMin": "289",
+   "admitAvg": "319",
+   "scope": "相关口径=085404电子信息-计算机(非085410)。2026首年改408(此前22DS+C+CN自命题)。N诺2026：校线286，进复试180均314【255-383】，单科61/70/101/81；录148+1专项均319【289-383】。招生量大",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "81",
+   "nnRate": null,
+   "note": "⚠️口径：计算机科学与工程学院085404计算机2026首年改22408，线286录148均319。注意085410人工智能在人工智能学院，考22人工智能自命题(非408)",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/205/"
+  },
+  {
+   "category": "C-对照",
+   "province": "安徽",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "非408",
+   "direction": "不区分研究方向",
+   "college": "人工智能学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二+人工智能自命题",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "约72(34一志愿+38调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "34+调剂",
+   "admitCnt": "34+38调剂",
+   "admitMax": "400",
+   "admitMin": "270",
+   "admitAvg": "337",
+   "scope": "⚠️085410人工智能(人工智能学院)2026初试为英二数二+人工智能(自命题专业课)，非408！N诺2026：线264(=国家线)，进复试34+调剂均337【270-400】，单科61/65/95/116；录34+38调剂，一志愿均337【270-400】。勿与计算机学院085404(22408)混淆",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "经N诺schoolinfo/205核对：人工智能学院085410人工智能2026考22人工智能自命题(非408)，线264均337录72。不匹配用户408目标；408的是计算机学院085404",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/205/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "085404电子信息-计算机",
+   "line2026": "286",
+   "plan": "149",
+   "retestCnt": "180",
+   "admitCnt": "149",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "383",
+   "admitMin": "289",
+   "admitAvg": "319",
+   "scope": "085404(非085410)2026首年改22408；线286校线，进复试180均314录149均319",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/205/"
+  },
+  {
+   "college": "人工智能学院",
+   "tier": "双非",
+   "subjects": "非408(22人工智能自命题)",
+   "program": "085410人工智能",
+   "line2026": "264",
+   "plan": "约72",
+   "retestCnt": "34+调剂",
+   "admitCnt": "34+38调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "400",
+   "admitMin": "270",
+   "admitAvg": "337",
+   "scope": "⚠️085410人工智能考22人工智能自命题非408；线264录72均337",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/205/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "安徽理工大学",
    "province": "安徽",
    "college": "人工智能学院",
    "program": "电子信息-人工智能",
-   "subjects": "推测408",
+   "subjects": "非408(22人工智能自命题)",
    "line": "264",
    "retestCnt": "34",
-   "adjCnt": "0",
+   "adjCnt": "38",
    "avgTotal": "337",
-   "avg408": "116",
+   "avg408": null,
    "avgPol": "61",
    "avgEng": "65",
    "avgMath": "95",
-   "admitCnt": "34",
-   "admitAvg": null,
+   "admitCnt": "72",
+   "admitAvg": "337",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含AI"
+   "note": "⚠️纠正：085410人工智能考22人工智能自命题非408；已提升为units并标非408"
   }
  ],
  "wangdaoLinks": {
@@ -32,8 +150,35 @@
   "25考情分析": "https://mp.weixin.qq.com/s/cB3o0oNU93ya-0N0V_sIPg",
   "26考情分析": "https://mp.weixin.qq.com/s/AbNlvAZEsODGeRUEUOsYsg"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [
+  {
+   "院校": "安徽理工大学",
+   "层次": "双非",
+   "专业/范围": "计算机科学与工程学院电子信息",
+   "原科目": "22DS+C+CN自命题",
+   "新科目": "22408",
+   "生效年份": "2026",
+   "来源": "安徽理工2026招生目录+N诺schoolinfo/205",
+   "备注": "2026起计算机学院085404改22408；⚠️人工智能学院085410人工智能仍考'22人工智能'自命题非408"
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "nnCandidates.subjects",
+   "old": "推测408",
+   "new": "非408(22人工智能自命题)",
+   "reason": "N诺2026表显示人工智能学院085410人工智能初试专业课为'22人工智能'(自命题)，非408；计算机学院085404才是22408",
+   "sources": [
+    "https://noobdream.com/schoolinfo/205/"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺安徽理工大学考情",
+   "url": "https://noobdream.com/schoolinfo/205/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

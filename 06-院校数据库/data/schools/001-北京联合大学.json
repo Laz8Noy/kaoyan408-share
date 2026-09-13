@@ -1,16 +1,77 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "北京联合大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "北京",
+   "region": "华北",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "智慧城市学院",
+   "nnProg": "电子信息(085400)",
+   "nnCollege": "智慧城市学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "264",
+   "lineDelta": "=A区国家线",
+   "linesByYear": {
+    "2023": "273",
+    "2024": "273",
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "约32(4一志愿+1专项+27调剂)",
+   "fill": "一志愿极少+大量调剂",
+   "retestCnt": "4+1专项+40调剂",
+   "admitCnt": "4+1专项+27调剂",
+   "admitMax": "288",
+   "admitMin": "267",
+   "admitAvg": "278",
+   "scope": "电子信息(085400)22408。北京双非。N诺2026：线NC(=国家线)，进复试4+1专项+40调剂均278【267-288】，单科52/69/85/71；录4+1+27调剂，一志愿均278【267-288】。一志愿极少、大量调剂。无085410专列",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "71",
+   "nnRate": "100%",
+   "note": "经N诺schoolinfo/76核对：北联大智慧城市学院电子信息2026已22408；线国家线264，一志愿4+40调剂录32均278。无085410专列。2027计科改11408、软工改12408",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/76/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "智慧城市学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "program": "电子信息085400",
+   "line2026": "264",
+   "plan": "约32",
+   "retestCnt": "4+1专项+40调剂",
+   "admitCnt": "4+1专项+27调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "288",
+   "admitMin": "267",
+   "admitAvg": "278",
+   "scope": "电子信息22408(无085410专列)；线264=国家线，一志愿4+40调剂均278录32",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/76/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "北京联合大学",
    "province": "北京",
    "college": "智慧城市学院",
    "program": "电子信息",
-   "subjects": "英二数二408",
-   "line": null,
+   "subjects": "22408",
+   "line": "264",
    "retestCnt": "4",
    "adjCnt": "41",
    "avgTotal": "278",
@@ -18,11 +79,11 @@
    "avgPol": "52",
    "avgEng": "69",
    "avgMath": "85",
-   "admitCnt": "4",
-   "admitAvg": null,
+   "admitCnt": "32",
+   "admitAvg": "278",
    "rate": "100%",
    "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；无085410专列"
   }
  ],
  "wangdaoLinks": {
@@ -32,8 +93,25 @@
   "25考情分析": "https://mp.weixin.qq.com/s/xTlfGpYSMla9ysy8Hbxw8A",
   "26考情分析": "https://mp.weixin.qq.com/s/vla9wXB038WuytYsh4QBKA"
  },
+ "updates2027": [
+  {
+   "院校": "北京联合大学",
+   "层次": "双非",
+   "专业/范围": "智慧城市学院081200/机器人学院083500等",
+   "原科目": "801程序设计/803软件基础自命题",
+   "新科目": "408(学硕11408/12408)",
+   "生效年份": "2027",
+   "来源": "北联大2027招生专业目录+N诺schoolinfo/76",
+   "备注": "2027计算机科学与技术改11408、软件工程改12408；电子信息专硕2026已22408沿用；无085410专列"
+  }
+ ],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺北京联合大学考情",
+   "url": "https://noobdream.com/schoolinfo/76/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

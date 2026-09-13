@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "三峡大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机与信息学院",
+   "direction": "电子信息-人工智能",
+   "line2026": "305",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "305"
+   },
+   "plan2026": "8(一志愿)+12调剂",
+   "fill": "调剂为主",
+   "retestCnt": "8一志愿+38调剂",
+   "admitCnt": "8一志愿+12调剂",
+   "admitMax": "374",
+   "admitMin": "275",
+   "admitAvg": "305",
+   "scope": "N诺2026：电子信息-人工智能22408，无校线(NC走国家线)；一志愿进复试8人+调剂38人；进复试均分305【275-374】；单科均分政58英68数105 408=74；拟招一志愿8+调剂12；电子信息-计算机22408同院296【264-361】",
+   "aiTag": "✅真AI方向",
+   "nn408avg": "74",
+   "nnRate": "100%",
+   "note": "22408兼容；电子信息-人工智能为调剂友好型(一志愿仅8人，大量38调剂)；2025年无AI方向(仅计算机)，AI为2026新增方向",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机与信息学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/98/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +67,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/tUkNcLEo7eMi_3Yyr3yArA"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 三峡大学 2026数据",
+   "url": "https://noobdream.com/schoolinfo/98/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +81,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "N诺2026数据已入主档：电子信息-人工智能22408，一志愿8人+大量调剂，进复试均分305【275-374】，408均分74。"
 }

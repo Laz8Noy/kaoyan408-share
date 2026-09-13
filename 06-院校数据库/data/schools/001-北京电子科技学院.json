@@ -1,38 +1,109 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "北京电子科技学院",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "北京电子科技学院",
+   "category": "C-对照",
    "province": "北京",
-   "college": "N诺",
-   "program": "电子信息-计算机",
-   "subjects": "英一数一408",
-   "line": "282",
-   "retestCnt": "17",
-   "adjCnt": "1",
-   "avgTotal": "311",
-   "avg408": null,
-   "avgPol": null,
-   "avgEng": null,
-   "avgMath": null,
-   "admitCnt": "10",
+   "region": "华北",
+   "tier": "双非(中央办公厅直属)",
+   "subjectClass": "11408",
+   "direction": "电子信息-计算机(085404)",
+   "college": "本部",
+   "line2026": "282",
+   "lineDelta": "+12",
+   "linesByYear": {
+    "2023": "280",
+    "2024": "273",
+    "2025": "270",
+    "2026": "282"
+   },
+   "plan2026": "10+1专项",
+   "fill": "一志愿为主",
+   "retestCnt": "17+1专项",
+   "admitCnt": "10+1专项",
+   "admitMax": "385",
+   "admitMin": "284",
    "admitAvg": "324",
-   "rate": "60%",
-   "ratioNN": "1.7",
-   "note": "⚠️非22408(英一数一408)；含电子信息"
+   "scope": "085404计算机技术(电子信息)2026线282/35/53；英一数一408(11408)；一志愿进复试17+1专项，拟录取10+1专项均324【284-385】；规模小(每年约10人)",
+   "aiTag": "⚠️11408非22408",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": "60%",
+   "note": "⚠️英一数一408(11408)，非用户目标22408；无085410人工智能方向；中央办公厅直属、招生规模小(年约10人)；线282，拟录取均324【284-385】",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(复试线)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "本部",
+   "nnSubjects": "英一数一408",
+   "wdCount": "4",
+   "wdYears": "23考情分析,24考情分析,25考情分析,26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/6RF4SbeUN6fTNhYWwVmO7A",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/300/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "本部",
+   "tier": "双非(中办直属)",
+   "subjects": "11408",
+   "line2026": "282",
+   "plan": "10+1专项",
+   "retestCnt": "17+1专项",
+   "admitCnt": "10+1专项",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "385",
+   "admitMin": "284",
+   "admitAvg": "324",
+   "scope": "英一数一408；线282；拟录取均324【284-385】；非22408",
+   "verify": "第三方(N诺)+官方(复试线282)",
+   "url": "https://noobdream.com/schoolinfo/300/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "23考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666211927&idx=6&sn=9543be71e8ca299f3cf81e270a5aba70&scene=21&poc_token=HDeiCmmjQCIk8h2cZw0GA0E8bPVKRiGioHEHvYlG",
   "24考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235311&idx=5&sn=49111b55b261554d3b652246483381a7&scene=21&poc_token=HDWiCmmjAp6cRsVoW-fjSONpwOwj5M0eo6Z94DWl",
   "25考情分析": "https://mp.weixin.qq.com/s/BM8zmXpqH4Ssydi0fYkFrQ",
   "26考情分析": "https://mp.weixin.qq.com/s/6RF4SbeUN6fTNhYWwVmO7A"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "unit": "电子信息-计算机",
+   "claims": [
+    {
+     "src": "N诺/官方目录",
+     "value": "英一数一408(11408)"
+    }
+   ],
+   "status": "警告-非22408",
+   "action": "英一数一(11408)，与用户目标22408(英二数二)不符；无085410人工智能方向，仅085404计算机技术"
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺 北京电子科技学院",
+   "url": "https://noobdream.com/schoolinfo/300/"
+  },
+  {
+   "label": "北京电子科技学院2026复试线(085404计算机技术282)",
+   "url": "https://m.chinakaoyan.com/info/article/id/659377.shtml"
+  }
+ ],
+ "note": "英一数一408(11408)，非22408；无085410人工智能方向；中办直属、招生规模小。不符合用户22408目标，仅作对照。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

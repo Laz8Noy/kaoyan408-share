@@ -6,7 +6,7 @@
    "category": "S-主体",
    "province": "北京",
    "region": "华北",
-   "tier": "双非",
+   "tier": "双非(北京)",
    "subjectClass": "22408",
    "direction": "不区分研究方向",
    "line2026": "264",
@@ -14,17 +14,23 @@
    "linesByYear": {
     "2023": null,
     "2024": null,
-    "2025": null,
+    "2025": "260",
     "2026": "264"
    },
    "plan2026": "26",
-   "fill": "一志愿为主",
+   "fill": "一志愿少+大量调剂",
+   "retestCnt": null,
+   "admitCnt": null,
+   "admitMax": null,
+   "admitMin": "265",
+   "admitAvg": null,
+   "scope": "北方工业大学(北京)人工智能与计算机学院085410电子信息(人工智能)22408;2025线260,2026执行A区国家线264;官方2026一志愿复试结果PDF显示一志愿考生初试分偏低(如265/271,贴近国家线),一志愿名额不满、大量接收调剂(2025年调剂名单含数十人)。N诺无独立schoolinfo页,数据来自学院官网复试结果PDF",
    "aiTag": "✅真AI方向",
    "heatNet": "55",
    "heatComp": "32",
    "nn408avg": "83",
    "nnRate": "100%",
-   "note": "执行A区国家线",
+   "note": "经官方复试结果PDF+掌上考研核对:北方工业085410人工智能22408线264=国家线,一志愿低分(最低265)、大量调剂;录取总均分/最高分未在公开摘要中披露,N诺无页面",
    "srcLabel": "官方",
    "src": [
     "总览",
@@ -43,7 +49,26 @@
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "人工智能与计算机学院",
+   "tier": "双非(北京)",
+   "subjects": "22408",
+   "program": "085410电子信息(人工智能)",
+   "line2026": "264",
+   "plan": "26",
+   "retestCnt": null,
+   "admitCnt": null,
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": "265",
+   "admitAvg": null,
+   "scope": "085410人工智能22408;线264=国家线,一志愿低分(265起)大量调剂;录取均分未公示,N诺无页面",
+   "verify": "官方",
+   "url": "https://csci.ncut.edu.cn/26rengongzhinengyizhiyuanjieguo.pdf"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235799&idx=5&sn=a0f13a09d5fd2f4a0c7b6220235e616c&scene=21&poc_token=HEWoCmmj1BqTxiHJJhpEgvM_0d6sq0RmuNelfQzm",
@@ -63,6 +88,14 @@
   {
    "label": "北方工业大学085410招生",
    "url": "https://www.kaoyana.com/s1250/085410/"
+  },
+  {
+   "label": "北方工业大学2026一志愿复试结果(官方PDF)",
+   "url": "https://csci.ncut.edu.cn/26rengongzhinengyizhiyuanjieguo.pdf"
+  },
+  {
+   "label": "北方工业大学2026复试录取办法(官方)",
+   "url": "https://yjsy.ncut.edu.cn/info/1185/4565.htm"
   }
  ],
  "generated": {

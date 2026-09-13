@@ -7,24 +7,69 @@
    "province": "北京",
    "region": "华北",
    "tier": "211",
-   "subjectClass": "待确认",
-   "heatComp": "54",
-   "heatNet": "90",
+   "subjectClass": "11408",
+   "direction": "不区分研究方向",
+   "college": "计算机学院(国家示范性软件学院)",
+   "nnProg": "电子信息-计算机方向",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英一数一408",
+   "line2026": "345",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "319",
+    "2026": "345"
+   },
+   "plan2026": "117",
+   "fill": "一志愿为主",
+   "retestCnt": "150",
+   "admitCnt": "117",
+   "admitMax": "409",
+   "admitMin": "345",
+   "admitAvg": "369",
+   "scope": "211(IT强校)对照。计算机学院全部11408(英一数一408)：电子信息-计算机方向2026线345，进复试150均366【345-409】，录117均369【345-409】；计科11408线338录124。⚠️公共课为英一数一，非22408(英二数二)，不匹配用户22408目标",
    "aiTag": "✅真AI方向",
-   "note": "085410线待官方核实，作211对照",
-   "srcLabel": "网络热度",
+   "heatNet": "90",
+   "heatComp": "54",
+   "nn408avg": "111",
+   "nnRate": "约78%",
+   "note": "经N诺schoolinfo/29核对：北邮计算机学院全11408(英一数一408)；人工智能学院2027 DS改408但仍英一数一。无22408(英二数二)专业，不匹配用户22408目标，仅作211对照",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
-    "三源核对"
+    "三源核对",
+    "N诺"
    ],
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/-_QD3BTY7kAGXnYU_mPO1Q",
+   "nnUrl": "https://noobdream.com/schoolinfo/29/",
+   "kaoqingUrl": "https://scs.bupt.edu.cn/info/1050/4334.htm",
    "college": "人工智能学院（相关）"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机学院(国家示范性软件学院)",
+   "tier": "211",
+   "subjects": "11408",
+   "program": "085404电子信息-计算机",
+   "line2026": "345",
+   "plan": "117",
+   "retestCnt": "150",
+   "admitCnt": "117",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "409",
+   "admitMin": "345",
+   "admitAvg": "369",
+   "scope": "11408(英一数一)；线345进复试150均366【345-409】录117均369；非22408",
+   "verify": "N诺+官方细则",
+   "url": "https://noobdream.com/schoolinfo/29/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666237655&idx=6&sn=cabca7f145534820a32d1356793d2e01&scene=21&poc_token=HGnUCWmjm2Mw5VC1tW72YIj0FtCTQ2R-v0weI2Tn",
@@ -44,15 +89,24 @@
    "原科目": "809数据结构等",
    "新科目": "408",
    "生效年份": "2027",
-   "来源": "官方公告2026-07",
-   "备注": "⚠️公共课英一数一，非22408"
+   "来源": "官方公告2026-07 + N诺schoolinfo/29",
+   "备注": "⚠️公共课英一数一，非22408；2027人工智能学院DS改408后仍为11408"
   }
  ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺北京邮电大学考情",
+   "url": "https://noobdream.com/schoolinfo/29/"
+  },
+  {
+   "label": "北邮计算机学院2026复试录取细则(官方)",
+   "url": "https://scs.bupt.edu.cn/info/1050/4334.htm"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "成都大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "四川",
+   "region": "西南",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机",
+   "line2026": "265",
+   "lineDelta": "-40",
+   "linesByYear": {
+    "2023": "319",
+    "2024": "336",
+    "2025": "305",
+    "2026": "265"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主",
+   "retestCnt": "29",
+   "admitCnt": "28",
+   "admitMax": "332",
+   "admitMin": "265",
+   "admitAvg": "296",
+   "scope": "N诺2026：计算机学院085404电子信息-计算机(22408)；复试29录取28，进复试296【265-332】单科59/72/87/78；2025改前考程序综合设计线305；2026起改408线265",
+   "aiTag": "⚠️偏传统",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "78",
+   "nnRate": "100%",
+   "note": "计算机学院085404电子信息-计算机，2026改考408(22408)；线265复试29录28均分296；历年线23年319/24年336/25年305/26年265",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二408",
+   "college": "计算机学院"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -32,7 +68,16 @@
   "26考情": "https://mp.weixin.qq.com/s/sOt3L33lKLIgQk846wCUCQ"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  },
+  {
+   "label": "N诺成都大学schoolinfo/377",
+   "url": "https://noobdream.com/schoolinfo/377/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -41,5 +86,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机学院",
+   "tier": "双非",
+   "subjects": "英二数二408",
+   "line2026": "265",
+   "plan": null,
+   "retestCnt": "29",
+   "admitCnt": "28",
+   "ratioRetest": "1",
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "296",
+   "scope": "N诺2026：电子信息-计算机；复试29人 拟录取28人 调剂0人；进复试总分均296；408均78 政治59 英语72 数学87",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

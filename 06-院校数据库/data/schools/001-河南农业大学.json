@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "河南农业大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "河南",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "信息与管理科学学院",
+   "direction": "电子信息-计算机",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "264"
+   },
+   "plan2026": "8",
+   "fill": "一志愿为主",
+   "retestCnt": "12",
+   "admitCnt": "8",
+   "admitMax": "315",
+   "admitMin": "274",
+   "admitAvg": "295",
+   "scope": "N诺2026：电子信息-计算机22408走国家线，进复试12人，录取8人，拟录取295【274-315】；无AI方向；计算机学硕11408一志愿3+12调剂",
+   "aiTag": "无AI方向",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "无AI方向；电子信息-计算机22408国家线，仅录8人，拟录取295【274-315】",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "信息与管理科学学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/215/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/rB2waPX5tozVSkxQaypwyg"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 河南农业大学",
+   "url": "https://noobdream.com/schoolinfo/215/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无AI；计算机22408国家线录8人，拟录取295【274-315】。"
 }

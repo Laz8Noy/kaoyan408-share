@@ -1,15 +1,115 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "宁波大学",
- "units": [],
+ "units": [
+  {
+   "category": "C-对照",
+   "province": "浙江",
+   "region": "华东",
+   "tier": "双一流",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "信息科学与工程学院",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "信息科学与工程学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "340",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "323",
+    "2024": "306",
+    "2025": "321",
+    "2026": "340"
+   },
+   "plan2026": "约55(49+5专项+1调剂)",
+   "fill": "一志愿为主",
+   "retestCnt": "64+6专项+4专项调剂",
+   "admitCnt": "49+5专项+1专项调剂",
+   "admitMax": "425",
+   "admitMin": "341",
+   "admitAvg": "370",
+   "scope": "相关口径=085404电子信息-计算机(非085410人工智能)。双一流22408；N诺2026：线340，进复试64+6专项均364【340-425】，单科65/73/126/101；拟录49+5专项均370【341-425】。N诺无085410人工智能行，宁波大学不招085410",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "101",
+   "nnRate": "约80%",
+   "note": "经N诺schoolinfo/129核对：宁波大学无085410人工智能；电子信息均为085404计算机技术(22408)。信息学院线340偏高；科教融合学院电子信息-计算机22408线274录8+2调剂均337(较低)。双一流",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/129/"
+  },
+  {
+   "category": "S-主体",
+   "province": "浙江",
+   "region": "华东",
+   "tier": "双一流",
+   "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "科教融合学院",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "科教融合学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "274",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "303",
+    "2024": "287",
+    "2025": "265",
+    "2026": "274"
+   },
+   "plan2026": "10(8+2调剂)",
+   "fill": "一志愿+调剂",
+   "retestCnt": "10+9调剂",
+   "admitCnt": "8+2调剂",
+   "admitMax": "388",
+   "admitMin": "287",
+   "admitAvg": "337",
+   "scope": "相关(085404非085410)；科教融合学院电子信息-计算机22408，线274，进复试10+9调剂均327【274-388】，拟录8+2调剂均337【287-388】。分数线低",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "科教融合学院22408线274，比信息学院低66分，适合低分；但为085404非085410；N诺schoolinfo/129",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺"
+   ],
+   "nnUrl": "https://noobdream.com/schoolinfo/129/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息科学与工程学院",
+   "tier": "双一流",
+   "subjects": "22408",
+   "program": "085404电子信息-计算机",
+   "line2026": "340",
+   "plan": "约55",
+   "retestCnt": "64+6专项",
+   "admitCnt": "49+5专项",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "425",
+   "admitMin": "341",
+   "admitAvg": "370",
+   "scope": "085404(非085410)22408；线340进复试64+6均364【340-425】录49+5均370",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/129/"
+  }
+ ],
  "nnCandidates": [
   {
    "school": "宁波大学",
    "province": "浙江",
    "college": "信息科学与工程学院",
    "program": "电子信息-计算机",
-   "subjects": "推测408",
+   "subjects": "英二数二408",
    "line": "340",
    "retestCnt": "64",
    "adjCnt": "10",
@@ -22,7 +122,7 @@
    "admitAvg": "370",
    "rate": "80%",
    "ratioNN": "1.3",
-   "note": "✅22408兼容；含电子信息"
+   "note": "✅22408兼容；已提升为units；口径085404非085410"
   }
  ],
  "wangdaoLinks": {
@@ -34,8 +134,15 @@
   "25考情": "https://mp.weixin.qq.com/s/72lDtu3YD14ksXwG7hWfBA",
   "26考情": "https://mp.weixin.qq.com/s/zUR93eWyNu9lMMM7SLBKTQ"
  },
+ "updates2027": [],
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺宁波大学考情",
+   "url": "https://noobdream.com/schoolinfo/129/"
+  }
+ ],
+ "note": "经N诺核对，宁波大学(双一流)不招085410人工智能；计算机类电子信息均为085404计算机技术，22408。信息学院线340偏高，科教融合学院线274较低。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

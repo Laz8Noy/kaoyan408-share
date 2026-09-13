@@ -20,7 +20,25 @@
    "wdCount": "5",
    "wdYears": "22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/vDkmDzQ9bmS-9f-BkwJQ2A",
-   "college": "人工智能学院"
+   "college": "人工智能学院",
+   "line2026": "380",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "337",
+    "2026": "380"
+   },
+   "retestCnt": "17(智能科学学院)",
+   "admitCnt": "14",
+   "admitMax": "418",
+   "admitMin": "380",
+   "admitAvg": "398",
+   "fill": "一志愿为主",
+   "nn408avg": "115",
+   "scope": "N诺2026：智能科学与技术学院电子信息-人工智能11408(英一数一)，线380，进复试17，均分396【380-418】，单科政67英77数136 408=115，录14，拟录取398【380-418】；人工智能学院AI 11408线353录5",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "智能科学与技术学院/人工智能学院",
+   "nnSubjects": "英一数一408"
   }
  ],
  "crossRefs": [],
@@ -38,7 +56,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 南京大学",
+   "url": "https://noobdream.com/schoolinfo/17/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -48,5 +71,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "985；AI方向11408(英一数一)，线380拟录取398，与22408/310档目标不符。"
 }

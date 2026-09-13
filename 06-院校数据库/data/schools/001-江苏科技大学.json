@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "江苏科技大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "江苏",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "计算机学院",
+   "direction": "电子信息-计算机",
+   "line2026": "300",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "275",
+    "2026": "300"
+   },
+   "plan2026": "98一志愿+2专项调剂",
+   "fill": "一志愿为主",
+   "retestCnt": "135+7专项调剂",
+   "admitCnt": "98一志愿+2专项调剂",
+   "admitMax": "391",
+   "admitMin": "302",
+   "admitAvg": "330",
+   "scope": "N诺2026：电子信息-计算机22408复试线300，进复试135+7专项调剂，进复试均分324【300-391】，单科政61英72数107 408=84，录取98+2调剂，拟录取330【302-391】；无085410 AI(0811J1人工智能为学硕考概率论)；26计算机改408",
+   "aiTag": "无085410 AI方向",
+   "nn408avg": "84",
+   "nnRate": null,
+   "note": "无085410人工智能专硕；电子信息-计算机22408线300，招98人规模大，拟录取均分330",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/158/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -34,7 +69,12 @@
   "26考情": "https://mp.weixin.qq.com/s/9qRDes8IrLAeWrFuNb4F0Q"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 江苏科技大学",
+   "url": "https://noobdream.com/schoolinfo/158/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -43,5 +83,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无085410 AI；电子信息-计算机22408线300，规模大(录98)拟录取均分330。"
 }

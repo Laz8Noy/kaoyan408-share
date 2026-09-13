@@ -8,23 +8,77 @@
    "region": "华东",
    "tier": "211",
    "subjectClass": "22408",
-   "heatComp": "49",
-   "heatNet": "66",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "计算机科学与技术学院/人工智能学院",
+   "line2026": "338",
+   "lineDelta": "新增专业",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "338(085410首招)"
+   },
+   "plan2026": "14",
+   "fill": "一志愿为主",
+   "retestCnt": "20",
+   "admitCnt": "14",
+   "admitMax": "398",
+   "admitMin": "347",
+   "admitAvg": "369",
+   "scope": "085410人工智能(计算机学院/人工智能学院,徐州)2026线338；22408；一志愿进复试20人，进复试均分361【338-398】；拟录取14人均369【347-398】；408单科均分96；复试769高级程序设计上机(ioi赛制)+综合面试，初试占60%",
    "aiTag": "✅真AI方向",
-   "note": "2026新增085410并考408（研招网公告2025-08）；复试人工智能专业综合；⚠️信息与控制工程学院085410考868自动控制原理（非408）勿报；学硕11408/专硕22408",
-   "srcLabel": "官方",
+   "heatNet": "66",
+   "heatComp": "49",
+   "nn408avg": "96",
+   "nnRate": "约70%",
+   "note": "211，2026新增085410人工智能并考22408；线338、拟录取均369【347-398】、录14人，偏高(高于用户310档)；408均分96；⚠️信息与控制工程学院085410考868自动控制原理(非408)勿报；同院085404计算机技术线353、085405软件工程370更卷；学硕11408",
+   "srcLabel": "官方+第三方",
    "src": [
     "区域榜",
-    "三源核对"
+    "三源核对",
+    "N诺",
+    "官方(复试线PDF)"
    ],
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/X5JC2oPLnRK0zP5ZyZMTKg",
-   "college": "计算机学院/人工智能学院"
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/73/",
+   "college": "计算机科学与技术学院/人工智能学院"
   }
  ],
- "crossRefs": [],
- "kaoqingDetail2026": [],
+ "crossRefs": [
+  {
+   "name": "电子信息-计算机(085404)",
+   "subjects": "22408",
+   "line2026": "353",
+   "note": "更卷，线353、拟录取27+1专项均380【357-406】"
+  },
+  {
+   "name": "电子信息-软件工程(085405)",
+   "subjects": "22408",
+   "line2026": "370",
+   "note": "最卷，线370、拟录取25人均387【372-423】"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与技术学院/人工智能学院",
+   "tier": "211",
+   "subjects": "22408",
+   "line2026": "338",
+   "plan": "14",
+   "retestCnt": "20",
+   "admitCnt": "14",
+   "ratioRetest": "约1.4",
+   "ratioApply": null,
+   "admitMax": "398",
+   "admitMin": "347",
+   "admitAvg": "369",
+   "scope": "085410人工智能22408线338(2026首招)，拟录取均369【347-398】；408均分96",
+   "verify": "第三方(N诺)+官方(复试线338)",
+   "url": "https://noobdream.com/schoolinfo/73/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666176635&idx=8&sn=f007136d4c827f4d42daf834b32e30a4&scene=21&poc_token=HEJrDGmjFqD5Q5wuMHbPm-pWpNIF-u9gn4dGYo2e",
@@ -36,12 +90,37 @@
   "25考情": "https://mp.weixin.qq.com/s/iheU5g9SQcY4AWYzJkB89Q",
   "26考情": "https://mp.weixin.qq.com/s/X5JC2oPLnRK0zP5ZyZMTKg"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "中国矿业大学(徐州)",
+   "层次": "211",
+   "专业/范围": "085410人工智能",
+   "原科目": null,
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/73+研招网公告(2025-08)+官方复试线PDF",
+   "备注": "2026新增085410并考22408；学硕11408/专硕22408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 中国矿业大学(徐州)",
+   "url": "https://noobdream.com/schoolinfo/73/"
+  },
+  {
+   "label": "矿大(徐州)2026分专业复试线(085410人工智能338)",
+   "url": "https://yz.cumt.edu.cn/2026gezhuanyfenshuxian.pdf"
+  },
+  {
+   "label": "矿大计算机学院/AI学院2026一志愿复试录取细则",
+   "url": "https://cs.cumt.edu.cn/__local/E/65/FA/99B98B4C7504FA4FBA0C0CF2175_7D1B8D60_2F449.pdf"
+  }
+ ],
+ "note": "211，085410人工智能(徐州)22408，2026首招线338、拟录取均369【347-398】录14人，偏高；⚠️信控学院085410考868自动控制原理(非408)勿报。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

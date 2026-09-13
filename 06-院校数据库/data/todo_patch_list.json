@@ -1,0 +1,2136 @@
+[
+ {
+  "name": "陆军工程大学",
+  "file": "001-陆军工程大学.json",
+  "category": "NN候选",
+  "n_missing": 9,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "临沂大学",
+  "file": "001-临沂大学.json",
+  "category": "NN候选",
+  "n_missing": 8,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "华北电力大学",
+  "file": "001-华北电力大学.json",
+  "category": "C-对照",
+  "n_missing": 8,
+  "missing": [
+   "历年线",
+   "计划人数",
+   "一志愿/调剂",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 0
+ },
+ {
+  "name": "呼和浩特民族学院",
+  "file": "001-呼和浩特民族学院.json",
+  "category": "S-主体",
+  "n_missing": 8,
+  "missing": [
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 0
+ },
+ {
+  "name": "天津城建大学",
+  "file": "001-天津城建大学.json",
+  "category": "NN候选",
+  "n_missing": 8,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "海南师范大学",
+  "file": "001-海南师范大学.json",
+  "category": "NN候选",
+  "n_missing": 8,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "大连海洋大学",
+  "file": "001-大连海洋大学.json",
+  "category": "S-主体",
+  "n_missing": 7,
+  "missing": [
+   "2026复试线",
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "大连理工大学",
+  "file": "001-大连理工大学.json",
+  "category": "C-对照",
+  "n_missing": 7,
+  "missing": [
+   "历年线",
+   "计划人数",
+   "一志愿/调剂",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "太原师范学院",
+  "file": "001-太原师范学院.json",
+  "category": "NN候选",
+  "n_missing": 7,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "山东建筑大学",
+  "file": "001-山东建筑大学.json",
+  "category": "NN候选",
+  "n_missing": 7,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "江苏海洋大学",
+  "file": "001-江苏海洋大学.json",
+  "category": "S-主体",
+  "n_missing": 7,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "一志愿/调剂",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "江西中医药大学",
+  "file": "001-江西中医药大学.json",
+  "category": "NN候选",
+  "n_missing": 7,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "西北民族大学",
+  "file": "001-西北民族大学.json",
+  "category": "S-主体",
+  "n_missing": 7,
+  "missing": [
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "西安建筑科技大学",
+  "file": "001-西安建筑科技大学.json",
+  "category": "NN候选",
+  "n_missing": 7,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "重庆大学",
+  "file": "001-重庆大学.json",
+  "category": "C-对照",
+  "n_missing": 7,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "一志愿/调剂",
+   "录取人数",
+   "均分",
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "长春师范大学",
+  "file": "001-长春师范大学.json",
+  "category": "NN候选",
+  "n_missing": 7,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "上海理工大学",
+  "file": "001-上海理工大学.json",
+  "category": "NN候选",
+  "n_missing": 6,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "东北石油大学",
+  "file": "001-东北石油大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "2026复试线",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "北京建筑大学",
+  "file": "001-北京建筑大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 3
+ },
+ {
+  "name": "北京物资学院",
+  "file": "001-北京物资学院.json",
+  "category": "NN候选",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "华东交通大学",
+  "file": "001-华东交通大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "南京财经大学",
+  "file": "001-南京财经大学.json",
+  "category": "NN候选",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "哈尔滨理工大学",
+  "file": "001-哈尔滨理工大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "天津农学院",
+  "file": "001-天津农学院.json",
+  "category": "NN候选",
+  "n_missing": 6,
+  "missing": [
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "安徽工程大学",
+  "file": "001-安徽工程大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "广州大学",
+  "file": "001-广州大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "录取人数",
+   "均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "惠州学院",
+  "file": "001-惠州学院.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 1
+ },
+ {
+  "name": "沈阳航空航天大学",
+  "file": "001-沈阳航空航天大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "2026复试线",
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "河北工程大学",
+  "file": "001-河北工程大学.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "湖南农业大学",
+  "file": "001-湖南农业大学.json",
+  "category": "NN候选",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "盐城工学院",
+  "file": "001-盐城工学院.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "黑龙江工程学院",
+  "file": "001-黑龙江工程学院.json",
+  "category": "S-主体",
+  "n_missing": 6,
+  "missing": [
+   "计划人数",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 1
+ },
+ {
+  "name": "上海海事大学",
+  "file": "001-上海海事大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "计划人数",
+   "均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "上海海洋大学",
+  "file": "001-上海海洋大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "上海科技大学",
+  "file": "001-上海科技大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "中国计量大学",
+  "file": "001-中国计量大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "内蒙古工业大学",
+  "file": "001-内蒙古工业大学.json",
+  "category": "S-主体",
+  "n_missing": 5,
+  "missing": [
+   "2026复试线",
+   "录取人数",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "华中农业大学",
+  "file": "001-华中农业大学.json",
+  "category": "C-对照",
+  "n_missing": 5,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "天津财经大学",
+  "file": "001-天津财经大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "河北农业大学",
+  "file": "001-河北农业大学.json",
+  "category": "S-主体",
+  "n_missing": 5,
+  "missing": [
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "河北大学",
+  "file": "001-河北大学.json",
+  "category": "S-主体",
+  "n_missing": 5,
+  "missing": [
+   "2026复试线",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "河南农业大学",
+  "file": "001-河南农业大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "湖北民族大学",
+  "file": "001-湖北民族大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "西南科技大学",
+  "file": "001-西南科技大学.json",
+  "category": "NN候选",
+  "n_missing": 5,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "辽宁大学",
+  "file": "001-辽宁大学.json",
+  "category": "C-对照",
+  "n_missing": 5,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "齐鲁工业大学",
+  "file": "001-齐鲁工业大学.json",
+  "category": "S-主体",
+  "n_missing": 5,
+  "missing": [
+   "2026复试线",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "三峡大学",
+  "file": "001-三峡大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "东北电力大学",
+  "file": "001-东北电力大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "中南林业科技大学",
+  "file": "001-中南林业科技大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "中原工学院",
+  "file": "001-中原工学院.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "北京交通大学",
+  "file": "001-北京交通大学.json",
+  "category": "C-对照",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "北京信息科技大学",
+  "file": "001-北京信息科技大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "录取人数",
+   "均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "北京工商大学",
+  "file": "001-北京工商大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "南京工业大学",
+  "file": "001-南京工业大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "南昌航空大学",
+  "file": "001-南昌航空大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "合肥工业大学",
+  "file": "001-合肥工业大学.json",
+  "category": "C-对照",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "吉首大学",
+  "file": "001-吉首大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "均分",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "天津职业技术师范大学",
+  "file": "001-天津职业技术师范大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "安庆师范大学",
+  "file": "001-安庆师范大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "安徽农业大学",
+  "file": "001-安徽农业大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "安徽工业大学",
+  "file": "001-安徽工业大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "山东工商学院",
+  "file": "001-山东工商学院.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "广西民族大学",
+  "file": "001-广西民族大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "成都大学",
+  "file": "001-成都大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "桂林理工大学",
+  "file": "001-桂林理工大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "武汉工程大学",
+  "file": "001-武汉工程大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "武汉科技大学",
+  "file": "001-武汉科技大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "江苏科技大学",
+  "file": "001-江苏科技大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 6
+ },
+ {
+  "name": "河南理工大学",
+  "file": "001-河南理工大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "浙江工业大学",
+  "file": "001-浙江工业大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "浙江师范大学",
+  "file": "001-浙江师范大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "浙江财经大学",
+  "file": "001-浙江财经大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "海南大学",
+  "file": "001-海南大学.json",
+  "category": "C-对照",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "湖北工业大学",
+  "file": "001-湖北工业大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "燕山大学",
+  "file": "001-燕山大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "石家庄铁道大学",
+  "file": "001-石家庄铁道大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 6
+ },
+ {
+  "name": "贵州大学",
+  "file": "001-贵州大学.json",
+  "category": "C-对照",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "长春理工大学",
+  "file": "001-长春理工大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "长沙理工大学",
+  "file": "001-长沙理工大学.json",
+  "category": "NN候选",
+  "n_missing": 4,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "上海大学",
+  "file": "001-上海大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "北方工业大学",
+  "file": "001-北方工业大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "录取人数",
+   "均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "华中师范大学",
+  "file": "001-华中师范大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "一志愿/调剂",
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "华南师范大学",
+  "file": "001-华南师范大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "南京信息工程大学",
+  "file": "001-南京信息工程大学.json",
+  "category": "NN候选",
+  "n_missing": 3,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "考情明细"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "南京大学",
+  "file": "001-南京大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "厦门理工学院",
+  "file": "001-厦门理工学院.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "四川大学",
+  "file": "001-四川大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "天津理工大学",
+  "file": "001-天津理工大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "录取人数",
+   "均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "宁波大学",
+  "file": "001-宁波大学.json",
+  "category": "NN候选",
+  "n_missing": 3,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "山东科技大学",
+  "file": "001-山东科技大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "广东工业大学",
+  "file": "001-广东工业大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "成都信息工程大学",
+  "file": "001-成都信息工程大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "录取人数",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "新疆农业大学",
+  "file": "001-新疆农业大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "N诺408均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 1
+ },
+ {
+  "name": "杭州电子科技大学",
+  "file": "001-杭州电子科技大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "江苏师范大学",
+  "file": "001-江苏师范大学.json",
+  "category": "NN候选",
+  "n_missing": 3,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 6
+ },
+ {
+  "name": "河南科技学院",
+  "file": "001-河南科技学院.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "录取人数",
+   "均分",
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "浙江农林大学",
+  "file": "001-浙江农林大学.json",
+  "category": "NN候选",
+  "n_missing": 3,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "浙江大学",
+  "file": "001-浙江大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "浙江科技大学",
+  "file": "001-浙江科技大学.json",
+  "category": "NN候选",
+  "n_missing": 3,
+  "missing": [
+   "王道条数",
+   "王道链接年份",
+   "2027改考"
+  ],
+  "wangdaoLinks": 3
+ },
+ {
+  "name": "深圳大学",
+  "file": "001-深圳大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "录取人数",
+   "均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "湖南科技大学",
+  "file": "001-湖南科技大学.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "录取人数",
+   "均分",
+   "考情明细"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "滁州学院",
+  "file": "001-滁州学院.json",
+  "category": "S-主体",
+  "n_missing": 3,
+  "missing": [
+   "录取人数",
+   "均分",
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 1
+ },
+ {
+  "name": "苏州大学",
+  "file": "001-苏州大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "计划人数",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "西北工业大学",
+  "file": "001-西北工业大学.json",
+  "category": "C-对照",
+  "n_missing": 3,
+  "missing": [
+   "N诺408均分",
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "西南石油大学",
+  "file": "001-西南石油大学.json",
+  "category": "NN候选",
+  "n_missing": 3,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "青岛农业大学",
+  "file": "001-青岛农业大学.json",
+  "category": "NN候选",
+  "n_missing": 3,
+  "missing": [
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 1
+ },
+ {
+  "name": "中国民用航空飞行学院",
+  "file": "001-中国民用航空飞行学院.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "中国民航大学",
+  "file": "001-中国民航大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 6
+ },
+ {
+  "name": "中山大学",
+  "file": "001-中山大学.json",
+  "category": "C-对照",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "云南大学",
+  "file": "001-云南大学.json",
+  "category": "C-对照",
+  "n_missing": 2,
+  "missing": [
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "北京印刷学院",
+  "file": "001-北京印刷学院.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "北京电子科技学院",
+  "file": "001-北京电子科技学院.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "北京联合大学",
+  "file": "001-北京联合大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "华南农业大学",
+  "file": "001-华南农业大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "南华大学",
+  "file": "001-南华大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 6
+ },
+ {
+  "name": "四川师范大学",
+  "file": "001-四川师范大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "安徽理工大学",
+  "file": "001-安徽理工大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "常州大学",
+  "file": "001-常州大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "2026复试线",
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "广西师范大学",
+  "file": "001-广西师范大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "武汉轻工大学",
+  "file": "001-武汉轻工大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "江苏大学",
+  "file": "001-江苏大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "计划人数",
+   "考情明细"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "江西财经大学",
+  "file": "001-江西财经大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "河南大学",
+  "file": "001-河南大学.json",
+  "category": "C-对照",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "河南工业大学",
+  "file": "001-河南工业大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "2027改考",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "浙江工商大学",
+  "file": "001-浙江工商大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "湖北大学",
+  "file": "001-湖北大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "湘潭大学",
+  "file": "001-湘潭大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "重庆科技大学",
+  "file": "001-重庆科技大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 3
+ },
+ {
+  "name": "重庆邮电大学",
+  "file": "001-重庆邮电大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "长春工业大学",
+  "file": "001-长春工业大学.json",
+  "category": "S-主体",
+  "n_missing": 2,
+  "missing": [
+   "计划人数",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "长江大学",
+  "file": "001-长江大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "青岛科技大学",
+  "file": "001-青岛科技大学.json",
+  "category": "NN候选",
+  "n_missing": 2,
+  "missing": [
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "中国石油大学（华东）",
+  "file": "001-中国石油大学华东.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "兰州理工大学",
+  "file": "001-兰州理工大学.json",
+  "category": "S-主体",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "华中科技大学",
+  "file": "001-华中科技大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "哈尔滨工业大学",
+  "file": "001-哈尔滨工业大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "太原科技大学",
+  "file": "001-太原科技大学.json",
+  "category": "NN候选",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "山西大学",
+  "file": "001-山西大学.json",
+  "category": "NN候选",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "成都理工大学",
+  "file": "001-成都理工大学.json",
+  "category": "S-主体",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "新疆大学",
+  "file": "001-新疆大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "昆明理工大学",
+  "file": "001-昆明理工大学.json",
+  "category": "S-主体",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "桂林电子科技大学",
+  "file": "001-桂林电子科技大学.json",
+  "category": "S-主体",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "江西理工大学",
+  "file": "001-江西理工大学.json",
+  "category": "NN候选",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 6
+ },
+ {
+  "name": "温州大学",
+  "file": "001-温州大学.json",
+  "category": "NN候选",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "福州大学",
+  "file": "001-福州大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "西南交通大学",
+  "file": "001-西南交通大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "西南大学",
+  "file": "001-西南大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "西安邮电大学",
+  "file": "001-西安邮电大学.json",
+  "category": "S-主体",
+  "n_missing": 1,
+  "missing": [
+   "N诺408均分"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "郑州大学",
+  "file": "001-郑州大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "青海大学",
+  "file": "001-青海大学.json",
+  "category": "C-对照",
+  "n_missing": 1,
+  "missing": [
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "上海电机学院",
+  "file": "001-上海电机学院.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "中北大学",
+  "file": "001-中北大学.json",
+  "category": "S-主体",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "中南民族大学",
+  "file": "001-中南民族大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "中国矿业大学（徐州）",
+  "file": "001-中国矿业大学徐州.json",
+  "category": "C-对照",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "佛山大学",
+  "file": "001-佛山大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 2
+ },
+ {
+  "name": "北京邮电大学",
+  "file": "001-北京邮电大学.json",
+  "category": "C-对照",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "华北理工大学",
+  "file": "001-华北理工大学.json",
+  "category": "S-主体",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "南京邮电大学",
+  "file": "001-南京邮电大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "天津工业大学",
+  "file": "001-天津工业大学.json",
+  "category": "S-主体",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "天津师范大学",
+  "file": "001-天津师范大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "宁夏大学",
+  "file": "001-宁夏大学.json",
+  "category": "C-对照",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "安徽建筑大学",
+  "file": "001-安徽建筑大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "广西大学",
+  "file": "001-广西大学.json",
+  "category": "C-对照",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "暨南大学",
+  "file": "001-暨南大学.json",
+  "category": "C-对照",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "杭州师范大学",
+  "file": "001-杭州师范大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 6
+ },
+ {
+  "name": "武汉纺织大学",
+  "file": "001-武汉纺织大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "济南大学",
+  "file": "001-济南大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 7
+ },
+ {
+  "name": "浙江海洋大学",
+  "file": "001-浙江海洋大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 2
+ },
+ {
+  "name": "浙江理工大学",
+  "file": "001-浙江理工大学.json",
+  "category": "S-主体",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "湖北汽车工业学院",
+  "file": "001-湖北汽车工业学院.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 1
+ },
+ {
+  "name": "湖州师范学院",
+  "file": "001-湖州师范学院.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 3
+ },
+ {
+  "name": "苏州科技大学",
+  "file": "001-苏州科技大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 5
+ },
+ {
+  "name": "西南民族大学",
+  "file": "001-西南民族大学.json",
+  "category": "S-主体",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 4
+ },
+ {
+  "name": "西安电子科技大学",
+  "file": "001-西安电子科技大学.json",
+  "category": "C-对照",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "陕西师范大学",
+  "file": "001-陕西师范大学.json",
+  "category": "C-对照",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "青岛大学",
+  "file": "001-青岛大学.json",
+  "category": "S-主体",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 8
+ },
+ {
+  "name": "青岛理工大学",
+  "file": "001-青岛理工大学.json",
+  "category": "NN候选",
+  "n_missing": 0,
+  "missing": [],
+  "wangdaoLinks": 6
+ }
+]

@@ -31,7 +31,10 @@
    "wdCount": "4",
    "wdYears": "23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/CRXpbHdUZnj0zcIOGI2T2A",
-   "college": "数据科学与应用学院"
+   "college": "数据科学与应用学院",
+   "scope": "N诺最新仅2024：数据科学与应用学院电子信息-人工智能(非全)二二DS自命题，2024线273，进复试45+3非全+1专项，拟录取一志愿321【297-354】；全日制AI方向N诺未见；现有plan2026=24为机构估算",
+   "retestCnt": "45(非全2024)",
+   "admitAvg": "321(非全)"
   }
  ],
  "crossRefs": [],
@@ -48,7 +51,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 内蒙古工业大学",
+   "url": "https://noobdream.com/schoolinfo/277/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -58,5 +66,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "N诺最新2024；AI为非全+二二DS自命题；全日制22408待核实，plan24机构估算。"
 }

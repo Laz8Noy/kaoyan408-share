@@ -1,6 +1,6 @@
 {
  "db": "kaoyan-db-ai-v1",
- "date": "2026-09-03",
+ "date": "2026-09-13",
  "nSchools": 177,
  "schools": [
   {
@@ -22,7 +22,7 @@
    "name": "中北大学",
    "nUnits": 1,
    "inCategory": "S-主体",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-中原工学院.json",
@@ -41,7 +41,7 @@
   {
    "file": "001-中国石油大学华东.json",
    "name": "中国石油大学（华东）",
-   "nUnits": 1,
+   "nUnits": 2,
    "inCategory": "C-对照",
    "conflicts": 0
   },
@@ -85,7 +85,7 @@
    "name": "北京交通大学",
    "nUnits": 1,
    "inCategory": "C-对照",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-北京信息科技大学.json",
@@ -141,7 +141,7 @@
    "name": "华中科技大学",
    "nUnits": 1,
    "inCategory": "C-对照",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-华北理工大学.json",
@@ -274,7 +274,7 @@
    "name": "宁夏大学",
    "nUnits": 1,
    "inCategory": "C-对照",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-安庆师范大学.json",
@@ -288,7 +288,7 @@
    "name": "安徽工程大学",
    "nUnits": 1,
    "inCategory": "S-主体",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-山东科技大学.json",
@@ -358,14 +358,14 @@
    "name": "新疆大学",
    "nUnits": 1,
    "inCategory": "C-对照",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-昆明理工大学.json",
    "name": "昆明理工大学",
    "nUnits": 1,
    "inCategory": "S-主体",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-暨南大学.json",
@@ -384,7 +384,7 @@
   {
    "file": "001-桂林电子科技大学.json",
    "name": "桂林电子科技大学",
-   "nUnits": 1,
+   "nUnits": 2,
    "inCategory": "S-主体",
    "conflicts": 0
   },
@@ -435,7 +435,7 @@
    "name": "河北工程大学",
    "nUnits": 1,
    "inCategory": "S-主体",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-河南大学.json",
@@ -512,7 +512,7 @@
    "name": "滁州学院",
    "nUnits": 1,
    "inCategory": "S-主体",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-盐城工学院.json",
@@ -526,12 +526,12 @@
    "name": "福州大学",
    "nUnits": 1,
    "inCategory": "C-对照",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-苏州大学.json",
    "name": "苏州大学",
-   "nUnits": 1,
+   "nUnits": 2,
    "inCategory": "C-对照",
    "conflicts": 0
   },
@@ -552,7 +552,7 @@
   {
    "file": "001-西南交通大学.json",
    "name": "西南交通大学",
-   "nUnits": 1,
+   "nUnits": 2,
    "inCategory": "C-对照",
    "conflicts": 0
   },
@@ -575,12 +575,12 @@
    "name": "西安电子科技大学",
    "nUnits": 1,
    "inCategory": "C-对照",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-西安邮电大学.json",
    "name": "西安邮电大学",
-   "nUnits": 1,
+   "nUnits": 2,
    "inCategory": "S-主体",
    "conflicts": 0
   },
@@ -624,7 +624,7 @@
    "name": "重庆邮电大学",
    "nUnits": 1,
    "inCategory": "S-主体",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-长春工业大学.json",
@@ -657,9 +657,9 @@
   {
    "file": "001-青海大学.json",
    "name": "青海大学",
-   "nUnits": 1,
+   "nUnits": 2,
    "inCategory": "C-对照",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-黑龙江工程学院.json",
@@ -678,567 +678,567 @@
   {
    "file": "001-湖州师范学院.json",
    "name": "湖州师范学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-上海海洋大学.json",
    "name": "上海海洋大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-南京财经大学.json",
    "name": "南京财经大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-天津农学院.json",
    "name": "天津农学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-上海理工大学.json",
    "name": "上海理工大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-江苏师范大学.json",
    "name": "江苏师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-南京信息工程大学.json",
    "name": "南京信息工程大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-中国计量大学.json",
    "name": "中国计量大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-中南林业科技大学.json",
    "name": "中南林业科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-南京邮电大学.json",
    "name": "南京邮电大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-杭州师范大学.json",
    "name": "杭州师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-江西理工大学.json",
    "name": "江西理工大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-安徽理工大学.json",
    "name": "安徽理工大学",
-   "nUnits": 0,
+   "nUnits": 2,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-济南大学.json",
    "name": "济南大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-武汉工程大学.json",
    "name": "武汉工程大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-上海海事大学.json",
    "name": "上海海事大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-中国民航大学.json",
    "name": "中国民航大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-武汉纺织大学.json",
    "name": "武汉纺织大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-三峡大学.json",
    "name": "三峡大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-中南民族大学.json",
    "name": "中南民族大学",
-   "nUnits": 0,
+   "nUnits": 2,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-海南师范大学.json",
    "name": "海南师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-北京物资学院.json",
    "name": "北京物资学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-桂林理工大学.json",
    "name": "桂林理工大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-陆军工程大学.json",
    "name": "陆军工程大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-山东建筑大学.json",
    "name": "山东建筑大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-佛山大学.json",
    "name": "佛山大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-温州大学.json",
    "name": "温州大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-南华大学.json",
    "name": "南华大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-浙江科技大学.json",
    "name": "浙江科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-安徽建筑大学.json",
    "name": "安徽建筑大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-西南科技大学.json",
    "name": "西南科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-宁波大学.json",
    "name": "宁波大学",
-   "nUnits": 0,
+   "nUnits": 2,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-武汉科技大学.json",
    "name": "武汉科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-河南理工大学.json",
    "name": "河南理工大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-浙江师范大学.json",
    "name": "浙江师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-江西财经大学.json",
    "name": "江西财经大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-安徽工业大学.json",
    "name": "安徽工业大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-长沙理工大学.json",
    "name": "长沙理工大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-浙江财经大学.json",
    "name": "浙江财经大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-上海电机学院.json",
    "name": "上海电机学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-石家庄铁道大学.json",
    "name": "石家庄铁道大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-江苏科技大学.json",
    "name": "江苏科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-河南农业大学.json",
    "name": "河南农业大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-西南石油大学.json",
    "name": "西南石油大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-苏州科技大学.json",
    "name": "苏州科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-南京工业大学.json",
    "name": "南京工业大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-长春师范大学.json",
    "name": "长春师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-西安建筑科技大学.json",
    "name": "西安建筑科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-北京工商大学.json",
    "name": "北京工商大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-东北电力大学.json",
    "name": "东北电力大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-青岛理工大学.json",
    "name": "青岛理工大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-青岛科技大学.json",
    "name": "青岛科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-燕山大学.json",
    "name": "燕山大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-安徽农业大学.json",
    "name": "安徽农业大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-山东工商学院.json",
    "name": "山东工商学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-湖北汽车工业学院.json",
    "name": "湖北汽车工业学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-天津师范大学.json",
    "name": "天津师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-广西师范大学.json",
    "name": "广西师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-湖北大学.json",
    "name": "湖北大学",
-   "nUnits": 0,
+   "nUnits": 2,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-北京印刷学院.json",
    "name": "北京印刷学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-太原师范学院.json",
    "name": "太原师范学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-成都大学.json",
    "name": "成都大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-长江大学.json",
    "name": "长江大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-浙江海洋大学.json",
    "name": "浙江海洋大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-北京联合大学.json",
    "name": "北京联合大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-临沂大学.json",
    "name": "临沂大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-天津职业技术师范大学.json",
    "name": "天津职业技术师范大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-江西中医药大学.json",
    "name": "江西中医药大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-湖北民族大学.json",
    "name": "湖北民族大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-青岛农业大学.json",
    "name": "青岛农业大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-上海科技大学.json",
    "name": "上海科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-天津城建大学.json",
    "name": "天津城建大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-浙江农林大学.json",
    "name": "浙江农林大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-湘潭大学.json",
    "name": "湘潭大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-北京电子科技学院.json",
    "name": "北京电子科技学院",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-山西大学.json",
    "name": "山西大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-浙江工业大学.json",
    "name": "浙江工业大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-广西民族大学.json",
    "name": "广西民族大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-天津财经大学.json",
    "name": "天津财经大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   },
   {
    "file": "001-太原科技大学.json",
    "name": "太原科技大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
-   "conflicts": 0
+   "conflicts": 1
   },
   {
    "file": "001-湖南农业大学.json",
    "name": "湖南农业大学",
-   "nUnits": 0,
+   "nUnits": 1,
    "inCategory": "NN候选",
    "conflicts": 0
   }

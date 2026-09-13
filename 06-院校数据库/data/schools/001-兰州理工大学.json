@@ -6,43 +6,70 @@
    "category": "S-主体",
    "province": "甘肃",
    "region": "西北",
-   "tier": "双非",
+   "tier": "双非(B区)",
    "subjectClass": "22408",
-   "direction": "机器学习与计算机视觉",
+   "direction": "不区分研究方向",
+   "college": "计算机与通信学院",
+   "nnProg": "电子信息-人工智能(085410)",
+   "nnCollege": "计算机与通信学院",
+   "nnSubjects": "英二数二408",
    "line2026": "254",
-   "lineDelta": "=国家线",
+   "lineDelta": "=B区国家线",
    "linesByYear": {
     "2023": null,
-    "2024": null,
-    "2025": "250",
+    "2024": "264",
+    "2025": null,
     "2026": "254"
    },
-   "plan2026": "35",
-   "fill": "一志愿为主",
+   "plan2026": "约40(13一志愿+27调剂)",
+   "fill": "一志愿为主+大量调剂",
+   "retestCnt": "13+62调剂",
+   "admitCnt": "13+27调剂",
+   "admitMax": "356",
+   "admitMin": "266",
+   "admitAvg": "303",
+   "scope": "085410人工智能(计算机与通信学院)22408。B区双非。2026首年改408(此前二二DS自命题)。N诺2026：线NC(=B区国家线254)，进复试13+62调剂均303【266-356】；录13+27调剂均303【266-356】。改考首年大量调剂。官方2026目录081200/085404/085410/085412均统考408",
    "aiTag": "✅真AI方向",
    "heatNet": "48",
    "heatComp": "30",
    "nnRate": "100%",
-   "note": "B区国家线254；方向机器学习与计算机视觉",
-   "srcLabel": "官方",
+   "note": "B区双非；085410人工智能2026首年改22408；线254=国家线，进复试13+62调剂均303录40。改考首年调剂多",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
-    "三源核对"
+    "三源核对",
+    "N诺"
    ],
    "lineUltimate2026": "254",
-   "nnProg": "电子信息-人工智能",
-   "nnCollege": "计算机与通信学院",
-   "nnSubjects": "英二数二408",
    "wdCount": "4",
    "wdYears": "23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/Ha7ZowkP_yvX9XvakCqKag",
-   "college": "计算机与人工智能学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/260/"
   }
  ],
  "crossRefs": [],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与通信学院",
+   "tier": "双非(B区)",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": "254",
+   "plan": "约40",
+   "retestCnt": "13+62调剂",
+   "admitCnt": "13+27调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "356",
+   "admitMin": "266",
+   "admitAvg": "303",
+   "scope": "085410人工智能2026首年改22408；线254=B区国家线，进复试13+62调剂均303录40",
+   "verify": "N诺+官方",
+   "url": "https://noobdream.com/schoolinfo/260/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "23考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666217104&idx=4&sn=dc365428e1cd6aad61fe755791cd3631&scene=21&poc_token=HD_MCmmjle0IWoGYZvQPGkGXkGnl03TU3i-z22bE",
@@ -50,7 +77,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/LzM7aiyFsXB7nyC1cSo8VQ",
   "26考情分析": "https://mp.weixin.qq.com/s/Ha7ZowkP_yvX9XvakCqKag"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "兰州理工大学",
+   "层次": "双非(B区)",
+   "专业/范围": "计算机与通信学院(081200/085404/085410/085412)",
+   "原科目": "二二DS(892数据结构自命题)",
+   "新科目": "408(专硕22408)",
+   "生效年份": "2026",
+   "来源": "兰理工2026招生专业目录(zhaosheng.lut.edu.cn/info/1079/2484.htm)+N诺schoolinfo/260",
+   "备注": "2026起085410人工智能改22408；2027沿用"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
@@ -59,6 +97,14 @@
   {
    "label": "兰州理工大学085410复试通知",
    "url": "https://jizhi.lut.edu.cn/info/1302/12559.htm"
+  },
+  {
+   "label": "兰州理工大学2026招生目录(官方)",
+   "url": "https://zhaosheng.lut.edu.cn/info/1079/2484.htm"
+  },
+  {
+   "label": "N诺兰州理工大学考情",
+   "url": "https://noobdream.com/schoolinfo/260/"
   }
  ],
  "generated": {

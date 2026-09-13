@@ -1,7 +1,43 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "浙江师范大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "浙江",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息",
+   "line2026": "306",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "306"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主+少量调剂",
+   "retestCnt": "151",
+   "admitCnt": "125",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "336",
+   "scope": "N诺2026：电子信息；复试151人 拟录取125人 调剂1人；进复试总分均332；408均89 政治62 英语70 数学111",
+   "aiTag": "⚠️偏传统",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "89",
+   "nnRate": "80%",
+   "note": "✅22408兼容；含电子信息；复试151录取125调剂1；进复试总分均332",
+   "srcLabel": "第三方",
+   "nnProg": "电子信息",
+   "nnCollege": "数学与计算机科学学院",
+   "nnSubjects": "英二数二408",
+   "college": "数学与计算机科学学院"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -35,7 +71,12 @@
   "26考情": "https://mp.weixin.qq.com/s/_gAQpITdn4lu7rV8kyUCyg"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺(noobdream)2026录取数据汇总",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -44,5 +85,24 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "kaoqingDetail2026": [
+  {
+   "college": "数学与计算机科学学院",
+   "tier": "双非",
+   "subjects": "英二数二408",
+   "line2026": "306",
+   "plan": null,
+   "retestCnt": "151",
+   "admitCnt": "125",
+   "ratioRetest": "1.2",
+   "ratioApply": null,
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "336",
+   "scope": "N诺2026：电子信息；复试151人 拟录取125人 调剂1人；进复试总分均332；408均89 政治62 英语70 数学111",
+   "verify": "第三方(N诺)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ]
 }

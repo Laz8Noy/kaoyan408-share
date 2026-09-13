@@ -7,9 +7,9 @@
    "province": "黑龙江",
    "region": "东北",
    "tier": "双非",
-   "subjectClass": "22408",
+   "subjectClass": "非408",
    "direction": "人工智能方向",
-   "line2026": "302",
+   "line2026": null,
    "lineDelta": "+38",
    "linesByYear": {
     "2023": null,
@@ -23,8 +23,8 @@
    "aiTag": "⚠️偏传统",
    "heatNet": "55",
    "heatComp": "41",
-   "note": "2026由835电路改考408；复试线A区+38",
-   "srcLabel": "官方+机构",
+   "note": "⚠️非408：考820数据结构自命题；N诺页仅更新至2022无近年数据；与408目标不符",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -35,7 +35,8 @@
    "wdCount": "4",
    "wdYears": "23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/0YZIKR31rQG0IPRkgVtg0Q",
-   "college": "电气信息工程学院"
+   "college": "计算机与信息技术学院",
+   "scope": "N诺(schoolinfo361,更新至2022无2026数据)：计算机与信息技术学院085400电子信息(49计算机+26软件)考820数据结构自命题非408；2022一志愿录18均341【312-379】+调剂55均349"
   }
  ],
  "crossRefs": [],
@@ -60,6 +61,10 @@
   {
    "label": "东北石油大学官方访谈（835→408）",
    "url": "https://yz.chsi.com.cn/kyzx/kyft/zxft/202511/20251103/2293440531.html"
+  },
+  {
+   "label": "N诺东北石油大学schoolinfo/361(更新至2022)",
+   "url": "https://noobdream.com/schoolinfo/361/"
   }
  ],
  "generated": {

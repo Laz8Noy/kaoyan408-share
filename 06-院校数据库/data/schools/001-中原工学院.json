@@ -33,7 +33,10 @@
    "wdCount": "4",
    "wdYears": "23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/nzEAjfsyfpVbZGwyaQ5Uog",
-   "college": "计算机学院"
+   "college": "计算机学院",
+   "scope": "N诺最新仅2024：计算机学院计算机技术二二812自命题(非408)，2024线273，录取40，拟录取318【277-353】；前沿院网络与信息安全二二812录23拟录取308；无408数据",
+   "admitCnt": "40(2024)",
+   "admitAvg": "318"
   }
  ],
  "crossRefs": [],
@@ -58,7 +61,12 @@
  },
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 中原工学院",
+   "url": "https://noobdream.com/schoolinfo/214/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -68,5 +76,6 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "note": "确认非408(812自命题)；无085410/408数据。"
 }

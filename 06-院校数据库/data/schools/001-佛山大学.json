@@ -1,36 +1,122 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "佛山大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "佛山大学",
+   "category": "S-主体",
    "province": "广东",
-   "college": "电子信息工程学院",
-   "program": "电子信息-软件工程",
-   "subjects": "英二数二408",
-   "line": "264",
-   "retestCnt": "64",
-   "adjCnt": "62",
-   "avgTotal": "318",
-   "avg408": "88",
-   "avgPol": "65",
-   "avgEng": "69",
-   "avgMath": "95",
-   "admitCnt": "59",
-   "admitAvg": null,
-   "rate": "90%",
-   "ratioNN": "1.1",
-   "note": "✅22408兼容；含电子信息"
+   "region": "华南",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-软件工程(085405)",
+   "college": "计算机与人工智能学院",
+   "line2026": "264",
+   "lineDelta": "+4",
+   "linesByYear": {
+    "2023": "273",
+    "2024": "273",
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "59+18调剂(目录0854电子信息66含49推免)",
+   "fill": "一志愿为主",
+   "retestCnt": "64一志愿+62调剂",
+   "admitCnt": "59一志愿+18调剂",
+   "admitMax": "376",
+   "admitMin": "265",
+   "admitAvg": "305",
+   "scope": "085405软件工程(计算机与人工智能学院)2026线264/35/53；一志愿进复试64人，进复试均分318【296-355】；一志愿拟录取均305【265-376】；408单科均分88",
+   "aiTag": "⚠️软件工程(非085410)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "88",
+   "nnRate": "90%",
+   "note": "408项目为085405软件工程(22408)，一志愿为主59人+18调剂，拟录取均305【265-376】；注意：085410人工智能2025考808自动控制原理(非408)，2026目录未见408的085410方向；另招学硕智能科学与技术(英一数二408)",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方目录",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-软件工程",
+   "nnCollege": "计算机与人工智能学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "2",
+   "wdYears": "25考情分析,26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/RX4EolAYAfCIElg_WGEdMQ",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/312/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与人工智能学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "264",
+   "plan": "59+18调剂",
+   "retestCnt": "64一志愿+62调剂",
+   "admitCnt": "59一志愿+18调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "376",
+   "admitMin": "265",
+   "admitAvg": "305",
+   "scope": "软件工程22408一志愿拟录取均305【265-376】；线264；408均分88",
+   "verify": "第三方(N诺)+官方(目录PDF)",
+   "url": "https://noobdream.com/schoolinfo/312/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "25考情分析": "https://mp.weixin.qq.com/s/FOAJWv-IxUHtmIkjrJ89bA",
   "26考情分析": "https://mp.weixin.qq.com/s/RX4EolAYAfCIElg_WGEdMQ"
  },
- "conflicts": [],
- "sources": [],
+ "updates2027": [
+  {
+   "院校": "佛山大学",
+   "层次": "双非",
+   "专业/范围": "085405软件工程/1405智能科学与技术",
+   "原科目": "软件工程(22408已408)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/312+官方2026目录PDF",
+   "备注": "2026计算机与人工智能学院：软件工程22408、智能科学与技术(英一数二408)；注意085410人工智能2025为808自动控制原理(非408)，2027是否改408待官方目录确认"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
+ "conflicts": [
+  {
+   "field": "subjectClass",
+   "unit": "电子信息-软件工程",
+   "claims": [
+    {
+     "src": "N诺",
+     "value": "软件工程22408"
+    },
+    {
+     "src": "2025目录",
+     "value": "085410人工智能=808自动控制原理(非408)"
+    }
+   ],
+   "status": "警告-非22408",
+   "action": "085410人工智能非408；本单位为085405软件工程，非用户目标085410，报考前务必核对2027目录085410科目"
+  }
+ ],
+ "sources": [
+  {
+   "label": "N诺 佛山大学",
+   "url": "https://noobdream.com/schoolinfo/312/"
+  },
+  {
+   "label": "佛山大学2026招生专业目录",
+   "url": "https://www.fosu.edu.cn/yjszs/wp-content/uploads/sites/259/2025/07/佛山大学2026年硕士研究生招生专业目录-2.pdf"
+  }
+ ],
+ "note": "408项目为085405软件工程(22408)，非085410；085410人工智能2025考808自动控制原理(非408)，是否2027改408待研招网目录确认。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

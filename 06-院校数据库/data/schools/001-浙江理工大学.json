@@ -8,9 +8,10 @@
    "region": "华东",
    "tier": "双非",
    "subjectClass": "22408",
-   "direction": "不区分研究方向",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "计算机科学与技术学院（人工智能学院）",
    "line2026": "335",
-   "lineDelta": "+71",
+   "lineDelta": "+45",
    "linesByYear": {
     "2023": null,
     "2024": null,
@@ -19,31 +20,64 @@
    },
    "plan2026": "22",
    "fill": "一志愿为主",
+   "retestCnt": "31一志愿+1专项",
+   "admitCnt": "22",
+   "admitMax": "390",
+   "admitMin": "312",
+   "admitAvg": "354",
+   "scope": "085410人工智能(计算机学院/AI学院)2026线335(35/53)；22408；一志愿进复试31+1专项，进复试均分352【335-390】；拟录取22人均354【312-390】；408单科均分97",
    "aiTag": "✅真AI方向",
    "heatNet": "74",
    "heatComp": "61",
    "nn408avg": "97",
-   "nnRate": "70%",
-   "note": "官方复试线335，单科35/53",
-   "srcLabel": "官方",
+   "nnRate": "约70%",
+   "note": "官方复试线335(35/53)；N诺:一志愿31+1专项进复试均分352【335-390】，拟录取22人均354【312-390】；408均分97；2026软工学硕891数据结构改408；同院085404计算机技术线338招110人(含联培)",
+   "srcLabel": "官方+第三方",
    "src": [
     "总览",
     "区域榜",
     "招录比对比",
-    "三源核对"
+    "三源核对",
+    "N诺",
+    "官方(复试线/细则)"
    ],
    "lineUltimate2026": "335",
    "nnProg": "电子信息-人工智能",
    "nnCollege": "计算机科学与技术学院(人工智能学院)",
-   "nnSubjects": "推测408",
+   "nnSubjects": "英二数二408",
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/y9NJE1wMngbAxGllkWhbMw",
-   "college": "计算机科学与技术学院（人工智能学院）"
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/123/"
   }
  ],
- "crossRefs": [],
- "kaoqingDetail2026": [],
+ "crossRefs": [
+  {
+   "name": "电子信息-计算机(085404)",
+   "subjects": "22408",
+   "line2026": "338",
+   "note": "招110人(含联培)，线338，名额多于AI"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机科学与技术学院(人工智能学院)",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "335",
+   "plan": "22",
+   "retestCnt": "31一志愿+1专项",
+   "admitCnt": "22",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "390",
+   "admitMin": "312",
+   "admitAvg": "354",
+   "scope": "085410人工智能22408线335，一志愿拟录取均354【312-390】；408均分97",
+   "verify": "第三方(N诺)+官方(复试线335)",
+   "url": "https://noobdream.com/schoolinfo/123/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=7&sn=0f9e8208daa0af630cf6bd10a6dcc81a&scene=21&poc_token=HDSiCmmjha5IjuABY8kr1oKUo6xRDtL1lXZHARbg",
@@ -55,7 +89,18 @@
   "25考情": "https://mp.weixin.qq.com/s/7lRZpVU5YD7wKr-J9su-qw",
   "26考情": "https://mp.weixin.qq.com/s/y9NJE1wMngbAxGllkWhbMw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "浙江理工大学",
+   "层次": "双非",
+   "专业/范围": "083500软工学硕(891数据结构改408)",
+   "原科目": "891数据结构(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "研招网访谈2025-10+N诺",
+   "备注": "2026软工学硕改408；085410 AI已22408"
+  }
+ ],
  "tutors": [
   "侯健（深度强化学习、多智能体协同、联邦学习、无人机）"
  ],
@@ -74,19 +119,24 @@
   "AI方向": "✅真AI方向",
   "来源": "官方",
   "综合热度": "61",
-  "备注": "官方复试线335，单科35/53"
+  "备注": "官方复试线335，单科35/53；N诺拟录取均354"
  },
  "conflicts": [],
  "sources": [
+  {
+   "label": "N诺 浙江理工大学",
+   "url": "https://noobdream.com/schoolinfo/123/"
+  },
   {
    "label": "浙江理工大学2026复试线",
    "url": "https://gradschool.zstu.edu.cn/info/1135/8507.htm"
   },
   {
-   "label": "浙江理工大学2025复试线（官方）",
-   "url": "https://gradadmission.zstu.edu.cn/info/1011/3206.htm#1"
+   "label": "浙江理工大学计算机学院2026复试细则(085410计划22)",
+   "url": "https://jsjxy.zstu.edu.cn/info/1103/4372.htm"
   }
  ],
+ "note": "双非，085410人工智能22408线335、拟录取22人均354【312-390】，略高于310档；408均分97。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

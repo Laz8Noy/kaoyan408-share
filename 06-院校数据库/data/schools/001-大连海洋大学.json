@@ -7,7 +7,7 @@
    "province": "辽宁",
    "region": "东北",
    "tier": "双非",
-   "subjectClass": "22408",
+   "subjectClass": "非408",
    "direction": "不区分研究方向",
    "linesByYear": {
     "2023": "273",
@@ -19,8 +19,8 @@
    "aiTag": "❓未注明",
    "heatNet": "32",
    "heatComp": "37",
-   "note": "085410考408，复试线未拿到稳定数据",
-   "srcLabel": "机构估算",
+   "note": "⚠️非408：考819高级语言程序设计(C语言)自命题；N诺页仅更新至2024无2026数据；电子信息-人工智能2024线290录3+2调剂；与408目标不符",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -30,7 +30,9 @@
    "wdCount": "5",
    "wdYears": "22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/Bfy567UmPbmQ5s52O4z0AA",
-   "college": "信息工程学院"
+   "college": "信息工程学院",
+   "line2026": null,
+   "scope": "N诺(schoolinfo351,页面更新至2024未更新2026)：信息工程学院电子信息考819高级语言程序设计(C语言)自命题非408；2024电子信息-人工智能线290复试4+调剂录3+2调剂拟录取317【300-328】"
   }
  ],
  "crossRefs": [],
@@ -48,7 +50,12 @@
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺大连海洋大学schoolinfo/351(更新至2024)",
+   "url": "https://noobdream.com/schoolinfo/351/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

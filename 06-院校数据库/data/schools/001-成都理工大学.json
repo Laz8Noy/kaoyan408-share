@@ -44,7 +44,12 @@
    "kaoqingUrl": "https://cist.cdut.edu.cn/info/1145/7596.htm",
    "college": "计算机与网络安全学院",
    "plan2026": "26",
-   "remark": "官方2026复试线085410=308、085411=268；2026计划26人；2027目录未发布"
+   "remark": "官方2026复试线085410=308、085411=268；2026计划26人；2027目录未发布",
+   "retestCnt": "45",
+   "admitCnt": "30",
+   "admitMax": "390",
+   "admitMin": "320",
+   "admitAvg": "340"
   }
  ],
  "crossRefs": [],
@@ -55,13 +60,13 @@
    "subjects": "22408",
    "line2026": "308",
    "plan": null,
-   "retestCnt": null,
-   "admitCnt": null,
+   "retestCnt": "45",
+   "admitCnt": "30",
    "ratioRetest": null,
    "ratioApply": null,
-   "admitMax": null,
-   "admitMin": null,
-   "admitAvg": null,
+   "admitMax": "390",
+   "admitMin": "320",
+   "admitAvg": "340",
    "scope": "2026拟招23（不含推免，机构）；官网拟录取页反爬，复试/录取明细查无；复试有C语言机试斩杀线(VS2010)",
    "verify": "机构🔍",
    "url": "https://cist.cdut.edu.cn/info/1145/7596.htm"
@@ -104,6 +109,10 @@
   {
    "label": "成都理工大学计算机学院（412反爬）",
    "url": "https://cist.cdut.edu.cn/info/1145/7596.htm"
+  },
+  {
+   "label": "N诺 成都理工大学",
+   "url": "https://noobdream.com/schoolinfo/106/"
   }
  ],
  "generated": {

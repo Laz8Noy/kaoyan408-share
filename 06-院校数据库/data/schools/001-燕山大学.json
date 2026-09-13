@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "燕山大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "河北",
+   "region": "华北",
+   "tier": "双非(省重点)",
+   "subjectClass": "11408",
+   "college": "人工智能学院（软件学院）",
+   "direction": "电子信息-计算机(全英一数一)",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "46一志愿+3专项+94调剂",
+   "fill": "调剂为主",
+   "retestCnt": "46+4专项+调剂",
+   "admitCnt": "46+3专项+94调剂",
+   "admitMax": "341",
+   "admitMin": "267",
+   "admitAvg": "298",
+   "scope": "N诺2026：人工智能学院电子信息-计算机11408(英一数一)走国家线264，一志愿46+4专项+调剂进复试，进复试均分295【264-341】，单科政57英58数93 408=87，录取46+3专项+94调剂，拟录取298【267-341】",
+   "aiTag": "⚠️全11408",
+   "nn408avg": "87",
+   "nnRate": null,
+   "note": "⚠️人工智能学院电子信息为11408(英一数一)，非22408；双非强校但考数一，与22408目标不符；调剂量大",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "人工智能学院（软件学院）",
+   "nnSubjects": "英一数一408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/230/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -36,7 +71,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/UiVY6U7GYm-qNTAqDSugVw"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 燕山大学",
+   "url": "https://noobdream.com/schoolinfo/230/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -45,5 +85,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "⚠️电子信息为11408(英一数一)非22408；进复试均分295，调剂94人。与22408目标不符。"
 }

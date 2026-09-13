@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "安徽农业大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "安徽",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "信息与计算机学院",
+   "direction": "电子信息-计算机",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "299",
+    "2026": "264"
+   },
+   "plan2026": "56一志愿+25调剂",
+   "fill": "调剂为主",
+   "retestCnt": "57一志愿+62调剂",
+   "admitCnt": "56一志愿+25调剂",
+   "admitMax": "356",
+   "admitMin": "264",
+   "admitAvg": "300",
+   "scope": "N诺2026：信息与计算机学院电子信息-计算机22408走国家线，一志愿57+调剂62进复试，进复试均分300【264-356】，单科政60英66数97 408=77，录取56+25调剂；无独立AI方向；26改考408",
+   "aiTag": "无AI方向",
+   "nn408avg": "77",
+   "nnRate": null,
+   "note": "无085410人工智能方向；电子信息-计算机22408，国家线，进复试均分300【264-356】",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "信息与计算机学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/207/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/Vmmnoq7eV1eK6MCwT1A5lw"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 安徽农业大学",
+   "url": "https://noobdream.com/schoolinfo/207/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无AI方向；电子信息-计算机22408国家线，进复试均分300【264-356】。"
 }

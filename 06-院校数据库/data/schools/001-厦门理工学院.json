@@ -7,22 +7,22 @@
    "province": "福建",
    "region": "华东",
    "tier": "双非",
-   "subjectClass": "非408",
+   "subjectClass": "22408",
    "direction": "不区分研究方向",
-   "line2026": "264",
+   "line2026": "国家线",
    "lineDelta": "=国家线",
    "linesByYear": {
-    "2023": null,
-    "2024": null,
+    "2023": "273",
+    "2024": "274",
     "2025": null,
-    "2026": "264"
+    "2026": "国家线"
    },
    "fill": "调剂",
    "aiTag": "❓未注明",
    "heatNet": "42",
    "heatComp": "24",
-   "note": "2026复试线国家线，有调剂；2026目录中085410待核（疑似非408）",
-   "srcLabel": "机构估算",
+   "note": "双非；2023改考408；电子信息-计算机22408走国家线，大量调剂；2026官方目录085404计算机技术全日制52人",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -33,7 +33,14 @@
    "wdCount": "5",
    "wdYears": "22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/hofn-IHexzQDn4F_8qlAuA",
-   "college": "计算机与信息工程学院"
+   "college": "计算机与信息工程学院",
+   "plan2026": "52(全日制,含士兵3)",
+   "retestCnt": "31+3专项+73调剂(2024)",
+   "admitCnt": "31+3专项+31调剂(2024)",
+   "admitAvg": "293",
+   "admitMin": "274",
+   "admitMax": "343",
+   "scope": "N诺(schoolinfo287,更新至2024)：2023起改考408；085404计算机技术/电子信息-计算机22408走国家线，2024复试31+3+73调剂录31+3+31调剂一志愿均分293【274-343】；2026官方目录085404全日制52人(英二数二408)"
   }
  ],
  "crossRefs": [],
@@ -59,7 +66,12 @@
  },
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺厦门理工学院schoolinfo/287(更新至2024)+官方2026目录",
+   "url": "https://noobdream.com/schoolinfo/287/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

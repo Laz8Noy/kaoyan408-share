@@ -7,15 +7,15 @@
    "province": "山东",
    "region": "华东",
    "tier": "双非",
-   "subjectClass": "非408",
+   "subjectClass": "22408",
    "direction": "计算机视觉",
-   "line2026": "264",
+   "line2026": null,
    "lineDelta": "=国家线",
    "linesByYear": {
-    "2023": null,
-    "2024": null,
+    "2023": "296",
+    "2024": "273",
     "2025": "260",
-    "2026": "264"
+    "2026": null
    },
    "plan2026": "28",
    "fill": "一志愿为主",
@@ -23,8 +23,8 @@
    "aiTag": "✅真AI方向",
    "heatNet": "52",
    "heatComp": "28",
-   "note": "复试51人/录取42人；方向为计算机视觉",
-   "srcLabel": "官方",
+   "note": "双非；2026起改考408(此前872数据结构自命题)；电子信息-人工智能2025(872)线260录31均301；2026改408后录取分待更新；卓越工程师学院26新增",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -35,7 +35,8 @@
    "wdCount": "5",
    "wdYears": "22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/K4BvL8Gwj-T3GRwCnFkTtg",
-   "college": "数学与人工智能学部"
+   "college": "计算机科学与技术学院",
+   "scope": "N诺(schoolinfo148,更新至2025)：2025电子信息-人工智能考872数据结构线260复试37录31均301【260-351】；2026改考408(22408)，2026录取分未出/未收录；电子信息-计算机2025线305录220均329"
   }
  ],
  "crossRefs": [],
@@ -48,7 +49,18 @@
   "25考情": "https://mp.weixin.qq.com/s/W-XbQQlgHDZE0leTdAIjfA",
   "26考情": "https://mp.weixin.qq.com/s/K4BvL8Gwj-T3GRwCnFkTtg"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "齐鲁工业大学",
+   "层次": "双非",
+   "专业/范围": "计算机学院电子信息",
+   "原科目": "872数据结构自命题",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺148",
+   "备注": "2026改考408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
@@ -57,6 +69,10 @@
   {
    "label": "齐鲁工业大学085410专业介绍",
    "url": "https://www.yanshuoshi.com/professional/list-143-2.html"
+  },
+  {
+   "label": "N诺齐鲁工业大学schoolinfo/148(更新至2025)",
+   "url": "https://noobdream.com/schoolinfo/148/"
   }
  ],
  "generated": {

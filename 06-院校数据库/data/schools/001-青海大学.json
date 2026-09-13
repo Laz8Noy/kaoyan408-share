@@ -3,30 +3,90 @@
  "name": "青海大学",
  "units": [
   {
+   "category": "S-主体",
+   "province": "青海",
+   "region": "西北",
+   "tier": "211",
+   "subjectClass": "22408",
+   "direction": "人工智能方向",
+   "college": "计算机技术与应用学院",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机技术与应用学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "284",
+   "lineDelta": "+30(较B区国家线254)",
+   "linesByYear": {
+    "2023": "265",
+    "2024": "263",
+    "2025": "252",
+    "2026": "284"
+   },
+   "plan2026": "37",
+   "fill": "一志愿为主",
+   "retestCnt": "44",
+   "admitCnt": "37",
+   "admitMax": "354",
+   "admitMin": "284",
+   "admitAvg": "312",
+   "scope": "085400电子信息-人工智能方向(22408英二数二408)；B区211。N诺2026：进复试44人均308【284-354】，单科均65/70/96/76；拟录37人均312【284-354】；复试线284(高于B区国家线254)。与官方一志愿公示(44人,最高354最低284均308.2)一致。清华对口支援",
+   "aiTag": "✅真AI方向",
+   "heatNet": "48",
+   "heatComp": "30",
+   "nn408avg": "76",
+   "nnRate": "约84%",
+   "note": "B区211双一流；22408(英二数二408)；N诺schoolinfo/273核对：AI方向线284录37均312，极贴合用户310分档目标。原记录line254为B区国家线，实际AI方向院线284",
+   "srcLabel": "官方+第三方",
+   "src": [
+    "区域榜",
+    "三源核对",
+    "考情明细",
+    "N诺"
+   ],
+   "lineUltimate2026": "284",
+   "wdCount": "8",
+   "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/Os8HhG8qbxS6NPRNl6QNpA",
+   "kaoqingUrl": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf",
+   "nnUrl": "https://noobdream.com/schoolinfo/273/"
+  },
+  {
    "category": "C-对照",
    "province": "青海",
    "region": "西北",
    "tier": "211",
    "subjectClass": "22408",
-   "line2026": "254",
-   "lineDelta": "=国家线",
-   "heatComp": "30",
-   "heatNet": "48",
-   "aiTag": "✅真AI方向",
-   "note": "B区211双一流；22408(英二数二408)；2023=263/2025=250/2026=254均按B区国家线未设院线；一志愿21/25调剂0；复试考程序设计；一志愿复试44人",
-   "srcLabel": "官方+启航",
+   "direction": "计算机方向",
+   "college": "计算机技术与应用学院",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "计算机技术与应用学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "294",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "292",
+    "2024": "263",
+    "2025": "256",
+    "2026": "294"
+   },
+   "plan2026": "48",
+   "fill": "一志愿为主",
+   "retestCnt": "59",
+   "admitCnt": "48",
+   "admitMax": "366",
+   "admitMin": "294",
+   "admitAvg": "323",
+   "scope": "085400电子信息-计算机方向(22408)；N诺2026：进复试59人均319【294-366】，单科均66/70/100/83；拟录48人均323【294-366】；复试线294",
+   "aiTag": "相关方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "83",
+   "nnRate": "约81%",
+   "note": "计算机方向22408线294录48均323，比AI方向高10分；N诺schoolinfo/273",
+   "srcLabel": "第三方",
    "src": [
-    "区域榜",
-    "三源核对",
-    "考情明细"
+    "N诺"
    ],
-   "lineUltimate2026": "254",
-   "wdCount": "8",
-   "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
-   "wdUrl26": "https://mp.weixin.qq.com/s/Os8HhG8qbxS6NPRNl6QNpA",
-   "kaoqingUrl": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf",
-   "scope": "一志愿复试成绩公示44人，初试最高354、最低284、均308.2；拟录取名单见研招网公示；计划25/32（口径不一）",
-   "college": "计算机技术与应用学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/273/"
   }
  ],
  "crossRefs": [],
@@ -35,18 +95,37 @@
    "college": "计算机技术与应用学院",
    "tier": "211",
    "subjects": "22408",
-   "line2026": "254",
-   "plan": "25",
+   "program": "085400电子信息-人工智能",
+   "line2026": "284",
+   "plan": "37",
    "retestCnt": "44",
-   "admitCnt": null,
+   "admitCnt": "37",
    "ratioRetest": null,
    "ratioApply": null,
    "admitMax": "354",
    "admitMin": "284",
-   "admitAvg": "308.2",
-   "scope": "一志愿复试成绩公示44人，初试最高354、最低284、均308.2；拟录取名单见研招网公示；计划25/32（口径不一）",
-   "verify": "官方✅",
-   "url": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf"
+   "admitAvg": "312",
+   "scope": "AI方向22408；线284进复试44均308【284-354】录37均312【284-354】",
+   "verify": "官方✅+N诺",
+   "url": "https://noobdream.com/schoolinfo/273/"
+  },
+  {
+   "college": "计算机技术与应用学院",
+   "tier": "211",
+   "subjects": "22408",
+   "program": "085400电子信息-计算机",
+   "line2026": "294",
+   "plan": "48",
+   "retestCnt": "59",
+   "admitCnt": "48",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "366",
+   "admitMin": "294",
+   "admitAvg": "323",
+   "scope": "计算机方向22408；线294进复试59均319【294-366】录48均323【294-366】",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/273/"
   }
  ],
  "nnCandidates": [],
@@ -64,7 +143,18 @@
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
- "conflicts": [],
+ "conflicts": [
+  {
+   "field": "line2026",
+   "old": "254(B区国家线)",
+   "new": "284(AI方向实际院线)",
+   "reason": "原记录按B区国家线254；N诺2026表及官方一志愿公示显示电子信息-人工智能方向实际复试线284、最低284，已更正",
+   "sources": [
+    "https://noobdream.com/schoolinfo/273/",
+    "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf"
+   ]
+  }
+ ],
  "sources": [
   {
    "label": "青海大学085410考情（B区211低分）",
@@ -73,6 +163,10 @@
   {
    "label": "青海大学2026一志愿成绩公示PDF",
    "url": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf"
+  },
+  {
+   "label": "N诺青海大学考情",
+   "url": "https://noobdream.com/schoolinfo/273/"
   }
  ],
  "generated": {

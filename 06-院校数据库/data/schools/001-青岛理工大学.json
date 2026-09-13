@@ -1,30 +1,74 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "青岛理工大学",
- "units": [],
- "categoryGuess": "N诺新增候选(未入终极版S/C)",
- "nnCandidates": [
+ "units": [
   {
-   "school": "青岛理工大学",
+   "category": "S-主体",
    "province": "山东",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-计算机(085404)",
    "college": "信息与控制工程学院",
-   "program": "电子信息-计算机",
-   "subjects": "推测408",
-   "line": "264",
-   "retestCnt": "18",
-   "adjCnt": "34",
-   "avgTotal": "302",
-   "avg408": "85",
-   "avgPol": "51",
-   "avgEng": "65",
-   "avgMath": "101",
-   "admitCnt": "18",
-   "admitAvg": null,
-   "rate": "100%",
-   "ratioNN": "1",
-   "note": "✅22408兼容；含电子信息"
+   "line2026": "264",
+   "lineDelta": "-30",
+   "linesByYear": {
+    "2023": "292",
+    "2024": "290",
+    "2025": "294",
+    "2026": "264"
+   },
+   "plan2026": "18一志愿+1专项+11调剂",
+   "fill": "一志愿为主+调剂",
+   "retestCnt": "18一志愿+1专项+33调剂",
+   "admitCnt": "18一志愿+1专项+11调剂",
+   "admitMax": "363",
+   "admitMin": "272",
+   "admitAvg": "302",
+   "scope": "085404电子信息-计算机(信息与控制工程学院)2026线264；2026首改22408(原二二DS自命题)；一志愿进复试18+1专项，进复试均分302【272-363】；拟录取18+1专项+11调剂均302【272-363】；408单科均分85",
+   "aiTag": "⚠️电子信息-计算机(非085410单列)",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "85",
+   "nnRate": "约95%",
+   "note": "085404计算机22408，2026首改408(原二二数据结构自命题)；线264(改考首年大幅回落，2025自命题时294)；一志愿18+1专项+11调剂，拟录取均302【272-363】；408均分85；无单列085410",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(复试细则)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "信息与控制工程学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "6",
+   "wdYears": "20考情,22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/QttJXmNtJcTu_aDSUWYsBA",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/146/"
   }
  ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息与控制工程学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "264",
+   "plan": "18+1专项+11调剂",
+   "retestCnt": "18一志愿+1专项+33调剂",
+   "admitCnt": "18一志愿+1专项+11调剂",
+   "ratioRetest": "1.2",
+   "ratioApply": null,
+   "admitMax": "363",
+   "admitMin": "272",
+   "admitAvg": "302",
+   "scope": "085404计算机22408，2026首改408线264，一志愿拟录取均302【272-363】；408均分85",
+   "verify": "第三方(N诺)+官方(复试细则线264)",
+   "url": "https://noobdream.com/schoolinfo/146/"
+  }
+ ],
+ "nnCandidates": [],
  "wangdaoLinks": {
   "20考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235739&idx=4&sn=3e231fab4600c35e5d9f9fd7f3eff26e&scene=21&poc_token=HI4GDGmjvhnC0qmh99a_On7YUAMDYu0S6ebtZ7_Z",
   "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235739&idx=3&sn=d3f1fad20cb077f8aeffd1a878243b13&scene=21&poc_token=HLIGDGmj5IAfujFSqIyz884UsEsn3BpRcGnTv4-8",
@@ -33,8 +77,33 @@
   "25考情": "https://mp.weixin.qq.com/s/lbFo8f_tHBmJUd-q8Z7szg",
   "26考情": "https://mp.weixin.qq.com/s/QttJXmNtJcTu_aDSUWYsBA"
  },
+ "updates2027": [
+  {
+   "院校": "青岛理工大学",
+   "层次": "双非",
+   "专业/范围": "081200计科/1405智能/085404电子信息-计算机",
+   "原科目": "自命题数据结构DS",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/146",
+   "备注": "2026起计科/智能/电子信息-计算机统一改408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 青岛理工大学",
+   "url": "https://noobdream.com/schoolinfo/146/"
+  },
+  {
+   "label": "青岛理工大学信控学院2026复试细则(085404线264)",
+   "url": "https://ice.qut.edu.cn/info/1051/2976.htm"
+  }
+ ],
+ "note": "085404电子信息-计算机(非085410)，2026首改22408，线264、一志愿拟录取均302，改考首年分数线友好。",
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

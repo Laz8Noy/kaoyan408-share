@@ -7,9 +7,9 @@
    "province": "辽宁",
    "region": "东北",
    "tier": "双非",
-   "subjectClass": "非408",
+   "subjectClass": "混合",
    "direction": "不区分研究方向",
-   "line2026": "264",
+   "line2026": null,
    "lineDelta": "=国家线",
    "linesByYear": {
     "2023": null,
@@ -22,8 +22,8 @@
    "aiTag": "❓未注明",
    "heatNet": "55",
    "heatComp": "28",
-   "note": "2026初试834程序设计基础（非408），国家线，复录比约1.2:1",
-   "srcLabel": "机构估算",
+   "note": "混合：计算机学院2026起改408；人工智能学院电子信息-人工智能考834程序设计基础自命题(非408)2025录38+9调剂均299；N诺页无2026录取分",
+   "srcLabel": "第三方",
    "src": [
     "总览",
     "区域榜",
@@ -34,7 +34,8 @@
    "wdCount": "5",
    "wdYears": "19考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/gi-6MZkko6EveczgRW1D9Q",
-   "college": "计算机学院"
+   "college": "计算机学院/人工智能学院",
+   "scope": "N诺(schoolinfo180,更新至2025)：计算机学院2026改考408(电子信息拆为085404/085405/085412)；人工智能学院电子信息-人工智能考834程序设计基础(自命题非408)，2025复试41录38+9调剂拟录取299【291-311】"
   }
  ],
  "crossRefs": [],
@@ -47,7 +48,18 @@
   "25考情": "https://mp.weixin.qq.com/s/MMfGQcKP6IpVfsrLCH1t5A",
   "26考情": "https://mp.weixin.qq.com/s/gi-6MZkko6EveczgRW1D9Q"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "沈阳航空航天大学",
+   "层次": "双非",
+   "专业/范围": "计算机学院电子信息",
+   "原科目": "程序设计+DS自命题",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺180",
+   "备注": "2026改考408，085400拆为085404/085405/085412；AI学院仍考834自命题"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
@@ -60,6 +72,10 @@
   {
    "label": "沈阳航空航天大学085410招生计划",
    "url": "https://www.kaoyana.com/s1272/085410/43428/"
+  },
+  {
+   "label": "N诺沈阳航空航天大学schoolinfo/180(更新至2025)",
+   "url": "https://noobdream.com/schoolinfo/180/"
   }
  ],
  "generated": {

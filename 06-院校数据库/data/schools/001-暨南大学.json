@@ -8,15 +8,42 @@
    "region": "华南",
    "tier": "211",
    "subjectClass": "22408",
-   "heatComp": "52",
-   "heatNet": "82",
+   "direction": "不区分研究方向",
+   "college": "信息科学技术学院",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "信息科学技术学院",
+   "nnSubjects": "英二数二408",
+   "line2026": "318",
+   "lineDelta": "+12",
+   "linesByYear": {
+    "2023": "347",
+    "2024": "318",
+    "2025": "306",
+    "2026": "318"
+   },
+   "plan2026": "约19(18+1专项)",
+   "fill": "一志愿为主",
+   "retestCnt": "36+1专项",
+   "admitCnt": "18+1专项",
+   "admitMax": "408",
+   "admitMin": "346",
+   "admitAvg": "377",
+   "scope": "085410人工智能22408；报130人，进复试36+1专项均359【331-408】，单科均70/77/116/95；拟录18+1专项均377【346-408】；复试线318。复试5:5+机试，复录比约2:1刷人多",
    "aiTag": "✅真AI方向",
-   "note": "085410线待官方核实，作211对照",
-   "srcLabel": "网络热度",
+   "heatNet": "82",
+   "heatComp": "52",
+   "nn408avg": "95",
+   "nnRate": "约50%",
+   "note": "085410人工智能22408；N诺schoolinfo/45核对。信息学院线318均377，智能学院线331均376；复录比约2:1偏高。2027信息学院085410拟招30人(持平)",
+   "srcLabel": "官方+第三方",
    "src": [
-    "区域榜"
+    "区域榜",
+    "N诺"
    ],
-   "college": "信息科学技术学院（相关）"
+   "wdCount": "8",
+   "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/kJaC8i1FsrgsMhxIG7KbSQ",
+   "nnUrl": "https://noobdream.com/schoolinfo/45/"
   },
   {
    "category": "C-对照",
@@ -24,17 +51,39 @@
    "region": "华南",
    "tier": "211",
    "subjectClass": "22408",
+   "direction": "不区分研究方向",
+   "college": "智能科学与工程学院",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "智能科学与工程学院",
+   "nnSubjects": "英二数二408",
    "line2026": "331",
-   "lineDelta": "+67",
-   "heatComp": "67",
-   "heatNet": "84",
+   "lineDelta": "+17",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "314",
+    "2026": "331"
+   },
+   "plan2026": "26",
+   "fill": "一志愿为主",
+   "retestCnt": "48",
+   "admitCnt": "26",
+   "admitMax": "407",
+   "admitMin": "336",
+   "admitAvg": "376",
+   "scope": "085410人工智能22408；报126人，进复试48均364【331-407】，单科均71/78/121/95；拟录26均376【336-407】；复试线331。复试考C语言程序设计；复试比例1:2刷人多；近三年线314→331走高",
    "aiTag": "✅真AI方向",
-   "note": "复试考C语言程序设计；复试比例1:2（复录比约2）刷人多；近三年线306→318→331逐年走高",
-   "srcLabel": "官方+机构",
+   "heatNet": "84",
+   "heatComp": "67",
+   "nn408avg": "95",
+   "nnRate": "约54%",
+   "note": "智能科学与工程学院085410人工智能22408线331，复48录26均376；N诺schoolinfo/45",
+   "srcLabel": "官方+第三方",
    "src": [
-    "区域榜"
+    "区域榜",
+    "N诺"
    ],
-   "college": "智能科学与工程学院"
+   "nnUrl": "https://noobdream.com/schoolinfo/45/"
   }
  ],
  "crossRefs": [
@@ -54,26 +103,46 @@
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/kJaC8i1FsrgsMhxIG7KbSQ",
    "remark": null
-  },
-  {
-   "tier": "211",
-   "lineUltimate2026": "331",
-   "nnProg": null,
-   "nnCollege": null,
-   "nnSubjects": null,
-   "nn408avg": null,
-   "nnRate": null,
-   "cyCode": null,
-   "cyRetest": null,
-   "cyAdmit": null,
-   "cyAvg": null,
-   "wdCount": "8",
-   "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
-   "wdUrl26": "https://mp.weixin.qq.com/s/kJaC8i1FsrgsMhxIG7KbSQ",
-   "remark": null
   }
  ],
- "kaoqingDetail2026": [],
+ "kaoqingDetail2026": [
+  {
+   "college": "信息科学技术学院",
+   "tier": "211",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": "318",
+   "plan": "约19",
+   "retestCnt": "36+1专项",
+   "admitCnt": "18+1专项",
+   "ratioRetest": "约2:1",
+   "ratioApply": null,
+   "admitMax": "408",
+   "admitMin": "346",
+   "admitAvg": "377",
+   "scope": "085410人工智能22408；线318，进复试36+1均359【331-408】，录18+1均377【346-408】",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/45/"
+  },
+  {
+   "college": "智能科学与工程学院",
+   "tier": "211",
+   "subjects": "22408",
+   "program": "085410人工智能",
+   "line2026": "331",
+   "plan": "26",
+   "retestCnt": "48",
+   "admitCnt": "26",
+   "ratioRetest": "约2:1",
+   "ratioApply": null,
+   "admitMax": "407",
+   "admitMin": "336",
+   "admitAvg": "376",
+   "scope": "085410人工智能22408；线331，进复试48均364【331-407】，录26均376【336-407】",
+   "verify": "N诺",
+   "url": "https://noobdream.com/schoolinfo/45/"
+  }
+ ],
  "nnCandidates": [],
  "wangdaoLinks": {
   "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233615&idx=8&sn=8632d734e0df5ebc93e1def5e269cfcf&scene=21&poc_token=HG_2CmmjiBdYNjH78qc_OgXG_FqW_Coz5Ng-WN2k",
@@ -85,14 +154,30 @@
   "25考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666253266&idx=5&sn=ee22e996280446f6db49be17714a595b&chksm=8aee8300b44392f5fc801c8e53d193516707d4f6b138e98ea817de51f97c640e9522ceb99389&scene=126&sessionid=1756890923&subscene=91&clicktime=1756890946&enterid=1756890946&key=daf9bdc5abc4e8d00227b7a10381f02df3d4326362ce2414f4b1b8a5642806b359d95eed75f0a3cef3999decb8112cd43585359db66f7b3ebee193d1e6d67ac6ba8a5ac9f67ab44bd0cb255aa2ee37ee0296baaa23160404d4116e8404a7175844656b967c7a4f9d94c9c0cc22203b0f08baba90edcdb6093bed3bb67eeffd58&ascene=0&uin=Mjc5MDEzMTU0MQ%3D%3D&devicetype=UnifiedPCWindows&version=f2541012&lang=zh_CN&countrycode=CN&exportkey=n_ChQIAhIQn5ICwDB9mv6FE3wghiW3UBLoAQIE97dBBAEAAAAAAF28IIHSAl4AAAAOpnltbLcz9gKNyK89dVj0wxvyrpv%2BKWOguqqBlCscrHO6GpsSTPNK0xcMZWBNa5lYtBC6RNKOkEeS8%2BOvUHVEIaPOmo0CJDbqOG3itlAo3ApeqsxYVsO5NpjKOQeF6XKzQVj5mmRO8ZFdo%2FsJWQen%2F3PE7VsTlokW88TSA%2FDscPjrcpUGJBdRAugtbMk3ZpF58AECo%2FNbbHiWAR5%2FQueT2g79ZkfllP6Q8KOQm0QbQF6gkIZ8xR7p0yVymuLgQEiUrKdDC19ZlHg3vThPdzuXVAM%3D&acctmode=0&pass_ticket=izUKQLrxbjwnysS7cWYZhk76hcCcX6KmFDwfIWr%2FeRVMLqNlNh0pkJRlj1gmQY3e&wx_header=0",
   "26考情分析": "https://mp.weixin.qq.com/s/kJaC8i1FsrgsMhxIG7KbSQ"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "暨南大学",
+   "层次": "211",
+   "专业/范围": "085410人工智能(信息学院/智能学院)",
+   "原科目": "408",
+   "新科目": "408(沿用，扩招)",
+   "生效年份": "2027",
+   "来源": "2027招生目录(抖音/研招网) + N诺schoolinfo/45",
+   "备注": "2027信息学院085410拟招30人(持平)；智能学院085410继续；统考408专业共招312人(较26扩47)；科目维持英二数二408"
+  }
+ ],
  "tutors": [
   "杨光华（智慧感知(自动驾驶/激光雷达/点云AI)、智能通信、AI应用）；李德平（智能视觉感知、三维位姿估计、点云处理、视觉大模型、SLAM）；赵阔（AIGC、区块链、大数据、网络空间安全、云计算）"
  ],
  "inTJList": null,
  "inKeyList": null,
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺暨南大学考情",
+   "url": "https://noobdream.com/schoolinfo/45/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",

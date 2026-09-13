@@ -1,7 +1,42 @@
 {
  "schema": "kaoyan-school/v1",
  "name": "湖北民族大学",
- "units": [],
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "college": "智能科学与工程学院",
+   "direction": "电子信息-计算机",
+   "line2026": "264",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": "254",
+    "2026": "264"
+   },
+   "plan2026": "1一志愿",
+   "fill": "大量调剂",
+   "retestCnt": "1一志愿+18调剂",
+   "admitCnt": "1一志愿",
+   "admitMax": null,
+   "admitMin": null,
+   "admitAvg": "258",
+   "scope": "N诺2026：电子信息-计算机22408走国家线，一志愿1人+18调剂，一志愿258分；电子信息-网安方向0一志愿+15调剂；智能科学与技术学硕考高级语言程序设计(非408)",
+   "aiTag": "无独立AI专硕",
+   "nn408avg": null,
+   "nnRate": null,
+   "note": "无085410 AI独立方向；电子信息-计算机22408纯调剂(一志愿1)，武陵山民族地区校",
+   "srcLabel": "第三方(N诺)",
+   "nnProg": "电子信息-计算机",
+   "nnCollege": "智能科学与工程学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/334/"
+  }
+ ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
  "nnCandidates": [
   {
@@ -33,7 +68,12 @@
   "26考情分析": "https://mp.weixin.qq.com/s/RKddWA-BZNENXb1Z7emNtw"
  },
  "conflicts": [],
- "sources": [],
+ "sources": [
+  {
+   "label": "N诺 湖北民族大学",
+   "url": "https://noobdream.com/schoolinfo/334/"
+  }
+ ],
  "generated": {
   "by": "etl_build_db.py",
   "date": "2026-09-03",
@@ -42,5 +82,6 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "note": "无独立AI；电子信息-计算机22408纯调剂(一志愿1人)。"
 }
