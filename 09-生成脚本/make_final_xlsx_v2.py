@@ -1,26 +1,55 @@
 # -*- coding: utf-8 -*-
-"""终极版 XLSX（20260826 三源整合版）：基于新版 HTML 生成 12 个 Sheet"""
-import io, json, re, collections
+"""终极版 XLSX（20260826 三源整合版）：从当前 04 主网页内嵌数据反向导出 12 个 Sheet。
+
+用法：仓库根目录执行  python 09-生成脚本/make_final_xlsx_v2.py
+输入：04-终极版择校/…20260826.html（页面是唯一现势真相源，含 09-03 复核修正与 CodeBrick CB 列）
+      + 01 主 md（2027改考/导师两节）+ 07 N诺提取 xlsx
+输出：04-终极版择校/…20260826.xlsx（幂等整表覆盖；重跑即与网页同步）
+"""
+import io, os, json, re, collections
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
-HTML = r"06_终极版输出\全国408_085410双非热度版_终极版_20260826.html"
-OUT = r"06_终极版输出\全国408_085410双非热度版_终极版_20260826.xlsx"
-MAIN_MD = r"01_择校与规划\085410_22408_择校与规划_20260820.md"
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+HTML = "04-终极版择校/全国408_085410双非热度版_终极版_20260826.html"
+OUT = "04-终极版择校/全国408_085410双非热度版_终极版_20260826.xlsx"
+MAIN_MD = "01-择校与规划/085410_22408_择校与规划_20260820.md"
 
 s = io.open(HTML, encoding="utf-8").read()
 
-def grab(begin, end):
+def grabjs(begin):
+    """括号平衡扫描提取 var X=[...] / {...}（注入 var CB 后旧注释锚点已不可靠）。"""
     a = s.index(begin) + len(begin)
-    b = s.index(end, a) + 1
-    return s[a:b]
+    while s[a] in " \t\r\n":
+        a += 1
+    depth = 0
+    instr = False
+    esc = False
+    for j in range(a, len(s)):
+        ch = s[j]
+        if instr:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                instr = False
+            continue
+        if ch == '"':
+            instr = True
+        elif ch in "[{":
+            depth += 1
+        elif ch in "]}":
+            depth -= 1
+            if depth == 0:
+                return json.loads(s[a:j + 1])
+    raise ValueError("grabjs 未闭合: " + begin)
 
-S = json.loads(grab("var S=", "];\n// ===== 985/211"))
-C = json.loads(grab("var C=", "];\n// ===== 初试科目映射"))
-ka = s.index("var K={") + len("var K={") - 1
-kb = s.index("};\nfunction exKey") + 1
-K = json.loads(s[ka:kb])
-SRCS = json.loads(grab("var SRCS=", "];\n\n// ===== 工具函数"))
+S = grabjs("var S=")
+C = grabjs("var C=")
+K = grabjs("var K=")
+SRCS = grabjs("var SRCS=")
+CB = grabjs("var CB=") if "var CB=" in s else {}
 
 def exKey(d):
     return K.get(d["n"] + "|" + d["c"]) or K.get(d["n"]) or "待确认"
@@ -89,17 +118,39 @@ def sheet(ws, headers, rows, widths=None):
         for c, w in enumerate(widths, 1):
             ws.column_dimensions[openpyxl.utils.get_column_letter(c)].width = w
 
-# 1 总览（加 408均分/录取率/王道考情 3 列，插在 综合热度 与 备注 之间）
+# 1 总览（含 408分位(CB) 列，与网页主表同步）
+def cbNorm(n):
+    return (n or "").replace("(", "（").replace(")", "）")
+
+def cbOf(d):
+    name = d["n"] if isinstance(d, dict) else d
+    n = cbNorm(name)
+    r = CB.get(n) or CB.get(name)
+    if r:
+        return r
+    for k in CB:
+        if n and (k.startswith(n) or n.startswith(k)):
+            return CB[k]
+    return None
+
+def cbTxt(d):
+    q = cbOf(d)
+    if not q:
+        return "—"
+    return ("中位 %s [p25–p75 %s–%s] 全距 %s–%s ·%s年·口径 %s·录取n≈%s·408项目×%s"
+            % (q["med"], q["p25"], q["p75"], q["lo"], q["hi"], q["y"],
+               q.get("types") or "408", q["ad"], q["np"]))
+
 rows = []
 for d in S:
     a408, lr, wd_txt = nn_cols(d)
     rows.append([d["n"], d["p"], d["r"], d["t"], d["c"], exKey(d), d["d"], d["l"], lh_str(d), gapStr(d), d["plan"],
                  d["fc"], na(d["ratio"]), na(d["rr"]), na(d.get("rec")), na(d.get("adm")), na(d.get("max_s")),
                  na(d.get("min_s")), na(d.get("avg_s")), d.get("scope") or "—", d["ai"], d["src"], d["net"], heatScore(d),
-                 a408, lr, wd_txt, d["note"]])
+                 a408, lr, wd_txt, cbTxt(d), d["note"]])
 ws = wb.active; ws.title = "总览"
-sheet(ws, ["院校","省份","大区","层次","学院","初试科目","方向","2026复试线","历年线(23/24/25/26)","线差","拟招","一志愿/调剂","报录比","复录比","复试人数","录取人数","录取最高","录取最低","录取平均","口径","AI方向备注","来源","网络热度","综合热度","408均分(N诺)","录取率(N诺)","王道考情","备注"], rows,
-      [16,6,8,12,30,10,22,10,24,8,14,16,8,8,9,9,9,9,9,46,16,12,8,8,9,9,44,50])
+sheet(ws, ["院校","省份","大区","层次","学院","初试科目","方向","2026复试线","历年线(23/24/25/26)","线差","拟招","一志愿/调剂","报录比","复录比","复试人数","录取人数","录取最高","录取最低","录取平均","口径","AI方向备注","来源","网络热度","综合热度","408均分(N诺)","录取率(N诺)","王道考情","408分位(CB)","备注"], rows,
+      [16,6,8,12,30,10,22,10,24,8,14,16,8,8,9,9,9,9,9,46,16,12,8,8,9,9,44,40,50])
 
 # 2 热度榜
 sortedS = sorted(S, key=heatScore, reverse=True)
@@ -136,10 +187,10 @@ for d in S + C:
     if any(d.get(k) is not None for k in ("rec", "adm", "max_s", "min_s", "avg_s")) or d.get("scope"):
         rows.append([d["n"], d["c"], d["t"], exKey(d), na(d["l"]), na(d["plan"]), na(d.get("rec")), na(d.get("adm")),
                      na(d.get("rr")), na(d.get("ratio")), na(d.get("max_s")), na(d.get("min_s")), na(d.get("avg_s")),
-                     d.get("scope") or "—", d.get("verified") or "查无", d.get("srcu") or "—"])
+                     d.get("scope") or "—", d.get("verified") or "查无", cbTxt(d), d.get("srcu") or "—"])
 ws = wb.create_sheet("考情明细")
-sheet(ws, ["院校","学院","层次","初试科目","2026线","拟招","复试人数","录取人数","复录比","报录比","录取最高","录取最低","录取平均","口径","核实状态","来源URL"], rows,
-      [18,30,12,12,9,14,9,9,8,8,9,9,9,60,12,70])
+sheet(ws, ["院校","学院","层次","初试科目","2026线","拟招","复试人数","录取人数","复录比","报录比","录取最高","录取最低","录取平均","口径","核实状态","408分位(CB)","来源URL"], rows,
+      [18,30,12,12,9,14,9,9,8,8,9,9,9,60,12,40,70])
 
 # 4.6 三源核对（新增）
 def flag_cell(d):
@@ -178,36 +229,7 @@ ws = wb.create_sheet("三源核对")
 sheet(ws, ["院校","类别","层次","终极版2026线","N诺专业","N诺院系","N诺初试","N诺408均分","N诺录取率","川渝专业代码","川渝复试人数","川渝录取人数","川渝均分","王道链接数","王道覆盖年份","王道26链接","标注"], rows,
       [16,6,12,9,24,24,12,9,9,12,9,9,9,9,26,60,40])
 
-# 4.7 N诺新增候选校（终极版未收录的双非408校）
-import openpyxl as _ox
-nn_wb = _ox.load_workbook(r"deliverables\20260826-双非408考情_N诺提取\双非408考情_2026提取.xlsx", read_only=True, data_only=True)
-def nrows(ws):
-    return [[c for c in row] for row in ws.iter_rows(values_only=True)]
-nn_rows = collections.defaultdict(list)
-hdr = None
-for r in nrows(nn_wb["2026年408系明细"]):
-    if hdr is None: hdr = r; continue
-    if len(r) < 19 or not r[0]: continue
-    nn_rows[str(r[0]).strip()].append(r)
-nn_wb.close()
-
-def pick(rows):
-    def score(r):
-        maj, subj = str(r[3] or ""), str(r[4] or "").strip()
-        s = 0
-        if "人工智能" in maj: s += 300
-        elif "智能科学" in maj or "智能技术" in maj: s += 250
-        elif "电子信息" in maj: s += 200
-        elif "计算机" in maj: s += 150
-        elif "软件" in maj: s += 100
-        if subj in ("英二数二408", "推测408"): s += 80
-        elif subj == "英一数一408": s -= 40
-        if isinstance(r[9], (int, float)): s += 20
-        if isinstance(r[5], (int, float)): s += 10
-        if isinstance(r[6], (int, float)): s += min(r[6], 800) / 100.0
-        return s
-    return max(rows, key=score)
-
+# 4.7 N诺新增候选校（S 中 src=="N诺" 的候选池行，用其内嵌 nn 字段导出）
 def fnum(v):
     if not isinstance(v, (int, float)) or isinstance(v, bool): return None
     x = float(v)
@@ -219,22 +241,24 @@ def flag_big(rc, ad):
     if ad is not None and ad > 250: f.append("录取人数待核")
     return "（" + "；".join(f) + "）" if f else ""
 
-zc = set(d["n"] for d in S + C)
 cand = []
-for name, rows in nn_rows.items():
-    if name in zc: continue
-    r = pick(rows)
-    maj, subj = str(r[3] or ""), str(r[4] or "").strip()
-    note = []
-    note.append("✅22408兼容" if subj in ("英二数二408", "推测408") else "⚠️非22408(" + subj + ")")
+for d in S:
+    nn_ = d.get("nn")
+    if d.get("src") != "N诺" or not nn_:
+        continue
+    maj, subj = str(nn_.get("maj") or ""), str(nn_.get("subj") or "").strip()
+    note = ["✅22408兼容" if subj in ("英二数二408", "推测408") else "⚠️非22408(" + subj + ")"]
     if "人工智能" in maj: note.append("含AI")
     elif "电子信息" in maj: note.append("含电子信息")
-    lr = fnum(r[15])
-    rc = fnum(r[6]); ad = fnum(r[13])
-    cand.append([name, r[1], r[2], maj, subj, fnum(r[5]), rc, fnum(r[7]), fnum(r[8]), fnum(r[9]),
-                 fnum(r[10]), fnum(r[11]), fnum(r[12]), ad, fnum(r[14]),
-                 ("—" if lr is None else str(round(lr * 100)) + "%"), fnum(r[17]),
-                 "；".join(note) + flag_big(rc, ad)])
+    lr = nn_.get("lr")
+    cand.append([d["n"], d["p"], nn_.get("dept"), maj, subj,
+                 fnum(nn_.get("line")), fnum(nn_.get("rc")), fnum(nn_.get("adj")),
+                 fnum(nn_.get("tot")), fnum(nn_.get("a408")), fnum(nn_.get("pol")),
+                 fnum(nn_.get("eng")), fnum(nn_.get("math")), fnum(nn_.get("ad")),
+                 fnum(nn_.get("adavg")),
+                 ("—" if lr is None else str(round(lr * 100)) + "%"),
+                 fnum(nn_.get("br")),
+                 "；".join(note) + flag_big(fnum(nn_.get("rc")), fnum(nn_.get("ad")))])
 cand.sort(key=lambda x: (x[4] in ("英二数二408", "推测408"), "含AI" in x[17], x[15] if isinstance(x[15], str) else "0"), reverse=True)
 ws = wb.create_sheet("N诺新增候选校")
 sheet(ws, ["院校","省份","院系","专业","初试","复试线","复试人数","调剂人数","复试总分均分","408均分","政治均分","英语均分","数学均分","录取人数","录取均分","录取率","报录比(N诺=复试/录取)","备注"], cand,

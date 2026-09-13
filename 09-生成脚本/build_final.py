@@ -2,7 +2,7 @@
 """
 408 考研终极版生成脚本
 综合三份资料：
-  1. trae 川渝 408 院校对比（E:\\some work\\川渝408.xlsx）
+  1. trae 川渝 408 院校对比（本仓库 03-川渝408/川渝408.xlsx）
   2. 我的全国双非 085410 数据（全国408_双非院校_完整版_20260813.xlsx）
   3. 豆包 408 全套资料（Downloads 的 .md）
 产出：终极 HTML（带导航）+ 终极 xlsx
@@ -71,7 +71,7 @@ for title, _ in parts:
 # ---------------------------------------------------------------------------
 # 二、读取 trae 川渝 xlsx
 # ---------------------------------------------------------------------------
-TRAE = glob.glob(r"E:\some work\川渝408.xlsx")[0]
+TRAE = glob.glob("03-川渝408/川渝408.xlsx")[0]  # 需仓库根目录运行
 trae_wb = openpyxl.load_workbook(TRAE, data_only=True)
 trae_sheets = []
 for ws in trae_wb.worksheets:

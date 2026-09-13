@@ -13,7 +13,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-OUT_DIR = r"E:\some work\408考研资料"
+OUT_DIR = r"<OUTPUT_DIR> 8考研资料"  # 运行前改为你的实际输出目录（脱敏占位）
 XLSX = os.path.join(OUT_DIR, "085410_22408_择校与规划_20260820.xlsx")
 HTML = os.path.join(OUT_DIR, "085410_22408_择校与规划_20260820.html")
 MD = os.path.join(OUT_DIR, "085410_22408_择校与规划_20260820.md")
@@ -412,9 +412,9 @@ timeline = [
 source_headers = ["数据项", "来源", "链接/路径", "获取日期", "备注"]
 source_widths = [22, 30, 44, 12, 36]
 sources = [
-    ("院校总览·全国", "<DIR>·408考研终极版_院校数据_20260813.xlsx", "<MATERIAL_DIR>", "2026-08-13", "含全国双非总览/川渝深度"),
-    ("院校总览·085410双非", "全国408_085410双非热度版_20260812.xlsx", "同上", "2026-08-12", "085410专项"),
-    ("院校总览·川渝", "川渝408.xlsx (trae)", "E:\\some work\\川渝408.xlsx", "2026-07-30", "川渝9维度对比"),
+    ("院校总览·全国", "02-院校数据/全国408_085410双非热度版_20260820.xlsx（早期 20260813 代已删，见 git 历史）", "本仓库", "2026-08-20", "含全国双非总览/川渝深度"),
+    ("院校总览·085410双非", "同上（085410 专项列）", "同上", "2026-08-20", "085410专项"),
+    ("院校总览·川渝", "川渝408.xlsx", "本仓库 03-川渝408/", "2026-07-30", "川渝9维度对比"),
     ("上海大学085410(两个学院)", "上海大学研究生院招生目录+复试线", "https://gmis.shu.edu.cn/ZSJZ/SS/2026/ShowMajor.php-ID=963.htm", "2026-08-17", "计科院305/9人；未来技术学院334/78人"),
     ("郑州大学085410", "郑大计智学院复试细则+育路教育", "https://www7.zzu.edu.cn/csai/info/1147/3965.htm", "2026-08-17", "线335，复试含数据库笔试+上机"),
     ("暨南大学085410", "启航/新东方/kaoyana", "https://jixun.iqihang.com/zixun/fenshuxian/2026749830.html", "2026-08-17", "线331，复试比例1:2"),
@@ -455,7 +455,7 @@ sources = [
     ("西南大学2027改408", "西南大学AI学院公告+新东方", "https://ai.swu.edu.cn/info/1102/4019.htm", "2026-08-17", "085400→085410+408"),
     ("2027改考汇总", "新东方", "https://mtoutiao.xdf.cn/kaoyan/202607/15296166.html", "2026-08-17", "含南信大反向改考"),
     ("导师·各校", "各校教师主页(链接见导师Sheet)", "见导师研究方向Sheet", "2026-08-17", "批量收集49位"),
-    ("GitHub笔记", "GitHub clone(本地化)", "E:\\some work\\408考研资料\\GitHub笔记", "2026-08-20", "4个仓库已下载，随项目迁至E盘"),
+    ("GitHub笔记", "GitHub clone(本地化)", "见 docs/408公开资源导航.md（笔记仓库自行克隆）", "2026-08-20", "4个公开仓库，不随库分发"),
     ("2027初试时间", "西藏考试院/新东方/offcn", "https://m.koolearn.com/kaoyan/20260222/1925882.html", "2026-08-17", "预计12/19-20"),
 ]
 
@@ -630,7 +630,7 @@ a { color: #2563eb; word-break: break-all; }
 <summary>① 现状盘点</summary>
 <div class="sub">已有资料 & 你的进度 vs 缺口</div>
 <div class="grid2">
-  <div class="card"><b>已有资料</b><br><DIR>《408考研终极版》、全国085410双非热度版、Trae川渝408深度表、GitHub 4个笔记仓库（已下载到本地）。</div>
+  <div class="card"><b>已有资料</b><br>本仓库《408考研终极版》、全国085410双非热度版、川渝408深度表；408 笔记仓库见 docs/408公开资源导航.md 自行克隆。</div>
   <div class="card"><b>已完成</b><br>计算机组成原理 ✅、操作系统第2章、高数80%。</div>
   <div class="card"><b>缺口(按优先级)</b><br>①数据结构(45分·地基) ②OS第3章起 ③计网(25分) ④高数20%+线代 ⑤英二 ⑥政治。</div>
   <div class="card"><b>时间</b><br>8/17 → 12/19 约18周，每天8-10小时；数据结构必须最先补。</div>

@@ -9,7 +9,7 @@ from openpyxl import load_workbook
 WS = r"<SOURCE_DIR>"
 ZB = os.path.join(WS, r"06_终极版输出\全国408_085410双非热度版_终极版_20260826.xlsx")
 WD = os.path.join(WS, r"deliverables\20260825-王道考情链接总表\王道考情链接总表_20260825.xlsx")
-KQ = r"E:\some work\_归档\202608_408中间数据\kaoqing_20260821.json"
+KQ = r"<ARCHIVE_DIR>\202608_408中间数据\kaoqing_20260821.json"  # 脱敏占位：维护机归档路径，库内无此文件
 OUTDIR = os.path.join(WS, r"deliverables\20260903-考研院校数据库AI版")
 SCH = os.path.join(OUTDIR, "data", "schools")
 
