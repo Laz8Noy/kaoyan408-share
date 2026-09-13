@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="description" content="408 观测站：用可交互的实验，理解地址转换、Cache、流水线、TCP 滑动窗口、Dijkstra 与 AVL。">
+  <title>408 观测站 · 让知识在眼前发生</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23e66b46'/%3E%3Cpath d='M10 26V14h20v12M10 20h20M20 10v20' stroke='white' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="readability.css">
+</head>
+<body>
+  <a class="skip-link" href="#experiment">跳转到实验</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#memory" aria-label="408 观测站首页"><span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M7 9h18v14H7zM7 16h18M16 5v22" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="3.5" fill="currentColor"/></svg></span><span>408 观测站<small>THE CONCEPT OBSERVATORY</small></span></a>
+    <div class="sidebar-caption">少一点死记，<br>多一点<span>看见。</span></div>
+    <div class="nav-overline"><span>探索知识</span><span id="nav-count">14</span></div>
+    <nav id="lab-nav" aria-label="知识点导航"></nav>
+    <div class="sidebar-bottom">
+      <div class="progress-label"><span><span class="tiny-dot"></span> 我的探索记录</span><b id="progress-count">0 / 14</b></div>
+      <div class="progress-track"><span id="progress-fill"></span></div>
+      <p>理解不是记住答案，<br>而是看懂它如何发生。</p>
+      <button class="text-button" id="clear-progress" type="button">重置学习记录 <span>↗</span></button>
+    </div>
+    <div class="sidebar-footer">专为考研 408 的好奇心而造 <span>© 2026</span></div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="menu-toggle" aria-label="打开知识点导航" aria-expanded="false"></button>
+      <div class="breadcrumb">学习空间 <span>/</span> <b>交互实验室</b></div>
+      <div class="topbar-actions"><span class="local-status"><span></span> 进度保存在本机</span><button class="keyboard-button" id="help-button" type="button"><span>⌘</span> 快捷键</button></div>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy"><div class="eyebrow"><span></span> ABSTRACT CONCEPTS, MADE TANGIBLE</div><h1 id="hero-title">让知识，<em>在眼前发生。</em></h1><p>拨动参数，追踪过程。把书本里最抽象的一页，变成亲手看懂的那一刻。</p><div class="hero-tags"><span>为理解而设计</span><i></i><span>可暂停 · 可回溯 · 可验证</span></div></div>
+        <div class="hero-aside" aria-hidden="true"><svg class="orbit-art" viewBox="0 0 180 130" fill="none"><ellipse cx="92" cy="63" rx="67" ry="26" transform="rotate(-28 92 63)" stroke="#b8c4bf"/><ellipse cx="92" cy="63" rx="67" ry="26" transform="rotate(30 92 63)" stroke="#c8cdc8"/><ellipse cx="92" cy="63" rx="26" ry="53" stroke="#d5d6ce"/><path d="M20 108h145M92 8v111" stroke="#deded4" stroke-dasharray="3 5"/><circle cx="92" cy="63" r="17" fill="#e66b46"/><circle cx="92" cy="63" r="7" fill="#f7b095"/><circle cx="40" cy="90" r="5" fill="#3c7771"/><circle cx="144" cy="39" r="4" fill="#f6f5f1" stroke="#e66b46" stroke-width="2"/><path d="M151 94h10m-5-5v10" stroke="#919e97"/></svg><div class="hero-stats"><div><b id="hero-lab-count">14</b><span>精选交互实验</span></div><i></i><div><b>04</b><span>408 核心学科</span></div></div></div>
+      </section>
+      <section class="explore-strip" aria-label="按学科筛选"><div class="filter-list" id="subject-filters"></div><span class="strip-caption">不求面面俱到，只为真正看懂 <span>↙</span></span></section>
+      <section class="experiment" id="experiment" aria-labelledby="lab-title" tabindex="-1">
+        <div class="experiment-heading"><div><div class="lab-kicker" id="lab-kicker"></div><h2 id="lab-title"></h2><p id="lab-question"></p></div><div class="heading-actions"><span class="interactive-badge"><span></span> LIVE LAB</span><button class="icon-button" id="focus-button" title="专注模式" aria-label="切换专注模式" aria-pressed="false"></button></div></div>
+        <div class="learning-path" aria-label="本实验的观察路径"><div><span>01 · 先看</span><strong id="guide-first"></strong></div><i></i><div><span>02 · 再动手</span><strong id="guide-second"></strong></div><i></i><div><span>03 · 最后验证</span><strong id="guide-third"></strong></div></div>
+        <div class="workspace-grid">
+          <div class="lab-panel">
+            <div class="canvas-topline"><div><span class="live-dot"></span><span id="canvas-label">地址转换模拟器</span></div><div class="canvas-tools"><span class="canvas-version" id="canvas-version"></span><button id="zoom-button" type="button" aria-label="放大当前图解">放大图解 ↗</button></div></div>
+            <div class="parameter-bar" id="parameter-bar"></div>
+            <div class="visual-stage" id="visual-stage" role="img" aria-label="当前实验的可视化状态"></div>
+            <div class="stage-legend" id="stage-legend"></div>
+            <div class="transport"><div class="transport-main"><button class="play-button" id="play-button" type="button"></button><button class="step-button" id="prev-button" type="button" title="上一步（←）" aria-label="上一步"></button><button class="step-button" id="next-button" type="button" title="下一步（→）" aria-label="下一步"></button><button class="step-button reset-button" id="reset-button" type="button" title="重新开始（R）" aria-label="重新开始"></button><div class="transport-divider"></div><select id="speed-select" aria-label="播放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><span class="frame-counter" id="frame-counter"></span></div><input id="timeline" class="timeline" type="range" min="0" max="5" value="0" aria-label="实验进度"></div>
+          </div>
+          <aside class="insight-panel"><div class="insight-top"><span class="insight-icon" id="insight-icon"></span><span>此刻，发生了什么</span><span class="step-pill" id="step-pill"></span></div><div id="step-explanation" aria-live="polite"></div><div class="principle-box"><div class="section-mini-title">抓住这个关键</div><div id="principle-content"></div></div><div class="observation-note"><div class="section-mini-title">观察提示</div><p id="observation-note"></p></div></aside>
+        </div>
+        <div class="under-lab"><div class="takeaway"><span class="takeaway-symbol">↳</span><div><span class="section-mini-title">从动画回到考题</span><p id="exam-note"></p></div></div><div class="lab-shortcuts"><kbd>Space</kbd> 播放 / 暂停 <span>·</span> <kbd>←</kbd><kbd>→</kbd> 单步推演</div></div>
+        <div class="concept-deep-dive"><article class="analogy-card"><span class="deep-number">A</span><div><h3>把它想成</h3><p id="analogy-text"></p></div></article><article class="mistake-card"><span class="deep-number">!</span><div><h3>最容易看错</h3><p id="mistake-text"></p></div></article><article class="transfer-card"><span class="deep-number">→</span><div><h3>学会后你能</h3><p id="transfer-text"></p></div></article></div>
+      </section>
+      <section class="more-section" aria-labelledby="more-title"><div class="section-heading"><div><span class="section-mini-title">KEEP YOUR CURIOSITY</span><h3 id="more-title">下一个，想看懂什么？</h3></div><span id="result-count">14 个值得亲手探索的瞬间</span></div><div class="lab-cards" id="lab-cards"></div><div class="empty-state" id="empty-state" hidden>这个学科的实验正在上方展开。试试调整参数，看看过程如何变化。</div></section>
+      <footer class="page-footer"><span>408 观测站 <i>/</i> 把“知道”变成“理解”</span><span>教学简化模型 · 不替代教材与真题</span><button class="text-button" id="back-top">回到顶部 ↑</button></footer>
+    </main>
+  </div>
+  <div class="menu-overlay" id="menu-overlay"></div>
+  <dialog id="help-dialog"><button class="dialog-close icon-button" id="close-help" aria-label="关闭快捷键说明">×</button><div class="eyebrow">A LITTLE HELP</div><h2>让探索更顺手</h2><p>先选情境，再单步推演。理解转折点，比看完动画更重要。</p><dl class="shortcut-list"><div><dt>播放 / 暂停</dt><dd><kbd>Space</kbd></dd></div><div><dt>前进 / 后退一步</dt><dd><kbd>←</kbd> <kbd>→</kbd></dd></div><div><dt>重置当前实验</dt><dd><kbd>R</kbd></dd></div><div><dt>关闭弹窗 / 退出专注</dt><dd><kbd>Esc</kbd></dd></div></dl><div class="dialog-note">仅在未操作输入框或按钮时生效。开启系统“减少动态效果”时，页面会自动减少动画。学习记录仅保存在当前浏览器。</div></dialog>
+  <button class="zoom-close" id="zoom-close" type="button" aria-label="退出放大图解">退出放大 ×</button>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="models.js"></script>
+  <script src="renderers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
