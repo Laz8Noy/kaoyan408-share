@@ -13,6 +13,7 @@
 ├── schema/school.schema.json 数据 JSON Schema（可程序校验）
 ├── data/
 │   ├── meta.json             总索引（每校文件名/单位数/类别/冲突数）
+│   ├── school_browser.json   派生索引：供「院校数据浏览器」页列表用（勿手改，重跑 09-生成脚本/build_school_browser_data.py 再生成）
 │   ├── schools/*.json        每校一个 JSON（UTF-8，主实体）
 │   ├── conflicts_registry.json 跨校已知冲突/警告登记
 │   └── wangdao_links_all.json  王道考情微信链接总表（按省平铺，487 校 2019-2026）
@@ -21,6 +22,8 @@
     ├── validate_db.py        校验+统计报告
     └── example_query.py      读取示例
 ```
+
+本目录另有 **`院校数据浏览器.html`**：面向人的可视化浏览页（总表筛选排序 + 点开懒加载各校原始 JSON，含 `10-录取分数统计` 的分位数），线上入口见根 README「在线访问④」。
 
 ## 二、读取路径（AI 建议）
 
