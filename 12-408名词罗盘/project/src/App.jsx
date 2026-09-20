@@ -147,14 +147,6 @@ export default function App() {
               思维导图
             </button>
           </div>
-          <a
-            className="link-src"
-            href={encodeURI(`${import.meta.env.BASE_URL}sources/${book.file}`)}
-            target="_blank"
-            rel="noreferrer"
-          >
-            《{book.name}》原典 ↗
-          </a>
         </header>
 
         {view === 'terms' ? (

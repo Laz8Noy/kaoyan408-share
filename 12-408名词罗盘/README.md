@@ -8,7 +8,7 @@ reactbits 风格的 408 术语图鉴：四本《专业名词手册》+ 融合思
 👉 [https://laz8noy.github.io/kaoyan408-share/12-408名词罗盘/](https://laz8noy.github.io/kaoyan408-share/12-408%E5%90%8D%E8%AF%8D%E7%BD%97%E7%9B%98/)
 
 - `index.html` + `assets/`：构建产物，GitHub Pages 直接服务（相对路径，子目录可用）
-- `sources/`：四本名词手册 + 思维导图的原始 PDF（页面里"查看原手册"指向这里，浏览器可在线读）
+- `sources/`：四科融合思维导图 PDF（书柜页右上"四科融合思维导图 ↗"指向它，浏览器可在线读）；四本名词手册 PDF 留在目录里作存档，页面已不再提供入口
 - `sounds/`：轮盘音效
 - `project/`：**完整源码**（Vite + React 18）
 
