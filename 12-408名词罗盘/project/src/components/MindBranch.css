@@ -1,0 +1,230 @@
+/* MindBranch —— 层级直列 + 无框焦点大标题（移动/淡出/模糊沿用轮盘机制） */
+.mind-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.mb-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 16px 22px 12px;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--sc) 6%, transparent), transparent);
+}
+
+.mb-crumb {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--mist);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.mb-subject {
+  font-weight: 700;
+  color: var(--sc);
+  letter-spacing: 0.03em;
+}
+
+.mb-sep {
+  margin-left: 4px;
+}
+
+.mb-progress {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--faint);
+  white-space: nowrap;
+}
+
+/* 舞台：行绝对定位于垂直中心，rAF 写 transform */
+.mw-stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  cursor: ns-resize;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  outline-offset: -2px;
+}
+
+.mw-stage:focus-visible {
+  outline: 2px solid var(--accent-a);
+  outline-offset: -2px;
+}
+
+.mw-stage::before,
+.mw-stage::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 22%;
+  z-index: 200;
+  pointer-events: none;
+}
+
+.mw-stage::before {
+  top: 0;
+  background: linear-gradient(180deg, var(--bg) 2%, transparent);
+}
+
+.mw-stage::after {
+  bottom: 0;
+  background: linear-gradient(0deg, var(--bg) 2%, transparent);
+}
+
+/* ---------- 行：默认无框，纯文字 ---------- */
+.mw-row {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 2px 22px 2px 28px;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  will-change: transform, opacity, filter;
+  color: var(--mist);
+  font-weight: 500;
+  transition: color 0.25s ease;
+}
+
+/* 层级引导线：虚线落在"上一级"的缩进位置 */
+.mw-row[style*='--gx']::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--gx);
+  border-left: 1px dashed color-mix(in srgb, var(--sc) 26%, transparent);
+  pointer-events: none;
+}
+
+.mb-dot {
+  flex: none;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--sc) 60%, var(--faint));
+  transform: translateY(-2px);
+  transition: width 0.25s ease, height 0.25s ease, background 0.25s ease;
+}
+
+.mb-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mb-kind {
+  margin-left: auto;
+  flex: none;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--faint);
+  padding-right: 2px;
+}
+
+/* 层级字重递进 */
+.mw-row.is-chapter {
+  font-weight: 700;
+  color: color-mix(in srgb, var(--ink) 82%, var(--mist));
+}
+
+.mw-row.is-section {
+  font-weight: 600;
+  color: color-mix(in srgb, var(--ink) 62%, var(--mist));
+}
+
+.mw-row.is-part {
+  font-weight: 800;
+}
+
+.mw-row.is-part .mb-dot {
+  width: 7px;
+  height: 7px;
+  background: var(--sc);
+}
+
+.mw-row.is-chapter .mb-dot {
+  width: 6px;
+  height: 6px;
+  background: color-mix(in srgb, var(--sc) 85%, var(--faint));
+}
+
+.mw-row:hover:not(.is-focus) {
+  color: var(--ink);
+}
+
+.mw-row:hover:not(.is-focus) .mb-dot {
+  background: var(--sc);
+}
+
+/* ---------- 焦点行：无框巨型标题 + 紧挂其上的直接上级 ---------- */
+.mw-row.is-focus {
+  color: var(--ink);
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.002em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-overflow: clip;
+}
+
+.focus-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+/* 直接上级：小字挂在标题正上方，可点跳回 */
+.focus-parent {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: color-mix(in srgb, var(--sc) 80%, var(--mist));
+  cursor: pointer;
+  line-height: 1.3;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0.9;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.focus-parent:hover {
+  opacity: 1;
+  color: var(--sc);
+}
+
+.mw-row.is-focus .mb-text {
+  overflow: visible;
+  text-shadow: 0 0 40px color-mix(in srgb, var(--sc) 22%, transparent);
+}
