@@ -13,7 +13,7 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 HTML = "04-终极版择校/全国408_085410双非热度版_终极版_20260826.html"
 OUT = "04-终极版择校/全国408_085410双非热度版_终极版_20260826.xlsx"
-MAIN_MD = "01-择校与规划/085410_22408_择校与规划_20260820.md"
+MAIN_MD = "04-终极版择校/2027改考动态_20260820.md"  # 「2027改考动态」Sheet 的数据源；原 01-择校与规划 主文档已改造为导师信息
 
 s = io.open(HTML, encoding="utf-8").read()
 

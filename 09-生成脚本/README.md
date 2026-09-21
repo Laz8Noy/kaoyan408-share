@@ -5,14 +5,14 @@
 
 | 目标 | 脚本 | 状态 |
 |---|---|---|
-| 择校与规划文档（主 md/html/xlsx） | `build_plan_v2.py` | 数据内联可跑（OUT_DIR 需改）；⚠ 会连带产出已退役的"每日学习打卡表" |
+| ~~择校与规划文档（主 md/html/xlsx）~~ | `build_plan_v2.py` | **已退役**：产出的三件套对应已删除的 `01-择校与规划`（2026-09-22 改造为只含导师信息的 `01-导师与规划`），保留仅供追溯历史数据；⚠ 会连带产出已退役的"每日学习打卡表" |
 | 早期全国双非 408 完整版（20260813） | `build_408.py` | **已过时**：真实输入已换代（现仅剩 20260820 基底），重跑得时点错配件；对应 4 个 20260813 产物已于 09-13 从库中删除 |
 | 早期院校大全+备考指南（20260813） | `build_final.py` | **已断**：依赖已删的 `md_conv.py` 与库外素材，仅存档参考 |
 | 终极版 20260824 html | `build_final_html.py` | 改路径可跑（历史代） |
 | 终极版 20260824 xlsx | `make_final_xlsx.py` | 改路径可跑（历史代，10 Sheet） |
 | 双非热度版 20260820 xlsx 反导出 | `make_shuangfei_xlsx.py` | 从 html 内嵌数组反导，改路径可跑 |
 | 终极版 20260826 html（三源整合） | `integrate_three_sources.py` | **⛔ 禁直接重跑**（见下方警告） |
-| 终极版 20260826 xlsx（与 html 同步） | `make_final_xlsx_v2.py` | 解析 20260826 html 的 S/C/K/O/SRCS + `var CB`（408 分位列）导出 12+Sheet；改数据/复核后重跑本脚本可保持 xlsx 与网页一致 |
+| 终极版 20260826 xlsx（与 html 同步） | `make_final_xlsx_v2.py` | 解析 20260826 html 的 S/C/K/O/SRCS + `var CB`（408 分位列）导出 12+Sheet；「2027改考动态」Sheet 读 `04-终极版择校/2027改考动态_20260820.md`（原 01 主文档已改造）；改数据/复核后重跑本脚本可保持 xlsx 与网页一致 |
 | 09-03 复核修正打进两主网页 | `apply_verify_0903_pages.py` | 幂等补丁（已执行于 04 html 与 08 推荐器） |
 | CodeBrick 分位数注入两主网页 | `inject_codebrick_pages.py` | 幂等补丁（检测 `var CB=` 已注入则跳过） |
 | 浏览器页派生索引 | `build_school_browser_data.py` | 幂等；改动 06/10 两库 JSON 或本目录 xlsx 明细后重跑 |
