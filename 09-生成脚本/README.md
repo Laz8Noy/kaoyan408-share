@@ -1,6 +1,6 @@
 # 09 生成脚本
 
-> 本目录收录数据表的生成器与主页补丁脚本（共 11 个），一次性调试/排查脚本早已清理（可从 git 历史找回）。
+> 本目录收录数据表的生成器与主页补丁脚本（**共 14 个 .py**，2026-09-22 实测计数）。一次性调试/排查脚本早已清理（可从 git 历史找回）。
 > 多数脚本内的本机路径被脱敏为 `<SOURCE_DIR>` 等占位符，运行前需按实际路径调整；不要把 API Key 写进仓库。
 
 | 目标 | 脚本 | 状态 |
@@ -16,6 +16,7 @@
 | 09-03 复核修正打进两主网页 | `apply_verify_0903_pages.py` | 幂等补丁（已执行于 04 html 与 08 推荐器） |
 | CodeBrick 分位数注入两主网页 | `inject_codebrick_pages.py` | 幂等补丁（检测 `var CB=` 已注入则跳过） |
 | 浏览器页派生索引 | `build_school_browser_data.py` | 幂等；改动 06/10 两库 JSON 或本目录 xlsx 明细后重跑 |
+| **统一院校库（学校 → 专业 → 各类数据）** | `build_unified_db.py` | **现役**：读 06 择校库 + 10 分数库 + `yz408_catalog`（招生单位代码）+ 01 导师 + 04 改考动态 → 生成 `06/data/kaoyan408.db`（SQLite，15 表 + 2 视图）、`crosswalk.json`、`schools_unified.json`；纯 stdlib、跨平台；**任一源变更后重跑** |
 | **发布门禁（一条命令全流程自检）** | `publish_check.py` | 改完任何数据后跑：自动再生索引 + 懒加载路径/`xlsx↔网页`同步/死链与本机路径泄露/py 编译 六项检查，全 PASS 再 commit+push |
 
 ## 发布工作流（数据更新 → 上线）
@@ -25,6 +26,24 @@
 3. 门禁：`python 09-生成脚本/publish_check.py`（exit 0 才继续）
 4. 提交推送（origin 为 SSH）：`git -c core.sshCommand="C:/Windows/System32/OpenSSH/ssh.exe" push origin main`
 5. 线上验证：curl 改动 URL 比对 200/字节一致（Pages 约 1~2 分钟生效）
+
+## 🚫 已断链脚本（输入已不存在，勿重跑）
+
+2026-09-22 实测：以下脚本引用的输入文件/目录**已不存在**，直接运行必然失败或产出错误结果。保留仅供追溯。
+
+| 脚本 | 断链原因 |
+|---|---|
+| `build_score_matrix.py` | **`ext/` 目录整体缺失**（`ext/408-offerings.json`、`ext/awarer/universities.json`）→ 产出的 `score_matrix.json`(984 KB) / `dai408_scores.json`(630 KB) / `yz408_catalog.json`(473 KB) **永久不可再生** |
+| `build_final_html.py` | 引用 `<SOURCE_DIR>\01_择校与规划\…`（目录已改名 `01-导师与规划`、原主文档已删除） |
+| `make_final_xlsx.py` | 同上；且含未替换的 `<SOURCE_DIR>` 占位符 |
+| `build_final.py` | 依赖已删的 `md_conv.py` 与库外素材 |
+| `build_408.py` | 依赖 2026-09-13 已删的 20260813 一代产物 |
+| `integrate_three_sources.py` | 引用旧目录 `06_终极版输出\`；**且重跑会覆盖 09-06 人工扩容** |
+| `make_shuangfei_xlsx.py` | 引用库外 `<MATERIAL_DIR>\02_院校数据_原有\…` |
+| `06-院校数据库/tools/validate_db.py` | `SCH` 指向库外脱敏路径，运行必 0 文件 |
+| `06-院校数据库/tools/etl_build_db.py` | 引用库外归档路径；**且重跑会回退 09-03 复核与 09-13 补全** |
+
+> 门禁 `publish_check.py` 的 C1~C6 **不检查脚本输入是否存在**，上述断链它无感知（见 `docs/口径.md` 与整理方案 §6.1）。
 
 ## ⚠️ 重要警告
 

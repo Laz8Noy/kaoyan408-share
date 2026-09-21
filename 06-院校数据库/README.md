@@ -1,7 +1,7 @@
 # 考研院校数据库 · AI 版 v1（kaoyan-db-ai）
 
 > 版本：2026-09-03 · 数据时点：2026 年（改考/分数线等以 2026 届为主，含 2027 改考动态）
-> **2026-09-13 全量补全（v2）**：177 校 JSON 就地更新——考情明细校数 26→108、units 复试线 78→176 行、录取最高/最低/均分从个位数校跃至 129/130/145 行、拟招 32→133、历年线 66→192、2027 改考 17→76 校、sources 60→171；conflicts 合计 31（登记 12 条跨校项不变）；新增 `data/todo_patch_list.json`（剩余 568 项待补清单）与 `docs/补全报告_20260913.md`、`docs/db_report_final.txt`；维护脚本 `tools/regen_todo.py`、`tools/update_meta.py` 入库。09-03 人工复核值（天工大 332 等）已确认无回退。
+> **2026-09-13 全量补全（v2）**：177 校 JSON 就地更新——考情明细校数 26→108、units 复试线 78→176 行、录取最高/最低/均分从个位数校跃至 129/130/145 行、拟招 32→133、历年线 66→192、2027 改考 17→76 校、sources 60→171；conflicts 合计 31（登记 12 条跨校项不变）；新增 `data/todo_patch_list.json`（剩余 568 项待补清单，实测核对无误）与 `docs/补全报告_20260913.md`、`docs/db_report_final.txt`；维护脚本 `tools/regen_todo.py`、`tools/update_meta.py` 入库。09-03 人工复核值（天工大 332 等）已确认无回退。
 > **v1 已复核（2026-09-03）**：对 `conflicts_registry.json` 全部 12 条跨校争议点逐条对照官方复试线公告/招生目录/2027 改考预公告复核并修正；受影响学校 `schools/*.json` 与 `data/meta.json` 已同步更新（脚本：`tools/update_verify_0903.py`）。关键更正：天工大线 264→**332**、南信大改考 408→**811**（非817）、成信工 2027 改数二**已官宣**、深大全部 **11408**、广工计院 **22408·337**、山科大 **813电路非408** 等。
 > 用途：**面向 AI 消费**的机器可读院校库。所有关键数字均来自既有整理资料并带来源；**已知冲突单独声明**，不得在未核对前当定论用。
 
@@ -17,7 +17,10 @@
 │   ├── school_browser.json   派生索引：供「院校数据浏览器」页列表用（勿手改，重跑 09-生成脚本/build_school_browser_data.py 再生成；已合并 04 xlsx 的 2027改考/导师/N诺/调剂/重点明细）
 │   ├── schools/*.json        每校一个 JSON（UTF-8，主实体）
 │   ├── conflicts_registry.json 跨校已知冲突/警告登记（12 条）
-│   ├── todo_patch_list.json  各校剩余待补字段清单（568 项，tools/regen_todo.py 再生）
+│   ├── crosswalk.json        跨库主键映射（402 校，招生单位代码为主键；由 09-生成脚本/build_unified_db.py 生成）
+│   ├── schools_unified.json  学校×专业 统一视图导出（420 行，同上生成）
+│   ├── kaoyan408.db          ★ 统一院校库（SQLite，学校 → 专业 → 各类数据；同上生成）
+│   ├── todo_patch_list.json  各校剩余待补字段清单（568 项，tools/regen_todo.py 再生；实测 sum(n_missing)=568 ✓）
 │   └── wangdao_links_all.json  王道考情微信链接总表（按省平铺，487 校 2019-2026）
 ├── docs/
 │   ├── 20260903-时间更新点与2027报考时间线.md
@@ -84,7 +87,9 @@ python tools/validate_db.py [output_file]
 | ⑥ 2027 改考 | 科目变更、生效年份、来源 | 76 校 |
 | ⑦ 导师方向 | 导师研究方向摘要（含 AI / 大模型关键词） | 14 校 |
 
-合并后的索引共 **238 所院校**（177 校择校库 ∪ 95 校 CodeBrick ∪ 外部源）。
+合并后的索引共 **238 所院校**（= `score_matrix.json` 的 `stats.nSchools`；177 校择校库 ∪ 95 校成功并入的 CodeBrick ∪ 外部源）。
+
+> ⚠️ **口径提醒**：本页另有 `school_browser.json` 的 **249** 条浏览器索引（= 177 + 72 条库外记录）与统一库的 **402** 所全部学校。三个数字含义不同，引用时务必带限定语。**唯一权威口径见 [`../docs/口径.md`](../docs/口径.md)。**
 
 ### 新增数据文件
 

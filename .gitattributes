@@ -1,0 +1,35 @@
+# 换行与文本处理约定
+#
+# 仓库现状（2026-09-22 实测）：除 07-考情资料/录取名单原始材料/ 下 3 个网页原文快照
+# 含 CRLF 外，全部文本文件在仓库内均以 LF 存储。
+# 这里用 text=auto 让 Git 在提交时统一规范化为 LF（无论贡献者的 core.autocrlf 如何设置），
+# 但不强制工作区换行，避免一次性产生全仓 diff 污染 blame。
+* text=auto
+
+# 原始抓取备份：保持原样，禁止任何转换（网页原文含 CRLF，改动即失真）
+07-考情资料/录取名单原始材料/* -text
+
+# 二进制文件：不做换行/编码转换
+*.xlsx  binary
+*.xls   binary
+*.docx  binary
+*.pdf   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.wav   binary
+*.mp3   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.zip   binary
+*.gz    binary
+*.db    binary
+
+# 语言统计：数据文件不计入代码占比
+*.json  linguist-generated
+*.jsonl linguist-generated
