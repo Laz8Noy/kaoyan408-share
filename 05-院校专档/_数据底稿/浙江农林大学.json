@@ -1,0 +1,393 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "lite",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "浙江农林大学",
+    "school_key": "10341"
+  },
+  "admissions": [
+    {
+      "admit_avg": "336",
+      "admit_avg_note": null,
+      "admit_avg_value": 336,
+      "admit_cnt": "35",
+      "admit_cnt_note": null,
+      "admit_cnt_value": 35,
+      "admit_max": "395",
+      "admit_max_note": null,
+      "admit_max_value": 395,
+      "admit_min": "278",
+      "admit_min_note": null,
+      "admit_min_value": 278,
+      "fill": "一志愿为主",
+      "fill_note": "一志愿为主",
+      "fill_type_code": "F05",
+      "fill_value": null,
+      "heat_comp": null,
+      "heat_net": null,
+      "id": 130,
+      "major_code": "085410",
+      "nn_408avg": null,
+      "nn_rate": null,
+      "offering_id": 130,
+      "plan": "35",
+      "plan_note": null,
+      "plan_value": 35,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "45",
+      "retest_cnt_note": null,
+      "retest_cnt_value": 45,
+      "school_key": "10341",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [
+    {
+      "action": null,
+      "claims": null,
+      "field": "subjectClass(电子信息专硕)",
+      "id": 23,
+      "major_code": "085400",
+      "new_value": "非408(22 DB+程序设计自命题)",
+      "old_value": "推测22408",
+      "reason": "N诺2026表显示电子信息-计算机初试为22、DB+程序设计自命题，非408；仅学硕0812计算机为11408",
+      "refs": "[\"https://noobdream.com/schoolinfo/316/\"]",
+      "school_key": "10341",
+      "scope": "in-school",
+      "status": null
+    }
+  ],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 1,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 4,
+    "score_quantiles": 0,
+    "sources": 2,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 8
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "数学与计算机科学学院",
+      "major_code": "085410",
+      "offering_id": 130,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二+数据库+程序设计自命题"
+    }
+  ],
+  "gaps": [
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：subjectClass(电子信息专硕)（None）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "336",
+      "admit_cnt": "35",
+      "admit_max": "395",
+      "admit_min": "278",
+      "batch": null,
+      "college": "数学与计算机科学学院",
+      "id": 83,
+      "line_value": 271.0,
+      "major_code": "085404",
+      "plan": "35",
+      "program": "085404电子信息-计算机",
+      "retest_cnt": "45",
+      "school_key": "10341",
+      "scope": "⚠️电子信息专硕2026仍DB+程序设计自命题非408；线271，进复试45均325录35均336",
+      "subjects": "非408(22 DB+程序设计)",
+      "tier": "双非",
+      "url": "https://noobdream.com/schoolinfo/316/",
+      "verify": "N诺",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "相关方向",
+      "category": "C-对照",
+      "college": "数学与计算机科学学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "不区分研究方向",
+      "fill_2026": null,
+      "id": 130,
+      "kaoqing_url": null,
+      "line_delta": null,
+      "line_ultimate_2026": null,
+      "major_code": "085410",
+      "major_source": "extracted",
+      "nn_college": "数学与计算机科学学院",
+      "nn_prog": "电子信息-计算机(085404)",
+      "nn_subjects": "英二数二+数据库+程序设计自命题",
+      "nn_url": "https://noobdream.com/schoolinfo/316/",
+      "note": "经N诺schoolinfo/316核对：浙农林电子信息专硕2026仍考数据库+程序设计自命题(非408)，线271录35均336。仅学硕0812计算机11408。不匹配用户408专硕目标；无085410专列",
+      "province": "浙江",
+      "raw": "{\"category\": \"C-对照\", \"province\": \"浙江\", \"region\": \"华东\", \"tier\": \"双非\", \"subjectClass\": \"非408\", \"direction\": \"不区分研究方向\", \"college\": \"数学与计算机科学学院\", \"nnProg\": \"电子信息-计算机(085404)\", \"nnCollege\": \"数学与计算机科学学院\", \"nnSubjects\": \"英二数二+数据库+程序设计自命题\", \"line2026\": \"271\", \"lineDelta\": null, \"linesByYear\": {\"2023\": null, \"2024\": \"275\", \"2025\": \"274\", \"2026\": \"271\"}, \"plan2026\": \"35\", \"fill\": \"一志愿为主\", \"retestCnt\": \"45\", \"admitCnt\": \"35\", \"admitMax\": \"395\", \"admitMin\": \"278\", \"admitAvg\": \"336\", \"scope\": \"⚠️浙江农林电子信息-计算机(085404)2026初试为英二数二+数据库+程序设计(自命题)，非408！N诺2026：线271，进复试45均325【271-395】，单科60/67/91/107；录35均336【278-395】。仅学硕计算机科学与技术0812为11408(2026无一志愿、收28调剂)。官方0854调剂要求初试含408，一志愿仍自命题。无085410专列\", \"aiTag\": \"相关方向\", \"heatNet\": null, \"heatComp\": null, \"nn408avg\": null, \"nnRate\": null, \"note\": \"经N诺schoolinfo/316核对：浙农林电子信息专硕2026仍考数据库+程序设计自命题(非408)，线271录35均336。仅学硕0812计算机11408。不匹配用户408专硕目标；无085410专列\", \"srcLabel\": \"官方+第三方\", \"src\": [\"N诺\"], \"nnUrl\": \"https://noobdream.com/schoolinfo/316/\"}",
+      "region": "华东",
+      "remark": null,
+      "school_key": "10341",
+      "scope": "⚠️浙江农林电子信息-计算机(085404)2026初试为英二数二+数据库+程序设计(自命题)，非408！N诺2026：线271，进复试45均325【271-395】，单科60/67/91/107；录35均336【278-395】。仅学硕计算机科学与技术0812为11408(2026无一志愿、收28调剂)。官方0854调剂要求初试含408，一志愿仍自命题。无085410专列",
+      "scope2": null,
+      "src": "[\"N诺\"]",
+      "src_label": "官方+第三方",
+      "subject_claim_2026": null,
+      "subject_class": "非408",
+      "subject_status": null,
+      "tier": "双非",
+      "wd_count": null,
+      "wd_url_26": null,
+      "wd_years": null
+    }
+  ],
+  "school": {
+    "category_guess": "N诺新增候选(未入终极版S/C)",
+    "cb_id": null,
+    "code": "10341",
+    "code_verified": 1,
+    "cross_refs": null,
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-浙江农林大学.json",
+    "name": "浙江农林大学",
+    "nn_candidates": "[{\"school\": \"浙江农林大学\", \"province\": \"浙江\", \"college\": \"数学与计算机科学学院\", \"program\": \"计算机科学与技术(学硕)\", \"subjects\": \"11408\", \"line\": null, \"retestCnt\": \"0\", \"adjCnt\": \"28\", \"avgTotal\": null, \"avg408\": null, \"avgPol\": null, \"avgEng\": null, \"avgMath\": null, \"admitCnt\": \"0\", \"admitAvg\": null, \"rate\": null, \"ratioNN\": null, \"note\": \"⚠️学硕0812计算机11408(2026无一志愿收28调剂)；专硕电子信息仍自命题非408；已标注\"}]",
+    "note": null,
+    "province": "浙江",
+    "province_raw": "浙江",
+    "region": "华东",
+    "school_key": "10341",
+    "tier": "双非"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 389,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 130,
+      "raw_value": "271",
+      "school_key": "10341",
+      "value": 271.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 390,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 273,
+      "offering_id": 130,
+      "raw_value": "275",
+      "school_key": "10341",
+      "value": 275.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 391,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 260,
+      "offering_id": 130,
+      "raw_value": "274",
+      "school_key": "10341",
+      "value": 274.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 392,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 130,
+      "raw_value": "271",
+      "school_key": "10341",
+      "value": 271.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 187,
+      "label": "浙江农林大学2026复试细则(官方)",
+      "school_key": "10341",
+      "tier": "T1-官方",
+      "url": "https://yjszs.zafu.edu.cn/info/1022/3231.htm"
+    },
+    {
+      "id": 188,
+      "label": "N诺浙江农林大学考情",
+      "school_key": "10341",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/316/"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2027",
+      "id": 50,
+      "major_code": "085400",
+      "note": "2026电子信息专硕一志愿仍DB+程序设计自命题(非408)，但官方要求0854调剂生业务课须408；2027是否全面改408待正式目录",
+      "school_key": "10341",
+      "school_name": "浙江农林大学",
+      "scope": "电子信息专硕",
+      "source": "官方复试细则(0854调剂须408)+N诺schoolinfo/316",
+      "subject_new": "可能改408(待官方目录确认)",
+      "subject_old": "22 DB+程序设计自命题",
+      "tier": "双非"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 705,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666213328&idx=7&sn=fe23d81da79704616f59695086f4aa87&scene=21&poc_token=HIWmCmmjl_vAMoaYa3YWPrZmmJsiGTCiN_cGqQ4H",
+      "year_label": "23考情"
+    },
+    {
+      "id": 706,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233796&idx=4&sn=478710624218026dead8b0139993eff7&scene=21&poc_token=HIKmCmmjCkDWbS6uQqRM7XXcFH_n-yi3YhzbKFjW",
+      "year_label": "24考情"
+    },
+    {
+      "id": 707,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s/1WmaqRlGTPMmovIxK7OpeA",
+      "year_label": "25考情"
+    },
+    {
+      "id": 708,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s/SOiL2LSGpu_hg4K9hM8nBQ",
+      "year_label": "26考情"
+    },
+    {
+      "id": 2688,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666213328&idx=7&sn=fe23d81da79704616f59695086f4aa87&scene=21&poc_token=HIWmCmmjl_vAMoaYa3YWPrZmmJsiGTCiN_cGqQ4H",
+      "year_label": "23考情"
+    },
+    {
+      "id": 2689,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233796&idx=4&sn=478710624218026dead8b0139993eff7&scene=21&poc_token=HIKmCmmjCkDWbS6uQqRM7XXcFH_n-yi3YhzbKFjW",
+      "year_label": "24考情"
+    },
+    {
+      "id": 2690,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s/1WmaqRlGTPMmovIxK7OpeA",
+      "year_label": "25考情"
+    },
+    {
+      "id": 2691,
+      "school_key": "10341",
+      "url": "https://mp.weixin.qq.com/s/SOiL2LSGpu_hg4K9hM8nBQ",
+      "year_label": "26考情"
+    }
+  ]
+}

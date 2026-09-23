@@ -1,0 +1,438 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "lite",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "浙江理工大学",
+    "school_key": "10338"
+  },
+  "admissions": [
+    {
+      "admit_avg": "354",
+      "admit_avg_note": null,
+      "admit_avg_value": 354,
+      "admit_cnt": "22",
+      "admit_cnt_note": null,
+      "admit_cnt_value": 22,
+      "admit_max": "390",
+      "admit_max_note": null,
+      "admit_max_value": 390,
+      "admit_min": "312",
+      "admit_min_note": null,
+      "admit_min_value": 312,
+      "fill": "一志愿为主",
+      "fill_note": "一志愿为主",
+      "fill_type_code": "F05",
+      "fill_value": null,
+      "heat_comp": "61",
+      "heat_net": "74",
+      "id": 136,
+      "major_code": "085410",
+      "nn_408avg": "97",
+      "nn_rate": "约70%",
+      "offering_id": 136,
+      "plan": "22",
+      "plan_note": null,
+      "plan_value": 22,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "31一志愿+1专项",
+      "retest_cnt_note": "合计:31一志愿+1专项",
+      "retest_cnt_value": 32,
+      "school_key": "10338",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 0,
+    "dai408_records": 0,
+    "exam_subjects": 2,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 3,
+    "score_quantiles": 0,
+    "sources": 3,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 1,
+    "updates_2027": 1,
+    "wangdao_links": 16
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "计算机科学与技术学院（人工智能学院）",
+      "major_code": "085410",
+      "offering_id": 136,
+      "src": "lib06",
+      "subject_key": "kaoqing_subjects",
+      "subject_label": "22408"
+    },
+    {
+      "college": "计算机科学与技术学院（人工智能学院）",
+      "major_code": "085410",
+      "offering_id": 136,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二408"
+    }
+  ],
+  "gaps": [
+    "CS 学科排名（cs_rank）未获取",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "354",
+      "admit_cnt": "22",
+      "admit_max": "390",
+      "admit_min": "312",
+      "batch": null,
+      "college": "计算机科学与技术学院(人工智能学院)",
+      "id": 87,
+      "line_value": 335.0,
+      "major_code": "085410",
+      "plan": "22",
+      "program": null,
+      "retest_cnt": "31一志愿+1专项",
+      "school_key": "10338",
+      "scope": "085410人工智能22408线335，一志愿拟录取均354【312-390】；408均分97",
+      "subjects": "22408",
+      "tier": "双非",
+      "url": "https://noobdream.com/schoolinfo/123/",
+      "verify": "第三方(N诺)+官方(复试线335)",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "✅真AI方向",
+      "category": "S-主体",
+      "college": "计算机科学与技术学院（人工智能学院）",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "电子信息-人工智能(085410)",
+      "fill_2026": null,
+      "id": 136,
+      "kaoqing_url": "https://noobdream.com/schoolinfo/123/",
+      "line_delta": "+45",
+      "line_ultimate_2026": "335",
+      "major_code": "085410",
+      "major_source": "extracted",
+      "nn_college": "计算机科学与技术学院(人工智能学院)",
+      "nn_prog": "电子信息-人工智能",
+      "nn_subjects": "英二数二408",
+      "nn_url": null,
+      "note": "官方复试线335(35/53)；N诺:一志愿31+1专项进复试均分352【335-390】，拟录取22人均354【312-390】；408均分97；2026软工学硕891数据结构改408；同院085404计算机技术线338招110人(含联培)",
+      "province": "浙江",
+      "raw": "{\"category\": \"S-主体\", \"province\": \"浙江\", \"region\": \"华东\", \"tier\": \"双非\", \"subjectClass\": \"22408\", \"direction\": \"电子信息-人工智能(085410)\", \"college\": \"计算机科学与技术学院（人工智能学院）\", \"line2026\": \"335\", \"lineDelta\": \"+45\", \"linesByYear\": {\"2023\": null, \"2024\": null, \"2025\": \"290\", \"2026\": \"335\"}, \"plan2026\": \"22\", \"fill\": \"一志愿为主\", \"retestCnt\": \"31一志愿+1专项\", \"admitCnt\": \"22\", \"admitMax\": \"390\", \"admitMin\": \"312\", \"admitAvg\": \"354\", \"scope\": \"085410人工智能(计算机学院/AI学院)2026线335(35/53)；22408；一志愿进复试31+1专项，进复试均分352【335-390】；拟录取22人均354【312-390】；408单科均分97\", \"aiTag\": \"✅真AI方向\", \"heatNet\": \"74\", \"heatComp\": \"61\", \"nn408avg\": \"97\", \"nnRate\": \"约70%\", \"note\": \"官方复试线335(35/53)；N诺:一志愿31+1专项进复试均分352【335-390】，拟录取22人均354【312-390】；408均分97；2026软工学硕891数据结构改408；同院085404计算机技术线338招110人(含联培)\", \"srcLabel\": \"官方+第三方\", \"src\": [\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"N诺\", \"官方(复试线/细则)\"], \"lineUltimate2026\": \"335\", \"nnProg\": \"电子信息-人工智能\", \"nnCollege\": \"计算机科学与技术学院(人工智能学院)\", \"nnSubjects\": \"英二数二408\", \"wdCount\": \"8\", \"wdYears\": \"19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情\", \"wdUrl26\": \"https://mp.weixin.qq.com/s/y9NJE1wMngbAxGllkWhbMw\", \"kaoqingUrl\": \"https://noobdream.com/schoolinfo/123/\"}",
+      "region": "华东",
+      "remark": null,
+      "school_key": "10338",
+      "scope": "085410人工智能(计算机学院/AI学院)2026线335(35/53)；22408；一志愿进复试31+1专项，进复试均分352【335-390】；拟录取22人均354【312-390】；408单科均分97",
+      "scope2": null,
+      "src": "[\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"N诺\", \"官方(复试线/细则)\"]",
+      "src_label": "官方+第三方",
+      "subject_claim_2026": null,
+      "subject_class": "22408",
+      "subject_status": null,
+      "tier": "双非",
+      "wd_count": "8",
+      "wd_url_26": "https://mp.weixin.qq.com/s/y9NJE1wMngbAxGllkWhbMw",
+      "wd_years": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情"
+    }
+  ],
+  "school": {
+    "category_guess": null,
+    "cb_id": null,
+    "code": "10338",
+    "code_verified": 1,
+    "cross_refs": "[{\"name\": \"电子信息-计算机(085404)\", \"subjects\": \"22408\", \"line2026\": \"338\", \"note\": \"招110人(含联培)，线338，名额多于AI\"}]",
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": "{\"院校\": \"浙江理工大学\", \"省份\": \"浙江\", \"大区\": \"华东\", \"层次\": \"双非\", \"学院\": \"计算机科学与技术学院（人工智能学院）\", \"初试科目\": \"22408\", \"方向\": \"不区分研究方向\", \"2026线\": \"335\", \"拟招\": \"22\", \"一志愿/调剂\": \"一志愿为主\", \"AI方向\": \"✅真AI方向\", \"来源\": \"官方\", \"综合热度\": \"61\", \"备注\": \"官方复试线335，单科35/53；N诺拟录取均354\"}",
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-浙江理工大学.json",
+    "name": "浙江理工大学",
+    "nn_candidates": null,
+    "note": "双非，085410人工智能22408线335、拟录取22人均354【312-390】，略高于310档；408均分97。",
+    "province": "浙江",
+    "province_raw": "浙江",
+    "region": "华东",
+    "school_key": "10338",
+    "tier": "双非"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 411,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 136,
+      "raw_value": "335",
+      "school_key": "10338",
+      "value": 335.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 412,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 260,
+      "offering_id": 136,
+      "raw_value": "290",
+      "school_key": "10338",
+      "value": 290.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 413,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 136,
+      "raw_value": "335",
+      "school_key": "10338",
+      "value": 335.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 195,
+      "label": "N诺 浙江理工大学",
+      "school_key": "10338",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/123/"
+    },
+    {
+      "id": 196,
+      "label": "浙江理工大学2026复试线",
+      "school_key": "10338",
+      "tier": "T1-官方",
+      "url": "https://gradschool.zstu.edu.cn/info/1135/8507.htm"
+    },
+    {
+      "id": 197,
+      "label": "浙江理工大学计算机学院2026复试细则(085410计划22)",
+      "school_key": "10338",
+      "tier": "T1-官方",
+      "url": "https://jsjxy.zstu.edu.cn/info/1103/4372.htm"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [
+    {
+      "dept": "计算机学院",
+      "direction": "深度强化学习、多智能体协同、联邦学习、无人机",
+      "id": 48,
+      "major_code": "085410",
+      "name": "侯健",
+      "note": "浙江省高校领军人才",
+      "school_key": "10338",
+      "school_name": "浙江理工大学",
+      "src": "lib07",
+      "title": "副教授/硕导",
+      "url": "https://yjsxt.zstu.edu.cn/open/dsfc/search/F56F7CC7AE473059E0530100007F4C41"
+    }
+  ],
+  "updates_2027": [
+    {
+      "effective_year": "2026",
+      "id": 52,
+      "major_code": "083500",
+      "note": "2026软工学硕改408；085410 AI已22408",
+      "school_key": "10338",
+      "school_name": "浙江理工大学",
+      "scope": "083500软工学硕(891数据结构改408)",
+      "source": "研招网访谈2025-10+N诺",
+      "subject_new": "408",
+      "subject_old": "891数据结构(自命题)",
+      "tier": "双非"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 742,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=7&sn=0f9e8208daa0af630cf6bd10a6dcc81a&scene=21&poc_token=HDSiCmmjha5IjuABY8kr1oKUo6xRDtL1lXZHARbg",
+      "year_label": "19考情"
+    },
+    {
+      "id": 743,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=6&sn=4aec41e5d3bb89765b33d6efd4010910&scene=21&poc_token=HBOiCmmj-3q95VYR8he-cJdDAC-KqUvoGygP6SRX",
+      "year_label": "20考情"
+    },
+    {
+      "id": 744,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=5&sn=0ee5a10506e1a8fe4134c1e2da12a1d2&scene=21&poc_token=HBCiCmmjhnaZ3KysucnkVI2QRgWdFxUfSZADnJ-6",
+      "year_label": "21考情"
+    },
+    {
+      "id": 745,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=4&sn=b145a47366e5946e8114eae108bd72b6&scene=21&poc_token=HPihCmmjPIPO5vIZM9U960D5U2A_ODhNRlTIGYKA",
+      "year_label": "22考情"
+    },
+    {
+      "id": 746,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=3&sn=9c65992dfc8e27adc23422c4e56f3b70&scene=21&poc_token=HPWhCmmj9OrYWqws2AYPdeBW6nj5FUywtNucZFCa",
+      "year_label": "23考情"
+    },
+    {
+      "id": 747,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=2&sn=57d01066f7e3a11be4c6d46d3d3d6988&scene=21&poc_token=HOahCmmjiwu17L-5JW41eV6vZsQSUmhPBSw8N3PF",
+      "year_label": "24考情"
+    },
+    {
+      "id": 748,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s/7lRZpVU5YD7wKr-J9su-qw",
+      "year_label": "25考情"
+    },
+    {
+      "id": 749,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s/y9NJE1wMngbAxGllkWhbMw",
+      "year_label": "26考情"
+    },
+    {
+      "id": 2725,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=7&sn=0f9e8208daa0af630cf6bd10a6dcc81a&scene=21&poc_token=HDSiCmmjha5IjuABY8kr1oKUo6xRDtL1lXZHARbg",
+      "year_label": "19考情"
+    },
+    {
+      "id": 2726,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=6&sn=4aec41e5d3bb89765b33d6efd4010910&scene=21&poc_token=HBOiCmmj-3q95VYR8he-cJdDAC-KqUvoGygP6SRX",
+      "year_label": "20考情"
+    },
+    {
+      "id": 2727,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=5&sn=0ee5a10506e1a8fe4134c1e2da12a1d2&scene=21&poc_token=HBCiCmmjhnaZ3KysucnkVI2QRgWdFxUfSZADnJ-6",
+      "year_label": "21考情"
+    },
+    {
+      "id": 2728,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=4&sn=b145a47366e5946e8114eae108bd72b6&scene=21&poc_token=HPihCmmjPIPO5vIZM9U960D5U2A_ODhNRlTIGYKA",
+      "year_label": "22考情"
+    },
+    {
+      "id": 2729,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=3&sn=9c65992dfc8e27adc23422c4e56f3b70&scene=21&poc_token=HPWhCmmj9OrYWqws2AYPdeBW6nj5FUywtNucZFCa",
+      "year_label": "23考情"
+    },
+    {
+      "id": 2730,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233049&idx=2&sn=57d01066f7e3a11be4c6d46d3d3d6988&scene=21&poc_token=HOahCmmjiwu17L-5JW41eV6vZsQSUmhPBSw8N3PF",
+      "year_label": "24考情"
+    },
+    {
+      "id": 2731,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s/7lRZpVU5YD7wKr-J9su-qw",
+      "year_label": "25考情"
+    },
+    {
+      "id": 2732,
+      "school_key": "10338",
+      "url": "https://mp.weixin.qq.com/s/y9NJE1wMngbAxGllkWhbMw",
+      "year_label": "26考情"
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "full",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "湖北大学",
+    "school_key": "10512"
+  },
+  "admissions": [
+    {
+      "admit_avg": "319",
+      "admit_avg_note": null,
+      "admit_avg_value": 319,
+      "admit_cnt": "50+1专项",
+      "admit_cnt_note": "合计:50+1专项",
+      "admit_cnt_value": 51,
+      "admit_max": "400",
+      "admit_max_note": null,
+      "admit_max_value": 400,
+      "admit_min": "278",
+      "admit_min_note": null,
+      "admit_min_value": 278,
+      "fill": "一志愿为主",
+      "fill_note": "一志愿为主",
+      "fill_type_code": "F05",
+      "fill_value": null,
+      "heat_comp": null,
+      "heat_net": null,
+      "id": 145,
+      "major_code": "085410",
+      "nn_408avg": null,
+      "nn_rate": "约85%",
+      "offering_id": 145,
+      "plan": "50+1专项",
+      "plan_note": "合计:50+1专项",
+      "plan_value": 51,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "60",
+      "retest_cnt_note": null,
+      "retest_cnt_value": 60,
+      "school_key": "10512",
+      "year": 2026
+    },
+    {
+      "admit_avg": "302",
+      "admit_avg_note": null,
+      "admit_avg_value": 302,
+      "admit_cnt": "96+85调剂",
+      "admit_cnt_note": "合计:96+85调剂",
+      "admit_cnt_value": 181,
+      "admit_max": "370",
+      "admit_max_note": null,
+      "admit_max_value": 370,
+      "admit_min": "266",
+      "admit_min_note": null,
+      "admit_min_value": 266,
+      "fill": "调剂为主",
+      "fill_note": "调剂为主",
+      "fill_type_code": "F21",
+      "fill_value": null,
+      "heat_comp": null,
+      "heat_net": null,
+      "id": 146,
+      "major_code": "085404",
+      "nn_408avg": "80",
+      "nn_rate": null,
+      "offering_id": 146,
+      "plan": "约181(96+85调剂)",
+      "plan_note": "约181(96+85调剂)",
+      "plan_value": 181,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "97+307调剂",
+      "retest_cnt_note": "合计:97+307调剂",
+      "retest_cnt_value": 404,
+      "school_key": "10512",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [
+    {
+      "action": null,
+      "claims": null,
+      "field": "subjectClass(085410)",
+      "id": 24,
+      "major_code": "085410",
+      "new_value": "非408(22DS自命题)",
+      "old_value": "22408",
+      "reason": "N诺2026表显示人工智能学院085410人工智能初试为22DS(英二数二+811数据结构)，非408；'改408'仅适用计算机学院085404，勿混淆",
+      "refs": "[\"https://noobdream.com/schoolinfo/330/\"]",
+      "school_key": "10512",
+      "scope": "in-school",
+      "status": null
+    }
+  ],
+  "counts": {
+    "admissions": 2,
+    "catalog": 0,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 6,
+    "kaoqing": 2,
+    "offerings": 2,
+    "score_bands": 0,
+    "score_lines": 9,
+    "score_quantiles": 0,
+    "sources": 2,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 16
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "人工智能学院",
+      "major_code": "085410",
+      "offering_id": 145,
+      "src": "lib06",
+      "subject_key": "kaoqing_subjects",
+      "subject_label": "非408(22DS)"
+    },
+    {
+      "college": "人工智能学院",
+      "major_code": "085410",
+      "offering_id": 145,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二+811数据结构自命题"
+    },
+    {
+      "college": "计算机学院",
+      "major_code": "085404",
+      "offering_id": 146,
+      "src": "lib06",
+      "subject_key": "kaoqing_subjects",
+      "subject_label": "22408"
+    },
+    {
+      "college": "计算机学院",
+      "major_code": "085404",
+      "offering_id": 146,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二408"
+    },
+    {
+      "college": "计算机学院",
+      "major_code": "085404",
+      "offering_id": 146,
+      "src": "lib06",
+      "subject_key": "update_subject_new",
+      "subject_label": "408"
+    },
+    {
+      "college": "计算机学院",
+      "major_code": "085404",
+      "offering_id": 146,
+      "src": "lib06",
+      "subject_key": "update_subject_old",
+      "subject_label": "811数据结构"
+    }
+  ],
+  "gaps": [
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：subjectClass(085410)（None）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "319",
+      "admit_cnt": "51",
+      "admit_max": "400",
+      "admit_min": "278",
+      "batch": null,
+      "college": "人工智能学院",
+      "id": 92,
+      "line_value": 275.0,
+      "major_code": "085410",
+      "plan": "51",
+      "program": "085410人工智能",
+      "retest_cnt": "60",
+      "school_key": "10512",
+      "scope": "⚠️085410人工智能2026仍考811数据结构自命题(非408)；线275进复试60均316【275-400】录51均319",
+      "subjects": "非408(22DS)",
+      "tier": "双非",
+      "url": "https://noobdream.com/schoolinfo/330/",
+      "verify": "N诺",
+      "year": 2026
+    },
+    {
+      "admit_avg": "302",
+      "admit_cnt": "96+85调剂",
+      "admit_max": "370",
+      "admit_min": "266",
+      "batch": null,
+      "college": "计算机学院",
+      "id": 93,
+      "line_value": 264.0,
+      "major_code": "085404",
+      "plan": "约181",
+      "program": "085404电子信息",
+      "retest_cnt": "97+307调剂",
+      "school_key": "10512",
+      "scope": "085404(非085410)2026首年改408；线264=国家线，进复试97+307调剂均302【266-370】录96+85",
+      "subjects": "22408",
+      "tier": "双非",
+      "url": "https://noobdream.com/schoolinfo/330/",
+      "verify": "N诺",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "✅真AI方向",
+      "category": "S-主体",
+      "college": "人工智能学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "不区分研究方向",
+      "fill_2026": null,
+      "id": 145,
+      "kaoqing_url": null,
+      "line_delta": null,
+      "line_ultimate_2026": null,
+      "major_code": "085410",
+      "major_source": "extracted",
+      "nn_college": "人工智能学院",
+      "nn_prog": "电子信息-人工智能(085410)",
+      "nn_subjects": "英二数二+811数据结构自命题",
+      "nn_url": "https://noobdream.com/schoolinfo/330/",
+      "note": "经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)",
+      "province": "湖北",
+      "raw": "{\"category\": \"S-主体\", \"province\": \"湖北\", \"region\": \"华中\", \"tier\": \"双非\", \"subjectClass\": \"非408\", \"direction\": \"不区分研究方向\", \"college\": \"人工智能学院\", \"nnProg\": \"电子信息-人工智能(085410)\", \"nnCollege\": \"人工智能学院\", \"nnSubjects\": \"英二数二+811数据结构自命题\", \"line2026\": \"275\", \"lineDelta\": null, \"linesByYear\": {\"2023\": null, \"2024\": \"285\", \"2025\": \"273\", \"2026\": \"275\"}, \"plan2026\": \"50+1专项\", \"fill\": \"一志愿为主\", \"retestCnt\": \"60\", \"admitCnt\": \"50+1专项\", \"admitMax\": \"400\", \"admitMin\": \"278\", \"admitAvg\": \"319\", \"scope\": \"⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410\", \"aiTag\": \"✅真AI方向\", \"heatNet\": null, \"heatComp\": null, \"nn408avg\": null, \"nnRate\": \"约85%\", \"note\": \"经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)\", \"srcLabel\": \"第三方\", \"src\": [\"N诺\"], \"nnUrl\": \"https://noobdream.com/schoolinfo/330/\"}",
+      "region": "华中",
+      "remark": null,
+      "school_key": "10512",
+      "scope": "⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410",
+      "scope2": null,
+      "src": "[\"N诺\"]",
+      "src_label": "第三方",
+      "subject_claim_2026": null,
+      "subject_class": "非408",
+      "subject_status": null,
+      "tier": "双非",
+      "wd_count": null,
+      "wd_url_26": null,
+      "wd_years": null
+    },
+    {
+      "ai_tag": "相关方向",
+      "category": "C-对照",
+      "college": "计算机学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "不区分研究方向",
+      "fill_2026": null,
+      "id": 146,
+      "kaoqing_url": null,
+      "line_delta": "=A区国家线",
+      "line_ultimate_2026": null,
+      "major_code": "085404",
+      "major_source": "extracted",
+      "nn_college": "计算机学院",
+      "nn_prog": "电子信息(085404)",
+      "nn_subjects": "英二数二408",
+      "nn_url": "https://noobdream.com/schoolinfo/330/",
+      "note": "计算机学院085404电子信息2026首年改408，国家线264，一志愿仅97人但有307调剂进复试，录96+85，求稳/调剂友好；但非085410　[2026-09-23 修正] 2026 年复试线 264→275（T1 官方 2026 复试线表：085400 电子信息·01 人工智能方向 = 275（该校无 085410 代码））　[2026-09-23 修正] 2026 复试线 264→275（T1 官方 2026 复试线表：085400 电子信息·01 人工智能方向 = 275（该校无 085410 代码））",
+      "province": "湖北",
+      "raw": "{\"category\": \"C-对照\", \"province\": \"湖北\", \"region\": \"华中\", \"tier\": \"双非\", \"subjectClass\": \"22408\", \"direction\": \"不区分研究方向\", \"college\": \"计算机学院\", \"nnProg\": \"电子信息(085404)\", \"nnCollege\": \"计算机学院\", \"nnSubjects\": \"英二数二408\", \"line2026\": \"275\", \"lineDelta\": \"=A区国家线\", \"linesByYear\": {\"2023\": \"325\", \"2024\": \"310\", \"2025\": \"295\", \"2026\": \"275\"}, \"plan2026\": \"约181(96+85调剂)\", \"fill\": \"调剂为主\", \"retestCnt\": \"97+307调剂\", \"admitCnt\": \"96+85调剂\", \"admitMax\": \"370\", \"admitMin\": \"266\", \"admitAvg\": \"302\", \"scope\": \"相关(085404非085410)。计算机学院电子信息2026首年改408(22408)，线NC(=A区国家线264)，因首年改考报考遇冷，进复试97+307调剂均302【266-370】，录96+85调剂。大量调剂名额\", \"aiTag\": \"相关方向\", \"heatNet\": null, \"heatComp\": null, \"nn408avg\": \"80\", \"nnRate\": null, \"note\": \"计算机学院085404电子信息2026首年改408，国家线264，一志愿仅97人但有307调剂进复试，录96+85，求稳/调剂友好；但非085410　[2026-09-23 修正] 2026 年复试线 264→275（T1 官方 2026 复试线表：085400 电子信息·01 人工智能方向 = 275（该校无 085410 代码））　[2026-09-23 修正] 2026 复试线 264→275（T1 官方 2026 复试线表：085400 电子信息·01 人工智能方向 = 275（该校无 085410 代码））\", \"srcLabel\": \"第三方\", \"src\": [\"N诺\"], \"nnUrl\": \"https://noobdream.com/schoolinfo/330/\"}",
+      "region": "华中",
+      "remark": null,
+      "school_key": "10512",
+      "scope": "相关(085404非085410)。计算机学院电子信息2026首年改408(22408)，线NC(=A区国家线264)，因首年改考报考遇冷，进复试97+307调剂均302【266-370】，录96+85调剂。大量调剂名额",
+      "scope2": null,
+      "src": "[\"N诺\"]",
+      "src_label": "第三方",
+      "subject_claim_2026": null,
+      "subject_class": "22408",
+      "subject_status": null,
+      "tier": "双非",
+      "wd_count": null,
+      "wd_url_26": null,
+      "wd_years": null
+    }
+  ],
+  "school": {
+    "category_guess": "N诺新增候选(未入终极版S/C)",
+    "cb_id": null,
+    "code": "10512",
+    "code_verified": 1,
+    "cross_refs": null,
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-湖北大学.json",
+    "name": "湖北大学",
+    "nn_candidates": "[{\"school\": \"湖北大学\", \"province\": \"湖北\", \"college\": \"计算机学院\", \"program\": \"电子信息(085404)\", \"subjects\": \"英二数二408\", \"line\": \"264\", \"retestCnt\": \"97\", \"adjCnt\": \"307\", \"avgTotal\": \"302\", \"avg408\": \"80\", \"avgPol\": \"56\", \"avgEng\": \"65\", \"avgMath\": \"102\", \"admitCnt\": \"181\", \"admitAvg\": \"302\", \"rate\": \"100%\", \"ratioNN\": \"1\", \"note\": \"✅22408兼容；已提升为units；注意085410人工智能学院仍22DS自命题非408\"}]",
+    "note": null,
+    "province": "湖北",
+    "province_raw": "湖北",
+    "region": "华中",
+    "school_key": "10512",
+    "tier": "双非"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 435,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 145,
+      "raw_value": "275",
+      "school_key": "10512",
+      "value": 275.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 436,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 273,
+      "offering_id": 145,
+      "raw_value": "285",
+      "school_key": "10512",
+      "value": 285.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 437,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 260,
+      "offering_id": 145,
+      "raw_value": "273",
+      "school_key": "10512",
+      "value": 273.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 438,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 145,
+      "raw_value": "275",
+      "school_key": "10512",
+      "value": 275.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "院线/专业线",
+      "id": 439,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 264,
+      "offering_id": 146,
+      "raw_value": "275",
+      "school_key": "10512",
+      "value": 275.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 440,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 273,
+      "offering_id": 146,
+      "raw_value": "325",
+      "school_key": "10512",
+      "value": 325.0,
+      "value_kind": null,
+      "year": 2023,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 441,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 273,
+      "offering_id": 146,
+      "raw_value": "310",
+      "school_key": "10512",
+      "value": 310.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 442,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 260,
+      "offering_id": 146,
+      "raw_value": "295",
+      "school_key": "10512",
+      "value": 295.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 443,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 264,
+      "offering_id": 146,
+      "raw_value": "275",
+      "school_key": "10512",
+      "value": 275.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 208,
+      "label": "N诺湖北大学考情",
+      "school_key": "10512",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/330/"
+    },
+    {
+      "id": 209,
+      "label": "湖北大学2026硕士招生专业目录(官方)",
+      "school_key": "10512",
+      "tier": "T1-官方",
+      "url": "https://yz.hubu.edu.cn/info/1011/3299.htm"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2026",
+      "id": 54,
+      "major_code": "085404",
+      "note": "2026计算机学院085404电子信息改408；⚠️人工智能学院085410人工智能2026仍考22DS(811数据结构自命题)，未改408，需关注2027是否跟进",
+      "school_key": "10512",
+      "school_name": "湖北大学",
+      "scope": "计算机学院085404电子信息",
+      "source": "湖北大学研招网2026目录 + N诺schoolinfo/330",
+      "subject_new": "408",
+      "subject_old": "811数据结构",
+      "tier": "双非"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 782,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=6&sn=b5987f3b03478052a117b7b228a1c8af&scene=21&poc_token=HGIQDGmjn6dIh6PWPwnSc4PzrQUDOAj0T6eA0uiX",
+      "year_label": "19考情分析"
+    },
+    {
+      "id": 783,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=5&sn=db7d3b1ec3bbe901621a1d88c8000144&scene=21&poc_token=HF4QDGmjYRNlIj-vvEOT5Ct3rXifgMsIpjS5NZ0q",
+      "year_label": "20考情分析"
+    },
+    {
+      "id": 784,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=4&sn=fecf2240f5832a927fa3cb8de364dfb7&scene=21&poc_token=HFsQDGmj_I6v_EvcAUAnu7IQmDchS7YXCkbEibdU",
+      "year_label": "21考情分析"
+    },
+    {
+      "id": 785,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=3&sn=314157573a595d6b3cf1c5c72d3f9367&scene=21&poc_token=HFgQDGmjOVZ0Ea9lzvgwA32jZu_QH-AkPZq8MhbY",
+      "year_label": "22考情分析"
+    },
+    {
+      "id": 786,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=2&sn=5e1e10922f0586cb64094a80420b54b4&scene=21&poc_token=HFYQDGmjv0ol-Hg9P9_dbhSJw2jAcmOitEeymp7x",
+      "year_label": "23考情分析"
+    },
+    {
+      "id": 787,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=1&sn=a8d3a567ab56d23f51b52040e93af0cf&scene=21&poc_token=HFQQDGmjrno554XSG5-38kojGKvXUQ932m-PszvF",
+      "year_label": "24考情分析"
+    },
+    {
+      "id": 788,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s/iTHJknyvdkwzxt5GZxwcYQ",
+      "year_label": "25考情分析"
+    },
+    {
+      "id": 789,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s/oTFhOtsCflH6ZZ6G9RCw1g",
+      "year_label": "26考情分析"
+    },
+    {
+      "id": 2873,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=6&sn=b5987f3b03478052a117b7b228a1c8af&scene=21&poc_token=HGIQDGmjn6dIh6PWPwnSc4PzrQUDOAj0T6eA0uiX",
+      "year_label": "19考情分析"
+    },
+    {
+      "id": 2874,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=5&sn=db7d3b1ec3bbe901621a1d88c8000144&scene=21&poc_token=HF4QDGmjYRNlIj-vvEOT5Ct3rXifgMsIpjS5NZ0q",
+      "year_label": "20考情分析"
+    },
+    {
+      "id": 2875,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=4&sn=fecf2240f5832a927fa3cb8de364dfb7&scene=21&poc_token=HFsQDGmj_I6v_EvcAUAnu7IQmDchS7YXCkbEibdU",
+      "year_label": "21考情分析"
+    },
+    {
+      "id": 2876,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=3&sn=314157573a595d6b3cf1c5c72d3f9367&scene=21&poc_token=HFgQDGmjOVZ0Ea9lzvgwA32jZu_QH-AkPZq8MhbY",
+      "year_label": "22考情分析"
+    },
+    {
+      "id": 2877,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=2&sn=5e1e10922f0586cb64094a80420b54b4&scene=21&poc_token=HFYQDGmjv0ol-Hg9P9_dbhSJw2jAcmOitEeymp7x",
+      "year_label": "23考情分析"
+    },
+    {
+      "id": 2878,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=1&sn=a8d3a567ab56d23f51b52040e93af0cf&scene=21&poc_token=HFQQDGmjrno554XSG5-38kojGKvXUQ932m-PszvF",
+      "year_label": "24考情分析"
+    },
+    {
+      "id": 2879,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s/iTHJknyvdkwzxt5GZxwcYQ",
+      "year_label": "25考情分析"
+    },
+    {
+      "id": 2880,
+      "school_key": "10512",
+      "url": "https://mp.weixin.qq.com/s/oTFhOtsCflH6ZZ6G9RCw1g",
+      "year_label": "26考情分析"
+    }
+  ]
+}

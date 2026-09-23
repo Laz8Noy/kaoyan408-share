@@ -1,0 +1,400 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "lite",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "佛山大学",
+    "school_key": "11847"
+  },
+  "admissions": [
+    {
+      "admit_avg": "305",
+      "admit_avg_note": null,
+      "admit_avg_value": 305,
+      "admit_cnt": "59一志愿+18调剂",
+      "admit_cnt_note": "合计:59一志愿+18调剂",
+      "admit_cnt_value": 77,
+      "admit_max": "376",
+      "admit_max_note": null,
+      "admit_max_value": 376,
+      "admit_min": "265",
+      "admit_min_note": null,
+      "admit_min_value": 265,
+      "fill": "一志愿为主",
+      "fill_note": "一志愿为主",
+      "fill_type_code": "F05",
+      "fill_value": null,
+      "heat_comp": null,
+      "heat_net": null,
+      "id": 25,
+      "major_code": "085405",
+      "nn_408avg": "88",
+      "nn_rate": "90%",
+      "offering_id": 25,
+      "plan": "59+18调剂(目录0854电子信息66含49推免)",
+      "plan_note": "59+18调剂(目录0854电子信息66含49推免)",
+      "plan_value": 59,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "64一志愿+62调剂",
+      "retest_cnt_note": "合计:64一志愿+62调剂",
+      "retest_cnt_value": 126,
+      "school_key": "11847",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [
+    {
+      "action": null,
+      "claims": null,
+      "field": "subjectClass",
+      "id": 3,
+      "major_code": null,
+      "new_value": null,
+      "old_value": null,
+      "reason": null,
+      "refs": "null",
+      "school_key": "11847",
+      "scope": "in-school",
+      "status": null
+    }
+  ],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 3,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 5,
+    "score_quantiles": 0,
+    "sources": 2,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 4
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "计算机与人工智能学院",
+      "major_code": "085405",
+      "offering_id": 25,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二408"
+    },
+    {
+      "college": "计算机与人工智能学院",
+      "major_code": "085405",
+      "offering_id": 25,
+      "src": "lib06",
+      "subject_key": "update_subject_new",
+      "subject_label": "408"
+    },
+    {
+      "college": "计算机与人工智能学院",
+      "major_code": "085405",
+      "offering_id": 25,
+      "src": "lib06",
+      "subject_key": "update_subject_old",
+      "subject_label": "软件工程(22408已408)"
+    }
+  ],
+  "gaps": [
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：subjectClass（None）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "305",
+      "admit_cnt": "59一志愿+18调剂",
+      "admit_max": "376",
+      "admit_min": "265",
+      "batch": null,
+      "college": "计算机与人工智能学院",
+      "id": 17,
+      "line_value": 264.0,
+      "major_code": "085410",
+      "plan": "59+18调剂",
+      "program": null,
+      "retest_cnt": "64一志愿+62调剂",
+      "school_key": "11847",
+      "scope": "软件工程22408一志愿拟录取均305【265-376】；线264；408均分88",
+      "subjects": "22408",
+      "tier": "双非",
+      "url": "https://noobdream.com/schoolinfo/312/",
+      "verify": "第三方(N诺)+官方(目录PDF)",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "⚠️软件工程(非085410)",
+      "category": "S-主体",
+      "college": "计算机与人工智能学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "电子信息-软件工程(085405)",
+      "fill_2026": null,
+      "id": 25,
+      "kaoqing_url": "https://noobdream.com/schoolinfo/312/",
+      "line_delta": "+4",
+      "line_ultimate_2026": null,
+      "major_code": "085405",
+      "major_source": "extracted",
+      "nn_college": "计算机与人工智能学院",
+      "nn_prog": "电子信息-软件工程",
+      "nn_subjects": "英二数二408",
+      "nn_url": null,
+      "note": "408项目为085405软件工程(22408)，一志愿为主59人+18调剂，拟录取均305【265-376】；注意：085410人工智能2025考808自动控制原理(非408)，2026目录未见408的085410方向；另招学硕智能科学与技术(英一数二408)",
+      "province": "广东",
+      "raw": "{\"category\": \"S-主体\", \"province\": \"广东\", \"region\": \"华南\", \"tier\": \"双非\", \"subjectClass\": \"22408\", \"direction\": \"电子信息-软件工程(085405)\", \"college\": \"计算机与人工智能学院\", \"line2026\": \"264\", \"lineDelta\": \"+4\", \"linesByYear\": {\"2023\": \"273\", \"2024\": \"273\", \"2025\": \"260\", \"2026\": \"264\"}, \"plan2026\": \"59+18调剂(目录0854电子信息66含49推免)\", \"fill\": \"一志愿为主\", \"retestCnt\": \"64一志愿+62调剂\", \"admitCnt\": \"59一志愿+18调剂\", \"admitMax\": \"376\", \"admitMin\": \"265\", \"admitAvg\": \"305\", \"scope\": \"085405软件工程(计算机与人工智能学院)2026线264/35/53；一志愿进复试64人，进复试均分318【296-355】；一志愿拟录取均305【265-376】；408单科均分88\", \"aiTag\": \"⚠️软件工程(非085410)\", \"heatNet\": null, \"heatComp\": null, \"nn408avg\": \"88\", \"nnRate\": \"90%\", \"note\": \"408项目为085405软件工程(22408)，一志愿为主59人+18调剂，拟录取均305【265-376】；注意：085410人工智能2025考808自动控制原理(非408)，2026目录未见408的085410方向；另招学硕智能科学与技术(英一数二408)\", \"srcLabel\": \"第三方\", \"src\": [\"N诺\", \"官方目录\", \"三源核对\"], \"nnProg\": \"电子信息-软件工程\", \"nnCollege\": \"计算机与人工智能学院\", \"nnSubjects\": \"英二数二408\", \"wdCount\": \"2\", \"wdYears\": \"25考情分析,26考情分析\", \"wdUrl26\": \"https://mp.weixin.qq.com/s/RX4EolAYAfCIElg_WGEdMQ\", \"kaoqingUrl\": \"https://noobdream.com/schoolinfo/312/\"}",
+      "region": "华南",
+      "remark": null,
+      "school_key": "11847",
+      "scope": "085405软件工程(计算机与人工智能学院)2026线264/35/53；一志愿进复试64人，进复试均分318【296-355】；一志愿拟录取均305【265-376】；408单科均分88",
+      "scope2": null,
+      "src": "[\"N诺\", \"官方目录\", \"三源核对\"]",
+      "src_label": "第三方",
+      "subject_claim_2026": null,
+      "subject_class": "22408",
+      "subject_status": null,
+      "tier": "双非",
+      "wd_count": "2",
+      "wd_url_26": "https://mp.weixin.qq.com/s/RX4EolAYAfCIElg_WGEdMQ",
+      "wd_years": "25考情分析,26考情分析"
+    }
+  ],
+  "school": {
+    "category_guess": "N诺新增候选(已提升为主体)",
+    "cb_id": null,
+    "code": "11847",
+    "code_verified": 1,
+    "cross_refs": null,
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-佛山大学.json",
+    "name": "佛山大学",
+    "nn_candidates": null,
+    "note": "408项目为085405软件工程(22408)，非085410；085410人工智能2025考808自动控制原理(非408)，是否2027改408待研招网目录确认。",
+    "province": "广东",
+    "province_raw": "广东",
+    "region": "华南",
+    "school_key": "11847",
+    "tier": "双非"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 67,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085405",
+      "national_line_value": 264,
+      "offering_id": 25,
+      "raw_value": "264",
+      "school_key": "11847",
+      "value": 264.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 68,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085405",
+      "national_line_value": 273,
+      "offering_id": 25,
+      "raw_value": "273",
+      "school_key": "11847",
+      "value": 273.0,
+      "value_kind": null,
+      "year": 2023,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 69,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085405",
+      "national_line_value": 273,
+      "offering_id": 25,
+      "raw_value": "273",
+      "school_key": "11847",
+      "value": 273.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 70,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085405",
+      "national_line_value": 260,
+      "offering_id": 25,
+      "raw_value": "260",
+      "school_key": "11847",
+      "value": 260.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 71,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085405",
+      "national_line_value": 264,
+      "offering_id": 25,
+      "raw_value": "264",
+      "school_key": "11847",
+      "value": 264.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 33,
+      "label": "N诺 佛山大学",
+      "school_key": "11847",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/312/"
+    },
+    {
+      "id": 34,
+      "label": "佛山大学2026招生专业目录",
+      "school_key": "11847",
+      "tier": "T1-官方",
+      "url": "https://www.fosu.edu.cn/yjszs/wp-content/uploads/sites/259/2025/07/佛山大学2026年硕士研究生招生专业目录-2.pdf"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2026",
+      "id": 8,
+      "major_code": "085405",
+      "note": "2026计算机与人工智能学院：软件工程22408、智能科学与技术(英一数二408)；注意085410人工智能2025为808自动控制原理(非408)，2027是否改408待官方目录确认",
+      "school_key": "11847",
+      "school_name": "佛山大学",
+      "scope": "085405软件工程/1405智能科学与技术",
+      "source": "N诺schoolinfo/312+官方2026目录PDF",
+      "subject_new": "408",
+      "subject_old": "软件工程(22408已408)",
+      "tier": "双非"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 129,
+      "school_key": "11847",
+      "url": "https://mp.weixin.qq.com/s/FOAJWv-IxUHtmIkjrJ89bA",
+      "year_label": "25考情分析"
+    },
+    {
+      "id": 130,
+      "school_key": "11847",
+      "url": "https://mp.weixin.qq.com/s/RX4EolAYAfCIElg_WGEdMQ",
+      "year_label": "26考情分析"
+    },
+    {
+      "id": 2061,
+      "school_key": "11847",
+      "url": "https://mp.weixin.qq.com/s/FOAJWv-IxUHtmIkjrJ89bA",
+      "year_label": "25考情分析"
+    },
+    {
+      "id": 2062,
+      "school_key": "11847",
+      "url": "https://mp.weixin.qq.com/s/RX4EolAYAfCIElg_WGEdMQ",
+      "year_label": "26考情分析"
+    }
+  ]
+}

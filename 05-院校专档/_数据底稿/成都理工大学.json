@@ -1,0 +1,817 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "lite",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "成都理工大学",
+    "school_key": "10616"
+  },
+  "admissions": [
+    {
+      "admit_avg": "340",
+      "admit_avg_note": null,
+      "admit_avg_value": 340,
+      "admit_cnt": "30",
+      "admit_cnt_note": null,
+      "admit_cnt_value": 30,
+      "admit_max": "390",
+      "admit_max_note": null,
+      "admit_max_value": 390,
+      "admit_min": "320",
+      "admit_min_note": null,
+      "admit_min_value": 320,
+      "fill": "一志愿为主",
+      "fill_note": "一志愿为主",
+      "fill_type_code": "F05",
+      "fill_value": null,
+      "heat_comp": "50",
+      "heat_net": "68",
+      "id": 98,
+      "major_code": "085410",
+      "nn_408avg": "87",
+      "nn_rate": "70%",
+      "offering_id": 98,
+      "plan": "26",
+      "plan_note": null,
+      "plan_value": 26,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "45",
+      "retest_cnt_note": null,
+      "retest_cnt_value": 45,
+      "school_key": "10616",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 0,
+    "dai408_records": 0,
+    "exam_subjects": 1,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 4,
+    "score_quantiles": 0,
+    "sources": 2,
+    "stats_yoy": 0,
+    "students_sheets": 4,
+    "tutors": 2,
+    "updates_2027": 0,
+    "wangdao_links": 16
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "计算机与网络安全学院",
+      "major_code": "085410",
+      "offering_id": 98,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二408"
+    }
+  ],
+  "gaps": [
+    "2027 改考动态未获取",
+    "CS 学科排名（cs_rank）未获取",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "340",
+      "admit_cnt": "30",
+      "admit_max": "390",
+      "admit_min": "320",
+      "batch": null,
+      "college": "计算机与网络安全学院",
+      "id": 63,
+      "line_value": 308.0,
+      "major_code": null,
+      "plan": null,
+      "program": null,
+      "retest_cnt": "45",
+      "school_key": "10616",
+      "scope": "2026拟招23（不含推免，机构）；官网拟录取页反爬，复试/录取明细查无；复试有C语言机试斩杀线(VS2010)",
+      "subjects": "22408",
+      "tier": "双一流学科",
+      "url": "https://cist.cdut.edu.cn/info/1145/7596.htm",
+      "verify": "机构🔍",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "✅真AI方向",
+      "category": "S-主体",
+      "college": "计算机与网络安全学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": "085410",
+      "cy_retest": null,
+      "direction": "不区分研究方向",
+      "fill_2026": null,
+      "id": 98,
+      "kaoqing_url": "https://cist.cdut.edu.cn/info/1145/7596.htm",
+      "line_delta": "+44",
+      "line_ultimate_2026": "308",
+      "major_code": "085410",
+      "major_source": "inferred",
+      "nn_college": "计算机与网络安全学院（示范性软件学院）",
+      "nn_prog": "电子信息-人工智能",
+      "nn_subjects": "英二数二408",
+      "nn_url": null,
+      "note": "双一流(学科)主体校；复试线308；复试有C语言机试斩杀线；2026 计划26人(较2025的20人+30%)；2026 复试线308(官方)；计网学院",
+      "province": "四川",
+      "raw": "{\"category\": \"S-主体\", \"province\": \"四川\", \"region\": \"西南\", \"tier\": \"双一流学科\", \"subjectClass\": \"22408\", \"direction\": \"不区分研究方向\", \"line2026\": \"308\", \"lineDelta\": \"+44\", \"linesByYear\": {\"2023\": null, \"2024\": \"299\", \"2025\": \"301\", \"2026\": \"308\"}, \"fill\": \"一志愿为主\", \"scope\": \"2026拟招23（不含推免，机构）；官网拟录取页反爬，复试/录取明细查无；复试有C语言机试斩杀线(VS2010)\", \"aiTag\": \"✅真AI方向\", \"heatNet\": \"68\", \"heatComp\": \"50\", \"nn408avg\": \"87\", \"nnRate\": \"70%\", \"note\": \"双一流(学科)主体校；复试线308；复试有C语言机试斩杀线；2026 计划26人(较2025的20人+30%)；2026 复试线308(官方)；计网学院\", \"srcLabel\": \"官方\", \"src\": [\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"考情明细\"], \"lineUltimate2026\": \"308\", \"nnProg\": \"电子信息-人工智能\", \"nnCollege\": \"计算机与网络安全学院（示范性软件学院）\", \"nnSubjects\": \"英二数二408\", \"cyCode\": \"085410\", \"wdCount\": \"8\", \"wdYears\": \"19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情\", \"wdUrl26\": \"https://mp.weixin.qq.com/s/myyKG1-jJx3RcIk5IYYG3w\", \"kaoqingUrl\": \"https://cist.cdut.edu.cn/info/1145/7596.htm\", \"college\": \"计算机与网络安全学院\", \"plan2026\": \"26\", \"remark\": \"官方2026复试线085410=308、085411=268；2026计划26人；2027目录未发布\", \"retestCnt\": \"45\", \"admitCnt\": \"30\", \"admitMax\": \"390\", \"admitMin\": \"320\", \"admitAvg\": \"340\"}",
+      "region": "西南",
+      "remark": "官方2026复试线085410=308、085411=268；2026计划26人；2027目录未发布",
+      "school_key": "10616",
+      "scope": "2026拟招23（不含推免，机构）；官网拟录取页反爬，复试/录取明细查无；复试有C语言机试斩杀线(VS2010)",
+      "scope2": null,
+      "src": "[\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"考情明细\"]",
+      "src_label": "官方",
+      "subject_claim_2026": null,
+      "subject_class": "22408",
+      "subject_status": null,
+      "tier": "双一流学科",
+      "wd_count": "8",
+      "wd_url_26": "https://mp.weixin.qq.com/s/myyKG1-jJx3RcIk5IYYG3w",
+      "wd_years": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情"
+    }
+  ],
+  "school": {
+    "category_guess": null,
+    "cb_id": null,
+    "code": "10616",
+    "code_verified": 1,
+    "cross_refs": null,
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": "{\"院校\": \"成都理工大学\", \"省份\": \"四川\", \"大区\": \"西南\", \"层次\": \"双一流学科\", \"学院\": \"计算机与网络安全学院\", \"初试科目\": \"22408\", \"方向\": \"不区分研究方向\", \"2026线\": \"308\", \"拟招\": null, \"一志愿/调剂\": \"一志愿为主\", \"AI方向\": \"✅真AI方向\", \"来源\": \"官方\", \"综合热度\": \"50\", \"备注\": \"双一流(学科)主体校；复试线308；复试有C语言机试斩杀线\"}",
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-成都理工大学.json",
+    "name": "成都理工大学",
+    "nn_candidates": null,
+    "note": null,
+    "province": "四川",
+    "province_raw": "四川",
+    "region": "西南",
+    "school_key": "10616",
+    "tier": "双一流学科"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 296,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 98,
+      "raw_value": "308",
+      "school_key": "10616",
+      "value": 308.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 297,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 273,
+      "offering_id": 98,
+      "raw_value": "299",
+      "school_key": "10616",
+      "value": 299.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 298,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 260,
+      "offering_id": 98,
+      "raw_value": "301",
+      "school_key": "10616",
+      "value": 301.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 299,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 98,
+      "raw_value": "308",
+      "school_key": "10616",
+      "value": 308.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 136,
+      "label": "成都理工大学计算机学院（412反爬）",
+      "school_key": "10616",
+      "tier": "T1-官方",
+      "url": "https://cist.cdut.edu.cn/info/1145/7596.htm"
+    },
+    {
+      "id": 137,
+      "label": "N诺 成都理工大学",
+      "school_key": "10616",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/106/"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {
+    "成都理工大学计算机考研深挖_2026.xlsx": {
+      "六年趋势2021-2026": {
+        "headers": [
+          "方向",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026",
+          "六年走势"
+        ],
+        "n_rows": 6,
+        "rows": [
+          [
+            "计科学硕(11408)",
+            "录取均299",
+            "录取均302",
+            "录取均298(线276)",
+            "311(线280)",
+            "303(线266)",
+            "311(线273)",
+            "学硕常年295-311,平稳"
+          ],
+          [
+            "电子信息·计算机(22408)",
+            "录取均356",
+            "录取均315",
+            "337(线310)",
+            "333(线314)",
+            "329(线294)",
+            "354(线332)",
+            "2026冲高,2027大概率回落"
+          ],
+          [
+            "电子信息·软件",
+            "—",
+            "315档",
+            "335(线308)",
+            "336(线304)",
+            "329(线267)",
+            "341(线309)",
+            "330-340区间"
+          ],
+          [
+            "电子信息·人工智能",
+            "—",
+            "—",
+            "327(线301)",
+            "329(线299)",
+            "328(线292)",
+            "340(线308)",
+            "逐年升温"
+          ],
+          [
+            "电子信息·大数据",
+            "—",
+            "—",
+            "299(线286)",
+            "318(线302)",
+            "324(线285)",
+            "331(线268)",
+            "小年线低但录取分抬升"
+          ],
+          [
+            "网络空间安全",
+            "—",
+            "—",
+            "309(线277)",
+            "303(线287)",
+            "278(线265)",
+            "295(线264)",
+            "学硕网安常年校线,最冷"
+          ]
+        ]
+      },
+      "川渝双非横评2026": {
+        "headers": [
+          "院校(层次)",
+          "代表方向",
+          "卷型",
+          "复试线",
+          "录取人数",
+          "录取均分",
+          "录取最低→最高",
+          "408均分",
+          "定位"
+        ],
+        "n_rows": 9,
+        "rows": [
+          [
+            "成都理工(双一流学科)",
+            "电子信息·计算机专硕",
+            "22408",
+            332,
+            "62+8专项",
+            354,
+            "332→396",
+            93,
+            "冲(2026大年)"
+          ],
+          [
+            "成都理工",
+            "计算机科学与技术学硕",
+            "11408",
+            273,
+            36,
+            311,
+            "276→355",
+            88,
+            "稳"
+          ],
+          [
+            "西南石油(双一流学科)",
+            "电子信息·计算机专硕",
+            "22408",
+            264,
+            63,
+            "约305",
+            "300→?",
+            "—",
+            "稳(成都)"
+          ],
+          [
+            "成都信息工程大学",
+            "计算机学院电子信息(改408首年)",
+            "英二数一408",
+            "国家线",
+            37,
+            "约285",
+            "264→400",
+            "—",
+            "稳(首年洼地,27必涨)"
+          ],
+          [
+            "成都信息工程大学",
+            "人工智能学院(一志愿)",
+            "英二数一408",
+            "国家线",
+            2,
+            "—",
+            "268/271",
+            "—",
+            "保底"
+          ],
+          [
+            "重庆科技大学",
+            "计算机技术专硕",
+            "22408",
+            "国家线",
+            51,
+            "约295",
+            "264→364",
+            "—",
+            "保底"
+          ],
+          [
+            "中国民用航空飞行学院",
+            "计算机技术(一志愿7/调剂7)",
+            "22408",
+            "国家线",
+            14,
+            "一志愿302/调剂320",
+            "283→337",
+            "一志愿80",
+            "保底(本校调剂预案)"
+          ],
+          [
+            "西南科技大学(绵阳)",
+            "电子信息·计算机",
+            "22408",
+            "国家线",
+            60,
+            "约290",
+            "268→?",
+            "—",
+            "保底"
+          ],
+          [
+            "一句话:2026成理专硕计算机(332)比成信工(264)高近70分;你若按成理332冲,成信工/重科大/中飞院做稳保梯度非常合理。",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      "录取规则与建议": {
+        "headers": [],
+        "n_rows": 0,
+        "rows": []
+      },
+      "成理2026分专业": {
+        "headers": [
+          "专业(代码)",
+          "初试卷型",
+          "复试线",
+          "复试人数",
+          "录取人数",
+          "复录比",
+          "政治均",
+          "英语均",
+          "数学均",
+          "408均",
+          "复试总分均",
+          "拟录取均分",
+          "录取最低",
+          "录取最高"
+        ],
+        "n_rows": 10,
+        "rows": [
+          [
+            "计算机科学与技术(081200)",
+            "英一数一408",
+            273,
+            48,
+            36,
+            "1.33",
+            59,
+            66,
+            90,
+            88,
+            304,
+            311,
+            276,
+            355
+          ],
+          [
+            "网络空间安全(083900)",
+            "英一数一408",
+            264,
+            20,
+            20,
+            "1.00",
+            61,
+            63,
+            87,
+            84,
+            295,
+            295,
+            264,
+            341
+          ],
+          [
+            "电子信息·计算机(085404)",
+            "英二数二408",
+            332,
+            "87+8专项",
+            "62+8专项",
+            "1.41",
+            61,
+            77,
+            119,
+            93,
+            350,
+            354,
+            332,
+            396
+          ],
+          [
+            "电子信息·软件方向",
+            "英二数二408",
+            309,
+            38,
+            29,
+            "1.31",
+            59,
+            76,
+            112,
+            90,
+            336,
+            341,
+            309,
+            384
+          ],
+          [
+            "电子信息·人工智能",
+            "英二数二408",
+            308,
+            45,
+            30,
+            "1.50",
+            60,
+            75,
+            112,
+            87,
+            333,
+            340,
+            320,
+            390
+          ],
+          [
+            "电子信息·大数据",
+            "英二数二408",
+            268,
+            10,
+            7,
+            "1.43",
+            58,
+            68,
+            107,
+            81,
+            315,
+            331,
+            291,
+            364
+          ],
+          [
+            "电子信息·网安方向",
+            "英二数二408",
+            286,
+            9,
+            6,
+            "1.50",
+            54,
+            76,
+            101,
+            80,
+            312,
+            315,
+            293,
+            347
+          ],
+          [
+            "合计(普通统考,不含专项)",
+            null,
+            null,
+            257,
+            190,
+            "1.35",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "⚠关键:专硕计算机方向2026复试线332、录取均分354,比2025(294/329)暴涨38/25分,是典型大年;学硕计科273、网安264反而低。",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "注:成理专硕考英二数二(22408),学硕考英一数一(11408);专硕分数线反超学硕,源于报考扎堆+数二英二高分多。",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    }
+  },
+  "tutors": [
+    {
+      "dept": "计算机与网络安全学院",
+      "direction": "轻量化神经网络、医学图像分析、无人机视觉与智能控制",
+      "id": 28,
+      "major_code": "085410",
+      "name": "肖鹏",
+      "note": "电子科大博士",
+      "school_key": "10616",
+      "school_name": "成都理工大学",
+      "src": "lib07",
+      "title": "教师/博士",
+      "url": "https://faculty.cdut.edu.cn/xiaopeng/"
+    },
+    {
+      "dept": "计算机与网络安全学院",
+      "direction": "目标检测与跟踪、图像分割",
+      "id": 29,
+      "major_code": "085410",
+      "name": "胡亨琪",
+      "note": "重庆大学博士",
+      "school_key": "10616",
+      "school_name": "成都理工大学",
+      "src": "lib07",
+      "title": "研究员/硕导",
+      "url": "https://faculty.cdut.edu.cn/huhengqi/"
+    }
+  ],
+  "updates_2027": [],
+  "wangdao_links": [
+    {
+      "id": 524,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=7&sn=ded884ceed5b69e8ed13f515ca14fd3c&scene=21&poc_token=HEjLCmmjDVFxIK_BBchso6VUxaN1cbVNKdlaKlyg",
+      "year_label": "19考情"
+    },
+    {
+      "id": 525,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=6&sn=efc08d65b3ddb6da19562c192449c237&scene=21&poc_token=HCbLCmmjlBGvnpNkuBCrkfWdxW1Pdus6tot_bH8j",
+      "year_label": "20考情"
+    },
+    {
+      "id": 526,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=5&sn=e63a86ad04bc6fec88bb3127ec0fc61b&scene=21&poc_token=HCPLCmmjmvNIv3bE14qT9gSdxa_Jg3XDMH5HxfiJ",
+      "year_label": "21考情"
+    },
+    {
+      "id": 527,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=4&sn=a7dd47abdf152b0c8e4e23ae96ea64de&scene=21&poc_token=HCDLCmmjbtN3PCjmMYH8Ulrme6TUcrcl8m_oYHOJ",
+      "year_label": "22考情"
+    },
+    {
+      "id": 528,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=3&sn=2e121a1abd7ba57a0a5c75698c96964c&scene=21&poc_token=HBLLCmmjrB_wBZ_cBxStCKMOxZmPhg7NtdABR-Tf",
+      "year_label": "23考情"
+    },
+    {
+      "id": 529,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=1&sn=6f1517e4fa185ea83037c9d90730a0c5&scene=21&poc_token=HPzKCmmj0zr0E5rM2skT6Dvyt5s3EooviW6guLEm",
+      "year_label": "24考情"
+    },
+    {
+      "id": 530,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s/PCdda9-4idMm4oItwraeIQ",
+      "year_label": "25考情"
+    },
+    {
+      "id": 531,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s/myyKG1-jJx3RcIk5IYYG3w",
+      "year_label": "26考情"
+    },
+    {
+      "id": 1636,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=7&sn=ded884ceed5b69e8ed13f515ca14fd3c&scene=21&poc_token=HEjLCmmjDVFxIK_BBchso6VUxaN1cbVNKdlaKlyg",
+      "year_label": "19考情"
+    },
+    {
+      "id": 1637,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=6&sn=efc08d65b3ddb6da19562c192449c237&scene=21&poc_token=HCbLCmmjlBGvnpNkuBCrkfWdxW1Pdus6tot_bH8j",
+      "year_label": "20考情"
+    },
+    {
+      "id": 1638,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=5&sn=e63a86ad04bc6fec88bb3127ec0fc61b&scene=21&poc_token=HCPLCmmjmvNIv3bE14qT9gSdxa_Jg3XDMH5HxfiJ",
+      "year_label": "21考情"
+    },
+    {
+      "id": 1639,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=4&sn=a7dd47abdf152b0c8e4e23ae96ea64de&scene=21&poc_token=HCDLCmmjbtN3PCjmMYH8Ulrme6TUcrcl8m_oYHOJ",
+      "year_label": "22考情"
+    },
+    {
+      "id": 1640,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=3&sn=2e121a1abd7ba57a0a5c75698c96964c&scene=21&poc_token=HBLLCmmjrB_wBZ_cBxStCKMOxZmPhg7NtdABR-Tf",
+      "year_label": "23考情"
+    },
+    {
+      "id": 1641,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233104&idx=1&sn=6f1517e4fa185ea83037c9d90730a0c5&scene=21&poc_token=HPzKCmmj0zr0E5rM2skT6Dvyt5s3EooviW6guLEm",
+      "year_label": "24考情"
+    },
+    {
+      "id": 1642,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s/PCdda9-4idMm4oItwraeIQ",
+      "year_label": "25考情"
+    },
+    {
+      "id": 1643,
+      "school_key": "10616",
+      "url": "https://mp.weixin.qq.com/s/myyKG1-jJx3RcIk5IYYG3w",
+      "year_label": "26考情"
+    }
+  ]
+}

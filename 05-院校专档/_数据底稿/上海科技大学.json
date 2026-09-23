@@ -1,0 +1,444 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "full",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "上海科技大学",
+    "school_key": "14423"
+  },
+  "admissions": [
+    {
+      "admit_avg": null,
+      "admit_avg_note": null,
+      "admit_avg_value": null,
+      "admit_cnt": null,
+      "admit_cnt_note": null,
+      "admit_cnt_value": null,
+      "admit_max": null,
+      "admit_max_note": null,
+      "admit_max_value": null,
+      "admit_min": null,
+      "admit_min_note": null,
+      "admit_min_value": null,
+      "fill": "一志愿为主+部分调剂",
+      "fill_note": "一志愿为主+部分调剂",
+      "fill_type_code": "F12",
+      "fill_value": null,
+      "heat_comp": null,
+      "heat_net": null,
+      "id": 8,
+      "major_code": "085410",
+      "nn_408avg": null,
+      "nn_rate": null,
+      "offering_id": 8,
+      "plan": "预期17(生物医学工程学院)起；信息学院名额推免占比高",
+      "plan_note": "预期17(生物医学工程学院)起；信息学院名额推免占比高",
+      "plan_value": 17,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": null,
+      "retest_cnt_note": null,
+      "retest_cnt_value": null,
+      "school_key": "14423",
+      "year": 2026
+    }
+  ],
+  "catalog": [
+    {
+      "changed_from": null,
+      "college": "信息科学与技术学院",
+      "degree_type": null,
+      "exam_408_type": "11408",
+      "id": 280,
+      "major_code": "081200",
+      "note": "研招网 2026 年招生专业目录直证考 408。覆盖方向 2 条（01、02），科目一致",
+      "school_key": "14423",
+      "scope": "信息科学与技术学院 · 081200 计算机科学与技术（方向01、02）",
+      "source_level": "official",
+      "source_url": "https://yz.chsi.com.cn/zsml/yjfxdetail?id=0439dd0e0c4dab0eca5a316a18121484",
+      "year": 2026
+    },
+    {
+      "changed_from": null,
+      "college": "信息科学与技术学院",
+      "degree_type": null,
+      "exam_408_type": "11408",
+      "id": 281,
+      "major_code": "085400",
+      "note": "研招网 2026 年招生专业目录直证考 408。覆盖方向 1 条（02），科目一致。⚠️ 同专业存在不考 408 的方向：方向01、04方向业务课二非408；方向03方向业务课二非408，报考必须核对方向号",
+      "school_key": "14423",
+      "scope": "信息科学与技术学院 · 085400 电子信息（方向02）",
+      "source_level": "official",
+      "source_url": "https://yz.chsi.com.cn/zsml/yjfxdetail?id=5b6ce77eb937b490d5eee4fb64af848b",
+      "year": 2026
+    },
+    {
+      "changed_from": null,
+      "college": "生物医学工程学院",
+      "degree_type": null,
+      "exam_408_type": "11408",
+      "id": 282,
+      "major_code": "085400",
+      "note": "研招网 2026 年招生专业目录直证考 408。覆盖方向 1 条（01），科目一致。⚠️ 同专业存在不考 408 的方向：方向02方向业务课二非408，报考必须核对方向号",
+      "school_key": "14423",
+      "scope": "生物医学工程学院 · 085400 电子信息（方向01）",
+      "source_level": "official",
+      "source_url": "https://yz.chsi.com.cn/zsml/yjfxdetail?id=1e9e084cea89523e8fcec43c7190a882",
+      "year": 2026
+    }
+  ],
+  "conflicts": [
+    {
+      "action": null,
+      "claims": null,
+      "field": "subjectClass",
+      "id": 1,
+      "major_code": "085410",
+      "new_value": "11408(英一数一408)",
+      "old_value": "推测22408",
+      "reason": "官方目录+N诺显示上科大电子信息为英一数一408(11408)，非英二数二；研究型大学不细分085410",
+      "refs": "[\"https://noobdream.com/schoolinfo/119/\", \"https://yanzhao.shanghaitech.edu.cn/2025/0926/c1100a1115504/page.htm\"]",
+      "school_key": "14423",
+      "scope": "in-school",
+      "status": null
+    }
+  ],
+  "counts": {
+    "admissions": 1,
+    "catalog": 3,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 1,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 3,
+    "score_quantiles": 0,
+    "sources": 3,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 10
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "信息科学与技术学院",
+      "major_code": "085410",
+      "offering_id": 8,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英一数一408"
+    }
+  ],
+  "gaps": [
+    "2026 复试数 未获取",
+    "2026 录取均分 未获取",
+    "2026 录取数 未获取",
+    "2026 录取最低分 未获取",
+    "2026 录取最高分 未获取",
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：subjectClass（None）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": null,
+      "admit_cnt": null,
+      "admit_max": null,
+      "admit_min": null,
+      "batch": null,
+      "college": "信息科学与技术学院",
+      "id": 6,
+      "line_value": 264.0,
+      "major_code": "085400",
+      "plan": null,
+      "program": "电子信息085400(不细分方向)",
+      "retest_cnt": null,
+      "school_key": "14423",
+      "scope": "⚠️全11408(英一数一408)非22408；电子信息0854线264；无085410专列；推免占比高不透明",
+      "subjects": "11408",
+      "tier": "双一流",
+      "url": "https://noobdream.com/schoolinfo/119/",
+      "verify": "官方+N诺",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "相关方向",
+      "category": "C-对照",
+      "college": "信息科学与技术学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "不区分研究方向",
+      "fill_2026": null,
+      "id": 8,
+      "kaoqing_url": null,
+      "line_delta": "=A区国家线",
+      "line_ultimate_2026": null,
+      "major_code": "085410",
+      "major_source": "extracted",
+      "nn_college": "信息科学与技术学院",
+      "nn_prog": "电子信息(085400)",
+      "nn_subjects": "英一数一408",
+      "nn_url": "https://noobdream.com/schoolinfo/119/",
+      "note": "经N诺schoolinfo/119+官方目录核对：上海科技大学(研究型双一流)2026起全改408，但为11408(英一数一)，不匹配用户22408(英二数二)。无085410专列。推免占比高、统考名额不透明、复试55开",
+      "province": "上海",
+      "raw": "{\"category\": \"C-对照\", \"province\": \"上海\", \"region\": \"华东\", \"tier\": \"双一流\", \"subjectClass\": \"11408\", \"direction\": \"不区分研究方向\", \"college\": \"信息科学与技术学院\", \"nnProg\": \"电子信息(085400)\", \"nnCollege\": \"信息科学与技术学院\", \"nnSubjects\": \"英一数一408\", \"line2026\": \"264\", \"lineDelta\": \"=A区国家线\", \"linesByYear\": {\"2023\": null, \"2024\": null, \"2025\": \"260\", \"2026\": \"264\"}, \"plan2026\": \"预期17(生物医学工程学院)起；信息学院名额推免占比高\", \"fill\": \"一志愿为主+部分调剂\", \"retestCnt\": null, \"admitCnt\": null, \"admitMax\": null, \"admitMin\": null, \"admitAvg\": null, \"scope\": \"双一流研究型高校(中科院共建)。⚠️不匹配用户22408：全11408(英一数一408)。2026改考408(此前11 DS与算法自命题)。N诺2026：计科本部线298、联培264、电子信息264。官方2026复试线：计科0812本部298/联培264、电子信息0854线264。无085410专列(电子信息不细分方向)。推免占比高、不透明，统考名额少\", \"aiTag\": \"相关方向\", \"heatNet\": null, \"heatComp\": null, \"nn408avg\": null, \"nnRate\": null, \"note\": \"经N诺schoolinfo/119+官方目录核对：上海科技大学(研究型双一流)2026起全改408，但为11408(英一数一)，不匹配用户22408(英二数二)。无085410专列。推免占比高、统考名额不透明、复试55开\", \"srcLabel\": \"官方+第三方\", \"src\": [\"N诺\"], \"nnUrl\": \"https://noobdream.com/schoolinfo/119/\"}",
+      "region": "华东",
+      "remark": null,
+      "school_key": "14423",
+      "scope": "双一流研究型高校(中科院共建)。⚠️不匹配用户22408：全11408(英一数一408)。2026改考408(此前11 DS与算法自命题)。N诺2026：计科本部线298、联培264、电子信息264。官方2026复试线：计科0812本部298/联培264、电子信息0854线264。无085410专列(电子信息不细分方向)。推免占比高、不透明，统考名额少",
+      "scope2": null,
+      "src": "[\"N诺\"]",
+      "src_label": "官方+第三方",
+      "subject_claim_2026": null,
+      "subject_class": "11408",
+      "subject_status": null,
+      "tier": "双一流",
+      "wd_count": null,
+      "wd_url_26": null,
+      "wd_years": null
+    }
+  ],
+  "school": {
+    "category_guess": "N诺新增候选(未入终极版S/C)",
+    "cb_id": null,
+    "code": "14423",
+    "code_verified": 1,
+    "cross_refs": null,
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-上海科技大学.json",
+    "name": "上海科技大学",
+    "nn_candidates": "[{\"school\": \"上海科技大学\", \"province\": \"上海\", \"college\": \"信息科学与技术学院\", \"program\": \"电子信息\", \"subjects\": \"11408\", \"line\": \"264\", \"retestCnt\": null, \"adjCnt\": 0, \"avgTotal\": null, \"avg408\": null, \"avgPol\": null, \"avgEng\": null, \"avgMath\": null, \"admitCnt\": null, \"admitAvg\": null, \"rate\": null, \"ratioNN\": null, \"note\": \"⚠️11408(英一数一)非22408；已提升为units并标注研究型\"}]",
+    "note": "双一流研究型高校(中科院共建)；2026改408但全11408(英一数一)，不匹配用户22408；无085410专列；推免占比高、统考名额不透明",
+    "province": "上海",
+    "province_raw": "上海",
+    "region": "华东",
+    "school_key": "14423",
+    "tier": "双一流"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 21,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 8,
+      "raw_value": "264",
+      "school_key": "14423",
+      "value": 264.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 22,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 260,
+      "offering_id": 8,
+      "raw_value": "260",
+      "school_key": "14423",
+      "value": 260.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 23,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 8,
+      "raw_value": "264",
+      "school_key": "14423",
+      "value": 264.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 8,
+      "label": "上海科技大学2026复试基本要求(官方)",
+      "school_key": "14423",
+      "tier": "T1-官方",
+      "url": "https://yanzhao.shanghaitech.edu.cn/2026/0316/c1119a1119869/page.htm"
+    },
+    {
+      "id": 9,
+      "label": "上海科技大学2026硕士招生专业目录(官方)",
+      "school_key": "14423",
+      "tier": "T1-官方",
+      "url": "https://yanzhao.shanghaitech.edu.cn/2025/0926/c1100a1115504/page.htm"
+    },
+    {
+      "id": 10,
+      "label": "N诺上海科技大学考情",
+      "school_key": "14423",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/119/"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2026",
+      "id": 2,
+      "major_code": null,
+      "note": "2026改408但为11408(英一数一)；无085410专列；研究型、推免占比高",
+      "school_key": "14423",
+      "school_name": "上海科技大学",
+      "scope": "信息科学与技术学院",
+      "source": "N诺schoolinfo/119+上科大2026目录",
+      "subject_new": "11408",
+      "subject_old": "11 DS与算法自命题",
+      "tier": "双一流"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 37,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666150746&idx=4&sn=3392cf360eb9e1d9035be9530f94c14d&scene=21&poc_token=HBMIC2mjIQuQPiUgqvDBYtQmk4S6IBtBhB6j9aOL",
+      "year_label": "19考情"
+    },
+    {
+      "id": 38,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666218158&idx=6&sn=3d083f938f2534c2375736438bce4466&scene=21&poc_token=HP0HC2mjuq4UZv7v_mfDQPDXnRQ8q5VQ-jhnNalJ",
+      "year_label": "23考情"
+    },
+    {
+      "id": 39,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232004&idx=4&sn=dd6cfb3152b516aae046ff271fe33df6&scene=21&poc_token=HPQHC2mjOt9hEiKJ8JPvQakfEtqUgBlXGFndsfri",
+      "year_label": "24考情"
+    },
+    {
+      "id": 40,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s/Os6ojzflbEN3EXXYs0TgoA",
+      "year_label": "25考情"
+    },
+    {
+      "id": 41,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s/nkhre9e8jFr9L4J5xSAQTQ",
+      "year_label": "26考情"
+    },
+    {
+      "id": 1115,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666150746&idx=4&sn=3392cf360eb9e1d9035be9530f94c14d&scene=21&poc_token=HBMIC2mjIQuQPiUgqvDBYtQmk4S6IBtBhB6j9aOL",
+      "year_label": "19考情"
+    },
+    {
+      "id": 1116,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666218158&idx=6&sn=3d083f938f2534c2375736438bce4466&scene=21&poc_token=HP0HC2mjuq4UZv7v_mfDQPDXnRQ8q5VQ-jhnNalJ",
+      "year_label": "23考情"
+    },
+    {
+      "id": 1117,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232004&idx=4&sn=dd6cfb3152b516aae046ff271fe33df6&scene=21&poc_token=HPQHC2mjOt9hEiKJ8JPvQakfEtqUgBlXGFndsfri",
+      "year_label": "24考情"
+    },
+    {
+      "id": 1118,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s/Os6ojzflbEN3EXXYs0TgoA",
+      "year_label": "25考情"
+    },
+    {
+      "id": 1119,
+      "school_key": "14423",
+      "url": "https://mp.weixin.qq.com/s/nkhre9e8jFr9L4J5xSAQTQ",
+      "year_label": "26考情"
+    }
+  ]
+}

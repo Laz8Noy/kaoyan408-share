@@ -1,0 +1,464 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "full",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "山西大学",
+    "school_key": "10108"
+  },
+  "admissions": [
+    {
+      "admit_avg": "313",
+      "admit_avg_note": null,
+      "admit_avg_value": 313,
+      "admit_cnt": "22一志愿+20调剂",
+      "admit_cnt_note": "合计:22一志愿+20调剂",
+      "admit_cnt_value": 42,
+      "admit_max": "383",
+      "admit_max_note": null,
+      "admit_max_value": 383,
+      "admit_min": "264",
+      "admit_min_note": null,
+      "admit_min_value": 264,
+      "fill": "调剂为主",
+      "fill_note": "调剂为主",
+      "fill_type_code": "F21",
+      "fill_value": null,
+      "heat_comp": null,
+      "heat_net": null,
+      "id": 85,
+      "major_code": "085410",
+      "nn_408avg": null,
+      "nn_rate": null,
+      "offering_id": 85,
+      "plan": "22+20调剂",
+      "plan_note": "合计:22+20调剂",
+      "plan_value": 42,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "22一志愿+55调剂",
+      "retest_cnt_note": "合计:22一志愿+55调剂",
+      "retest_cnt_value": 77,
+      "school_key": "10108",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [
+    {
+      "action": null,
+      "claims": null,
+      "field": "subjectClass",
+      "id": 13,
+      "major_code": null,
+      "new_value": null,
+      "old_value": null,
+      "reason": null,
+      "refs": "null",
+      "school_key": "10108",
+      "scope": "in-school",
+      "status": null
+    }
+  ],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 2,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 5,
+    "score_quantiles": 0,
+    "sources": 2,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 16
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "计算机与信息技术学院",
+      "major_code": "085410",
+      "offering_id": 85,
+      "src": "lib06",
+      "subject_key": "kaoqing_subjects",
+      "subject_label": "二二DS+C(非408)"
+    },
+    {
+      "college": "计算机与信息技术学院",
+      "major_code": "085410",
+      "offering_id": 85,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二+数据结构C(自命题)"
+    }
+  ],
+  "gaps": [
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：subjectClass（None）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "313",
+      "admit_cnt": "22一志愿+20调剂",
+      "admit_max": "383",
+      "admit_min": "264",
+      "batch": null,
+      "college": "计算机与信息技术学院",
+      "id": 51,
+      "line_value": 264.0,
+      "major_code": "085410",
+      "plan": "22+20调剂",
+      "program": null,
+      "retest_cnt": "22一志愿+55调剂",
+      "school_key": "10108",
+      "scope": "085410人工智能2026仍二二DS+C自命题(非408)；线264；一志愿拟录取均313【264-383】；调剂为主",
+      "subjects": "二二DS+C(非408)",
+      "tier": "双一流",
+      "url": "https://noobdream.com/schoolinfo/232/",
+      "verify": "第三方(N诺)+官方(复试线PDF)",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "⚠️真AI但2026自命题非408",
+      "category": "C-对照",
+      "college": "计算机与信息技术学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "电子信息-人工智能(085410)",
+      "fill_2026": null,
+      "id": 85,
+      "kaoqing_url": "https://noobdream.com/schoolinfo/232/",
+      "line_delta": null,
+      "line_ultimate_2026": null,
+      "major_code": "085410",
+      "major_source": "extracted",
+      "nn_college": "计算机与信息技术学院",
+      "nn_prog": "电子信息-人工智能",
+      "nn_subjects": "英二数二+数据结构C(自命题)",
+      "nn_url": null,
+      "note": "⚠️2026年085410人工智能仍考二二DS+C自命题(非408)，不符合用户408目标；一志愿22人+55调剂，拟录取均313【264-383】；学硕计科2026已改11408；N诺注'26考研改考408'指学硕，专硕是否2027改408待研招网目录确认",
+      "province": "山西",
+      "raw": "{\"category\": \"C-对照\", \"province\": \"山西\", \"region\": \"华北\", \"tier\": \"双一流\", \"subjectClass\": \"非408\", \"direction\": \"电子信息-人工智能(085410)\", \"college\": \"计算机与信息技术学院\", \"line2026\": \"国家线(NC,264)\", \"lineDelta\": null, \"linesByYear\": {\"2023\": \"286\", \"2024\": \"314\", \"2025\": \"332\", \"2026\": \"国家线(264)\"}, \"plan2026\": \"22+20调剂\", \"fill\": \"调剂为主\", \"retestCnt\": \"22一志愿+55调剂\", \"admitCnt\": \"22一志愿+20调剂\", \"admitMax\": \"383\", \"admitMin\": \"264\", \"admitAvg\": \"313\", \"scope\": \"085410电子信息-人工智能(计算机与信息技术学院)2026线国家线264；初试英二数二+数据结构+C语言(二二DS+C自命题,非408)；一志愿进复试22人，进复试均分313【264-383】；拟录取22一志愿+20调剂；调剂为主\", \"aiTag\": \"⚠️真AI但2026自命题非408\", \"heatNet\": null, \"heatComp\": null, \"nn408avg\": null, \"nnRate\": null, \"note\": \"⚠️2026年085410人工智能仍考二二DS+C自命题(非408)，不符合用户408目标；一志愿22人+55调剂，拟录取均313【264-383】；学硕计科2026已改11408；N诺注'26考研改考408'指学硕，专硕是否2027改408待研招网目录确认\", \"srcLabel\": \"第三方\", \"src\": [\"N诺\", \"官方(复试线)\", \"三源核对\"], \"nnProg\": \"电子信息-人工智能\", \"nnCollege\": \"计算机与信息技术学院\", \"nnSubjects\": \"英二数二+数据结构C(自命题)\", \"wdCount\": \"8\", \"wdYears\": \"19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情\", \"wdUrl26\": \"https://mp.weixin.qq.com/s/bTLsp8s6TG_VuSYGea_ZEw\", \"kaoqingUrl\": \"https://noobdream.com/schoolinfo/232/\"}",
+      "region": "华北",
+      "remark": null,
+      "school_key": "10108",
+      "scope": "085410电子信息-人工智能(计算机与信息技术学院)2026线国家线264；初试英二数二+数据结构+C语言(二二DS+C自命题,非408)；一志愿进复试22人，进复试均分313【264-383】；拟录取22一志愿+20调剂；调剂为主",
+      "scope2": null,
+      "src": "[\"N诺\", \"官方(复试线)\", \"三源核对\"]",
+      "src_label": "第三方",
+      "subject_claim_2026": null,
+      "subject_class": "非408",
+      "subject_status": null,
+      "tier": "双一流",
+      "wd_count": "8",
+      "wd_url_26": "https://mp.weixin.qq.com/s/bTLsp8s6TG_VuSYGea_ZEw",
+      "wd_years": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情"
+    }
+  ],
+  "school": {
+    "category_guess": "N诺新增候选(已提升为主体)",
+    "cb_id": null,
+    "code": "10108",
+    "code_verified": 1,
+    "cross_refs": "[{\"name\": \"计算机科学与技术(学硕)\", \"subjects\": \"11408\", \"line2026\": \"国家线(NC)\", \"note\": \"2026学硕改11408(英一数一408)，一志愿20+67调剂，均290【264-322】；非专硕085410\"}, {\"name\": \"电子信息-计算机\", \"subjects\": \"二二DS+C(非408)\", \"line2026\": \"291\", \"note\": \"2026线291，拟录取均327【301-375】；同样自命题非408\"}]",
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-山西大学.json",
+    "name": "山西大学",
+    "nn_candidates": null,
+    "note": "双一流。2026年085410人工智能仍二二DS+C自命题(非408)，不符合用户408目标；仅学硕计科改11408。专硕2027是否改408待官方目录确认。",
+    "province": "山西",
+    "province_raw": "山西",
+    "region": "华北",
+    "school_key": "10108",
+    "tier": "双一流"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "国家线",
+      "id": 248,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 85,
+      "raw_value": "国家线(NC,264)",
+      "school_key": "10108",
+      "value": 264.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 249,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 273,
+      "offering_id": 85,
+      "raw_value": "286",
+      "school_key": "10108",
+      "value": 286.0,
+      "value_kind": null,
+      "year": 2023,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 250,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 273,
+      "offering_id": 85,
+      "raw_value": "314",
+      "school_key": "10108",
+      "value": 314.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 251,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 260,
+      "offering_id": 85,
+      "raw_value": "332",
+      "school_key": "10108",
+      "value": 332.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 252,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 85,
+      "raw_value": "国家线(264)",
+      "school_key": "10108",
+      "value": 264.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 115,
+      "label": "N诺 山西大学",
+      "school_key": "10108",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/232/"
+    },
+    {
+      "id": 116,
+      "label": "山西大学2026复试线(085404计算机技术291)",
+      "school_key": "10108",
+      "tier": "T1-官方",
+      "url": "http://yjszsw.sxu.edu.cn/docs/2026-03/bb5edf4054f84d3c9960b8579b78ff6c.pdf"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2026",
+      "id": 30,
+      "major_code": "081200",
+      "note": "2026学硕计科改11408；085400/085410电子信息专硕2026仍二二DS+C自命题(非408)，2027专硕是否改408待研招网目录确认",
+      "school_key": "10108",
+      "school_name": "山西大学",
+      "scope": "081200计科(学硕)",
+      "source": "N诺schoolinfo/232",
+      "subject_new": "408",
+      "subject_old": "一一DS+C(自命题)",
+      "tier": "双一流"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 465,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666150455&idx=3&sn=f8eeabd240083f463ea2c890ceee56b3&scene=21&poc_token=HOn8C2mjzKbf2WceYMDv4aVc5BKQ6YODl78QY-zY",
+      "year_label": "19考情"
+    },
+    {
+      "id": 466,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155906&idx=4&sn=8916887e26213d00c74c99cd77188840&scene=21&poc_token=HNn8C2mjoxr9eaeQQP8iO-RT93x3Mje1oR22KLTx",
+      "year_label": "20考情"
+    },
+    {
+      "id": 467,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666169109&idx=7&sn=c465c33ad143db36ff086ae8b79aaee8&scene=21&poc_token=HKz8C2mjpsIdtBI7KzITgXwrT5X5-hyzHu5YbtOm",
+      "year_label": "21考情"
+    },
+    {
+      "id": 468,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666186920&idx=5&sn=14190b5894ca0accff92a7ea9b672434&scene=21&poc_token=HKj8C2mj_WHAtZvZ9LRFlCjT19HBNCtRiCiG0T3z",
+      "year_label": "22考情"
+    },
+    {
+      "id": 469,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666210131&idx=6&sn=0834c703872306a53fe3babc61bc63d5&scene=21&poc_token=HKb8C2mj1xXdKJ9dr08fqFdEBaFszESchf_PJSS9",
+      "year_label": "23考情"
+    },
+    {
+      "id": 470,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666229471&idx=4&sn=09879a1101c9361a733baf5978971f60&scene=21&poc_token=HLH8C2mjudZIlx6dkTYqsEQ9JQ47Wmp8fYUZlFI6",
+      "year_label": "24考情"
+    },
+    {
+      "id": 471,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s/hzf-lVjn1Rrp8UI3A9IpYQ",
+      "year_label": "25考情"
+    },
+    {
+      "id": 472,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s/bTLsp8s6TG_VuSYGea_ZEw",
+      "year_label": "26考情"
+    },
+    {
+      "id": 2022,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666150455&idx=3&sn=f8eeabd240083f463ea2c890ceee56b3&scene=21&poc_token=HOn8C2mjzKbf2WceYMDv4aVc5BKQ6YODl78QY-zY",
+      "year_label": "19考情"
+    },
+    {
+      "id": 2023,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155906&idx=4&sn=8916887e26213d00c74c99cd77188840&scene=21&poc_token=HNn8C2mjoxr9eaeQQP8iO-RT93x3Mje1oR22KLTx",
+      "year_label": "20考情"
+    },
+    {
+      "id": 2024,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666169109&idx=7&sn=c465c33ad143db36ff086ae8b79aaee8&scene=21&poc_token=HKz8C2mjpsIdtBI7KzITgXwrT5X5-hyzHu5YbtOm",
+      "year_label": "21考情"
+    },
+    {
+      "id": 2025,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666186920&idx=5&sn=14190b5894ca0accff92a7ea9b672434&scene=21&poc_token=HKj8C2mj_WHAtZvZ9LRFlCjT19HBNCtRiCiG0T3z",
+      "year_label": "22考情"
+    },
+    {
+      "id": 2026,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666210131&idx=6&sn=0834c703872306a53fe3babc61bc63d5&scene=21&poc_token=HKb8C2mj1xXdKJ9dr08fqFdEBaFszESchf_PJSS9",
+      "year_label": "23考情"
+    },
+    {
+      "id": 2027,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666229471&idx=4&sn=09879a1101c9361a733baf5978971f60&scene=21&poc_token=HLH8C2mjudZIlx6dkTYqsEQ9JQ47Wmp8fYUZlFI6",
+      "year_label": "24考情"
+    },
+    {
+      "id": 2028,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s/hzf-lVjn1Rrp8UI3A9IpYQ",
+      "year_label": "25考情"
+    },
+    {
+      "id": 2029,
+      "school_key": "10108",
+      "url": "https://mp.weixin.qq.com/s/bTLsp8s6TG_VuSYGea_ZEw",
+      "year_label": "26考情"
+    }
+  ]
+}

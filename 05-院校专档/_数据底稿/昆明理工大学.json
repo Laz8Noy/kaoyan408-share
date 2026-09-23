@@ -1,0 +1,629 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "full",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "昆明理工大学",
+    "school_key": "X-昆明理工大学"
+  },
+  "admissions": [
+    {
+      "admit_avg": "294",
+      "admit_avg_note": null,
+      "admit_avg_value": 294,
+      "admit_cnt": "61+25调剂",
+      "admit_cnt_note": "合计:61+25调剂",
+      "admit_cnt_value": 86,
+      "admit_max": "376",
+      "admit_max_note": null,
+      "admit_max_value": 376,
+      "admit_min": "254",
+      "admit_min_note": null,
+      "admit_min_value": 254,
+      "fill": "一志愿为主+大量调剂",
+      "fill_note": "一志愿为主+大量调剂",
+      "fill_type_code": "F07",
+      "fill_value": null,
+      "heat_comp": "29",
+      "heat_net": "46",
+      "id": 101,
+      "major_code": "085410",
+      "nn_408avg": null,
+      "nn_rate": "90%",
+      "offering_id": 101,
+      "plan": "约86(61+25调剂)",
+      "plan_note": "约86(61+25调剂)",
+      "plan_value": 86,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "62+55调剂",
+      "retest_cnt_note": "合计:62+55调剂",
+      "retest_cnt_value": 117,
+      "school_key": "X-昆明理工大学",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [
+    {
+      "action": null,
+      "claims": null,
+      "field": "nnSubjects",
+      "id": 20,
+      "major_code": "085410",
+      "new_value": "非408(891自命题=DS+DB+OS+CN)",
+      "old_value": "推测408",
+      "reason": "N诺2026表显示085410人工智能初试为22+891(DS+DB+OS+CN四门自命题)，非408；仅2027拟可能改408",
+      "refs": "[\"https://noobdream.com/schoolinfo/264/\"]",
+      "school_key": "X-昆明理工大学",
+      "scope": "in-school",
+      "status": null
+    }
+  ],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 4,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 5,
+    "score_quantiles": 0,
+    "sources": 2,
+    "stats_yoy": 0,
+    "students_sheets": 2,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 16
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "信息工程与自动化学院",
+      "major_code": "085410",
+      "offering_id": 101,
+      "src": "lib06",
+      "subject_key": "kaoqing_subjects",
+      "subject_label": "非408(22+891自命题)"
+    },
+    {
+      "college": "信息工程与自动化学院",
+      "major_code": "085410",
+      "offering_id": 101,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二+891计算机专业核心综合(DS+DB+OS+CN自命题)"
+    },
+    {
+      "college": "信息工程与自动化学院",
+      "major_code": "085410",
+      "offering_id": 101,
+      "src": "lib06",
+      "subject_key": "update_subject_new",
+      "subject_label": "可能改408(待官方确认)"
+    },
+    {
+      "college": "信息工程与自动化学院",
+      "major_code": "085410",
+      "offering_id": 101,
+      "src": "lib06",
+      "subject_key": "update_subject_old",
+      "subject_label": "891计算机专业核心综合(自命题)"
+    }
+  ],
+  "gaps": [
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：nnSubjects（None）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "招生单位代码未验证（school_key 为 X- 前缀），需人工确认教育部代码",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "294",
+      "admit_cnt": "61+25调剂",
+      "admit_max": "376",
+      "admit_min": "254",
+      "batch": null,
+      "college": "信息工程与自动化学院",
+      "id": 66,
+      "line_value": 254.0,
+      "major_code": "085410",
+      "plan": "约86",
+      "program": "085410人工智能",
+      "retest_cnt": "62+55调剂",
+      "school_key": "X-昆明理工大学",
+      "scope": "085410人工智能2026仍891自命题非408；线254=B区国家线，进复试62+55调剂均293录86均294",
+      "subjects": "非408(22+891自命题)",
+      "tier": "双非(B区)",
+      "url": "https://noobdream.com/schoolinfo/264/",
+      "verify": "N诺",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "✅真AI方向",
+      "category": "S-主体",
+      "college": "信息工程与自动化学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "不区分研究方向",
+      "fill_2026": null,
+      "id": 101,
+      "kaoqing_url": null,
+      "line_delta": "=B区国家线",
+      "line_ultimate_2026": "254",
+      "major_code": "085410",
+      "major_source": "extracted",
+      "nn_college": "信息工程与自动化学院",
+      "nn_prog": "电子信息-人工智能(085410)",
+      "nn_subjects": "英二数二+891计算机专业核心综合(DS+DB+OS+CN自命题)",
+      "nn_url": "https://noobdream.com/schoolinfo/264/",
+      "note": "B区双非，085410人工智能2026仍自命题(891=DS+DB+OS+CN)非408；线254(B区国家线)录86均294。⚠️2027宣讲会提到计算机/软件/人工智能可能改408，待官方目录确认",
+      "province": "云南",
+      "raw": "{\"category\": \"S-主体\", \"province\": \"云南\", \"region\": \"西南\", \"tier\": \"双非(B区)\", \"subjectClass\": \"非408\", \"direction\": \"不区分研究方向\", \"college\": \"信息工程与自动化学院\", \"nnProg\": \"电子信息-人工智能(085410)\", \"nnCollege\": \"信息工程与自动化学院\", \"nnSubjects\": \"英二数二+891计算机专业核心综合(DS+DB+OS+CN自命题)\", \"line2026\": \"254\", \"lineDelta\": \"=B区国家线\", \"linesByYear\": {\"2023\": \"312\", \"2024\": \"266\", \"2025\": \"250\", \"2026\": \"254\"}, \"plan2026\": \"约86(61+25调剂)\", \"fill\": \"一志愿为主+大量调剂\", \"retestCnt\": \"62+55调剂\", \"admitCnt\": \"61+25调剂\", \"admitMax\": \"376\", \"admitMin\": \"254\", \"admitAvg\": \"294\", \"scope\": \"⚠️B区双非。085410人工智能(信息工程与自动化学院)2026初试为英二数二+891计算机专业核心综合(DS+DB+OS+CN)自命题，非408。N诺2026：线NC(=B区国家线254)，进复试62+55调剂均293【254-376】，单科67/63/83/80；录61+25调剂均294【254-376】。B区走国家线、大量收调剂\", \"aiTag\": \"✅真AI方向\", \"heatNet\": \"46\", \"heatComp\": \"29\", \"nn408avg\": null, \"nnRate\": \"90%\", \"note\": \"B区双非，085410人工智能2026仍自命题(891=DS+DB+OS+CN)非408；线254(B区国家线)录86均294。⚠️2027宣讲会提到计算机/软件/人工智能可能改408，待官方目录确认\", \"srcLabel\": \"官方+第三方\", \"src\": [\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"N诺\"], \"lineUltimate2026\": \"254\", \"wdCount\": \"8\", \"wdYears\": \"19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情\", \"wdUrl26\": \"https://mp.weixin.qq.com/s/iXybBe02ReM2kiyDCHaLUw\", \"nnUrl\": \"https://noobdream.com/schoolinfo/264/\"}",
+      "region": "西南",
+      "remark": null,
+      "school_key": "X-昆明理工大学",
+      "scope": "⚠️B区双非。085410人工智能(信息工程与自动化学院)2026初试为英二数二+891计算机专业核心综合(DS+DB+OS+CN)自命题，非408。N诺2026：线NC(=B区国家线254)，进复试62+55调剂均293【254-376】，单科67/63/83/80；录61+25调剂均294【254-376】。B区走国家线、大量收调剂",
+      "scope2": null,
+      "src": "[\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"N诺\"]",
+      "src_label": "官方+第三方",
+      "subject_claim_2026": null,
+      "subject_class": "非408",
+      "subject_status": null,
+      "tier": "双非(B区)",
+      "wd_count": "8",
+      "wd_url_26": "https://mp.weixin.qq.com/s/iXybBe02ReM2kiyDCHaLUw",
+      "wd_years": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情"
+    }
+  ],
+  "school": {
+    "category_guess": null,
+    "cb_id": null,
+    "code": null,
+    "code_verified": 0,
+    "cross_refs": null,
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 0,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-昆明理工大学.json",
+    "name": "昆明理工大学",
+    "nn_candidates": null,
+    "note": null,
+    "province": "云南",
+    "province_raw": "云南",
+    "region": "西南",
+    "school_key": "X-昆明理工大学",
+    "tier": "双非(B区)"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 304,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 254,
+      "offering_id": 101,
+      "raw_value": "254",
+      "school_key": "X-昆明理工大学",
+      "value": 254.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "B区"
+    },
+    {
+      "basis": "历年线",
+      "id": 305,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 263,
+      "offering_id": 101,
+      "raw_value": "312",
+      "school_key": "X-昆明理工大学",
+      "value": 312.0,
+      "value_kind": null,
+      "year": 2023,
+      "zone": "B区"
+    },
+    {
+      "basis": "历年线",
+      "id": 306,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 263,
+      "offering_id": 101,
+      "raw_value": "266",
+      "school_key": "X-昆明理工大学",
+      "value": 266.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "B区"
+    },
+    {
+      "basis": "历年线",
+      "id": 307,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 250,
+      "offering_id": 101,
+      "raw_value": "250",
+      "school_key": "X-昆明理工大学",
+      "value": 250.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "B区"
+    },
+    {
+      "basis": "历年线",
+      "id": 308,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 254,
+      "offering_id": 101,
+      "raw_value": "254",
+      "school_key": "X-昆明理工大学",
+      "value": 254.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "B区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 143,
+      "label": "昆明理工大学085410专业介绍",
+      "school_key": "X-昆明理工大学",
+      "tier": "T3-第三方整理",
+      "url": "https://www.ludengkaoyan.com/school340/qrz/zsml/385927.html"
+    },
+    {
+      "id": 144,
+      "label": "N诺昆明理工大学考情",
+      "school_key": "X-昆明理工大学",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/264/"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {
+    "成信工同档院校详细横评_2026.xlsx": {
+      "同档院校横评2026": {
+        "headers": [
+          "院校",
+          "城市",
+          "层次/标签",
+          "计算机学科评级",
+          "卷型",
+          "2026复试线",
+          "复试人数",
+          "录取人数",
+          "录取均分(区间)",
+          "初复试占比",
+          "复试特点",
+          "一志愿友好度",
+          "对你的定位"
+        ],
+        "n_rows": 8,
+        "rows": [
+          [
+            "成都信息工程大学",
+            "成都",
+            "四川省属·双一流创建",
+            "C+档",
+            "英二·数一·408",
+            "264国家线",
+            "—",
+            "计算机院约37",
+            "约285(264-400)",
+            "约70:30",
+            "机试+C/Python",
+            "★★★★☆ 改408首年洼地",
+            "基准(主目标)"
+          ],
+          [
+            "西南科技大学",
+            "绵阳",
+            "省部共建·国防科工局·四川省双一流",
+            "无评级(软工无)",
+            "英二数二408(26首年改)",
+            "264国家线",
+            "计算机68/软件75",
+            "60+2专项 / 70",
+            "计算机305(268-384)、软件298(264-351)",
+            "初试70%复试30%",
+            "机试OJ·ACM赛制·题偏简单",
+            "★★★★★ 招130、首年改408、线即国家线",
+            "最佳同档平替(更稳)"
+          ],
+          [
+            "桂林电子科技大学",
+            "桂林",
+            "工信部/国防共建·B区",
+            "计算机B- / 软工C+",
+            "英二数二408",
+            "B区254(25年250)",
+            "AI一志愿13+大量调剂",
+            "AI 13+19调剂",
+            "一志愿约277-289(250-328)",
+            "⚠初试40%+复试60%",
+            "笔试40%+面试60%,复试权重极高",
+            "★★★★★ 一志愿常年招不满、点击就送",
+            "学科最强但复试占比坑"
+          ],
+          [
+            "昆明理工大学",
+            "昆明",
+            "云南省属强校·B区",
+            "无评级",
+            "英二数二408",
+            "B区254",
+            "约109",
+            "约99",
+            "约297",
+            "约70:30",
+            "常规复试",
+            "★★★★☆ 规模大、B区",
+            "B区稳妥备选"
+          ],
+          [
+            "西南石油大学",
+            "成都新都",
+            "★双一流学科(石油天然气)",
+            "无权威评级",
+            "英二数二408",
+            "学硕264/专硕计算机技术300",
+            "学硕10",
+            "学硕10、专硕约25",
+            "学硕299(268-339)",
+            "约70:30",
+            "编程+专业面试",
+            "★★★☆☆ 专硕报录约4.2:1、线300",
+            "同城双一流,但专硕比成信工难"
+          ],
+          [
+            "成都理工大学",
+            "成都",
+            "★双一流学科",
+            "无评级",
+            "英二数二408",
+            "AI 308",
+            "45",
+            "30",
+            "340(320-390)",
+            "初试60%复试40%",
+            "C机试有斩杀线",
+            "★★★☆☆ 2026大年",
+            "冲(高一档)"
+          ],
+          [
+            "重庆邮电大学",
+            "重庆",
+            "四非王牌·信息通信",
+            "计算机B+",
+            "英二数二408",
+            "AI 336",
+            "—",
+            "约64",
+            "约350+",
+            "初试50%复试50%",
+            "算法笔试合格线50",
+            "★★☆☆☆ 热门、复试权重高",
+            "上限对照(最难)"
+          ],
+          [
+            "一句话:川渝非211双一流学科=成理+西南石油两所;和信工真正同分、又在川内的最佳平替是西南科技大学(绵阳,26改408首年招130,298-305,初试占70%)。",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      "逐校深挖要点": {
+        "headers": [],
+        "n_rows": 0,
+        "rows": []
+      }
+    }
+  },
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2027",
+      "id": 37,
+      "major_code": "085410",
+      "note": "2027宣讲会提到计算机技术/软件工程/人工智能可能改考408，具体以官网通知为准；2026仍自命题非408",
+      "school_key": "X-昆明理工大学",
+      "school_name": "昆明理工大学",
+      "scope": "计算机技术/软件工程/人工智能(信息工程与自动化学院)",
+      "source": "2027招生宣讲会(抖音/第三方)；待研招网正式目录",
+      "subject_new": "可能改408(待官方确认)",
+      "subject_old": "891计算机专业核心综合(自命题)",
+      "tier": "双非(B区)"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 541,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=6&sn=700df12577cfb42e85271790f8765dc9&scene=21&poc_token=HKaoCmmjM10izeKQN1g7SnzkaHpAZjfdba9CdTBP",
+      "year_label": "19考情"
+    },
+    {
+      "id": 542,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=5&sn=9d847183133ed88f7d7e827dcf906acc&scene=21&poc_token=HJioCmmjipMyYBXFThAGeIZLkPJqDV2MPU2WHcTD",
+      "year_label": "20考情"
+    },
+    {
+      "id": 543,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=4&sn=aac77e41e42a8b8335a0c8815306abf8&scene=21&poc_token=HIioCmmjH8sb3StvZ1m2S60MNmqDRw-IO_V3IATa",
+      "year_label": "21考情"
+    },
+    {
+      "id": 544,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=3&sn=06d7ee62c74a426185e2ff0dde8d7faa&scene=21&poc_token=HHqoCmmj6iTtgJIzWDXhWX2tBFikkC0epcNDpohS",
+      "year_label": "22考情"
+    },
+    {
+      "id": 545,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=2&sn=1a0eebe16fedde974b87972a3f2d69dd&scene=21&poc_token=HGioCmmjdZutZvXRrMwdUeFIiuUPZGv6nkaXk3CX",
+      "year_label": "23考情"
+    },
+    {
+      "id": 546,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=1&sn=4429b20b687594ce52cfe8f9b2deb5c7&scene=21&poc_token=HFioCmmj7yK5pz4W56Y66v4DL5T1YKdtVlgG-Ebz",
+      "year_label": "24考情"
+    },
+    {
+      "id": 547,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s/CltAsNYUTHUUYqlWqp_Ypw",
+      "year_label": "25考情"
+    },
+    {
+      "id": 548,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s/iXybBe02ReM2kiyDCHaLUw",
+      "year_label": "26考情"
+    },
+    {
+      "id": 1200,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=6&sn=700df12577cfb42e85271790f8765dc9&scene=21&poc_token=HKaoCmmjM10izeKQN1g7SnzkaHpAZjfdba9CdTBP",
+      "year_label": "19考情"
+    },
+    {
+      "id": 1201,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=5&sn=9d847183133ed88f7d7e827dcf906acc&scene=21&poc_token=HJioCmmjipMyYBXFThAGeIZLkPJqDV2MPU2WHcTD",
+      "year_label": "20考情"
+    },
+    {
+      "id": 1202,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=4&sn=aac77e41e42a8b8335a0c8815306abf8&scene=21&poc_token=HIioCmmjH8sb3StvZ1m2S60MNmqDRw-IO_V3IATa",
+      "year_label": "21考情"
+    },
+    {
+      "id": 1203,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=3&sn=06d7ee62c74a426185e2ff0dde8d7faa&scene=21&poc_token=HHqoCmmj6iTtgJIzWDXhWX2tBFikkC0epcNDpohS",
+      "year_label": "22考情"
+    },
+    {
+      "id": 1204,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=2&sn=1a0eebe16fedde974b87972a3f2d69dd&scene=21&poc_token=HGioCmmjdZutZvXRrMwdUeFIiuUPZGv6nkaXk3CX",
+      "year_label": "23考情"
+    },
+    {
+      "id": 1205,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235934&idx=1&sn=4429b20b687594ce52cfe8f9b2deb5c7&scene=21&poc_token=HFioCmmj7yK5pz4W56Y66v4DL5T1YKdtVlgG-Ebz",
+      "year_label": "24考情"
+    },
+    {
+      "id": 1206,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s/CltAsNYUTHUUYqlWqp_Ypw",
+      "year_label": "25考情"
+    },
+    {
+      "id": 1207,
+      "school_key": "X-昆明理工大学",
+      "url": "https://mp.weixin.qq.com/s/iXybBe02ReM2kiyDCHaLUw",
+      "year_label": "26考情"
+    }
+  ]
+}

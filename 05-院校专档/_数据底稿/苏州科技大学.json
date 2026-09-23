@@ -1,0 +1,444 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "lite",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "苏州科技大学",
+    "school_key": "10332"
+  },
+  "admissions": [
+    {
+      "admit_avg": "328",
+      "admit_avg_note": null,
+      "admit_avg_value": 328,
+      "admit_cnt": "44",
+      "admit_cnt_note": null,
+      "admit_cnt_value": 44,
+      "admit_max": "378",
+      "admit_max_note": null,
+      "admit_max_value": 378,
+      "admit_min": "302",
+      "admit_min_note": null,
+      "admit_min_value": 302,
+      "fill": "一志愿为主",
+      "fill_note": "一志愿为主",
+      "fill_type_code": "F05",
+      "fill_value": null,
+      "heat_comp": null,
+      "heat_net": null,
+      "id": 161,
+      "major_code": "085404",
+      "nn_408avg": "85",
+      "nn_rate": "约83%",
+      "offering_id": 161,
+      "plan": "44",
+      "plan_note": null,
+      "plan_value": 44,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": "53",
+      "retest_cnt_note": null,
+      "retest_cnt_value": 53,
+      "school_key": "10332",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [
+    {
+      "action": null,
+      "claims": null,
+      "field": "subjectClass",
+      "id": 27,
+      "major_code": null,
+      "new_value": null,
+      "old_value": null,
+      "reason": null,
+      "refs": "null",
+      "school_key": "10332",
+      "scope": "in-school",
+      "status": null
+    }
+  ],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 4,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 5,
+    "score_quantiles": 0,
+    "sources": 2,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 10
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "电子与信息工程学院",
+      "major_code": "085404",
+      "offering_id": 161,
+      "src": "lib06",
+      "subject_key": "kaoqing_subjects",
+      "subject_label": "22408"
+    },
+    {
+      "college": "电子与信息工程学院",
+      "major_code": "085404",
+      "offering_id": 161,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二408"
+    },
+    {
+      "college": "电子与信息工程学院",
+      "major_code": "085404",
+      "offering_id": 161,
+      "src": "lib06",
+      "subject_key": "update_subject_new",
+      "subject_label": "408"
+    },
+    {
+      "college": "电子与信息工程学院",
+      "major_code": "085404",
+      "offering_id": 161,
+      "src": "lib06",
+      "subject_key": "update_subject_old",
+      "subject_label": "二二程序设计Java(自命题)"
+    }
+  ],
+  "gaps": [
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：subjectClass（None）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "328",
+      "admit_cnt": "44",
+      "admit_max": "378",
+      "admit_min": "302",
+      "batch": null,
+      "college": "电子与信息工程学院",
+      "id": 101,
+      "line_value": 300.0,
+      "major_code": "085404",
+      "plan": "44",
+      "program": null,
+      "retest_cnt": "53",
+      "school_key": "10332",
+      "scope": "085404计算机22408，校线300，一志愿拟录取均328【302-378】；408均分85",
+      "subjects": "22408",
+      "tier": "双非",
+      "url": "https://noobdream.com/schoolinfo/168/",
+      "verify": "第三方(N诺)+官方(复试线300)",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "⚠️电子信息-计算机(非085410单列)",
+      "category": "S-主体",
+      "college": "电子与信息工程学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "电子信息-计算机(085404)",
+      "fill_2026": null,
+      "id": 161,
+      "kaoqing_url": "https://noobdream.com/schoolinfo/168/",
+      "line_delta": "+14",
+      "line_ultimate_2026": null,
+      "major_code": "085404",
+      "major_source": "extracted",
+      "nn_college": "电子与信息工程学院",
+      "nn_prog": "电子信息-计算机",
+      "nn_subjects": "英二数二408",
+      "nn_url": null,
+      "note": "085404计算机22408，校线300(高于国家线264)，一志愿为主44人，拟录取均328【302-378】；408均分85；无单列085410；注意智能科学与技术学硕考电路基础(非408)；复录比1.2",
+      "province": "江苏",
+      "raw": "{\"category\": \"S-主体\", \"province\": \"江苏\", \"region\": \"华东\", \"tier\": \"双非\", \"subjectClass\": \"22408\", \"direction\": \"电子信息-计算机(085404)\", \"college\": \"电子与信息工程学院\", \"line2026\": \"300\", \"lineDelta\": \"+14\", \"linesByYear\": {\"2023\": \"273\", \"2024\": \"300\", \"2025\": \"286\", \"2026\": \"300\"}, \"plan2026\": \"44\", \"fill\": \"一志愿为主\", \"retestCnt\": \"53\", \"admitCnt\": \"44\", \"admitMax\": \"378\", \"admitMin\": \"302\", \"admitAvg\": \"328\", \"scope\": \"085404电子信息-计算机(电子与信息工程学院)2026线300(校线,高于国家线)；2025改考22408；一志愿进复试53人，进复试均分325【300-378】；拟录取44人均328【302-378】；408单科均分85\", \"aiTag\": \"⚠️电子信息-计算机(非085410单列)\", \"heatNet\": null, \"heatComp\": null, \"nn408avg\": \"85\", \"nnRate\": \"约83%\", \"note\": \"085404计算机22408，校线300(高于国家线264)，一志愿为主44人，拟录取均328【302-378】；408均分85；无单列085410；注意智能科学与技术学硕考电路基础(非408)；复录比1.2\", \"srcLabel\": \"第三方\", \"src\": [\"N诺\", \"官方(复试线/招生计划)\", \"三源核对\"], \"nnProg\": \"电子信息-计算机\", \"nnCollege\": \"电子与信息工程学院\", \"nnSubjects\": \"英二数二408\", \"wdCount\": \"5\", \"wdYears\": \"20考情,23考情,24考情,25考情,26考情\", \"wdUrl26\": \"https://mp.weixin.qq.com/s/CJNYQ-rkfYN89-vked8OAQ\", \"kaoqingUrl\": \"https://noobdream.com/schoolinfo/168/\"}",
+      "region": "华东",
+      "remark": null,
+      "school_key": "10332",
+      "scope": "085404电子信息-计算机(电子与信息工程学院)2026线300(校线,高于国家线)；2025改考22408；一志愿进复试53人，进复试均分325【300-378】；拟录取44人均328【302-378】；408单科均分85",
+      "scope2": null,
+      "src": "[\"N诺\", \"官方(复试线/招生计划)\", \"三源核对\"]",
+      "src_label": "第三方",
+      "subject_claim_2026": null,
+      "subject_class": "22408",
+      "subject_status": null,
+      "tier": "双非",
+      "wd_count": "5",
+      "wd_url_26": "https://mp.weixin.qq.com/s/CJNYQ-rkfYN89-vked8OAQ",
+      "wd_years": "20考情,23考情,24考情,25考情,26考情"
+    }
+  ],
+  "school": {
+    "category_guess": "N诺新增候选(已提升为主体)",
+    "cb_id": null,
+    "code": "10332",
+    "code_verified": 1,
+    "cross_refs": "[{\"name\": \"智能科学与技术(学硕)\", \"subjects\": \"一一电路基础(非408)\", \"line2026\": \"国家线(NC)\", \"note\": \"考电路基础自命题，非408；1一志愿+22调剂\"}]",
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-苏州科技大学.json",
+    "name": "苏州科技大学",
+    "nn_candidates": null,
+    "note": "085404电子信息-计算机(非085410)22408，校线300、拟录取均328，略高于用户310档；智能科学与技术为电路基础自命题非408。",
+    "province": "江苏",
+    "province_raw": "江苏",
+    "region": "华东",
+    "school_key": "10332",
+    "tier": "双非"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 492,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 264,
+      "offering_id": 161,
+      "raw_value": "300",
+      "school_key": "10332",
+      "value": 300.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 493,
+      "is_national_line": true,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 273,
+      "offering_id": 161,
+      "raw_value": "273",
+      "school_key": "10332",
+      "value": 273.0,
+      "value_kind": null,
+      "year": 2023,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 494,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 273,
+      "offering_id": 161,
+      "raw_value": "300",
+      "school_key": "10332",
+      "value": 300.0,
+      "value_kind": null,
+      "year": 2024,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 495,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 260,
+      "offering_id": 161,
+      "raw_value": "286",
+      "school_key": "10332",
+      "value": 286.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 496,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085404",
+      "national_line_value": 264,
+      "offering_id": 161,
+      "raw_value": "300",
+      "school_key": "10332",
+      "value": 300.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 229,
+      "label": "N诺 苏州科技大学",
+      "school_key": "10332",
+      "tier": "T3-第三方整理",
+      "url": "https://noobdream.com/schoolinfo/168/"
+    },
+    {
+      "id": 230,
+      "label": "苏州科技大学2026复试线(085404计算机技术≥300)",
+      "school_key": "10332",
+      "tier": "T1-官方",
+      "url": "https://yjsb.usts.edu.cn/info/1048/4503.htm"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2025",
+      "id": 61,
+      "major_code": "085404",
+      "note": "2025起计算机技术改22408；2027维持408",
+      "school_key": "10332",
+      "school_name": "苏州科技大学",
+      "scope": "085404电子信息-计算机",
+      "source": "N诺schoolinfo/168",
+      "subject_new": "408",
+      "subject_old": "二二程序设计Java(自命题)",
+      "tier": "双非"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 865,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232726&idx=4&sn=5b26d6cd07c42e76307c2907256cfff6&scene=21&poc_token=HBlqDGmjdeQOviAgCiK6XSjQoEhuZoy_xWcTOVkh",
+      "year_label": "20考情"
+    },
+    {
+      "id": 866,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232726&idx=2&sn=23ac57f3afaa3effe1953b7d31a25931&scene=21&poc_token=HBdqDGmjMqmnGcMZsAlqwn6k6Y6yD4MQRKXEgCuY",
+      "year_label": "23考情"
+    },
+    {
+      "id": 867,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232726&idx=1&sn=8803494f66403e7e8c3af09ac42251ad&scene=21&poc_token=HBRqDGmjfTEqOB5dKAQPcbe3ieJaAVFejInK6HzD",
+      "year_label": "24考情"
+    },
+    {
+      "id": 868,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s/uw0Fwojacjj6OoSslx9hWg",
+      "year_label": "25考情"
+    },
+    {
+      "id": 869,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s/CJNYQ-rkfYN89-vked8OAQ",
+      "year_label": "26考情"
+    },
+    {
+      "id": 2399,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232726&idx=4&sn=5b26d6cd07c42e76307c2907256cfff6&scene=21&poc_token=HBlqDGmjdeQOviAgCiK6XSjQoEhuZoy_xWcTOVkh",
+      "year_label": "20考情"
+    },
+    {
+      "id": 2400,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232726&idx=2&sn=23ac57f3afaa3effe1953b7d31a25931&scene=21&poc_token=HBdqDGmjMqmnGcMZsAlqwn6k6Y6yD4MQRKXEgCuY",
+      "year_label": "23考情"
+    },
+    {
+      "id": 2401,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232726&idx=1&sn=8803494f66403e7e8c3af09ac42251ad&scene=21&poc_token=HBRqDGmjfTEqOB5dKAQPcbe3ieJaAVFejInK6HzD",
+      "year_label": "24考情"
+    },
+    {
+      "id": 2402,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s/uw0Fwojacjj6OoSslx9hWg",
+      "year_label": "25考情"
+    },
+    {
+      "id": 2403,
+      "school_key": "10332",
+      "url": "https://mp.weixin.qq.com/s/CJNYQ-rkfYN89-vked8OAQ",
+      "year_label": "26考情"
+    }
+  ]
+}

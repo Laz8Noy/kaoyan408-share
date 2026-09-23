@@ -1,0 +1,432 @@
+{
+  "_meta": {
+    "db": "06-院校数据库/data/kaoyan408.db",
+    "depth": "lite",
+    "generated": "2026-09-23",
+    "generator": "09-生成脚本/build_school_profiles.py",
+    "national_lines": {
+      "2023": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2024": {
+        "A区": {
+          "s408": null,
+          "total": 273
+        },
+        "B区": {
+          "s408": null,
+          "total": 263
+        }
+      },
+      "2025": {
+        "A区": {
+          "s408": null,
+          "total": 260
+        },
+        "B区": {
+          "s408": null,
+          "total": 250
+        }
+      },
+      "2026": {
+        "A区": {
+          "s408": 53,
+          "total": 264
+        },
+        "B区": {
+          "s408": 48,
+          "total": 254
+        }
+      }
+    },
+    "rules": {
+      "is_national_line_rule": "value ∈ {当年A区线, 当年B区线} → 执行国家线；**不得依赖 score_lines.basis**",
+      "no_fabrication": "底稿之外的数字只能联网取证并贴完整 URL",
+      "null_rule": "缺失写「未获取」，禁止猜测 / 推算 / 跨校搬数",
+      "source_tiers": {
+        "T1": "官方一手",
+        "T2": "官方转载",
+        "T3": "第三方整理",
+        "T4": "仓库内值"
+      },
+      "triplet_rule": "分数线必须按 (学校+专业+学院) 三元组呈现，禁止合并成一行"
+    },
+    "school": "天津工业大学",
+    "school_key": "10058"
+  },
+  "admissions": [
+    {
+      "admit_avg": "352.9",
+      "admit_avg_note": null,
+      "admit_avg_value": 353,
+      "admit_cnt": "40",
+      "admit_cnt_note": null,
+      "admit_cnt_value": 40,
+      "admit_max": "391",
+      "admit_max_note": null,
+      "admit_max_value": 391,
+      "admit_min": "332",
+      "admit_min_note": null,
+      "admit_min_value": 332,
+      "fill": "一志愿为主",
+      "fill_note": "一志愿为主",
+      "fill_type_code": "F05",
+      "fill_value": null,
+      "heat_comp": "32",
+      "heat_net": "55",
+      "id": 65,
+      "major_code": "085410",
+      "nn_408avg": "91",
+      "nn_rate": "80%",
+      "offering_id": 65,
+      "plan": "33(31不含推免)",
+      "plan_note": "33(31不含推免)",
+      "plan_value": 33,
+      "ratio_apply": null,
+      "ratio_retest": null,
+      "retest_cnt": null,
+      "retest_cnt_note": null,
+      "retest_cnt_value": null,
+      "school_key": "10058",
+      "year": 2026
+    }
+  ],
+  "catalog": [],
+  "conflicts": [
+    {
+      "action": "085410 复试线=332（AI学院自划线，非国家线264）；科目22408（英二数二408）",
+      "claims": "[{\"src\": \"官方(AI学院2026复试录取实施办法)\", \"value\": \"332（校内自划线：一志愿总分不低于332）\"}, {\"src\": \"N诺2026表\", \"value\": \"332\"}, {\"src\": \"终极版(旧)\", \"value\": \"264(国家线)——已证伪\"}]",
+      "field": "2026 线口径",
+      "id": 32,
+      "major_code": "085410",
+      "new_value": null,
+      "old_value": null,
+      "reason": null,
+      "refs": null,
+      "school_key": "10058",
+      "scope": "cross-school",
+      "status": "已核实-332"
+    }
+  ],
+  "counts": {
+    "admissions": 1,
+    "catalog": 0,
+    "conflicts": 1,
+    "dai408_records": 0,
+    "exam_subjects": 4,
+    "kaoqing": 1,
+    "offerings": 1,
+    "score_bands": 0,
+    "score_lines": 3,
+    "score_quantiles": 0,
+    "sources": 1,
+    "stats_yoy": 0,
+    "students_sheets": 0,
+    "tutors": 0,
+    "updates_2027": 1,
+    "wangdao_links": 14
+  },
+  "dai408_records": [],
+  "exam_subjects": [
+    {
+      "college": "人工智能学院",
+      "major_code": "085410",
+      "offering_id": 65,
+      "src": "lib06",
+      "subject_key": "kaoqing_subjects",
+      "subject_label": "22408"
+    },
+    {
+      "college": "人工智能学院",
+      "major_code": "085410",
+      "offering_id": 65,
+      "src": "lib06",
+      "subject_key": "nn_subjects",
+      "subject_label": "英二数二408"
+    },
+    {
+      "college": "人工智能学院",
+      "major_code": "085410",
+      "offering_id": 65,
+      "src": "lib06",
+      "subject_key": "update_subject_new",
+      "subject_label": "408"
+    },
+    {
+      "college": "人工智能学院",
+      "major_code": "085410",
+      "offering_id": 65,
+      "src": "lib06",
+      "subject_key": "update_subject_old",
+      "subject_label": "自命题"
+    }
+  ],
+  "gaps": [
+    "2026 复试数 未获取",
+    "CS 学科排名（cs_rank）未获取",
+    "冲突登记：2026 线口径（已核实-332）",
+    "导师未收录（tutors 表全库仅覆盖 16 校）",
+    "无 CodeBrick 逐年分位数据",
+    "无分数带分布数据",
+    "研招网招生目录未收录"
+  ],
+  "kaoqing": [
+    {
+      "admit_avg": "352.9",
+      "admit_cnt": "40",
+      "admit_max": "391",
+      "admit_min": "332",
+      "batch": null,
+      "college": "人工智能学院",
+      "id": 38,
+      "line_value": 332.0,
+      "major_code": "085410",
+      "plan": "33(31不含推免)",
+      "program": null,
+      "retest_cnt": null,
+      "school_key": "10058",
+      "scope": "一志愿拟录取40人（含退役1人314）；普通39人最高391、最低332、均352.9；复试线332（AI学院自划线）；目录拟招33(31不含推免)",
+      "subjects": "22408",
+      "tier": "双一流",
+      "url": "https://ai.tiangong.edu.cn/2026/0330/c5000a113645/page.htm",
+      "verify": "官方✅",
+      "year": 2026
+    }
+  ],
+  "offerings": [
+    {
+      "ai_tag": "✅真AI方向",
+      "category": "S-主体",
+      "college": "人工智能学院",
+      "cy_admit": null,
+      "cy_avg": null,
+      "cy_code": null,
+      "cy_retest": null,
+      "direction": "不区分研究方向",
+      "fill_2026": null,
+      "id": 65,
+      "kaoqing_url": "https://ai.tiangong.edu.cn/2026/0330/c5000a113645/page.htm",
+      "line_delta": "+68",
+      "line_ultimate_2026": "264",
+      "major_code": "085410",
+      "major_source": "extracted",
+      "nn_college": "人工智能学院",
+      "nn_prog": "电子信息-人工智能",
+      "nn_subjects": "英二数二408",
+      "nn_url": null,
+      "note": "AI学院独立招生085410（官方目录2026，22408英二数二408）；复试线332（校内自划线）；一志愿录取40人（含退役1）；2025线260　[2026-09-23 修正] 2025 年复试线 260→295（T1 官方 2025 复试线表：085410 = 295（2026-09-23 取证））",
+      "province": "天津",
+      "raw": "{\"category\": \"S-主体\", \"province\": \"天津\", \"region\": \"华北\", \"tier\": \"双一流\", \"subjectClass\": \"22408\", \"direction\": \"不区分研究方向\", \"line2026\": \"332\", \"lineDelta\": \"+68\", \"linesByYear\": {\"2023\": null, \"2024\": null, \"2025\": \"295\", \"2026\": \"332\"}, \"plan2026\": \"33(31不含推免)\", \"fill\": \"一志愿为主\", \"admitCnt\": \"40\", \"admitMax\": \"391\", \"admitMin\": \"332\", \"admitAvg\": \"352.9\", \"scope\": \"一志愿拟录取40人（含退役1人314）；普通39人最高391、最低332、均352.9；复试线332（AI学院自划线，非国家线）；目录拟招33(31不含推免)\", \"aiTag\": \"✅真AI方向\", \"heatNet\": \"55\", \"heatComp\": \"32\", \"nn408avg\": \"91\", \"nnRate\": \"80%\", \"note\": \"AI学院独立招生085410（官方目录2026，22408英二数二408）；复试线332（校内自划线）；一志愿录取40人（含退役1）；2025线260　[2026-09-23 修正] 2025 年复试线 260→295（T1 官方 2025 复试线表：085410 = 295（2026-09-23 取证））\", \"srcLabel\": \"官方\", \"src\": [\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"考情明细\"], \"lineUltimate2026\": \"264\", \"nnProg\": \"电子信息-人工智能\", \"nnCollege\": \"人工智能学院\", \"nnSubjects\": \"英二数二408\", \"wdCount\": \"7\", \"wdYears\": \"19考情,21考情,22考情,23考情,24考情,25考情,26考情\", \"wdUrl26\": \"https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow\", \"remark\": \"N诺同332；已复核官方复试办法\", \"kaoqingUrl\": \"https://ai.tiangong.edu.cn/2026/0330/c5000a113645/page.htm\", \"college\": \"人工智能学院\"}",
+      "region": "华北",
+      "remark": "N诺同332；已复核官方复试办法",
+      "school_key": "10058",
+      "scope": "一志愿拟录取40人（含退役1人314）；普通39人最高391、最低332、均352.9；复试线332（AI学院自划线，非国家线）；目录拟招33(31不含推免)",
+      "scope2": null,
+      "src": "[\"总览\", \"区域榜\", \"招录比对比\", \"三源核对\", \"考情明细\"]",
+      "src_label": "官方",
+      "subject_claim_2026": null,
+      "subject_class": "22408",
+      "subject_status": null,
+      "tier": "双一流",
+      "wd_count": "7",
+      "wd_url_26": "https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow",
+      "wd_years": "19考情,21考情,22考情,23考情,24考情,25考情,26考情"
+    }
+  ],
+  "school": {
+    "category_guess": null,
+    "cb_id": null,
+    "code": "10058",
+    "code_verified": 1,
+    "cross_refs": null,
+    "cs_rank": null,
+    "deep_ref": null,
+    "in_cb": 0,
+    "in_key_list": null,
+    "in_lib06": 1,
+    "in_lib10": 0,
+    "in_tj_list": null,
+    "in_yz408": 1,
+    "is211": null,
+    "is985": null,
+    "is_dfc": null,
+    "lib06_file": "001-天津工业大学.json",
+    "name": "天津工业大学",
+    "nn_candidates": null,
+    "note": null,
+    "province": "天津",
+    "province_raw": "天津",
+    "region": "华北",
+    "school_key": "10058",
+    "tier": "双一流"
+  },
+  "score_bands": [],
+  "score_lines": [
+    {
+      "basis": "院线/专业线",
+      "id": 182,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 65,
+      "raw_value": "332",
+      "school_key": "10058",
+      "value": 332.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 183,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 260,
+      "offering_id": 65,
+      "raw_value": "295",
+      "school_key": "10058",
+      "value": 295.0,
+      "value_kind": null,
+      "year": 2025,
+      "zone": "A区"
+    },
+    {
+      "basis": "历年线",
+      "id": 184,
+      "is_national_line": false,
+      "line_type": "复试线",
+      "major_code": "085410",
+      "national_line_value": 264,
+      "offering_id": 65,
+      "raw_value": "332",
+      "school_key": "10058",
+      "value": 332.0,
+      "value_kind": null,
+      "year": 2026,
+      "zone": "A区"
+    }
+  ],
+  "score_quantiles": [],
+  "sources": [
+    {
+      "id": 90,
+      "label": "天津工业大学085410招生目录",
+      "school_key": "10058",
+      "tier": "T1-官方",
+      "url": "https://yjsb.tiangong.edu.cn/"
+    }
+  ],
+  "stats_yoy": [],
+  "students": {},
+  "tutors": [],
+  "updates_2027": [
+    {
+      "effective_year": "2026",
+      "id": 22,
+      "major_code": "085410",
+      "note": "AI学院33人；22408；计科/计专/软专全部408",
+      "school_key": "10058",
+      "school_name": "天津工业大学",
+      "scope": "085410人工智能",
+      "source": "官方目录2026",
+      "subject_new": "408",
+      "subject_old": "自命题",
+      "tier": "双一流"
+    }
+  ],
+  "wangdao_links": [
+    {
+      "id": 367,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155765&idx=4&sn=2ae56333d8304d287d8c5762424ce78c&scene=21&poc_token=HKuyCmmjoc5TBXL5D2XtE2pOW3MtHxC2E5Acg9II",
+      "year_label": "19考情"
+    },
+    {
+      "id": 368,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666167220&idx=6&sn=e9a1fcb5e5f0de18c45f3b69b4100b0f&scene=21&poc_token=HKCyCmmjGdcSg7dsjo7YtDPtXfjnJVXk_bm4B8jk",
+      "year_label": "21考情"
+    },
+    {
+      "id": 369,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666190799&idx=3&sn=36257ba4db9ba48ee04c344ffd524eef&scene=21&poc_token=HJ2yCmmjNEIClv1RK5ThDLxjR88wWZ4OONI-NRqC",
+      "year_label": "22考情"
+    },
+    {
+      "id": 370,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=3&sn=86f7d9ee4cae3e5b7f9ba2f62546ec03&scene=21&poc_token=HJqyCmmj-GbHHOuUf5wFoxCWg6llJAy6K0NuwxWb",
+      "year_label": "23考情"
+    },
+    {
+      "id": 371,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=1&sn=ef947954b9b30798173514749669721b&scene=21&poc_token=HIiyCmmjgxi0QDNxyLSv4WwhiuCvZVXFKn0OBfGc",
+      "year_label": "24考情"
+    },
+    {
+      "id": 372,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s/30ZwykKDiwqQqLi0DzV6Og",
+      "year_label": "25考情"
+    },
+    {
+      "id": 373,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow",
+      "year_label": "26考情"
+    },
+    {
+      "id": 1729,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155765&idx=4&sn=2ae56333d8304d287d8c5762424ce78c&scene=21&poc_token=HKuyCmmjoc5TBXL5D2XtE2pOW3MtHxC2E5Acg9II",
+      "year_label": "19考情"
+    },
+    {
+      "id": 1730,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666167220&idx=6&sn=e9a1fcb5e5f0de18c45f3b69b4100b0f&scene=21&poc_token=HKCyCmmjGdcSg7dsjo7YtDPtXfjnJVXk_bm4B8jk",
+      "year_label": "21考情"
+    },
+    {
+      "id": 1731,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666190799&idx=3&sn=36257ba4db9ba48ee04c344ffd524eef&scene=21&poc_token=HJ2yCmmjNEIClv1RK5ThDLxjR88wWZ4OONI-NRqC",
+      "year_label": "22考情"
+    },
+    {
+      "id": 1732,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=3&sn=86f7d9ee4cae3e5b7f9ba2f62546ec03&scene=21&poc_token=HJqyCmmj-GbHHOuUf5wFoxCWg6llJAy6K0NuwxWb",
+      "year_label": "23考情"
+    },
+    {
+      "id": 1733,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=1&sn=ef947954b9b30798173514749669721b&scene=21&poc_token=HIiyCmmjgxi0QDNxyLSv4WwhiuCvZVXFKn0OBfGc",
+      "year_label": "24考情"
+    },
+    {
+      "id": 1734,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s/30ZwykKDiwqQqLi0DzV6Og",
+      "year_label": "25考情"
+    },
+    {
+      "id": 1735,
+      "school_key": "10058",
+      "url": "https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow",
+      "year_label": "26考情"
+    }
+  ]
+}
