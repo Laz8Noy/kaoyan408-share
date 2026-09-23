@@ -311,7 +311,7 @@ SEC_B = '<!-- /DEEP -->'
 JS_A = '/* ===== DEEP-BEGIN ===== */'
 JS_B = '/* ===== DEEP-END ===== */'
 
-SEC_HTML = """<section id="deep">
+SEC_HEAD = """<section id="deep">
   <h2>八·五、重点院校专档（21 校 · 深度摘要）<span class="hint">核心 10 所完整版 · 其余 11 所精简版 · 正本见 05-院校专档/</span></h2>
   <div class="hm-toolbar">
     <button class="active" id="dp-core">只看核心 10 所</button>
@@ -319,8 +319,52 @@ SEC_HTML = """<section id="deep">
     <span style="font-size:12px;color:var(--muted)">按数据丰富度排序；「未获取」= 底稿与联网取证均无该数据</span>
   </div>
   <div id="dp-nav" style="display:flex;flex-wrap:wrap;gap:6px;margin:8px 0"></div>
-  <div id="deep-grid" class="card-stack"></div>
-</section>"""
+  <div id="deep-grid" class="card-stack"></div>"""
+
+LIGHT_JSON = os.path.join("05-院校专档", "_light.json")
+
+
+def _esc(t):
+    return (str("" if t is None else t).replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
+
+
+def light_html(light):
+    """其余院校轻量速览表（一表一校一行，静态生成，无需 JS）"""
+    if not light or not light.get("schools"):
+        return ""
+    rows = light["schools"]
+    h = ['<h3 style="margin-top:24px">其余 %d 所速览（轻量）'
+         '<span class="hint">一表一校一行 · 未做深度专档的院校 · 完整表见 05-院校专档/其余院校速览.md</span></h3>'
+         % len(rows),
+         '<div class="cardsub">只带关键口径，不展开；需要深度的 21 所见上方卡片。'
+         '数据来自统一库（06 择校库 + 研招网目录 + Dai408）；「未获取」= 库里确实没有，非漏填。</div>',
+         '<div class="table-wrap" style="max-height:520px">',
+         '<table style="min-width:1200px"><thead><tr>'
+         '<th>院校</th><th>层次</th><th>省市</th><th>2026线</th><th>国家线</th><th>执行国家线</th>'
+         '<th>拟招</th><th>复试</th><th>录取</th><th>录取均分</th><th>2027改考</th><th>王道</th>'
+         '<th>数据档</th><th>备注</th></tr></thead><tbody>']
+
+    def nz(v):
+        return "未获取" if v is None or v == "" else v
+
+    for x in rows:
+        h.append(
+            "<tr><td>%s</td><td>%s</td><td>%s</td>"
+            '<td class="num">%s</td><td class="num">%s</td><td>%s</td>'
+            '<td class="num">%s</td><td class="num">%s</td><td class="num">%s</td><td class="num">%s</td>'
+            "<td>%s</td><td class=\"num\">%s</td><td>%s</td><td>%s</td></tr>" % (
+                _esc(x["n"]), _esc(x["t"] or "—"),
+                _esc((x["p"] or "—") + (("/" + x["r"]) if x["r"] else "")),
+                nz(x["line"]), nz(x["nat"]),
+                ("是" if x["is_nat"] else "否") if x["line"] is not None else "未获取",
+                nz(x["plan"]), nz(x["retest"]), nz(x["admit"]), nz(x["avg"]),
+                ("有 %d 条" % x["u27"]) if x["u27"] else "未获取",
+                x["wd"] or "未获取",
+                {"full": "有实质数据", "catalog_only": "仅目录", "link_only": "仅链接"}.get(x["lvl"], x["lvl"]),
+                _esc(x["note"][:70] or "—")))
+    h += ["</tbody></table></div>"]
+    return "\n".join(h)
 
 JS_CODE = """/* ===== DEEP-BEGIN ===== */
 var _dpAll=false;
@@ -364,8 +408,10 @@ if not os.path.isfile(DEEP_JSON):
     print("04 页专档章节：跳过（缺 %s，跑 build_school_profiles.py --index）" % DEEP_JSON)
 else:
     _deep = json.load(io.open(DEEP_JSON, encoding="utf-8"))
+    _light = json.load(io.open(LIGHT_JSON, encoding="utf-8")) if os.path.isfile(LIGHT_JSON) else None
+    _sec = SEC_HEAD + "\n" + light_html(_light) + "\n</section>"
     _ds = json.dumps(_deep, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    _block = SEC_HTML + '\n<script>var DEEP=' + _ds + ';</script>\n' + SEC_B
+    _block = _sec + '\n<script>var DEEP=' + _ds + ';</script>\n' + SEC_B
     h4 = rd(HTML_04)
     if SEC_A in h4 and SEC_B in h4:
         _i, _j = h4.index(SEC_A), h4.index(SEC_B) + len(SEC_B)

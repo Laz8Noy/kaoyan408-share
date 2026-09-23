@@ -345,6 +345,117 @@ def do_index(cur, nlmap):
     return 0
 
 
+# ---------------- --light 模式：其余院校轻量速览（一表一校一行） ----------------
+HTML_04 = os.path.join(ROOT, "04-终极版择校", "全国408_085410双非热度版_终极版_20260826.html")
+
+
+def grab_js_array(path, var):
+    """从 HTML 里抠出 var X=[...] 的 JSON（括号配平）"""
+    t = io.open(path, encoding="utf-8").read()
+    key = "var " + var + "="
+    if key not in t:
+        return []
+    a = t.index(key) + len(key)
+    while t[a] in " \t\r\n":
+        a += 1
+    depth, ins, esc = 0, False, False
+    for j in range(a, len(t)):
+        c = t[j]
+        if ins:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                ins = False
+            continue
+        if c == '"':
+            ins = True
+        elif c in "[{":
+            depth += 1
+        elif c in "]}":
+            depth -= 1
+            if depth == 0:
+                return json.loads(t[a:j + 1].replace("<\\/", "</"))
+    return []
+
+
+def do_light(cur, nlmap):
+    """为「04 页 var S 覆盖、但没有深度专档」的院校生成轻量速览（一校一行）。"""
+    done = {n for n, _ in SCHOOLS}
+    S = grab_js_array(HTML_04, "S")
+    C = grab_js_array(HTML_04, "C")
+    seen, order = set(), []
+    for d in S + C:
+        n = d.get("n")
+        if n and n not in seen:
+            seen.add(n)
+            order.append((n, d))
+    todo = [(n, d) for n, d in order if n not in done]
+    rows_out = []
+    for n, d in todo:
+        rs = rows(cur, "SELECT * FROM schools WHERE name=?", (n,))
+        if not rs:
+            continue
+        r = rs[0]
+        k = r["school_key"]
+        a = rows(cur, "SELECT * FROM admissions WHERE school_key=?", (k,))
+        a = a[0] if a else {}
+        line = None
+        for x in rows(cur, "SELECT value, year FROM score_lines WHERE school_key=? AND year=2026", (k,)):
+            try:
+                line = int(float(x["value"]))
+                break
+            except (TypeError, ValueError):
+                pass
+        zone = "B区" if (r["province"] or "") in B_ZONE else "A区"
+        nat = (nlmap.get(2026) or {}).get(zone)
+        natv = nat["total"] if nat else None
+        lv = rows(cur, "SELECT data_level FROM v_school_all WHERE school_key=?", (k,))
+        rows_out.append({
+            "n": n, "k": k, "t": r["tier"] or "", "p": r["province"] or "", "r": r["region"] or "",
+            "sc": d.get("t") or "", "lvl": (lv[0]["data_level"] if lv else ""),
+            "line": line, "nat": natv,
+            "is_nat": bool(line is not None and natv is not None and line == natv),
+            "plan": a.get("plan_value"), "retest": a.get("retest_cnt_value"),
+            "admit": a.get("admit_cnt_value"), "avg": a.get("admit_avg_value"),
+            "u27": len(rows(cur, "SELECT id FROM updates_2027 WHERE school_key=?", (k,))),
+            "wd": len(rows(cur, "SELECT id FROM wangdao_links WHERE school_key=?", (k,))),
+            "note": (r["note"] or "").replace("\n", " ")[:120],
+            "in_s": n in {x.get("n") for x in S},
+        })
+    rows_out.sort(key=lambda x: (-(x["line"] or 0), x["n"]))
+    wr(os.path.join(PROFILE_DIR, "_light.json"),
+       jdump({"generated": str(date.today()),
+              "source": "04 页 var S+C 覆盖、但没有深度专档的院校（一表一校一行）",
+              "nSchools": len(rows_out), "schools": rows_out}))
+    # markdown 表
+    md = ["# 其余院校速览（轻量）", "",
+          "> 本文件为**轻量速览**：每校一行，只带关键口径。需要深度的 21 所见 `05-院校专档/<校名>/`。",
+          "> 数据来源：统一库 `kaoyan408.db`（`06` 择校库 + 研招网目录 + Dai408）；口径见 [`docs/口径.md`](../docs/口径.md)。",
+          "> 生成脚本：`09-生成脚本/build_school_profiles.py --light`｜生成日期 %s" % date.today(), "",
+          "| 院校 | 层次 | 省市 | 2026线 | 国家线 | 是否执行国家线 | 拟招 | 复试 | 录取 | 录取均分 | 2027改考 | 王道链接 | 数据档 | 备注 |",
+          "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+    for x in rows_out:
+        md.append("| %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |" % (
+            x["n"], x["t"] or "—", (x["p"] or "—") + (x["r"] and "/" + x["r"] or ""),
+            x["line"] if x["line"] is not None else "未获取",
+            x["nat"] if x["nat"] is not None else "未获取",
+            ("是" if x["is_nat"] else "否") if x["line"] is not None else "未获取",
+            x["plan"] if x["plan"] is not None else "未获取",
+            x["retest"] if x["retest"] is not None else "未获取",
+            x["admit"] if x["admit"] is not None else "未获取",
+            x["avg"] if x["avg"] is not None else "未获取",
+            ("有 %d 条" % x["u27"]) if x["u27"] else "未获取",
+            x["wd"] or "未获取",
+            {"full": "有实质数据", "catalog_only": "仅目录", "link_only": "仅链接"}.get(x["lvl"], x["lvl"]),
+            (x["note"][:60] or "—").replace("|", "/")))
+    wr(os.path.join(PROFILE_DIR, "其余院校速览.md"), "\n".join(md) + "\n")
+    print("✓ _light.json + 其余院校速览.md：%d 所（04 页 S+C 共 %d 所，已做专档 %d 所）"
+          % (len(rows_out), len(order), len(done)))
+    return 0
+
+
 def main():
     if not os.path.isfile(DB):
         print("✗ 未找到 %s\n  请先运行：python 09-生成脚本/build_unified_db.py" % DB)
@@ -359,6 +470,11 @@ def main():
 
     if "--index" in sys.argv:
         rc = do_index(cur, nlmap)
+        con.close()
+        return rc
+
+    if "--light" in sys.argv:
+        rc = do_light(cur, nlmap)
         con.close()
         return rc
 

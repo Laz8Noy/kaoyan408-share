@@ -20,6 +20,7 @@ publish_check.py — 考研数据发布流程的统一门禁（只读检查 + �
   C12 来源分级（sources.tier 无空值且取值合法）+ 冲突裁定规则文件存在
   C13 索引页 ↔ 搜索索引 JSON ↔ 统一库 三者口径一致（索引页是派生产物，最易失步）
   C14 重点院校专档（05-院校专档）索引 ↔ 正文 md ↔ 04 页 var DEEP ↔ 统一库 四者一致
+  C15 其余院校轻量速览：_light.json ↔ 04 页速览表 ↔ 深度专档集合 互斥且都在库内
 """
 import hashlib
 import io
@@ -322,6 +323,11 @@ _dead11 = []
 for f in _tracked:
     if not os.path.isfile(f) or os.path.getsize(f) > 4 * 1024 * 1024:
         continue
+    # 模板文件（05-院校专档/_模板_*.md）里的相对链接是按「被复制到 05-院校专档/<校名>/ 之后」
+    # 的位置写的（`../../04-终极版择校/`），在模板自身位置必然不可达 → 跳过。
+    # 它们生成的正文里的链接由 C14 所在的 05 目录一起走 C11 校验。
+    if os.path.basename(f).startswith("_模板_"):
+        continue
     t = io.open(f, encoding="utf-8", errors="ignore").read()
     base = os.path.dirname(f) or "."
     if f.lower().endswith(".md"):
@@ -496,6 +502,45 @@ else:
         _bad14.append("解析失败：%s" % _ex)
 check("C14 院校专档 索引/正文/页面/库 四者一致", not _bad14,
       ("; ".join(_bad14[:3]) if _bad14 else _info14))
+
+# C15 其余院校轻量速览：_light.json ↔ 04 页速览表 ↔ 深度专档集合 互斥且都在库内
+_plight = os.path.join("05-院校专档", "_light.json")
+_bad15, _info15 = [], ""
+if not os.path.isfile(_plight):
+    _bad15.append("缺 05-院校专档/_light.json（跑 build_school_profiles.py --light）")
+else:
+    try:
+        _li = json.load(io.open(_plight, encoding="utf-8"))
+        _ln15 = _li.get("nSchools", 0)
+        _lset = {x["n"] for x in _li.get("schools", [])}
+        if _ln15 != len(_lset):
+            _bad15.append("nSchools=%s 与去重后 %s 不符" % (_ln15, len(_lset)))
+        _h15 = io.open(HTML_04, encoding="utf-8").read()
+        _title = "其余 %d 所速览（轻量）" % _ln15
+        if _title not in _h15:
+            _bad15.append("04 页无「%s」（跑 patch_pages_from_db.py --apply）" % _title)
+        # 与深度专档互斥
+        if os.path.isfile(_pidx):
+            try:
+                _dset = {x["name"] for x in json.load(io.open(_pidx, encoding="utf-8")).get("schools", [])}
+                _both = sorted(_lset & _dset)
+                if _both:
+                    _bad15.append("同时出现在深度专档与速览表：%s" % "、".join(_both[:3]))
+            except Exception:  # noqa: BLE001
+                pass
+        # 都在统一库内
+        if os.path.isfile(_db):
+            _cn15 = sqlite3.connect(_db)
+            _nms15 = {r[0] for r in _cn15.execute("SELECT name FROM schools")}
+            _cn15.close()
+            _gh15 = sorted(_lset - _nms15)
+            if _gh15:
+                _bad15.append("速览表有而库无：%s" % "、".join(_gh15[:3]))
+        _info15 = "%d 所（与深度专档互斥、均在库内）" % _ln15
+    except Exception as _ex:  # noqa: BLE001
+        _bad15.append("解析失败：%s" % _ex)
+check("C15 其余院校速览表 与库/深度专档 一致", not _bad15,
+      ("; ".join(_bad15[:3]) if _bad15 else _info15))
 
 nfail = sum(1 for _, ok, _ in RESULTS if not ok)
 print("=" * 46)
