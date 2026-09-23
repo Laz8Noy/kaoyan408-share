@@ -1,115 +1,115 @@
 {
- "schema": "kaoyan-school/v1",
- "name": "天津工业大学",
- "units": [
-  {
-   "category": "S-主体",
-   "province": "天津",
-   "region": "华北",
-   "tier": "双一流",
-   "subjectClass": "22408",
-   "direction": "不区分研究方向",
-   "line2026": "332",
-   "lineDelta": "+68",
-   "linesByYear": {
-    "2023": null,
-    "2024": null,
-    "2025": "260",
-    "2026": "332"
-   },
-   "plan2026": "33(31不含推免)",
-   "fill": "一志愿为主",
-   "admitCnt": "40",
-   "admitMax": "391",
-   "admitMin": "332",
-   "admitAvg": "352.9",
-   "scope": "一志愿拟录取40人（含退役1人314）；普通39人最高391、最低332、均352.9；复试线332（AI学院自划线，非国家线）；目录拟招33(31不含推免)",
-   "aiTag": "✅真AI方向",
-   "heatNet": "55",
-   "heatComp": "32",
-   "nn408avg": "91",
-   "nnRate": "80%",
-   "note": "AI学院独立招生085410（官方目录2026，22408英二数二408）；复试线332（校内自划线）；一志愿录取40人（含退役1）；2025线260",
-   "srcLabel": "官方",
-   "src": [
-    "总览",
-    "区域榜",
-    "招录比对比",
-    "三源核对",
-    "考情明细"
-   ],
-   "lineUltimate2026": "264",
-   "nnProg": "电子信息-人工智能",
-   "nnCollege": "人工智能学院",
-   "nnSubjects": "英二数二408",
-   "wdCount": "7",
-   "wdYears": "19考情,21考情,22考情,23考情,24考情,25考情,26考情",
-   "wdUrl26": "https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow",
-   "remark": "N诺同332；已复核官方复试办法",
-   "kaoqingUrl": "https://ai.tiangong.edu.cn/2026/0330/c5000a113645/page.htm",
-   "college": "人工智能学院"
-  }
- ],
- "crossRefs": [],
- "kaoqingDetail2026": [
-  {
-   "college": "人工智能学院",
-   "tier": "双一流",
-   "subjects": "22408",
-   "line2026": "332",
-   "plan": "33(31不含推免)",
-   "retestCnt": null,
-   "admitCnt": "40",
-   "ratioRetest": null,
-   "ratioApply": null,
-   "admitMax": "391",
-   "admitMin": "332",
-   "admitAvg": "352.9",
-   "scope": "一志愿拟录取40人（含退役1人314）；普通39人最高391、最低332、均352.9；复试线332（AI学院自划线）；目录拟招33(31不含推免)",
-   "verify": "官方✅",
-   "url": "https://ai.tiangong.edu.cn/2026/0330/c5000a113645/page.htm"
-  }
- ],
- "nnCandidates": [],
- "wangdaoLinks": {
-  "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155765&idx=4&sn=2ae56333d8304d287d8c5762424ce78c&scene=21&poc_token=HKuyCmmjoc5TBXL5D2XtE2pOW3MtHxC2E5Acg9II",
-  "21考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666167220&idx=6&sn=e9a1fcb5e5f0de18c45f3b69b4100b0f&scene=21&poc_token=HKCyCmmjGdcSg7dsjo7YtDPtXfjnJVXk_bm4B8jk",
-  "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666190799&idx=3&sn=36257ba4db9ba48ee04c344ffd524eef&scene=21&poc_token=HJ2yCmmjNEIClv1RK5ThDLxjR88wWZ4OONI-NRqC",
-  "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=3&sn=86f7d9ee4cae3e5b7f9ba2f62546ec03&scene=21&poc_token=HJqyCmmj-GbHHOuUf5wFoxCWg6llJAy6K0NuwxWb",
-  "24考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=1&sn=ef947954b9b30798173514749669721b&scene=21&poc_token=HIiyCmmjgxi0QDNxyLSv4WwhiuCvZVXFKn0OBfGc",
-  "25考情": "https://mp.weixin.qq.com/s/30ZwykKDiwqQqLi0DzV6Og",
-  "26考情": "https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow"
- },
- "updates2027": [
-  {
-   "院校": "天津工业大学",
-   "层次": "双一流",
-   "专业/范围": "085410人工智能",
-   "原科目": "自命题",
-   "新科目": "408",
-   "生效年份": "2026",
-   "来源": "官方目录2026",
-   "备注": "AI学院33人；22408；计科/计专/软专全部408"
-  }
- ],
- "tutors": [],
- "inTJList": null,
- "inKeyList": null,
- "conflicts": [],
- "sources": [
-  {
-   "label": "天津工业大学085410招生目录",
-   "url": "https://yjsb.tiangong.edu.cn/"
-  }
- ],
- "generated": {
-  "by": "etl_build_db.py",
-  "date": "2026-09-03",
-  "src": [
-   "全国408_085410双非热度版_终极版_20260826.xlsx",
-   "王道考情链接总表_20260825.xlsx",
-   "kaoqing_20260821.json"
+  "schema": "kaoyan-school/v1",
+  "name": "天津工业大学",
+  "units": [
+    {
+      "category": "S-主体",
+      "province": "天津",
+      "region": "华北",
+      "tier": "双一流",
+      "subjectClass": "22408",
+      "direction": "不区分研究方向",
+      "line2026": "332",
+      "lineDelta": "+68",
+      "linesByYear": {
+        "2023": null,
+        "2024": null,
+        "2025": "295",
+        "2026": "332"
+      },
+      "plan2026": "33(31不含推免)",
+      "fill": "一志愿为主",
+      "admitCnt": "40",
+      "admitMax": "391",
+      "admitMin": "332",
+      "admitAvg": "352.9",
+      "scope": "一志愿拟录取40人（含退役1人314）；普通39人最高391、最低332、均352.9；复试线332（AI学院自划线，非国家线）；目录拟招33(31不含推免)",
+      "aiTag": "✅真AI方向",
+      "heatNet": "55",
+      "heatComp": "32",
+      "nn408avg": "91",
+      "nnRate": "80%",
+      "note": "AI学院独立招生085410（官方目录2026，22408英二数二408）；复试线332（校内自划线）；一志愿录取40人（含退役1）；2025线260　[2026-09-23 修正] 2025 年复试线 260→295（T1 官方 2025 复试线表：085410 = 295（2026-09-23 取证））",
+      "srcLabel": "官方",
+      "src": [
+        "总览",
+        "区域榜",
+        "招录比对比",
+        "三源核对",
+        "考情明细"
+      ],
+      "lineUltimate2026": "264",
+      "nnProg": "电子信息-人工智能",
+      "nnCollege": "人工智能学院",
+      "nnSubjects": "英二数二408",
+      "wdCount": "7",
+      "wdYears": "19考情,21考情,22考情,23考情,24考情,25考情,26考情",
+      "wdUrl26": "https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow",
+      "remark": "N诺同332；已复核官方复试办法",
+      "kaoqingUrl": "https://ai.tiangong.edu.cn/2026/0330/c5000a113645/page.htm",
+      "college": "人工智能学院"
+    }
   ],
-  "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+  "crossRefs": [],
+  "kaoqingDetail2026": [
+    {
+      "college": "人工智能学院",
+      "tier": "双一流",
+      "subjects": "22408",
+      "line2026": "332",
+      "plan": "33(31不含推免)",
+      "retestCnt": null,
+      "admitCnt": "40",
+      "ratioRetest": null,
+      "ratioApply": null,
+      "admitMax": "391",
+      "admitMin": "332",
+      "admitAvg": "352.9",
+      "scope": "一志愿拟录取40人（含退役1人314）；普通39人最高391、最低332、均352.9；复试线332（AI学院自划线）；目录拟招33(31不含推免)",
+      "verify": "官方✅",
+      "url": "https://ai.tiangong.edu.cn/2026/0330/c5000a113645/page.htm"
+    }
+  ],
+  "nnCandidates": [],
+  "wangdaoLinks": {
+    "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666155765&idx=4&sn=2ae56333d8304d287d8c5762424ce78c&scene=21&poc_token=HKuyCmmjoc5TBXL5D2XtE2pOW3MtHxC2E5Acg9II",
+    "21考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666167220&idx=6&sn=e9a1fcb5e5f0de18c45f3b69b4100b0f&scene=21&poc_token=HKCyCmmjGdcSg7dsjo7YtDPtXfjnJVXk_bm4B8jk",
+    "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666190799&idx=3&sn=36257ba4db9ba48ee04c344ffd524eef&scene=21&poc_token=HJ2yCmmjNEIClv1RK5ThDLxjR88wWZ4OONI-NRqC",
+    "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=3&sn=86f7d9ee4cae3e5b7f9ba2f62546ec03&scene=21&poc_token=HJqyCmmj-GbHHOuUf5wFoxCWg6llJAy6K0NuwxWb",
+    "24考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233083&idx=1&sn=ef947954b9b30798173514749669721b&scene=21&poc_token=HIiyCmmjgxi0QDNxyLSv4WwhiuCvZVXFKn0OBfGc",
+    "25考情": "https://mp.weixin.qq.com/s/30ZwykKDiwqQqLi0DzV6Og",
+    "26考情": "https://mp.weixin.qq.com/s/ihK0H5J05wRM2IN1S6w-ow"
+  },
+  "updates2027": [
+    {
+      "院校": "天津工业大学",
+      "层次": "双一流",
+      "专业/范围": "085410人工智能",
+      "原科目": "自命题",
+      "新科目": "408",
+      "生效年份": "2026",
+      "来源": "官方目录2026",
+      "备注": "AI学院33人；22408；计科/计专/软专全部408"
+    }
+  ],
+  "tutors": [],
+  "inTJList": null,
+  "inKeyList": null,
+  "conflicts": [],
+  "sources": [
+    {
+      "label": "天津工业大学085410招生目录",
+      "url": "https://yjsb.tiangong.edu.cn/"
+    }
+  ],
+  "generated": {
+    "by": "etl_build_db.py",
+    "date": "2026-09-03",
+    "src": [
+      "全国408_085410双非热度版_终极版_20260826.xlsx",
+      "王道考情链接总表_20260825.xlsx",
+      "kaoqing_20260821.json"
+    ],
+    "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
+  }
 }

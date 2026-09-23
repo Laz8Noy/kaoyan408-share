@@ -1,135 +1,135 @@
 {
- "schema": "kaoyan-school/v1",
- "name": "江西理工大学",
- "units": [
-  {
-   "category": "S-主体",
-   "province": "江西",
-   "region": "华中",
-   "tier": "双非",
-   "subjectClass": "22408",
-   "direction": "电子信息-计算机",
-   "college": "信息工程学院",
-   "line2026": "264",
-   "lineDelta": null,
-   "linesByYear": {
-    "2023": null,
-    "2024": "329",
-    "2025": "262",
-    "2026": "264"
-   },
-   "plan2026": "38一志愿+10调剂",
-   "fill": "一志愿为主",
-   "retestCnt": "41一志愿+23调剂",
-   "admitCnt": "38一志愿+10调剂",
-   "admitMax": "357",
-   "admitMin": "264",
-   "admitAvg": "298",
-   "scope": "085404电子信息-计算机(信息工程学院)2026线264；一志愿进复试41人，进复试均分296【264-357】；拟录取38+10调剂均298【264-357】；408单科均分78",
-   "aiTag": "⚠️电子信息-计算机(非085410单列)",
-   "heatNet": null,
-   "heatComp": null,
-   "nn408avg": "78",
-   "nnRate": null,
-   "note": "408项目为电子信息-计算机(信息工程学院22408)，线264，一志愿为主38+10调剂，拟录取均298【264-357】；⚠️085410人工智能为22DS自命题(数据结构)，非408(线267,拟录取均315)；软件学院(南昌)电子信息-计算机22408线265、拟录取均303",
-   "srcLabel": "第三方",
-   "src": [
-    "N诺",
-    "官方(拟录取名单)",
-    "三源核对"
-   ],
-   "nnProg": "电子信息-计算机",
-   "nnCollege": "信息工程学院",
-   "nnSubjects": "英二数二408",
-   "wdCount": "6",
-   "wdYears": "19考情,22考情,23考情,24考情,25考情,26考情",
-   "wdUrl26": "https://mp.weixin.qq.com/s/ofPGZGy7FQ_CUZWOOV5zCg",
-   "kaoqingUrl": "https://noobdream.com/schoolinfo/254/"
-  }
- ],
- "categoryGuess": "N诺新增候选(已提升为主体)",
- "crossRefs": [
-  {
-   "name": "电子信息-人工智能(085410)",
-   "subjects": "22DS(自命题,非408)",
-   "line2026": "267",
-   "note": "⚠️085410人工智能考二二数据结构自命题(非408)，一志愿25+20调剂，拟录取均315【267-400】；不符合用户408目标"
-  },
-  {
-   "name": "软件学院(南昌)-电子信息计算机",
-   "subjects": "22408",
-   "line2026": "265",
-   "note": "2026线265，一志愿17+20调剂，拟录取均303【265-345】"
-  }
- ],
- "kaoqingDetail2026": [
-  {
-   "college": "信息工程学院",
-   "tier": "双非",
-   "subjects": "22408",
-   "line2026": "264",
-   "plan": "38+10调剂",
-   "retestCnt": "41一志愿+23调剂",
-   "admitCnt": "38一志愿+10调剂",
-   "ratioRetest": null,
-   "ratioApply": null,
-   "admitMax": "357",
-   "admitMin": "264",
-   "admitAvg": "298",
-   "scope": "电子信息-计算机22408，线264，一志愿拟录取均298【264-357】；408均分78；085410人工智能为22DS自命题非408",
-   "verify": "第三方(N诺)+官方(拟录取名单PDF)",
-   "url": "https://noobdream.com/schoolinfo/254/"
-  }
- ],
- "nnCandidates": [],
- "wangdaoLinks": {
-  "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=4&sn=516dd83eb8eb6323613519447fb2e957&scene=21&poc_token=HBFaDGmjgjKqhfvbLc5CJ6Bmb2SVk3U7GPBH8_t4",
-  "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=3&sn=2df5bdcba52030e73e31cddc8597bc2f&scene=21&poc_token=HO9ZDGmjvBu-OUUpKPLXM_9a4H6iKDqWijIbwLrK",
-  "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=2&sn=dd6cb9c44b9cf77d6ebbfaca9124353b&scene=21&poc_token=HO1ZDGmjeKCwY8MWhqfRwaYgQIZofmA-ptLG3BjK",
-  "24考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=1&sn=f1076487f8a0b5e5da8e16fd42567ec4&scene=21&poc_token=HNtZDGmj9w6Wi83ldeD9Jjdz7nyBC0PThNuJq7QF",
-  "25考情": "https://mp.weixin.qq.com/s/TB_CHBnVAUNMSbj7FBxDfw",
-  "26考情": "https://mp.weixin.qq.com/s/ofPGZGy7FQ_CUZWOOV5zCg"
- },
- "updates2027": [],
- "tutors": [],
- "inTJList": null,
- "inKeyList": null,
- "conflicts": [
-  {
-   "field": "subjectClass",
-   "unit": "电子信息-人工智能",
-   "claims": [
+  "schema": "kaoyan-school/v1",
+  "name": "江西理工大学",
+  "units": [
     {
-     "src": "原nnCandidate",
-     "value": "推测408"
+      "category": "S-主体",
+      "province": "江西",
+      "region": "华中",
+      "tier": "双非",
+      "subjectClass": "22408",
+      "direction": "电子信息-计算机",
+      "college": "信息工程学院",
+      "line2026": "267",
+      "lineDelta": null,
+      "linesByYear": {
+        "2023": null,
+        "2024": "329",
+        "2025": "262",
+        "2026": "267"
+      },
+      "plan2026": "38一志愿+10调剂",
+      "fill": "一志愿为主",
+      "retestCnt": "41一志愿+23调剂",
+      "admitCnt": "38一志愿+10调剂",
+      "admitMax": "357",
+      "admitMin": "264",
+      "admitAvg": "298",
+      "scope": "085404电子信息-计算机(信息工程学院)2026线264；一志愿进复试41人，进复试均分296【264-357】；拟录取38+10调剂均298【264-357】；408单科均分78",
+      "aiTag": "⚠️电子信息-计算机(非085410单列)",
+      "heatNet": null,
+      "heatComp": null,
+      "nn408avg": "78",
+      "nnRate": null,
+      "note": "408项目为电子信息-计算机(信息工程学院22408)，线264，一志愿为主38+10调剂，拟录取均298【264-357】；⚠️085410人工智能为22DS自命题(数据结构)，非408(线267,拟录取均315)；软件学院(南昌)电子信息-计算机22408线265、拟录取均303　[2026-09-23 修正] 2026 年复试线 264→267（T1 官方 2026 复试线表：085410 = 267（高于 A 区国家线 3 分））　[2026-09-23 修正] 2026 复试线 264→267（T1 官方 2026 复试线表：085410 = 267（高于 A 区国家线 3 分））",
+      "srcLabel": "第三方",
+      "src": [
+        "N诺",
+        "官方(拟录取名单)",
+        "三源核对"
+      ],
+      "nnProg": "电子信息-计算机",
+      "nnCollege": "信息工程学院",
+      "nnSubjects": "英二数二408",
+      "wdCount": "6",
+      "wdYears": "19考情,22考情,23考情,24考情,25考情,26考情",
+      "wdUrl26": "https://mp.weixin.qq.com/s/ofPGZGy7FQ_CUZWOOV5zCg",
+      "kaoqingUrl": "https://noobdream.com/schoolinfo/254/"
+    }
+  ],
+  "categoryGuess": "N诺新增候选(已提升为主体)",
+  "crossRefs": [
+    {
+      "name": "电子信息-人工智能(085410)",
+      "subjects": "22DS(自命题,非408)",
+      "line2026": "267",
+      "note": "⚠️085410人工智能考二二数据结构自命题(非408)，一志愿25+20调剂，拟录取均315【267-400】；不符合用户408目标"
     },
     {
-     "src": "N诺2026表",
-     "value": "电子信息-人工智能=22DS(数据结构自命题,非408)"
+      "name": "软件学院(南昌)-电子信息计算机",
+      "subjects": "22408",
+      "line2026": "265",
+      "note": "2026线265，一志愿17+20调剂，拟录取均303【265-345】"
     }
-   ],
-   "status": "警告-非408",
-   "action": "纠正：085410人工智能为二二数据结构自命题(非408)；该校408项目为电子信息-计算机方向(22408)。原表'推测408'误标，已更正"
-  }
- ],
- "sources": [
-  {
-   "label": "N诺 江西理工大学",
-   "url": "https://noobdream.com/schoolinfo/254/"
-  },
-  {
-   "label": "江西理工大学2026拟录取名单",
-   "url": "https://yz.jxust.edu.cn/pdf/jiangxiligongdaxue2026nianshuoshiyanjiushengniluqumingdan.pdf"
-  }
- ],
- "note": "085410人工智能为22DS自命题(非408)，不符合用户408目标；408项目为电子信息-计算机方向(信息工程学院/软件学院南昌)，22408，线264、拟录取均298。",
- "generated": {
-  "by": "etl_build_db.py",
-  "date": "2026-09-03",
-  "src": [
-   "全国408_085410双非热度版_终极版_20260826.xlsx::N诺新增候选校",
-   "王道考情链接总表_20260825.xlsx"
   ],
-  "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+  "kaoqingDetail2026": [
+    {
+      "college": "信息工程学院",
+      "tier": "双非",
+      "subjects": "22408",
+      "line2026": "264",
+      "plan": "38+10调剂",
+      "retestCnt": "41一志愿+23调剂",
+      "admitCnt": "38一志愿+10调剂",
+      "ratioRetest": null,
+      "ratioApply": null,
+      "admitMax": "357",
+      "admitMin": "264",
+      "admitAvg": "298",
+      "scope": "电子信息-计算机22408，线264，一志愿拟录取均298【264-357】；408均分78；085410人工智能为22DS自命题非408",
+      "verify": "第三方(N诺)+官方(拟录取名单PDF)",
+      "url": "https://noobdream.com/schoolinfo/254/"
+    }
+  ],
+  "nnCandidates": [],
+  "wangdaoLinks": {
+    "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=4&sn=516dd83eb8eb6323613519447fb2e957&scene=21&poc_token=HBFaDGmjgjKqhfvbLc5CJ6Bmb2SVk3U7GPBH8_t4",
+    "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=3&sn=2df5bdcba52030e73e31cddc8597bc2f&scene=21&poc_token=HO9ZDGmjvBu-OUUpKPLXM_9a4H6iKDqWijIbwLrK",
+    "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=2&sn=dd6cb9c44b9cf77d6ebbfaca9124353b&scene=21&poc_token=HO1ZDGmjeKCwY8MWhqfRwaYgQIZofmA-ptLG3BjK",
+    "24考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666232499&idx=1&sn=f1076487f8a0b5e5da8e16fd42567ec4&scene=21&poc_token=HNtZDGmj9w6Wi83ldeD9Jjdz7nyBC0PThNuJq7QF",
+    "25考情": "https://mp.weixin.qq.com/s/TB_CHBnVAUNMSbj7FBxDfw",
+    "26考情": "https://mp.weixin.qq.com/s/ofPGZGy7FQ_CUZWOOV5zCg"
+  },
+  "updates2027": [],
+  "tutors": [],
+  "inTJList": null,
+  "inKeyList": null,
+  "conflicts": [
+    {
+      "field": "subjectClass",
+      "unit": "电子信息-人工智能",
+      "claims": [
+        {
+          "src": "原nnCandidate",
+          "value": "推测408"
+        },
+        {
+          "src": "N诺2026表",
+          "value": "电子信息-人工智能=22DS(数据结构自命题,非408)"
+        }
+      ],
+      "status": "警告-非408",
+      "action": "纠正：085410人工智能为二二数据结构自命题(非408)；该校408项目为电子信息-计算机方向(22408)。原表'推测408'误标，已更正"
+    }
+  ],
+  "sources": [
+    {
+      "label": "N诺 江西理工大学",
+      "url": "https://noobdream.com/schoolinfo/254/"
+    },
+    {
+      "label": "江西理工大学2026拟录取名单",
+      "url": "https://yz.jxust.edu.cn/pdf/jiangxiligongdaxue2026nianshuoshiyanjiushengniluqumingdan.pdf"
+    }
+  ],
+  "note": "085410人工智能为22DS自命题(非408)，不符合用户408目标；408项目为电子信息-计算机方向(信息工程学院/软件学院南昌)，22408，线264、拟录取均298。",
+  "generated": {
+    "by": "etl_build_db.py",
+    "date": "2026-09-03",
+    "src": [
+      "全国408_085410双非热度版_终极版_20260826.xlsx::N诺新增候选校",
+      "王道考情链接总表_20260825.xlsx"
+    ],
+    "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
+  }
 }

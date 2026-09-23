@@ -79,9 +79,44 @@ MULTI_TOKENS = ('计算机', '生物', '人工智能', '软件', '大数据')
 MULTI_EXPLICIT = {'调剂9+5', '一志愿复试17人', '085410计划未单列;085404=45/085411=10'}
 
 
+_YEAR_RE = re.compile(r'^(?:19|20)\d{2}$')
+_CODE_RE = re.compile(r'^\d{6}$')
+# 明确"没有这个数"的标记：出现即判定无主值（原文仍进 *_note）
+NO_VALUE_MARKERS = ("未单列", "未公布", "未公示", "未获取", "待补", "待定", "无数据", "不详")
+# 可剥离的标签词（用于识别「A一志愿+B调剂」这类扁平两段式）
+_LABELS = ("一志愿", "调剂", "专项", "非全", "全日制", "统考", "统招", "计划", "推免", "本部", "联培")
+_FLAT2_RE = re.compile(r'^\s*(\d+)\s*\+\s*(\d+)\s*$')
+
+
 def first_num(s):
-    m = re.search(r'\d+', str(s))
-    return int(m.group(0)) if m else None
+    """取字符串里第一个「计数」数字。
+
+    必须跳过两类"假计数"（2026-09-23 修，实测 9 条受影响）：
+      · 年份     —— `2026待补(调剂友好)` 里的 2026 是年份，不是拟招数
+      · 专业代码 —— `085410计划未单列;085404=45/085411=10` 里的 085410/085404 是专业代码
+    命中就继续往后找下一个数字；全不合格返回 None。
+    """
+    for m in re.finditer(r'\d+', str(s)):
+        t = m.group(0)
+        if _YEAR_RE.match(t) and 2019 <= int(t) <= 2030:
+            continue
+        if _CODE_RE.match(t) and (t.startswith(("08", "14")) or t.startswith("083")):
+            continue
+        return int(t)
+    return None
+
+
+def flat_sum(s):
+    """识别「A一志愿+B调剂」「8(一志愿)+12调剂」这类扁平两段式 → A+B（总人数）。
+
+    只处理"剥掉标签后恰好是 `数字+数字`"的情形；带嵌套括号的
+    （如 `约90(86+4专项)`，90 本身就是总数）不处理，避免重复相加。
+    """
+    t = str(s)
+    for lb in _LABELS:
+        t = t.replace("(" + lb + ")", "").replace("（" + lb + "）", "").replace(lb, "")
+    m = _FLAT2_RE.match(t)
+    return (int(m.group(1)) + int(m.group(2))) if m else None
 
 
 def is_multi(s):
@@ -102,6 +137,11 @@ def num_cols(v):
         return None, None
     if NUM_RE.match(s):
         return int(round(float(s))), None
+    if any(k in s for k in NO_VALUE_MARKERS):      # 「085410未单列」「2026待补」→ 无主值
+        return None, s
+    fs = flat_sum(s)                               # 「0一志愿+38调剂」→ 38（总人数）
+    if fs is not None:
+        return fs, '合计:' + s
     n = first_num(s)
     if n is None:
         return None, s
@@ -805,6 +845,7 @@ for (rv,) in cur.execute("SELECT DISTINCT raw_value FROM score_lines WHERE raw_v
 for (y, sc, z, t, s4, src) in [
     (2026, '工学', 'A区', 264, 53, '02-院校数据/全国408_085410双非热度版_20260820.html'),
     (2026, '工学', 'B区', 254, 48, '02-院校数据/全国408_085410双非热度版_20260820.html'),
+    (2025, '工学', 'A区', 260, None, 'T1 多校官方 2026 复试线表交叉确证（2026-09-23 取证，5 校一致）'),
     (2025, '工学', 'B区', 250, None, '06-院校数据库/data/schools/001-宁夏大学.json'),
     (2024, '工学', 'A区', 273, None, '06-院校数据库/data/schools/001-华北电力大学.json'),
     (2024, '工学', 'B区', 263, None, '06-院校数据库/data/schools/001-宁夏大学.json'),
