@@ -19,7 +19,6 @@
 │   ├── conflicts_registry.json 跨校已知冲突/警告登记（12 条）
 │   ├── crosswalk.json        跨库主键映射（402 校，招生单位代码为主键；由 09-生成脚本/build_unified_db.py 生成）
 │   ├── schools_unified.json  学校×专业 统一视图导出（420 行，同上生成）
-│   ├── kaoyan408.db          ★ 统一院校库（SQLite，学校 → 专业 → 各类数据；同上生成）
 │   ├── todo_patch_list.json  各校剩余待补字段清单（568 项，tools/regen_todo.py 再生；实测 sum(n_missing)=568 ✓）
 │   └── wangdao_links_all.json  王道考情微信链接总表（按省平铺，487 校 2019-2026）
 ├── docs/
@@ -34,6 +33,8 @@
     ├── validate_db.py        校验+统计报告
     └── example_query.py      读取示例
 ```
+
+> 另：`data/kaoyan408.db`（★ **统一院校库** / SQLite，学校 → 专业 → 各类数据 三层模型）**本地生成、不入库**——跑 `09-生成脚本/build_unified_db.py` 即得，已加 `.gitignore`。
 
 本目录另有 **`院校数据浏览器.html`**：面向人的可视化浏览页（总表筛选排序 + 点开懒加载各校原始 JSON，含 `10-录取分数统计` 的分位数），是**线上主入口①**。`docs/20260903-时间更新点与2027报考时间线.md` 记录数据时点与 2027 关键时间线。
 

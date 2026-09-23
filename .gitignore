@@ -11,3 +11,10 @@ ark_key.txt
 __pycache__/
 *.pyc
 node_modules/
+
+# SQLite 统一库（派生文件，本地跑 09-生成脚本/build_unified_db.py 生成，不入库）
+*.db
+*.db-journal
+
+# 页面补丁脚本的自动备份（patch_pages_from_db.py --apply 时生成，不入库）
+09-生成脚本/_bak/

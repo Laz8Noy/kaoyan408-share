@@ -2,7 +2,7 @@
  "schema": "crosswalk/v1",
  "built": "2026-09-22",
  "key": "教育部招生单位代码（5 位）；未匹配者 school_key=X-<标准名> 且 code_verified=0",
- "n": 402,
+ "n": 511,
  "schools": {
   "10001": {
    "code": "10001",
@@ -6879,6 +6879,66 @@
    "in_yz408": 1,
    "cb_id": null
   },
+  "X-上海工程技术大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "上海工程技术大学",
+   "aliases": [
+    {
+     "alias": "上海工程技术大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-上海杉达学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "上海杉达学院",
+   "aliases": [
+    {
+     "alias": "上海杉达学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-东北师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "东北师范大学",
+   "aliases": [
+    {
+     "alias": "东北师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-东莞理工学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "东莞理工学院",
+   "aliases": [
+    {
+     "alias": "东莞理工学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
   "X-中南林业科技大学": {
    "code": null,
    "code_verified": 0,
@@ -6890,6 +6950,81 @@
     }
    ],
    "in_lib06": 1,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-中国人民公安大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "中国人民公安大学",
+   "aliases": [
+    {
+     "alias": "中国人民公安大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-中国兵器科学研究院(西南自动化研究所)": {
+   "code": null,
+   "code_verified": 0,
+   "name": "中国兵器科学研究院(西南自动化研究所)",
+   "aliases": [
+    {
+     "alias": "中国兵器科学研究院(西南自动化研究所)",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-中国农业科学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "中国农业科学院",
+   "aliases": [
+    {
+     "alias": "中国农业科学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-中国电力科学研究院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "中国电力科学研究院",
+   "aliases": [
+    {
+     "alias": "中国电力科学研究院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-中国电子科技集团公司电子科学研究院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "中国电子科技集团公司电子科学研究院",
+   "aliases": [
+    {
+     "alias": "中国电子科技集团公司电子科学研究院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
    "in_lib10": 0,
    "in_yz408": 0,
    "cb_id": null
@@ -6909,6 +7044,456 @@
    "in_yz408": 0,
    "cb_id": null
   },
+  "X-中科院成都计算所": {
+   "code": null,
+   "code_verified": 0,
+   "name": "中科院成都计算所",
+   "aliases": [
+    {
+     "alias": "中科院成都计算所",
+     "src": "lib01"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-云南农业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "云南农业大学",
+   "aliases": [
+    {
+     "alias": "云南农业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-云南民族大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "云南民族大学",
+   "aliases": [
+    {
+     "alias": "云南民族大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-五邑大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "五邑大学",
+   "aliases": [
+    {
+     "alias": "五邑大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-井冈山大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "井冈山大学",
+   "aliases": [
+    {
+     "alias": "井冈山大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-伊犁师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "伊犁师范大学",
+   "aliases": [
+    {
+     "alias": "伊犁师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-佛山科学技术学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "佛山科学技术学院",
+   "aliases": [
+    {
+     "alias": "佛山科学技术学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-佳木斯大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "佳木斯大学",
+   "aliases": [
+    {
+     "alias": "佳木斯大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-信息工程大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "信息工程大学",
+   "aliases": [
+    {
+     "alias": "信息工程大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-兰州交通大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "兰州交通大学",
+   "aliases": [
+    {
+     "alias": "兰州交通大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-兰州大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "兰州大学",
+   "aliases": [
+    {
+     "alias": "兰州大学",
+     "src": "dai408"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-北京农学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "北京农学院",
+   "aliases": [
+    {
+     "alias": "北京农学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-北京外国语大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "北京外国语大学",
+   "aliases": [
+    {
+     "alias": "北京外国语大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-北京服装学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "北京服装学院",
+   "aliases": [
+    {
+     "alias": "北京服装学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-北京机械工业自动化研究所": {
+   "code": null,
+   "code_verified": 0,
+   "name": "北京机械工业自动化研究所",
+   "aliases": [
+    {
+     "alias": "北京机械工业自动化研究所",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-北京石油化工学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "北京石油化工学院",
+   "aliases": [
+    {
+     "alias": "北京石油化工学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-北华大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "北华大学",
+   "aliases": [
+    {
+     "alias": "北华大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-北华航天工业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "北华航天工业大学",
+   "aliases": [
+    {
+     "alias": "北华航天工业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-华北电力大学（北京）": {
+   "code": null,
+   "code_verified": 0,
+   "name": "华北电力大学（北京）",
+   "aliases": [
+    {
+     "alias": "华北电力大学（北京）",
+     "src": "dai408"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-南京医科大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "南京医科大学",
+   "aliases": [
+    {
+     "alias": "南京医科大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-南昌工程学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "南昌工程学院",
+   "aliases": [
+    {
+     "alias": "南昌工程学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-台州学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "台州学院",
+   "aliases": [
+    {
+     "alias": "台州学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-吉林农业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "吉林农业大学",
+   "aliases": [
+    {
+     "alias": "吉林农业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-吉林化工学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "吉林化工学院",
+   "aliases": [
+    {
+     "alias": "吉林化工学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-吉林师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "吉林师范大学",
+   "aliases": [
+    {
+     "alias": "吉林师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-吉林财经大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "吉林财经大学",
+   "aliases": [
+    {
+     "alias": "吉林财经大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-哈尔滨学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "哈尔滨学院",
+   "aliases": [
+    {
+     "alias": "哈尔滨学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-国际关系学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "国际关系学院",
+   "aliases": [
+    {
+     "alias": "国际关系学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-大连民族大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "大连民族大学",
+   "aliases": [
+    {
+     "alias": "大连民族大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-宁夏师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "宁夏师范大学",
+   "aliases": [
+    {
+     "alias": "宁夏师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
   "X-安庆师范大学": {
    "code": null,
    "code_verified": 0,
@@ -6924,6 +7509,186 @@
    "in_yz408": 0,
    "cb_id": null
   },
+  "X-安徽科技学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "安徽科技学院",
+   "aliases": [
+    {
+     "alias": "安徽科技学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-安徽财经大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "安徽财经大学",
+   "aliases": [
+    {
+     "alias": "安徽财经大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-宝鸡文理学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "宝鸡文理学院",
+   "aliases": [
+    {
+     "alias": "宝鸡文理学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-山东中医药大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "山东中医药大学",
+   "aliases": [
+    {
+     "alias": "山东中医药大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-山西财经大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "山西财经大学",
+   "aliases": [
+    {
+     "alias": "山西财经大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-广东医科大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "广东医科大学",
+   "aliases": [
+    {
+     "alias": "广东医科大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-广东外语外贸大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "广东外语外贸大学",
+   "aliases": [
+    {
+     "alias": "广东外语外贸大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-广东技术师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "广东技术师范大学",
+   "aliases": [
+    {
+     "alias": "广东技术师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-广东财经大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "广东财经大学",
+   "aliases": [
+    {
+     "alias": "广东财经大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-延安大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "延安大学",
+   "aliases": [
+    {
+     "alias": "延安大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-延边大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "延边大学",
+   "aliases": [
+    {
+     "alias": "延边大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-德州学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "德州学院",
+   "aliases": [
+    {
+     "alias": "德州学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
   "X-惠州学院": {
    "code": null,
    "code_verified": 0,
@@ -6935,6 +7700,51 @@
     }
    ],
    "in_lib06": 1,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-成都中医药大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "成都中医药大学",
+   "aliases": [
+    {
+     "alias": "成都中医药大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-成都医学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "成都医学院",
+   "aliases": [
+    {
+     "alias": "成都医学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-攀枝花学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "攀枝花学院",
+   "aliases": [
+    {
+     "alias": "攀枝花学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
    "in_lib10": 0,
    "in_yz408": 0,
    "cb_id": null
@@ -6969,6 +7779,156 @@
    "in_yz408": 0,
    "cb_id": null
   },
+  "X-榆林学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "榆林学院",
+   "aliases": [
+    {
+     "alias": "榆林学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-江西农业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "江西农业大学",
+   "aliases": [
+    {
+     "alias": "江西农业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-江西师范科技大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "江西师范科技大学",
+   "aliases": [
+    {
+     "alias": "江西师范科技大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-沈阳农业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "沈阳农业大学",
+   "aliases": [
+    {
+     "alias": "沈阳农业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-沈阳师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "沈阳师范大学",
+   "aliases": [
+    {
+     "alias": "沈阳师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-沈阳建筑大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "沈阳建筑大学",
+   "aliases": [
+    {
+     "alias": "沈阳建筑大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-河北建筑工程": {
+   "code": null,
+   "code_verified": 0,
+   "name": "河北建筑工程",
+   "aliases": [
+    {
+     "alias": "河北建筑工程",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-河北科技师范学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "河北科技师范学院",
+   "aliases": [
+    {
+     "alias": "河北科技师范学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-海军工程大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "海军工程大学",
+   "aliases": [
+    {
+     "alias": "海军工程大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-海南医科大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "海南医科大学",
+   "aliases": [
+    {
+     "alias": "海南医科大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
   "X-清华大学": {
    "code": null,
    "code_verified": 0,
@@ -6984,6 +7944,291 @@
    "in_yz408": 0,
    "cb_id": 1
   },
+  "X-温州医科大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "温州医科大学",
+   "aliases": [
+    {
+     "alias": "温州医科大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖北师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖北师范大学",
+   "aliases": [
+    {
+     "alias": "湖北师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖北文理学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖北文理学院",
+   "aliases": [
+    {
+     "alias": "湖北文理学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖南中医药大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖南中医药大学",
+   "aliases": [
+    {
+     "alias": "湖南中医药大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖南人文科技学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖南人文科技学院",
+   "aliases": [
+    {
+     "alias": "湖南人文科技学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖南城市学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖南城市学院",
+   "aliases": [
+    {
+     "alias": "湖南城市学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖南工业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖南工业大学",
+   "aliases": [
+    {
+     "alias": "湖南工业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖南工商大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖南工商大学",
+   "aliases": [
+    {
+     "alias": "湖南工商大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖南理工大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖南理工大学",
+   "aliases": [
+    {
+     "alias": "湖南理工大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-湖南第一师范学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "湖南第一师范学院",
+   "aliases": [
+    {
+     "alias": "湖南第一师范学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-滨州医学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "滨州医学院",
+   "aliases": [
+    {
+     "alias": "滨州医学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-牡丹江师范学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "牡丹江师范学院",
+   "aliases": [
+    {
+     "alias": "牡丹江师范学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-甘肃农业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "甘肃农业大学",
+   "aliases": [
+    {
+     "alias": "甘肃农业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-甘肃政法大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "甘肃政法大学",
+   "aliases": [
+    {
+     "alias": "甘肃政法大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-绍兴大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "绍兴大学",
+   "aliases": [
+    {
+     "alias": "绍兴大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-聊城大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "聊城大学",
+   "aliases": [
+    {
+     "alias": "聊城大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-衡阳师范学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "衡阳师范学院",
+   "aliases": [
+    {
+     "alias": "衡阳师范学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西京学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西京学院",
+   "aliases": [
+    {
+     "alias": "西京学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西北师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西北师范大学",
+   "aliases": [
+    {
+     "alias": "西北师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
   "X-西北民族大学": {
    "code": null,
    "code_verified": 0,
@@ -6995,6 +8240,66 @@
     }
    ],
    "in_lib06": 1,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西华师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西华师范大学",
+   "aliases": [
+    {
+     "alias": "西华师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西南林业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西南林业大学",
+   "aliases": [
+    {
+     "alias": "西南林业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西安工业大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西安工业大学",
+   "aliases": [
+    {
+     "alias": "西安工业大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西安工程大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西安工程大学",
+   "aliases": [
+    {
+     "alias": "西安工程大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
    "in_lib10": 0,
    "in_yz408": 0,
    "cb_id": null
@@ -7014,6 +8319,51 @@
    "in_yz408": 0,
    "cb_id": null
   },
+  "X-西安理工大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西安理工大学",
+   "aliases": [
+    {
+     "alias": "西安理工大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西安石油大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西安石油大学",
+   "aliases": [
+    {
+     "alias": "西安石油大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-西安科技大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西安科技大学",
+   "aliases": [
+    {
+     "alias": "西安科技大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
   "X-西安邮电大学": {
    "code": null,
    "code_verified": 0,
@@ -7029,6 +8379,141 @@
    "in_yz408": 0,
    "cb_id": null
   },
+  "X-西藏大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "西藏大学",
+   "aliases": [
+    {
+     "alias": "西藏大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-贵州财经大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "贵州财经大学",
+   "aliases": [
+    {
+     "alias": "贵州财经大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-赤峰大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "赤峰大学",
+   "aliases": [
+    {
+     "alias": "赤峰大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-重庆三峡科技大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "重庆三峡科技大学",
+   "aliases": [
+    {
+     "alias": "重庆三峡科技大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-重庆交通大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "重庆交通大学",
+   "aliases": [
+    {
+     "alias": "重庆交通大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-重庆工商大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "重庆工商大学",
+   "aliases": [
+    {
+     "alias": "重庆工商大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-重庆师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "重庆师范大学",
+   "aliases": [
+    {
+     "alias": "重庆师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-重庆文理学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "重庆文理学院",
+   "aliases": [
+    {
+     "alias": "重庆文理学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-重庆理工大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "重庆理工大学",
+   "aliases": [
+    {
+     "alias": "重庆理工大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
   "X-重庆邮电大学": {
    "code": null,
    "code_verified": 0,
@@ -7040,6 +8525,21 @@
     }
    ],
    "in_lib06": 1,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-长春大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "长春大学",
+   "aliases": [
+    {
+     "alias": "长春大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
    "in_lib10": 0,
    "in_yz408": 0,
    "cb_id": null
@@ -7070,6 +8570,141 @@
     }
    ],
    "in_lib06": 1,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-闽江大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "闽江大学",
+   "aliases": [
+    {
+     "alias": "闽江大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-阜阳师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "阜阳师范大学",
+   "aliases": [
+    {
+     "alias": "阜阳师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-陆军炮兵防空兵学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "陆军炮兵防空兵学院",
+   "aliases": [
+    {
+     "alias": "陆军炮兵防空兵学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-陕西理工大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "陕西理工大学",
+   "aliases": [
+    {
+     "alias": "陕西理工大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-青海师范大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "青海师范大学",
+   "aliases": [
+    {
+     "alias": "青海师范大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-黄冈师范学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "黄冈师范学院",
+   "aliases": [
+    {
+     "alias": "黄冈师范学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-黑龙江八一农垦大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "黑龙江八一农垦大学",
+   "aliases": [
+    {
+     "alias": "黑龙江八一农垦大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-黔南民族师范学院": {
+   "code": null,
+   "code_verified": 0,
+   "name": "黔南民族师范学院",
+   "aliases": [
+    {
+     "alias": "黔南民族师范学院",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
+   "in_lib10": 0,
+   "in_yz408": 0,
+   "cb_id": null
+  },
+  "X-齐齐哈尔大学": {
+   "code": null,
+   "code_verified": 0,
+   "name": "齐齐哈尔大学",
+   "aliases": [
+    {
+     "alias": "齐齐哈尔大学",
+     "src": "lib07"
+    }
+   ],
+   "in_lib06": 0,
    "in_lib10": 0,
    "in_yz408": 0,
    "cb_id": null
