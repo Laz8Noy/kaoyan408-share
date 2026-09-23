@@ -3,8 +3,14 @@
 
 用法：仓库根目录执行  python 09-生成脚本/make_final_xlsx_v2.py
 输入：04-终极版择校/…20260826.html（页面是唯一现势真相源，含 09-03 复核修正与 CodeBrick CB 列）
-      + 01 主 md（2027改考/导师两节）+ 07 N诺提取 xlsx
+      + 04-终极版择校/2027改考动态_20260820.md（「2027改考动态」Sheet）
+      + 01-导师与规划/…导师信息_20260820.md（「导师研究方向」Sheet 正本）
+      + 07 N诺提取 xlsx
 输出：04-终极版择校/…20260826.xlsx（幂等整表覆盖；重跑即与网页同步）
+
+⚠ 本脚本会整表覆盖 xlsx：**「导师研究方向」Sheet 必须由本脚本产出**，否则手工往 xlsx 里加的行会在重跑时丢失。
+   该 Sheet 的数据源是 `01-导师与规划/085410_22408_导师信息_20260820.md` 的「一、按院校速览」小节
+   （16 校 · `- **院校**：内容` 格式），与 `build_school_browser_data.py` 的 `TUT_HDR` 2 列表头约定配套。
 """
 import io, os, json, re, collections
 import openpyxl
@@ -13,7 +19,8 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 HTML = "04-终极版择校/全国408_085410双非热度版_终极版_20260826.html"
 OUT = "04-终极版择校/全国408_085410双非热度版_终极版_20260826.xlsx"
-MAIN_MD = "04-终极版择校/2027改考动态_20260820.md"  # 「2027改考动态」Sheet 的数据源；原 01-择校与规划 主文档已改造为导师信息
+MAIN_MD = "04-终极版择校/2027改考动态_20260820.md"  # 「2027改考动态」Sheet 的数据源
+TUTORS_MD = "01-导师与规划/085410_22408_导师信息_20260820.md"  # 「导师研究方向」Sheet 的数据源（正本）
 
 s = io.open(HTML, encoding="utf-8").read()
 
@@ -310,11 +317,13 @@ ws = wb.create_sheet("2027改考动态")
 sheet(ws, ["院校","层次","专业/范围","原科目","新科目","生效年份","来源","备注"], gk_rows,
       [22,10,34,16,16,10,20,50])
 
-# 9 导师研究方向
+# 9 导师研究方向（数据源：01-导师与规划 正本「一、按院校速览」，16 校；格式 `- **院校**：内容`）
+#   注：01 目录改造（2026-09-22）后导师一节已独立成 01-导师与规划/…md，不再位于 MAIN_MD 内。
+tut_md = io.open(TUTORS_MD, encoding="utf-8").read()
 ds_rows = []
 in_ds = False
-for l in lines:
-    if l.startswith("##") and "导师研究方向" in l:
+for l in tut_md.split("\n"):
+    if l.startswith("##") and "按院校速览" in l:
         in_ds = True
         continue
     if in_ds:
@@ -323,6 +332,8 @@ for l in lines:
         m = re.match(r"- \*\*(.+?)\*\*：(.+)", l)
         if m:
             ds_rows.append([m.group(1), m.group(2)])
+if not ds_rows:
+    raise SystemExit("导师研究方向 Sheet 数据源为空：请检查 %s 的「一、按院校速览」小节" % TUTORS_MD)
 ws = wb.create_sheet("导师研究方向")
 sheet(ws, ["院校", "导师及研究方向（含Agent/大模型/具身智能关键词）"], ds_rows, [20, 110])
 
