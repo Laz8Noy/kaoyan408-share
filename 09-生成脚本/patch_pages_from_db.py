@@ -302,6 +302,93 @@ if h8[c:e] != newDATA:
 else:
     print("08 页无需改动")
 
+# ---------------- 04 页：注入「重点院校专档」章节 + var DEEP ----------------
+#   分层：05-院校专档/ 存正本 md；本页只放摘要卡 + 跳转链接（21 校约 30 KB）
+#   幂等：以 <!-- /DEEP --> 与 /* ===== DEEP-END ===== */ 为界整段替换；不触碰 var S / var C
+DEEP_JSON = os.path.join("05-院校专档", "_deep.json")
+SEC_A = '<section id="deep">'
+SEC_B = '<!-- /DEEP -->'
+JS_A = '/* ===== DEEP-BEGIN ===== */'
+JS_B = '/* ===== DEEP-END ===== */'
+
+SEC_HTML = """<section id="deep">
+  <h2>八·五、重点院校专档（21 校 · 深度摘要）<span class="hint">核心 10 所完整版 · 其余 11 所精简版 · 正本见 05-院校专档/</span></h2>
+  <div class="hm-toolbar">
+    <button class="active" id="dp-core">只看核心 10 所</button>
+    <button id="dp-all">展开全部 21 所</button>
+    <span style="font-size:12px;color:var(--muted)">按数据丰富度排序；「未获取」= 底稿与联网取证均无该数据</span>
+  </div>
+  <div id="dp-nav" style="display:flex;flex-wrap:wrap;gap:6px;margin:8px 0"></div>
+  <div id="deep-grid" class="card-stack"></div>
+</section>"""
+
+JS_CODE = """/* ===== DEEP-BEGIN ===== */
+var _dpAll=false;
+function dpNum(v){return (v===null||v===undefined||v==='')?'未获取':v;}
+function dpTxt(s){return String(s==null?'':s).replace(/\\*\\*/g,'').replace(/`/g,'');}
+function deepCard(d){
+  var h='<div class="card" id="deep-'+esc(d.k)+'">';
+  h+='<h3>'+esc(d.n)+' '+tierTag(d.t)+' <span class="tag" style="background:#5d7182">'+(d.depth==='full'?'完整版':'精简版')+'</span></h3>';
+  h+='<div class="cardsub">'+[d.t,d.verdict?('定位 '+d.verdict):'定位 未获取','更新 '+(d.updated||'')].filter(Boolean).join(' · ')+'</div>';
+  h+='<div class="dim-grid">';
+  h+='<div class="dim"><div class="dt">一页结论</div><ul>'+((d.bullets&&d.bullets.length)?d.bullets.map(function(b){return '<li>'+esc(dpTxt(b))+'</li>';}).join(''):'<li>未获取</li>')+'</ul></div>';
+  h+='<div class="dim"><div class="dt">关键数字</div>'+
+     '<div class="row"><span>2026 复试线</span><b>'+dpNum(d.line)+(d.nat?('（国家线 '+d.nat+(d.gap>0?'，超 '+d.gap+' 分':(d.gap<0?'，低于 '+(-d.gap)+' 分':''))+'）'):'')+'</b></div>'+
+     '<div class="row"><span>拟招 / 复试 / 录取</span><b>'+dpNum(d.plan)+' / '+dpNum(d.retest)+' / '+dpNum(d.admit)+'</b></div>'+
+     '<div class="row"><span>录取最低 / 最高 / 均分</span><b>'+dpNum(d.min)+' / '+dpNum(d.max)+' / '+dpNum(d.avg)+'</b></div>'+
+     '</div>';
+  h+='<div class="dim"><div class="dt">正本</div><a href="../'+esc(d.md)+'" target="_blank" rel="noopener">打开完整专档 →</a></div>';
+  h+='</div></div>';
+  return h;
+}
+function renderDeep(){
+  var box=document.getElementById('deep-grid'); if(!box) return;
+  var nav=document.getElementById('dp-nav');
+  var rows=(typeof DEEP==='undefined'?[]:DEEP).filter(function(d){return _dpAll||d.depth==='full';});
+  if(nav) nav.innerHTML=rows.map(function(d){return '<a href="#deep-'+esc(d.k)+'" style="font-size:12px;padding:3px 9px;border:1px solid var(--rule);border-radius:999px;text-decoration:none;color:var(--accent)">'+esc(d.n)+'</a>';}).join('');
+  box.innerHTML=rows.map(deepCard).join('')||'<div class="cardsub">专档尚未生成（跑 09-生成脚本/build_school_profiles.py --index）</div>';
+  var b1=document.getElementById('dp-core'), b2=document.getElementById('dp-all');
+  if(b1) b1.className=_dpAll?'':'active';
+  if(b2) b2.className=_dpAll?'active':'';
+}
+function dpInit(){
+  var b1=document.getElementById('dp-core'), b2=document.getElementById('dp-all');
+  if(b1) b1.addEventListener('click',function(){_dpAll=false;renderDeep();});
+  if(b2) b2.addEventListener('click',function(){_dpAll=true;renderDeep();});
+  renderDeep();
+}
+dpInit();
+/* ===== DEEP-END ===== */"""
+
+if not os.path.isfile(DEEP_JSON):
+    print("04 页专档章节：跳过（缺 %s，跑 build_school_profiles.py --index）" % DEEP_JSON)
+else:
+    _deep = json.load(io.open(DEEP_JSON, encoding="utf-8"))
+    _ds = json.dumps(_deep, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    _block = SEC_HTML + '\n<script>var DEEP=' + _ds + ';</script>\n' + SEC_B
+    h4 = rd(HTML_04)
+    if SEC_A in h4 and SEC_B in h4:
+        _i, _j = h4.index(SEC_A), h4.index(SEC_B) + len(SEC_B)
+        h4n = h4[:_i] + _block + h4[_j:]
+    else:
+        _a = h4.index('<section id="detail">')
+        _b = h4.index("</section>", _a) + len("</section>")
+        h4n = h4[:_b] + "\n\n" + _block + h4[_b:]
+    if JS_A in h4n and JS_B in h4n:
+        _i, _j = h4n.index(JS_A), h4n.index(JS_B) + len(JS_B)
+        h4n = h4n[:_i] + JS_CODE + h4n[_j:]
+    else:
+        _k = h4n.rindex("</script>")
+        h4n = h4n[:_k] + JS_CODE + "\n" + h4n[_k:]
+    if h4n != h4:
+        wr(HTML_04, h4n)
+        print("04 页专档章节 %s（var DEEP %d 条：完整版 %d / 精简版 %d）" % (
+            "已写入" if APPLY else "待写入（干跑）", len(_deep),
+            sum(1 for d in _deep if d.get("depth") == "full"),
+            sum(1 for d in _deep if d.get("depth") != "full")))
+    else:
+        print("04 页专档章节无需改动（var DEEP %d 条）" % len(_deep))
+
 # ---------------- score_matrix.json（06 浏览器页实际读取的文件）----------------
 #   该文件的生成器 build_score_matrix.py 已断链（ext/ 缺失），属**手工维护的派生文件**。
 #   只做两件"不引入新事实"的事：① 用已有的 retestCnt/admitCnt 算复录比；② 用 yz408 的 e26 补拟招。

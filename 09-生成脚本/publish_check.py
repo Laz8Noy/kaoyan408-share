@@ -19,7 +19,9 @@ publish_check.py — 考研数据发布流程的统一门禁（只读检查 + �
   C11 全仓死链（覆盖所有 tracked html/md，不只 index/浏览器页/根 README）
   C12 来源分级（sources.tier 无空值且取值合法）+ 冲突裁定规则文件存在
   C13 索引页 ↔ 搜索索引 JSON ↔ 统一库 三者口径一致（索引页是派生产物，最易失步）
+  C14 重点院校专档（05-院校专档）索引 ↔ 正文 md ↔ 04 页 var DEEP ↔ 统一库 四者一致
 """
+import hashlib
 import io
 import json
 import os
@@ -37,6 +39,14 @@ HTML_04 = "04-终极版择校/全国408_085410双非热度版_终极版_20260826
 XLSX_04 = "04-终极版择校/全国408_085410双非热度版_终极版_20260826.xlsx"
 INDEX = os.path.join(DB_DIR, "school_browser.json")
 RESULTS = []
+
+
+def grabjs_opt(s, begin):
+    """grabjs 的安全版：变量不存在时返回 []（供 var DEEP 这类可选注入用）"""
+    try:
+        return grabjs(s, begin)
+    except ValueError:
+        return []
 
 
 def check(name, ok, detail=""):
@@ -300,7 +310,8 @@ else:
     _dbnames = {r[0] for r in _con.execute("SELECT name FROM schools")}
     _con.close()
     _page = io.open(HTML_04, encoding="utf-8").read()
-    _pnames = {d.get("n") for d in (grabjs(_page, "var S=") + grabjs(_page, "var C=")) if d.get("n")}
+    _pnames = {d.get("n") for d in (grabjs(_page, "var S=") + grabjs(_page, "var C=")
+                                    + grabjs_opt(_page, "var DEEP=")) if d.get("n")}
     _ghost = sorted(_pnames - _dbnames)
     check("C10 页面院校均在统一库内(页面%d 库%d)" % (len(_pnames), len(_dbnames)), not _ghost,
           ("页面有而库无: " + ", ".join(_ghost[:5])) if _ghost else "")
@@ -429,6 +440,62 @@ else:
     except Exception as _ex:  # noqa: BLE001
         _idx_ok, _idx_msg = False, "解析失败：%s" % _ex
 check("C13 索引页↔索引JSON↔统一库 口径一致", _idx_ok, _idx_msg)
+
+# C14 重点院校专档（05-院校专档）—— _index.json ↔ 正文 md ↔ 04 页 var DEEP ↔ 统一库 四者一致
+_pidx = os.path.join("05-院校专档", "_index.json")
+_bad14, _info14 = [], ""
+if not os.path.isfile(_pidx):
+    _bad14.append("缺 05-院校专档/_index.json（跑 build_school_profiles.py --index）")
+else:
+    try:
+        _pi = json.load(io.open(_pidx, encoding="utf-8"))
+        _n14 = _pi.get("nSchools", 0)
+        if _n14 != 21:
+            _bad14.append("nSchools=%s（应为 21）" % _n14)
+        if _pi.get("missing"):
+            _bad14.append("缺正文：%s" % "、".join(_pi["missing"][:5]))
+        _nfull = 0
+        for _it in _pi.get("schools", []):
+            _p14 = _it["md"]
+            if not os.path.isfile(_p14):
+                _bad14.append("md 不存在：%s" % _p14)
+                continue
+            _t14 = io.open(_p14, encoding="utf-8").read()
+            _ln14 = len(_t14.split("\n"))
+            _lo14 = 220 if _it.get("depth") == "full" else 90
+            if _ln14 < _lo14:
+                _bad14.append("%s 仅 %d 行（%s 档需 ≥%d）" % (_it["name"], _ln14, _it.get("depth"), _lo14))
+            if "<!--" in _t14:
+                _bad14.append("%s 残留 HTML 注释" % _it["name"])
+            if hashlib.sha1(_t14.encode("utf-8")).hexdigest() != _it.get("sha1"):
+                _bad14.append("%s sha1 与 _index.json 不符（重跑 --index）" % _it["name"])
+            if _it.get("depth") == "full":
+                _nfull += 1
+        if _nfull != 10:
+            _bad14.append("full 档 %d 所（应为 10）" % _nfull)
+        # var DEEP ↔ _index.json ↔ 统一库
+        _h4 = io.open(HTML_04, encoding="utf-8").read()
+        _dp = grabjs_opt(_h4, "var DEEP=")
+        if not _dp:
+            _bad14.append("04 页无 var DEEP（跑 patch_pages_from_db.py --apply）")
+        else:
+            _dn = {d.get("n") for d in _dp if d.get("n")}
+            _in14 = {_it["name"] for _it in _pi.get("schools", [])}
+            if _dn != _in14:
+                _bad14.append("var DEEP 与 _index.json 校名不一致（DEEP 多 %s / 少 %s）"
+                              % (sorted(_dn - _in14)[:3], sorted(_in14 - _dn)[:3]))
+            if os.path.isfile(_db):
+                _cn = sqlite3.connect(_db)
+                _nms = {r[0] for r in _cn.execute("SELECT name FROM schools")}
+                _cn.close()
+                _gh14 = sorted(_dn - _nms)
+                if _gh14:
+                    _bad14.append("var DEEP 有而库无：%s" % "、".join(_gh14[:3]))
+        _info14 = "%d 校（full %d）/ 缺正文 %d" % (_n14, _nfull, len(_pi.get("missing") or []))
+    except Exception as _ex:  # noqa: BLE001
+        _bad14.append("解析失败：%s" % _ex)
+check("C14 院校专档 索引/正文/页面/库 四者一致", not _bad14,
+      ("; ".join(_bad14[:3]) if _bad14 else _info14))
 
 nfail = sum(1 for _, ok, _ in RESULTS if not ok)
 print("=" * 46)
