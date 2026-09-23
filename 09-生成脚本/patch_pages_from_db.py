@@ -312,7 +312,7 @@ JS_A = '/* ===== DEEP-BEGIN ===== */'
 JS_B = '/* ===== DEEP-END ===== */'
 
 SEC_HEAD = """<section id="deep">
-  <h2>八·五、重点院校专档（21 校 · 深度摘要）<span class="hint">核心 10 所完整版 · 其余 11 所精简版 · 正本见 05-院校专档/</span></h2>
+  <h2>九·五、重点院校专档（21 校 · 深度摘要）<span class="hint">核心 10 所完整版 · 其余 11 所精简版 · 正本见 05-院校专档/</span></h2>
   <div class="hm-toolbar">
     <button class="active" id="dp-core">只看核心 10 所</button>
     <button id="dp-all">展开全部 21 所</button>
@@ -343,7 +343,7 @@ def light_html(light):
          '<table style="min-width:1200px"><thead><tr>'
          '<th>院校</th><th>层次</th><th>省市</th><th>2026线</th><th>国家线</th><th>执行国家线</th>'
          '<th>拟招</th><th>复试</th><th>录取</th><th>录取均分</th><th>2027改考</th><th>王道</th>'
-         '<th>数据档</th><th>备注</th></tr></thead><tbody>']
+         '<th>备注</th></tr></thead><tbody>']
 
     def nz(v):
         return "未获取" if v is None or v == "" else v
@@ -353,7 +353,8 @@ def light_html(light):
             "<tr><td>%s</td><td>%s</td><td>%s</td>"
             '<td class="num">%s</td><td class="num">%s</td><td>%s</td>'
             '<td class="num">%s</td><td class="num">%s</td><td class="num">%s</td><td class="num">%s</td>'
-            "<td>%s</td><td class=\"num\">%s</td><td>%s</td><td>%s</td></tr>" % (
+            "<td>%s</td><td class=\"num\">%s</td>"
+            "<td class=\"note-cell\">%s</td></tr>" % (
                 _esc(x["n"]), _esc(x["t"] or "—"),
                 _esc((x["p"] or "—") + (("/" + x["r"]) if x["r"] else "")),
                 nz(x["line"]), nz(x["nat"]),
@@ -361,7 +362,6 @@ def light_html(light):
                 nz(x["plan"]), nz(x["retest"]), nz(x["admit"]), nz(x["avg"]),
                 ("有 %d 条" % x["u27"]) if x["u27"] else "未获取",
                 x["wd"] or "未获取",
-                {"full": "有实质数据", "catalog_only": "仅目录", "link_only": "仅链接"}.get(x["lvl"], x["lvl"]),
                 _esc(x["note"][:70] or "—")))
     h += ["</tbody></table></div>"]
     return "\n".join(h)

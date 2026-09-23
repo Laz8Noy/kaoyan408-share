@@ -35,12 +35,12 @@ header.top .sub{color:var(--muted);margin-top:8px;font-size:14px}
   border-radius:8px;padding:12px 16px;margin:18px 0;font-size:13.5px;color:#7c2d12}
 .banner b{color:var(--warn)}
 section{margin-top:34px}
-h2{font-size:19px;font-weight:800;margin-bottom:6px;padding-bottom:8px;border-bottom:2px solid var(--rule)}
-h2 .hint{font-size:12.5px;font-weight:500;color:var(--muted);float:right;margin-top:6px}
+h2{font-size:19px;font-weight:800;margin-bottom:6px;padding-bottom:8px;border-bottom:2px solid var(--rule);display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:2px 12px}
+h2 .hint{font-size:12.5px;font-weight:500;color:var(--muted);float:none;margin-top:0;text-align:right;flex:1 1 300px;min-width:0}
 h3{font-size:16px;font-weight:700;margin:18px 0 8px}
 p{margin:8px 0}
 .filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0 12px}
-.filters .grp{display:flex;gap:4px;background:var(--bg2);border:1px solid var(--rule);border-radius:8px;padding:3px}
+.filters .grp{display:flex;flex-wrap:wrap;gap:4px;background:var(--bg2);border:1px solid var(--rule);border-radius:8px;padding:3px}
 .filters .grp button{border:none;background:transparent;color:var(--muted);padding:6px 12px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600}
 .filters .grp button.active{background:var(--accent);color:#fff}
 .filters input{flex:1;min-width:180px;padding:8px 12px;border:1px solid var(--rule);border-radius:8px;font-size:13.5px}
@@ -86,7 +86,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
 .dim ul{list-style:none;font-size:13.5px;line-height:1.6}
 .dim li{padding:3px 0 3px 14px;position:relative}
 .dim li::before{content:"·";position:absolute;left:4px;color:var(--accent);font-weight:700}
-.mini-tbl{width:100%;border-collapse:collapse;font-size:13px;margin:6px 0}
+.mini-tbl{width:100%;border-collapse:collapse;font-size:13px;margin:6px 0;min-width:0}
 .mini-tbl th{background:var(--bg);color:var(--ink);font-weight:600;padding:6px 8px;text-align:left;border-bottom:1px solid var(--rule);position:static;cursor:default;white-space:nowrap}
 .mini-tbl td{padding:6px 8px;border-bottom:1px solid var(--rule);white-space:normal;word-break:break-word}
 .mini-tbl tr:hover{background:transparent}
@@ -98,7 +98,7 @@ footer .sources ol{padding-left:1.2rem;font-size:12.5px;color:var(--muted)}
 footer .sources li{margin-bottom:5px;overflow-wrap:break-word;word-break:break-all}
 footer .sources .src-title{color:var(--ink);word-break:normal}
 footer .sources .src-url{display:block;margin-top:2px;font-size:12px;color:var(--accent);word-break:break-all}
-.chart-figure{margin:0;padding:0;background:var(--bg2);border:1px solid var(--rule);border-radius:10px;overflow:visible}
+.chart-figure{margin:0;padding:0;background:var(--bg2);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
 .chart-figure figcaption{padding:10px 16px;background:#1e293b;color:#fff;font-size:13px;font-weight:600;border-radius:10px 10px 0 0}
 .chart-figure > div{padding:8px}
 .rec-form{background:var(--bg2);border:1px solid var(--rule);border-radius:12px;padding:20px 24px;margin:14px 0}
@@ -1070,7 +1070,7 @@ renderR();
   c1.setOption({
     tooltip:{trigger:'axis',appendToBody:true,axisPointer:{type:'shadow'},formatter:function(params){var s=params[0].axisValue+'<br/>';params.forEach(function(p){if(p.value!==null&&p.value!==undefined)s+=p.marker+p.seriesName+'：'+p.value+'分<br/>';});return s;}},
     legend:{data:['学硕(081200计科)','专硕(085404/085400)'],top:5,textStyle:{color:muted}},
-    grid:{left:50,right:30,top:40,bottom:70},
+    grid:{left:50,right:30,top:40,bottom:70,containLabel:true},
     xAxis:{type:'category',data:['四川大学','电子科大','西南交大','西南石油','成都理工','成信大','西华','民航飞院','重庆大学','西南大学*','重庆科大'],
       axisLabel:{color:muted,rotate:35,fontSize:11},axisLine:{lineStyle:{color:rule}}},
     yAxis:{type:'value',name:'复试线(分)',nameTextStyle:{color:muted},
@@ -1089,7 +1089,7 @@ renderR();
   var c2=echarts.init(document.getElementById('chart-ratio'),null,{renderer:'svg'});
   c2.setOption({
     tooltip:{trigger:'item',appendToBody:true,formatter:function(p){return p.name+'<br/>报录比：'+p.value+':1';}},
-    grid:{left:130,right:50,top:20,bottom:30},
+    grid:{left:130,right:50,top:20,bottom:30,containLabel:true},
     xAxis:{type:'value',name:'报录比',nameTextStyle:{color:muted},axisLabel:{color:muted},splitLine:{lineStyle:{color:rule}}},
     yAxis:{type:'category',data:['西华计算机(2026一志愿)','重庆科大计算机(2024)','西南大学计信电子','川师计科','电子科大密码','西华软工(2025)','西南大学计信软工','西南大学计信计科','西南石油计科','电子科大网安','电子科大计科','成都理工(全院)','川大计科(2023)','川大电子(2023)','西南大学140500智科'],
       axisLabel:{color:muted,fontSize:11},axisLine:{lineStyle:{color:rule}}},
@@ -1105,7 +1105,7 @@ renderR();
   c3.setOption({
     tooltip:{trigger:'axis',appendToBody:true,axisPointer:{type:'shadow'},formatter:function(params){var s=params[0].axisValue+'<br/>';params.forEach(function(p){if(p.value>0)s+=p.marker+p.seriesName+'：'+p.value+'人<br/>';});return s;}},
     legend:{data:['学硕统考','专硕统考'],top:5,textStyle:{color:muted}},
-    grid:{left:50,right:30,top:40,bottom:70},
+    grid:{left:50,right:30,top:40,bottom:70,containLabel:true},
     xAxis:{type:'category',data:['四川大学','电子科大','西南交大','西南石油','成都理工','成信大','西华','民航飞院','川师大','重庆大学','西南大学','重庆三峡','重庆科大'],
       axisLabel:{color:muted,rotate:40,fontSize:10},axisLine:{lineStyle:{color:rule}}},
     yAxis:{type:'value',name:'统考录取(人)',nameTextStyle:{color:muted},axisLabel:{color:muted},splitLine:{lineStyle:{color:rule}}},
@@ -1143,7 +1143,7 @@ renderR();
       var d=valueData[p.dataIndex];
       return '<b>'+d.name+'</b>（'+d.tier+'）<br/>综合得分：'+d.score+'/100<br/>——————<br/>复试线：'+d.line+'<br/>报录比：'+d.ratio+'<br/>复录比：'+d.reexam+'<br/>学费：'+d.fee+'/年<br/>就业起薪：'+d.salary+'/年';
     }},
-    grid:{left:110,right:80,top:20,bottom:30},
+    grid:{left:110,right:80,top:20,bottom:30,containLabel:true},
     xAxis:{type:'value',name:'综合性价比得分',nameLocation:'middle',nameGap:28,nameTextStyle:{color:muted},
       min:0,max:90,axisLabel:{color:muted},splitLine:{lineStyle:{color:rule}}},
     yAxis:{type:'category',data:valueData.map(function(d){return d.name;}),
@@ -1187,7 +1187,7 @@ renderR();
   ];
   c5b.setOption({
     tooltip:{trigger:'item',appendToBody:true,formatter:function(p){return '<b>'+p.name+'</b><br/>复录比：'+p.value+':1<br/>'+reexamData[p.dataIndex][2];}},
-    grid:{left:160,right:60,top:20,bottom:30},
+    grid:{left:160,right:60,top:20,bottom:30,containLabel:true},
     xAxis:{type:'value',name:'复录比（复试人数/录取人数）',nameLocation:'middle',nameGap:30,nameTextStyle:{color:muted},axisLabel:{color:muted,formatter:'{value}:1'},splitLine:{lineStyle:{color:rule}}},
     yAxis:{type:'category',data:reexamData.map(function(d){return d[0];}),
       axisLabel:{color:muted,fontSize:11},axisLine:{lineStyle:{color:rule}}},
@@ -1254,7 +1254,7 @@ renderR();
   c7b.setOption({
     tooltip:{trigger:'item',appendToBody:true,formatter:function(p){var d=p.data;return '<b>'+d.name+'</b><br/>就业薪资：'+d.salary+'<br/>难度：'+d.diffLabel+'<br/>统考录取：'+d.admit;}},
     legend:{data:['冲刺(★★★★+)','稳妥(★★★)','保底(★★)'],top:5,right:20,textStyle:{color:muted}},
-    grid:{left:60,right:40,top:40,bottom:60},
+    grid:{left:60,right:40,top:40,bottom:60,containLabel:true},
     xAxis:{type:'value',name:'录取难度（星级）',nameLocation:'middle',nameGap:30,nameTextStyle:{color:muted},min:0.5,max:5.5,axisLabel:{color:muted,formatter:function(v){return v+'★';}},splitLine:{lineStyle:{color:rule}}},
     yAxis:{type:'value',name:'就业起薪(万/年)',nameTextStyle:{color:muted},min:7,max:32,axisLabel:{color:muted,formatter:'{value}万'},splitLine:{lineStyle:{color:rule}}},
     series:[
@@ -1304,7 +1304,7 @@ renderR();
   ];
   c8.setOption({
     tooltip:{trigger:'item',appendToBody:true,formatter:function(p){return '<b>'+p.name+'</b><br/>一志愿录取率：'+p.value+'%<br/>'+fcData[p.dataIndex].note;}},
-    grid:{left:140,right:70,top:20,bottom:30},
+    grid:{left:140,right:70,top:20,bottom:30,containLabel:true},
     xAxis:{type:'value',name:'一志愿录取率（%）',nameLocation:'middle',nameGap:28,nameTextStyle:{color:muted},
       min:0,max:110,axisLabel:{color:muted,formatter:'{value}%'},splitLine:{lineStyle:{color:rule}}},
     yAxis:{type:'category',data:fcData.map(function(d){return d.name;}),
@@ -1333,7 +1333,7 @@ renderR();
     tooltip:{trigger:'axis',appendToBody:true,axisPointer:{type:'shadow'},
       formatter:function(params){var s=params[0].axisValue+'<br/>';params.forEach(function(p){s+=p.marker+p.seriesName+'：'+p.value+'万<br/>';});var cost=roiCost[params[0].dataIndex];var sal=roiSalary[params[0].dataIndex];s+='回本周期：'+(cost/sal).toFixed(1)+'年';return s;}},
     legend:{data:['三年总成本','就业起薪(年)'],top:5,textStyle:{color:muted}},
-    grid:{left:80,right:60,top:40,bottom:30},
+    grid:{left:80,right:60,top:40,bottom:30,containLabel:true},
     xAxis:{type:'value',name:'金额(万)',nameTextStyle:{color:muted},
       axisLabel:{color:muted,formatter:'{value}万'},splitLine:{lineStyle:{color:rule}}},
     yAxis:{type:'category',data:roiSchools,
@@ -1357,7 +1357,7 @@ renderR();
     tooltip:{trigger:'item',appendToBody:true,formatter:function(p){
       return '<b>'+p.name+'</b><br/>复试线：'+gapLines[p.dataIndex]+'分<br/>国家线：264分<br/>超出：'+p.value+'分';
     }},
-    grid:{left:110,right:80,top:20,bottom:30},
+    grid:{left:110,right:80,top:20,bottom:30,containLabel:true},
     xAxis:{type:'value',name:'超出国家线分数(分)',nameLocation:'middle',nameGap:28,nameTextStyle:{color:muted},
       min:0,max:110,axisLabel:{color:muted,formatter:'{value}分'},splitLine:{lineStyle:{color:rule}}},
     yAxis:{type:'category',data:gapSchools,
@@ -1604,7 +1604,7 @@ buildCards();
   c5.setOption({
     tooltip:{trigger:'axis',appendToBody:true,formatter:function(params){var s=params[0].axisValue+'年<br/>';params.forEach(function(p){if(p.value!=null)s+=p.marker+p.seriesName+'：'+p.value+'分<br/>';});return s;}},
     legend:{top:5,textStyle:{color:muted},data:['四川大学','电子科技大学','西南交通大学','成都理工大学','成都信息工程大学','重庆大学','西南大学']},
-    grid:{left:55,right:30,top:50,bottom:60},
+    grid:{left:55,right:30,top:50,bottom:60,containLabel:true},
     xAxis:{type:'category',data:['2023','2024','2025','2026'],axisLabel:{color:muted},axisLine:{lineStyle:{color:rule}}},
     yAxis:{type:'value',name:'复试线(分)',min:250,max:380,nameTextStyle:{color:muted},axisLabel:{color:muted},splitLine:{lineStyle:{color:rule}}},
     series:[
@@ -1638,7 +1638,7 @@ buildCards();
   c6.setOption({
     tooltip:{trigger:'axis',appendToBody:true,formatter:function(params){var s=params[0].axisValue+'年<br/>';params.forEach(function(p){if(p.value!=null)s+=p.marker+p.seriesName+'：'+p.value+'分<br/>';});return s;}},
     legend:{top:5,textStyle:{color:muted},data:['四川大学','电子科技大学','西南石油大学','成都理工大学','重庆大学','西南大学']},
-    grid:{left:55,right:30,top:50,bottom:60},
+    grid:{left:55,right:30,top:50,bottom:60,containLabel:true},
     xAxis:{type:'category',data:['2023','2024','2025','2026'],axisLabel:{color:muted},axisLine:{lineStyle:{color:rule}}},
     yAxis:{type:'value',name:'复试线(分)',min:250,max:380,nameTextStyle:{color:muted},axisLabel:{color:muted},splitLine:{lineStyle:{color:rule}}},
     series:[

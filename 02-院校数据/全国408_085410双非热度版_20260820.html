@@ -35,12 +35,12 @@ header.top .sub{color:var(--muted);margin-top:8px;font-size:14px;line-height:1.7
 .banner.tip{background:#eff6ff;border-color:#93c5fd;border-left-color:#2563eb;color:#1e3a5f}
 .banner.tip b{color:#2563eb}
 section{margin-top:34px}
-h2{font-size:19px;font-weight:800;margin-bottom:6px;padding-bottom:8px;border-bottom:2px solid var(--rule)}
-h2 .hint{font-size:12.5px;font-weight:500;color:var(--muted);float:right;margin-top:6px}
+h2{font-size:19px;font-weight:800;margin-bottom:6px;padding-bottom:8px;border-bottom:2px solid var(--rule);display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:2px 12px}
+h2 .hint{font-size:12.5px;font-weight:500;color:var(--muted);float:none;margin-top:0;text-align:right;flex:1 1 300px;min-width:0}
 h3{font-size:16px;font-weight:700;margin:18px 0 8px}
 p{margin:8px 0}
 .filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0 12px}
-.filters .grp{display:flex;gap:4px;background:var(--bg2);border:1px solid var(--rule);border-radius:8px;padding:3px}
+.filters .grp{display:flex;flex-wrap:wrap;gap:4px;background:var(--bg2);border:1px solid var(--rule);border-radius:8px;padding:3px}
 .filters .grp button{border:none;background:transparent;color:var(--muted);padding:6px 12px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600;white-space:nowrap}
 .filters .grp button.active{background:var(--accent);color:#fff}
 .filters input{flex:1;min-width:180px;padding:8px 12px;border:1px solid var(--rule);border-radius:8px;font-size:13.5px}
@@ -138,7 +138,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
 .tl-date{font-size:12px;font-weight:800;color:var(--accent)}
 .tl-title{font-size:13.5px;font-weight:700;margin:2px 0}
 .tl-desc{font-size:12.5px;color:var(--muted);line-height:1.6}
-.mini-tbl{width:100%;border-collapse:collapse;font-size:13px}
+.mini-tbl{width:100%;border-collapse:collapse;font-size:13px;min-width:0}
 .mini-tbl th{background:#f1f5f4;color:var(--ink);font-weight:700;padding:7px 9px;text-align:left;border-bottom:1px solid var(--rule);white-space:nowrap}
 .mini-tbl td{padding:7px 9px;border-bottom:1px solid var(--rule);white-space:normal;word-break:break-word}
 .mini-tbl tr:hover{background:transparent}
@@ -536,7 +536,7 @@ td.kq-scope{font-size:11px;color:var(--muted);max-width:240px}
 </section>
 
 <section id="detail">
-  <h2>八、各校详细信息（含报考评价）<span class="hint">默认 Top 12 · 可展开全部 60 所 · 同校多学院已合并</span></h2>
+  <h2>九、各校详细信息（含报考评价）<span class="hint">默认 Top 12 · 可展开全部 60 所 · 同校多学院已合并</span></h2>
   <div class="hm-toolbar">
     <button class="active" id="dc-top12">只看 Top 12</button>
     <button id="dc-all">展开全部</button>
@@ -546,7 +546,7 @@ td.kq-scope{font-size:11px;color:var(--muted);max-width:240px}
 </section>
 
 <section id="other408">
-  <h2>九、其他 408 专业附表<span class="hint">非 085410，但 408 + 人工智能/电子信息相关，值得关注</span></h2>
+  <h2>十、其他 408 专业附表<span class="hint">非 085410，但 408 + 人工智能/电子信息相关，值得关注</span></h2>
   <div class="table-wrap">
     <table id="other-tbl">
       <thead><tr id="other-thr"></tr></thead>
@@ -557,7 +557,7 @@ td.kq-scope{font-size:11px;color:var(--muted);max-width:240px}
 
 <footer>
   <div class="sources">
-    <h2>十、数据来源</h2>
+    <h2>十一、数据来源</h2>
     <ol id="src"></ol>
   </div>
   <div class="footer-note">
