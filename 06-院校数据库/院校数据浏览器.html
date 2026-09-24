@@ -559,7 +559,7 @@ function openDetail(r){
     h+="<h3>本单位择校字段</h3>";
     h+='<div class="kv">'+[["学院",u.college],["方向",u.direction],["初试科目",u.subj],
       ["2026 复试线",u.line2026],
-      ["历年线",u.lines?Object.keys(u.lines).sort().map(function(y){return y+"："+u.lines[y]}).join(" · "):null],
+      ["历年线",u.lines?Object.keys(u.lines).sort().map(function(y){var v=u.lines[y];return y+"："+(v==null||v===""?"—":v)}).join(" · "):null],
       ["2026 拟招",u.planRaw],["复试人数",u.retestRaw],["录取人数",u.admitRaw],
       ["复录比",u.ratioRetest],["报录比",u.ratioApply],
       ["录取最高分",u.maxRaw],["录取最低分",u.minRaw],["录取均分",u.avgRaw],
