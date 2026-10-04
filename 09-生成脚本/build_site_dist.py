@@ -23,6 +23,7 @@ import argparse
 import io
 import json
 import os
+import re
 import shutil
 import sys
 
@@ -49,8 +50,9 @@ EXCLUDE_TOP = {
     ".gitignore": "版本控制文件", ".gitattributes": "版本控制文件",
 }
 # 文件级排除：命中即跳过（相对 dist 的路径前缀 / 后缀）
-EXCLUDE_PATH_PREFIX = ("12-408名词罗盘/project/", "12-408名词罗盘/sources/",
-                       "05-院校专档/_数据底稿/")
+# 注意：12 号目录要留 sources/（构建产物 index.html 里引用的是 ./sources/*.pdf，
+# 名词罗盘书柜直读的就是这一份），要丢的是 project/public/sources/ 那份同 blob 重复副本。
+EXCLUDE_PATH_PREFIX = ("12-408名词罗盘/project/", "05-院校专档/_数据底稿/")
 EXCLUDE_SUFFIX = (".woff", ".ttf", ".db", ".xlsx", ".md", ".py", ".jsonl", ".bak")
 # 但 .json 数据要保留（懒加载靠它），所以后缀规则里不含 .json；md 走单独例外
 KEEP_SUFFIX_ANYWAY = (".html", ".css", ".js", ".json", ".woff2", ".svg", ".png", ".jpg",
@@ -92,6 +94,45 @@ def collect():
             else:
                 skipped[why] = skipped.get(why, 0) + 1
     return picked, skipped
+
+
+def verify_refs():
+    """产物内部死链自检：扫 dist 里每个 html 的 href/src/fetch 字面量，解析到 dist 内是否存在。
+
+    这条检查是因为踩过一次：把 `12-408名词罗盘/sources/` 当冗余排除掉，
+    而构建产物引用的正是 `./sources/*.pdf` —— 仓库门禁 C11 只看仓库，看不见产物缺件。
+    """
+    import urllib.parse
+    miss = []
+    checked = 0
+    for base, dirs, files in os.walk(OUT):
+        if MARKER in files:
+            pass
+        for f in files:
+            if not f.lower().endswith(".html"):
+                continue
+            p = os.path.join(base, f)
+            rel = os.path.relpath(p, OUT).replace(os.sep, "/")
+            try:
+                t = io.open(p, encoding="utf-8", errors="ignore").read()
+            except OSError:
+                continue
+            refs = set(re.findall(r'(?:href|src)\s*=\s*["\']([^"\']+)["\']', t))
+            refs |= set(re.findall(r'fetch\(\s*["\']([^"\')]+)["\']', t))
+            for r in refs:
+                if r.startswith(("http", "//", "javascript", "data:", "mailto", "#", "/")):
+                    continue
+                if "+" in r or "{" in r or "$" in r or re.search(r"\s", r):
+                    continue  # JS 拼接的模板片段，静态检查看不懂
+                target = os.path.normpath(os.path.join(os.path.dirname(p),
+                                                       urllib.parse.unquote(r.split("#")[0].split("?")[0])))
+                if not target.startswith(OUT):
+                    miss.append("%s → %s（跳出产物根）" % (rel, r))
+                    continue
+                checked += 1
+                if not os.path.exists(target):
+                    miss.append("%s → %s" % (rel, r))
+    return checked, sorted(set(miss))
 
 
 def main():
@@ -149,6 +190,13 @@ def main():
         print("✗ 产物缺关键文件：%s" % ", ".join(miss))
         return 1
     print("✓ 关键入口与数据齐备；托管时 webDirectory 填 \"dist\"")
+    checked, dead = verify_refs()
+    print("✓ 产物内部引用自检：解析 %d 条相对引用，死链 %d 条" % (checked, len(dead)))
+    for d in dead[:8]:
+        print("   ✗ %s" % d)
+    if dead:
+        print("✗ 产物有内部死链，别上线（多半是排除规则切到了被引用的资源目录）")
+        return 1
     return 0
 
 
