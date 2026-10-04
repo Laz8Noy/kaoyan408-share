@@ -106,9 +106,11 @@
     <span style="opacity:.72">口径：本页 = 择校总表 <b>238</b> 校（177 主库 ∪ 95 成功并入的 CodeBrick ∪ 外部源）+ Dai408 <b>114</b> 校 + 研招网目录 <b>389</b> 校；仓库另有浏览器索引 <b>249</b> 条（含 72 条库外记录）与统一库全部 <b>511</b> 所（分 full / catalog_only / link_only 三档）—— 各数字含义不同，详见 docs/口径.md。</span>
   </div>
   <div class="links">
+    <a href="索引.html">← 408 院校索引（按院校 / 专业 / 代码搜索）</a>
     <a href="../04-终极版择校/全国408_085410双非热度版_终极版_20260826.html">085410/22408 择校专题 →</a>
     <a href="../08-推荐器网页/kaoyan-recommender-full.html">智能推荐器 →</a>
     <a href="../11-408专业课交互课件/408观测站/index.html">408 观测站 →</a>
+    <a href="../12-408名词罗盘/index.html">408 名词罗盘 →</a>
     <a href="https://github.com/Laz8Noy/kaoyan408-share">仓库主页</a>
     <a href="https://laz8noy.github.io/kaoyan408-share/">Pages 首页</a>
   </div>
@@ -140,6 +142,7 @@ var LIMIT=400;
 /* ============================ 状态 ============================ */
 var M=null,YZ=null,DAI=null,TAB="dai",rows=[],shown=LIMIT,sort={k:null,dir:-1};
 var Q="",fProv="",fTier="",fYear="",fCat="",fSubj="",fDeg="",fOnly27=false,fOnlyTut=false,fOnlyQ=false;
+var PENDING_Q="";  /* 从索引页「在其他工具里看」带过来的检索词，paint 时落到搜索框 */
 var provOpts=[],tierOpts=[],yearOpts=[],catOpts=[],subjOpts=[],degOpts=[];
 var CATD={"S-主体":["主推池","tS"],"C-对照":["985/211对照","tC"],"NN候选":["N诺候选","tN"],
           "CB-分数统计":["分数统计","tB"],"信息补充":["补充信息","tX"]};
@@ -229,7 +232,13 @@ var LOADED={dai:false,yz:false};
 
 function boot(){
   var h=(location.hash||"").replace(/^#/,"");
-  if(h&&TABS.some(function(t){return t.id===h}))TAB=h;
+  var tab=h,qs="";
+  var hi=h.indexOf("?");
+  if(hi>=0){tab=h.slice(0,hi);qs=h.slice(hi+1)}
+  // 检索词两种带法都收：?q=南京大学（query）与 #dai?q=南京大学（hash 内）
+  var m=qs.match(/(?:^|&)q=([^&]*)/)||location.search.match(/[?&]q=([^&]*)/);
+  if(m&&m[1]){try{PENDING_Q=decodeURIComponent(m[1])}catch(e){PENDING_Q=m[1]}}
+  if(tab&&TABS.some(function(t){return t.id===tab}))TAB=tab;
   document.getElementById("tabs").innerHTML=TABS.map(function(t){
     return '<div class="tab'+(t.id===TAB?" on":"")+'" data-t="'+t.id+'">'+t.t+(t.s?'<i>'+t.s+'</i>':'')+'</div>'}).join("");
   Array.prototype.forEach.call(document.querySelectorAll(".tab"),function(el){
@@ -271,7 +280,9 @@ function paint(t){
     extra=' <span class="mini">（已剔除源数据中 '+DAI.nPlaceholderFixed+
       ' 条「复试0人 / 录取0人 / 分数全0」的占位行，避免 0 分污染排序与统计；这些行仅保留专业目录信息。）</span>';
   document.getElementById("hint").innerHTML=(HINTS[t]||"")+extra;
-  renderControls();buildRows();renderHead();render();
+  renderControls();
+  if(PENDING_Q){Q=PENDING_Q;PENDING_Q="";var _q=document.getElementById("q");if(_q)_q.value=Q}
+  buildRows();renderHead();render();
 }
 
 function switchTab(t){

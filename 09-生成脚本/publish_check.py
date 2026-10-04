@@ -21,6 +21,7 @@ publish_check.py — 考研数据发布流程的统一门禁（只读检查 + �
   C13 索引页 ↔ 搜索索引 JSON ↔ 统一库 三者口径一致（索引页是派生产物，最易失步）
   C14 重点院校专档（05-院校专档）索引 ↔ 正文 md ↔ 04 页 var DEEP ↔ 统一库 四者一致
   C15 其余院校轻量速览：_light.json ↔ 04 页速览表 ↔ 深度专档集合 互斥且都在库内
+  C16 择校页目录/锚点与标题同步 + 索引页「站内出口」指向的文件真实存在
 """
 import hashlib
 import io
@@ -544,6 +545,31 @@ else:
         _bad15.append("解析失败：%s" % _ex)
 check("C15 其余院校速览表 与库/深度专档 一致", not _bad15,
       ("; ".join(_bad15[:3]) if _bad15 else _info15))
+
+# C16 择校页目录同步 + 索引页站内出口可达（这两处是「改了一处忘另一处」的高发点）
+_bad16, _info16 = [], []
+_r16 = sh([sys.executable, "-X", "utf8", os.path.join("09-生成脚本", "add_zexiao_toc.py"), "--check"])
+_o16 = ((_r16.stdout or "") + (_r16.stderr or "")).strip()
+if _r16.returncode != 0 or "需要写盘=True" in _o16:
+    _bad16.append("择校页目录与标题不同步（跑 add_zexiao_toc.py）："
+                  + (_o16.splitlines()[-1][:70] if _o16 else "无输出"))
+else:
+    _info16.append("择校页目录已同步")
+_idx16 = os.path.join("06-院校数据库", "索引.html")
+_nlinks16 = 0
+if os.path.isfile(_idx16):
+    _h16 = io.open(_idx16, encoding="utf-8", errors="ignore").read()
+    _lk = re.search(r'"links":\{([^}]*)\}', _h16)
+    if not _lk:
+        _bad16.append("索引页缺 meta.links（跑 build_search_index.py）")
+    else:
+        _ps = re.findall(r'"(?:browser|zexiao|recommender|observatory)":"([^"]*)"', _lk.group(1))
+        _nlinks16 = len(_ps)
+        for _p in _ps:
+            if not os.path.isfile(os.path.normpath(os.path.join("06-院校数据库", _p))):
+                _bad16.append("索引页出口死链：%s" % _p)
+_detail16 = "; ".join(_bad16[:3]) if _bad16 else "择校页目录同步 + 索引页出口 %d 条均在" % _nlinks16
+check("C16 择校页目录同步+索引页站内出口可达", not _bad16, _detail16)
 
 nfail = sum(1 for _, ok, _ in RESULTS if not ok)
 print("=" * 46)

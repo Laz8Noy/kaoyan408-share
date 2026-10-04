@@ -18,8 +18,11 @@
 | 浏览器页派生索引 | `build_school_browser_data.py` | 幂等；改动 06/10 两库 JSON 或本目录 xlsx 明细后重跑 |
 | **统一院校库（学校 → 专业 → 各类数据）** | `build_unified_db.py` | **现役**：读 06 择校库 + 10 分数库 + `yz408_catalog`（招生单位代码）+ 01 导师正本 + 04 改考动态 + `dai408_scores` + `score_matrix` + `todo_patch_list` + `wangdao_links_all` + `catalog_2024~2027` → 生成 `06/data/kaoyan408.db`（SQLite，**24 表 + 2 视图 + 16 索引**；**本地生成、不入库**，已加 .gitignore）、`crosswalk.json`、`schools_unified.json`；含脏值数值化（`*_value`/`*_note`）与 CHECK 约束；纯 stdlib、跨平台、幂等；**任一源变更后重跑** |
 | **页面字段回填（04/08/score_matrix）** | `patch_pages_from_db.py` | **现役**：从仓库正本补 04/08 页面与 `score_matrix.json` 的缺失字段（只补空、不覆盖手工值；幂等；改前自动备份到 `_bak/`）。干跑不加 `--apply` |
-| **搜索索引 + 索引页** | `build_search_index.py` | **现役**：读 `kaoyan408.db` → 生成 `06-院校数据库/data/搜索索引.json`（894 KB 扁平索引）与 `06-院校数据库/索引.html`（单文件搜索页，索引内嵌，双击可离线打开）。支持按 校名/别名/招生单位代码/专业代码/专业名/学院 检索。**统一库变更后重跑** |
-| **发布门禁（一条命令全流程自检）** | `publish_check.py` | 改完任何数据后跑：C1 索引再生 / C2 懒加载路径 / C3 `xlsx↔网页`同步 / C4 死链与本机路径泄露（Windows+类 Unix 双形态）/ C5 py 编译 / C7 生成脚本输入存在性 / C8 字段类型与数值可解析 / C9 规模口径对账 / C10 页面院校⊆统一库 / C11 全仓死链 / C12 来源分级（`sources.tier` 无空值）与冲突裁定规则文件存在。**全 PASS 再 commit+push**（C6 为信息性 git 状态） |
+| **搜索索引 + 索引页** | `build_search_index.py` | **现役**：读 `kaoyan408.db` → 生成 `06-院校数据库/data/搜索索引.json`（892 KB 扁平索引）与 `06-院校数据库/索引.html`（单文件搜索页，索引内嵌，双击可离线打开）。支持按 校名/别名/招生单位代码/专业代码/专业名/学院 检索；列表行是 `#s=院校代码` / `#m=专业代码` **深链**（可整条转发），详情页带「在其他工具里看」站内出口与复试线整行去重（`meta.dedupedLines` 记录去掉的条数）。**统一库变更后重跑** |
+| **择校页目录与锚点（幂等补丁）** | `add_zexiao_toc.py` | **现役**：给 04 终极版择校页补可折叠目录、h2/h3 缺失的 `id`、口径脚注；插入内容包在 `<!-- QODER:TOC/TOCSTYLE/FOOT:BEGIN/END -->` 标记里，重跑先摘旧块再按当前标题重插（字节数收敛，`--check` 只报告不写盘）。**改过 04 页标题或重生成 04 页后重跑本脚本**，门禁 C16 会盯失步 |
+| **录取名单去标识化** | `desensitize_admission_lists.py` | **现役**：清空 `07-考情资料/录取名单原始材料/*.html` 里「考生编号」（整格 15 位数字）与「考生姓名」（紧邻编号右侧的 2-4 汉字）两类单元格，表头标注「已脱敏」；名单 PDF 校验 SHA1 后移到仓库外 `~/kaoyan-本地留存/`；写 `_脱敏记录.md`（before/after SHA1 + 规则 + 历史仍含原件的警示）。默认干跑，加 `--apply` 才动 |
+| **托管产物装配（dist/）** | `build_site_dist.py` | **现役**：按顶层白名单 + 后缀/目录排除规则，把该上线的页面与懒加载 JSON 按**原相对层级**拷进 `dist/`（页面间用 `../10-…/data/…` 相对路径互链，层级变形即全断）。排除 `.woff`、`12/project/`、`sources/` 重复 PDF、`07` 原始存档、`09` 脚本、`docs`；产物 722 文件 / 24.8 MiB（仓库 58 MB 的整仓直推会被 50 MiB 上限拒）。`--dry-run` 只报清单，`--clean` 凭 `.dist-manifest.json` 标记才敢删。托管时 `webDirectory` 填 `dist`；`dist/` 已加 .gitignore |
+| **发布门禁（一条命令全流程自检）** | `publish_check.py` | 改完任何数据后跑：C1 索引再生 / C2 懒加载路径 / C3 `xlsx↔网页`同步 / C4 死链与本机路径泄露（Windows+类 Unix 双形态）/ C5 py 编译 / C7 生成脚本输入存在性 / C8 字段类型与数值可解析 / C9 规模口径对账 / C10 页面院校⊆统一库 / C11 全仓死链 / C12 来源分级（`sources.tier` 无空值）与冲突裁定规则文件存在 / C13 索引页↔索引JSON库口径 / C14 深度专档四方一致 / C15 轻量速览表一致 / C16 择校页目录同步 + 索引页站内出口可达。**全 PASS 再 commit+push**（C6 为信息性 git 状态） |
 
 ## 发布工作流（数据更新 → 上线）
 

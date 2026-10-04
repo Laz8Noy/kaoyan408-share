@@ -18,3 +18,6 @@ node_modules/
 
 # 页面补丁脚本的自动备份（patch_pages_from_db.py --apply 时生成，不入库）
 09-生成脚本/_bak/
+
+# 托管产物（09-生成脚本/build_site_dist.py 装配，派生文件不入库；重建即可得）
+dist/

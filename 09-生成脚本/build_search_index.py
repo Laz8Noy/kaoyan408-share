@@ -26,6 +26,7 @@ import os
 import re
 import sqlite3
 import sys
+import urllib.parse
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -36,6 +37,71 @@ OUT_HTML = os.path.join(D06, "索引.html")
 
 # 索引里每校保留的王道链接条数上限（全库 3530 条，全塞进页面没必要）
 WD_CAP = 6
+
+# 站内其他工具的位置：索引页详情要能一跳直达，不再做信息孤岛。
+# 这些路径在构建时解析（择校页文件名带日期，不能写死在模板里）。
+D04 = os.path.join(ROOT, "04-终极版择校")
+D05 = os.path.join(ROOT, "05-院校专档")
+D08 = os.path.join(ROOT, "08-推荐器网页")
+D11 = os.path.join(ROOT, "11-408专业课交互课件", "408观测站")
+
+
+def rel06(abs_path):
+    """仓库绝对路径 → 从 06-院校数据库/（索引页所在目录）出发的相对 href，正斜杠"""
+    return os.path.relpath(abs_path, D06).replace(os.sep, "/")
+
+
+# 05 专档正文是 .md：静态托管（GitHub Pages / Qoder Sites）按 text/markdown 原样吐出来，
+# 浏览器要么显示纯文本要么直接下载，读者以为链接坏了。所以 md 一律给 GitHub 渲染后的 blob 地址，
+# html（一页看懂）仍用相对路径，离线双击也能开。
+BLOB = "https://github.com/Laz8Noy/kaoyan408-share/blob/main/"
+
+
+def blob_url(path_from_root):
+    return BLOB + urllib.parse.quote(path_from_root.replace(os.sep, "/"), safe="/")
+
+
+def newest_04_html():
+    """04 号目录里日期后缀最大的「终极版择校页」"""
+    if not os.path.isdir(D04):
+        return ""
+    c = sorted(f for f in os.listdir(D04)
+               if f.startswith("全国408_085410双非热度版_终极版_") and f.endswith(".html"))
+    return rel06(os.path.join(D04, c[-1])) if c else ""
+
+
+def first_html(dirname):
+    if not os.path.isdir(dirname):
+        return ""
+    c = sorted(f for f in os.listdir(dirname) if f.endswith(".html"))
+    return rel06(os.path.join(dirname, c[0])) if c else ""
+
+
+def school_profiles():
+    """school_key → {"h": 通俗版 html, "m": 全档 md}（以 05/_index.json 为准，html 靠扫目录）"""
+    out = {}
+    jp = os.path.join(D05, "_index.json")
+    if not os.path.exists(jp):
+        return out
+    try:
+        recs = json.load(io.open(jp, encoding="utf-8")).get("schools", [])
+    except ValueError:
+        return out
+    for r in recs:
+        k, name, md = r.get("school_key"), r.get("name"), r.get("md")
+        if not k or not name:
+            continue
+        e = {}
+        if md:
+            ab = os.path.join(ROOT, md.replace("/", os.sep))
+            if os.path.exists(ab):
+                e["m"] = blob_url(md)
+        hs = first_html(os.path.join(D05, name))
+        if hs:
+            e["h"] = hs
+        if e:
+            out[k] = e
+    return out
 
 
 def jload(v):
@@ -126,10 +192,24 @@ def main():
                 m["co"].append(r["col"])
 
     # ---------- 4. 各类明细（按 school_key 分组，避免每校重复冗余字段名） ----------
+    # score_lines 无学院列，同一 (校,专业,年,分数,原始值) 完全相同的行是真重复而非两所学院，
+    # 直接展示会出现「2026 085410 305」连排两行；这里按整行去重，并把去掉的条数记进 meta 供审计。
     lines = {}
+    _seen_lines = set()
+    n_lines_dup = 0
     for r in q("""SELECT school_key k, major_code c, year y, value v, raw_value raw, value_kind vk
                     FROM score_lines ORDER BY school_key, year"""):
-        lines.setdefault(r["k"], []).append([r["c"], r["y"], r["v"], r["raw"], r["vk"]])
+        row = [r["c"], r["y"], r["v"], r["raw"], r["vk"]]
+        sig = (r["k"],) + tuple("" if x is None else str(x) for x in row)
+        if sig in _seen_lines:
+            n_lines_dup += 1
+            continue
+        _seen_lines.add(sig)
+        lines.setdefault(r["k"], []).append(row)
+
+    # 去重后必须回写每校的「线」计数，否则列表行的「线N」与详情表条数会对不上
+    for k, s in schools.items():
+        s["cnt"]["l"] = len(lines.get(k, []))
 
     adm = {}
     for r in q("""SELECT school_key k, major_code c, year y, plan_value pv, plan p,
@@ -214,6 +294,15 @@ def main():
                        "updates_2027": sum(len(v) for v in u27.values()),
                        "catalog": sum(len(v) for v in cat.values()),
                        "wangdao_links(截取)": sum(len(v) for v in wd.values())},
+        # 复试线整行去重条数（源表无学院列，同值多学院会并成一行）——透明起见写进 meta 并在页面标注
+        "dedupedLines": n_lines_dup,
+        # 站内出口：构建时解析，择校页换版本不必再手改模板
+        "links": {"browser": "院校数据浏览器.html",
+                  "zexiao": newest_04_html(),
+                  "recommender": first_html(D08),
+                  "observatory": first_html(D11),
+                  "koujing": "https://github.com/Laz8Noy/kaoyan408-share/blob/main/docs/%E5%8F%A3%E5%BE%84.md"},
+        "prof": school_profiles(),
     }
 
     idx = {
@@ -294,6 +383,10 @@ select{padding:11px 10px;font-size:14px;border:1px solid var(--line);border-radi
 #list{max-height:70vh;overflow:auto}
 .row{padding:10px 14px;border-bottom:1px solid #f0f2f5;cursor:pointer;display:flex;
   justify-content:space-between;gap:10px;align-items:baseline}
+a.row{color:inherit;text-decoration:none}
+.nav{margin:10px 0 0;font-size:12.5px;color:var(--tx3)}
+.nav a{margin-right:14px;white-space:nowrap}
+.out{display:flex;gap:8px 18px;flex-wrap:wrap;font-size:12.5px}
 .row:hover{background:#f8fafd}
 .row.on{background:var(--ac2);box-shadow:inset 3px 0 0 var(--ac)}
 .row .nm{font-weight:600}
@@ -333,6 +426,7 @@ footer{margin-top:26px;color:var(--tx3);font-size:12px;border-top:1px solid var(
   <h1>408 院校索引</h1>
   <div class="sub">数据来自统一院校库 <code>kaoyan408.db</code>（学校 → 专业 → 各类数据）·
     <b id="hd"></b></div>
+  <div class="nav" id="toolnav"></div>
 </header>
 
 <div class="bar">
@@ -348,7 +442,12 @@ footer{margin-top:26px;color:var(--tx3);font-size:12px;border-top:1px solid var(
 <p class="hint">
   支持：<kbd>校名</kbd> <kbd>别名</kbd> <kbd>5 位招生单位代码</kbd> <kbd>6 位专业代码</kbd>
   <kbd>专业名</kbd> <kbd>学院名</kbd> · 输入 <kbd>085410</kbd> 或 <kbd>人工智能</kbd> 可看专业下所有院校
+  · 点任意一行，地址栏会变成可转发的深链（<kbd>#s=院校代码</kbd> / <kbd>#m=专业代码</kbd>）
 </p>
+<p class="hint legend">行内计数含义：<b>N 专业</b> 学校×专业×学院组合数 · <b>线N</b> 历年复试线 ·
+  <b>招录N</b> 招录记录 · <b>分位N</b> 录取分数分位 · <b>导师N</b> 已登记导师 · <b>考情N</b> 考情明细 ·
+  <b>改考N</b> 2027 改考动态。规模口径以 <b id="lgTotal"></b> 所（统一库全部学校，含仅目录与仅链接两档）为准，
+  详见 <a href="https://github.com/Laz8Noy/kaoyan408-share/blob/main/docs/%E5%8F%A3%E5%BE%84.md" target="_blank" rel="noopener">docs/口径.md</a>。</p>
 <div class="stat" id="stat"></div>
 
 <div class="cols">
@@ -358,13 +457,14 @@ footer{margin-top:26px;color:var(--tx3);font-size:12px;border-top:1px solid var(
   </div>
   <div class="panel">
     <h2>详情</h2>
-    <div id="detail"><div class="empty">← 左侧选择一所院校或一个专业</div></div>
+    <div id="detail"><div class="empty">从列表选择一所院校或一个专业看详情（窄屏时列表在上方）</div></div>
   </div>
 </div>
 
 <footer>
   索引页由 <code>09-生成脚本/build_search_index.py</code> 从统一库自动生成，<b>请勿手改本文件</b>；
   数据修正请改正本（<code>06-院校数据库/data/schools/*.json</code> 等）后重跑构建脚本。
+  <span id="footnote"></span>
 </footer>
 </div>
 
@@ -473,22 +573,22 @@ else{(function(){
     var h='';
     rows.slice(0,600).forEach(function(x,i){
       if(x.t==='m'){ var m=x.o;
-        h+='<div class="row" data-t="m" data-k="'+esc(m.c)+'">'+
+        h+='<a class="row" data-t="m" data-k="'+esc(m.c)+'" href="#m='+encodeURIComponent(m.c)+'">'+
            '<div><span class="tag kind">专业</span><span class="nm">'+hl(m.n,q)+
            ' <code>'+esc(m.c)+'</code></span><div class="meta" style="text-align:left;margin-top:2px">'+
            esc(m.dt||'')+(m.cat&&m.cat!==m.dt?' · '+esc(m.cat):'')+'</div></div>'+
-           '<div class="meta">'+m.sg.length+' 校</div></div>';
+           '<div class="meta">'+m.sg.length+' 校</div></a>';
       }else{ var s=x.o;
-        h+='<div class="row" data-t="s" data-k="'+esc(s.k)+'">'+
+        h+='<a class="row" data-t="s" data-k="'+esc(s.k)+'" href="#s='+encodeURIComponent(s.k)+'">'+
            '<div><span class="nm">'+hl(s.n,q)+'</span> '+tierTags(s)+
            '<div class="meta" style="text-align:left;margin-top:2px">'+esc(s.p||'—')+
            (s.code?' · <code>'+esc(s.code)+'</code>':'')+'</div></div>'+
-           '<div class="meta">'+denseTags(s)+'</div></div>';
+           '<div class="meta" title="线=历年复试线 · 招录=招录记录 · 分位=录取分数分位 · 导师=已登记导师 · 考情=考情明细 · 改考=2027 改考动态">'+
+           denseTags(s)+'</div></a>';
       }
     });
     el('list').innerHTML=h;
-    Array.prototype.forEach.call(el('list').querySelectorAll('.row'),function(d){
-      d.onclick=function(){ pick(d.getAttribute('data-t'),d.getAttribute('data-k'),d) }});
+    if(cur){ var cr=el('list').querySelector('.row[data-t="'+cur.t+'"][data-k="'+cur.k+'"]'); if(cr) cr.classList.add('on') }
     if(rows.length>600) el('list').innerHTML+='<div class="empty-row" style="padding:12px 14px">仅显示前 600 条，请细化搜索条件</div>';
   }
   function tierTags(s){
@@ -517,6 +617,45 @@ else{(function(){
     el('detail').innerHTML = t==='m' ? majorDetail(k) : schoolDetail(k);
   }
 
+  /* ---------- 深链：地址栏 #s=院校代码 / #m=专业代码 ---------- */
+  function hashTo(){
+    var h=(location.hash||'').replace(/^#/,'');
+    var m=h.match(/^(s|m)[=:](.+)$/i);
+    return m ? {t:m[1].toLowerCase(), k:decodeURIComponent(m[2])} : null;
+  }
+  function applyHash(){
+    var t=hashTo(); if(!t) return false;
+    var ok = t.t==='m' ? !!MM[t.k] : !!SM[t.k];
+    if(!ok){ el('detail').innerHTML='<div class="empty">深链目标 <b>'+esc(t.k)+'</b> 不在统一库里。可能是代码未收录，请从列表重新选择。</div>'; return false }
+    // 当前结果集里没有这一行时，用它自己的名字/代码当查询词重绘，保证「选中态」看得见
+    if(!el('list').querySelector('.row[data-t="'+t.t+'"][data-k="'+t.k+'"]')){
+      el('q').value = t.t==='m' ? t.k : SM[t.k].n;
+      render();
+    }
+    pick(t.t,t.k,null);
+    var r=el('list').querySelector('.row[data-t="'+t.t+'"][data-k="'+t.k+'"]');
+    if(r){ r.classList.add('on'); if(r.scrollIntoView) r.scrollIntoView({block:'nearest'}) }
+    return true;
+  }
+  window.addEventListener('hashchange',applyHash);
+
+  /* 站内出口：索引页不再做信息孤岛 */
+  function outBar(s,mcode){
+    var L=(IDX.meta&&IDX.meta.links)||{}, pr=((IDX.meta&&IDX.meta.prof)||{})[(s&&s.k)||''];
+    // 总库有 7 个页签，各自覆盖的院校不同：按统一库的 in_lib 标记落到「真有这行」的页签，
+    // 否则默认页签 ①Dai408（114 校）会把搜得到的院校显示成 0 行。
+    var tab = s ? (s.lib[0]?'school':((s.lib[1]||s.lib[3])?'score':(s.lib[2]?'yz':'school'))) : 'yz';
+    var q = s ? s.n : mcode;
+    var a='<a href="'+esc(L.browser||'院校数据浏览器.html')+'#'+tab+'?q='+encodeURIComponent(q)+
+      '">总库表格 · '+(s?'择校总表':'研招网目录')+'（筛选 / 导出 CSV）</a>';
+    if(pr&&pr.h) a+='<a href="'+esc(pr.h)+'">本校一页看懂</a>';
+    if(pr&&pr.m) a+='<a href="'+esc(pr.m)+'" target="_blank" rel="noopener">本校全档（GitHub 渲染）</a>';
+    if(L.zexiao) a+='<a href="'+esc(L.zexiao)+'">终极版择校页</a>';
+    if(L.recommender) a+='<a href="'+esc(L.recommender)+'">智能择校推荐器</a>';
+    if(L.observatory) a+='<a href="'+esc(L.observatory)+'">408 观测站（交互实验）</a>';
+    return '<div class="sec"><h4>在其他工具里看</h4><div class="out">'+a+'</div></div>';
+  }
+
   /* ---------- 详情：院校 ---------- */
   function schoolDetail(k){
     var s=SM[k]; if(!s) return '<div class="empty">未找到</div>';
@@ -524,6 +663,7 @@ else{(function(){
       (s.code?'招生单位代码 <code>'+esc(s.code)+'</code>'+(s.cv?'':' <span class="tag" style="color:var(--warn);border-color:#f0dcc0">未验证</span>'):'代码未知')+
       ' · '+esc(s.p||'省份未知')+(s.r?' · '+esc(s.r):'')+(s.t?' · '+esc(s.t):'')+
       (s.csr?' · CS 排名 '+esc(s.csr):'')+'</div>';
+    h+=outBar(s,null);
     h+='<div class="sec"><h4>数据档案</h4><div class="kv">'+
        kv('数据档',({full:'有实质数据',catalog_only:'仅研招网目录',link_only:'仅链接'})[s.lvl]||s.lvl)+
        kv('学校×专业',s.cnt.o+' 条')+kv('复试线',s.cnt.l+' 条')+kv('招录',s.cnt.a+' 条')+
@@ -540,7 +680,7 @@ else{(function(){
     else{
       h+='<div class="scroll"><table><thead><tr><th>专业代码</th><th>专业名</th><th>学院 / 单位</th><th>研究方向</th><th>科目口径</th></tr></thead><tbody>';
       os.forEach(function(o){ var m=MM[o.c];
-        h+='<tr><td class="num"><a href="javascript:void(0)" onclick="__pickM(\''+esc(o.c)+'\')">'+esc(o.c||'—')+'</a></td>'+
+        h+='<tr><td class="num"><a href="#m='+encodeURIComponent(o.c)+'">'+esc(o.c||'—')+'</a></td>'+
            '<td>'+esc(m?m.n:'—')+'</td><td>'+esc(o.col||'—')+'</td>'+
            '<td>'+esc(o.dir||'—')+'</td><td>'+esc(o.sc||'—')+'</td></tr>' });
       h+='</tbody></table></div>';
@@ -641,23 +781,20 @@ else{(function(){
       (m.dt?' · '+esc(m.dt):'')+(m.cat&&m.cat!==m.dt?' · '+esc(m.cat):'')+
       (m.nz?' · 研招网 408 目录收录 <b>'+m.nz+'</b> 个单位':' · 研招网目录未收录（代码来自校内数据）')+
       ' · 本校库覆盖 <b>'+m.sg.length+'</b> 所</div>';
+    h+=outBar(null,m.c);
     if(m.co.length) h+='<div class="sec"><h4>开设学院 / 单位<span>'+m.co.length+' 个</span></h4><div class="kv">'+
       m.co.map(function(x){return '<div>'+esc(x)+'</div>'}).join('')+'</div></div>';
     h+='<div class="sec"><h4>开设院校<span>'+m.sg.length+' 所</span></h4><div class="scroll">'+
       '<table><thead><tr><th>院校</th><th>代码</th><th>省份</th><th>层次</th><th>学院/方向</th></tr></thead><tbody>';
     m.sg.slice().sort(function(a,b){return SM[a].n.localeCompare(SM[b].n,'zh')}).forEach(function(k){
       var s=SM[k]; var o=(s.o||[]).filter(function(x){return x.c===c});
-      h+='<tr><td><a href="javascript:void(0)" onclick="__pickS(\''+esc(k)+'\')">'+esc(s.n)+'</a></td>'+
+      h+='<tr><td><a href="#s='+encodeURIComponent(k)+'">'+esc(s.n)+'</a></td>'+
         '<td class="num">'+esc(s.code||'—')+'</td><td>'+esc(s.p||'—')+'</td>'+
         '<td>'+esc(s.t||'—')+'</td><td>'+esc(o.map(function(x){return x.col||x.dir}).filter(Boolean).join(' ｜ ')||'—')+'</td></tr>';
     });
     h+='</tbody></table></div></div>';
     return h;
   }
-
-  /* 供详情内联 onclick 调用 */
-  window.__pickS=function(k){ pick('s',k,null); var r=document.querySelector('.row[data-t="s"][data-k="'+k+'"]'); if(r){r.classList.add('on')} };
-  window.__pickM=function(c){ pick('m',c,null) };
 
   /* ---------- 初始化 ---------- */
   var mt=IDX.meta;
@@ -679,16 +816,29 @@ else{(function(){
   }).forEach(function(t){ el('fTier').insertAdjacentHTML('beforeend','<option>'+esc(t)+'</option>') });
   el('fLvl').insertAdjacentHTML('beforeend',
     '<option value="full">有实质数据</option><option value="catalog_only">仅研招网目录</option><option value="link_only">仅链接</option>');
+  // 顶部站内导航 + 口径脚注：路径全部来自构建期解析，别处换文件名不会失效
+  var L=mt.links||{};
+  el('toolnav').innerHTML='<b>站内工具：</b>'+[[L.browser,'408 院校数据总库'],[L.zexiao,'终极版择校页'],
+    [L.recommender,'智能择校推荐器'],[L.observatory,'408 观测站'],
+    ['../12-408名词罗盘/index.html','408 名词罗盘'],['../index.html','仓库首页']]
+    .filter(function(x){return x[0]}).map(function(x){
+      return '<a href="'+esc(x[0])+'">'+x[1]+' →</a>'}).join('');
+  el('lgTotal').textContent=mt.nSchools;
+  el('footnote').innerHTML=' 规模口径：<b>'+mt.nSchools+'</b>（统一库全部学校）= 有实质数据 '+mt.nFull+
+    ' + 仅研招网目录 '+mt.nCatalogOnly+' + 仅链接 '+mt.nLinkOnly+
+    '；复试线已按整行去重 '+(mt.dedupedLines||0)+' 条（源表无学院列，同值多学院并为一行）。';
   var tm=null;
   function deb(){ clearTimeout(tm); tm=setTimeout(render,120) }
   el('q').oninput=deb;
-  el('clr').onclick=function(){ el('q').value=''; render(); el('q').focus() };
+  el('clr').onclick=function(){ el('q').value=''; clearHash(); render(); el('q').focus() };
+  function clearHash(){ if(!location.hash) return; try{history.replaceState(null,'',location.pathname+location.search)}catch(e){location.hash=''} }
   ['fProv','fTier','fLvl'].forEach(function(id){ el(id).onchange=render });
   el('q').onkeydown=function(e){
     if(e.key==='Enter'){ var f=el('list').querySelector('.row'); if(f) f.click() }
-    if(e.key==='Escape'){ el('q').value=''; render() }
+    if(e.key==='Escape'){ el('q').value=''; clearHash(); render() }
   };
   render();
+  applyHash();  // 带 #s=院校代码 / #m=专业代码 打开时，直接落到那一条并可原样转发
 })();}
 </script>
 </body>
