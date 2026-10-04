@@ -5,7 +5,10 @@ reactbits 风格的 408 术语图鉴：四本《专业名词手册》+ 融合思
 
 ## 🌐 在线打开（免下载）
 
-👉 [https://laz8noy.github.io/kaoyan408-share/12-408名词罗盘/](https://laz8noy.github.io/kaoyan408-share/12-408%E5%90%8D%E8%AF%8D%E7%BD%97%E7%9B%98/)
+👉 [https://laz8noy.github.io/kaoyan408-share/12-408名词罗盘/index.html](https://laz8noy.github.io/kaoyan408-share/12-408%E5%90%8D%E8%AF%8D%E7%BD%97%E7%9B%98/index.html)
+
+> 写成带 `index.html` 的完整文件名，不依赖托管方的"目录自动索引"——GitHub Pages 两种都能开，
+> 但关掉目录索引的静态托管（如 Qoder Sites）只认完整文件名。
 
 - `index.html` + `assets/`：构建产物，GitHub Pages 直接服务（相对路径，子目录可用）
 - `sources/`：四科融合思维导图 PDF（书柜页右上"四科融合思维导图 ↗"指向它，浏览器可在线读）；四本名词手册 PDF 留在目录里作存档，页面已不再提供入口

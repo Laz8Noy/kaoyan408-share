@@ -9,6 +9,25 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      /* 这个文件是 Vite 的构建入口（npm run build 靠下面那个静态 module 标签识别 entry），
+         但整仓由 GitHub Pages 根目录直发，于是它同时是个可被访问的公开 URL ——
+         静态托管上 /src/main.jsx 不存在，原来会白屏。这里在浏览器里判定：
+         只有在 Vite 开发服务器（5175 端口）上才走真正的入口逻辑，
+         其它情况给出到成品页的可用出口，不再留死页。 */
+      if (location.port !== '5175') {
+        document.getElementById('root').innerHTML =
+          '<main style="max-width:620px;margin:18vh auto;padding:0 24px;' +
+          'font:16px/1.9 -apple-system,BlinkMacSystemFont,\'Segoe UI\',\'Microsoft YaHei\',sans-serif;color:#243632">' +
+          '<p style="color:#839089;margin:0 0 6px">这是源码目录，不是成品页。</p>' +
+          '<h1 style="font-size:22px;margin:0 0 12px">408 名词罗盘 · Vite 开发入口</h1>' +
+          '<p>本文件是 <code>npm run build</code> 的构建入口，只有 Vite 开发服务器能编译其中的 JSX。' +
+          '成品已经构建到上一级目录，直接打开即可。</p>' +
+          '<p><a href="../index.html" style="color:#e66b46">→ 打开构建好的 408 名词罗盘</a></p>' +
+          '<p style="color:#839089;font-size:13.5px">本地开发：在 <code>12-408名词罗盘/project/</code> 里 ' +
+          '<code>npm install</code> 后 <code>npm run dev</code>，访问 127.0.0.1:5175。</p></main>';
+      }
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
