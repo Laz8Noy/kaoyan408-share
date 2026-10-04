@@ -10,11 +10,10 @@
 
 ## 🌐 在线访问（免下载，手机 / iPad / 电脑浏览器直接打开）
 
-> **同一套内容，两个站点，可互为备用**（页面完全一致，站内链接互通）：
+
 > - **主站**：GitHub Pages → <https://laz8noy.github.io/kaoyan408-share/>
-> - **备用镜像**：WorkBuddy 托管 → 👉 **<https://0540033718ae4ae3bcee7be9301730b1.sg2.agentos-app.run/>**
->
-> GitHub Pages 打不开、构建延迟或被网络限制时，直接开备用镜像；两边同步的是同一份文件。
+
+
 
 **⓪ 408 院校索引（新 · 可搜索 · 首页默认入口）**（**511** 校 / **20** 专业 / **195** 组合；支持校名、别名、5 位招生单位代码、6 位专业代码、专业名、学院名模糊搜索，左侧结果列表 + 右侧详情面板，**首页 2 秒自动跳转即到此页**）：
 👉 [索引.html](https://laz8noy.github.io/kaoyan408-share/06-%E9%99%A2%E6%A0%A1%E6%95%B0%E6%8D%AE%E5%BA%93/%E7%B4%A2%E5%BC%95.html)
@@ -23,7 +22,7 @@
 👉 [院校数据浏览器.html](https://laz8noy.github.io/kaoyan408-share/06-%E9%99%A2%E6%A0%A1%E6%95%B0%E6%8D%AE%E5%BA%93/%E9%99%A2%E6%A0%A1%E6%95%B0%E6%8D%AE%E6%B5%8F%E8%A7%88%E5%99%A8.html)
 
 **② 终极版择校页**（085410/22408 择校专题：**186** 所院校 = 0824 基数 105（67+38）+ 0826 新增 81 所 N诺候选，含热度排行、三源交叉核对、冲稳保推荐器）：
-👉 [全国408_085410双非热度版_终极版_20260826.html](https://laz8noy.github.io/kaoyan408-share/04-%E7%BB%88%E6%9E%81%E7%89%88%E6%8B%A9%E6%A0%A1/%E5%85%A8%E5%9B%BD408_085410%E5%8F%8C%E9%9D%9E%E7%83%AD%E5%BA%A6%E7%89%88_%E7%BB%88%E6%9E%81%E7%89%88_20260826.html)
+👉 [全国408热度版_终极版_20260826.html](https://laz8noy.github.io/kaoyan408-share/04-%E7%BB%88%E6%9E%81%E7%89%88%E6%8B%A9%E6%A0%A1/%E5%85%A8%E5%9B%BD408_085410%E5%8F%8C%E9%9D%9E%E7%83%AD%E5%BA%A6%E7%89%88_%E7%BB%88%E6%9E%81%E7%89%88_20260826.html)
 
 **③ 独立全量推荐器**（输入预估分 → 冲/稳/保自动分档）：
 👉 [kaoyan-recommender-full.html](https://laz8noy.github.io/kaoyan408-share/08-%E6%8E%A8%E8%8D%90%E5%99%A8%E7%BD%91%E9%A1%B5/kaoyan-recommender-full.html)
