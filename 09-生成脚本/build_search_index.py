@@ -44,6 +44,7 @@ D04 = os.path.join(ROOT, "04-终极版择校")
 D05 = os.path.join(ROOT, "05-院校专档")
 D08 = os.path.join(ROOT, "08-推荐器网页")
 D11 = os.path.join(ROOT, "11-408专业课交互课件", "408观测站")
+D13 = os.path.join(ROOT, "13-408交互实验室")
 
 
 def rel06(abs_path):
@@ -301,6 +302,7 @@ def main():
                   "zexiao": newest_04_html(),
                   "recommender": first_html(D08),
                   "observatory": first_html(D11),
+                  "lab": first_html(D13),
                   "koujing": "https://github.com/Laz8Noy/kaoyan408-share/blob/main/docs/%E5%8F%A3%E5%BE%84.md"},
         "prof": school_profiles(),
     }
@@ -653,6 +655,7 @@ else{(function(){
     if(L.zexiao) a+='<a href="'+esc(L.zexiao)+'">终极版择校页</a>';
     if(L.recommender) a+='<a href="'+esc(L.recommender)+'">智能择校推荐器</a>';
     if(L.observatory) a+='<a href="'+esc(L.observatory)+'">408 观测站（交互实验）</a>';
+    if(L.lab) a+='<a href="'+esc(L.lab)+'">408 交互实验室（37 实验）</a>';
     return '<div class="sec"><h4>在其他工具里看</h4><div class="out">'+a+'</div></div>';
   }
 
@@ -819,7 +822,7 @@ else{(function(){
   // 顶部站内导航 + 口径脚注：路径全部来自构建期解析，别处换文件名不会失效
   var L=mt.links||{};
   el('toolnav').innerHTML='<b>站内工具：</b>'+[[L.browser,'408 院校数据总库'],[L.zexiao,'终极版择校页'],
-    [L.recommender,'智能择校推荐器'],[L.observatory,'408 观测站'],
+    [L.recommender,'智能择校推荐器'],[L.observatory,'408 观测站'],[L.lab,'408 交互实验室'],
     ['../12-408名词罗盘/index.html','408 名词罗盘'],['../index.html','仓库首页']]
     .filter(function(x){return x[0]}).map(function(x){
       return '<a href="'+esc(x[0])+'">'+x[1]+' →</a>'}).join('');

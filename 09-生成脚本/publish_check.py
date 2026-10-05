@@ -562,7 +562,7 @@ if os.path.isfile(_idx16):
     if not _lk:
         _bad16.append("索引页缺 meta.links（跑 build_search_index.py）")
     else:
-        _ps = re.findall(r'"(?:browser|zexiao|recommender|observatory)":"([^"]*)"', _lk.group(1))
+        _ps = re.findall(r'"(?:browser|zexiao|recommender|observatory|lab)":"([^"]*)"', _lk.group(1))
         _nlinks16 = len(_ps)
         for _p in _ps:
             if not os.path.isfile(os.path.normpath(os.path.join("06-院校数据库", _p))):
