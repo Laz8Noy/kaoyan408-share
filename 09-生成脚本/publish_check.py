@@ -21,7 +21,7 @@ publish_check.py — 考研数据发布流程的统一门禁（只读检查 + �
   C13 索引页 ↔ 搜索索引 JSON ↔ 统一库 三者口径一致（索引页是派生产物，最易失步）
   C14 重点院校专档（05-院校专档）索引 ↔ 正文 md ↔ 04 页 var DEEP ↔ 统一库 四者一致
   C15 其余院校轻量速览：_light.json ↔ 04 页速览表 ↔ 深度专档集合 互斥且都在库内
-  C16 择校页目录/锚点与标题同步 + 索引页「站内出口」指向的文件真实存在
+  C16 择校页目录/锚点与标题同步 + 索引页/根页「站内出口」指向的文件真实存在（根页 7 个主入口必须齐全）
 """
 import hashlib
 import io
@@ -31,6 +31,7 @@ import re
 import sqlite3
 import subprocess
 import sys
+import urllib.parse
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -567,7 +568,36 @@ if os.path.isfile(_idx16):
         for _p in _ps:
             if not os.path.isfile(os.path.normpath(os.path.join("06-院校数据库", _p))):
                 _bad16.append("索引页出口死链：%s" % _p)
-_detail16 = "; ".join(_bad16[:3]) if _bad16 else "择校页目录同步 + 索引页出口 %d 条均在" % _nlinks16
+# 根页 index.html：本地链接全部可达，且主入口页必须齐全（上线新页面后最易在这里静默漏链）
+_MUST_ROOT16 = [
+    "06-院校数据库/索引.html",
+    "06-院校数据库/院校数据浏览器.html",
+    "04-终极版择校/全国408_085410双非热度版_终极版_20260826.html",
+    "08-推荐器网页/kaoyan-recommender-full.html",
+    "11-408专业课交互课件/408观测站/index.html",
+    "12-408名词罗盘/index.html",
+    "13-408交互实验室/index.html",
+]
+_root16 = os.path.join(ROOT, "index.html")
+if os.path.isfile(_root16):
+    _hr16 = io.open(_root16, encoding="utf-8", errors="ignore").read()
+    _hrefs16 = set()
+    for _m in re.finditer(r'href="([^"]+)"', _hr16):
+        _u = _m.group(1)
+        if _u.startswith(("http://", "https://", "#", "mailto:")):
+            continue
+        _u = urllib.parse.unquote(_u.split("#")[0].split("?")[0])
+        if _u:
+            _hrefs16.add(_u)
+    for _u in sorted(_hrefs16):
+        if not os.path.isfile(os.path.normpath(os.path.join(ROOT, _u))):
+            _bad16.append("根页死链：%s" % _u)
+    for _u in _MUST_ROOT16:
+        if _u not in _hrefs16:
+            _bad16.append("根页缺主入口：%s" % _u)
+else:
+    _bad16.append("根页 index.html 不存在")
+_detail16 = "; ".join(_bad16[:3]) if _bad16 else "择校页目录同步 + 索引页出口 %d 条均在 + 根页主入口 %d 个均在" % (_nlinks16, len(_MUST_ROOT16))
 check("C16 择校页目录同步+索引页站内出口可达", not _bad16, _detail16)
 
 nfail = sum(1 for _, ok, _ in RESULTS if not ok)
