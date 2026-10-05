@@ -293,7 +293,12 @@ def main():
         target = schools.get(key)
         if target is None:
             loose, _ = norm_loose(cb["idx"]["name"])
-            target = schools.get(loose)
+            cand = schools.get(loose)
+            # 松匹配只允许落入「还没挂 CodeBrick 的条目」：否则同名不同校区
+            # （中国矿业大学 vs 中国矿业大学（北京））会整条互相覆盖，
+            # 后到者抹掉先到者的 cbId/programs（2026-10-05 修复：曾丢 id59 本部 9 项目/326 条）。
+            if cand is not None and cand.get("cbId") is None:
+                target = cand
         if target is None:
             # CodeBrick 独有：新建一条
             it = cb["idx"]

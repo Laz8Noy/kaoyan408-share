@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-10-05",
   "missing": [],
   "nSchools": 21,
   "schools": [
@@ -25,7 +25,7 @@
       "n_url": 40,
       "name": "深圳大学",
       "school_key": "10590",
-      "sha1": "fba1dac18bdb9e23ab70934e6a442cee4b531c37"
+      "sha1": "1f9b3f067b48a3eea5a1f54c3a9b8576fc51c7e1"
     },
     {
       "depth": "full",
@@ -73,7 +73,7 @@
       "n_url": 70,
       "name": "杭州电子科技大学",
       "school_key": "10336",
-      "sha1": "8e4f78a062ea24cc2ebd1c58dc32903549ea9132"
+      "sha1": "b301e810a3d717a3e7ab97f2158f9e39a34169cf"
     },
     {
       "depth": "full",

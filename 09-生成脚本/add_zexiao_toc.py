@@ -72,18 +72,32 @@ def heading_label(text):
 
 
 def ensure_ids(html):
-    """给每个 h2/h3 保证有 id：已有的复用，没有的按出现顺序补 sec-N
+    """给每个 h2/h3 保证有 id：已有的复用，没有的补「首个未被占用」的 sec-N
 
     <script> 里的 <h3> 是 JS 模板字符串拼出来的（本页实测 2 处），既不能进目录也不该被改写，
     所以先算出脚本区间，落在其中的匹配原样返回。
+    2026-10-05 修复：编号改为跳过全文已占用的 sec-N。此前从 1 起只数新增项，页面已有
+    sec-1..N 时，后失去锚点的标题（如 04 页深档章节被 patch_pages 重写后）会被补成
+    sec-1/sec-2 与既有章节撞号，目录对应深链变死链。
     """
     spans = [(m.start(), m.end()) for m in re.finditer(r"<script[^>]*>.*?</script>", html, re.S)]
 
     def in_script(i):
         return any(a <= i < b for a, b in spans)
 
+    used = set(re.findall(r'id="(sec-\d+)"', html))
     out = []
     n = [0]
+    n_assigned = [0]
+
+    def next_id():
+        n[0] += 1
+        while "sec-%d" % n[0] in used:
+            n[0] += 1
+        hid = "sec-%d" % n[0]
+        used.add(hid)
+        n_assigned[0] += 1
+        return hid
 
     def repl(m):
         if in_script(m.start()):
@@ -92,14 +106,13 @@ def ensure_ids(html):
         if "id=" in attrs:
             hid = re.search(r'id="([^"]+)"', attrs).group(1)
         else:
-            n[0] += 1
-            hid = "sec-%d" % n[0]
+            hid = next_id()
             attrs = attrs + ' id="%s"' % hid
         out.append((tag, hid, heading_label(inner)))
         return "<%s%s>%s</%s>" % (tag, attrs, inner, tag)
 
     html = re.sub(r"<(h[23])([^>]*)>(.*?)</\1>", repl, html, flags=re.S)
-    return html, out
+    return html, out, n_assigned[0]
 
 
 def build_toc(items):
@@ -144,7 +157,7 @@ def main():
         html, _ = strip_block(html, mk)
 
     # 2. 标题补 id + 生成目录
-    html, items = ensure_ids(html)
+    html, items, n_new_id = ensure_ids(html)
     toc = build_toc(items)
     if not toc:
         print("✗ 页面上没找到 h2/h3，拒绝插入空目录")
@@ -192,7 +205,7 @@ def main():
     print("✓ %s：目录 %d 项（h2 %d / h3 %d），新增 id %d 个，字节 %d → %d"
           % (rel, len(items), sum(1 for t, _, _ in items if t == "h2"),
              sum(1 for t, _, _ in items if t == "h3"),
-             html.count(' id="sec-'), len(orig), len(html)))
+             n_new_id, len(orig), len(html)))
     return 0
 
 

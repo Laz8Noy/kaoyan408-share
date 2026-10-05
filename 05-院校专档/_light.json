@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-10-05",
   "nSchools": 156,
   "schools": [
     {
@@ -763,26 +763,6 @@
       "wd": 16
     },
     {
-      "admit": 104,
-      "avg": 332,
-      "in_s": true,
-      "is_nat": false,
-      "k": "10424",
-      "line": 300,
-      "lvl": "full",
-      "n": "山东科技大学",
-      "nat": 264,
-      "note": "",
-      "p": "山东",
-      "plan": null,
-      "r": "华东",
-      "retest": 134,
-      "sc": "双非",
-      "t": "双非",
-      "u27": 0,
-      "wd": 16
-    },
-    {
       "admit": 100,
       "avg": 330,
       "in_s": true,
@@ -883,8 +863,8 @@
       "wd": 8
     },
     {
-      "admit": 154,
-      "avg": 322,
+      "admit": 42,
+      "avg": null,
       "in_s": true,
       "is_nat": false,
       "k": "10186",
@@ -1801,6 +1781,26 @@
       "t": "双非",
       "u27": 0,
       "wd": 8
+    },
+    {
+      "admit": 104,
+      "avg": 332,
+      "in_s": true,
+      "is_nat": true,
+      "k": "10424",
+      "line": 264,
+      "lvl": "full",
+      "n": "山东科技大学",
+      "nat": 264,
+      "note": "",
+      "p": "山东",
+      "plan": null,
+      "r": "华东",
+      "retest": 134,
+      "sc": "双非",
+      "t": "双非",
+      "u27": 0,
+      "wd": 16
     },
     {
       "admit": 61,

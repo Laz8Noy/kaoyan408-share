@@ -17,8 +17,8 @@
 │   ├── school_browser.json   派生索引：供「院校数据浏览器」页列表用（勿手改，重跑 09-生成脚本/build_school_browser_data.py 再生成；已合并 04 xlsx 的 2027改考/导师/N诺/调剂/重点明细）
 │   ├── schools/*.json        每校一个 JSON（UTF-8，主实体）
 │   ├── conflicts_registry.json 跨校已知冲突/警告登记（12 条）
-│   ├── crosswalk.json        跨库主键映射（402 校，招生单位代码为主键；由 09-生成脚本/build_unified_db.py 生成）
-│   ├── schools_unified.json  学校×专业 统一视图导出（420 行，同上生成）
+│   ├── crosswalk.json        跨库主键映射（511 校，招生单位代码为主键；由 09-生成脚本/build_unified_db.py 生成）
+│   ├── schools_unified.json  学校×专业 统一视图导出（529 行，同上生成）
 │   ├── todo_patch_list.json  各校剩余待补字段清单（568 项，tools/regen_todo.py 再生；实测 sum(n_missing)=568 ✓）
 │   └── wangdao_links_all.json  王道考情微信链接总表（按省平铺，487 校 2019-2026）
 ├── docs/
@@ -88,9 +88,9 @@ python tools/validate_db.py [output_file]
 | ⑥ 2027 改考 | 科目变更、生效年份、来源 | 76 校 |
 | ⑦ 导师方向 | 导师研究方向摘要（含 AI / 大模型关键词） | 14 校 |
 
-合并后的索引共 **238 所院校**（= `score_matrix.json` 的 `stats.nSchools`；177 校择校库 ∪ 95 校成功并入的 CodeBrick ∪ 外部源）。
+合并后的索引共 **239 所院校**（= `score_matrix.json` 的 `stats.nSchools`；177 校择校库 ∪ 96 校 CodeBrick ∪ 外部源；2026-10-05 修复 id59 中国矿业大学（本部）整校丢失后 238→239）。
 
-> ⚠️ **口径提醒**：本页另有 `school_browser.json` 的 **249** 条浏览器索引（= 177 + 72 条库外记录）与统一库的 **402** 所全部学校。三个数字含义不同，引用时务必带限定语。**唯一权威口径见 [`../docs/口径.md`](../docs/口径.md)。**
+> ⚠️ **口径提醒**：本页另有 `school_browser.json` 的 **249** 条浏览器索引（= 177 + 72 条库外记录）与统一库的 **511** 所全部学校。三个数字含义不同，引用时务必带限定语。**唯一权威口径见 [`../docs/口径.md`](../docs/口径.md)。**
 
 ### 新增数据文件
 

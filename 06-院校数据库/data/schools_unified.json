@@ -1,6 +1,6 @@
 {
  "schema": "school-major/v1",
- "built": "2026-09-22",
+ "built": "2026-10-05",
  "note": "学校×专业 三层模型的统一视图（学校 → 专业 → 各类数据）",
  "n": 529,
  "rows": [
@@ -2346,7 +2346,7 @@
    "degree_type": "专业学位",
    "category": "专业学位",
    "college": "计算机科学与工程学院",
-   "subject_class": "22408",
+   "subject_class": "非408(813电路)",
    "direction": "不区分研究方向",
    "n_lines": 2,
    "n_admissions": 1,
@@ -5456,7 +5456,7 @@
    "college": "计算机科学与技术学院",
    "subject_class": "22408",
    "direction": "计算机视觉",
-   "n_lines": 3,
+   "n_lines": 5,
    "n_admissions": 1,
    "n_quantiles": 0,
    "n_tutors": 0,

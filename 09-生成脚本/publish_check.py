@@ -202,7 +202,6 @@ print("INFO C6 未提交改动 %d 项: %s" % (len(lines), "; ".join(l[:60] for l
 # C7 生成脚本输入存在性（自动扫描仓库相对路径字面量）
 # 目的：拦住"脚本还在、输入已消失"的静默断链（如 ext/ 缺失导致 score_matrix 系列不可再生）
 ARCHIVED_SCRIPTS = {
-    "build_score_matrix.py": "ext/ 目录整体缺失（外部快照不可再生）",
     "build_final_html.py": "依赖已改名/删除的 01 目录与主文档",
     "make_final_xlsx.py": "含未替换占位符 + 旧目录名",
     "build_final.py": "依赖已删的 md_conv.py 与库外素材",

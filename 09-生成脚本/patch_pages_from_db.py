@@ -294,11 +294,28 @@ for d in DATA["S"] + DATA["C"]:
     if v is not None:
         d["l"] = v
         n8 += 1
+# 复录比 rr：08 页实际渲染字段（l/rr/note/nn/wd/src/ai 之一），
+# 与 04 页同口径——06 unit 的 ratioRetest 优先，缺失则由 retestCnt/admitCnt 计算（只补空，不覆盖手工值）
+n8rr = 0
+for d in DATA["S"] + DATA["C"]:
+    if not is_empty(d.get("rr")):
+        continue
+    u = lookup_unit(d.get("n"))
+    if not u:
+        continue
+    v = firstnum(u.get("ratioRetest"))
+    if v is None:
+        a, b = firstnum(u.get("retestCnt")), firstnum(u.get("admitCnt"))
+        if a and b:
+            v = round(float(a) / float(b), 2)
+    if v is not None:
+        d["rr"] = v
+        n8rr += 1
 newDATA = json.dumps(DATA, ensure_ascii=False, separators=(", ", ": "))
 if h8[c:e] != newDATA:
     h8 = h8[:c] + newDATA + h8[e:]
     wr(HTML_08, h8)
-    print("08 页 %s（补 l %d 条）" % ("已写入" if APPLY else "待写入（干跑）", n8))
+    print("08 页 %s（补 l %d 条 / rr %d 条）" % ("已写入" if APPLY else "待写入（干跑）", n8, n8rr))
 else:
     print("08 页无需改动")
 

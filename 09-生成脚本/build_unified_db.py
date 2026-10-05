@@ -37,6 +37,7 @@ import io
 import re
 import json
 import glob
+import datetime
 import sqlite3
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -47,7 +48,7 @@ DB = os.path.join(D06, 'kaoyan408.db')
 CROSSWALK = os.path.join(D06, 'crosswalk.json')
 UNIFIED = os.path.join(D06, 'schools_unified.json')
 TUTORS_MD = os.path.join(D01, '085410_22408_导师信息_20260820.md')
-BUILT = '2026-09-22'
+BUILT = datetime.date.today().isoformat()  # 构建日（此前硬编码 2026-09-22，派生物溯源字段会永久定格）
 
 
 def jload(p):
