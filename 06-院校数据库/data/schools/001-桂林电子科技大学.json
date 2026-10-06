@@ -138,7 +138,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/CM9qkhVpR3XO4VP9CpVFlg",
   "26考情分析": "https://mp.weixin.qq.com/s/bAF8rpEHwuMzKoFD3AJgpA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "桂林电子科技大学",
+   "层次": "双非(B区)",
+   "专业/范围": "计算机与信息安全学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027维持，待目录终核）",
+   "生效年份": "2027",
+   "来源": "T1|http://www.guet.edu.cn/yjszs/2026/0910/c4230a159433/page.htm",
+   "备注": "2027简章(9-30)拟招2507人未见改考公告；2027自命题资料含003计算机与信息安全学院（初复试混合），初试科目以目录PDF为准"
+  }
+ ],
  "tutors": [],
  "inTJList": {
   "subjects": "22408",

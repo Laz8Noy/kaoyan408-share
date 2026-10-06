@@ -61,7 +61,18 @@
   "25考情": "https://mp.weixin.qq.com/s/eF6hLAU-Z86qYo61w8BymQ",
   "26考情": "https://mp.weixin.qq.com/s/vR72cE0c94QLzeAdULR7jQ"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "山东科技大学",
+   "层次": "双非",
+   "专业/范围": "计算机科学与工程学院 085404/081200/083900",
+   "原科目": "408",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://yjsy.sdust.edu.cn/zhaosheng/V2-zhuanyemulu-gongshiban.html",
+   "备注": "官方2027目录：计算机学院085404全日制统考④408(拟招106含士兵2)、081200/083900亦408；⚠️085410在电气与自动化工程学院考812电路(拟招11+5)，双口径并存"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

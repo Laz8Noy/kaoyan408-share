@@ -83,7 +83,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/DS7q4Usar7kDqBpB4ytDCg",
   "26考情分析": "https://mp.weixin.qq.com/s/3szPQOLj0d5o_iW_u3QnQw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "河南大学",
+   "层次": "双一流",
+   "专业/范围": "人工智能学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://grs.henu.edu.cn/info/1111/61032.htm",
+   "备注": "2027章程(10-01)发布（2027招生计划尚未下达）；N诺2026口径三学院计算机类均408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

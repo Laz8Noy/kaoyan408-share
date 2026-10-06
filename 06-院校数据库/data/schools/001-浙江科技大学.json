@@ -91,7 +91,18 @@
   "25考情": "https://mp.weixin.qq.com/s/BxDl1fgkpWffQhyfDessDQ",
   "26考情": "https://mp.weixin.qq.com/s/INKf8-ZPi6PUHy1k3gmFtQ"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "浙江科技大学",
+   "层次": "双非",
+   "专业/范围": "0854电子信息(全校)",
+   "原科目": "408",
+   "新科目": "408（2027维持，待目录附件终核）",
+   "生效年份": "2027",
+   "来源": "T1|http://yzw.zust.edu.cn/info/1035/1993.htm",
+   "备注": "2027初试科目调整通知(7-08)未涉人工智能与信息工程学院/0854；目录(9-24)为xlsx附件未核"
+  }
+ ],
  "conflicts": [],
  "sources": [
   {

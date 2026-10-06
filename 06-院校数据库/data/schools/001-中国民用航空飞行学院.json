@@ -76,7 +76,18 @@
   "25考情": "https://mp.weixin.qq.com/s/fWK-ul3Bfm9luH5comP_rw",
   "26考情": "https://mp.weixin.qq.com/s/K7nrHmvgXitiJuFDromKfA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "中国民用航空飞行学院",
+   "层次": "双非",
+   "专业/范围": "计算机与人工智能学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027口径待简章）",
+   "生效年份": "2027",
+   "来源": "T1|https://grs.cafuc.edu.cn/",
+   "备注": "截至10-07官网仅发2027推免通知，统考简章未发布；N诺口径计算机学院电子信息=英二数二408，未见改考公告"
+  }
+ ],
  "tutors": [],
  "inTJList": {
   "subjects": "22408",

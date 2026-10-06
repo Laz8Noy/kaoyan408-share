@@ -75,7 +75,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/C6tLFnKHtI6hge1QdaTgYA",
   "26考情分析": "https://mp.weixin.qq.com/s/9rfTV32Wpchb7A8WMcsnGw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "重庆科技大学",
+   "层次": "双非",
+   "专业/范围": "计算机学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://yjs.cqust.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1014&wbnewsid=2996",
+   "备注": "2027章程(9-27)含目录：085410仍④408；拟统招11人+推免2人（方向：智能物联与智慧安全/人工智能技术）"
+  }
+ ],
  "tutors": [
   "韩琦（机器视觉、深度学习、医学影像、手术导航、无人驾驶）；雷亮（模式识别、图像检索、图像处理）；王丽萍（AI+城市安全、智能巡检、灾害风险与应急管理）"
  ],

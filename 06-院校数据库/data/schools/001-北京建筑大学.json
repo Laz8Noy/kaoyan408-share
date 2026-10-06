@@ -44,7 +44,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/s9wUG9KkBio-36G7gUYF0Q",
   "26考情分析": "https://mp.weixin.qq.com/s/txjmn7zFI6jXyeJ4yb5xGA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "北京建筑大学",
+   "层次": "双非",
+   "专业/范围": "智能科学与技术学院 085410",
+   "原科目": "数据结构(含C语言)(833自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "T1|https://yjsy.bucea.edu.cn/tzgg0/9d40ddefd0734b8882751fe6ed8bb31e.htm",
+   "备注": "2026级起833改统考408；2027调整通知(6-26)未再涉085410，408口径延续"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

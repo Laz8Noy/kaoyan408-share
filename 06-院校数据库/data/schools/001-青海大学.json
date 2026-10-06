@@ -139,7 +139,18 @@
   "25考情": "https://mp.weixin.qq.com/s/kFju1yz5qoN9ZtSAONIAPw",
   "26考情": "https://mp.weixin.qq.com/s/Os8HhG8qbxS6NPRNl6QNpA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "青海大学",
+   "层次": "211",
+   "专业/范围": "0854电子信息(全校)",
+   "原科目": "408",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://yjs.qhu.edu.cn/tzgg1/81fdabac1569452886807b1524db93f2.htm",
+   "备注": "2027两次初试科目调整通知(9-10/9-20)均只涉制药工程/财经学院，未涉计算机类；统考简章未见改考"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

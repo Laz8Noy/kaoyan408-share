@@ -1,6 +1,6 @@
 {
  "schema": "crosswalk/v1",
- "built": "2026-10-05",
+ "built": "2026-10-07",
  "key": "教育部招生单位代码（5 位）；未匹配者 school_key=X-<标准名> 且 code_verified=0",
  "n": 511,
  "schools": {

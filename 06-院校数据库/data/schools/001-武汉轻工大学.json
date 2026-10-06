@@ -58,7 +58,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/EQs2VqgjxIlimUrgN9xAag",
   "26考情分析": "https://mp.weixin.qq.com/s/0l-FfwCfWtlaRWt2lcuALg"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "武汉轻工大学",
+   "层次": "双非",
+   "专业/范围": "数学与计算机学院 0854",
+   "原科目": "混合(408+自命题并存待核)",
+   "新科目": "",
+   "生效年份": "2027",
+   "来源": "T1|https://yjs.whpu.edu.cn/info/1090/5997.htm",
+   "备注": "2027自命题大纲仍列810计算机专业基础综合/830计算机组成原理/831C语言，与统考408并存口径待2027目录确认"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

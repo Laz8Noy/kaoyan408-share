@@ -60,7 +60,18 @@
   "25考情": "https://mp.weixin.qq.com/s/gfK7La0owblOCqdIwDeUKg",
   "26考情": "https://mp.weixin.qq.com/s/uOXX3cQ4-azHPx4x9DWHIw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "杭州电子科技大学",
+   "层次": "双非",
+   "专业/范围": "人工智能学院 085410",
+   "原科目": "861自动控制原理(自命题,非408)",
+   "新科目": "861自动控制原理（维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://grs.hdu.edu.cn/2026/0929/c13800a301001/page.htm",
+   "备注": "2027目录/章程已发布(9-28/9-29)；2027调整公告仅845信号与系统分析→843信号与系统(电子信息学院等)，不涉085410"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

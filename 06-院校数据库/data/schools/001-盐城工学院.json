@@ -45,7 +45,18 @@
   "25考情": "https://mp.weixin.qq.com/s/Wt828VDsR-l12mrLdv0fmA",
   "26考情": "https://mp.weixin.qq.com/s/hOL4kpag5-SpsGFKQLkjCw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "盐城工学院",
+   "层次": "双非",
+   "专业/范围": "信息工程学院 085404/085410",
+   "原科目": "085400电子信息(自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "T1|https://yjsc.ycit.edu.cn/info/1231/8721.htm",
+   "备注": "2026级起085400拆分、085404/085410改统考408；2027初试参考书目(9-30)仍列408，口径延续"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

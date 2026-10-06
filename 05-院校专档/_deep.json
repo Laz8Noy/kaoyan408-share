@@ -22,7 +22,7 @@
     "retest": 64,
     "subj": "",
     "t": "双一流",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "冲"
   },
   {
@@ -48,7 +48,7 @@
     "retest": null,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "冲"
   },
   {
@@ -74,7 +74,7 @@
     "retest": 209,
     "subj": "",
     "t": "双一流",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "稳"
   },
   {
@@ -100,7 +100,7 @@
     "retest": null,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   },
   {
@@ -126,7 +126,7 @@
     "retest": null,
     "subj": "",
     "t": "双一流",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "冲"
   },
   {
@@ -152,7 +152,7 @@
     "retest": 316,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "排除"
   },
   {
@@ -178,7 +178,7 @@
     "retest": 60,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   },
   {
@@ -204,7 +204,7 @@
     "retest": 77,
     "subj": "",
     "t": "双一流",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "稳"
   },
   {
@@ -226,11 +226,11 @@
     "min": 254,
     "n": "昆明理工大学",
     "nat": 254,
-    "plan": 86,
+    "plan": 58,
     "retest": 117,
     "subj": "",
     "t": "双非(B区)",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "稳"
   },
   {
@@ -252,11 +252,11 @@
     "min": 291,
     "n": "中北大学",
     "nat": 264,
-    "plan": 6,
+    "plan": 7,
     "retest": 9,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "稳"
   },
   {
@@ -282,7 +282,7 @@
     "retest": 32,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "稳"
   },
   {
@@ -308,7 +308,7 @@
     "retest": 180,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "稳"
   },
   {
@@ -334,7 +334,7 @@
     "retest": null,
     "subj": "",
     "t": "双一流",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "冲"
   },
   {
@@ -360,7 +360,7 @@
     "retest": 53,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "稳"
   },
   {
@@ -386,7 +386,7 @@
     "retest": 17,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   },
   {
@@ -412,7 +412,7 @@
     "retest": 45,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   },
   {
@@ -438,7 +438,7 @@
     "retest": 126,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   },
   {
@@ -464,7 +464,7 @@
     "retest": null,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   },
   {
@@ -490,7 +490,7 @@
     "retest": 45,
     "subj": "",
     "t": "双一流学科",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "冲"
   },
   {
@@ -516,7 +516,7 @@
     "retest": 1,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   },
   {
@@ -542,7 +542,7 @@
     "retest": 3,
     "subj": "",
     "t": "双非",
-    "updated": "20261005",
+    "updated": "20261007",
     "verdict": "保"
   }
 ]

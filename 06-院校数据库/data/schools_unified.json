@@ -1,6 +1,6 @@
 {
  "schema": "school-major/v1",
- "built": "2026-10-05",
+ "built": "2026-10-07",
  "note": "学校×专业 三层模型的统一视图（学校 → 专业 → 各类数据）",
  "n": 529,
  "rows": [
@@ -113,7 +113,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -449,7 +449,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -897,7 +897,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -1345,7 +1345,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -2941,7 +2941,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 1
   },
   {
@@ -2997,7 +2997,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 2,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -3025,7 +3025,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 2,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -3272,12 +3272,12 @@
    "college": "计算机学院",
    "subject_class": "22408",
    "direction": "电子信息-计算机",
-   "n_lines": 0,
+   "n_lines": 3,
    "n_admissions": 1,
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -3501,7 +3501,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 1
   },
   {
@@ -4397,7 +4397,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -5013,7 +5013,7 @@
    "n_quantiles": 0,
    "n_tutors": 3,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {

@@ -47,7 +47,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/RHXhMvRFbK4B2LAiIhVNOg",
   "26考情分析": "https://mp.weixin.qq.com/s/OZ2JfES1DT6pB78K_Waihg"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "河北农业大学",
+   "层次": "双非",
+   "专业/范围": "0854电子信息(全校)",
+   "原科目": "408",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://yanjiusheng.hebau.edu.cn/info/1110/4752.htm",
+   "备注": "2027初试科目或大纲调整公告(6-30)19项附件均无计算机/408类；2027章程9-30发布"
+  }
+ ],
  "tutors": [],
  "inTJList": {
   "subjects": "22408",
