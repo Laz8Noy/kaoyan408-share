@@ -88,7 +88,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/HYHxai-CCd6AiQ-2_zKrJQ",
   "26考情分析": "https://mp.weixin.qq.com/s/XKR7-6qjS_c-_uUBoRca2A"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "西北民族大学",
+   "层次": "双非",
+   "专业/范围": "人工智能学院 085410",
+   "原科目": "（非408口径）",
+   "新科目": "817数据结构C语言程序设计(自命题)",
+   "生效年份": "2027",
+   "来源": "T2|https://static.kaoyan.cn/file/2026/09/30/dc2c1ef9941f976d6d3696bf6faeb7c8.pdf",
+   "备注": "2027目录：085410拟招32(3年全日制)考817自命题；817大纲官方PDF确认适用人工智能等专硕(T1 xbmu.edu.cn)；库内两单元本记非408——非408判断获证，学院归属以2027目录为准"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

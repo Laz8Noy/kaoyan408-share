@@ -79,7 +79,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/HiKtlps9mXJmTF2BGQtx3w",
   "26考情分析": "https://mp.weixin.qq.com/s/r8JoUHoTU3rdZ_SKjLkRYw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "北方工业大学",
+   "层次": "双非(北京)",
+   "专业/范围": "人工智能与计算机学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://yjsy.ncut.edu.cn/info/1185/4886.htm",
+   "备注": "2027调整(6-20)：仅新增085401(初试861机器学习)，其他学科专业暂不调整；2027目录9-24发布"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

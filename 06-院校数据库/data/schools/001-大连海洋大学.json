@@ -45,7 +45,18 @@
   "25考情": "https://mp.weixin.qq.com/s/vii_jcsgVw_F57P3m69c0A",
   "26考情": "https://mp.weixin.qq.com/s/Bfy567UmPbmQ5s52O4z0AA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "大连海洋大学",
+   "层次": "双非",
+   "专业/范围": "信息工程学院 085410",
+   "原科目": "819高级语言程序设计(自命题,库内2026口径)",
+   "新科目": "408",
+   "生效年份": "2027",
+   "来源": "T1|https://www.dlou.edu.cn/_upload/article/files/90/a7/9467a2cf4ef29a95b18ab1a1f171/fe55ac8a-62eb-4adb-b603-b7f7d50a6c1b.pdf",
+   "备注": "2027官方目录PDF：085410=政+英二+数二+408拟招18(全日制)，与085401/085404/085411同组科目；⚠️库内记非408(819)——2026已改或口径过时待裁定"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

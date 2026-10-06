@@ -169,7 +169,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -589,7 +589,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -1037,7 +1037,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -1709,7 +1709,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -3305,7 +3305,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 1
   },
   {
@@ -3916,12 +3916,12 @@
    "college": "人工智能学院",
    "subject_class": "22408",
    "direction": "电子信息-人工智能",
-   "n_lines": 0,
+   "n_lines": 1,
    "n_admissions": 1,
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -4565,7 +4565,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
@@ -4593,7 +4593,7 @@
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
-   "n_updates2027": 0,
+   "n_updates2027": 1,
    "n_conflicts": 0
   },
   {
