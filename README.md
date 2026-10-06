@@ -165,11 +165,10 @@ kaoyan408-share
 
 流程：提交前本地跑 `python 09-生成脚本/validate_contributions.py` 自检（发布门禁 C17 会再跑一遍）→ 发 PR → 维护者复核后合并进 06 正本。**投稿人不要直接改 `data/schools/*.json` 与任何派生文件**。
 
-### ④ Agent 红线（务必遵守）
+### ④ 投稿规则（务必遵守）
 
 - 官方来源优先（T1 > T2 > T3），逐条附可点开的原文 URL 与取证日期；王道 / N诺等机构口径只作交叉参考并标注 tier
-- 不收：需登录 / 付费才能看的内容、任何个人隐私（考生姓名 / 编号 / 联系方式）；**录取名单类数据必须脱敏后才可入 PR**
-- 禁止手改派生文件：`school_browser.json`、`搜索索引.json`、`kaoyan408.db`、索引页 / 浏览器页 HTML 等（均由脚本再生）
+- 数据落点只认 `06-院校数据库/contributions/`，禁止手改派生文件：`school_browser.json`、`搜索索引.json`、`kaoyan408.db`、索引页 / 浏览器页 HTML 等（均由脚本再生）
 - 禁止运行 `09-生成脚本/` 的 `integrate_three_sources.py`、`etl_build_db.py`、`update_verify_0903.py`（会覆盖人工修正）
 - 编码 UTF-8 无 BOM、换行 LF；不要动页面的 h2/h3 结构与 `sec-` 锚点
 - PR 描述按模板勾选；人类投稿者的低门槛路径见 [`CONTRIBUTING.md`](CONTRIBUTING.md)
