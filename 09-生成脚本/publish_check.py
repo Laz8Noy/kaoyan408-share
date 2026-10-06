@@ -22,6 +22,7 @@ publish_check.py — 考研数据发布流程的统一门禁（只读检查 + �
   C14 重点院校专档（05-院校专档）索引 ↔ 正文 md ↔ 04 页 var DEEP ↔ 统一库 四者一致
   C15 其余院校轻量速览：_light.json ↔ 04 页速览表 ↔ 深度专档集合 互斥且都在库内
   C16 择校页目录/锚点与标题同步 + 索引页/根页「站内出口」指向的文件真实存在（根页 7 个主入口必须齐全）
+  C17 数据投稿 JSON 校验（06-院校数据库/contributions/ 按 contribution-v1 schema；无投稿文件则跳过）
 """
 import hashlib
 import io
@@ -599,6 +600,12 @@ else:
     _bad16.append("根页 index.html 不存在")
 _detail16 = "; ".join(_bad16[:3]) if _bad16 else "择校页目录同步 + 索引页出口 %d 条均在 + 根页主入口 %d 个均在" % (_nlinks16, len(_MUST_ROOT16))
 check("C16 择校页目录同步+索引页站内出口可达", not _bad16, _detail16)
+
+# C17 数据投稿 JSON 校验（06-院校数据库/contributions/*.json；无投稿则提示跳过，不阻断）
+_r17 = sh([sys.executable, "-X", "utf8", os.path.join("09-生成脚本", "validate_contributions.py")])
+_o17 = ((_r17.stdout or "") + (_r17.stderr or "")).strip().splitlines()
+check("C17 数据投稿 JSON 校验", _r17.returncode == 0,
+      (_o17[-1][:100] if _o17 else "无输出"))
 
 nfail = sum(1 for _, ok, _ in RESULTS if not ok)
 print("=" * 46)
