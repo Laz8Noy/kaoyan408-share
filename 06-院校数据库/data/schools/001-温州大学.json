@@ -76,7 +76,18 @@
   "25考情": "https://mp.weixin.qq.com/s/gCSDyM48Yq8Ck8dT3wSKRw",
   "26考情": "https://mp.weixin.qq.com/s/Dqw6NIdZrsZLnHYpbES24A"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "温州大学",
+   "层次": "双非",
+   "专业/范围": "计算机与人工智能学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027口径待目录核）",
+   "生效年份": "2027",
+   "来源": "T1|https://ai.wzu.edu.cn/info/1331/30520.htm",
+   "备注": "学院2027招生资料(9-30，含目录/参考书目)已发布未见改考公告；科目在xls附件待核"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

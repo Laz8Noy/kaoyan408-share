@@ -42,7 +42,18 @@
  "wangdaoLinks": {
   "26考情分析": "https://mp.weixin.qq.com/s/LjgNCXzPbdJa3YX-1PoV6g"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "黑龙江工程学院",
+   "层次": "双非",
+   "专业/范围": "085400电子信息",
+   "原科目": "（库内未登记）",
+   "新科目": "待核（章程已发布未见改考公告）",
+   "生效年份": "2027",
+   "来源": "T1|https://www.hljit.edu.cn/yjsb/info/1061/11687.htm",
+   "备注": "2027章程9-30发布；目录与自命题大纲为PDF附件未核，是否408本身待核"
+  }
+ ],
  "tutors": [],
  "inTJList": {
   "subjects": "非408",

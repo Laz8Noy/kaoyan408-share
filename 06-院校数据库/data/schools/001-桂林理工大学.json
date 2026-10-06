@@ -95,7 +95,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/fcYKDsW0kiVnyApB3Jv8iA",
   "26考情分析": "https://mp.weixin.qq.com/s/sqzjEmiDf3yprXbTKXngRQ"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "桂林理工大学",
+   "层次": "双非(B区)",
+   "专业/范围": "计算机科学与工程学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027口径待目录核）",
+   "生效年份": "2027",
+   "来源": "T1|https://yjsy.glut.edu.cn/info/1019/4515.htm",
+   "备注": "2027招生专题9-14发布(章程/目录/大纲均为附件)未见改考公告"
+  }
+ ],
  "conflicts": [],
  "sources": [
   {

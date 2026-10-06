@@ -46,7 +46,18 @@
   "25考情": "https://mp.weixin.qq.com/s/4b028TPbvJ0zL3Gb4XktgQ",
   "26考情": "https://mp.weixin.qq.com/s/CRXpbHdUZnj0zcIOGI2T2A"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "内蒙古工业大学",
+   "层次": "双非",
+   "专业/范围": "085410",
+   "原科目": "408",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T1|https://yjsch.imut.edu.cn/info/1171/1797.htm",
+   "备注": "2027招生专业及自命题科目调整公告(9-01)全文未涉085410/408"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,

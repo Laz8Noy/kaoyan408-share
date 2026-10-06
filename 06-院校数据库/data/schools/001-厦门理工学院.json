@@ -53,7 +53,18 @@
   "25考情分析": "https://mp.weixin.qq.com/s/W6KgGPbZIxtHYEzrtmbMbA",
   "26考情分析": "https://mp.weixin.qq.com/s/hofn-IHexzQDn4F_8qlAuA"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "厦门理工学院",
+   "层次": "双非",
+   "专业/范围": "计算机与信息工程学院 085404",
+   "原科目": "408(2023起)",
+   "新科目": "408（2027维持）",
+   "生效年份": "2027",
+   "来源": "T3|https://kaoyan.koolearn.com/20260930/1981749.html",
+   "备注": "2027目录转载：085404=101/204/302/408，拟招54(含士兵3)；085410未列于该院2027目录"
+  }
+ ],
  "tutors": [],
  "inTJList": {
   "subjects": "非408",

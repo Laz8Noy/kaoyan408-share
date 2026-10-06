@@ -62,7 +62,18 @@
   "25考情": "https://mp.weixin.qq.com/s/VWJLoHb2MuHxbW_fPg9GOA",
   "26考情": "https://mp.weixin.qq.com/s/Nl31egGpBF1tp9p20qctOw"
  },
- "updates2027": [],
+ "updates2027": [
+  {
+   "院校": "长春理工大学",
+   "层次": "双非",
+   "专业/范围": "005计算机科学技术学院 085410",
+   "原科目": "408",
+   "新科目": "408（2027口径待目录核）",
+   "生效年份": "2027",
+   "来源": "T1|https://yzb.cust.edu.cn/zsxx/39d56464ac494f9f8c7fa05fe299a608.htm",
+   "备注": "2027目录9-24发布；正文表格未能解析(疑附件/图片)，待核"
+  }
+ ],
  "tutors": [],
  "inTJList": null,
  "inKeyList": null,
