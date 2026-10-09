@@ -1,0 +1,68 @@
+{
+  "schema": "contribution-v1",
+  "school": "西南大学",
+  "collectedAt": "2026-10-09",
+  "collector": {
+    "name": "agent:qoder-cli（2026-10-09 下载官方 2027 目录 PDF 并用 pypdf 逐字提取，另核 2026 人工智能学院复试线原页）"
+  },
+  "notes": "取证方式：直接下载《西南大学2027年全日制专业学位硕士学位论文研究生招生专业目录》PDF（http=200，308085 字节，12 页），用 pypdf 提取全文后按「085410」定位原文行，非二手汇总。提取到的原文：「334 人工智能学院 45 15 085410 人工智能 45 15 ①101 思想政治理论 ②204 英语（二） ③302 数学（二） ④408 计算机学科专业基础 同等学力考生复试加试科目：①电路 ②C 语言程序设计」。同页另见相邻专业为 ④844 信号与系统（复试 电路分析），说明同校不同学院的 408/自命题差异真实存在，不可按学校口径套用。",
+  "entries": [
+    {
+      "college": "人工智能学院（招生单位代码 334）",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "2027 目录 PDF 原文：①101思想政治理论 ②204英语（二） ③302数学（二） ④408计算机学科专业基础",
+          "source": {
+            "title": "西南大学2027年全日制专业学位硕士学位论文研究生招生专业目录（PDF）",
+            "url": "http://yz.swu.edu.cn/02xinandaxue2027nianquanrizhizhuanyexueweishuoshiyanjiushengzhaoshengzhuanyemulu.pdf",
+            "tier": "T1",
+            "date": "2026-10-09"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "2027 坐实为真 22408（英二+数二+408）。变更性质：2027 年由原「电子信息 085400」调整为「人工智能 085410」，且第四单元科目由自命题改为全国统考 408；同等学力复试加试为 ①电路 ②C语言程序设计。",
+          "source": {
+            "url": "http://yz.swu.edu.cn/02xinandaxue2027nianquanrizhizhuanyexueweishuoshiyanjiushengzhaoshengzhuanyemulu.pdf",
+            "tier": "T1",
+            "date": "2026-10-09"
+          }
+        },
+        {
+          "field": "remark",
+          "value": "2027 目录原文数字：拟招生 45 人、其中拟接收推免生 15 人 → 统考净名额约 30 个。这个体量在改考 408 的 211 里属于大盘子；与同校相邻专业（第四单元 844 信号与系统、复试 电路分析）口径不同，报考须认准 334 人工智能学院这一行。",
+          "source": {
+            "url": "http://yz.swu.edu.cn/02xinandaxue2027nianquanrizhizhuanyexueweishuoshiyanjiushengzhaoshengzhuanyemulu.pdf",
+            "tier": "T1",
+            "date": "2026-10-09"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "307",
+          "basis": "2026 年口径为「085400 电子信息」单科 35/53、总分 307（2027 才改为 085410，故 2026 线只能作相邻年份参考，不可直接当作 085410 的历史线）",
+          "source": {
+            "title": "西南大学2026年人工智能学院硕士研究生招生普通计划考生进入复试的初试成绩要求（发布时间 2026-03-24）",
+            "url": "https://ai.swu.edu.cn/info/1109/3875.htm",
+            "tier": "T1",
+            "date": "2026-10-09"
+          }
+        },
+        {
+          "field": "note",
+          "value": "报考判断要点（首年改考窗口）：2027 是该专业改考 408 的第一年，且专业代码由 085400 换为 085410，历史上没有同代码的 408 分数可比；统考净名额约 30 属于同类里偏多的档位。2026 年人工智能学院普通计划复试线 307（单科 35/53），同期 140500 智能科学与技术为 286。待补：2026 年该学院一志愿/调剂录取拆分与拟录取分数分布尚未取证。",
+          "source": {
+            "title": "西南大学2026年人工智能学院复试成绩要求",
+            "url": "https://ai.swu.edu.cn/info/1109/3875.htm",
+            "tier": "T1",
+            "date": "2026-10-09"
+          }
+        }
+      ]
+    }
+  ]
+}
