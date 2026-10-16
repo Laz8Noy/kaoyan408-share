@@ -16,6 +16,7 @@ build_unified_db.py — 把院校数据用关系数据库打通，全部收拢�
     stats_yoy        逐年同环比（10 库 stats.yoy）
     tutors           导师（正本 01-导师与规划/085410_22408_导师信息_20260820.md）
     kaoqing          考情明细
+    source_records   按年份/学院/专业/学习方式/批次保存的来源事实，不混算不同统计人群
     updates_2027     2027 改考
     wangdao_links / sources / conflicts
     catalog          研招目录逐年快照（10 库 catalog_2024~2027）
@@ -259,6 +260,7 @@ DROP TABLE IF EXISTS provinces;
 DROP TABLE IF EXISTS dai408_records;
 DROP TABLE IF EXISTS conflicts;
 DROP TABLE IF EXISTS sources;
+DROP TABLE IF EXISTS source_records;
 DROP TABLE IF EXISTS wangdao_links;
 DROP TABLE IF EXISTS updates_2027;
 DROP TABLE IF EXISTS kaoqing;
@@ -407,6 +409,19 @@ CREATE TABLE exam_subjects (
   offering_id INTEGER NOT NULL REFERENCES offerings(id),
   subject_key TEXT NOT NULL, subject_label TEXT, src TEXT,
   PRIMARY KEY (offering_id, subject_key)
+);
+
+CREATE TABLE source_records (
+  id TEXT PRIMARY KEY,
+  school_key TEXT NOT NULL REFERENCES schools(school_key),
+  offering_id INTEGER REFERENCES offerings(id),
+  college TEXT NOT NULL, major_code TEXT REFERENCES majors(major_code),
+  program_name TEXT, direction TEXT, study_mode TEXT,
+  year INTEGER NOT NULL, topic TEXT NOT NULL, batch TEXT,
+  metrics_json TEXT NOT NULL CHECK(json_valid(metrics_json)), scope TEXT,
+  source_url TEXT NOT NULL, source_title TEXT, source_tier TEXT,
+  published_date TEXT, collected_at TEXT, verification_status TEXT,
+  raw_json TEXT NOT NULL CHECK(json_valid(raw_json))
 );
 
 CREATE TABLE updates_2027 (
@@ -619,9 +634,15 @@ exam_rows = set()     # (offering_id, subject_key, label, src)
 n_off = n_line = n_adm = n_q = n_band = n_yoy = 0
 for name, d in s06.items():
     key = key06[name]
+    unit_oids = []  # 数组下标只用于本次导入的精确挂接；不使用同专业的首条学院兜底。
     for u in d.get('units') or []:
         text = ' '.join(str(u.get(k) or '') for k in ('direction', 'note', 'college', 'nnProg', 'nnCollege'))
-        mc, msrc = infer_major(text)
+        if u.get('programCode'):
+            if not re.fullmatch(r'\d{6}', str(u['programCode'])):
+                raise ValueError('无效的明确专业码：%s %s' % (name, u['programCode']))
+            mc, msrc = u['programCode'], 'explicit'
+        else:
+            mc, msrc = infer_major(text)
         mc = ensure_major(mc)
         cur.execute('''INSERT INTO offerings(school_key,major_code,major_source,college,category,tier,province,region,
                        subject_class,direction,ai_tag,src,src_label,kaoqing_url,remark,note,raw,
@@ -638,6 +659,7 @@ for name, d in s06.items():
                      sv(u.get('cyCode')), sv(u.get('cyAvg')), sv(u.get('cyRetest')), sv(u.get('cyAdmit')),
                      sv(u.get('scope2')), sv(u.get('subjectClaim2026')), sv(u.get('subjectStatus')), sv(u.get('fill2026'))))
         oid = cur.lastrowid
+        unit_oids.append(oid)
         n_off += 1
         if mc and (key, mc) not in off_map:
             off_map[(key, mc)] = oid
@@ -669,6 +691,28 @@ for name, d in s06.items():
                      u.get('admitMax'), u.get('admitMin'), u.get('admitAvg'), u.get('ratioRetest'),
                      u.get('ratioApply'), u.get('nn408avg'), u.get('nnRate'), u.get('heatNet'), u.get('heatComp')))
         n_adm += 1
+    for record in d.get('sourceRecords') or []:
+        source = record['source']
+        unit_index = record.get('unitIndex')
+        oid = None
+        if unit_index is not None:
+            if type(unit_index) is not int or not 0 <= unit_index < len(unit_oids):
+                raise ValueError('来源记录的 unitIndex 无效：' + record['id'])
+            unit = d['units'][unit_index]
+            if unit.get('programCode') != record['programCode']:
+                raise ValueError('来源记录与招生单位专业码不符：' + record['id'])
+            oid = unit_oids[unit_index]
+        mc = ensure_major(record['programCode'])
+        cur.execute('''INSERT INTO source_records
+                       (id,school_key,offering_id,college,major_code,program_name,direction,study_mode,
+                        year,topic,batch,metrics_json,scope,source_url,source_title,source_tier,
+                        published_date,collected_at,verification_status,raw_json)
+                       VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
+                    (record['id'], key, oid, record['college'], mc, record.get('programName'),
+                     record.get('direction'), record.get('studyMode'), record['year'], record['topic'],
+                     record.get('batch'), json.dumps(record['metrics'], ensure_ascii=False), record.get('scope'),
+                     source['url'], source.get('title'), source['tier'], source.get('publishedDate'),
+                     source['collectedAt'], record['verificationStatus'], json.dumps(record, ensure_ascii=False)))
     for u in d.get('kaoqingDetail2026') or []:
         text = ' '.join(str(u.get(k) or '') for k in ('program', 'scope', 'college'))
         mc = ensure_major(infer_major(text)[0])
@@ -942,7 +986,12 @@ for i, lab in enumerate(sorted(quali), 1):
 n_clean = 0
 for f in CLEAN_FIELDS:
     for rid, v in cur.execute('SELECT id, %s FROM admissions WHERE %s IS NOT NULL' % (f, f)).fetchall():
-        val, note = num_cols(v)
+        # 计划里的“+”、一志愿、调剂、补录没有统一总计划口径；保留原文，
+        # 等官网同一招生单位的计划公告确认后再给数值列赋值。
+        if f == 'plan' and ('+' in str(v) or any(x in str(v) for x in ('一志愿', '调剂', '补录'))):
+            val, note = None, '计划口径待核:' + str(v)
+        else:
+            val, note = num_cols(v)
         cur.execute('UPDATE admissions SET %s_value=?, %s_note=? WHERE id=?' % (f, f), (val, note, rid))
         if note is not None:
             n_clean += 1
@@ -1024,6 +1073,7 @@ CREATE INDEX idx_kq_school     ON kaoqing(school_key);
 CREATE INDEX idx_upd_school    ON updates_2027(school_key);
 CREATE INDEX idx_wd_school     ON wangdao_links(school_key);
 CREATE INDEX idx_src_school    ON sources(school_key);
+CREATE INDEX idx_source_record_scope ON source_records(school_key,major_code,college,year,topic,study_mode,batch);
 CREATE INDEX idx_cf_school     ON conflicts(school_key);
 CREATE INDEX idx_alias_school  ON school_aliases(school_key);
 ''')
@@ -1042,7 +1092,8 @@ SELECT s.school_key, s.code, s.name AS school_name, s.province, s.region, s.tier
        (SELECT COUNT(*) FROM tutors        x WHERE x.school_key=s.school_key AND IFNULL(x.major_code,'')=IFNULL(o.major_code,'')) AS n_tutors,
        (SELECT COUNT(*) FROM kaoqing       x WHERE x.school_key=s.school_key AND IFNULL(x.major_code,'')=IFNULL(o.major_code,'')) AS n_kaoqing,
        (SELECT COUNT(*) FROM updates_2027  x WHERE x.school_key=s.school_key AND IFNULL(x.major_code,'')=IFNULL(o.major_code,'')) AS n_updates2027,
-       (SELECT COUNT(*) FROM conflicts     x WHERE x.school_key=s.school_key) AS n_conflicts
+       (SELECT COUNT(*) FROM conflicts     x WHERE x.school_key=s.school_key) AS n_conflicts,
+       (SELECT COUNT(*) FROM source_records x WHERE x.school_key=s.school_key AND IFNULL(x.major_code,'')=IFNULL(o.major_code,'')) AS n_source_records
 FROM schools s
 LEFT JOIN offerings o ON o.school_key = s.school_key
 LEFT JOIN majors    m ON m.major_code = o.major_code;
@@ -1063,7 +1114,8 @@ SELECT s.school_key, s.code, s.code_verified, s.name, s.province, s.province_raw
        (SELECT COUNT(*) FROM tutors          x WHERE x.school_key=s.school_key) AS n_tutors,
        (SELECT COUNT(*) FROM kaoqing         x WHERE x.school_key=s.school_key) AS n_kaoqing,
        (SELECT COUNT(*) FROM updates_2027    x WHERE x.school_key=s.school_key) AS n_updates2027,
-       (SELECT COUNT(*) FROM conflicts       x WHERE x.school_key=s.school_key) AS n_conflicts
+       (SELECT COUNT(*) FROM conflicts       x WHERE x.school_key=s.school_key) AS n_conflicts,
+       (SELECT COUNT(*) FROM source_records  x WHERE x.school_key=s.school_key) AS n_source_records
 FROM schools s;
 ''')
 con.commit()
@@ -1097,7 +1149,7 @@ def one(q, *a):
 print('=== 统一库自检（学校 → 专业 → 各类数据）===')
 for t in ['schools', 'school_aliases', 'majors', 'provinces', 'offerings', 'score_lines', 'admissions',
           'fill_types', 'score_quantiles', 'score_bands', 'stats_yoy', 'tutors', 'kaoqing',
-          'exam_subjects', 'updates_2027', 'wangdao_links', 'sources', 'conflicts', 'catalog',
+          'exam_subjects', 'updates_2027', 'wangdao_links', 'sources', 'source_records', 'conflicts', 'catalog',
           'dai408_records', 'todo_patch', 'field_provenance', 'national_lines', 'dataset_sources']:
     print('  %-16s %6d 行' % (t, one('SELECT COUNT(*) FROM %s' % t)))
 print('  %-16s %6d 行  ← 学校×专业' % ('v_school_major', len(rows)))

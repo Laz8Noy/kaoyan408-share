@@ -8,11 +8,11 @@
    "region": "华中",
    "tier": "双非",
    "subjectClass": "非408",
-   "direction": "不区分研究方向",
+   "direction": "10人工智能",
    "college": "人工智能学院",
-   "nnProg": "电子信息-人工智能(085410)",
+   "nnProg": "电子信息(085400)-10人工智能",
    "nnCollege": "人工智能学院",
-   "nnSubjects": "英二数二+811数据结构自命题",
+   "nnSubjects": "英二数二+871数据结构与算法",
    "line2026": "275",
    "lineDelta": null,
    "linesByYear": {
@@ -28,18 +28,67 @@
    "admitMax": "400",
    "admitMin": "278",
    "admitAvg": "319",
-   "scope": "⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410",
+   "scope": "初试科目与身份以官方目录为准；线275、复试60、拟录50+1等仍是原第三方统计，未因本次补录得到官方确认。",
    "aiTag": "✅真AI方向",
    "heatNet": null,
    "heatComp": null,
    "nn408avg": null,
    "nnRate": "约85%",
-   "note": "经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)",
+   "note": "2026官方目录：085400电子信息·10人工智能，全日制，英二数二871（非408），目录拟招50；旧第三方招录统计保留，尚未确认与官方专业码的对应。",
    "srcLabel": "第三方",
    "src": [
     "N诺"
    ],
-   "nnUrl": "https://noobdream.com/schoolinfo/330/"
+   "nnUrl": "https://noobdream.com/schoolinfo/330/",
+   "dataQuality": {
+    "legacySummary": {
+     "scope": "⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410",
+     "note": "经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)"
+    },
+    "legacyProgramLabel": "电子信息-人工智能(085410)",
+    "legacySubjects": "英二数二+811数据结构自命题",
+    "admissionsStatus": "旧第三方统计尚未按官方目录专业码复核；不因本次目录核实而升级其可信度"
+   },
+   "fieldSources": {
+    "dataQuality": [
+     "hubu-2026-ai-exams"
+    ],
+    "programCode": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ],
+    "nnProg": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ],
+    "direction": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ],
+    "studyMode": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ],
+    "nnSubjects": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ],
+    "retestSubjects": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ],
+    "note": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ],
+    "scope": [
+     "hubu-2026-ai-exams",
+     "hubu-2026-ai-catalog-plan"
+    ]
+   },
+   "programCode": "085400",
+   "studyMode": "全日制",
+   "retestSubjects": "面向对象程序设计和数据库系统原理，程序设计（上机考试）"
   },
   {
    "category": "C-对照",
@@ -78,7 +127,29 @@
    "src": [
     "N诺"
    ],
-   "nnUrl": "https://noobdream.com/schoolinfo/330/"
+   "nnUrl": "https://noobdream.com/schoolinfo/330/",
+   "dataQuality": {
+    "identityStatus": "学习方式待核，不自动套用目录计划",
+    "catalogAlternatives": [
+     {
+      "programCode": "085400",
+      "studyMode": "全日制",
+      "directoryPlan": 171
+     },
+     {
+      "programCode": "085404",
+      "studyMode": "非全日制",
+      "directoryPlan": 20
+     }
+    ],
+    "warning": "旧nnProg=085404与招录181等统计的学习方式未核清；保留旧值，官方两条记录均不自动挂接该unit。"
+   },
+   "fieldSources": {
+    "dataQuality": [
+     "hubu-2026-cs-full-catalog-plan",
+     "hubu-2026-cs-part-catalog-plan"
+    ]
+   }
   }
  ],
  "categoryGuess": "N诺新增候选(未入终极版S/C)",
@@ -197,5 +268,268 @@
    "王道考情链接总表_20260825.xlsx"
   ],
   "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
- }
+ },
+ "sourceRecords": [
+  {
+   "id": "hubu-2026-ai-catalog-plan",
+   "year": 2026,
+   "college": "人工智能学院",
+   "programCode": "085400",
+   "programName": "电子信息",
+   "direction": "10人工智能",
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "招生目录拟招",
+   "metrics": {
+    "directory_plan_count": 50
+   },
+   "scope": "",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-ai-exams",
+   "year": 2026,
+   "college": "人工智能学院",
+   "programCode": "085400",
+   "programName": "电子信息",
+   "direction": "10人工智能",
+   "studyMode": "全日制",
+   "topic": "examinations",
+   "batch": "2026招生目录",
+   "metrics": {
+    "initial_subject_codes": [
+     "101",
+     "204",
+     "302",
+     "871"
+    ],
+    "business_subject_name": "数据结构与算法"
+   },
+   "scope": "",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-ai-retest",
+   "year": 2026,
+   "college": "人工智能学院",
+   "programCode": "085400",
+   "programName": "电子信息",
+   "direction": "10人工智能",
+   "studyMode": "全日制",
+   "topic": "retest_requirements",
+   "batch": "2026招生目录",
+   "metrics": {
+    "retest_subjects": "面向对象程序设计和数据库系统原理，程序设计（上机考试）"
+   },
+   "scope": "",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-cs-full-catalog-plan",
+   "year": 2026,
+   "college": "计算机学院",
+   "programCode": "085400",
+   "programName": "电子信息",
+   "direction": "04计算机技术",
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "招生目录拟招",
+   "metrics": {
+    "directory_plan_count": 171
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-cs-full-exams",
+   "year": 2026,
+   "college": "计算机学院",
+   "programCode": "085400",
+   "programName": "电子信息",
+   "direction": "04计算机技术",
+   "studyMode": "全日制",
+   "topic": "examinations",
+   "batch": "2026招生目录",
+   "metrics": {
+    "initial_subject_codes": [
+     "101",
+     "204",
+     "302",
+     "408"
+    ],
+    "business_subject_name": "计算机学科专业基础"
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-cs-full-retest",
+   "year": 2026,
+   "college": "计算机学院",
+   "programCode": "085400",
+   "programName": "电子信息",
+   "direction": "04计算机技术",
+   "studyMode": "全日制",
+   "topic": "retest_requirements",
+   "batch": "2026招生目录",
+   "metrics": {
+    "retest_subjects": "面向对象程序设计和数据库系统原理"
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-cs-part-catalog-plan",
+   "year": 2026,
+   "college": "计算机学院",
+   "programCode": "085404",
+   "programName": "计算机技术",
+   "direction": "00不区分研究方向",
+   "studyMode": "非全日制",
+   "topic": "enrollment_plans",
+   "batch": "招生目录拟招",
+   "metrics": {
+    "directory_plan_count": 20
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-cs-part-exams",
+   "year": 2026,
+   "college": "计算机学院",
+   "programCode": "085404",
+   "programName": "计算机技术",
+   "direction": "00不区分研究方向",
+   "studyMode": "非全日制",
+   "topic": "examinations",
+   "batch": "2026招生目录",
+   "metrics": {
+    "initial_subject_codes": [
+     "101",
+     "204",
+     "302",
+     "408"
+    ],
+    "business_subject_name": "计算机学科专业基础"
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "hubu-2026-cs-part-retest",
+   "year": 2026,
+   "college": "计算机学院",
+   "programCode": "085404",
+   "programName": "计算机技术",
+   "direction": "00不区分研究方向",
+   "studyMode": "非全日制",
+   "topic": "retest_requirements",
+   "batch": "2026招生目录",
+   "metrics": {
+    "retest_subjects": "面向对象程序设计和数据库系统原理"
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://yz.hubu.edu.cn/info/1011/3299.htm",
+    "title": "湖北大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-29",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "a562236e5fc0099ea3aabcafd140e806f97806b641432889cd0b3aeb995c0d79"
+   },
+   "evidenceLocation": "208计算机学院/213人工智能学院；跨行专业单元格按rowspan归属",
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
 }

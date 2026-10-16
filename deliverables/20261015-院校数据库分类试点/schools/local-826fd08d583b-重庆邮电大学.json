@@ -1,0 +1,426 @@
+{
+  "schema": "kaoyan-school/v2-pilot",
+  "verification_status": "not_rechecked",
+  "school": {
+    "id": "local-826fd08d583b",
+    "code": null,
+    "name": "重庆邮电大学",
+    "code_status": "unverified_in_legacy_mapping",
+    "province": "重庆",
+    "region": "西南",
+    "tier": "双非"
+  },
+  "offerings": [
+    {
+      "id": "off-d4e90bb50654e9",
+      "college": {
+        "code": null,
+        "name": "人工智能学院"
+      },
+      "program": {
+        "code": null,
+        "name": null,
+        "label_raw": null,
+        "code_status": "unknown",
+        "code_evidence_pointer": null
+      },
+      "direction": "不区分研究方向",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 345,
+                  "raw": "345",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 295,
+                  "raw": "295",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 292,
+                  "raw": "292",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-193289698d",
+              "raw": "非408",
+              "components": {
+                "english": null,
+                "mathematics": null,
+                "professional_code": null
+              },
+              "reported_class": "非408",
+              "verification_status": "not_rechecked"
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "raw": "非408",
+              "components": {
+                "english": null,
+                "mathematics": null,
+                "professional_code": null
+              },
+              "reported_class": "非408",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "count": {
+                  "value": null,
+                  "raw": "132待核",
+                  "status": "unparsed",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "values": {
+                "count": {
+                  "value": null,
+                  "raw": "132待核",
+                  "status": "unparsed",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 336,
+                  "raw": "336",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "overview_line": {
+                  "value": 336,
+                  "raw": "336",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": null,
+                  "raw": "273+2专项(计算机)",
+                  "status": "unparsed",
+                  "approximate": false,
+                  "components": []
+                },
+                "legacy_retest_ratio": {
+                  "value": 1.35,
+                  "raw": "1.35",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 330,
+                  "raw": "330",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "values": {
+                "line": {
+                  "value": 336,
+                  "raw": "336",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                },
+                "legacy_retest_ratio": {
+                  "value": 1.35,
+                  "raw": "1.35",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "legacy_apply_ratio": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "count": {
+                  "value": null,
+                  "raw": "225+2专项(计算机)/软工103+2专项",
+                  "status": "unparsed",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": null,
+                  "raw": "361(计算机)/369(软工)",
+                  "status": "unparsed",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "values": {
+                "count": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                },
+                "max_total": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                },
+                "min_total": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "s408_mean": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "fill": "一志愿为主"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": [],
+  "research": {
+    "tutor_notes": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "kind": "reference",
+      "citation": {
+        "label": "重庆邮电大学2026复试线",
+        "url": "https://m.chinakaoyan.com/info/article/id/668021.shtml"
+      }
+    },
+    {
+      "id": "src-2",
+      "kind": "reference",
+      "citation": {
+        "label": "N诺重庆邮电大学schoolinfo/110",
+        "url": "https://noobdream.com/schoolinfo/110/"
+      }
+    },
+    {
+      "id": "src-3",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "19考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235910&idx=6&sn=4f92cf8c3cabd750cc3c8c1933e22cd8&scene=21&poc_token=HH-3CmmjUC8lB5C9kYCVviUv7yy2j1qqTSHM1uyV"
+      }
+    },
+    {
+      "id": "src-4",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "20考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235910&idx=5&sn=a0893c5ee3c828eef32ded1ab246a61d&scene=21&poc_token=HHm3CmmjmZ5mOqcd8670o4Chm7gSKtTIo-3Zifx2"
+      }
+    },
+    {
+      "id": "src-5",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "21考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235910&idx=4&sn=67b635631b6879a67fa372904e6f2268&scene=21&poc_token=HHa3Cmmj4eOTO5QHKlHFM4JJuYecf_vC4IfrP4GI"
+      }
+    },
+    {
+      "id": "src-6",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "22考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235910&idx=3&sn=0fc9b97eca48288d312983a625679810&scene=21&poc_token=HHO3CmmjHFGfvpNgvT8uCtIlZ1ZT7L9FCPQuKflC"
+      }
+    },
+    {
+      "id": "src-7",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "23考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235910&idx=2&sn=9480e57520dd3a42a6de702f7844e7ea&scene=21&poc_token=HHG3CmmjNcTNV7ORgI0mqKPfRt0J0gjy6w43poLB"
+      }
+    },
+    {
+      "id": "src-8",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "24考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235910&idx=1&sn=ab43280b75bde4fb078a29f3786d5032&scene=21&poc_token=HG63CmmjqEMfI0cBcFZan9HKs93_yUcDUcKPWibA"
+      }
+    },
+    {
+      "id": "src-9",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "25考情分析",
+        "url": "https://mp.weixin.qq.com/s/DHBxZrp7xYsy64ynVlYrNQ"
+      }
+    },
+    {
+      "id": "src-10",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "26考情分析",
+        "url": "https://mp.weixin.qq.com/s/GwFPUs1s3qnhBHufI0squQ"
+      }
+    }
+  ],
+  "quality": {
+    "conflicts": [
+      {
+        "legacy_record": {
+          "field": "2026复试线口径",
+          "unit": "人工智能学院/计算机学院",
+          "claims": [
+            {
+              "src": "既有整理",
+              "value": "人工智能学院线336"
+            },
+            {
+              "src": "N诺110",
+              "value": "计算机学院电子信息-计算机线330/软工345(22DS自命题)"
+            }
+          ],
+          "status": "差异-不同学院不同口径",
+          "action": "重邮全校考数据结构非408；336为人工智能学院口径，330为计算机学院口径"
+        },
+        "verification_status": "not_rechecked"
+      }
+    ],
+    "school_notes": [],
+    "unassigned_records": [],
+    "review_notes": [
+      {
+        "source_pointer": "/units/0",
+        "explanation": "主记录标人工智能学院，但scope、复试和录取字段还混有计算机/软工数据，line2026=336与linesByYear中的2026=330也不一致。当前仅忠实保留来源归属，不能把这些统计当作人工智能学院已确定数据；须先拆清学院/专业及统计总体。招生单位代码和主记录专业代码均保持未知，132待核不转成确定人数。"
+      }
+    ]
+  },
+  "evidence_file": "../evidence/local-826fd08d583b-重庆邮电大学.json"
+}

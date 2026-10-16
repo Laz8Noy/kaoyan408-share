@@ -1,0 +1,65 @@
+{
+  "directory": ".dsh/backups/20261016-cuit-export-followup",
+  "files": [
+    {
+      "path": "deliverables/20261015-院校来源数据补录/tools/export_review.py",
+      "sha256": "035de5a963488af022bfd54efe6b7baac615b5882dbb4be96e4c759176629724"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/verification.json",
+      "sha256": "fb2bbe54899a3fff94b099e1bc20236063b755bb4c389c9b7ed50fc61e8c7bdc"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/pending_items.json",
+      "sha256": "89199b959c14b5910aa95ddc42e89a7650ba73569485a5b5d18a4b2a3e7c3084"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/分类对照.md",
+      "sha256": "5416c48bd06a49f26c95d8f524f9372138637a5da6e6eb84cee85e8607daf7f2"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/external_agents.json",
+      "sha256": "d1d89cf551d2f06073ba07a36c06b52824d070177ce90e50f04b1da1cfc29599"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/README.md",
+      "sha256": "58c855c5f1f6b007037a83beb175510463e80b305a15fb61341029bb46353071"
+    },
+    {
+      "path": "deliverables/20261016-成信大官网补录/README.md",
+      "sha256": "d1bb8c9d8b9c42cfdb27559a2a4bd410cb42336b971243780e66edf1f7be10f7"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10110-中北大学.json",
+      "sha256": "94316e74c9e405ada8a63b16206f0439398b524c7414e62ca0b2083d423b3724"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10512-湖北大学.json",
+      "sha256": "ea6c9bf073652f235d995889d6c056f6bcb75e0403fe9bda73751b6596921c03"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10590-深圳大学.json",
+      "sha256": "27751b4960aef506f755f207a00f1dfaf0a50440c3c5dded6b0e5e497d2348d9"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10595-桂林电子科技大学.json",
+      "sha256": "23af522849269a2d39cab69229113fbe0e585b0836918b780892ac5d488bee50"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10621-成都信息工程大学.json",
+      "sha256": "9552e2d8075abc6f98a78c99103e9d50a9698cbe76459ef3d054de001deaa37f"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10743-青海大学.json",
+      "sha256": "8758e6d3504c5563b70bf3dd4ab2a7eb205453c9161901f59ab98f4459aaa12d"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/11845-广东工业大学.json",
+      "sha256": "95ebc5cada393a506f4af5d05bddf1791d306832fbce35082e4a4f7472ea096c"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/X-重庆邮电大学-重庆邮电大学.json",
+      "sha256": "5fa5df055ca5a4854888631a7191e9cd78dbc19c114a2c66ba471d76ede6eb06"
+    }
+  ]
+}

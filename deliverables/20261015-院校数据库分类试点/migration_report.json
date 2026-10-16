@@ -1,0 +1,110 @@
+{
+  "schema": "school-migration-report/v1",
+  "fact_verification": "not_rechecked",
+  "schools": [
+    {
+      "name": "成都信息工程大学",
+      "offerings": 2,
+      "input_leaves": 233,
+      "mapped_leaves": 233,
+      "dispositions": {
+        "structured": 90,
+        "context": 114,
+        "archived": 18,
+        "unassigned": 11
+      },
+      "unassigned_records": 1
+    },
+    {
+      "name": "湖北大学",
+      "offerings": 2,
+      "input_leaves": 153,
+      "mapped_leaves": 153,
+      "dispositions": {
+        "structured": 86,
+        "context": 54,
+        "archived": 13,
+        "unassigned": 0
+      },
+      "unassigned_records": 0
+    },
+    {
+      "name": "深圳大学",
+      "offerings": 3,
+      "input_leaves": 133,
+      "mapped_leaves": 133,
+      "dispositions": {
+        "structured": 51,
+        "context": 47,
+        "archived": 35,
+        "unassigned": 0
+      },
+      "unassigned_records": 0
+    },
+    {
+      "name": "广东工业大学",
+      "offerings": 2,
+      "input_leaves": 133,
+      "mapped_leaves": 133,
+      "dispositions": {
+        "structured": 49,
+        "context": 44,
+        "archived": 40,
+        "unassigned": 0
+      },
+      "unassigned_records": 0
+    },
+    {
+      "name": "桂林电子科技大学",
+      "offerings": 2,
+      "input_leaves": 145,
+      "mapped_leaves": 145,
+      "dispositions": {
+        "structured": 73,
+        "context": 49,
+        "archived": 23,
+        "unassigned": 0
+      },
+      "unassigned_records": 0
+    },
+    {
+      "name": "青海大学",
+      "offerings": 2,
+      "input_leaves": 147,
+      "mapped_leaves": 147,
+      "dispositions": {
+        "structured": 56,
+        "context": 55,
+        "archived": 16,
+        "unassigned": 20
+      },
+      "unassigned_records": 2
+    },
+    {
+      "name": "中北大学",
+      "offerings": 1,
+      "input_leaves": 109,
+      "mapped_leaves": 109,
+      "dispositions": {
+        "structured": 50,
+        "context": 39,
+        "archived": 17,
+        "unassigned": 3
+      },
+      "unassigned_records": 1
+    },
+    {
+      "name": "重庆邮电大学",
+      "offerings": 1,
+      "input_leaves": 97,
+      "mapped_leaves": 97,
+      "dispositions": {
+        "structured": 37,
+        "context": 34,
+        "archived": 26,
+        "unassigned": 0
+      },
+      "unassigned_records": 0
+    }
+  ]
+}

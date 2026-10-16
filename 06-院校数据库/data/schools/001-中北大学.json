@@ -47,7 +47,26 @@
    "wdCount": "8",
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/9G28Mu74bUcWWYm8icCPvg",
-   "kaoqingUrl": "https://noobdream.com/schoolinfo/234/"
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/234/",
+   "programCode": "085410",
+   "fieldSources": {
+    "programCode": [
+     "nuc-2026-ai-exam-change"
+    ],
+    "retestSubjects": [
+     "nuc-2026-ai-retest-requirements"
+    ],
+    "retestReferences": [
+     "nuc-2026-ai-retest-requirements"
+    ]
+   },
+   "retestSubjects": "编程能力测试（上机）；计算机综合知识（含数据库和算法分析）",
+   "retestReferences": [
+    "Java 2实用教程（第5版）",
+    "C++面向对象程序设计（第2版）",
+    "数据库系统概论（第7版）",
+    "算法分析与设计及案例教程"
+   ]
   }
  ],
  "crossRefs": [
@@ -153,5 +172,70 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "sourceRecords": [
+  {
+   "id": "nuc-2026-ai-exam-change",
+   "year": 2026,
+   "college": "计算机科学与技术学院（大数据学院）",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "examinations",
+   "batch": "2026初试业务课调整",
+   "metrics": {
+    "previous_business_subject": "811数据结构",
+    "business_subject_code": "408",
+    "business_subject_name": "计算机学科专业基础",
+    "reference_scope": "参照教育部考试大纲"
+   },
+   "scope": "公告只证明第四单元改408，不用它确认英语和数学。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://cst.nuc.edu.cn/info/1039/8937.htm",
+    "title": "2026年硕士研究生招生考试科目调整通知",
+    "publishedDate": "2025-03-11",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "93e8ce955f3100f00294fd14cf05d0e54932d8dbf57d921c395eeba8b589a8b1"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "nuc-2026-ai-retest-requirements",
+   "year": 2026,
+   "college": "计算机科学与技术学院（大数据学院）",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "retest_requirements",
+   "batch": "2026复试科目与教材",
+   "metrics": {
+    "retest_subjects": "编程能力测试（上机）；计算机综合知识（含数据库和算法分析）",
+    "retest_references": [
+     "Java 2实用教程（第5版）",
+     "C++面向对象程序设计（第2版）",
+     "数据库系统概论（第7版）",
+     "算法分析与设计及案例教程"
+    ]
+   },
+   "scope": "仅085410行；085404行的数据库第6版和081200行的第5版不替换本行第7版。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://cst.nuc.edu.cn/info/1039/8937.htm",
+    "title": "2026年硕士研究生招生考试科目调整通知",
+    "publishedDate": "2025-03-11",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "93e8ce955f3100f00294fd14cf05d0e54932d8dbf57d921c395eeba8b589a8b1"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
 }

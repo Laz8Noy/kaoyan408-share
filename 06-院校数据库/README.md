@@ -5,6 +5,23 @@
 > **v1 已复核（2026-09-03）**：对 `conflicts_registry.json` 全部 12 条跨校争议点逐条对照官方复试线公告/招生目录/2027 改考预公告复核并修正；受影响学校 `schools/*.json` 与 `data/meta.json` 已同步更新（脚本：`tools/update_verify_0903.py`）。关键更正：天工大线 264→**332**、南信大改考 408→**811**（非817）、成信工 2027 改数二**已官宣**、深大全部 **11408**、广工计院 **22408·337**、山科大 **813电路非408** 等。
 > 用途：**面向 AI 消费**的机器可读院校库。所有关键数字均来自既有整理资料并带来源；**已知冲突单独声明**，不得在未核对前当定论用。
 
+## 当前来源口径（2026-10-16）
+
+本库保留 177 所择校库学校、195 条旧 `units[]` 行。新增的 `sourceRecords[]` 按**招生单位 × 专业代码 × 学习方式 × 年份 × 主题 × 批次**记录官网事实；目前 11 校、47 条来源记录，其中 46 条为 T1 官网来源，1 条为 T2。一个学校的不同学院、专业、培养基地或招生批次不能合并成同一人数。`unitIndex` 只有能确认对应旧 `unit` 时才填写；为空表示先保存来源，待身份映射核实。
+
+| 字段/记录 | 含义与使用边界 |
+|---|---|
+| `units[].plan2026` | 仅放同一招生单位的招生计划。旧“一志愿+调剂”“补录”等人数已从已核三校的计划字段移出，原值保留在 `dataQuality.reclassifiedLegacyFields`。其余含“+”、调剂、补录的复合计划原文仍可在正本找到；派生矩阵与 SQLite 数值列暂不推算。 |
+| `units[].admitCnt`、`retestCnt` | 旧招录/复试统计，常来自第三方；明确两段数字的合计用于派生数值，原文仍在 `admitRaw`、`retestRaw` 或 SQLite 原字段。不能据此推断官网招生计划。 |
+| `sourceRecords[].metrics` | 官网文件中的原始事实；`topic` 区分 `enrollment_plans`、`examinations`、`retest_requirements`、`retest_results`、`transfer_policy`，`source` 与 `evidenceLocation` 给出原文位置。2026 计划不是 2026 实际录取，也不能当 2027 计划。 |
+| `dataQuality` | 保存旧值、单位映射疑点与需要复核的原因；被隔离的旧记录不再作为当前确定值使用。 |
+
+本轮重点：[齐鲁工大最终目录](https://yjszs.qlu.edu.cn/_upload/article/files/ed/0d/975cefca49fdbc73f9b536c34080/6a0d584d-69eb-402e-a7e0-4fe1d605c679.pdf)确认 2026 数学与人工智能学部 085410 为 876／拟招 29，而计算机学部 085404 才为 408；[武汉纺大调剂公告](https://csai.wtu.edu.cn/info/1063/17087.htm)未公布 085410 具体调剂名额；[南信大招生列表](https://xxgk.nuist.edu.cn/_upload/article/files/95/46/c377f100465d94b8ccc174089ee6/9ba56202-7b1e-4361-83e7-ce4b107404a8.pdf)把 022 学院和 036 创新港基地分别列为 5/4 与 140/138（总计划/统考计划）。[变更与仍待核项目](../deliverables/20261016-院校扩围补录/README.md)保留了逐项说明。
+
+改动正本后，依次运行 `tools/update_meta.py`、`tools/regen_todo.py`、`../09-生成脚本/build_score_matrix.py`、`../09-生成脚本/build_unified_db.py`、`../09-生成脚本/build_school_browser_data.py`。`data/kaoyan408.db` 是本地派生库，按 `.gitignore` 不提交；GitHub 上的 `score_matrix.json`、`schools_unified.json` 和每校 JSON 是可查看的发布数据。
+
+`notion导入-195招生单位矩阵.csv` 是 195 条旧 `units` 的**导入快照**，不是 Notion 在线同步结果。本次把 11 所已改学校对应的 18 行更新，并把 66 条复合计划的“拟招2026”留空、原文放入备注；生成方式见 [`sync_notion_csv.py`](../deliverables/20261016-院校扩围补录/sync_notion_csv.py)。需要完整来源、跨学院拆分及待核原因时，请读每校 JSON 的 `sourceRecords` 和 `dataQuality`。
+
 ## 一、目录结构
 
 ```
@@ -53,7 +70,7 @@
 ## 三、AI 使用约定
 
 - 数据语言：键名英文小写驼峰、值中文；空值统一为 `null`；"未公布/无数据"用 `null` 或原文 `—` 保留在字符串里。
-- 数值字段类型：能转数的已转成 number（线/计划/人数/均分），不能确定的保持字符串。
+- 数值字段类型：每校正本中旧统计通常保留原始字符串，派生矩阵与 SQLite 才按口径转数。复合计划含“+”、调剂或补录时不猜数值；应读取原文与 `sourceRecords` 后再判断。
 - 引用格式建议：`（来源：文件名/Sheet，2026-09-03 汇总）`；冲突条目引用时带 `status`。
 - 本库是"整理资料"，不等于官方；凡用于报名决策，最后一律以**当年官方招生简章/研招网目录/学院公示**为准。
 

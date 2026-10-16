@@ -1,0 +1,11 @@
+{
+  "model_requested": "deepseek-v4.1-flash",
+  "prompt_scope": "public CUIT transfer notice excerpt; no candidate names or IDs",
+  "gateway_observed": true,
+  "request_sent": true,
+  "result": "timeout_waiting_for_session_prompt",
+  "response_text_received": false,
+  "subsequent_gateway_status": "only stale prewarm heartbeat; no fresh endpoint",
+  "database_values_accepted_from_workbuddy": 0,
+  "probe_log": ".dsh/work/source-extraction-20261015/workbuddy-ds-probe-2.txt"
+}

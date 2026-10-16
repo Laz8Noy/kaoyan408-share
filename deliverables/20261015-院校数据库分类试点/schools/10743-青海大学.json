@@ -1,0 +1,572 @@
+{
+  "schema": "kaoyan-school/v2-pilot",
+  "verification_status": "not_rechecked",
+  "school": {
+    "id": "10743",
+    "code": "10743",
+    "name": "青海大学",
+    "code_status": "verified_in_legacy_mapping",
+    "province": "青海",
+    "region": "西北",
+    "tier": "211"
+  },
+  "offerings": [
+    {
+      "id": "off-0d87c7417050fd",
+      "college": {
+        "code": null,
+        "name": "计算机技术与应用学院"
+      },
+      "program": {
+        "code": null,
+        "name": null,
+        "label_raw": "电子信息-人工智能",
+        "code_status": "unknown",
+        "code_evidence_pointer": null
+      },
+      "direction": "人工智能方向",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 265,
+                  "raw": "265",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 263,
+                  "raw": "263",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 252,
+                  "raw": "252",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-193289698d",
+              "raw": "英二数二408",
+              "components": {
+                "english": "英语二",
+                "mathematics": "数学二",
+                "professional_code": "408"
+              },
+              "reported_class": "22408",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "count": {
+                  "value": 37,
+                  "raw": "37",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 284,
+                  "raw": "284",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "overview_line": {
+                  "value": 284,
+                  "raw": "284",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": 44,
+                  "raw": "44",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "count": {
+                  "value": 37,
+                  "raw": "37",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "max_total": {
+                  "value": 354,
+                  "raw": "354",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "min_total": {
+                  "value": 284,
+                  "raw": "284",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 312,
+                  "raw": "312",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "reported_rate": {
+                  "value": 84,
+                  "raw": "约84%",
+                  "status": "approximate",
+                  "approximate": true,
+                  "components": [],
+                  "unit": "percent"
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "s408_mean": {
+                  "value": 76,
+                  "raw": "76",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "fill": "一志愿为主"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off-951b86b5c94f12",
+      "college": {
+        "code": null,
+        "name": "计算机技术与应用学院"
+      },
+      "program": {
+        "code": null,
+        "name": null,
+        "label_raw": "电子信息-计算机",
+        "code_status": "unknown",
+        "code_evidence_pointer": null
+      },
+      "direction": "计算机方向",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 292,
+                  "raw": "292",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 263,
+                  "raw": "263",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 256,
+                  "raw": "256",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-4738ab193d",
+              "raw": "英二数二408",
+              "components": {
+                "english": "英语二",
+                "mathematics": "数学二",
+                "professional_code": "408"
+              },
+              "reported_class": "22408",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "count": {
+                  "value": 48,
+                  "raw": "48",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 294,
+                  "raw": "294",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": 59,
+                  "raw": "59",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "count": {
+                  "value": 48,
+                  "raw": "48",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "max_total": {
+                  "value": 366,
+                  "raw": "366",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "min_total": {
+                  "value": 294,
+                  "raw": "294",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 323,
+                  "raw": "323",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "reported_rate": {
+                  "value": 81,
+                  "raw": "约81%",
+                  "status": "approximate",
+                  "approximate": true,
+                  "components": [],
+                  "unit": "percent"
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "s408_mean": {
+                  "value": 83,
+                  "raw": "83",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "fill": "一志愿为主"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "effective_year": 2027,
+      "scope": "0854电子信息(全校)",
+      "offering_ids": [],
+      "old_subjects": "408",
+      "new_subjects": "408（2027维持）",
+      "verification_status": "not_rechecked",
+      "original": {
+        "院校": "青海大学",
+        "层次": "211",
+        "专业/范围": "0854电子信息(全校)",
+        "原科目": "408",
+        "新科目": "408（2027维持）",
+        "生效年份": "2027",
+        "来源": "T1|https://yjs.qhu.edu.cn/tzgg1/81fdabac1569452886807b1524db93f2.htm",
+        "备注": "2027两次初试科目调整通知(9-10/9-20)均只涉制药工程/财经学院，未涉计算机类；统考简章未见改考"
+      }
+    }
+  ],
+  "research": {
+    "tutor_notes": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "kind": "reference",
+      "citation": {
+        "label": "青海大学085410考情（B区211低分）",
+        "url": "https://m-jixun.iqihang.com/zixun/fenshuxian/2026714871.html#1"
+      }
+    },
+    {
+      "id": "src-2",
+      "kind": "reference",
+      "citation": {
+        "label": "青海大学2026一志愿成绩公示PDF",
+        "url": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf"
+      }
+    },
+    {
+      "id": "src-3",
+      "kind": "reference",
+      "citation": {
+        "label": "N诺青海大学考情",
+        "url": "https://noobdream.com/schoolinfo/273/"
+      }
+    },
+    {
+      "id": "src-4",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "19考情",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233252&idx=6&sn=65facdff9fc28f3992acd622a78d11b2&scene=21&poc_token=HLsODGmj7idiiTd5k-_-NQaPgp887Fx3yrPYFP2_"
+      }
+    },
+    {
+      "id": "src-5",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "20考情",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233252&idx=5&sn=b9fea680dfcd74ae801581b1f7fa3dae&scene=21&poc_token=HLgODGmj5HbSC2EnCFSBjl_LISk6XEGl3A4mOM6I"
+      }
+    },
+    {
+      "id": "src-6",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "21考情",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233252&idx=4&sn=4da8945d768ee49d9e5213a095cabc3e&scene=21&poc_token=HLYODGmjOTUmmcNV3nzMnns8tAyRF_QIcqY1dq17"
+      }
+    },
+    {
+      "id": "src-7",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "22考情",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233252&idx=3&sn=c36adf61e226f39c99f24775f9b59b88&scene=21&poc_token=HKgODGmjmE3OGuYFZ-l7VhAwPNGQ70E2SK1Pobfj"
+      }
+    },
+    {
+      "id": "src-8",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "23考情",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233252&idx=2&sn=351f790780bdff7e5322e0eab202c275&scene=21&poc_token=HIsODGmjqdJ6Hy1DPQS7hSRtOd6PVKHv7J1yqeWb"
+      }
+    },
+    {
+      "id": "src-9",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "24考情",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233252&idx=1&sn=3f4b44b5cf2a63f4a82cb4790f4b2150&scene=21&poc_token=HIgODGmjUW2wbiJwqCYUFsb2ClZuDC8FgmjGMIY0"
+      }
+    },
+    {
+      "id": "src-10",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "25考情",
+        "url": "https://mp.weixin.qq.com/s/kFju1yz5qoN9ZtSAONIAPw"
+      }
+    },
+    {
+      "id": "src-11",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "26考情",
+        "url": "https://mp.weixin.qq.com/s/Os8HhG8qbxS6NPRNl6QNpA"
+      }
+    }
+  ],
+  "quality": {
+    "conflicts": [
+      {
+        "legacy_record": {
+          "field": "line2026",
+          "old": "254(B区国家线)",
+          "new": "284(AI方向实际院线)",
+          "reason": "原记录按B区国家线254；N诺2026表及官方一志愿公示显示电子信息-人工智能方向实际复试线284、最低284，已更正",
+          "sources": [
+            "https://noobdream.com/schoolinfo/273/",
+            "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf"
+          ]
+        },
+        "verification_status": "not_rechecked"
+      }
+    ],
+    "school_notes": [],
+    "unassigned_records": [
+      {
+        "record_id": "r-0be90d9c08",
+        "source_pointer": "/kaoqingDetail2026/0",
+        "reason": "学院或专业不足以唯一归属；整条原记录保留在证据文件中"
+      },
+      {
+        "record_id": "r-ead753189f",
+        "source_pointer": "/kaoqingDetail2026/1",
+        "reason": "学院或专业不足以唯一归属；整条原记录保留在证据文件中"
+      }
+    ],
+    "review_notes": [
+      {
+        "source_pointer": "/kaoqingDetail2026",
+        "explanation": "同一学院有人工智能和计算机两个方向，主记录未明示专业代码，明细虽写085400但尚不能靠学院唯一匹配。两条明细留在待归属区，284与294的方向差异均保留。"
+      }
+    ]
+  },
+  "evidence_file": "../evidence/10743-青海大学.json"
+}

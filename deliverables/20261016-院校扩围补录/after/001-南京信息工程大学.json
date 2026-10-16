@@ -1,0 +1,168 @@
+{
+ "schema": "kaoyan-school/v1",
+ "name": "南京信息工程大学",
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "江苏",
+   "region": "华东",
+   "tier": "双一流",
+   "subjectClass": "22408",
+   "college": "人工智能学院",
+   "direction": "电子信息-人工智能",
+   "line2026": "323",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "323"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主",
+   "retestCnt": "209",
+   "admitCnt": "167+3补录",
+   "admitMax": "411",
+   "admitMin": "323",
+   "admitAvg": "349",
+   "scope": "N诺2026：人工智能学院电子信息-人工智能22408，复试线323，进复试209人，进复试均分346【323-411】，单科政62英74数118 408=92，拟录取167+3补录，拟录取349【323-411】；创新港AI 22408线301录11；未来技术学院AI 22408线324录5；2027起改811信号与系统",
+   "aiTag": "✅真AI方向",
+   "nn408avg": "92",
+   "nnRate": null,
+   "note": "22408 AI规模大(进复试209录167)，线323偏高，拟录取均分349【323-411】；⚠️2027起085410由408改考811信号与系统(官方2026-06-18)，2027不再适用408",
+   "srcLabel": "第三方(N诺)",
+   "dataQuality": {
+    "reclassifiedLegacyFields": {
+     "plan2026": "167+3补录"
+    },
+    "reason": "167+3补录为旧第三方拟录取人数，不能充当官网招生计划；旧招录口径仍保留在admitCnt。"
+   },
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英二数二408",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/164/"
+  }
+ ],
+ "categoryGuess": "N诺新增候选(未入终极版S/C)",
+ "nnCandidates": [
+  {
+   "school": "南京信息工程大学",
+   "province": "江苏",
+   "college": "人工智能学院",
+   "program": "电子信息-人工智能",
+   "subjects": "英二数二408",
+   "line": "323",
+   "retestCnt": "209",
+   "adjCnt": "0",
+   "avgTotal": "346",
+   "avg408": "92",
+   "avgPol": "62",
+   "avgEng": "74",
+   "avgMath": "118",
+   "admitCnt": "167",
+   "admitAvg": "349",
+   "rate": "80%",
+   "ratioNN": "1.3",
+   "note": "✅22408兼容；含AI"
+  }
+ ],
+ "wangdaoLinks": {
+  "19考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233590&idx=6&sn=a715dc5fead1e785c5cb20f25a881086&scene=21&poc_token=HB1oDGmjnhxNBd3IWkYAM3CjbGOW_7R-60yMtjRy",
+  "20考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233590&idx=5&sn=4e7eea08fe9f4509e60d58fa3725fb74&scene=21&poc_token=HBtoDGmjK0T90ToU2YFdUPTMqm2vIySVZlVs36nu",
+  "21考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233590&idx=4&sn=d85faf778cee32b7c658a2eb8f63d2e7&scene=21&poc_token=HBhoDGmjuompdwpGivnLSCecNJq2xAGhnvC22PUE",
+  "22考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233590&idx=3&sn=9f5b6b5cc5ff69151f40c0ebe04ac988&scene=21&poc_token=HP9nDGmjsJ7peGwQefZHm-MNePrZ89U9tQupLhzd",
+  "23考情": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233590&idx=2&sn=4bf6ebc4114eb805b9be0588034d988b&scene=21&poc_token=HP1nDGmjbVxazoNBKPTkznK1jHIA4qxHCR1RZQAV",
+  "25考情": "https://mp.weixin.qq.com/s/XnHdI9Gp2lA3ANHCBOXSmA",
+  "26考情": "https://mp.weixin.qq.com/s/eFdHzYLm6OMDcpH_On_lDg"
+ },
+ "conflicts": [],
+ "sources": [
+  {
+   "label": "N诺 南京信息工程大学",
+   "url": "https://noobdream.com/schoolinfo/164/"
+  }
+ ],
+ "generated": {
+  "by": "etl_build_db.py",
+  "date": "2026-09-03",
+  "src": [
+   "全国408_085410双非热度版_终极版_20260826.xlsx::N诺新增候选校",
+   "王道考情链接总表_20260825.xlsx"
+  ],
+  "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
+ },
+ "updates2027": [
+  {
+   "院校": "南京信息工程大学",
+   "层次": "双一流",
+   "专业/范围": "0810J2人工智能、085409生物医学工程、085410人工智能",
+   "原科目": "408计算机学科专业基础",
+   "新科目": "811信号与系统（校内自命题）",
+   "生效年份": "2027",
+   "来源": "官方(2026-06-18 通知)",
+   "备注": "反向改考：统考408改回自命题811；计算机学硕仍考408；勿按408复习这3个方向"
+  }
+ ],
+ "note": "2027 起 085410/085409/0810J2 由408改考811信号与系统（官方2026-06-18）；2026 仍为408(英二数二，22408)。改考后 085410 非408备考方向。",
+ "dataQuality": {
+  "unitMapping": "旧unit为第三方人工智能学院085410招录统计；官网2026招生列表列022学院与036创新港基地两条085410，本批未取得证据把旧167+3拟录取映射到任一条目录计划，故两条新记录不挂旧unit，也不合计。"
+ },
+ "sourceRecords": [
+  {
+   "id": "nuist-2026-022-ai-plan",
+   "year": 2026,
+   "college": "人工智能学院（未来技术学院）",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": "智慧气象与智能预报",
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "2026招生专业列表",
+   "metrics": {
+    "planned_total": 5,
+    "planned_exam_excluding_recommendation": 4
+   },
+   "scope": "022招生单位智慧气象与智能预报方向；目录拟招和统考计划不等于实际录取数。",
+   "unitIndex": null,
+   "source": {
+    "url": "https://xxgk.nuist.edu.cn/_upload/article/files/95/46/c377f100465d94b8ccc174089ee6/9ba56202-7b1e-4361-83e7-ce4b107404a8.pdf",
+    "title": "附件1：南京信息工程大学2026年硕士研究生拟招生专业列表",
+    "publishedDate": null,
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf",
+    "downloadSha256": "feb7ca5aa6b6d0360c8004244da26c93ee27f0098c09b5b402c018f286f4dd10"
+   },
+   "evidenceLocation": "PDF第2页022单位085410行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "nuist-2026-036-ai-plan",
+   "year": 2026,
+   "college": "南信大浦口经开区创新港研究生培养基地",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": "不区分研究方向",
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "2026招生专业列表",
+   "metrics": {
+    "planned_total": 140,
+    "planned_exam_excluding_recommendation": 138
+   },
+   "scope": "036招生单位不区分研究方向；独立于022单位，不得与旧学院招录统计合并。",
+   "unitIndex": null,
+   "source": {
+    "url": "https://xxgk.nuist.edu.cn/_upload/article/files/95/46/c377f100465d94b8ccc174089ee6/9ba56202-7b1e-4361-83e7-ce4b107404a8.pdf",
+    "title": "附件1：南京信息工程大学2026年硕士研究生拟招生专业列表",
+    "publishedDate": null,
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf",
+    "downloadSha256": "feb7ca5aa6b6d0360c8004244da26c93ee27f0098c09b5b402c018f286f4dd10"
+   },
+   "evidenceLocation": "PDF第2页036单位085410行",
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
+}

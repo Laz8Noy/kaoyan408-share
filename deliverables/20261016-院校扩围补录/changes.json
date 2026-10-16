@@ -1,0 +1,104 @@
+[
+ {
+  "school": "齐鲁工业大学",
+  "path": "units[0]",
+  "before": {
+   "category": "S-主体",
+   "province": "山东",
+   "region": "华东",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "计算机视觉",
+   "line2026": "264",
+   "lineDelta": "=国家线",
+   "linesByYear": {
+    "2023": "296",
+    "2024": "273",
+    "2025": "260",
+    "2026": "264"
+   },
+   "plan2026": "28",
+   "fill": "一志愿为主",
+   "ratioRetest": "1.21",
+   "aiTag": "✅真AI方向",
+   "heatNet": "52",
+   "heatComp": "28",
+   "note": "双非；2026起改考408(此前872数据结构自命题)；电子信息-人工智能2025(872)线260录31均301；2026改408后录取分待更新；卓越工程师学院26新增；[2026-10-05 回写] 2026复试线264=A区工学国家线（校复试录取方案明确执行2026全国A类考生初试成绩基本要求，非自划线；与02总览表264一致）",
+   "srcLabel": "第三方",
+   "src": [
+    "总览",
+    "区域榜",
+    "招录比对比",
+    "三源核对"
+   ],
+   "lineUltimate2026": "264",
+   "wdCount": "5",
+   "wdYears": "22考情,23考情,24考情,25考情,26考情",
+   "wdUrl26": "https://mp.weixin.qq.com/s/K4BvL8Gwj-T3GRwCnFkTtg",
+   "college": "计算机科学与技术学院",
+   "scope": "N诺(schoolinfo148,更新至2025)：2025电子信息-人工智能考872数据结构线260复试37录31均301【260-351】；2026改考408(22408)，2026录取分未出/未收录；电子信息-计算机2025线305录220均329"
+  },
+  "after": {
+   "category": "S-主体",
+   "province": "山东",
+   "region": "华东",
+   "tier": "双非",
+   "college": "数学与人工智能学部",
+   "programCode": "085410",
+   "subjectClass": "非408",
+   "direction": "计算机视觉等四方向",
+   "plan2026": "29",
+   "line2026": null,
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "aiTag": "✅真AI专业",
+   "srcLabel": "官方2026招生目录",
+   "scope": "2026最终招生目录第14页：085410人工智能拟招29人，初试101/204/302/876。目录未在该行明示学习方式；旧22408、线264、计划28、历史分数另存待核。",
+   "note": "该085410为英二数二876，非22408；同校计算机技术085404为英二数二408。",
+   "fieldSources": {
+    "programCode": [
+     "qlu-2026-ai-catalog-exams"
+    ],
+    "plan2026": [
+     "qlu-2026-ai-catalog-plan"
+    ],
+    "subjectClass": [
+     "qlu-2026-ai-catalog-exams"
+    ]
+   }
+  },
+  "reason": "最终目录确认085410为876与拟招29；旧错配unit完整隔离保存"
+ },
+ {
+  "school": "武汉纺织大学",
+  "path": "units[0].plan2026",
+  "before": "20一志愿+28调剂",
+  "after": null,
+  "reason": "旧一志愿+调剂人数不是官方招生计划"
+ },
+ {
+  "school": "武汉纺织大学",
+  "path": "kaoqingDetail2026[0].plan",
+  "before": "20一志愿+28调剂",
+  "after": null,
+  "reason": "同一旧人数错放到计划字段"
+ },
+ {
+  "school": "南京信息工程大学",
+  "path": "dataQuality.unitMapping",
+  "before": null,
+  "after": "旧unit为第三方人工智能学院085410招录统计；官网2026招生列表列022学院与036创新港基地两条085410，本批未取得证据把旧167+3拟录取映射到任一条目录计划，故两条新记录不挂旧unit，也不合计。",
+  "reason": "两招生单位同代码但不能映射旧统计"
+ },
+ {
+  "school": "南京信息工程大学",
+  "path": "units[0].plan2026",
+  "before": "167+3补录",
+  "after": null,
+  "reason": "旧167+3补录属于拟录取数，不能放入招生计划字段"
+ }
+]

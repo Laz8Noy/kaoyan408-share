@@ -1,0 +1,231 @@
+{
+  "schema": "kaoyan-school/v1",
+  "name": "桂林电子科技大学",
+  "units": [
+    {
+      "category": "S-主体",
+      "province": "广西",
+      "region": "华南",
+      "tier": "双非(B区)",
+      "subjectClass": "22408",
+      "direction": "不区分研究方向",
+      "college": "计算机与信息安全学院",
+      "nnProg": "电子信息-人工智能(085410)",
+      "nnCollege": "计算机与信息安全学院",
+      "nnSubjects": "英二数二408",
+      "line2026": "254",
+      "lineDelta": "=B区国家线",
+      "linesByYear": {
+        "2023": "263",
+        "2024": "266",
+        "2025": "250",
+        "2026": "254"
+      },
+      "plan2026": "约57(32一志愿+25调剂)",
+      "fill": "一志愿为主+大量调剂",
+      "retestCnt": "33+80调剂",
+      "admitCnt": "32+25调剂",
+      "admitMax": "364",
+      "admitMin": "254",
+      "admitAvg": "298",
+      "scope": "085410人工智能(计算机与信息安全学院)22408。B区双非(计算机B-)。N诺2026：线NC(=B区国家线254)，进复试33+80调剂均296【254-364】，单科56/67/97/77；录32+25调剂均298【254-364】。一志愿少、大量收调剂",
+      "aiTag": "✅真AI方向",
+      "heatNet": "50",
+      "heatComp": "26",
+      "nn408avg": "77",
+      "nnRate": "100%",
+      "note": "B区双非计算机B-；085410人工智能22408；线254=国家线，进复试33+80调剂均296录57均298。一志愿缺口大、大量调剂",
+      "srcLabel": "官方+第三方",
+      "src": [
+        "总览",
+        "区域榜",
+        "招录比对比",
+        "三源核对",
+        "N诺"
+      ],
+      "lineUltimate2026": "254",
+      "wdCount": "7",
+      "wdYears": "19考情分析,20考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
+      "wdUrl26": "https://mp.weixin.qq.com/s/bAF8rpEHwuMzKoFD3AJgpA",
+      "nnUrl": "https://noobdream.com/schoolinfo/268/",
+      "programCode": "085410",
+      "fieldSources": {
+        "programCode": [
+          "guet-2026-cs-ai-first-shortlist"
+        ],
+        "studyMode": [
+          "guet-2026-cs-ai-first-shortlist"
+        ]
+      },
+      "studyMode": "全日制"
+    },
+    {
+      "category": "C-对照",
+      "province": "广西",
+      "region": "华南",
+      "tier": "双非(B区)",
+      "subjectClass": "22408",
+      "direction": "不区分研究方向",
+      "college": "人工智能学院",
+      "nnProg": "电子信息-人工智能(085410)",
+      "nnCollege": "人工智能学院",
+      "nnSubjects": "英二数二408",
+      "line2026": "254",
+      "lineDelta": "=B区国家线",
+      "linesByYear": {
+        "2023": null,
+        "2024": null,
+        "2025": "250",
+        "2026": "254"
+      },
+      "plan2026": "约31(19一志愿+12调剂)",
+      "fill": "一志愿为主+调剂",
+      "retestCnt": "19+53调剂",
+      "admitCnt": "19+12调剂",
+      "admitMax": "311",
+      "admitMin": "254",
+      "admitAvg": "277",
+      "scope": "085410人工智能(人工智能学院)22408。N诺2026：线NC(=B区国家线254)，进复试19+53调剂均277【254-311】，单科56/63/88/70；录19+12调剂均277【254-311】。复试N003程序设计基础/N004计算机网络",
+      "aiTag": "✅真AI方向",
+      "heatNet": null,
+      "heatComp": null,
+      "nn408avg": null,
+      "nnRate": null,
+      "note": "桂电人工智能学院另招085410(22408)；线254均277，较计算机与信息安全学院更低，一志愿19+12调剂",
+      "srcLabel": "第三方",
+      "src": [
+        "N诺"
+      ],
+      "nnUrl": "https://noobdream.com/schoolinfo/268/"
+    }
+  ],
+  "crossRefs": [],
+  "kaoqingDetail2026": [
+    {
+      "college": "计算机与信息安全学院",
+      "tier": "双非(B区)",
+      "subjects": "22408",
+      "program": "085410人工智能",
+      "line2026": "254",
+      "plan": "约57",
+      "retestCnt": "33+80调剂",
+      "admitCnt": "32+25调剂",
+      "ratioRetest": null,
+      "ratioApply": null,
+      "admitMax": "364",
+      "admitMin": "254",
+      "admitAvg": "298",
+      "scope": "085410人工智能22408；线254=B区国家线，进复试33+80调剂均296录57均298",
+      "verify": "N诺",
+      "url": "https://noobdream.com/schoolinfo/268/"
+    },
+    {
+      "college": "人工智能学院",
+      "tier": "双非(B区)",
+      "subjects": "22408",
+      "program": "085410人工智能",
+      "line2026": "254",
+      "plan": "约31",
+      "retestCnt": "19+53调剂",
+      "admitCnt": "19+12调剂",
+      "ratioRetest": null,
+      "ratioApply": null,
+      "admitMax": "311",
+      "admitMin": "254",
+      "admitAvg": "277",
+      "scope": "人工智能学院085410人工智能22408；线254均277【254-311】录31",
+      "verify": "N诺",
+      "url": "https://noobdream.com/schoolinfo/268/"
+    }
+  ],
+  "nnCandidates": [],
+  "wangdaoLinks": {
+    "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235946&idx=5&sn=5bf6e082a75e3054d82d894897c7b346&scene=21&poc_token=HND-CmmjBd9vUiqOYK3VzLpZZJlGMXym-BiuzpyA",
+    "20考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235946&idx=4&sn=1a81b82b7a291652ed4f8686688193b4&scene=21&poc_token=HM3-CmmjBFiZt0D34gLnzNJ2Ev3SBxum9m52T8NE",
+    "22考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235946&idx=3&sn=385a7813d7bc8b1023639754fa24d07f&scene=21&poc_token=HMv-CmmjKwhEdBZ6Wzb3f9Pz-fnbqhVQcPc-XTsO",
+    "23考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235946&idx=2&sn=7242f9db91b652db531598fb6c0505ab&scene=21&poc_token=HMj-CmmjCfnUdFkf10mZPNfLCqOvFZw2NKGkf75J",
+    "24考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666235946&idx=1&sn=97eadd45548c6b200481b27df7e53f5a&scene=21&poc_token=HMT-Cmmj2sA3pdUF2SWLHxE1G7h88ibZhlZWUbI0",
+    "25考情分析": "https://mp.weixin.qq.com/s/CM9qkhVpR3XO4VP9CpVFlg",
+    "26考情分析": "https://mp.weixin.qq.com/s/bAF8rpEHwuMzKoFD3AJgpA"
+  },
+  "updates2027": [
+    {
+      "院校": "桂林电子科技大学",
+      "层次": "双非(B区)",
+      "专业/范围": "计算机与信息安全学院 085410",
+      "原科目": "408",
+      "新科目": "408（2027维持，待目录终核）",
+      "生效年份": "2027",
+      "来源": "T1|http://www.guet.edu.cn/yjszs/2026/0910/c4230a159433/page.htm",
+      "备注": "2027简章(9-30)拟招2507人未见改考公告；2027自命题资料含003计算机与信息安全学院（初复试混合），初试科目以目录PDF为准"
+    }
+  ],
+  "tutors": [],
+  "inTJList": {
+    "subjects": "22408",
+    "region": "华南",
+    "tier": "双非",
+    "line": "254",
+    "fill": "一志愿19人，缺口大",
+    "aiTag": "✅真AI方向",
+    "src": "官方"
+  },
+  "inKeyList": null,
+  "conflicts": [],
+  "sources": [
+    {
+      "label": "桂林电子科技大学085410复试公告",
+      "url": "https://www.guet.edu.cn/yjszs/2026/0322/c4230a149911/page.htm"
+    },
+    {
+      "label": "N诺桂林电子科技大学考情",
+      "url": "https://noobdream.com/schoolinfo/268/"
+    },
+    {
+      "label": "桂林电子科技大学计算机与信息安全学院2026年硕士研究生招生复试名单（第一批）",
+      "url": "https://www.guet.edu.cn/_upload/article/files/6c/db/4a69c1914a8bb70f310ad514a4bc/e85f8f91-510f-4ec7-99fc-9f0c12bbd191.pdf"
+    }
+  ],
+  "generated": {
+    "by": "etl_build_db.py",
+    "date": "2026-09-03",
+    "src": [
+      "全国408_085410双非热度版_终极版_20260826.xlsx",
+      "王道考情链接总表_20260825.xlsx",
+      "kaoqing_20260821.json"
+    ],
+    "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
+  },
+  "sourceRecords": [
+    {
+      "id": "guet-2026-cs-ai-first-shortlist",
+      "year": 2026,
+      "college": "计算机与信息安全学院",
+      "programCode": "085410",
+      "programName": "人工智能",
+      "direction": null,
+      "studyMode": "全日制",
+      "topic": "retest_results",
+      "batch": "第一批复试名单",
+      "metrics": {
+        "shortlisted_count": 33,
+        "initial_total_min": 254,
+        "initial_total_max": 364,
+        "initial_total_mean": 296.393939
+      },
+      "scope": "只统计003计算机与信息安全学院085410；不含另一个学院或调剂批次；名单不证明实际到场或拟录取。",
+      "unitIndex": 0,
+      "source": {
+        "url": "https://www.guet.edu.cn/_upload/article/files/6c/db/4a69c1914a8bb70f310ad514a4bc/e85f8f91-510f-4ec7-99fc-9f0c12bbd191.pdf",
+        "title": "桂林电子科技大学计算机与信息安全学院2026年硕士研究生招生复试名单（第一批）",
+        "publishedDate": "2026-03-22",
+        "collectedAt": "2026-10-15T16:12:21+00:00",
+        "tier": "T1",
+        "retrievalMethod": "downloaded_pdf_local_anonymous_aggregation",
+        "downloadSha256": "b6c59c000bdc811ef59c6ea6f41da2eb791ad146ce05835378fae127f88fa970"
+      },
+      "evidenceLocation": "5页PDF中专业码085410的33行",
+      "verificationStatus": "checked_against_primary"
+    }
+  ]
+}

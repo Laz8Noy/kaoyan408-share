@@ -1,0 +1,115 @@
+{
+  "destination": "Qoder",
+  "model": "Qwen3.8-Flash",
+  "purpose": "只根据摘要复核信息分类风险，不查证招生事实，不读取或修改文件",
+  "status": "not_sent_automatic_approval_rejected",
+  "schools": [
+    {
+      "school": "深圳大学",
+      "units": [
+        {
+          "college": "人工智能学院",
+          "direction": "不区分研究方向",
+          "nnProg": "电子信息-人工智能",
+          "subjectClass": "11408",
+          "plan2026": null
+        },
+        {
+          "college": "光明实验室",
+          "direction": "不区分研究方向",
+          "nnProg": null,
+          "subjectClass": "11408",
+          "plan2026": "20"
+        },
+        {
+          "college": "大湾区国际创新学院",
+          "direction": "人工智能（管理）",
+          "nnProg": null,
+          "subjectClass": "11408",
+          "plan2026": null
+        }
+      ]
+    },
+    {
+      "school": "广东工业大学",
+      "units": [
+        {
+          "college": "计算机学院",
+          "direction": "不区分研究方向",
+          "nnProg": "电子信息-人工智能",
+          "subjectClass": "22408",
+          "plan2026": "约94(91+3专项)"
+        },
+        {
+          "college": "自动化学院",
+          "direction": "不区分研究方向",
+          "nnProg": null,
+          "subjectClass": "非408(809信号与系统)",
+          "plan2026": null
+        }
+      ]
+    },
+    {
+      "school": "桂林电子科技大学",
+      "units": [
+        {
+          "college": "计算机与信息安全学院",
+          "direction": "不区分研究方向",
+          "nnProg": "电子信息-人工智能(085410)",
+          "subjectClass": "22408",
+          "plan2026": "约57(32一志愿+25调剂)"
+        },
+        {
+          "college": "人工智能学院",
+          "direction": "不区分研究方向",
+          "nnProg": "电子信息-人工智能(085410)",
+          "subjectClass": "22408",
+          "plan2026": "约31(19一志愿+12调剂)"
+        }
+      ]
+    },
+    {
+      "school": "青海大学",
+      "units": [
+        {
+          "college": "计算机技术与应用学院",
+          "direction": "人工智能方向",
+          "nnProg": "电子信息-人工智能",
+          "subjectClass": "22408",
+          "plan2026": "37"
+        },
+        {
+          "college": "计算机技术与应用学院",
+          "direction": "计算机方向",
+          "nnProg": "电子信息-计算机",
+          "subjectClass": "22408",
+          "plan2026": "48"
+        }
+      ]
+    },
+    {
+      "school": "中北大学",
+      "units": [
+        {
+          "college": "计算机科学与技术学院（大数据学院）",
+          "direction": "电子信息-人工智能(085410)",
+          "nnProg": "电子信息-人工智能",
+          "subjectClass": "22408",
+          "plan2026": "7"
+        }
+      ]
+    },
+    {
+      "school": "重庆邮电大学",
+      "units": [
+        {
+          "college": "人工智能学院",
+          "direction": "不区分研究方向",
+          "nnProg": null,
+          "subjectClass": "非408",
+          "plan2026": "132待核"
+        }
+      ]
+    }
+  ]
+}

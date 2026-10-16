@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-16T12:41:14.751340+00:00",
+  "checks": {
+    "sqlite_integrity": "ok",
+    "sqlite_foreign_key_violations": 0,
+    "source_record_roundtrip_count": 34,
+    "source_records_total": 47,
+    "score_matrix_matches_canonical_schools": 11,
+    "topic_export_matches_canonical_records": 47,
+    "backup_hashes_match": 19,
+    "historical_pilot_snapshots_preserved": 8,
+    "source_tiers": {
+      "T1": 46,
+      "T2": 1
+    },
+    "topics": {
+      "examinations": 9,
+      "retest_requirements": 5,
+      "enrollment_plans": 15,
+      "transfer_policy": 4,
+      "retest_results": 14
+    },
+    "school_count": 511,
+    "offering_count": 195,
+    "no_new_admission_counts_in_source_records": true,
+    "canonical_unit_numeric_values_remain_strings_or_null": true
+  },
+  "schools": [
+    {
+      "name": "中北大学",
+      "sourceRecords": 2,
+      "projects": 1
+    },
+    {
+      "name": "南京信息工程大学",
+      "sourceRecords": 2,
+      "projects": 2
+    },
+    {
+      "name": "广东工业大学",
+      "sourceRecords": 1,
+      "projects": 1
+    },
+    {
+      "name": "成都信息工程大学",
+      "sourceRecords": 7,
+      "projects": 2
+    },
+    {
+      "name": "桂林电子科技大学",
+      "sourceRecords": 1,
+      "projects": 1
+    },
+    {
+      "name": "武汉纺织大学",
+      "sourceRecords": 3,
+      "projects": 2
+    },
+    {
+      "name": "深圳大学",
+      "sourceRecords": 15,
+      "projects": 5
+    },
+    {
+      "name": "湖北大学",
+      "sourceRecords": 9,
+      "projects": 3
+    },
+    {
+      "name": "重庆邮电大学",
+      "sourceRecords": 1,
+      "projects": 1
+    },
+    {
+      "name": "青海大学",
+      "sourceRecords": 2,
+      "projects": 2
+    },
+    {
+      "name": "齐鲁工业大学",
+      "sourceRecords": 4,
+      "projects": 2
+    }
+  ],
+  "trackedFieldChanges": 57
+}

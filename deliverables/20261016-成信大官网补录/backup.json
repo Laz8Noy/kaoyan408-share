@@ -1,0 +1,37 @@
+{
+  "directory": ".dsh/backups/20261016-cuit-official-next",
+  "files": [
+    {
+      "path": "06-院校数据库/data/schools/001-成都信息工程大学.json",
+      "sha256": "e1eb9a7d86137e0f9e586efb84df41ba553bddcb3e1edf01b429c8b1f2153dc7"
+    },
+    {
+      "path": "06-院校数据库/data/score_matrix.json",
+      "sha256": "96a8fc7c8c001c1c47f67535bb28252ae7264f6825233928332fc244bbe3f5f4"
+    },
+    {
+      "path": "06-院校数据库/data/kaoyan408.db",
+      "sha256": "3a5803cf738f6269ad69f9ad8272b0682c13c8b586015e16edf97fe4146bacbc"
+    },
+    {
+      "path": "06-院校数据库/data/meta.json",
+      "sha256": "d3ea84d7c49e97ad759e80e2ad7f73e0076c56b34214c18893616b0f250383e5"
+    },
+    {
+      "path": "06-院校数据库/data/todo_patch_list.json",
+      "sha256": "d6253019f1d5279f90bcde27d38ec77f71f0d95bdfbecc15331a08e3db054f41"
+    },
+    {
+      "path": "06-院校数据库/data/crosswalk.json",
+      "sha256": "b18f0b3b35a8c7fe65005371563ab546e32e8cf7bfeaf595f9b29d45b54d48c0"
+    },
+    {
+      "path": "06-院校数据库/data/schools_unified.json",
+      "sha256": "22aeee9df4b90aa7f2fe68b654848a0e87ecfd886cdff3945445caa46dd7ffca"
+    },
+    {
+      "path": "06-院校数据库/data/school_browser.json",
+      "sha256": "8ef031d82629fb7b4dbb16980570de8b3846c7a84c10bf1595417c9e55fca33e"
+    }
+  ]
+}

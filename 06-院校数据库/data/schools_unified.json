@@ -1,6 +1,6 @@
 {
  "schema": "school-major/v1",
- "built": "2026-10-07",
+ "built": "2026-10-16",
  "note": "学校×专业 三层模型的统一视图（学校 → 专业 → 各类数据）",
  "n": 529,
  "rows": [
@@ -30,7 +30,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10280",
@@ -58,7 +59,8 @@
    "n_tutors": 3,
    "n_kaoqing": 2,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10280",
@@ -86,7 +88,8 @@
    "n_tutors": 3,
    "n_kaoqing": 2,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10254",
@@ -114,7 +117,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10264",
@@ -142,7 +146,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10252",
@@ -170,7 +175,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11458",
@@ -198,7 +204,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "14423",
@@ -226,7 +233,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10188",
@@ -254,7 +262,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10220",
@@ -282,7 +291,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10110",
@@ -310,7 +320,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 2
   },
   {
    "school_key": "X-中南林业科技大学",
@@ -338,7 +349,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10524",
@@ -366,7 +378,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10524",
@@ -394,7 +407,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10465",
@@ -422,7 +436,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10624",
@@ -450,7 +465,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10059",
@@ -478,7 +494,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10425",
@@ -506,7 +523,8 @@
    "n_tutors": 0,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10425",
@@ -534,7 +552,8 @@
    "n_tutors": 0,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-中国矿业大学（徐州）",
@@ -562,7 +581,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10356",
@@ -590,7 +610,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10558",
@@ -618,7 +639,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10452",
@@ -646,7 +668,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10673",
@@ -674,7 +697,8 @@
    "n_tutors": 3,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11847",
@@ -702,7 +726,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10731",
@@ -730,7 +755,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10128",
@@ -758,7 +784,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10004",
@@ -786,7 +813,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "11232",
@@ -814,7 +842,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 2
+   "n_conflicts": 2,
+   "n_source_records": 0
   },
   {
    "school_key": "10015",
@@ -842,7 +871,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10011",
@@ -870,7 +900,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10016",
@@ -898,7 +929,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10037",
@@ -926,7 +958,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10018",
@@ -954,7 +987,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "11417",
@@ -982,7 +1016,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10013",
@@ -1010,7 +1045,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10009",
@@ -1038,7 +1074,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10404",
@@ -1066,7 +1103,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10504",
@@ -1094,7 +1132,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10511",
@@ -1122,7 +1161,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10487",
@@ -1150,7 +1190,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10081",
@@ -1178,7 +1219,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10054",
@@ -1206,7 +1248,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10564",
@@ -1234,7 +1277,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10574",
@@ -1262,7 +1306,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10300",
@@ -1290,7 +1335,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 2
   },
   {
    "school_key": "10284",
@@ -1318,7 +1364,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10291",
@@ -1346,7 +1393,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10327",
@@ -1374,7 +1422,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10293",
@@ -1402,7 +1451,8 @@
    "n_tutors": 3,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10555",
@@ -1430,7 +1480,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10406",
@@ -1458,7 +1509,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11062",
@@ -1486,7 +1538,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10359",
@@ -1514,7 +1567,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10531",
@@ -1542,7 +1596,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11709",
@@ -1570,7 +1625,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10213",
@@ -1598,7 +1654,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10214",
@@ -1626,7 +1683,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10610",
@@ -1654,7 +1712,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10636",
@@ -1682,7 +1741,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 2
+   "n_conflicts": 2,
+   "n_source_records": 0
   },
   {
    "school_key": "10158",
@@ -1710,7 +1770,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10141",
@@ -1738,7 +1799,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10061",
@@ -1766,7 +1828,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10792",
@@ -1794,7 +1857,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10058",
@@ -1822,7 +1886,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10065",
@@ -1850,7 +1915,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10060",
@@ -1878,7 +1944,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10066",
@@ -1906,7 +1973,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10070",
@@ -1934,7 +2002,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10119",
@@ -1962,7 +2031,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10109",
@@ -1990,7 +2060,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10749",
@@ -2018,7 +2089,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "11646",
@@ -2046,7 +2118,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11646",
@@ -2074,7 +2147,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-安庆师范大学",
@@ -2102,7 +2176,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10364",
@@ -2130,7 +2205,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10360",
@@ -2158,7 +2234,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10363",
@@ -2186,7 +2263,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10878",
@@ -2214,7 +2292,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10361",
@@ -2242,7 +2321,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10361",
@@ -2270,7 +2350,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "11688",
@@ -2298,7 +2379,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10430",
@@ -2326,7 +2408,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10424",
@@ -2354,7 +2437,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10108",
@@ -2382,7 +2466,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10292",
@@ -2410,7 +2495,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11845",
@@ -2432,13 +2518,14 @@
    "college": "计算机学院",
    "subject_class": "22408",
    "direction": "不区分研究方向",
-   "n_lines": 6,
+   "n_lines": 5,
    "n_admissions": 2,
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 1
   },
   {
    "school_key": "11845",
@@ -2460,13 +2547,14 @@
    "college": "自动化学院",
    "subject_class": "非408(809信号与系统)",
    "direction": "不区分研究方向",
-   "n_lines": 6,
+   "n_lines": 5,
    "n_admissions": 2,
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 1
   },
   {
    "school_key": "11078",
@@ -2494,7 +2582,8 @@
    "n_tutors": 4,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "11078",
@@ -2522,7 +2611,8 @@
    "n_tutors": 4,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10593",
@@ -2550,7 +2640,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10602",
@@ -2578,7 +2669,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10608",
@@ -2606,7 +2698,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-惠州学院",
@@ -2634,7 +2727,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10621",
@@ -2662,7 +2756,8 @@
    "n_tutors": 2,
    "n_kaoqing": 5,
    "n_updates2027": 1,
-   "n_conflicts": 6
+   "n_conflicts": 6,
+   "n_source_records": 7
   },
   {
    "school_key": "10621",
@@ -2690,7 +2785,8 @@
    "n_tutors": 2,
    "n_kaoqing": 5,
    "n_updates2027": 1,
-   "n_conflicts": 6
+   "n_conflicts": 6,
+   "n_source_records": 7
   },
   {
    "school_key": "11079",
@@ -2718,7 +2814,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10616",
@@ -2746,7 +2843,8 @@
    "n_tutors": 2,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-新疆农业大学",
@@ -2774,7 +2872,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10755",
@@ -2802,7 +2901,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "X-昆明理工大学",
@@ -2830,7 +2930,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10559",
@@ -2858,7 +2959,8 @@
    "n_tutors": 3,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10559",
@@ -2886,7 +2988,8 @@
    "n_tutors": 3,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10346",
@@ -2914,7 +3017,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10336",
@@ -2942,7 +3046,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10596",
@@ -2970,7 +3075,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10595",
@@ -2998,7 +3104,8 @@
    "n_tutors": 0,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 1
   },
   {
    "school_key": "10595",
@@ -3026,7 +3133,8 @@
    "n_tutors": 0,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 1
   },
   {
    "school_key": "10490",
@@ -3054,7 +3162,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10488",
@@ -3082,7 +3191,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10495",
@@ -3110,7 +3220,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 3
   },
   {
    "school_key": "10496",
@@ -3138,7 +3249,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10299",
@@ -3166,7 +3278,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10320",
@@ -3194,7 +3307,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11641",
@@ -3222,7 +3336,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10289",
@@ -3250,7 +3365,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10412",
@@ -3278,7 +3394,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10407",
@@ -3306,7 +3423,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10421",
@@ -3334,7 +3452,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10143",
@@ -3362,7 +3481,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10086",
@@ -3390,7 +3510,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10075",
@@ -3418,7 +3539,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10076",
@@ -3446,7 +3568,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10466",
@@ -3474,7 +3597,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10475",
@@ -3502,7 +3626,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10463",
@@ -3530,7 +3655,8 @@
    "n_tutors": 4,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10460",
@@ -3558,7 +3684,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10467",
@@ -3586,7 +3713,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10427",
@@ -3614,7 +3742,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10341",
@@ -3642,7 +3771,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10335",
@@ -3670,7 +3800,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10337",
@@ -3698,7 +3829,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10353",
@@ -3726,7 +3858,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10345",
@@ -3754,7 +3887,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10340",
@@ -3782,7 +3916,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10338",
@@ -3810,7 +3945,8 @@
    "n_tutors": 1,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11057",
@@ -3838,7 +3974,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11482",
@@ -3866,7 +4003,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10589",
@@ -3894,7 +4032,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11658",
@@ -3922,35 +4061,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
-  },
-  {
-   "school_key": "10590",
-   "code": "10590",
-   "school_name": "深圳大学",
-   "province": "广东",
-   "region": "华南",
-   "tier": "双非",
-   "is985": null,
-   "is211": null,
-   "in_lib06": 1,
-   "in_lib10": 0,
-   "in_yz408": 1,
-   "cb_id": null,
-   "major_code": null,
-   "major_name": null,
-   "degree_type": null,
-   "category": null,
-   "college": "光明实验室",
-   "subject_class": "11408",
-   "direction": "不区分研究方向",
-   "n_lines": 2,
-   "n_admissions": 1,
-   "n_quantiles": 0,
-   "n_tutors": 0,
-   "n_kaoqing": 0,
-   "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10590",
@@ -3972,13 +4084,43 @@
    "college": "人工智能学院",
    "subject_class": "11408",
    "direction": "不区分研究方向",
-   "n_lines": 4,
-   "n_admissions": 2,
+   "n_lines": 6,
+   "n_admissions": 3,
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 11
+  },
+  {
+   "school_key": "10590",
+   "code": "10590",
+   "school_name": "深圳大学",
+   "province": "广东",
+   "region": "华南",
+   "tier": "双非",
+   "is985": null,
+   "is211": null,
+   "in_lib06": 1,
+   "in_lib10": 0,
+   "in_yz408": 1,
+   "cb_id": null,
+   "major_code": "085410",
+   "major_name": "人工智能",
+   "degree_type": "专业学位",
+   "category": "专业学位",
+   "college": "光明实验室",
+   "subject_class": "11408",
+   "direction": "不区分研究方向",
+   "n_lines": 6,
+   "n_admissions": 3,
+   "n_quantiles": 0,
+   "n_tutors": 0,
+   "n_kaoqing": 0,
+   "n_updates2027": 1,
+   "n_conflicts": 1,
+   "n_source_records": 11
   },
   {
    "school_key": "10590",
@@ -4000,13 +4142,14 @@
    "college": "大湾区国际创新学院",
    "subject_class": "11408",
    "direction": "人工智能（管理）",
-   "n_lines": 4,
-   "n_admissions": 2,
+   "n_lines": 6,
+   "n_admissions": 3,
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 11
   },
   {
    "school_key": "10351",
@@ -4034,7 +4177,37 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
+  },
+  {
+   "school_key": "10512",
+   "code": "10512",
+   "school_name": "湖北大学",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "is985": null,
+   "is211": null,
+   "in_lib06": 1,
+   "in_lib10": 0,
+   "in_yz408": 1,
+   "cb_id": null,
+   "major_code": "085400",
+   "major_name": "电子信息",
+   "degree_type": "专业学位",
+   "category": "专业学位",
+   "college": "人工智能学院",
+   "subject_class": "非408",
+   "direction": "10人工智能",
+   "n_lines": 4,
+   "n_admissions": 1,
+   "n_quantiles": 0,
+   "n_tutors": 0,
+   "n_kaoqing": 0,
+   "n_updates2027": 0,
+   "n_conflicts": 1,
+   "n_source_records": 6
   },
   {
    "school_key": "10512",
@@ -4062,35 +4235,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 1
-  },
-  {
-   "school_key": "10512",
-   "code": "10512",
-   "school_name": "湖北大学",
-   "province": "湖北",
-   "region": "华中",
-   "tier": "双非",
-   "is985": null,
-   "is211": null,
-   "in_lib06": 1,
-   "in_lib10": 0,
-   "in_yz408": 1,
-   "cb_id": null,
-   "major_code": "085410",
-   "major_name": "人工智能",
-   "degree_type": "专业学位",
-   "category": "专业学位",
-   "college": "人工智能学院",
-   "subject_class": "非408",
-   "direction": "不区分研究方向",
-   "n_lines": 4,
-   "n_admissions": 1,
-   "n_quantiles": 0,
-   "n_tutors": 0,
-   "n_kaoqing": 1,
-   "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 3
   },
   {
    "school_key": "10500",
@@ -4118,7 +4264,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10517",
@@ -4146,7 +4293,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10525",
@@ -4174,7 +4322,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10537",
@@ -4202,7 +4351,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10534",
@@ -4230,7 +4380,8 @@
    "n_tutors": 2,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10347",
@@ -4258,7 +4409,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10530",
@@ -4286,7 +4438,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10377",
@@ -4314,7 +4467,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10216",
@@ -4342,7 +4496,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10305",
@@ -4370,7 +4525,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10107",
@@ -4398,7 +4554,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10386",
@@ -4426,7 +4583,8 @@
    "n_tutors": 4,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10285",
@@ -4454,7 +4612,8 @@
    "n_tutors": 5,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10285",
@@ -4482,7 +4641,8 @@
    "n_tutors": 5,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10332",
@@ -4510,7 +4670,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10699",
@@ -4538,7 +4699,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西北民族大学",
@@ -4566,7 +4728,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西北民族大学",
@@ -4594,7 +4757,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10613",
@@ -4622,7 +4786,8 @@
    "n_tutors": 0,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10613",
@@ -4650,7 +4815,8 @@
    "n_tutors": 0,
    "n_kaoqing": 2,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10635",
@@ -4678,7 +4844,8 @@
    "n_tutors": 4,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10656",
@@ -4706,7 +4873,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10615",
@@ -4734,7 +4902,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10619",
@@ -4762,7 +4931,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安建筑科技大学",
@@ -4790,7 +4960,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10701",
@@ -4818,7 +4989,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安邮电大学",
@@ -4846,7 +5018,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安邮电大学",
@@ -4874,7 +5047,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10657",
@@ -4902,7 +5076,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10140",
@@ -4930,7 +5105,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10459",
@@ -4958,7 +5134,8 @@
    "n_tutors": 5,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10611",
@@ -4986,7 +5163,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11551",
@@ -5014,7 +5192,8 @@
    "n_tutors": 3,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-重庆邮电大学",
@@ -5042,7 +5221,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 1
   },
   {
    "school_key": "X-长春工业大学",
@@ -5070,7 +5250,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-长春师范大学",
@@ -5098,7 +5279,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10186",
@@ -5126,7 +5308,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 0
   },
   {
    "school_key": "10489",
@@ -5154,7 +5337,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10536",
@@ -5182,7 +5366,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92004",
@@ -5210,7 +5395,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10718",
@@ -5238,7 +5424,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 1,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10435",
@@ -5266,7 +5453,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11065",
@@ -5294,7 +5482,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10429",
@@ -5322,7 +5511,8 @@
    "n_tutors": 0,
    "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10426",
@@ -5350,7 +5540,37 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
+  },
+  {
+   "school_key": "10743",
+   "code": "10743",
+   "school_name": "青海大学",
+   "province": "青海",
+   "region": "西北",
+   "tier": "211",
+   "is985": null,
+   "is211": null,
+   "in_lib06": 1,
+   "in_lib10": 1,
+   "in_yz408": 1,
+   "cb_id": null,
+   "major_code": "085404",
+   "major_name": "计算机技术",
+   "degree_type": "专业学位",
+   "category": "专业学位",
+   "college": "计算机技术与应用学院",
+   "subject_class": "22408",
+   "direction": "计算机方向",
+   "n_lines": 5,
+   "n_admissions": 1,
+   "n_quantiles": 10,
+   "n_tutors": 0,
+   "n_kaoqing": 1,
+   "n_updates2027": 0,
+   "n_conflicts": 1,
+   "n_source_records": 1
   },
   {
    "school_key": "10743",
@@ -5372,41 +5592,14 @@
    "college": "计算机技术与应用学院",
    "subject_class": "22408",
    "direction": "人工智能方向",
-   "n_lines": 10,
-   "n_admissions": 2,
+   "n_lines": 5,
+   "n_admissions": 1,
    "n_quantiles": 10,
    "n_tutors": 0,
-   "n_kaoqing": 0,
+   "n_kaoqing": 1,
    "n_updates2027": 0,
-   "n_conflicts": 1
-  },
-  {
-   "school_key": "10743",
-   "code": "10743",
-   "school_name": "青海大学",
-   "province": "青海",
-   "region": "西北",
-   "tier": "211",
-   "is985": null,
-   "is211": null,
-   "in_lib06": 1,
-   "in_lib10": 1,
-   "in_yz408": 1,
-   "cb_id": null,
-   "major_code": "085410",
-   "major_name": "人工智能",
-   "degree_type": "专业学位",
-   "category": "专业学位",
-   "college": "计算机技术与应用学院",
-   "subject_class": "22408",
-   "direction": "计算机方向",
-   "n_lines": 10,
-   "n_admissions": 2,
-   "n_quantiles": 10,
-   "n_tutors": 0,
-   "n_kaoqing": 0,
-   "n_updates2027": 0,
-   "n_conflicts": 1
+   "n_conflicts": 1,
+   "n_source_records": 1
   },
   {
    "school_key": "11802",
@@ -5434,7 +5627,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10431",
@@ -5453,16 +5647,17 @@
    "major_name": "人工智能",
    "degree_type": "专业学位",
    "category": "专业学位",
-   "college": "计算机科学与技术学院",
-   "subject_class": "22408",
-   "direction": "计算机视觉",
-   "n_lines": 5,
+   "college": "数学与人工智能学部",
+   "subject_class": "非408",
+   "direction": "计算机视觉等四方向",
+   "n_lines": 0,
    "n_admissions": 1,
    "n_quantiles": 0,
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 3
   },
   {
    "school_key": "10248",
@@ -5490,7 +5685,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10272",
@@ -5518,7 +5714,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10224",
@@ -5546,7 +5743,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10145",
@@ -5574,7 +5772,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10225",
@@ -5602,7 +5801,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10255",
@@ -5630,7 +5830,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10286",
@@ -5658,7 +5859,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10533",
@@ -5686,7 +5888,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10520",
@@ -5714,7 +5917,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10002",
@@ -5742,7 +5946,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10019",
@@ -5770,7 +5975,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11415",
@@ -5798,7 +6004,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10491",
@@ -5826,7 +6033,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10423",
@@ -5854,7 +6062,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11414",
@@ -5882,7 +6091,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10290",
@@ -5910,7 +6120,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11413",
@@ -5938,7 +6149,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10358",
@@ -5966,7 +6178,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10052",
@@ -5994,7 +6207,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10034",
@@ -6022,7 +6236,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10126",
@@ -6050,7 +6265,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10010",
@@ -6078,7 +6294,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10001",
@@ -6106,7 +6323,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10005",
@@ -6134,7 +6352,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10027",
@@ -6162,7 +6381,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10022",
@@ -6190,7 +6410,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10007",
@@ -6218,7 +6439,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10008",
@@ -6246,7 +6468,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10006",
@@ -6274,7 +6497,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10269",
@@ -6302,7 +6526,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10561",
@@ -6330,7 +6555,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10307",
@@ -6358,7 +6584,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10319",
@@ -6386,7 +6613,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10288",
@@ -6414,7 +6642,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10287",
@@ -6442,7 +6671,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10055",
@@ -6470,7 +6700,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10403",
@@ -6498,7 +6729,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10384",
@@ -6526,7 +6758,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10183",
@@ -6554,7 +6787,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10247",
@@ -6582,7 +6816,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10217",
@@ -6610,7 +6845,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10246",
@@ -6638,7 +6874,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10151",
@@ -6666,7 +6903,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10056",
@@ -6694,7 +6932,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10112",
@@ -6722,7 +6961,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10357",
@@ -6750,7 +6990,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10422",
@@ -6778,7 +7019,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10486",
@@ -6806,7 +7048,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10497",
@@ -6834,7 +7077,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10295",
@@ -6862,7 +7106,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10080",
@@ -6890,7 +7135,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10294",
@@ -6918,7 +7164,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-清华大学",
@@ -6946,7 +7193,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10532",
@@ -6974,7 +7222,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10542",
@@ -7002,7 +7251,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10614",
@@ -7030,7 +7280,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10759",
@@ -7058,7 +7309,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10712",
@@ -7086,7 +7338,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10697",
@@ -7114,7 +7367,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10651",
@@ -7142,7 +7396,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10698",
@@ -7170,7 +7425,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10710",
@@ -7198,7 +7454,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "13892",
@@ -7226,7 +7483,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10270",
@@ -7254,7 +7512,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10259",
@@ -7282,7 +7541,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10256",
@@ -7310,7 +7570,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "12044",
@@ -7338,7 +7599,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10416",
@@ -7366,7 +7628,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10405",
@@ -7394,7 +7657,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11105",
@@ -7422,7 +7686,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10033",
@@ -7450,7 +7715,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "82817",
@@ -7478,7 +7744,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83000",
@@ -7506,7 +7773,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83401",
@@ -7534,7 +7802,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "14430",
@@ -7562,7 +7831,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83266",
@@ -7590,7 +7860,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83221",
@@ -7618,7 +7889,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "82901",
@@ -7646,7 +7918,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "82908",
@@ -7674,7 +7947,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "82912",
@@ -7702,7 +7976,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "86202",
@@ -7730,7 +8005,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83201",
@@ -7758,7 +8034,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83801",
@@ -7786,7 +8063,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10681",
@@ -7814,7 +8092,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11392",
@@ -7842,7 +8121,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10689",
@@ -7870,7 +8150,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11347",
@@ -7898,7 +8179,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92035",
@@ -7926,7 +8208,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10477",
@@ -7954,7 +8237,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10129",
@@ -7982,7 +8266,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10135",
@@ -8010,7 +8295,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10136",
@@ -8038,7 +8324,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10127",
@@ -8066,7 +8353,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10139",
@@ -8094,7 +8382,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92101",
@@ -8122,7 +8411,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "82605",
@@ -8150,7 +8440,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10043",
@@ -8178,7 +8469,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10023",
@@ -8206,7 +8498,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11418",
@@ -8234,7 +8527,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "86402",
@@ -8262,7 +8556,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10032",
@@ -8290,7 +8585,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11629",
@@ -8318,7 +8614,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11407",
@@ -8346,7 +8643,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10251",
@@ -8374,7 +8672,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10385",
@@ -8402,7 +8701,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10078",
@@ -8430,7 +8730,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10079",
@@ -8458,7 +8759,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83001",
@@ -8486,7 +8788,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10315",
@@ -8514,7 +8817,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11287",
@@ -8542,7 +8846,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11276",
@@ -8570,7 +8875,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11460",
@@ -8598,7 +8904,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10298",
@@ -8626,7 +8933,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10603",
@@ -8654,7 +8962,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "14325",
@@ -8682,7 +8991,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10304",
@@ -8710,7 +9020,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10481",
@@ -8738,7 +9049,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11059",
@@ -8766,7 +9078,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "14098",
@@ -8794,7 +9107,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10240",
@@ -8822,7 +9136,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10231",
@@ -8850,7 +9165,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10763",
@@ -8878,7 +9194,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10354",
@@ -8906,7 +9223,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10626",
@@ -8934,7 +9252,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "12212",
@@ -8962,7 +9281,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10622",
@@ -8990,7 +9310,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92002",
@@ -9018,7 +9339,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10757",
@@ -9046,7 +9368,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10679",
@@ -9074,7 +9397,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10150",
@@ -9102,7 +9426,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11258",
@@ -9130,7 +9455,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10152",
@@ -9158,7 +9484,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10062",
@@ -9186,7 +9513,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10057",
@@ -9214,7 +9542,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "12544",
@@ -9242,7 +9571,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10370",
@@ -9270,7 +9600,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10479",
@@ -9298,7 +9629,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10641",
@@ -9326,7 +9658,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10036",
@@ -9354,7 +9687,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10434",
@@ -9382,7 +9716,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10445",
@@ -9410,7 +9745,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10433",
@@ -9438,7 +9774,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10439",
@@ -9466,7 +9803,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10449",
@@ -9494,7 +9832,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10456",
@@ -9522,7 +9861,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10113",
@@ -9550,7 +9890,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10120",
@@ -9578,7 +9919,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10118",
@@ -9606,7 +9948,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10634",
@@ -9634,7 +9977,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11055",
@@ -9662,7 +10006,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10566",
@@ -9690,7 +10035,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11656",
@@ -9718,7 +10064,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10594",
@@ -9746,7 +10093,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11117",
@@ -9774,7 +10122,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10762",
@@ -9802,7 +10151,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10766",
@@ -9830,7 +10180,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11393",
@@ -9858,7 +10209,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10408",
@@ -9886,7 +10238,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10446",
@@ -9914,7 +10267,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10560",
@@ -9942,7 +10296,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11072",
@@ -9970,7 +10325,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11463",
@@ -9998,7 +10354,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10414",
@@ -10026,7 +10383,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11319",
@@ -10054,7 +10412,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11318",
@@ -10082,7 +10441,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10149",
@@ -10110,7 +10470,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10142",
@@ -10138,7 +10499,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11632",
@@ -10166,7 +10528,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10144",
@@ -10194,7 +10557,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10077",
@@ -10222,7 +10586,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10094",
@@ -10250,7 +10615,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10084",
@@ -10278,7 +10644,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10082",
@@ -10306,7 +10673,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11832",
@@ -10334,7 +10702,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10476",
@@ -10362,7 +10731,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10464",
@@ -10390,7 +10760,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10484",
@@ -10418,7 +10789,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10453",
@@ -10446,7 +10818,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "13021",
@@ -10474,7 +10847,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10876",
@@ -10502,7 +10876,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11842",
@@ -10530,7 +10905,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11100",
@@ -10558,7 +10934,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10373",
@@ -10586,7 +10963,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11049",
@@ -10614,7 +10992,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10167",
@@ -10642,7 +11021,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10507",
@@ -10670,7 +11050,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92031",
@@ -10698,7 +11079,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11066",
@@ -10726,7 +11108,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10368",
@@ -10754,7 +11137,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10389",
@@ -10782,7 +11166,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10394",
@@ -10810,7 +11195,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10388",
@@ -10838,7 +11224,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92022",
@@ -10866,7 +11253,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10349",
@@ -10894,7 +11282,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92034",
@@ -10922,7 +11311,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "92103",
@@ -10950,7 +11340,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10333",
@@ -10978,7 +11369,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11498",
@@ -11006,7 +11398,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10623",
@@ -11034,7 +11427,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "83276",
@@ -11062,7 +11456,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11560",
@@ -11090,7 +11485,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10695",
@@ -11118,7 +11514,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10663",
@@ -11146,7 +11543,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10976",
@@ -11174,7 +11572,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10418",
@@ -11202,7 +11601,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10154",
@@ -11230,7 +11630,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10147",
@@ -11258,7 +11659,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10165",
@@ -11286,7 +11688,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10148",
@@ -11314,7 +11717,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10146",
@@ -11342,7 +11746,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10123",
@@ -11370,7 +11775,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10485",
@@ -11398,7 +11804,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10462",
@@ -11426,7 +11833,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10643",
@@ -11454,7 +11862,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "13573",
@@ -11482,7 +11891,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "11077",
@@ -11510,7 +11920,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10402",
@@ -11538,7 +11949,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10708",
@@ -11566,7 +11978,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10390",
@@ -11594,7 +12007,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10748",
@@ -11622,7 +12036,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10028",
@@ -11650,7 +12065,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10038",
@@ -11678,7 +12094,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10451",
@@ -11706,7 +12123,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10212",
@@ -11734,7 +12152,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "10219",
@@ -11762,7 +12181,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-中科院成都计算所",
@@ -11790,7 +12210,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-兰州大学",
@@ -11818,7 +12239,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-华北电力大学（北京）",
@@ -11846,7 +12268,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-上海工程技术大学",
@@ -11874,7 +12297,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-上海杉达学院",
@@ -11902,7 +12326,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-云南农业大学",
@@ -11930,7 +12355,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-云南民族大学",
@@ -11958,7 +12384,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西南林业大学",
@@ -11986,7 +12413,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-赤峰大学",
@@ -12014,7 +12442,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-中国人民公安大学",
@@ -12042,7 +12471,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-中国兵器科学研究院(西南自动化研究所)",
@@ -12070,7 +12500,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-中国农业科学院",
@@ -12098,7 +12529,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-中国电力科学研究院",
@@ -12126,7 +12558,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-中国电子科技集团公司电子科学研究院",
@@ -12154,7 +12587,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-北京农学院",
@@ -12182,7 +12616,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-北京外国语大学",
@@ -12210,7 +12645,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-北京服装学院",
@@ -12238,7 +12674,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-北京机械工业自动化研究所",
@@ -12266,7 +12703,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-北京石油化工学院",
@@ -12294,7 +12732,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-国际关系学院",
@@ -12322,7 +12761,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-东北师范大学",
@@ -12350,7 +12790,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-北华大学",
@@ -12378,7 +12819,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-吉林农业大学",
@@ -12406,7 +12848,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-吉林化工学院",
@@ -12434,7 +12877,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-吉林师范大学",
@@ -12462,7 +12906,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-吉林财经大学",
@@ -12490,7 +12935,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-延边大学",
@@ -12518,7 +12964,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-长春大学",
@@ -12546,7 +12993,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-成都中医药大学",
@@ -12574,7 +13022,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-成都医学院",
@@ -12602,7 +13051,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-攀枝花学院",
@@ -12630,7 +13080,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西华师范大学",
@@ -12658,7 +13109,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-宁夏师范大学",
@@ -12686,7 +13138,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-安徽科技学院",
@@ -12714,7 +13167,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-安徽财经大学",
@@ -12742,7 +13196,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-阜阳师范大学",
@@ -12770,7 +13225,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-陆军炮兵防空兵学院",
@@ -12798,7 +13254,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-山东中医药大学",
@@ -12826,7 +13283,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-德州学院",
@@ -12854,7 +13312,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-滨州医学院",
@@ -12882,7 +13341,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-聊城大学",
@@ -12910,7 +13370,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-山西财经大学",
@@ -12938,7 +13399,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-东莞理工学院",
@@ -12966,7 +13428,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-五邑大学",
@@ -12994,7 +13457,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-佛山科学技术学院",
@@ -13022,7 +13486,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-广东医科大学",
@@ -13050,7 +13515,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-广东外语外贸大学",
@@ -13078,7 +13544,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-广东技术师范大学",
@@ -13106,7 +13573,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-广东财经大学",
@@ -13134,7 +13602,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-伊犁师范大学",
@@ -13162,7 +13631,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-南京医科大学",
@@ -13190,7 +13660,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-井冈山大学",
@@ -13218,7 +13689,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-南昌工程学院",
@@ -13246,7 +13718,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-江西农业大学",
@@ -13274,7 +13747,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-江西师范科技大学",
@@ -13302,7 +13776,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-北华航天工业大学",
@@ -13330,7 +13805,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-河北建筑工程",
@@ -13358,7 +13834,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-河北科技师范学院",
@@ -13386,7 +13863,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-信息工程大学",
@@ -13414,7 +13892,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-台州学院",
@@ -13442,7 +13921,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-温州医科大学",
@@ -13470,7 +13950,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-绍兴大学",
@@ -13498,7 +13979,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-海南医科大学",
@@ -13526,7 +14008,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-海军工程大学",
@@ -13554,7 +14037,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖北师范大学",
@@ -13582,7 +14066,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖北文理学院",
@@ -13610,7 +14095,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-黄冈师范学院",
@@ -13638,7 +14124,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖南中医药大学",
@@ -13666,7 +14153,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖南人文科技学院",
@@ -13694,7 +14182,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖南城市学院",
@@ -13722,7 +14211,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖南工业大学",
@@ -13750,7 +14240,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖南工商大学",
@@ -13778,7 +14269,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖南理工大学",
@@ -13806,7 +14298,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-湖南第一师范学院",
@@ -13834,7 +14327,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-衡阳师范学院",
@@ -13862,7 +14356,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-兰州交通大学",
@@ -13890,7 +14385,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-甘肃农业大学",
@@ -13918,7 +14414,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-甘肃政法大学",
@@ -13946,7 +14443,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西北师范大学",
@@ -13974,7 +14472,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-闽江大学",
@@ -14002,7 +14501,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西藏大学",
@@ -14030,7 +14530,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-贵州财经大学",
@@ -14058,7 +14559,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-黔南民族师范学院",
@@ -14086,7 +14588,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-大连民族大学",
@@ -14114,7 +14617,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-沈阳农业大学",
@@ -14142,7 +14646,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-沈阳师范大学",
@@ -14170,7 +14675,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-沈阳建筑大学",
@@ -14198,7 +14704,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-重庆三峡科技大学",
@@ -14226,7 +14733,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-重庆交通大学",
@@ -14254,7 +14762,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-重庆工商大学",
@@ -14282,7 +14791,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-重庆师范大学",
@@ -14310,7 +14820,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-重庆文理学院",
@@ -14338,7 +14849,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-重庆理工大学",
@@ -14366,7 +14878,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-宝鸡文理学院",
@@ -14394,7 +14907,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-延安大学",
@@ -14422,7 +14936,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-榆林学院",
@@ -14450,7 +14965,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西京学院",
@@ -14478,7 +14994,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安工业大学",
@@ -14506,7 +15023,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安工程大学",
@@ -14534,7 +15052,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安理工大学",
@@ -14562,7 +15081,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安石油大学",
@@ -14590,7 +15110,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-西安科技大学",
@@ -14618,7 +15139,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-陕西理工大学",
@@ -14646,7 +15168,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-青海师范大学",
@@ -14674,7 +15197,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-佳木斯大学",
@@ -14702,7 +15226,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-哈尔滨学院",
@@ -14730,7 +15255,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-牡丹江师范学院",
@@ -14758,7 +15284,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-黑龙江八一农垦大学",
@@ -14786,7 +15313,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   },
   {
    "school_key": "X-齐齐哈尔大学",
@@ -14814,7 +15342,8 @@
    "n_tutors": 0,
    "n_kaoqing": 0,
    "n_updates2027": 0,
-   "n_conflicts": 0
+   "n_conflicts": 0,
+   "n_source_records": 0
   }
  ]
 }

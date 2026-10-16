@@ -34,14 +34,36 @@
     "三源核对"
    ],
    "lineUltimate2026": "335",
-   "nnProg": "电子信息-人工智能",
+   "nnProg": "085410人工智能",
    "nnCollege": "人工智能学院",
    "nnSubjects": "英一数一408",
    "wdCount": "8",
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/_AGlGmB6w90YNlesLXtnfA",
    "remark": "N诺口径英一数一408",
-   "college": "人工智能学院"
+   "college": "人工智能学院",
+   "programCode": "085410",
+   "fieldSources": {
+    "programCode": [
+     "szu-2026-0-catalog"
+    ],
+    "nnProg": [
+     "szu-2026-0-catalog"
+    ],
+    "studyMode": [
+     "szu-2026-0-catalog"
+    ],
+    "plan2026": [
+     "szu-2026-0-post-recommendation"
+    ],
+    "scope": [
+     "szu-2026-0-catalog",
+     "szu-2026-0-post-recommendation"
+    ]
+   },
+   "studyMode": "全日制",
+   "plan2026": "27",
+   "scope": "2026全日制085410；目录拟招72，接收推免后统考计划27；阶段不同，实际录取人数待补。"
   },
   {
    "category": "S-主体",
@@ -72,7 +94,30 @@
     "区域榜",
     "招录比对比"
    ],
-   "college": "光明实验室"
+   "college": "光明实验室",
+   "programCode": "085410",
+   "fieldSources": {
+    "programCode": [
+     "szu-2026-1-catalog"
+    ],
+    "nnProg": [
+     "szu-2026-1-catalog"
+    ],
+    "studyMode": [
+     "szu-2026-1-catalog"
+    ],
+    "scope": [
+     "szu-2026-1-catalog",
+     "szu-2026-1-post-recommendation"
+    ],
+    "retestCnt": [
+     "szu-gml-2026-085410-shortlist"
+    ]
+   },
+   "nnProg": "085410人工智能",
+   "studyMode": "全日制",
+   "scope": "2026全日制085410；目录拟招20，接收推免后统考计划20；阶段不同，实际录取人数待补。",
+   "retestCnt": "31（拟复试上线，含同分）"
   },
   {
    "category": "S-主体",
@@ -102,7 +147,30 @@
     "区域榜",
     "招录比对比"
    ],
-   "college": "大湾区国际创新学院"
+   "college": "大湾区国际创新学院",
+   "programCode": "085410",
+   "fieldSources": {
+    "programCode": [
+     "szu-2026-2-catalog"
+    ],
+    "nnProg": [
+     "szu-2026-2-catalog"
+    ],
+    "studyMode": [
+     "szu-2026-2-catalog"
+    ],
+    "plan2026": [
+     "szu-2026-2-post-recommendation"
+    ],
+    "scope": [
+     "szu-2026-2-catalog",
+     "szu-2026-2-post-recommendation"
+    ]
+   },
+   "nnProg": "085410人工智能（管理）",
+   "studyMode": "全日制",
+   "plan2026": "8",
+   "scope": "2026全日制085410；目录拟招30，接收推免后统考计划8；阶段不同，实际录取人数待补。"
   }
  ],
  "crossRefs": [],
@@ -157,6 +225,18 @@
   {
    "label": "N诺考研择校汇总(深圳大学多学院11408)",
    "url": "https://noobdream.com/zexiao/"
+  },
+  {
+   "label": "深圳大学2026年硕士研究生招生专业目录",
+   "url": "https://yz.szu.edu.cn/info/1006/13396.htm"
+  },
+  {
+   "label": "2026年接收推免生后硕士招生可用于统考计划情况",
+   "url": "https://yz.szu.edu.cn/info/1008/13796.htm"
+  },
+  {
+   "label": "深圳大学2026年硕士研究生招生复试分数线",
+   "url": "https://yz.szu.edu.cn/info/1041/14396.htm"
   }
  ],
  "generated": {
@@ -169,5 +249,418 @@
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
  },
- "note": "深圳大学全部学院085410均考英一数一408(11408)；2026复试线：计软332/AI院335/光明312/大湾区286"
+ "note": "深圳大学全部学院085410均考英一数一408(11408)；2026复试线：计软332/AI院335/光明312/大湾区286",
+ "sourceRecords": [
+  {
+   "id": "szu-2026-0-catalog",
+   "year": 2026,
+   "college": "人工智能学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "招生目录拟招",
+   "metrics": {
+    "directory_plan_count": 72
+   },
+   "scope": "",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1006/13396.htm",
+    "title": "深圳大学2026年硕士研究生招生专业目录",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "bf13f0f6989c138a51de26463dda5b120566ff60828a1b8b9bafb7b88ccd303f"
+   },
+   "evidenceLocation": "全日制专业学位目录：68/70/72行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-0-post-recommendation",
+   "year": 2026,
+   "college": "人工智能学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "接收推免后统考计划",
+   "metrics": {
+    "post_recommendation_exam_plan_count": 27
+   },
+   "scope": "这一阶段的可用于统考计划；不代表最终实际录取人数。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1008/13796.htm",
+    "title": "2026年接收推免生后硕士招生可用于统考计划情况",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "f009d0bef12fbb32bb3c134120f46efa92b5b1375881dfab87b7339c4e61194a"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-0-line",
+   "year": 2026,
+   "college": "人工智能学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "retest_results",
+   "batch": "复试基本线",
+   "metrics": {
+    "retest_line": 335
+   },
+   "scope": "",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1041/14396.htm",
+    "title": "深圳大学2026年硕士研究生招生复试分数线",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "3578b991e07b79badc79959743e02b753cf22f165d8f6335b25e79ffd8f295db"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-1-catalog",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "招生目录拟招",
+   "metrics": {
+    "directory_plan_count": 20
+   },
+   "scope": "",
+   "unitIndex": 1,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1006/13396.htm",
+    "title": "深圳大学2026年硕士研究生招生专业目录",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "bf13f0f6989c138a51de26463dda5b120566ff60828a1b8b9bafb7b88ccd303f"
+   },
+   "evidenceLocation": "全日制专业学位目录：68/70/72行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-1-post-recommendation",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "接收推免后统考计划",
+   "metrics": {
+    "post_recommendation_exam_plan_count": 20
+   },
+   "scope": "这一阶段的可用于统考计划；不代表最终实际录取人数。",
+   "unitIndex": 1,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1008/13796.htm",
+    "title": "2026年接收推免生后硕士招生可用于统考计划情况",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "f009d0bef12fbb32bb3c134120f46efa92b5b1375881dfab87b7339c4e61194a"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-1-line",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "retest_results",
+   "batch": "复试基本线",
+   "metrics": {
+    "retest_line": 312
+   },
+   "scope": "",
+   "unitIndex": 1,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1041/14396.htm",
+    "title": "深圳大学2026年硕士研究生招生复试分数线",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "3578b991e07b79badc79959743e02b753cf22f165d8f6335b25e79ffd8f295db"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-2-catalog",
+   "year": 2026,
+   "college": "大湾区国际创新学院",
+   "programCode": "085410",
+   "programName": "人工智能（管理）",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "招生目录拟招",
+   "metrics": {
+    "directory_plan_count": 30
+   },
+   "scope": "",
+   "unitIndex": 2,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1006/13396.htm",
+    "title": "深圳大学2026年硕士研究生招生专业目录",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "bf13f0f6989c138a51de26463dda5b120566ff60828a1b8b9bafb7b88ccd303f"
+   },
+   "evidenceLocation": "全日制专业学位目录：68/70/72行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-2-post-recommendation",
+   "year": 2026,
+   "college": "大湾区国际创新学院",
+   "programCode": "085410",
+   "programName": "人工智能（管理）",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "接收推免后统考计划",
+   "metrics": {
+    "post_recommendation_exam_plan_count": 8
+   },
+   "scope": "这一阶段的可用于统考计划；不代表最终实际录取人数。",
+   "unitIndex": 2,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1008/13796.htm",
+    "title": "2026年接收推免生后硕士招生可用于统考计划情况",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "f009d0bef12fbb32bb3c134120f46efa92b5b1375881dfab87b7339c4e61194a"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-2026-2-line",
+   "year": 2026,
+   "college": "大湾区国际创新学院",
+   "programCode": "085410",
+   "programName": "人工智能（管理）",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "retest_results",
+   "batch": "复试基本线",
+   "metrics": {
+    "retest_line": 286
+   },
+   "scope": "",
+   "unitIndex": 2,
+   "source": {
+    "url": "https://yz.szu.edu.cn/info/1041/14396.htm",
+    "title": "深圳大学2026年硕士研究生招生复试分数线",
+    "publishedDate": null,
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "3578b991e07b79badc79959743e02b753cf22f165d8f6335b25e79ffd8f295db"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-gml-2026-081200-quota",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "081200",
+   "programName": "计算机科学与技术",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "复试前剩余统考指标",
+   "metrics": {
+    "remaining_exam_slots": 7
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://www.gml.ac.cn/zsgg/939.html",
+    "title": "深圳大学-光明实验室2026年硕士研究生复试录取实施细则",
+    "publishedDate": "2026-03-24",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "web_page_text",
+    "downloadSha256": null
+   },
+   "evidenceLocation": "复试细则表：专业所在行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-gml-2026-081200-shortlist",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "081200",
+   "programName": "计算机科学与技术",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "retest_results",
+   "batch": "拟复试上线考生",
+   "metrics": {
+    "retest_line": 318,
+    "shortlisted_count": 11,
+    "includes_tied_scores": false
+   },
+   "scope": "上线名单人数，不等于实际到场或录取人数；人工智能31人含同分。",
+   "unitIndex": null,
+   "source": {
+    "url": "https://www.gml.ac.cn/zsgg/939.html",
+    "title": "深圳大学-光明实验室2026年硕士研究生复试录取实施细则",
+    "publishedDate": "2026-03-24",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "web_page_text",
+    "downloadSha256": null
+   },
+   "evidenceLocation": "复试细则表：专业所在行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-gml-2026-085404-quota",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "085404",
+   "programName": "计算机技术",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "复试前剩余统考指标",
+   "metrics": {
+    "remaining_exam_slots": 19
+   },
+   "scope": "",
+   "unitIndex": null,
+   "source": {
+    "url": "https://www.gml.ac.cn/zsgg/939.html",
+    "title": "深圳大学-光明实验室2026年硕士研究生复试录取实施细则",
+    "publishedDate": "2026-03-24",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "web_page_text",
+    "downloadSha256": null
+   },
+   "evidenceLocation": "复试细则表：专业所在行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-gml-2026-085404-shortlist",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "085404",
+   "programName": "计算机技术",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "retest_results",
+   "batch": "拟复试上线考生",
+   "metrics": {
+    "retest_line": 317,
+    "shortlisted_count": 29,
+    "includes_tied_scores": false
+   },
+   "scope": "上线名单人数，不等于实际到场或录取人数；人工智能31人含同分。",
+   "unitIndex": null,
+   "source": {
+    "url": "https://www.gml.ac.cn/zsgg/939.html",
+    "title": "深圳大学-光明实验室2026年硕士研究生复试录取实施细则",
+    "publishedDate": "2026-03-24",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "web_page_text",
+    "downloadSha256": null
+   },
+   "evidenceLocation": "复试细则表：专业所在行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-gml-2026-085410-quota",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "enrollment_plans",
+   "batch": "复试前剩余统考指标",
+   "metrics": {
+    "remaining_exam_slots": 20
+   },
+   "scope": "",
+   "unitIndex": 1,
+   "source": {
+    "url": "https://www.gml.ac.cn/zsgg/939.html",
+    "title": "深圳大学-光明实验室2026年硕士研究生复试录取实施细则",
+    "publishedDate": "2026-03-24",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "web_page_text",
+    "downloadSha256": null
+   },
+   "evidenceLocation": "复试细则表：专业所在行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "szu-gml-2026-085410-shortlist",
+   "year": 2026,
+   "college": "光明实验室",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "retest_results",
+   "batch": "拟复试上线考生",
+   "metrics": {
+    "retest_line": 312,
+    "shortlisted_count": 31,
+    "includes_tied_scores": true
+   },
+   "scope": "上线名单人数，不等于实际到场或录取人数；人工智能31人含同分。",
+   "unitIndex": 1,
+   "source": {
+    "url": "https://www.gml.ac.cn/zsgg/939.html",
+    "title": "深圳大学-光明实验室2026年硕士研究生复试录取实施细则",
+    "publishedDate": "2026-03-24",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "web_page_text",
+    "downloadSha256": null
+   },
+   "evidenceLocation": "复试细则表：专业所在行",
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
 }

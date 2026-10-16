@@ -15,12 +15,12 @@
     "2023": "345",
     "2024": "295",
     "2025": "292",
-    "2026": "330"
+    "2026": "336"
    },
    "plan2026": "132待核",
    "fill": "一志愿为主",
    "ratioRetest": "1.35",
-   "scope": "N诺2026：重邮考数据结构自命题(22DS)非408；电子信息-计算机线330复试273录225+2专项均361【330-414】；电子信息-软工线345录103+2专项均369；2027不改408已官宣",
+   "scope": "人工智能学院085410；2026复试基本线336、单科35/53，来源T2转载。计划132及复录比仍待核；原计算机/软件招录统计已隔离于dataQuality。",
    "aiTag": "✅真AI方向",
    "heatNet": "90",
    "heatComp": "64",
@@ -38,10 +38,40 @@
    "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/GwFPUs1s3qnhBHufI0squQ",
    "college": "人工智能学院",
-   "retestCnt": "273+2专项(计算机)",
-   "admitCnt": "225+2专项(计算机)/软工103+2专项",
-   "admitAvg": "361(计算机)/369(软工)",
-   "nn408avg": null
+   "retestCnt": null,
+   "admitCnt": null,
+   "admitAvg": null,
+   "nn408avg": null,
+   "programCode": "085410",
+   "fieldSources": {
+    "programCode": [
+     "cqupt-2026-ai-line-reprint"
+    ],
+    "dataQuality": [
+     "cqupt-2026-ai-line-reprint"
+    ],
+    "retestCnt": [
+     "cqupt-2026-ai-line-reprint"
+    ],
+    "admitCnt": [
+     "cqupt-2026-ai-line-reprint"
+    ],
+    "admitAvg": [
+     "cqupt-2026-ai-line-reprint"
+    ],
+    "scope": [
+     "cqupt-2026-ai-line-reprint"
+    ]
+   },
+   "dataQuality": {
+    "quarantinedCrossProgramFields": {
+     "retestCnt": "273+2专项(计算机)",
+     "admitCnt": "225+2专项(计算机)/软工103+2专项",
+     "admitAvg": "361(计算机)/369(软工)",
+     "scope": "N诺2026：重邮考数据结构自命题(22DS)非408；电子信息-计算机线330复试273录225+2专项均361【330-414】；电子信息-软工线345录103+2专项均369；2027不改408已官宣"
+    },
+    "reason": "原文明确这些是计算机/软件统计，不能继续作为人工智能学院085410的招录指标。原值隔离保留，待各专业分别核实。"
+   }
   }
  ],
  "crossRefs": [],
@@ -131,5 +161,36 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "sourceRecords": [
+  {
+   "id": "cqupt-2026-ai-line-reprint",
+   "year": 2026,
+   "college": "人工智能学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "retest_results",
+   "batch": "普通复试基本线",
+   "metrics": {
+    "retest_line": 336,
+    "single_subject_100_line": 35,
+    "single_subject_over_100_line": 53
+   },
+   "scope": "中国考研网转载；官网本次返回412，维持T2证据等级。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://m.chinakaoyan.com/info/article/id/668021.shtml",
+    "title": "重庆邮电大学2026年硕士研究生招生复试基本分数线",
+    "publishedDate": "2026-03-24",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T2",
+    "retrievalMethod": "downloaded_official_notice_reprint",
+    "downloadSha256": "b63d02f9c6c52563f912377cf4c4bebaade81effa80b329702ea034f9bb06743"
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_reprint"
+  }
+ ]
 }

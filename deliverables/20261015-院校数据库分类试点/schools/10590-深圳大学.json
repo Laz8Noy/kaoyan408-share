@@ -1,0 +1,613 @@
+{
+  "schema": "kaoyan-school/v2-pilot",
+  "verification_status": "not_rechecked",
+  "school": {
+    "id": "10590",
+    "code": "10590",
+    "name": "深圳大学",
+    "code_status": "verified_in_legacy_mapping",
+    "province": "广东",
+    "region": "华南",
+    "tier": "双非"
+  },
+  "offerings": [
+    {
+      "id": "off-9c9da297848f15",
+      "college": {
+        "code": null,
+        "name": "人工智能学院"
+      },
+      "program": {
+        "code": null,
+        "name": null,
+        "label_raw": "电子信息-人工智能",
+        "code_status": "unknown",
+        "code_evidence_pointer": null
+      },
+      "direction": "不区分研究方向",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-193289698d",
+              "raw": "英一数一408",
+              "components": {
+                "english": "英语一",
+                "mathematics": "数学一",
+                "professional_code": "408"
+              },
+              "reported_class": "11408",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 335,
+                  "raw": "335",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "overview_line": {
+                  "value": 335,
+                  "raw": "335",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "reported_rate": {
+                  "value": 80,
+                  "raw": "80%",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": [],
+                  "unit": "percent"
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "s408_mean": {
+                  "value": 101,
+                  "raw": "101",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "fill": "一志愿为主"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off-4f3eb8f49fc966",
+      "college": {
+        "code": null,
+        "name": "光明实验室"
+      },
+      "program": {
+        "code": null,
+        "name": null,
+        "label_raw": null,
+        "code_status": "unknown",
+        "code_evidence_pointer": null
+      },
+      "direction": "不区分研究方向",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-4738ab193d",
+              "raw": "11408",
+              "components": {
+                "english": "英语一",
+                "mathematics": "数学一",
+                "professional_code": "408"
+              },
+              "reported_class": "11408",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "count": {
+                  "value": 20,
+                  "raw": "20",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 312,
+                  "raw": "312",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "reported_rate": {
+                  "value": 80,
+                  "raw": "80%",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": [],
+                  "unit": "percent"
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "s408_mean": {
+                  "value": 101,
+                  "raw": "101",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "fill": "一志愿为主"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off-f5c7453661c01c",
+      "college": {
+        "code": null,
+        "name": "大湾区国际创新学院"
+      },
+      "program": {
+        "code": null,
+        "name": null,
+        "label_raw": null,
+        "code_status": "unknown",
+        "code_evidence_pointer": null
+      },
+      "direction": "人工智能（管理）",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "raw": "11408",
+              "components": {
+                "english": "英语一",
+                "mathematics": "数学一",
+                "professional_code": "408"
+              },
+              "reported_class": "11408",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "values": {
+                "line": {
+                  "value": 286,
+                  "raw": "286",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "values": {
+                "reported_rate": {
+                  "value": 80,
+                  "raw": "80%",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": [],
+                  "unit": "percent"
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "values": {
+                "s408_mean": {
+                  "value": 101,
+                  "raw": "101",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-979d3ecd6a",
+              "values": {
+                "fill": "待确认"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "effective_year": 2027,
+      "scope": "人工智能/计算机软件学院",
+      "offering_ids": [],
+      "old_subjects": "自命题",
+      "new_subjects": "408",
+      "verification_status": "not_rechecked",
+      "original": {
+        "院校": "深圳大学",
+        "层次": "双非",
+        "专业/范围": "人工智能/计算机软件学院",
+        "原科目": "自命题",
+        "新科目": "408",
+        "生效年份": "2027",
+        "来源": "新东方2026-08",
+        "备注": "⚠️公共课英一数一(11408)，非22408"
+      }
+    }
+  ],
+  "research": {
+    "tutor_notes": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "kind": "reference",
+      "citation": {
+        "label": "深圳大学光明实验室复试细则",
+        "url": "https://www.gml.ac.cn/zsgg/939.html"
+      }
+    },
+    {
+      "id": "src-2",
+      "kind": "reference",
+      "citation": {
+        "label": "N诺考研择校汇总(深圳大学多学院11408)",
+        "url": "https://noobdream.com/zexiao/"
+      }
+    },
+    {
+      "id": "src-3",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "19考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=6&sn=6b68fe71a9f34c5c715b9ea806572739&scene=21&poc_token=HFb9CmmjfWecUQQEj7P7h93IO9ht9z8fg4vYElcW"
+      }
+    },
+    {
+      "id": "src-4",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "20考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=5&sn=38c597a3e3ea3f0932dbce6ad44f379a&scene=21&poc_token=HFP9CmmjRgTUdowGCLmKHOULhKxDQwZwsl61WsUi"
+      }
+    },
+    {
+      "id": "src-5",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "21考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=4&sn=18bbe54a7a0580ed9238b36d5ad6da59&scene=21&poc_token=HFH9Cmmj4A3HJU58a6FQynsGrO3Z3e8B3XCjT1Rh"
+      }
+    },
+    {
+      "id": "src-6",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "22考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=3&sn=a66710d3b846061fc383ff3db370bfd4&scene=21&poc_token=HE_9Cmmjj735-ggpOpvxnQuXbPFpQHDyN4U_Wu2w"
+      }
+    },
+    {
+      "id": "src-7",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "23考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=2&sn=835eb881b012cd76b91b504c479d9b64&scene=21&poc_token=HEz9CmmjkSo-w5EOeumyh2xVYrjUU4XepCTskazH"
+      }
+    },
+    {
+      "id": "src-8",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "24考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=1&sn=a5f054dc564f9bcd2d135b573ff8589c&scene=21&poc_token=HEn9Cmmjf7Mh6RV0PQ3mroQKSqtYSEYRTkvn5NWR"
+      }
+    },
+    {
+      "id": "src-9",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "25考情分析",
+        "url": "https://mp.weixin.qq.com/s/TVvGd9IiWVL3q2K6Q8GjuA"
+      }
+    },
+    {
+      "id": "src-10",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "26考情分析",
+        "url": "https://mp.weixin.qq.com/s/_AGlGmB6w90YNlesLXtnfA"
+      }
+    }
+  ],
+  "quality": {
+    "conflicts": [],
+    "school_notes": [
+      {
+        "text": "深圳大学全部学院085410均考英一数一408(11408)；2026复试线：计软332/AI院335/光明312/大湾区286",
+        "status": "legacy_summary_not_rechecked"
+      }
+    ],
+    "unassigned_records": [],
+    "review_notes": [
+      {
+        "source_pointer": "/units",
+        "explanation": "三条主记录均没有可唯一抽取的专业代码，分别按学院/实验室和方向保留。主记录注明408均分101为全校口径，不应解释成三个学院各自的均分；与中位数104也不是同一指标。"
+      }
+    ]
+  },
+  "evidence_file": "../evidence/10590-深圳大学.json"
+}

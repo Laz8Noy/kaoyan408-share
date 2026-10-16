@@ -1,0 +1,643 @@
+{
+  "records": {
+    "r-193289698d": {
+      "source_pointer": "/units/0",
+      "legacy_collection": "units",
+      "match_method": "primary_unit",
+      "verification_status": "not_rechecked",
+      "batch": null,
+      "context": {
+        "college": "计算机科学与技术学院（大数据学院）",
+        "nnCollege": "计算机科学与技术学院（大数据学院）",
+        "nnProg": "电子信息-人工智能",
+        "direction": "电子信息-人工智能(085410)",
+        "province": "山西",
+        "region": "华北",
+        "tier": "双非",
+        "scope": "085410人工智能(计算机学院/大数据学院)2026线国家线264；22408(2026改408,学硕811数据结构改408)；一志愿进复试6人+3调剂，进复试均分310【281-354】；拟录取一志愿5人+1调剂，一志愿拟录取均315【291-354】；408单科均分84",
+        "note": "⚠️纠正：原机构估算线319有误，N诺显示2026执行国家线264(NC)；一志愿仅6人进复试、录5人+1调剂，进复试均310【281-354】；408均分84；同院085404计算机技术线304；2026起学硕/专硕改408；[2026-10-05 回写] plan2026 改按目录拟招7人（T1 招生目录：007计算机科学与技术学院(大数据学院)全院拟招38、其中085410=7，kaoyan.koolearn.com/20251010/1883123.html），录取口径5一志愿+1调剂保留于admitCnt",
+        "src": [
+          "总览",
+          "区域榜",
+          "三源核对",
+          "N诺",
+          "官方(复试线/细则)"
+        ],
+        "srcLabel": "第三方+官方",
+        "kaoqingUrl": "https://noobdream.com/schoolinfo/234/",
+        "lineDelta": "改考首年"
+      }
+    },
+    "r-0be90d9c08": {
+      "source_pointer": "/kaoqingDetail2026/0",
+      "legacy_collection": "kaoqingDetail2026",
+      "match_method": "unique_college_normalized",
+      "verification_status": "not_rechecked",
+      "batch": null,
+      "context": {
+        "college": "计算机科学与技术学院(大数据学院)",
+        "tier": "双非",
+        "scope": "085410人工智能22408线264(2026改408)，一志愿拟录取均315【291-354】；408均分84",
+        "verify": "第三方(N诺)+官方(改考408通知)",
+        "url": "https://noobdream.com/schoolinfo/234/"
+      }
+    },
+    "r-7fd4cf66e9": {
+      "source_pointer": "/crossRefs/0",
+      "legacy_collection": "crossRefs",
+      "match_method": "unassigned",
+      "verification_status": "not_rechecked",
+      "batch": null,
+      "context": {
+        "note": "线304，高于AI方向"
+      },
+      "unassigned_payload": {
+        "name": "电子信息-计算机(085404)",
+        "subjects": "22408",
+        "line2026": "304",
+        "note": "线304，高于AI方向"
+      }
+    }
+  },
+  "legacy_annotations": {
+    "/units/0/category": "S-主体",
+    "/units/0/aiTag": "✅真AI方向",
+    "/units/0/heatNet": "68",
+    "/units/0/heatComp": "53",
+    "/units/0/wdCount": "8",
+    "/units/0/wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
+    "/units/0/wdUrl26": "https://mp.weixin.qq.com/s/9G28Mu74bUcWWYm8icCPvg",
+    "/nnCandidates": [],
+    "/tutors": [],
+    "/inTJList/subjects": "22408",
+    "/inTJList/region": "华北",
+    "/inTJList/tier": "双非",
+    "/inTJList/line": "264",
+    "/inTJList/fill": "一志愿不足+调剂",
+    "/inTJList/aiTag": "✅真AI方向",
+    "/inTJList/src": "N诺+官方",
+    "/inKeyList": null
+  },
+  "coverage": [
+    {
+      "source_pointer": "/schema",
+      "target_pointer": "/migration/legacy_schema",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/name",
+      "target_pointer": "/school/name",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/category",
+      "target_pointer": "/legacy_annotations/~1units~10~1category",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/units/0/province",
+      "target_pointer": "/records/r-193289698d/context/province",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/region",
+      "target_pointer": "/records/r-193289698d/context/region",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/tier",
+      "target_pointer": "/records/r-193289698d/context/tier",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/subjectClass",
+      "target_pointer": "/offerings/0/annual_data/3/examinations/0/reported_class",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/direction",
+      "target_pointer": "/records/r-193289698d/context/direction",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/college",
+      "target_pointer": "/records/r-193289698d/context/college",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/line2026",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/0/values/line/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/lineDelta",
+      "target_pointer": "/records/r-193289698d/context/lineDelta",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/linesByYear/2023",
+      "target_pointer": "/offerings/0/annual_data/0/retest_results/0/values/line/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/linesByYear/2024",
+      "target_pointer": "/offerings/0/annual_data/1/retest_results/0/values/line/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/linesByYear/2025",
+      "target_pointer": "/offerings/0/annual_data/2/retest_results/0/values/line/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/linesByYear/2026",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/1/values/line/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/plan2026",
+      "target_pointer": "/offerings/0/annual_data/3/enrollment_plans/0/values/count/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/fill",
+      "target_pointer": "/offerings/0/annual_data/3/recruitment_notes/0/values/fill",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/retestCnt",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/0/values/count/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/admitCnt",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/0/values/count/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/admitMax",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/0/values/max_total/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/admitMin",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/0/values/min_total/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/admitAvg",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/0/values/mean_total/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/scope",
+      "target_pointer": "/records/r-193289698d/context/scope",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/aiTag",
+      "target_pointer": "/legacy_annotations/~1units~10~1aiTag",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/units/0/heatNet",
+      "target_pointer": "/legacy_annotations/~1units~10~1heatNet",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/units/0/heatComp",
+      "target_pointer": "/legacy_annotations/~1units~10~1heatComp",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/units/0/nn408avg",
+      "target_pointer": "/offerings/0/annual_data/3/subject_statistics/0/values/s408_mean/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/nnRate",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/0/values/reported_rate/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/note",
+      "target_pointer": "/records/r-193289698d/context/note",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/srcLabel",
+      "target_pointer": "/records/r-193289698d/context/srcLabel",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/src/0",
+      "target_pointer": "/records/r-193289698d/context/src/0",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/src/1",
+      "target_pointer": "/records/r-193289698d/context/src/1",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/src/2",
+      "target_pointer": "/records/r-193289698d/context/src/2",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/src/3",
+      "target_pointer": "/records/r-193289698d/context/src/3",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/src/4",
+      "target_pointer": "/records/r-193289698d/context/src/4",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/lineUltimate2026",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/0/values/overview_line/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/nnProg",
+      "target_pointer": "/records/r-193289698d/context/nnProg",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/nnCollege",
+      "target_pointer": "/records/r-193289698d/context/nnCollege",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/units/0/nnSubjects",
+      "target_pointer": "/offerings/0/annual_data/3/examinations/0/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/units/0/wdCount",
+      "target_pointer": "/legacy_annotations/~1units~10~1wdCount",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/units/0/wdYears",
+      "target_pointer": "/legacy_annotations/~1units~10~1wdYears",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/units/0/wdUrl26",
+      "target_pointer": "/legacy_annotations/~1units~10~1wdUrl26",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/units/0/kaoqingUrl",
+      "target_pointer": "/records/r-193289698d/context/kaoqingUrl",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/crossRefs/0/name",
+      "target_pointer": "/records/r-7fd4cf66e9/unassigned_payload/name",
+      "disposition": "unassigned"
+    },
+    {
+      "source_pointer": "/crossRefs/0/subjects",
+      "target_pointer": "/records/r-7fd4cf66e9/unassigned_payload/subjects",
+      "disposition": "unassigned"
+    },
+    {
+      "source_pointer": "/crossRefs/0/line2026",
+      "target_pointer": "/records/r-7fd4cf66e9/unassigned_payload/line2026",
+      "disposition": "unassigned"
+    },
+    {
+      "source_pointer": "/crossRefs/0/note",
+      "target_pointer": "/records/r-7fd4cf66e9/context/note",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/college",
+      "target_pointer": "/records/r-0be90d9c08/context/college",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/tier",
+      "target_pointer": "/records/r-0be90d9c08/context/tier",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/subjects",
+      "target_pointer": "/offerings/0/annual_data/3/examinations/1/reported_class",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/line2026",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/2/values/line/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/plan",
+      "target_pointer": "/offerings/0/annual_data/3/enrollment_plans/1/values/count/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/retestCnt",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/2/values/count/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/admitCnt",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/1/values/count/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/ratioRetest",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/2/values/legacy_retest_ratio/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/ratioApply",
+      "target_pointer": "/offerings/0/annual_data/3/retest_results/2/values/legacy_apply_ratio/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/admitMax",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/1/values/max_total/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/admitMin",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/1/values/min_total/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/admitAvg",
+      "target_pointer": "/offerings/0/annual_data/3/admission_results/1/values/mean_total/raw",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/scope",
+      "target_pointer": "/records/r-0be90d9c08/context/scope",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/verify",
+      "target_pointer": "/records/r-0be90d9c08/context/verify",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/kaoqingDetail2026/0/url",
+      "target_pointer": "/records/r-0be90d9c08/context/url",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/nnCandidates",
+      "target_pointer": "/legacy_annotations/~1nnCandidates",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/19考情",
+      "target_pointer": "/sources/3/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/20考情",
+      "target_pointer": "/sources/4/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/21考情",
+      "target_pointer": "/sources/5/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/22考情",
+      "target_pointer": "/sources/6/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/23考情",
+      "target_pointer": "/sources/7/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/24考情",
+      "target_pointer": "/sources/8/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/25考情",
+      "target_pointer": "/sources/9/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/wangdaoLinks/26考情",
+      "target_pointer": "/sources/10/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/院校",
+      "target_pointer": "/changes/0/original/院校",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/层次",
+      "target_pointer": "/changes/0/original/层次",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/专业~1范围",
+      "target_pointer": "/changes/0/original/专业~1范围",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/原科目",
+      "target_pointer": "/changes/0/original/原科目",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/新科目",
+      "target_pointer": "/changes/0/original/新科目",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/生效年份",
+      "target_pointer": "/changes/0/original/生效年份",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/来源",
+      "target_pointer": "/changes/0/original/来源",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/updates2027/0/备注",
+      "target_pointer": "/changes/0/original/备注",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/tutors",
+      "target_pointer": "/legacy_annotations/~1tutors",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inTJList/subjects",
+      "target_pointer": "/legacy_annotations/~1inTJList~1subjects",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inTJList/region",
+      "target_pointer": "/legacy_annotations/~1inTJList~1region",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inTJList/tier",
+      "target_pointer": "/legacy_annotations/~1inTJList~1tier",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inTJList/line",
+      "target_pointer": "/legacy_annotations/~1inTJList~1line",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inTJList/fill",
+      "target_pointer": "/legacy_annotations/~1inTJList~1fill",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inTJList/aiTag",
+      "target_pointer": "/legacy_annotations/~1inTJList~1aiTag",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inTJList/src",
+      "target_pointer": "/legacy_annotations/~1inTJList~1src",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/inKeyList",
+      "target_pointer": "/legacy_annotations/~1inKeyList",
+      "disposition": "archived"
+    },
+    {
+      "source_pointer": "/conflicts/0/field",
+      "target_pointer": "/quality/conflicts/0/legacy_record/field",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/conflicts/0/unit",
+      "target_pointer": "/quality/conflicts/0/legacy_record/unit",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/conflicts/0/claims/0/src",
+      "target_pointer": "/quality/conflicts/0/legacy_record/claims/0/src",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/conflicts/0/claims/0/value",
+      "target_pointer": "/quality/conflicts/0/legacy_record/claims/0/value",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/conflicts/0/claims/1/src",
+      "target_pointer": "/quality/conflicts/0/legacy_record/claims/1/src",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/conflicts/0/claims/1/value",
+      "target_pointer": "/quality/conflicts/0/legacy_record/claims/1/value",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/conflicts/0/status",
+      "target_pointer": "/quality/conflicts/0/legacy_record/status",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/conflicts/0/action",
+      "target_pointer": "/quality/conflicts/0/legacy_record/action",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/sources/0/label",
+      "target_pointer": "/sources/0/citation/label",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/sources/0/url",
+      "target_pointer": "/sources/0/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/sources/1/label",
+      "target_pointer": "/sources/1/citation/label",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/sources/1/url",
+      "target_pointer": "/sources/1/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/sources/2/label",
+      "target_pointer": "/sources/2/citation/label",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/sources/2/url",
+      "target_pointer": "/sources/2/citation/url",
+      "disposition": "structured"
+    },
+    {
+      "source_pointer": "/note",
+      "target_pointer": "/quality/school_notes/0/text",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/generated/by",
+      "target_pointer": "/migration/legacy_generated/by",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/generated/date",
+      "target_pointer": "/migration/legacy_generated/date",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/generated/src/0",
+      "target_pointer": "/migration/legacy_generated/src/0",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/generated/src/1",
+      "target_pointer": "/migration/legacy_generated/src/1",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/generated/src/2",
+      "target_pointer": "/migration/legacy_generated/src/2",
+      "disposition": "context"
+    },
+    {
+      "source_pointer": "/generated/caution",
+      "target_pointer": "/migration/legacy_generated/caution",
+      "disposition": "context"
+    }
+  ],
+  "migration": {
+    "legacy_schema": "kaoyan-school/v1",
+    "legacy_generated": {
+      "by": "etl_build_db.py",
+      "date": "2026-09-03",
+      "src": [
+        "全国408_085410双非热度版_终极版_20260826.xlsx",
+        "王道考情链接总表_20260825.xlsx",
+        "kaoqing_20260821.json"
+      ],
+      "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
+    },
+    "source_file": "source_snapshots/001-中北大学.json",
+    "source_sha256": "3aef5d102ed7844336576d7ae251f2b20fae803cde158f7ae94bde15d0986323"
+  }
+}

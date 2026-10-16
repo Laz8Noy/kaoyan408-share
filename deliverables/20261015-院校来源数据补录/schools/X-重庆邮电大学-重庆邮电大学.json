@@ -1,0 +1,136 @@
+{
+  "schema": "school-source-classification/v1",
+  "school": {
+    "school_key": "X-重庆邮电大学",
+    "code": null
+  },
+  "name": "重庆邮电大学",
+  "scope": "本轮来源事实分类；旧招录统计的可信度不因补目录而升级",
+  "canonicalFile": "06-院校数据库/data/schools/001-重庆邮电大学.json",
+  "projects": [
+    {
+      "id": "project-c6e53b39837712",
+      "college": "人工智能学院",
+      "programCode": "085410",
+      "programName": "人工智能",
+      "direction": null,
+      "studyMode": null,
+      "legacyUnitIndices": [
+        0
+      ],
+      "annualData": [
+        {
+          "year": 2026,
+          "enrollment_plans": [],
+          "examinations": [],
+          "retest_requirements": [],
+          "retest_results": [
+            {
+              "id": "cqupt-2026-ai-line-reprint",
+              "year": 2026,
+              "college": "人工智能学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": null,
+              "topic": "retest_results",
+              "batch": "普通复试基本线",
+              "metrics": {
+                "retest_line": 336,
+                "single_subject_100_line": 35,
+                "single_subject_over_100_line": 53
+              },
+              "scope": "中国考研网转载；官网本次返回412，维持T2证据等级。",
+              "unitIndex": 0,
+              "source": {
+                "url": "https://m.chinakaoyan.com/info/article/id/668021.shtml",
+                "title": "重庆邮电大学2026年硕士研究生招生复试基本分数线",
+                "publishedDate": "2026-03-24",
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T2",
+                "retrievalMethod": "downloaded_official_notice_reprint",
+                "downloadSha256": "b63d02f9c6c52563f912377cf4c4bebaade81effa80b329702ea034f9bb06743"
+              },
+              "evidenceLocation": null,
+              "verificationStatus": "checked_against_reprint"
+            }
+          ],
+          "transfer_policy": []
+        }
+      ]
+    }
+  ],
+  "legacyUnits": [
+    {
+      "category": "S-主体",
+      "province": "重庆",
+      "region": "西南",
+      "tier": "双非",
+      "subjectClass": "非408",
+      "direction": "不区分研究方向",
+      "line2026": "336",
+      "lineDelta": "+72",
+      "linesByYear": {
+        "2023": "345",
+        "2024": "295",
+        "2025": "292",
+        "2026": "336"
+      },
+      "plan2026": "132待核",
+      "fill": "一志愿为主",
+      "ratioRetest": "1.35",
+      "scope": "人工智能学院085410；2026复试基本线336、单科35/53，来源T2转载。计划132及复录比仍待核；原计算机/软件招录统计已隔离于dataQuality。",
+      "aiTag": "✅真AI方向",
+      "heatNet": "90",
+      "heatComp": "64",
+      "note": "⚠️非408：考数据结构自命题，2027不改408已官宣；计算机学院2026线330录225+2专项；人工智能学院2026新增；与22408目标不符勿按408备考",
+      "srcLabel": "第三方",
+      "src": [
+        "总览",
+        "区域榜",
+        "招录比对比",
+        "三源核对",
+        "考情明细"
+      ],
+      "lineUltimate2026": "336",
+      "wdCount": "8",
+      "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
+      "wdUrl26": "https://mp.weixin.qq.com/s/GwFPUs1s3qnhBHufI0squQ",
+      "college": "人工智能学院",
+      "retestCnt": null,
+      "admitCnt": null,
+      "admitAvg": null,
+      "nn408avg": null,
+      "programCode": "085410",
+      "fieldSources": {
+        "programCode": [
+          "cqupt-2026-ai-line-reprint"
+        ],
+        "dataQuality": [
+          "cqupt-2026-ai-line-reprint"
+        ],
+        "retestCnt": [
+          "cqupt-2026-ai-line-reprint"
+        ],
+        "admitCnt": [
+          "cqupt-2026-ai-line-reprint"
+        ],
+        "admitAvg": [
+          "cqupt-2026-ai-line-reprint"
+        ],
+        "scope": [
+          "cqupt-2026-ai-line-reprint"
+        ]
+      },
+      "dataQuality": {
+        "quarantinedCrossProgramFields": {
+          "retestCnt": "273+2专项(计算机)",
+          "admitCnt": "225+2专项(计算机)/软工103+2专项",
+          "admitAvg": "361(计算机)/369(软工)",
+          "scope": "N诺2026：重邮考数据结构自命题(22DS)非408；电子信息-计算机线330复试273录225+2专项均361【330-414】；电子信息-软工线345录103+2专项均369；2027不改408已官宣"
+        },
+        "reason": "原文明确这些是计算机/软件统计，不能继续作为人工智能学院085410的招录指标。原值隔离保留，待各专业分别核实。"
+      }
+    }
+  ]
+}

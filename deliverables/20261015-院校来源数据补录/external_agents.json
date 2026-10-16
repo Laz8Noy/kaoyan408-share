@@ -1,0 +1,52 @@
+{
+  "qoder": {
+    "requestedModel": "Qwen3.8-Flash",
+    "successfulCalls": 3,
+    "scope": "前两次官网公开资料和本次齐鲁工大科目调整公告；主代理逐条复核后采用。",
+    "billing": "使用本机已登录Qoder账号；具体token和扣额未返回，无法确认数值。",
+    "results": [
+      {
+        "requested_model": "Qwen3.8-Flash",
+        "provider": "Qoder",
+        "exit_code": 0,
+        "text": "```json\n[\n  {\n    \"school\": \"深圳大学\",\n    \"college\": \"光明实验室\",\n    \"year\": \"2026\",\n    \"program_code\": \"081200\",\n    \"program_name\": \"计算机科学与技术\",\n    \"degree_type\": \"学术学位\",\n    \"retest_line\": 318,\n    \"remaining_exam_slots\": 7,\n    \"shortlisted_count\": 11,\n    \"count_scope\": null,\n    \"source_url\": \"https://www.gml.ac.cn/zsgg/939.html\"\n  },\n  {\n    \"school\": \"深圳大学\",\n    \"college\": \"光明实验室\",\n    \"year\": \"2026\",\n    \"program_code\": \"085404\",\n    \"program_name\": \"计算机技术\",\n    \"degree_type\": \"专业学位\",\n    \"retest_line\": 317,\n    \"remaining_exam_slots\": 19,\n    \"shortlisted_count\": 29,\n    \"count_scope\": null,\n    \"source_url\": \"https://www.gml.ac.cn/zsgg/939.html\"\n  },\n  {\n    \"school\": \"深圳大学\",\n    \"college\": \"光明实验室\",\n    \"year\": \"2026\",\n    \"program_code\": \"085410\",\n    \"program_name\": \"人工智能\",\n    \"degree_type\": \"专业学位\",\n    \"retest_line\": 312,\n    \"remaining_exam_slots\": 20,\n    \"shortlisted_count\": 31,\n    \"count_scope\": \"拟复试上线考生含同分\",\n    \"source_url\": \"https://www.gml.ac.cn/zsgg/939.html\"\n  }\n]\n```\n",
+        "stderr": ""
+      },
+      {
+        "provider": "Qoder",
+        "requested_model": "Qwen3.8-Flash",
+        "exit_code": 0,
+        "text": "```json\n[\n  {\n    \"school\": \"湖北大学\",\n    \"college\": \"计算机学院\",\n    \"year\": 2026,\n    \"program_code\": \"085400\",\n    \"program_name\": \"电子信息\",\n    \"direction\": \"04计算机技术\",\n    \"study_mode\": \"全日制\",\n    \"initial_subjects\": \"101政治+204英语二+302数学二+408\",\n    \"directory_plan\": 171,\n    \"retest_subjects\": \"面向对象程序设计和数据库系统原理\",\n    \"retest_references\": null,\n    \"notes\": \"专业学位；2025-09-29发布\",\n    \"url\": \"https://yz.hubu.edu.cn/info/1011/3299.htm\"\n  },\n  {\n    \"school\": \"湖北大学\",\n    \"college\": \"计算机学院\",\n    \"year\": 2026,\n    \"program_code\": \"085404\",\n    \"program_name\": \"计算机技术\",\n    \"direction\": \"00不区分\",\n    \"study_mode\": \"非全日制\",\n    \"initial_subjects\": \"101政治+204英语二+302数学二+408\",\n    \"directory_plan\": 20,\n    \"retest_subjects\": \"面向对象程序设计和数据库系统原理\",\n    \"retest_references\": null,\n    \"notes\": \"专业学位；2025-09-29发布\",\n    \"url\": \"https://yz.hubu.edu.cn/info/1011/3299.htm\"\n  },\n  {\n    \"school\": \"湖北大学\",\n    \"college\": \"人工智能学院\",\n    \"year\": 2026,\n    \"program_code\": \"085400\",\n    \"program_name\": \"电子信息\",\n    \"direction\": \"10人工智能\",\n    \"study_mode\": \"全日制\",\n    \"initial_subjects\": \"101政治+204英语二+302数学二+871数据结构与算法\",\n    \"directory_plan\": 50,\n    \"retest_subjects\": \"面向对象程序设计和数据库系统原理，程序设计（上机考试）\",\n    \"retest_references\": null,\n    \"notes\": \"专业学位；原文单元格跨2行（02通信工程/10人工智能），本次只取10人工智能；2025-09-29发布\",\n    \"url\": \"https://yz.hubu.edu.cn/info/1011/3299.htm\"\n  },\n  {\n    \"school\": \"中北大学\",\n    \"college\": \"计算机科学与技术学院（大数据学院）\",\n    \"year\": 2026,\n    \"program_code\": \"085410\",\n    \"program_name\": \"人工智能\",\n    \"direction\": null,\n    \"study_mode\": null,\n    \"initial_subjects\": null,\n    \"directory_plan\": null,\n    \"retest_subjects\": \"编程能力测试（上机）；计算机综合知识（含数据库和算法分析）\",\n    \"retest_references\": \"《Java 2实用教程（第5版）》《C++面向对象程序设计（第2版）》《数据库系统概论（第7版）》《算法分析与设计及案例教程》\",\n    \"notes\": \"业务课由811数据结构改为408计算机学科专业基础，参照教育部考试大纲；未提英语、数学、人数和学习方式；2025-03-11发布\",\n    \"url\": \"https://cst.nuc.edu.cn/info/1039/8937.htm\"\n  }\n]\n```\n",
+        "stderr": ""
+      },
+      {
+        "model_requested": "Qwen3.8-Flash",
+        "exit_code": 0,
+        "elapsed_seconds": 52.8,
+        "text": "```json\n{\n  \"school\": \"齐鲁工业大学\",\n  \"year\": \"2026\",\n  \"claims\": [\n    {\n      \"unit\": \"计算机科学与技术学部\",\n      \"program_code\": \"081200\",\n      \"program_name\": \"计算机科学与技术\",\n      \"previous_fourth_subject\": \"873计算机专业综合\",\n      \"new_fourth_subject\": \"408计算机学科专业基础\"\n    },\n    {\n      \"unit\": \"计算机科学与技术学部\",\n      \"program_code\": \"083900\",\n      \"program_name\": \"网络空间安全\",\n      \"previous_fourth_subject\": \"873计算机专业综合\",\n      \"new_fourth_subject\": \"408计算机学科专业基础\"\n    },\n    {\n      \"unit\": \"计算机科学与技术学部\",\n      \"program_code\": \"085404\",\n      \"program_name\": \"计算机技术\",\n      \"previous_fourth_subject\": \"873计算机专业综合\",\n      \"new_fourth_subject\": \"408计算机学科专业基础\"\n    },\n    {\n      \"unit\": \"数学与人工智能学部\",\n      \"program_code\": \"140500\",\n      \"program_name\": \"智能科学与技术\",\n      \"previous_fourth_subject\": \"公告将“874智能科学与技术学科专业基础”与“873计算机专业综合”合并列出，未明确各自对应哪个专业；本项不做跨专业套用\",\n      \"new_fourth_subject\": \"876人工智能基础综合\"\n    },\n    {\n      \"unit\": \"数学与人工智能学部\",\n      \"program_code\": \"085410\",\n      \"program_name\": \"人工智能\",\n      \"previous_fourth_subject\": \"公告将“874智能科学与技术学科专业基础”与“873计算机专业综合”合并列出，未明确各自对应哪个专业；本项不做跨专业套用\",\n      \"new_fourth_subject\": \"876人工智能基础综合\"\n    }\n  ],\n  \"misclassification_warning\": \"1) ‘873计算机专业综合’在公告中出现在两个不同学部：计算机科学与技术学部(1) 调整去向为全国统一命题科目‘408’，数学与人工智能学部(3) 调整去向为联合命题‘876人工智能基础综合’，二者不可互相套用或合并为同一条记录。2) 数学与人工智能学部对 140500 与 085410 使用‘联合命题’的合并表述，只给出新科目‘876’，原科目‘874智能科学与技术学科专业基础’与‘873计算机专业综合’未逐一指明对应专业，故各专业的 previous_fourth_subject 保留原文并列、不作推断分配。3) 学术学位/专业学位及‘第四单元自命题→统命题/联合命题’的性质差异需保留，不得简化为单一科目。\",\n  \"provisional_notice\": \"公告末尾声明：以上为2026年拟调整内容，最终以2026招生专业目录为准。本摘录仅为公开招生公告的结构化转述，非最终结论，须以学校2026年硕士研究生招生专业目录/简章正式文本核实后方可采信；英语、数学等其它科目不在本摘录范围内，未作任何推断。\"\n}\n```\n",
+        "stderr_tail": ""
+      }
+    ]
+  },
+  "workbuddy": {
+    "requestedModel": "deepseek-v4.1-flash",
+    "reportedModel": "deepseek-v4.1-flash",
+    "successfulCalls": 1,
+    "stopReason": "end_turn",
+    "permissionMode": "allow_once",
+    "scope": "武汉纺织大学官网公开调剂公告；主代理对照官网原文复核后采用。",
+    "billing": "使用本机已登录WorkBuddy账号；具体token和扣额未返回，无法确认数值。",
+    "result": {
+      "started": "2026-10-16T12:20:00.571Z",
+      "model_requested": "deepseek-v4.1-flash",
+      "permission_mode": "allow_once",
+      "prompt_file": ".dsh/work/expanded-20261016/workbuddy-prompt.txt",
+      "success": true,
+      "model_reported": "deepseek-v4.1-flash",
+      "stop_reason": "end_turn",
+      "text": "```json\n{\n  \"school\": \"武汉纺织大学\",\n  \"college\": \"计算机与人工智能学院\",\n  \"year\": 2026,\n  \"programs\": [\n    { \"code\": \"081200\", \"name\": \"计算机科学与技术\", \"degree_type\": \"学硕\", \"study_mode\": \"全日制\" },\n    { \"code\": \"085405\", \"name\": \"软件工程\", \"degree_type\": \"专硕\", \"study_mode\": \"全日制\" },\n    { \"code\": \"085410\", \"name\": \"人工智能\", \"degree_type\": \"专硕\", \"study_mode\": \"全日制\" }\n  ],\n  \"topic\": \"2026年硕士研究生调剂公告\",\n  \"policy_conditions\": [\n    \"符合调入专业报考条件\",\n    \"初试成绩符合第一志愿报考专业及调入专业在2026年全国A类考生要求\",\n    \"第一志愿报考专业初试科目与调入专业初试科目相同或相近\"\n  ],\n  \"adjustment_quota_known\": null,\n  \"caution\": \"公告未给出085410确定调剂人数，仅说明拟接收调剂专业及人数以研招网调剂系统发布数据为准；亦未给出拟录取人数或一志愿计划数。摘录未注明公告发布日期以外的年份适用范围细节，数据来源为2026-04-03公告。\"\n}\n```",
+      "permissions": [],
+      "finished": "2026-10-16T12:20:13.289Z"
+    }
+  }
+}

@@ -32,13 +32,28 @@ NUM = ("line2026", "plan2026", "retestCnt", "admitCnt",
        "heatNet", "heatComp", "nn408avg", "lineUltimate2026", "wdCount")
 
 
-def num(v):
-    """尽量转数字；'约90(86+4专项)' / '103+6专项' 这类取首个整数并标记近似。"""
+def num(v, field=None):
+    """转换单值；人数的两段式加法求合计，缺少一段数字时不猜总数。"""
     if v is None or v == "":
         return None, False
     if isinstance(v, (int, float)):
         return v, False
     s = str(v).strip()
+    # 计划字段里“A+B”的含义可能是统考/推免，也可能是招录分段；
+    # 没有来源级口径时只保留原文，不把某一段或合计冒充计划总数。
+    if field in ("plan2026", "plan") and ("+" in s or any(x in s for x in ("一志愿", "调剂", "补录"))):
+        return None, False
+    if field in ("retestCnt", "admitCnt") and "+" in s:
+        flat = s
+        for label in ("一志愿", "调剂", "专项", "非全", "全日制", "统考", "统招",
+                      "计划", "推免", "本部", "联培", "补录", "拟录取", "录取"):
+            flat = flat.replace("(" + label + ")", "").replace("（" + label + "）", "").replace(label, "")
+        pair = re.fullmatch(r"\s*(\d+)\s*\+\s*(\d+)\s*", flat)
+        if pair:
+            return int(pair.group(1)) + int(pair.group(2)), True
+        # 如“约90(86+4专项)”已给总数；“20一志愿+调剂”缺第二段数字。
+        if not re.match(r"^\s*[约~≈]?\s*\d+(?:\.\d+)?\s*[（(]", s):
+            return None, False
     m = re.search(r"-?\d+(?:\.\d+)?", s.replace(",", ""))
     if not m:
         return None, False
@@ -71,10 +86,14 @@ def load_json(p):
 def build_unit(u):
     """把 06 库的一个 unit 压平成页面可用的行"""
     out = {"college": u.get("college") or "", "direction": u.get("direction") or ""}
+    # 明确专业码、字段证据与统计口径随正本传递，不从备注中的其他专业猜身份。
+    for key in ("programCode", "studyMode", "fieldSources", "dataQuality", "retestSubjects", "retestReferences"):
+        if u.get(key):
+            out[key] = u[key]
     if u.get("subjectClass"):
         out["subj"] = u["subjectClass"]
     for k in NUM:
-        v, approx = num(u.get(k))
+        v, approx = num(u.get(k), k)
         if v is not None:
             out[k] = v
             if approx:
@@ -238,9 +257,11 @@ def main():
                     row[k_dst] = r[k_src]
             for k in ("line2026", "plan", "retestCnt", "admitCnt", "ratioRetest",
                       "ratioApply", "admitMax", "admitMin", "admitAvg"):
-                v, _ = num(r.get(k))
+                v, _ = num(r.get(k), k)
                 if v is not None:
                     row[k] = v
+                if k in ("plan", "retestCnt", "admitCnt") and r.get(k) and (v is None or "+" in str(r[k])):
+                    row[k + "Raw"] = str(r[k])
             if r.get("verify"):
                 row["verify"] = r["verify"]
             if r.get("scope"):
@@ -256,6 +277,8 @@ def main():
         }
         if kq:
             s["kq"] = kq
+        if j.get("sourceRecords"):
+            s["sourceRecords"] = j["sourceRecords"]
         if j.get("updates2027"):
             s["u27"] = [{"prog": x.get("prog") or x.get("program") or "",
                          "from": x.get("from") or "", "to": x.get("to") or "",
@@ -366,7 +389,7 @@ def main():
             row["tags"] = s["tags"]
         if s.get("cbYears"):
             row["cbYears"] = s["cbYears"]
-        for a in ("units", "kq", "u27", "tut", "conf", "wd", "programs"):
+        for a in ("units", "kq", "u27", "tut", "conf", "wd", "programs", "sourceRecords"):
             if s.get(a):
                 row[a] = s[a]
         out_schools.append(row)

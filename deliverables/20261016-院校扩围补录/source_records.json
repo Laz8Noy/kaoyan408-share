@@ -1,0 +1,284 @@
+[
+ {
+  "school": "齐鲁工业大学",
+  "id": "qlu-2026-ai-catalog-exams",
+  "year": 2026,
+  "college": "数学与人工智能学部",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": null,
+  "studyMode": null,
+  "topic": "examinations",
+  "batch": "2026最终招生目录",
+  "metrics": {
+   "initial_subject_codes": [
+    "101",
+    "204",
+    "302",
+    "876"
+   ],
+   "business_subject_name": "人工智能基础综合",
+   "directions": [
+    "计算机视觉",
+    "医学人工智能",
+    "大数据与可信计算",
+    "智能机器人"
+   ]
+  },
+  "scope": "PDF行未明示学习方式；该专业与计算机学部085404的408不得混同。",
+  "unitIndex": 0,
+  "source": {
+   "url": "https://yjszs.qlu.edu.cn/_upload/article/files/ed/0d/975cefca49fdbc73f9b536c34080/6a0d584d-69eb-402e-a7e0-4fe1d605c679.pdf",
+   "title": "齐鲁工业大学2026年硕士研究生招生专业目录",
+   "publishedDate": "2025-09-30",
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_pdf",
+   "downloadSha256": "a1379ade2567492cefce722142fdc608b47461d37d84a3362ddaa247bc533cf4"
+  },
+  "evidenceLocation": "PDF第14页，010数学与人工智能学部085410行",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "齐鲁工业大学",
+  "id": "qlu-2026-ai-catalog-plan",
+  "year": 2026,
+  "college": "数学与人工智能学部",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": null,
+  "studyMode": null,
+  "topic": "enrollment_plans",
+  "batch": "2026最终招生目录拟招",
+  "metrics": {
+   "planned_total": 29
+  },
+  "scope": "目录拟招数，不是实际录取人数。",
+  "unitIndex": 0,
+  "source": {
+   "url": "https://yjszs.qlu.edu.cn/_upload/article/files/ed/0d/975cefca49fdbc73f9b536c34080/6a0d584d-69eb-402e-a7e0-4fe1d605c679.pdf",
+   "title": "齐鲁工业大学2026年硕士研究生招生专业目录",
+   "publishedDate": "2025-09-30",
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_pdf",
+   "downloadSha256": "a1379ade2567492cefce722142fdc608b47461d37d84a3362ddaa247bc533cf4"
+  },
+  "evidenceLocation": "PDF第14页，010数学与人工智能学部085410行",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "齐鲁工业大学",
+  "id": "qlu-2026-cs-085404-catalog-exams",
+  "year": 2026,
+  "college": "计算机科学与技术学部",
+  "programCode": "085404",
+  "programName": "计算机技术",
+  "direction": null,
+  "studyMode": null,
+  "topic": "examinations",
+  "batch": "2026最终招生目录",
+  "metrics": {
+   "initial_subject_codes": [
+    "101",
+    "204",
+    "302",
+    "408"
+   ]
+  },
+  "scope": "同校另一个专业；不得把408当成085410人工智能的科目。",
+  "unitIndex": null,
+  "source": {
+   "url": "https://yjszs.qlu.edu.cn/_upload/article/files/ed/0d/975cefca49fdbc73f9b536c34080/6a0d584d-69eb-402e-a7e0-4fe1d605c679.pdf",
+   "title": "齐鲁工业大学2026年硕士研究生招生专业目录",
+   "publishedDate": "2025-09-30",
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_pdf",
+   "downloadSha256": "a1379ade2567492cefce722142fdc608b47461d37d84a3362ddaa247bc533cf4"
+  },
+  "evidenceLocation": "PDF第1页，001计算机科学与技术学部085404行",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "齐鲁工业大学",
+  "id": "qlu-2026-ai-adjustment-notice",
+  "year": 2026,
+  "college": "数学与人工智能学部",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": null,
+  "studyMode": null,
+  "topic": "examinations",
+  "batch": "2026初试科目拟调整公告",
+  "metrics": {
+   "new_business_subject_code": "876",
+   "new_business_subject_name": "人工智能基础综合",
+   "former_subjects_mentioned_together": [
+    "874",
+    "873"
+   ]
+  },
+  "scope": "拟调整公告未逐一指明874/873与两个专业的对应关系；已由最终目录确认085410为876。",
+  "unitIndex": 0,
+  "source": {
+   "url": "https://yjszs.qlu.edu.cn/2025/0709/c6602a259344/page.htm",
+   "title": "关于调整2026年硕士研究生招生考试初试科目的公告",
+   "publishedDate": "2025-07-09",
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_html",
+   "downloadSha256": "7086564f3b275c599260b608f7d876837184e398d55ad1b927096f81ab012d3d"
+  },
+  "evidenceLocation": "正文第3项及末尾最终目录提示",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "武汉纺织大学",
+  "id": "wtu-2026-ai-transfer-policy",
+  "year": 2026,
+  "college": "计算机与人工智能学院",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": null,
+  "studyMode": "全日制",
+  "topic": "transfer_policy",
+  "batch": "2026调剂申请",
+  "metrics": {
+   "accepts_transfer": true,
+   "transfer_quota_published_here": false,
+   "required_line_policy": "national_A_for_origin_and_destination",
+   "initial_subject_similarity_required": true
+  },
+  "scope": "公告表列全日制085410，具体调剂名额以研招网系统为准；不能据此确定录取或一志愿计划。",
+  "unitIndex": 0,
+  "source": {
+   "url": "https://csai.wtu.edu.cn/info/1063/17087.htm",
+   "title": "武汉纺织大学计算机与人工智能学院2026年硕士研究生调剂公告",
+   "publishedDate": "2026-04-03",
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_html",
+   "downloadSha256": "2aa811a844364d9d2f7dcd2d71290458929c72048193ea8e5fcd860551e6f922"
+  },
+  "evidenceLocation": "正文招生专业表085410行与调剂条件第1至3项",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "武汉纺织大学",
+  "id": "wtu-2026-ai-retest-rules",
+  "year": 2026,
+  "college": "计算机与人工智能学院",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": null,
+  "studyMode": null,
+  "topic": "retest_requirements",
+  "batch": "2026复试工作细则",
+  "metrics": {
+   "line_policy": "national_basic_by_discipline",
+   "college_second_line": false,
+   "minimum_retest_ratio": 1.2
+  },
+  "scope": "学院通用复试细则，未给085410独立数字线；特殊士兵计划另按学校方案。",
+  "unitIndex": 0,
+  "source": {
+   "url": "https://csai.wtu.edu.cn/__local/D/18/9E/B68186EA15F097553E57E82058A_38E63D0A_39DF1.pdf",
+   "title": "计算机与人工智能学院2026年硕士研究生复试录取工作实施细则",
+   "publishedDate": null,
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_pdf",
+   "downloadSha256": "d704e131a72e6af9697cc366eebb6609319309a842ff4ae046c34833070e09d5"
+  },
+  "evidenceLocation": "PDF第1页第三节，第2页列085410为复试专业",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "武汉纺织大学",
+  "id": "wtu-2026-ai-exam-draft",
+  "year": 2026,
+  "college": "计算机学院（公告用名）",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": null,
+  "studyMode": null,
+  "topic": "examinations",
+  "batch": "2026目录及大纲初稿公告",
+  "metrics": {
+   "previous_business_subject_code": "848",
+   "new_business_subject_code": "408"
+  },
+  "scope": "学校公告称科目4由848调整为408，但声明目录及大纲为初稿，最终以正式发布为准；不证明英语和数学科目。",
+  "unitIndex": null,
+  "source": {
+   "url": "https://gs.wtu.edu.cn/info/1038/9392.htm",
+   "title": "关于发布武汉纺织大学2026年硕士研究生招生专业目录和大纲的公告",
+   "publishedDate": "2025-09-22",
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_html",
+   "downloadSha256": "b2986c0dbe2f92d4d2b1bc57b37f779c4394c15c7fab0c26c2880a0c314d06a1"
+  },
+  "evidenceLocation": "正文考试科目调整提示",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "南京信息工程大学",
+  "id": "nuist-2026-022-ai-plan",
+  "year": 2026,
+  "college": "人工智能学院（未来技术学院）",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": "智慧气象与智能预报",
+  "studyMode": "全日制",
+  "topic": "enrollment_plans",
+  "batch": "2026招生专业列表",
+  "metrics": {
+   "planned_total": 5,
+   "planned_exam_excluding_recommendation": 4
+  },
+  "scope": "022招生单位智慧气象与智能预报方向；目录拟招和统考计划不等于实际录取数。",
+  "unitIndex": null,
+  "source": {
+   "url": "https://xxgk.nuist.edu.cn/_upload/article/files/95/46/c377f100465d94b8ccc174089ee6/9ba56202-7b1e-4361-83e7-ce4b107404a8.pdf",
+   "title": "附件1：南京信息工程大学2026年硕士研究生拟招生专业列表",
+   "publishedDate": null,
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_pdf",
+   "downloadSha256": "feb7ca5aa6b6d0360c8004244da26c93ee27f0098c09b5b402c018f286f4dd10"
+  },
+  "evidenceLocation": "PDF第2页022单位085410行",
+  "verificationStatus": "checked_against_primary"
+ },
+ {
+  "school": "南京信息工程大学",
+  "id": "nuist-2026-036-ai-plan",
+  "year": 2026,
+  "college": "南信大浦口经开区创新港研究生培养基地",
+  "programCode": "085410",
+  "programName": "人工智能",
+  "direction": "不区分研究方向",
+  "studyMode": "全日制",
+  "topic": "enrollment_plans",
+  "batch": "2026招生专业列表",
+  "metrics": {
+   "planned_total": 140,
+   "planned_exam_excluding_recommendation": 138
+  },
+  "scope": "036招生单位不区分研究方向；独立于022单位，不得与旧学院招录统计合并。",
+  "unitIndex": null,
+  "source": {
+   "url": "https://xxgk.nuist.edu.cn/_upload/article/files/95/46/c377f100465d94b8ccc174089ee6/9ba56202-7b1e-4361-83e7-ce4b107404a8.pdf",
+   "title": "附件1：南京信息工程大学2026年硕士研究生拟招生专业列表",
+   "publishedDate": null,
+   "collectedAt": "2026-10-16T12:28:22+00:00",
+   "tier": "T1",
+   "retrievalMethod": "downloaded_pdf",
+   "downloadSha256": "feb7ca5aa6b6d0360c8004244da26c93ee27f0098c09b5b402c018f286f4dd10"
+  },
+  "evidenceLocation": "PDF第2页036单位085410行",
+  "verificationStatus": "checked_against_primary"
+ }
+]

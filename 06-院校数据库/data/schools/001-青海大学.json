@@ -10,7 +10,7 @@
    "subjectClass": "22408",
    "direction": "人工智能方向",
    "college": "计算机技术与应用学院",
-   "nnProg": "电子信息-人工智能",
+   "nnProg": "085410人工智能",
    "nnCollege": "计算机技术与应用学院",
    "nnSubjects": "英二数二408",
    "line2026": "284",
@@ -47,7 +47,16 @@
    "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
    "wdUrl26": "https://mp.weixin.qq.com/s/Os8HhG8qbxS6NPRNl6QNpA",
    "kaoqingUrl": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf",
-   "nnUrl": "https://noobdream.com/schoolinfo/273/"
+   "nnUrl": "https://noobdream.com/schoolinfo/273/",
+   "programCode": "085410",
+   "fieldSources": {
+    "programCode": [
+     "qhu-2026-ai-first-choice-results"
+    ],
+    "nnProg": [
+     "qhu-2026-ai-first-choice-results"
+    ]
+   }
   },
   {
    "category": "C-对照",
@@ -57,7 +66,7 @@
    "subjectClass": "22408",
    "direction": "计算机方向",
    "college": "计算机技术与应用学院",
-   "nnProg": "电子信息-计算机",
+   "nnProg": "085404计算机技术",
    "nnCollege": "计算机技术与应用学院",
    "nnSubjects": "英二数二408",
    "line2026": "294",
@@ -86,7 +95,16 @@
    "src": [
     "N诺"
    ],
-   "nnUrl": "https://noobdream.com/schoolinfo/273/"
+   "nnUrl": "https://noobdream.com/schoolinfo/273/",
+   "programCode": "085404",
+   "fieldSources": {
+    "programCode": [
+     "qhu-2026-cs-first-choice-results"
+    ],
+    "nnProg": [
+     "qhu-2026-cs-first-choice-results"
+    ]
+   }
   }
  ],
  "crossRefs": [],
@@ -95,7 +113,7 @@
    "college": "计算机技术与应用学院",
    "tier": "211",
    "subjects": "22408",
-   "program": "085400电子信息-人工智能",
+   "program": "085410人工智能",
    "line2026": "284",
    "plan": "37",
    "retestCnt": "44",
@@ -113,7 +131,7 @@
    "college": "计算机技术与应用学院",
    "tier": "211",
    "subjects": "22408",
-   "program": "085400电子信息-计算机",
+   "program": "085404计算机技术",
    "line2026": "294",
    "plan": "48",
    "retestCnt": "59",
@@ -178,6 +196,10 @@
   {
    "label": "N诺青海大学考情",
    "url": "https://noobdream.com/schoolinfo/273/"
+  },
+  {
+   "label": "青海大学2026年硕士研究生一志愿成绩公示-计算机技术",
+   "url": "https://cs.qhu.edu.cn/docs//2026-03/205230eacead43868656a06910153139.pdf"
   }
  ],
  "generated": {
@@ -189,5 +211,69 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "sourceRecords": [
+  {
+   "id": "qhu-2026-ai-first-choice-results",
+   "year": 2026,
+   "college": "计算机技术与应用学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "retest_results",
+   "batch": "一志愿成绩公示",
+   "metrics": {
+    "observed_retest_count": 44,
+    "initial_total_min": 284.0,
+    "initial_total_max": 354.0,
+    "initial_total_mean": 308.181818,
+    "retest_score_mean": 80.815909
+   },
+   "scope": "PDF全量考生行匿名汇总；最低初试分不是单独公布的复试线，不含拟录取结论。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf",
+    "title": "青海大学2026年硕士研究生一志愿成绩公示-人工智能",
+    "publishedDate": "2026-03-31",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf_local_anonymous_aggregation",
+    "downloadSha256": "2a8a942d44837f90c7a2eb407ee6f375b6a7d21685827fe90fdb07debd0594f1"
+   },
+   "evidenceLocation": "人工智能2页/计算机技术3页，按序号去重，全列加总核对",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "qhu-2026-cs-first-choice-results",
+   "year": 2026,
+   "college": "计算机技术与应用学院",
+   "programCode": "085404",
+   "programName": "计算机技术",
+   "direction": null,
+   "studyMode": null,
+   "topic": "retest_results",
+   "batch": "一志愿成绩公示",
+   "metrics": {
+    "observed_retest_count": 59,
+    "initial_total_min": 294.0,
+    "initial_total_max": 366.0,
+    "initial_total_mean": 318.508475,
+    "retest_score_mean": 81.684746
+   },
+   "scope": "PDF全量考生行匿名汇总；最低初试分不是单独公布的复试线，不含拟录取结论。",
+   "unitIndex": 1,
+   "source": {
+    "url": "https://cs.qhu.edu.cn/docs//2026-03/205230eacead43868656a06910153139.pdf",
+    "title": "青海大学2026年硕士研究生一志愿成绩公示-计算机技术",
+    "publishedDate": "2026-03-31",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf_local_anonymous_aggregation",
+    "downloadSha256": "f2d62e612cf90a2dd33b62682e445772b88975401db5156a3879eef1086fe0f6"
+   },
+   "evidenceLocation": "人工智能2页/计算机技术3页，按序号去重，全列加总核对",
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
 }

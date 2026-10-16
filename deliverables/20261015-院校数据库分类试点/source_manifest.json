@@ -1,0 +1,46 @@
+{
+  "snapshot_date": "2026-10-15",
+  "files": [
+    {
+      "source": "06-院校数据库/data/schools/001-成都信息工程大学.json",
+      "snapshot": "source_snapshots/001-成都信息工程大学.json",
+      "sha256": "4961d42ffe298331e156a8e01ba3ece06965bdfbf9cfcc48a667fa52babf7618"
+    },
+    {
+      "source": "06-院校数据库/data/schools/001-湖北大学.json",
+      "snapshot": "source_snapshots/001-湖北大学.json",
+      "sha256": "22c7a5144cf030b14a4c7b26e139b368ceb16a6d1d62c44efa42c9c80e6cbbd6"
+    },
+    {
+      "source": "06-院校数据库/data/schools/001-深圳大学.json",
+      "snapshot": "source_snapshots/001-深圳大学.json",
+      "sha256": "d36184a07e57bb8464029d542ecea68839e8d53ff54c32821ac4812f5b8418c5"
+    },
+    {
+      "source": "06-院校数据库/data/schools/001-广东工业大学.json",
+      "snapshot": "source_snapshots/001-广东工业大学.json",
+      "sha256": "3b54d549bdee795d02504ad0951a4652c71ecbf37e6ba10fc565ead11b358ecf"
+    },
+    {
+      "source": "06-院校数据库/data/schools/001-桂林电子科技大学.json",
+      "snapshot": "source_snapshots/001-桂林电子科技大学.json",
+      "sha256": "045e4978a5fd74cddb2ee6ceceb8fcc06389e120d97ca828684168719b0f31ee"
+    },
+    {
+      "source": "06-院校数据库/data/schools/001-青海大学.json",
+      "snapshot": "source_snapshots/001-青海大学.json",
+      "sha256": "65d52deca64f0841be9588f6dc1587e3933a45906241a98229334e8c24ad3a6f"
+    },
+    {
+      "source": "06-院校数据库/data/schools/001-中北大学.json",
+      "snapshot": "source_snapshots/001-中北大学.json",
+      "sha256": "3aef5d102ed7844336576d7ae251f2b20fae803cde158f7ae94bde15d0986323"
+    },
+    {
+      "source": "06-院校数据库/data/schools/001-重庆邮电大学.json",
+      "snapshot": "source_snapshots/001-重庆邮电大学.json",
+      "sha256": "7334788b92a368a77cae1b25862f55e5b97ea8d60570c4286cec44d9d68a6b49"
+    }
+  ],
+  "identity_origin": "06-院校数据库/data/crosswalk.json"
+}

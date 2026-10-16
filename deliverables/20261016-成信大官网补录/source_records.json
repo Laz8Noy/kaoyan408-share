@@ -1,0 +1,136 @@
+[
+  {
+    "id": "cuit-2026-ai-first-shortlist",
+    "year": 2026,
+    "college": "人工智能学院",
+    "programCode": "085410",
+    "programName": "人工智能",
+    "direction": null,
+    "studyMode": "全日制",
+    "topic": "retest_results",
+    "batch": "第一批拟复试名单",
+    "metrics": {
+      "shortlisted_count": 1,
+      "initial_total_min": 271,
+      "initial_total_max": 271,
+      "initial_total_mean": 271
+    },
+    "scope": "名单仅确认一名拟复试考生及其初试分数；未证明实际复试或拟录取。",
+    "unitIndex": 0,
+    "source": {
+      "url": "https://qkl.cuit.edu.cn/info/1046/2765.htm",
+      "title": "2026年人工智能学院复试工作安排（第一批）",
+      "publishedDate": "2026-03-25",
+      "collectedAt": "2026-10-16T11:57:55+00:00",
+      "tier": "T1",
+      "retrievalMethod": "downloaded_html",
+      "downloadSha256": "0a931b05f46a50651fe939903bcfd2223ebb46034be0c6f68163aabcb3b35024"
+    },
+    "evidenceLocation": "正文末尾085410全日制名单表",
+    "verificationStatus": "checked_against_primary"
+  },
+  {
+    "id": "cuit-2026-ai-second-shortlist",
+    "year": 2026,
+    "college": "人工智能学院",
+    "programCode": "085410",
+    "programName": "人工智能",
+    "direction": null,
+    "studyMode": "全日制",
+    "topic": "retest_results",
+    "batch": "第二批拟复试名单",
+    "metrics": {
+      "shortlisted_count": 22,
+      "initial_total_min": 265,
+      "initial_total_max": 342,
+      "initial_total_mean": 293
+    },
+    "scope": "第二批名单22人；网页未在名单行明示志愿类别，不推断录取人数。",
+    "unitIndex": 0,
+    "source": {
+      "url": "https://qkl.cuit.edu.cn/info/1046/2788.htm",
+      "title": "2026年人工智能学院复试工作安排（第二批）",
+      "publishedDate": "2026-04-08",
+      "collectedAt": "2026-10-16T11:57:55+00:00",
+      "tier": "T1",
+      "retrievalMethod": "downloaded_html",
+      "downloadSha256": "49e5dcc1e383f44e22b5130191aee133e92bae055a2c92c8570db6cd6ffa75d8"
+    },
+    "evidenceLocation": "正文末尾085410全日制名单表",
+    "verificationStatus": "checked_against_primary"
+  },
+  {
+    "id": "cuit-2026-cs-ai-third-results",
+    "year": 2026,
+    "college": "计算机学院",
+    "programCode": "085410",
+    "programName": "人工智能",
+    "direction": null,
+    "studyMode": "全日制",
+    "topic": "retest_results",
+    "batch": "第三批调剂复试成绩",
+    "metrics": {
+      "observed_retest_count": 33,
+      "initial_total_min": 310,
+      "initial_total_max": 369,
+      "initial_total_mean": 331.060606,
+      "zero_interview_score_count": 23
+    },
+    "scope": "成绩表中人工智能33条均为全日制调剂；面试0分23条。成绩表不能替代拟录取名单。",
+    "unitIndex": 1,
+    "source": {
+      "url": "https://jsjxy.cuit.edu.cn/info/1062/3269.htm",
+      "title": "2026年计算机学院复试（第三批）成绩公布",
+      "publishedDate": null,
+      "collectedAt": "2026-10-16T11:57:55+00:00",
+      "tier": "T1",
+      "retrievalMethod": "downloaded_html",
+      "downloadSha256": "a4f312f951e0f80334e90e000add9d105e46010de3493488624cb5b89093e49e"
+    },
+    "evidenceLocation": "成绩表专业=人工智能、志愿类别=调剂的33行",
+    "verificationStatus": "checked_against_primary"
+  },
+  {
+    "id": "cuit-2026-ai-transfer-policy",
+    "year": 2026,
+    "college": "人工智能学院",
+    "programCode": "085410",
+    "programName": "人工智能",
+    "direction": null,
+    "studyMode": "全日制",
+    "topic": "transfer_policy",
+    "batch": "调剂申请条件",
+    "metrics": {
+      "accepted_english_codes": [
+        "201",
+        "204"
+      ],
+      "required_math_code": "301",
+      "required_business_code": "408",
+      "eligible_origin_program_codes": [
+        "0835",
+        "0839",
+        "0812",
+        "0775",
+        "0810",
+        "0811",
+        "0809",
+        "0854",
+        "1405"
+      ]
+    },
+    "scope": "调剂资格条件；不是本校一志愿初试科目组合或拟录取结果。",
+    "unitIndex": 0,
+    "source": {
+      "url": "https://qkl.cuit.edu.cn/info/1046/2793.htm",
+      "title": "2026年人工智能学院调剂公告",
+      "publishedDate": "2026-04-11",
+      "collectedAt": "2026-10-16T11:57:55+00:00",
+      "tier": "T1",
+      "retrievalMethod": "downloaded_html",
+      "downloadSha256": "fde4d941007e1333be25ecd636b4f625b381278d16a4c58fea7a660a64e2fd8a"
+    },
+    "evidenceLocation": "调剂基本要求第3条表格，085410行",
+    "verificationStatus": "checked_against_primary"
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "schema": "school-source-classification/v1",
+  "school": {
+    "school_key": "10743",
+    "code": "10743"
+  },
+  "name": "青海大学",
+  "scope": "本轮来源事实分类；旧招录统计的可信度不因补目录而升级",
+  "canonicalFile": "06-院校数据库/data/schools/001-青海大学.json",
+  "projects": [
+    {
+      "id": "project-18974a7a556bda",
+      "college": "计算机技术与应用学院",
+      "programCode": "085410",
+      "programName": "人工智能",
+      "direction": null,
+      "studyMode": null,
+      "legacyUnitIndices": [
+        0
+      ],
+      "annualData": [
+        {
+          "year": 2026,
+          "enrollment_plans": [],
+          "examinations": [],
+          "retest_requirements": [],
+          "retest_results": [
+            {
+              "id": "qhu-2026-ai-first-choice-results",
+              "year": 2026,
+              "college": "计算机技术与应用学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": null,
+              "topic": "retest_results",
+              "batch": "一志愿成绩公示",
+              "metrics": {
+                "observed_retest_count": 44,
+                "initial_total_min": 284.0,
+                "initial_total_max": 354.0,
+                "initial_total_mean": 308.181818,
+                "retest_score_mean": 80.815909
+              },
+              "scope": "PDF全量考生行匿名汇总；最低初试分不是单独公布的复试线，不含拟录取结论。",
+              "unitIndex": 0,
+              "source": {
+                "url": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf",
+                "title": "青海大学2026年硕士研究生一志愿成绩公示-人工智能",
+                "publishedDate": "2026-03-31",
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_pdf_local_anonymous_aggregation",
+                "downloadSha256": "2a8a942d44837f90c7a2eb407ee6f375b6a7d21685827fe90fdb07debd0594f1"
+              },
+              "evidenceLocation": "人工智能2页/计算机技术3页，按序号去重，全列加总核对",
+              "verificationStatus": "checked_against_primary"
+            }
+          ],
+          "transfer_policy": []
+        }
+      ]
+    },
+    {
+      "id": "project-e219819cdc4059",
+      "college": "计算机技术与应用学院",
+      "programCode": "085404",
+      "programName": "计算机技术",
+      "direction": null,
+      "studyMode": null,
+      "legacyUnitIndices": [
+        1
+      ],
+      "annualData": [
+        {
+          "year": 2026,
+          "enrollment_plans": [],
+          "examinations": [],
+          "retest_requirements": [],
+          "retest_results": [
+            {
+              "id": "qhu-2026-cs-first-choice-results",
+              "year": 2026,
+              "college": "计算机技术与应用学院",
+              "programCode": "085404",
+              "programName": "计算机技术",
+              "direction": null,
+              "studyMode": null,
+              "topic": "retest_results",
+              "batch": "一志愿成绩公示",
+              "metrics": {
+                "observed_retest_count": 59,
+                "initial_total_min": 294.0,
+                "initial_total_max": 366.0,
+                "initial_total_mean": 318.508475,
+                "retest_score_mean": 81.684746
+              },
+              "scope": "PDF全量考生行匿名汇总；最低初试分不是单独公布的复试线，不含拟录取结论。",
+              "unitIndex": 1,
+              "source": {
+                "url": "https://cs.qhu.edu.cn/docs//2026-03/205230eacead43868656a06910153139.pdf",
+                "title": "青海大学2026年硕士研究生一志愿成绩公示-计算机技术",
+                "publishedDate": "2026-03-31",
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_pdf_local_anonymous_aggregation",
+                "downloadSha256": "f2d62e612cf90a2dd33b62682e445772b88975401db5156a3879eef1086fe0f6"
+              },
+              "evidenceLocation": "人工智能2页/计算机技术3页，按序号去重，全列加总核对",
+              "verificationStatus": "checked_against_primary"
+            }
+          ],
+          "transfer_policy": []
+        }
+      ]
+    }
+  ],
+  "legacyUnits": [
+    {
+      "category": "S-主体",
+      "province": "青海",
+      "region": "西北",
+      "tier": "211",
+      "subjectClass": "22408",
+      "direction": "人工智能方向",
+      "college": "计算机技术与应用学院",
+      "nnProg": "085410人工智能",
+      "nnCollege": "计算机技术与应用学院",
+      "nnSubjects": "英二数二408",
+      "line2026": "284",
+      "lineDelta": "+30(较B区国家线254)",
+      "linesByYear": {
+        "2023": "265",
+        "2024": "263",
+        "2025": "252",
+        "2026": "284"
+      },
+      "plan2026": "37",
+      "fill": "一志愿为主",
+      "retestCnt": "44",
+      "admitCnt": "37",
+      "admitMax": "354",
+      "admitMin": "284",
+      "admitAvg": "312",
+      "scope": "085400电子信息-人工智能方向(22408英二数二408)；B区211。N诺2026：进复试44人均308【284-354】，单科均65/70/96/76；拟录37人均312【284-354】；复试线284(高于B区国家线254)。与官方一志愿公示(44人,最高354最低284均308.2)一致。清华对口支援",
+      "aiTag": "✅真AI方向",
+      "heatNet": "48",
+      "heatComp": "30",
+      "nn408avg": "76",
+      "nnRate": "约84%",
+      "note": "B区211双一流；22408(英二数二408)；N诺schoolinfo/273核对：AI方向线284录37均312，极贴合用户310分档目标。原记录line254为B区国家线，实际AI方向院线284",
+      "srcLabel": "官方+第三方",
+      "src": [
+        "区域榜",
+        "三源核对",
+        "考情明细",
+        "N诺"
+      ],
+      "lineUltimate2026": "284",
+      "wdCount": "8",
+      "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
+      "wdUrl26": "https://mp.weixin.qq.com/s/Os8HhG8qbxS6NPRNl6QNpA",
+      "kaoqingUrl": "https://cs.qhu.edu.cn/docs//2026-03/5044754f48e142f1a58bae040c554215.pdf",
+      "nnUrl": "https://noobdream.com/schoolinfo/273/",
+      "programCode": "085410",
+      "fieldSources": {
+        "programCode": [
+          "qhu-2026-ai-first-choice-results"
+        ],
+        "nnProg": [
+          "qhu-2026-ai-first-choice-results"
+        ]
+      }
+    },
+    {
+      "category": "C-对照",
+      "province": "青海",
+      "region": "西北",
+      "tier": "211",
+      "subjectClass": "22408",
+      "direction": "计算机方向",
+      "college": "计算机技术与应用学院",
+      "nnProg": "085404计算机技术",
+      "nnCollege": "计算机技术与应用学院",
+      "nnSubjects": "英二数二408",
+      "line2026": "294",
+      "lineDelta": null,
+      "linesByYear": {
+        "2023": "292",
+        "2024": "263",
+        "2025": "256",
+        "2026": "294"
+      },
+      "plan2026": "48",
+      "fill": "一志愿为主",
+      "retestCnt": "59",
+      "admitCnt": "48",
+      "admitMax": "366",
+      "admitMin": "294",
+      "admitAvg": "323",
+      "scope": "085400电子信息-计算机方向(22408)；N诺2026：进复试59人均319【294-366】，单科均66/70/100/83；拟录48人均323【294-366】；复试线294",
+      "aiTag": "相关方向",
+      "heatNet": null,
+      "heatComp": null,
+      "nn408avg": "83",
+      "nnRate": "约81%",
+      "note": "计算机方向22408线294录48均323，比AI方向高10分；N诺schoolinfo/273",
+      "srcLabel": "第三方",
+      "src": [
+        "N诺"
+      ],
+      "nnUrl": "https://noobdream.com/schoolinfo/273/",
+      "programCode": "085404",
+      "fieldSources": {
+        "programCode": [
+          "qhu-2026-cs-first-choice-results"
+        ],
+        "nnProg": [
+          "qhu-2026-cs-first-choice-results"
+        ]
+      }
+    }
+  ]
+}

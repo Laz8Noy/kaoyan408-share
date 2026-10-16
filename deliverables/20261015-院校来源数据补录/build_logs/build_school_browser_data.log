@@ -1,0 +1,5 @@
+输入: 06 库 177 校 + CB 独有 62 校 + xlsx 补充新建 10 校 = 索引 249 条；两库匹配 34/96 CB 校
+明细合并: 新并入条目 287；u27 校=146 nnC 校=81 tut 校=16
+覆盖率(表头非空校数): {"line2026": 144, "plan": 51, "retestCnt": 57, "admitCnt": 64, "ratioRetest": 29, "ratioApply": 2, "admitMax": 118, "admitMin": 119, "admitAvg": 130}
+输出 06-院校数据库/data\school_browser.json (160.0 KB)
+OK

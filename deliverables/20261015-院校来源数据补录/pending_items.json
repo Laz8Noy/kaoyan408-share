@@ -1,0 +1,202 @@
+[
+  {
+    "school": "南京信息工程大学",
+    "unitIndex": 0,
+    "college": "人工智能学院",
+    "programCode": null,
+    "missingLegacyFields": [
+      "plan2026"
+    ],
+    "dataQuality": {
+      "reclassifiedLegacyFields": {
+        "plan2026": "167+3补录"
+      },
+      "reason": "167+3补录为旧第三方拟录取人数，不能充当官网招生计划；旧招录口径仍保留在admitCnt。"
+    }
+  },
+  {
+    "school": "广东工业大学",
+    "unitIndex": 1,
+    "college": "自动化学院",
+    "programCode": null,
+    "missingLegacyFields": [
+      "plan2026",
+      "retestCnt",
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": {
+      "removedHistoricalLine": "301",
+      "reason": "非全日制调剂报名门槛，已迁入sourceRecords",
+      "legacyLine264Status": "本轮未用调剂通知重新证明普通复试线264"
+    }
+  },
+  {
+    "school": "成都信息工程大学",
+    "unitIndex": 0,
+    "college": "人工智能学院",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "retestCnt",
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": null
+  },
+  {
+    "school": "成都信息工程大学",
+    "unitIndex": 1,
+    "college": "计算机学院",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": {
+      "reclassifiedLegacyFields": {
+        "admitMax": "276",
+        "admitMin": "274",
+        "admitAvg": "275"
+      },
+      "reason": "原274/276/275为复试者初试成绩统计；已转sourceRecords.retest_results，不作为录取统计"
+    }
+  },
+  {
+    "school": "武汉纺织大学",
+    "unitIndex": 0,
+    "college": "计算机与人工智能学院",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "plan2026"
+    ],
+    "dataQuality": {
+      "reclassifiedLegacyFields": {
+        "plan2026": "20一志愿+28调剂"
+      },
+      "reason": "20一志愿+28调剂是旧第三方招录人数说法，不是官方招生计划；调剂公告未给具体名额。"
+    }
+  },
+  {
+    "school": "深圳大学",
+    "unitIndex": 0,
+    "college": "人工智能学院",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "retestCnt",
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": null
+  },
+  {
+    "school": "深圳大学",
+    "unitIndex": 1,
+    "college": "光明实验室",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": null
+  },
+  {
+    "school": "深圳大学",
+    "unitIndex": 2,
+    "college": "大湾区国际创新学院",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "retestCnt",
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": null
+  },
+  {
+    "school": "湖北大学",
+    "unitIndex": 0,
+    "college": "人工智能学院",
+    "programCode": "085400",
+    "missingLegacyFields": [],
+    "dataQuality": {
+      "legacySummary": {
+        "scope": "⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410",
+        "note": "经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)"
+      },
+      "legacyProgramLabel": "电子信息-人工智能(085410)",
+      "legacySubjects": "英二数二+811数据结构自命题",
+      "admissionsStatus": "旧第三方统计尚未按官方目录专业码复核；不因本次目录核实而升级其可信度"
+    }
+  },
+  {
+    "school": "湖北大学",
+    "unitIndex": 1,
+    "college": "计算机学院",
+    "programCode": null,
+    "missingLegacyFields": [],
+    "dataQuality": {
+      "identityStatus": "学习方式待核，不自动套用目录计划",
+      "catalogAlternatives": [
+        {
+          "programCode": "085400",
+          "studyMode": "全日制",
+          "directoryPlan": 171
+        },
+        {
+          "programCode": "085404",
+          "studyMode": "非全日制",
+          "directoryPlan": 20
+        }
+      ],
+      "warning": "旧nnProg=085404与招录181等统计的学习方式未核清；保留旧值，官方两条记录均不自动挂接该unit。"
+    }
+  },
+  {
+    "school": "重庆邮电大学",
+    "unitIndex": 0,
+    "college": "人工智能学院",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "retestCnt",
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": {
+      "quarantinedCrossProgramFields": {
+        "retestCnt": "273+2专项(计算机)",
+        "admitCnt": "225+2专项(计算机)/软工103+2专项",
+        "admitAvg": "361(计算机)/369(软工)",
+        "scope": "N诺2026：重邮考数据结构自命题(22DS)非408；电子信息-计算机线330复试273录225+2专项均361【330-414】；电子信息-软工线345录103+2专项均369；2027不改408已官宣"
+      },
+      "reason": "原文明确这些是计算机/软件统计，不能继续作为人工智能学院085410的招录指标。原值隔离保留，待各专业分别核实。"
+    }
+  },
+  {
+    "school": "齐鲁工业大学",
+    "unitIndex": 0,
+    "college": "数学与人工智能学部",
+    "programCode": "085410",
+    "missingLegacyFields": [
+      "line2026",
+      "retestCnt",
+      "admitCnt",
+      "admitMax",
+      "admitMin",
+      "admitAvg"
+    ],
+    "dataQuality": null
+  }
+]

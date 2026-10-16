@@ -7,36 +7,33 @@
    "province": "山东",
    "region": "华东",
    "tier": "双非",
-   "subjectClass": "22408",
-   "direction": "计算机视觉",
-   "line2026": "264",
-   "lineDelta": "=国家线",
+   "college": "数学与人工智能学部",
+   "programCode": "085410",
+   "subjectClass": "非408",
+   "direction": "计算机视觉等四方向",
+   "plan2026": "29",
+   "line2026": null,
    "linesByYear": {
-    "2023": "296",
-    "2024": "273",
-    "2025": "260",
-    "2026": "264"
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
    },
-   "plan2026": "28",
-   "fill": "一志愿为主",
-   "ratioRetest": "1.21",
-   "aiTag": "✅真AI方向",
-   "heatNet": "52",
-   "heatComp": "28",
-   "note": "双非；2026起改考408(此前872数据结构自命题)；电子信息-人工智能2025(872)线260录31均301；2026改408后录取分待更新；卓越工程师学院26新增；[2026-10-05 回写] 2026复试线264=A区工学国家线（校复试录取方案明确执行2026全国A类考生初试成绩基本要求，非自划线；与02总览表264一致）",
-   "srcLabel": "第三方",
-   "src": [
-    "总览",
-    "区域榜",
-    "招录比对比",
-    "三源核对"
-   ],
-   "lineUltimate2026": "264",
-   "wdCount": "5",
-   "wdYears": "22考情,23考情,24考情,25考情,26考情",
-   "wdUrl26": "https://mp.weixin.qq.com/s/K4BvL8Gwj-T3GRwCnFkTtg",
-   "college": "计算机科学与技术学院",
-   "scope": "N诺(schoolinfo148,更新至2025)：2025电子信息-人工智能考872数据结构线260复试37录31均301【260-351】；2026改考408(22408)，2026录取分未出/未收录；电子信息-计算机2025线305录220均329"
+   "aiTag": "✅真AI专业",
+   "srcLabel": "官方2026招生目录",
+   "scope": "2026最终招生目录第14页：085410人工智能拟招29人，初试101/204/302/876。目录未在该行明示学习方式；旧22408、线264、计划28、历史分数另存待核。",
+   "note": "该085410为英二数二876，非22408；同校计算机技术085404为英二数二408。",
+   "fieldSources": {
+    "programCode": [
+     "qlu-2026-ai-catalog-exams"
+    ],
+    "plan2026": [
+     "qlu-2026-ai-catalog-plan"
+    ],
+    "subjectClass": [
+     "qlu-2026-ai-catalog-exams"
+    ]
+   }
   }
  ],
  "crossRefs": [],
@@ -84,5 +81,178 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "dataQuality": {
+  "quarantinedLegacyUnits": [
+   {
+    "category": "S-主体",
+    "province": "山东",
+    "region": "华东",
+    "tier": "双非",
+    "subjectClass": "22408",
+    "direction": "计算机视觉",
+    "line2026": "264",
+    "lineDelta": "=国家线",
+    "linesByYear": {
+     "2023": "296",
+     "2024": "273",
+     "2025": "260",
+     "2026": "264"
+    },
+    "plan2026": "28",
+    "fill": "一志愿为主",
+    "ratioRetest": "1.21",
+    "aiTag": "✅真AI方向",
+    "heatNet": "52",
+    "heatComp": "28",
+    "note": "双非；2026起改考408(此前872数据结构自命题)；电子信息-人工智能2025(872)线260录31均301；2026改408后录取分待更新；卓越工程师学院26新增；[2026-10-05 回写] 2026复试线264=A区工学国家线（校复试录取方案明确执行2026全国A类考生初试成绩基本要求，非自划线；与02总览表264一致）",
+    "srcLabel": "第三方",
+    "src": [
+     "总览",
+     "区域榜",
+     "招录比对比",
+     "三源核对"
+    ],
+    "lineUltimate2026": "264",
+    "wdCount": "5",
+    "wdYears": "22考情,23考情,24考情,25考情,26考情",
+    "wdUrl26": "https://mp.weixin.qq.com/s/K4BvL8Gwj-T3GRwCnFkTtg",
+    "college": "计算机科学与技术学院",
+    "scope": "N诺(schoolinfo148,更新至2025)：2025电子信息-人工智能考872数据结构线260复试37录31均301【260-351】；2026改考408(22408)，2026录取分未出/未收录；电子信息-计算机2025线305录220均329"
+   }
+  ],
+  "reason": "旧unit将计算机学部2025第三方招录与数学与人工智能学部2026招生混合，并误写085410为22408；完整旧值保留待逐项核实。"
+ },
+ "sourceRecords": [
+  {
+   "id": "qlu-2026-ai-catalog-exams",
+   "year": 2026,
+   "college": "数学与人工智能学部",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "examinations",
+   "batch": "2026最终招生目录",
+   "metrics": {
+    "initial_subject_codes": [
+     "101",
+     "204",
+     "302",
+     "876"
+    ],
+    "business_subject_name": "人工智能基础综合",
+    "directions": [
+     "计算机视觉",
+     "医学人工智能",
+     "大数据与可信计算",
+     "智能机器人"
+    ]
+   },
+   "scope": "PDF行未明示学习方式；该专业与计算机学部085404的408不得混同。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yjszs.qlu.edu.cn/_upload/article/files/ed/0d/975cefca49fdbc73f9b536c34080/6a0d584d-69eb-402e-a7e0-4fe1d605c679.pdf",
+    "title": "齐鲁工业大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-30",
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf",
+    "downloadSha256": "a1379ade2567492cefce722142fdc608b47461d37d84a3362ddaa247bc533cf4"
+   },
+   "evidenceLocation": "PDF第14页，010数学与人工智能学部085410行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "qlu-2026-ai-catalog-plan",
+   "year": 2026,
+   "college": "数学与人工智能学部",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "enrollment_plans",
+   "batch": "2026最终招生目录拟招",
+   "metrics": {
+    "planned_total": 29
+   },
+   "scope": "目录拟招数，不是实际录取人数。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yjszs.qlu.edu.cn/_upload/article/files/ed/0d/975cefca49fdbc73f9b536c34080/6a0d584d-69eb-402e-a7e0-4fe1d605c679.pdf",
+    "title": "齐鲁工业大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-30",
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf",
+    "downloadSha256": "a1379ade2567492cefce722142fdc608b47461d37d84a3362ddaa247bc533cf4"
+   },
+   "evidenceLocation": "PDF第14页，010数学与人工智能学部085410行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "qlu-2026-cs-085404-catalog-exams",
+   "year": 2026,
+   "college": "计算机科学与技术学部",
+   "programCode": "085404",
+   "programName": "计算机技术",
+   "direction": null,
+   "studyMode": null,
+   "topic": "examinations",
+   "batch": "2026最终招生目录",
+   "metrics": {
+    "initial_subject_codes": [
+     "101",
+     "204",
+     "302",
+     "408"
+    ]
+   },
+   "scope": "同校另一个专业；不得把408当成085410人工智能的科目。",
+   "unitIndex": null,
+   "source": {
+    "url": "https://yjszs.qlu.edu.cn/_upload/article/files/ed/0d/975cefca49fdbc73f9b536c34080/6a0d584d-69eb-402e-a7e0-4fe1d605c679.pdf",
+    "title": "齐鲁工业大学2026年硕士研究生招生专业目录",
+    "publishedDate": "2025-09-30",
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf",
+    "downloadSha256": "a1379ade2567492cefce722142fdc608b47461d37d84a3362ddaa247bc533cf4"
+   },
+   "evidenceLocation": "PDF第1页，001计算机科学与技术学部085404行",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "qlu-2026-ai-adjustment-notice",
+   "year": 2026,
+   "college": "数学与人工智能学部",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "examinations",
+   "batch": "2026初试科目拟调整公告",
+   "metrics": {
+    "new_business_subject_code": "876",
+    "new_business_subject_name": "人工智能基础综合",
+    "former_subjects_mentioned_together": [
+     "874",
+     "873"
+    ]
+   },
+   "scope": "拟调整公告未逐一指明874/873与两个专业的对应关系；已由最终目录确认085410为876。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://yjszs.qlu.edu.cn/2025/0709/c6602a259344/page.htm",
+    "title": "关于调整2026年硕士研究生招生考试初试科目的公告",
+    "publishedDate": "2025-07-09",
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "7086564f3b275c599260b608f7d876837184e398d55ad1b927096f81ab012d3d"
+   },
+   "evidenceLocation": "正文第3项及末尾最终目录提示",
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
 }

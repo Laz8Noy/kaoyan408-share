@@ -18,6 +18,24 @@
   "wangdaoLinks": 4
  },
  {
+  "name": "齐鲁工业大学",
+  "file": "001-齐鲁工业大学.json",
+  "category": "S-主体",
+  "n_missing": 9,
+  "missing": [
+   "2026复试线",
+   "历年线",
+   "一志愿/调剂",
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "王道条数",
+   "王道链接年份",
+   "考情明细"
+  ],
+  "wangdaoLinks": 5
+ },
+ {
   "name": "华北电力大学",
   "file": "001-华北电力大学.json",
   "category": "C-对照",
@@ -657,6 +675,19 @@
   "wangdaoLinks": 5
  },
  {
+  "name": "南京信息工程大学",
+  "file": "001-南京信息工程大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "计划人数",
+   "王道条数",
+   "王道链接年份",
+   "考情明细"
+  ],
+  "wangdaoLinks": 7
+ },
+ {
   "name": "南昌航空大学",
   "file": "001-南昌航空大学.json",
   "category": "S-主体",
@@ -733,6 +764,19 @@
    "考情明细"
   ],
   "wangdaoLinks": 4
+ },
+ {
+  "name": "成都信息工程大学",
+  "file": "001-成都信息工程大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "录取人数",
+   "均分",
+   "王道条数",
+   "王道链接年份"
+  ],
+  "wangdaoLinks": 8
  },
  {
   "name": "武汉科技大学",
@@ -891,6 +935,19 @@
   "wangdaoLinks": 8
  },
  {
+  "name": "重庆邮电大学",
+  "file": "001-重庆邮电大学.json",
+  "category": "S-主体",
+  "n_missing": 4,
+  "missing": [
+   "录取人数",
+   "均分",
+   "N诺408均分",
+   "2027改考"
+  ],
+  "wangdaoLinks": 8
+ },
+ {
   "name": "长春理工大学",
   "file": "001-长春理工大学.json",
   "category": "S-主体",
@@ -902,19 +959,6 @@
    "考情明细"
   ],
   "wangdaoLinks": 8
- },
- {
-  "name": "齐鲁工业大学",
-  "file": "001-齐鲁工业大学.json",
-  "category": "S-主体",
-  "n_missing": 4,
-  "missing": [
-   "录取人数",
-   "均分",
-   "N诺408均分",
-   "考情明细"
-  ],
-  "wangdaoLinks": 5
  },
  {
   "name": "三峡大学",
@@ -975,18 +1019,6 @@
    "考情明细"
   ],
   "wangdaoLinks": 8
- },
- {
-  "name": "南京信息工程大学",
-  "file": "001-南京信息工程大学.json",
-  "category": "S-主体",
-  "n_missing": 3,
-  "missing": [
-   "王道条数",
-   "王道链接年份",
-   "考情明细"
-  ],
-  "wangdaoLinks": 7
  },
  {
   "name": "南京大学",
@@ -1095,18 +1127,6 @@
    "2027改考"
   ],
   "wangdaoLinks": 5
- },
- {
-  "name": "成都信息工程大学",
-  "file": "001-成都信息工程大学.json",
-  "category": "S-主体",
-  "n_missing": 3,
-  "missing": [
-   "录取人数",
-   "王道条数",
-   "王道链接年份"
-  ],
-  "wangdaoLinks": 8
  },
  {
   "name": "成都大学",
@@ -1602,17 +1622,6 @@
   "wangdaoLinks": 8
  },
  {
-  "name": "重庆邮电大学",
-  "file": "001-重庆邮电大学.json",
-  "category": "S-主体",
-  "n_missing": 2,
-  "missing": [
-   "N诺408均分",
-   "2027改考"
-  ],
-  "wangdaoLinks": 8
- },
- {
   "name": "长春工业大学",
   "file": "001-长春工业大学.json",
   "category": "S-主体",
@@ -1744,6 +1753,16 @@
    "N诺408均分"
   ],
   "wangdaoLinks": 8
+ },
+ {
+  "name": "武汉纺织大学",
+  "file": "001-武汉纺织大学.json",
+  "category": "S-主体",
+  "n_missing": 1,
+  "missing": [
+   "计划人数"
+  ],
+  "wangdaoLinks": 5
  },
  {
   "name": "武汉轻工大学",
@@ -1952,14 +1971,6 @@
   "n_missing": 0,
   "missing": [],
   "wangdaoLinks": 7
- },
- {
-  "name": "武汉纺织大学",
-  "file": "001-武汉纺织大学.json",
-  "category": "S-主体",
-  "n_missing": 0,
-  "missing": [],
-  "wangdaoLinks": 5
  },
  {
   "name": "江西理工大学",

@@ -1,0 +1,421 @@
+{
+  "schema": "school-source-classification/v1",
+  "school": {
+    "school_key": "10621",
+    "code": "10621"
+  },
+  "name": "成都信息工程大学",
+  "scope": "本轮来源事实分类；旧招录统计的可信度不因补目录而升级",
+  "canonicalFile": "06-院校数据库/data/schools/001-成都信息工程大学.json",
+  "projects": [
+    {
+      "id": "project-08bb821a3983ca",
+      "college": "计算机学院",
+      "programCode": "085410",
+      "programName": "人工智能",
+      "direction": null,
+      "studyMode": "全日制",
+      "legacyUnitIndices": [
+        1
+      ],
+      "annualData": [
+        {
+          "year": 2026,
+          "enrollment_plans": [],
+          "examinations": [
+            {
+              "id": "cuit-2026-cs-ai-exam-change",
+              "year": 2026,
+              "college": "计算机学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": null,
+              "topic": "examinations",
+              "batch": "2026初试第四单元调整",
+              "metrics": {
+                "previous_business_subject": "820计算机专业基础",
+                "business_subject_code": "408",
+                "business_subject_name": "计算机学科专业基础"
+              },
+              "scope": "本公告不证明英语/数学，也不用于人工智能学院。",
+              "unitIndex": 1,
+              "source": {
+                "url": "https://jsjxy.cuit.edu.cn/info/1062/3098.htm",
+                "title": "计算机学院关于调整2026年硕士研究生招生专业课考试初试科目的公告",
+                "publishedDate": null,
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "c2520a88370123aeff618250561c032fe2df10286c86535353e47dc2b38fb3b7"
+              },
+              "evidenceLocation": null,
+              "verificationStatus": "checked_against_primary"
+            }
+          ],
+          "retest_requirements": [],
+          "retest_results": [
+            {
+              "id": "cuit-2026-cs-ai-first-results",
+              "year": 2026,
+              "college": "计算机学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": "全日制",
+              "topic": "retest_results",
+              "batch": "一志愿第一批成绩",
+              "metrics": {
+                "observed_retest_count": 2,
+                "initial_total_min": 274,
+                "initial_total_max": 276,
+                "initial_total_mean": 275,
+                "zero_interview_score_count": 1
+              },
+              "scope": "只有成绩表；不由面试0分或排名推断拟录取人数。274/276/275是复试考生初试统计。",
+              "unitIndex": 1,
+              "source": {
+                "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+                "title": "2026年计算机学院复试（第一批）成绩公布",
+                "publishedDate": null,
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "634012b42cd880bb2583c5c2bad4bb7754c29b9d555cf45c83942c914e7b384f"
+              },
+              "evidenceLocation": null,
+              "verificationStatus": "checked_against_primary"
+            },
+            {
+              "id": "cuit-2026-cs-ai-third-results",
+              "year": 2026,
+              "college": "计算机学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": "全日制",
+              "topic": "retest_results",
+              "batch": "第三批调剂复试成绩",
+              "metrics": {
+                "observed_retest_count": 33,
+                "initial_total_min": 310,
+                "initial_total_max": 369,
+                "initial_total_mean": 331.060606,
+                "zero_interview_score_count": 23
+              },
+              "scope": "成绩表中人工智能33条均为全日制调剂；面试0分23条。成绩表不能替代拟录取名单。",
+              "unitIndex": 1,
+              "source": {
+                "url": "https://jsjxy.cuit.edu.cn/info/1062/3269.htm",
+                "title": "2026年计算机学院复试（第三批）成绩公布",
+                "publishedDate": null,
+                "collectedAt": "2026-10-16T11:57:55+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "a4f312f951e0f80334e90e000add9d105e46010de3493488624cb5b89093e49e"
+              },
+              "evidenceLocation": "成绩表专业=人工智能、志愿类别=调剂的33行",
+              "verificationStatus": "checked_against_primary"
+            }
+          ],
+          "transfer_policy": [
+            {
+              "id": "cuit-2026-cs-ai-transfer-policy",
+              "year": 2026,
+              "college": "计算机学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": "全日制",
+              "topic": "transfer_policy",
+              "batch": "调剂报名",
+              "metrics": {
+                "accepted_english_codes": [
+                  "201",
+                  "204"
+                ],
+                "required_math_code": "301",
+                "required_business_code": "408"
+              },
+              "scope": "调剂资格条件，不能当作本校一志愿完整考试科目组合。",
+              "unitIndex": 1,
+              "source": {
+                "url": "https://jsjxy.cuit.edu.cn/info/1062/3252.htm",
+                "title": "2026年计算机学院调剂公告（4月1日）",
+                "publishedDate": "2026-04-01",
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "87fca3247fe5c6c2ecb39c792326773a4a85f6d6246acc53506059b9e13a3b82"
+              },
+              "evidenceLocation": null,
+              "verificationStatus": "checked_against_primary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "project-8fb12d53525cd3",
+      "college": "人工智能学院",
+      "programCode": "085410",
+      "programName": "人工智能",
+      "direction": null,
+      "studyMode": "全日制",
+      "legacyUnitIndices": [
+        0
+      ],
+      "annualData": [
+        {
+          "year": 2026,
+          "enrollment_plans": [],
+          "examinations": [],
+          "retest_requirements": [],
+          "retest_results": [
+            {
+              "id": "cuit-2026-ai-first-shortlist",
+              "year": 2026,
+              "college": "人工智能学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": "全日制",
+              "topic": "retest_results",
+              "batch": "第一批拟复试名单",
+              "metrics": {
+                "shortlisted_count": 1,
+                "initial_total_min": 271,
+                "initial_total_max": 271,
+                "initial_total_mean": 271
+              },
+              "scope": "名单仅确认一名拟复试考生及其初试分数；未证明实际复试或拟录取。",
+              "unitIndex": 0,
+              "source": {
+                "url": "https://qkl.cuit.edu.cn/info/1046/2765.htm",
+                "title": "2026年人工智能学院复试工作安排（第一批）",
+                "publishedDate": "2026-03-25",
+                "collectedAt": "2026-10-16T11:57:55+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "0a931b05f46a50651fe939903bcfd2223ebb46034be0c6f68163aabcb3b35024"
+              },
+              "evidenceLocation": "正文末尾085410全日制名单表",
+              "verificationStatus": "checked_against_primary"
+            },
+            {
+              "id": "cuit-2026-ai-second-shortlist",
+              "year": 2026,
+              "college": "人工智能学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": "全日制",
+              "topic": "retest_results",
+              "batch": "第二批拟复试名单",
+              "metrics": {
+                "shortlisted_count": 22,
+                "initial_total_min": 265,
+                "initial_total_max": 342,
+                "initial_total_mean": 293
+              },
+              "scope": "第二批名单22人；网页未在名单行明示志愿类别，不推断录取人数。",
+              "unitIndex": 0,
+              "source": {
+                "url": "https://qkl.cuit.edu.cn/info/1046/2788.htm",
+                "title": "2026年人工智能学院复试工作安排（第二批）",
+                "publishedDate": "2026-04-08",
+                "collectedAt": "2026-10-16T11:57:55+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "49e5dcc1e383f44e22b5130191aee133e92bae055a2c92c8570db6cd6ffa75d8"
+              },
+              "evidenceLocation": "正文末尾085410全日制名单表",
+              "verificationStatus": "checked_against_primary"
+            }
+          ],
+          "transfer_policy": [
+            {
+              "id": "cuit-2026-ai-transfer-policy",
+              "year": 2026,
+              "college": "人工智能学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": "全日制",
+              "topic": "transfer_policy",
+              "batch": "调剂申请条件",
+              "metrics": {
+                "accepted_english_codes": [
+                  "201",
+                  "204"
+                ],
+                "required_math_code": "301",
+                "required_business_code": "408",
+                "eligible_origin_program_codes": [
+                  "0835",
+                  "0839",
+                  "0812",
+                  "0775",
+                  "0810",
+                  "0811",
+                  "0809",
+                  "0854",
+                  "1405"
+                ]
+              },
+              "scope": "调剂资格条件；不是本校一志愿初试科目组合或拟录取结果。",
+              "unitIndex": 0,
+              "source": {
+                "url": "https://qkl.cuit.edu.cn/info/1046/2793.htm",
+                "title": "2026年人工智能学院调剂公告",
+                "publishedDate": "2026-04-11",
+                "collectedAt": "2026-10-16T11:57:55+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "fde4d941007e1333be25ecd636b4f625b381278d16a4c58fea7a660a64e2fd8a"
+              },
+              "evidenceLocation": "调剂基本要求第3条表格，085410行",
+              "verificationStatus": "checked_against_primary"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacyUnits": [
+    {
+      "category": "S-主体",
+      "province": "四川",
+      "region": "西南",
+      "tier": "双非",
+      "subjectClass": "混合",
+      "direction": "不区分研究方向",
+      "line2026": "264",
+      "lineDelta": "=国家线",
+      "linesByYear": {
+        "2023": null,
+        "2024": null,
+        "2025": "260",
+        "2026": "264"
+      },
+      "plan2026": "12",
+      "fill": "一志愿+调剂",
+      "scope": "计划12、线264为旧汇总；官网第一批拟复试名单1人、第二批22人，未据名单确认录取人数。",
+      "aiTag": "✅真AI方向",
+      "heatNet": "58",
+      "heatComp": "29",
+      "nn408avg": "77",
+      "nnRate": "100%",
+      "note": "人工智能学院085410拟招12",
+      "srcLabel": "官方",
+      "src": [
+        "总览",
+        "区域榜",
+        "招录比对比",
+        "考情明细"
+      ],
+      "kaoqingUrl": "https://qkl.cuit.edu.cn/rcpy/yjsjy.htm",
+      "college": "人工智能学院",
+      "subjectClaim2026": [
+        {
+          "claim": "英二+数学一+408",
+          "src": "官方2026招生目录OCR(王道img08) / doubao / N诺"
+        }
+      ],
+      "subjectStatus": "官方口径(2026)；2027已官宣改数二",
+      "programCode": "085410",
+      "studyMode": "全日制",
+      "fieldSources": {
+        "programCode": [
+          "cuit-2026-ai-first-shortlist",
+          "cuit-2026-ai-second-shortlist",
+          "cuit-2026-ai-transfer-policy"
+        ],
+        "studyMode": [
+          "cuit-2026-ai-first-shortlist",
+          "cuit-2026-ai-second-shortlist",
+          "cuit-2026-ai-transfer-policy"
+        ]
+      }
+    },
+    {
+      "category": "S-主体",
+      "province": "四川",
+      "region": "西南",
+      "tier": "双非",
+      "subjectClass": "混合",
+      "direction": "不区分研究方向",
+      "line2026": "264",
+      "lineDelta": "=国家线",
+      "linesByYear": {
+        "2023": null,
+        "2024": null,
+        "2025": "260",
+        "2026": "264"
+      },
+      "plan2026": "25",
+      "fill": "一志愿+调剂",
+      "retestCnt": "2",
+      "admitMax": null,
+      "admitMin": null,
+      "admitAvg": null,
+      "scope": "一志愿第一批复试成绩公示：仅2人（274/276），后续多批调剂；计划25，线264",
+      "aiTag": "❓未注明",
+      "heatNet": "52",
+      "heatComp": "27",
+      "nn408avg": "77",
+      "nnRate": "100%",
+      "note": "计算机学院085410拟招25",
+      "srcLabel": "官方",
+      "src": [
+        "总览",
+        "区域榜",
+        "招录比对比",
+        "考情明细"
+      ],
+      "kaoqingUrl": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+      "college": "计算机学院",
+      "subjectClaim2026": [
+        {
+          "claim": "英二+数学一+408",
+          "src": "N诺2026表 / doubao深挖横评"
+        },
+        {
+          "claim": "英二+数学二+408",
+          "src": "王道OCR 26考情 img10(计院)"
+        }
+      ],
+      "subjectStatus": "已核实2026为数一(据2027改数二反推)",
+      "programCode": "085410",
+      "fieldSources": {
+        "programCode": [
+          "cuit-2026-cs-ai-exam-change"
+        ],
+        "studyMode": [
+          "cuit-2026-cs-ai-first-results"
+        ],
+        "dataQuality": [
+          "cuit-2026-cs-ai-first-results"
+        ],
+        "admitMax": [
+          "cuit-2026-cs-ai-first-results"
+        ],
+        "admitMin": [
+          "cuit-2026-cs-ai-first-results"
+        ],
+        "admitAvg": [
+          "cuit-2026-cs-ai-first-results"
+        ]
+      },
+      "studyMode": "全日制",
+      "dataQuality": {
+        "reclassifiedLegacyFields": {
+          "admitMax": "276",
+          "admitMin": "274",
+          "admitAvg": "275"
+        },
+        "reason": "原274/276/275为复试者初试成绩统计；已转sourceRecords.retest_results，不作为录取统计"
+      }
+    }
+  ]
+}

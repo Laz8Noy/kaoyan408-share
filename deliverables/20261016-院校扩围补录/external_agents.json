@@ -1,0 +1,17 @@
+{
+ "qoder": {
+  "model": "Qwen3.8-Flash",
+  "success": true,
+  "resultFile": ".dsh\\work\\expanded-20261016\\qoder-result.json",
+  "task": "齐鲁工大公开公告科目归类"
+ },
+ "workbuddy": {
+  "model": "deepseek-v4.1-flash",
+  "stopReason": "end_turn",
+  "success": true,
+  "permissionMode": "allow_once",
+  "permissions": [],
+  "resultFile": ".dsh\\work\\expanded-20261016\\workbuddy-result.json",
+  "task": "武汉纺大公开调剂公告结构化"
+ }
+}

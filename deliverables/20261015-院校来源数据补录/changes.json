@@ -1,0 +1,688 @@
+[
+  {
+    "school": "深圳大学",
+    "pointer": "/units/0/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-0-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/0/nnProg",
+    "existedBefore": true,
+    "before": "电子信息-人工智能",
+    "after": "085410人工智能",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-0-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/0/studyMode",
+    "existedBefore": false,
+    "before": null,
+    "after": "全日制",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-0-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/0/plan2026",
+    "existedBefore": false,
+    "before": null,
+    "after": "27",
+    "reason": "补推免后的统考计划；目录总计划另存",
+    "sourceRecordIds": [
+      "szu-2026-0-post-recommendation"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/0/scope",
+    "existedBefore": false,
+    "before": null,
+    "after": "2026全日制085410；目录拟招72，接收推免后统考计划27；阶段不同，实际录取人数待补。",
+    "reason": "明确计划口径",
+    "sourceRecordIds": [
+      "szu-2026-0-catalog",
+      "szu-2026-0-post-recommendation"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/1/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-1-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/1/nnProg",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410人工智能",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-1-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/1/studyMode",
+    "existedBefore": false,
+    "before": null,
+    "after": "全日制",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-1-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/1/scope",
+    "existedBefore": false,
+    "before": null,
+    "after": "2026全日制085410；目录拟招20，接收推免后统考计划20；阶段不同，实际录取人数待补。",
+    "reason": "明确计划口径",
+    "sourceRecordIds": [
+      "szu-2026-1-catalog",
+      "szu-2026-1-post-recommendation"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/2/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-2-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/2/nnProg",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410人工智能（管理）",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-2-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/2/studyMode",
+    "existedBefore": false,
+    "before": null,
+    "after": "全日制",
+    "reason": "官网目录明确的专业身份",
+    "sourceRecordIds": [
+      "szu-2026-2-catalog"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/2/plan2026",
+    "existedBefore": false,
+    "before": null,
+    "after": "8",
+    "reason": "补推免后的统考计划；目录总计划另存",
+    "sourceRecordIds": [
+      "szu-2026-2-post-recommendation"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/2/scope",
+    "existedBefore": false,
+    "before": null,
+    "after": "2026全日制085410；目录拟招30，接收推免后统考计划8；阶段不同，实际录取人数待补。",
+    "reason": "明确计划口径",
+    "sourceRecordIds": [
+      "szu-2026-2-catalog",
+      "szu-2026-2-post-recommendation"
+    ]
+  },
+  {
+    "school": "深圳大学",
+    "pointer": "/units/1/retestCnt",
+    "existedBefore": false,
+    "before": null,
+    "after": "31（拟复试上线，含同分）",
+    "reason": "从备注中的漏项提取，保留名单口径",
+    "sourceRecordIds": [
+      "szu-gml-2026-085410-shortlist"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/dataQuality",
+    "existedBefore": false,
+    "before": null,
+    "after": {
+      "legacySummary": {
+        "scope": "⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410",
+        "note": "经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)"
+      },
+      "legacyProgramLabel": "电子信息-人工智能(085410)",
+      "legacySubjects": "英二数二+811数据结构自命题",
+      "admissionsStatus": "旧第三方统计尚未按官方目录专业码复核；不因本次目录核实而升级其可信度"
+    },
+    "reason": "保留原811/085410主张，明确与官方目录差异",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085400",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/nnProg",
+    "existedBefore": true,
+    "before": "电子信息-人工智能(085410)",
+    "after": "电子信息(085400)-10人工智能",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/direction",
+    "existedBefore": true,
+    "before": "不区分研究方向",
+    "after": "10人工智能",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/studyMode",
+    "existedBefore": false,
+    "before": null,
+    "after": "全日制",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/nnSubjects",
+    "existedBefore": true,
+    "before": "英二数二+811数据结构自命题",
+    "after": "英二数二+871数据结构与算法",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/retestSubjects",
+    "existedBefore": false,
+    "before": null,
+    "after": "面向对象程序设计和数据库系统原理，程序设计（上机考试）",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/note",
+    "existedBefore": true,
+    "before": "经N诺schoolinfo/330核对：085410人工智能(人工智能学院)2026仍考811数据结构自命题，非408，不匹配用户408目标。线275均319。计算机学院085404电子信息2026才首年改408(22408线NC国家线,进复试97+307调剂,录96+85调剂均302,调剂名额巨大)",
+    "after": "2026官方目录：085400电子信息·10人工智能，全日制，英二数二871（非408），目录拟招50；旧第三方招录统计保留，尚未确认与官方专业码的对应。",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/0/scope",
+    "existedBefore": true,
+    "before": "⚠️口径陷阱：湖北大学085410人工智能(人工智能学院)2026初试仍为22DS(英语二+数学二+811数据结构自命题)，非408！N诺2026表：线275，进复试60均316【275-400】，单科55/63/99/100；拟录50+1专项均319【278-400】。注意：'2026改408'仅指计算机学院085404电子信息，不含人工智能学院085410",
+    "after": "初试科目与身份以官方目录为准；线275、复试60、拟录50+1等仍是原第三方统计，未因本次补录得到官方确认。",
+    "reason": "按官方目录纠正考试与身份；不改275/264既有分数线裁定",
+    "sourceRecordIds": [
+      "hubu-2026-ai-exams",
+      "hubu-2026-ai-catalog-plan"
+    ]
+  },
+  {
+    "school": "湖北大学",
+    "pointer": "/units/1/dataQuality",
+    "existedBefore": false,
+    "before": null,
+    "after": {
+      "identityStatus": "学习方式待核，不自动套用目录计划",
+      "catalogAlternatives": [
+        {
+          "programCode": "085400",
+          "studyMode": "全日制",
+          "directoryPlan": 171
+        },
+        {
+          "programCode": "085404",
+          "studyMode": "非全日制",
+          "directoryPlan": 20
+        }
+      ],
+      "warning": "旧nnProg=085404与招录181等统计的学习方式未核清；保留旧值，官方两条记录均不自动挂接该unit。"
+    },
+    "reason": "隔离全日制/非全日制身份歧义",
+    "sourceRecordIds": [
+      "hubu-2026-cs-full-catalog-plan",
+      "hubu-2026-cs-part-catalog-plan"
+    ]
+  },
+  {
+    "school": "青海大学",
+    "pointer": "/units/0/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "以官网PDF报考专业代码列纠正旧085400标签",
+    "sourceRecordIds": [
+      "qhu-2026-ai-first-choice-results"
+    ]
+  },
+  {
+    "school": "青海大学",
+    "pointer": "/units/0/nnProg",
+    "existedBefore": true,
+    "before": "电子信息-人工智能",
+    "after": "085410人工智能",
+    "reason": "以官网PDF报考专业代码列纠正旧085400标签",
+    "sourceRecordIds": [
+      "qhu-2026-ai-first-choice-results"
+    ]
+  },
+  {
+    "school": "青海大学",
+    "pointer": "/kaoqingDetail2026/0/program",
+    "existedBefore": true,
+    "before": "085400电子信息-人工智能",
+    "after": "085410人工智能",
+    "reason": "专业码由官方同学院同方向PDF确认；录取统计仍属旧第三方来源",
+    "sourceRecordIds": [
+      "qhu-2026-ai-first-choice-results"
+    ]
+  },
+  {
+    "school": "青海大学",
+    "pointer": "/units/1/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085404",
+    "reason": "以官网PDF报考专业代码列纠正旧085400标签",
+    "sourceRecordIds": [
+      "qhu-2026-cs-first-choice-results"
+    ]
+  },
+  {
+    "school": "青海大学",
+    "pointer": "/units/1/nnProg",
+    "existedBefore": true,
+    "before": "电子信息-计算机",
+    "after": "085404计算机技术",
+    "reason": "以官网PDF报考专业代码列纠正旧085400标签",
+    "sourceRecordIds": [
+      "qhu-2026-cs-first-choice-results"
+    ]
+  },
+  {
+    "school": "青海大学",
+    "pointer": "/kaoqingDetail2026/1/program",
+    "existedBefore": true,
+    "before": "085400电子信息-计算机",
+    "after": "085404计算机技术",
+    "reason": "专业码由官方同学院同方向PDF确认；录取统计仍属旧第三方来源",
+    "sourceRecordIds": [
+      "qhu-2026-cs-first-choice-results"
+    ]
+  },
+  {
+    "school": "桂林电子科技大学",
+    "pointer": "/units/0/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "官网名单明确专业码",
+    "sourceRecordIds": [
+      "guet-2026-cs-ai-first-shortlist"
+    ]
+  },
+  {
+    "school": "桂林电子科技大学",
+    "pointer": "/units/0/studyMode",
+    "existedBefore": false,
+    "before": null,
+    "after": "全日制",
+    "reason": "官网名单明确学习方式",
+    "sourceRecordIds": [
+      "guet-2026-cs-ai-first-shortlist"
+    ]
+  },
+  {
+    "school": "中北大学",
+    "pointer": "/units/0/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "提取旧链接中未结构化的复试科目和参考书",
+    "sourceRecordIds": [
+      "nuc-2026-ai-exam-change"
+    ]
+  },
+  {
+    "school": "中北大学",
+    "pointer": "/units/0/retestSubjects",
+    "existedBefore": false,
+    "before": null,
+    "after": "编程能力测试（上机）；计算机综合知识（含数据库和算法分析）",
+    "reason": "提取旧链接中未结构化的复试科目和参考书",
+    "sourceRecordIds": [
+      "nuc-2026-ai-retest-requirements"
+    ]
+  },
+  {
+    "school": "中北大学",
+    "pointer": "/units/0/retestReferences",
+    "existedBefore": false,
+    "before": null,
+    "after": [
+      "Java 2实用教程（第5版）",
+      "C++面向对象程序设计（第2版）",
+      "数据库系统概论（第7版）",
+      "算法分析与设计及案例教程"
+    ],
+    "reason": "提取旧链接中未结构化的复试科目和参考书",
+    "sourceRecordIds": [
+      "nuc-2026-ai-retest-requirements"
+    ]
+  },
+  {
+    "school": "广东工业大学",
+    "pointer": "/units/1/linesByYear/2026",
+    "existedBefore": true,
+    "before": "301",
+    "after": null,
+    "reason": "把误放在复试线中的非全调剂门槛301归还调剂政策",
+    "sourceRecordIds": [
+      "gdut-2026-auto-ai-part-time-transfer"
+    ]
+  },
+  {
+    "school": "广东工业大学",
+    "pointer": "/units/1/dataQuality",
+    "existedBefore": false,
+    "before": null,
+    "after": {
+      "removedHistoricalLine": "301",
+      "reason": "非全日制调剂报名门槛，已迁入sourceRecords",
+      "legacyLine264Status": "本轮未用调剂通知重新证明普通复试线264"
+    },
+    "reason": "保留迁移理由和旧值",
+    "sourceRecordIds": [
+      "gdut-2026-auto-ai-part-time-transfer"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/units/1/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "官网改考公告明确专业码",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-exam-change"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/units/1/studyMode",
+    "existedBefore": false,
+    "before": null,
+    "after": "全日制",
+    "reason": "成绩公示明确学习方式",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/units/1/dataQuality",
+    "existedBefore": false,
+    "before": null,
+    "after": {
+      "reclassifiedLegacyFields": {
+        "admitMax": "276",
+        "admitMin": "274",
+        "admitAvg": "275"
+      },
+      "reason": "原274/276/275为复试者初试成绩统计；已转sourceRecords.retest_results，不作为录取统计"
+    },
+    "reason": "保留错放原值",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/units/1/admitMax",
+    "existedBefore": true,
+    "before": "276",
+    "after": null,
+    "reason": "复试统计从录取字段移出",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/kaoqingDetail2026/0/admitMax",
+    "existedBefore": true,
+    "before": "276",
+    "after": null,
+    "reason": "同步移出同一来源的重复错放统计",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/units/1/admitMin",
+    "existedBefore": true,
+    "before": "274",
+    "after": null,
+    "reason": "复试统计从录取字段移出",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/kaoqingDetail2026/0/admitMin",
+    "existedBefore": true,
+    "before": "274",
+    "after": null,
+    "reason": "同步移出同一来源的重复错放统计",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/units/1/admitAvg",
+    "existedBefore": true,
+    "before": "275",
+    "after": null,
+    "reason": "复试统计从录取字段移出",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/kaoqingDetail2026/0/admitAvg",
+    "existedBefore": true,
+    "before": "275",
+    "after": null,
+    "reason": "同步移出同一来源的重复错放统计",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/kaoqingDetail2026/2/admitMax",
+    "existedBefore": true,
+    "before": 276,
+    "after": null,
+    "reason": "官方成绩公示不能证明录取者分数",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/kaoqingDetail2026/2/admitMin",
+    "existedBefore": true,
+    "before": 274,
+    "after": null,
+    "reason": "官方成绩公示不能证明录取者分数",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "成都信息工程大学",
+    "pointer": "/kaoqingDetail2026/2/scope",
+    "existedBefore": true,
+    "before": "2人(274录取/276因综合面试0分未录)；逐人见专档xlsx",
+    "after": "旧汇总声称录1人；本次官网只核得2名复试者初试274/276、其中一名面试0分。未用该表确认拟录取结论；admitCnt=1待拟录取公示复核。",
+    "reason": "标明旧录取结论未获本次公示支持",
+    "sourceRecordIds": [
+      "cuit-2026-cs-ai-first-results"
+    ]
+  },
+  {
+    "school": "重庆邮电大学",
+    "pointer": "/units/0/programCode",
+    "existedBefore": false,
+    "before": null,
+    "after": "085410",
+    "reason": "转载表明确学院与专业码，标记T2",
+    "sourceRecordIds": [
+      "cqupt-2026-ai-line-reprint"
+    ]
+  },
+  {
+    "school": "重庆邮电大学",
+    "pointer": "/units/0/linesByYear/2026",
+    "existedBefore": true,
+    "before": "330",
+    "after": "336",
+    "reason": "旧330属于计算机技术，人工智能学院085410表列336",
+    "sourceRecordIds": [
+      "cqupt-2026-ai-line-reprint"
+    ]
+  },
+  {
+    "school": "重庆邮电大学",
+    "pointer": "/units/0/dataQuality",
+    "existedBefore": false,
+    "before": null,
+    "after": {
+      "quarantinedCrossProgramFields": {
+        "retestCnt": "273+2专项(计算机)",
+        "admitCnt": "225+2专项(计算机)/软工103+2专项",
+        "admitAvg": "361(计算机)/369(软工)",
+        "scope": "N诺2026：重邮考数据结构自命题(22DS)非408；电子信息-计算机线330复试273录225+2专项均361【330-414】；电子信息-软工线345录103+2专项均369；2027不改408已官宣"
+      },
+      "reason": "原文明确这些是计算机/软件统计，不能继续作为人工智能学院085410的招录指标。原值隔离保留，待各专业分别核实。"
+    },
+    "reason": "隔离跨学院跨专业统计，避免人工智能单位误读",
+    "sourceRecordIds": [
+      "cqupt-2026-ai-line-reprint"
+    ]
+  },
+  {
+    "school": "重庆邮电大学",
+    "pointer": "/units/0/retestCnt",
+    "existedBefore": true,
+    "before": "273+2专项(计算机)",
+    "after": null,
+    "reason": "原字段标明计算机/软工，移出人工智能统计",
+    "sourceRecordIds": [
+      "cqupt-2026-ai-line-reprint"
+    ]
+  },
+  {
+    "school": "重庆邮电大学",
+    "pointer": "/units/0/admitCnt",
+    "existedBefore": true,
+    "before": "225+2专项(计算机)/软工103+2专项",
+    "after": null,
+    "reason": "原字段标明计算机/软工，移出人工智能统计",
+    "sourceRecordIds": [
+      "cqupt-2026-ai-line-reprint"
+    ]
+  },
+  {
+    "school": "重庆邮电大学",
+    "pointer": "/units/0/admitAvg",
+    "existedBefore": true,
+    "before": "361(计算机)/369(软工)",
+    "after": null,
+    "reason": "原字段标明计算机/软工，移出人工智能统计",
+    "sourceRecordIds": [
+      "cqupt-2026-ai-line-reprint"
+    ]
+  },
+  {
+    "school": "重庆邮电大学",
+    "pointer": "/units/0/scope",
+    "existedBefore": true,
+    "before": "N诺2026：重邮考数据结构自命题(22DS)非408；电子信息-计算机线330复试273录225+2专项均361【330-414】；电子信息-软工线345录103+2专项均369；2027不改408已官宣",
+    "after": "人工智能学院085410；2026复试基本线336、单科35/53，来源T2转载。计划132及复录比仍待核；原计算机/软件招录统计已隔离于dataQuality。",
+    "reason": "清理跨项目混用摘要",
+    "sourceRecordIds": [
+      "cqupt-2026-ai-line-reprint"
+    ]
+  }
+]

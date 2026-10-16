@@ -1,0 +1,173 @@
+{
+ "schema": "kaoyan-school/v1",
+ "name": "深圳大学",
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "广东",
+   "region": "华南",
+   "tier": "双非",
+   "subjectClass": "11408",
+   "direction": "不区分研究方向",
+   "line2026": "335",
+   "lineDelta": "+71",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "335"
+   },
+   "fill": "一志愿为主",
+   "aiTag": "✅真AI方向",
+   "heatNet": "88",
+   "heatComp": "65",
+   "nn408avg": "101",
+   "nnRate": "80%",
+   "note": "人工智能学院复试线335；[2026-10-05 口径注] nn408avg=101 为N诺408平均分(全校口径)；Dai408底稿408中位数104(median字段)，两口径并存不冲突",
+   "srcLabel": "官方",
+   "src": [
+    "总览",
+    "区域榜",
+    "招录比对比",
+    "三源核对",
+    "三源核对",
+    "三源核对"
+   ],
+   "lineUltimate2026": "335",
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "人工智能学院",
+   "nnSubjects": "英一数一408",
+   "wdCount": "8",
+   "wdYears": "19考情分析,20考情分析,21考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/_AGlGmB6w90YNlesLXtnfA",
+   "remark": "N诺口径英一数一408",
+   "college": "人工智能学院"
+  },
+  {
+   "category": "S-主体",
+   "province": "广东",
+   "region": "华南",
+   "tier": "双非",
+   "subjectClass": "11408",
+   "direction": "不区分研究方向",
+   "line2026": "312",
+   "lineDelta": "+48",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "312"
+   },
+   "plan2026": "20",
+   "fill": "一志愿为主",
+   "aiTag": "✅真AI方向",
+   "heatNet": "80",
+   "heatComp": "55",
+   "nn408avg": "101",
+   "nnRate": "80%",
+   "note": "光明实验室复试线312，复试31人（含同分）；初试英一数一408（官方目录确认，同AI学院口径）；[2026-10-05 口径注] nn408avg=101 为N诺408平均分(全校口径)；Dai408底稿408中位数104(median字段)，两口径并存不冲突",
+   "srcLabel": "官方",
+   "src": [
+    "总览",
+    "区域榜",
+    "招录比对比"
+   ],
+   "college": "光明实验室"
+  },
+  {
+   "category": "S-主体",
+   "province": "广东",
+   "region": "华南",
+   "tier": "双非",
+   "subjectClass": "11408",
+   "direction": "人工智能（管理）",
+   "line2026": "286",
+   "lineDelta": "+22",
+   "linesByYear": {
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": "286"
+   },
+   "fill": "待确认",
+   "aiTag": "⚠️偏传统",
+   "heatNet": "62",
+   "heatComp": "39",
+   "nn408avg": "101",
+   "nnRate": "80%",
+   "note": "管理方向复试线286；初试英一数一408（官方目录确认，11408）；[2026-10-05 口径注] nn408avg=101 为N诺408平均分(全校口径)；Dai408底稿408中位数104(median字段)，两口径并存不冲突",
+   "srcLabel": "官方",
+   "src": [
+    "总览",
+    "区域榜",
+    "招录比对比"
+   ],
+   "college": "大湾区国际创新学院"
+  }
+ ],
+ "crossRefs": [],
+ "kaoqingDetail2026": [],
+ "nnCandidates": [],
+ "wangdaoLinks": {
+  "19考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=6&sn=6b68fe71a9f34c5c715b9ea806572739&scene=21&poc_token=HFb9CmmjfWecUQQEj7P7h93IO9ht9z8fg4vYElcW",
+  "20考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=5&sn=38c597a3e3ea3f0932dbce6ad44f379a&scene=21&poc_token=HFP9CmmjRgTUdowGCLmKHOULhKxDQwZwsl61WsUi",
+  "21考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=4&sn=18bbe54a7a0580ed9238b36d5ad6da59&scene=21&poc_token=HFH9Cmmj4A3HJU58a6FQynsGrO3Z3e8B3XCjT1Rh",
+  "22考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=3&sn=a66710d3b846061fc383ff3db370bfd4&scene=21&poc_token=HE_9Cmmjj735-ggpOpvxnQuXbPFpQHDyN4U_Wu2w",
+  "23考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=2&sn=835eb881b012cd76b91b504c479d9b64&scene=21&poc_token=HEz9CmmjkSo-w5EOeumyh2xVYrjUU4XepCTskazH",
+  "24考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666236468&idx=1&sn=a5f054dc564f9bcd2d135b573ff8589c&scene=21&poc_token=HEn9Cmmjf7Mh6RV0PQ3mroQKSqtYSEYRTkvn5NWR",
+  "25考情分析": "https://mp.weixin.qq.com/s/TVvGd9IiWVL3q2K6Q8GjuA",
+  "26考情分析": "https://mp.weixin.qq.com/s/_AGlGmB6w90YNlesLXtnfA"
+ },
+ "updates2027": [
+  {
+   "院校": "深圳大学",
+   "层次": "双非",
+   "专业/范围": "人工智能/计算机软件学院",
+   "原科目": "自命题",
+   "新科目": "408",
+   "生效年份": "2027",
+   "来源": "新东方2026-08",
+   "备注": "⚠️公共课英一数一(11408)，非22408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": {
+  "院校": "深圳大学",
+  "省份": "广东",
+  "大区": "华南",
+  "层次": "双非",
+  "学院": "人工智能学院",
+  "初试科目": "11408",
+  "方向": "不区分研究方向",
+  "2026线": "335",
+  "拟招": null,
+  "一志愿/调剂": "一志愿为主",
+  "AI方向": "✅真AI方向",
+  "来源": "官方",
+  "综合热度": "65",
+  "备注": "人工智能学院复试线335；光明实验室复试线312，复试31人（含同分）；初试科目同AI学院待核；管理方向复试线286；初试科目待核"
+ },
+ "conflicts": [],
+ "sources": [
+  {
+   "label": "深圳大学光明实验室复试细则",
+   "url": "https://www.gml.ac.cn/zsgg/939.html"
+  },
+  {
+   "label": "N诺考研择校汇总(深圳大学多学院11408)",
+   "url": "https://noobdream.com/zexiao/"
+  }
+ ],
+ "generated": {
+  "by": "etl_build_db.py",
+  "date": "2026-09-03",
+  "src": [
+   "全国408_085410双非热度版_终极版_20260826.xlsx",
+   "王道考情链接总表_20260825.xlsx",
+   "kaoqing_20260821.json"
+  ],
+  "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
+ },
+ "note": "深圳大学全部学院085410均考英一数一408(11408)；2026复试线：计软332/AI院335/光明312/大湾区286"
+}

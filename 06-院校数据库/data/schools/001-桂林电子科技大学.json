@@ -47,7 +47,17 @@
    "wdCount": "7",
    "wdYears": "19考情分析,20考情分析,22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
    "wdUrl26": "https://mp.weixin.qq.com/s/bAF8rpEHwuMzKoFD3AJgpA",
-   "nnUrl": "https://noobdream.com/schoolinfo/268/"
+   "nnUrl": "https://noobdream.com/schoolinfo/268/",
+   "programCode": "085410",
+   "fieldSources": {
+    "programCode": [
+     "guet-2026-cs-ai-first-shortlist"
+    ],
+    "studyMode": [
+     "guet-2026-cs-ai-first-shortlist"
+    ]
+   },
+   "studyMode": "全日制"
   },
   {
    "category": "C-对照",
@@ -170,6 +180,10 @@
   {
    "label": "N诺桂林电子科技大学考情",
    "url": "https://noobdream.com/schoolinfo/268/"
+  },
+  {
+   "label": "桂林电子科技大学计算机与信息安全学院2026年硕士研究生招生复试名单（第一批）",
+   "url": "https://www.guet.edu.cn/_upload/article/files/6c/db/4a69c1914a8bb70f310ad514a4bc/e85f8f91-510f-4ec7-99fc-9f0c12bbd191.pdf"
   }
  ],
  "generated": {
@@ -181,5 +195,37 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "sourceRecords": [
+  {
+   "id": "guet-2026-cs-ai-first-shortlist",
+   "year": 2026,
+   "college": "计算机与信息安全学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "retest_results",
+   "batch": "第一批复试名单",
+   "metrics": {
+    "shortlisted_count": 33,
+    "initial_total_min": 254,
+    "initial_total_max": 364,
+    "initial_total_mean": 296.393939
+   },
+   "scope": "只统计003计算机与信息安全学院085410；不含另一个学院或调剂批次；名单不证明实际到场或拟录取。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://www.guet.edu.cn/_upload/article/files/6c/db/4a69c1914a8bb70f310ad514a4bc/e85f8f91-510f-4ec7-99fc-9f0c12bbd191.pdf",
+    "title": "桂林电子科技大学计算机与信息安全学院2026年硕士研究生招生复试名单（第一批）",
+    "publishedDate": "2026-03-22",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf_local_anonymous_aggregation",
+    "downloadSha256": "b6c59c000bdc811ef59c6ea6f41da2eb791ad146ce05835378fae127f88fa970"
+   },
+   "evidenceLocation": "5页PDF中专业码085410的33行",
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
 }

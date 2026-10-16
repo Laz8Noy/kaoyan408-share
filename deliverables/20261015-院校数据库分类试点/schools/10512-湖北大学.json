@@ -1,0 +1,893 @@
+{
+  "schema": "kaoyan-school/v2-pilot",
+  "verification_status": "not_rechecked",
+  "school": {
+    "id": "10512",
+    "code": "10512",
+    "name": "湖北大学",
+    "code_status": "verified_in_legacy_mapping",
+    "province": "湖北",
+    "region": "华中",
+    "tier": "双非"
+  },
+  "offerings": [
+    {
+      "id": "off-47bbc344182620",
+      "college": {
+        "code": null,
+        "name": "人工智能学院"
+      },
+      "program": {
+        "code": "085410",
+        "name": null,
+        "label_raw": "电子信息-人工智能(085410)",
+        "code_status": "extracted_not_rechecked",
+        "code_evidence_pointer": "/units/0/nnProg"
+      },
+      "direction": "不区分研究方向",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 285,
+                  "raw": "285",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 273,
+                  "raw": "273",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-193289698d",
+              "raw": "英二数二+811数据结构自命题",
+              "components": {
+                "english": "英语二",
+                "mathematics": "数学二",
+                "professional_code": "811"
+              },
+              "reported_class": "非408",
+              "verification_status": "not_rechecked"
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "raw": "非408(22DS)",
+              "components": {
+                "english": null,
+                "mathematics": null,
+                "professional_code": null
+              },
+              "reported_class": "非408(22DS)",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "count": {
+                  "value": 51,
+                  "raw": "50+1专项",
+                  "status": "explicit_sum",
+                  "approximate": false,
+                  "components": [
+                    {
+                      "value": 50,
+                      "label": null
+                    },
+                    {
+                      "value": 1,
+                      "label": "专项"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "values": {
+                "count": {
+                  "value": 51,
+                  "raw": "51",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "retest_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "line": {
+                  "value": 275,
+                  "raw": "275",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": 60,
+                  "raw": "60",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "values": {
+                "line": {
+                  "value": 275,
+                  "raw": "275",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": 60,
+                  "raw": "60",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "legacy_retest_ratio": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                },
+                "legacy_apply_ratio": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "count": {
+                  "value": 51,
+                  "raw": "50+1专项",
+                  "status": "explicit_sum",
+                  "approximate": false,
+                  "components": [
+                    {
+                      "value": 50,
+                      "label": null
+                    },
+                    {
+                      "value": 1,
+                      "label": "专项"
+                    }
+                  ]
+                },
+                "max_total": {
+                  "value": 400,
+                  "raw": "400",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "min_total": {
+                  "value": 278,
+                  "raw": "278",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 319,
+                  "raw": "319",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "reported_rate": {
+                  "value": 85,
+                  "raw": "约85%",
+                  "status": "approximate",
+                  "approximate": true,
+                  "components": [],
+                  "unit": "percent"
+                }
+              }
+            },
+            {
+              "record_id": "r-0be90d9c08",
+              "values": {
+                "count": {
+                  "value": 51,
+                  "raw": "51",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "max_total": {
+                  "value": 400,
+                  "raw": "400",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "min_total": {
+                  "value": 278,
+                  "raw": "278",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 319,
+                  "raw": "319",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "s408_mean": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-193289698d",
+              "values": {
+                "fill": "一志愿为主"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off-d6fec1122dd913",
+      "college": {
+        "code": null,
+        "name": "计算机学院"
+      },
+      "program": {
+        "code": "085404",
+        "name": null,
+        "label_raw": "电子信息(085404)",
+        "code_status": "extracted_not_rechecked",
+        "code_evidence_pointer": "/units/1/nnProg"
+      },
+      "direction": "不区分研究方向",
+      "study_mode": null,
+      "annual_data": [
+        {
+          "year": 2023,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 325,
+                  "raw": "325",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2024,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 310,
+                  "raw": "310",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2025,
+          "examinations": [],
+          "enrollment_plans": [],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 295,
+                  "raw": "295",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [],
+          "subject_statistics": [],
+          "recruitment_notes": []
+        },
+        {
+          "year": 2026,
+          "examinations": [
+            {
+              "record_id": "r-4738ab193d",
+              "raw": "英二数二408",
+              "components": {
+                "english": "英语二",
+                "mathematics": "数学二",
+                "professional_code": "408"
+              },
+              "reported_class": "22408",
+              "verification_status": "not_rechecked"
+            },
+            {
+              "record_id": "r-ead753189f",
+              "raw": "22408",
+              "components": {
+                "english": "英语二",
+                "mathematics": "数学二",
+                "professional_code": "408"
+              },
+              "reported_class": "22408",
+              "verification_status": "not_rechecked"
+            },
+            {
+              "record_id": "r-71e7ce733e",
+              "raw": "英二数二408",
+              "components": {
+                "english": "英语二",
+                "mathematics": "数学二",
+                "professional_code": "408"
+              },
+              "reported_class": "英二数二408",
+              "verification_status": "not_rechecked"
+            }
+          ],
+          "enrollment_plans": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "count": {
+                  "value": 181,
+                  "raw": "约181(96+85调剂)",
+                  "status": "explicit_sum",
+                  "approximate": true,
+                  "components": [
+                    {
+                      "value": 96,
+                      "label": null
+                    },
+                    {
+                      "value": 85,
+                      "label": "调剂"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "record_id": "r-ead753189f",
+              "values": {
+                "count": {
+                  "value": 181,
+                  "raw": "约181",
+                  "status": "approximate",
+                  "approximate": true,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "retest_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "line": {
+                  "value": 264,
+                  "raw": "264",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": 404,
+                  "raw": "97+307调剂",
+                  "status": "explicit_sum",
+                  "approximate": false,
+                  "components": [
+                    {
+                      "value": 97,
+                      "label": null
+                    },
+                    {
+                      "value": 307,
+                      "label": "调剂"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "record_id": "r-ead753189f",
+              "values": {
+                "line": {
+                  "value": 264,
+                  "raw": "264",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": 404,
+                  "raw": "97+307调剂",
+                  "status": "explicit_sum",
+                  "approximate": false,
+                  "components": [
+                    {
+                      "value": 97,
+                      "label": null
+                    },
+                    {
+                      "value": 307,
+                      "label": "调剂"
+                    }
+                  ]
+                },
+                "legacy_retest_ratio": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                },
+                "legacy_apply_ratio": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-71e7ce733e",
+              "values": {
+                "line": {
+                  "value": 264,
+                  "raw": "264",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "count": {
+                  "value": 97,
+                  "raw": "97",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "transfer_count_reported": {
+                  "value": 307,
+                  "raw": "307",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 302,
+                  "raw": "302",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "legacy_nn_ratio": {
+                  "value": 1,
+                  "raw": "1",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "admission_results": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "count": {
+                  "value": 181,
+                  "raw": "96+85调剂",
+                  "status": "explicit_sum",
+                  "approximate": false,
+                  "components": [
+                    {
+                      "value": 96,
+                      "label": null
+                    },
+                    {
+                      "value": 85,
+                      "label": "调剂"
+                    }
+                  ]
+                },
+                "max_total": {
+                  "value": 370,
+                  "raw": "370",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "min_total": {
+                  "value": 266,
+                  "raw": "266",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 302,
+                  "raw": "302",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "reported_rate": {
+                  "value": null,
+                  "raw": null,
+                  "status": "missing",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-ead753189f",
+              "values": {
+                "count": {
+                  "value": 181,
+                  "raw": "96+85调剂",
+                  "status": "explicit_sum",
+                  "approximate": false,
+                  "components": [
+                    {
+                      "value": 96,
+                      "label": null
+                    },
+                    {
+                      "value": 85,
+                      "label": "调剂"
+                    }
+                  ]
+                },
+                "max_total": {
+                  "value": 370,
+                  "raw": "370",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "min_total": {
+                  "value": 266,
+                  "raw": "266",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 302,
+                  "raw": "302",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-71e7ce733e",
+              "values": {
+                "count": {
+                  "value": 181,
+                  "raw": "181",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mean_total": {
+                  "value": 302,
+                  "raw": "302",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "reported_rate": {
+                  "value": 100,
+                  "raw": "100%",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": [],
+                  "unit": "percent"
+                }
+              }
+            }
+          ],
+          "subject_statistics": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "s408_mean": {
+                  "value": 80,
+                  "raw": "80",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            },
+            {
+              "record_id": "r-71e7ce733e",
+              "values": {
+                "s408_mean": {
+                  "value": 80,
+                  "raw": "80",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "politics_mean": {
+                  "value": 56,
+                  "raw": "56",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "english_mean": {
+                  "value": 65,
+                  "raw": "65",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                },
+                "mathematics_mean": {
+                  "value": 102,
+                  "raw": "102",
+                  "status": "exact",
+                  "approximate": false,
+                  "components": []
+                }
+              }
+            }
+          ],
+          "recruitment_notes": [
+            {
+              "record_id": "r-4738ab193d",
+              "values": {
+                "fill": "调剂为主"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "effective_year": 2026,
+      "scope": "计算机学院085404电子信息",
+      "offering_ids": [
+        "off-d6fec1122dd913"
+      ],
+      "old_subjects": "811数据结构",
+      "new_subjects": "408",
+      "verification_status": "not_rechecked",
+      "original": {
+        "院校": "湖北大学",
+        "层次": "双非",
+        "专业/范围": "计算机学院085404电子信息",
+        "原科目": "811数据结构",
+        "新科目": "408",
+        "生效年份": "2026",
+        "来源": "湖北大学研招网2026目录 + N诺schoolinfo/330",
+        "备注": "2026计算机学院085404电子信息改408；⚠️人工智能学院085410人工智能2026仍考22DS(811数据结构自命题)，未改408，需关注2027是否跟进"
+      }
+    }
+  ],
+  "research": {
+    "tutor_notes": []
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "kind": "reference",
+      "citation": {
+        "label": "N诺湖北大学考情",
+        "url": "https://noobdream.com/schoolinfo/330/"
+      }
+    },
+    {
+      "id": "src-2",
+      "kind": "reference",
+      "citation": {
+        "label": "湖北大学2026硕士招生专业目录(官方)",
+        "url": "https://yz.hubu.edu.cn/info/1011/3299.htm"
+      }
+    },
+    {
+      "id": "src-3",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "19考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=6&sn=b5987f3b03478052a117b7b228a1c8af&scene=21&poc_token=HGIQDGmjn6dIh6PWPwnSc4PzrQUDOAj0T6eA0uiX"
+      }
+    },
+    {
+      "id": "src-4",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "20考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=5&sn=db7d3b1ec3bbe901621a1d88c8000144&scene=21&poc_token=HF4QDGmjYRNlIj-vvEOT5Ct3rXifgMsIpjS5NZ0q"
+      }
+    },
+    {
+      "id": "src-5",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "21考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=4&sn=fecf2240f5832a927fa3cb8de364dfb7&scene=21&poc_token=HFsQDGmj_I6v_EvcAUAnu7IQmDchS7YXCkbEibdU"
+      }
+    },
+    {
+      "id": "src-6",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "22考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=3&sn=314157573a595d6b3cf1c5c72d3f9367&scene=21&poc_token=HFgQDGmjOVZ0Ea9lzvgwA32jZu_QH-AkPZq8MhbY"
+      }
+    },
+    {
+      "id": "src-7",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "23考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=2&sn=5e1e10922f0586cb64094a80420b54b4&scene=21&poc_token=HFYQDGmjv0ol-Hg9P9_dbhSJw2jAcmOitEeymp7x"
+      }
+    },
+    {
+      "id": "src-8",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "24考情分析",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233138&idx=1&sn=a8d3a567ab56d23f51b52040e93af0cf&scene=21&poc_token=HFQQDGmjrno554XSG5-38kojGKvXUQ932m-PszvF"
+      }
+    },
+    {
+      "id": "src-9",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "25考情分析",
+        "url": "https://mp.weixin.qq.com/s/iTHJknyvdkwzxt5GZxwcYQ"
+      }
+    },
+    {
+      "id": "src-10",
+      "kind": "exam_analysis",
+      "citation": {
+        "year_label": "26考情分析",
+        "url": "https://mp.weixin.qq.com/s/oTFhOtsCflH6ZZ6G9RCw1g"
+      }
+    }
+  ],
+  "quality": {
+    "conflicts": [
+      {
+        "legacy_record": {
+          "field": "subjectClass(085410)",
+          "old": "22408",
+          "new": "非408(22DS自命题)",
+          "reason": "N诺2026表显示人工智能学院085410人工智能初试为22DS(英二数二+811数据结构)，非408；'改408'仅适用计算机学院085404，勿混淆",
+          "sources": [
+            "https://noobdream.com/schoolinfo/330/"
+          ]
+        },
+        "verification_status": "not_rechecked"
+      }
+    ],
+    "school_notes": [],
+    "unassigned_records": [],
+    "review_notes": []
+  },
+  "evidence_file": "../evidence/10512-湖北大学.json"
+}

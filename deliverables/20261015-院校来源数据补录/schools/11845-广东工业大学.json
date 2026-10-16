@@ -1,0 +1,155 @@
+{
+  "schema": "school-source-classification/v1",
+  "school": {
+    "school_key": "11845",
+    "code": "11845"
+  },
+  "name": "广东工业大学",
+  "scope": "本轮来源事实分类；旧招录统计的可信度不因补目录而升级",
+  "canonicalFile": "06-院校数据库/data/schools/001-广东工业大学.json",
+  "projects": [
+    {
+      "id": "project-b30e5fb87daafa",
+      "college": "自动化学院",
+      "programCode": "085410",
+      "programName": "人工智能",
+      "direction": null,
+      "studyMode": "非全日制",
+      "legacyUnitIndices": [],
+      "annualData": [
+        {
+          "year": 2026,
+          "enrollment_plans": [],
+          "examinations": [],
+          "retest_requirements": [],
+          "retest_results": [],
+          "transfer_policy": [
+            {
+              "id": "gdut-2026-auto-ai-part-time-transfer",
+              "year": 2026,
+              "college": "自动化学院",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": "非全日制",
+              "topic": "transfer_policy",
+              "batch": "调剂报名",
+              "metrics": {
+                "minimum_initial_total": 301,
+                "eligible_categories": [
+                  "理学（07）",
+                  "工学（08）"
+                ],
+                "eligible_subjects": [
+                  "思想政治理论",
+                  "英语一或英语二",
+                  "数学一或数学二",
+                  "科目四相同相近"
+                ],
+                "application_start": "2026-04-08T00:00:00+08:00",
+                "application_end": "2026-04-08T12:00:00+08:00"
+              },
+              "scope": "301不是普通一志愿复试线；旧自动化unit学习方式未明确，故不自动挂接。",
+              "unitIndex": null,
+              "source": {
+                "url": "https://automation.gdut.edu.cn/info/1081/10526.htm",
+                "title": "广东工业大学自动化学院硕士研究生招生调剂通知（一）",
+                "publishedDate": "2026-04-01",
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "web_indexed_official_page",
+                "downloadSha256": null
+              },
+              "evidenceLocation": null,
+              "verificationStatus": "checked_against_primary"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacyUnits": [
+    {
+      "category": "S-主体",
+      "province": "广东",
+      "region": "华南",
+      "tier": "双非",
+      "subjectClass": "22408",
+      "direction": "不区分研究方向",
+      "college": "计算机学院",
+      "nnProg": "电子信息-人工智能",
+      "nnCollege": "计算机学院",
+      "nnSubjects": "英二数二408",
+      "line2026": "337",
+      "lineDelta": "+34",
+      "linesByYear": {
+        "2023": "320",
+        "2024": null,
+        "2025": "303",
+        "2026": "337"
+      },
+      "plan2026": "约94(91+3专项)",
+      "fill": "一志愿为主",
+      "retestCnt": "133+4专项",
+      "admitCnt": "91+3专项",
+      "admitMax": "409",
+      "admitMin": "337",
+      "admitAvg": "360",
+      "scope": "085410人工智能(计算机学院)22408；珠三角热门双非。N诺2026：自划线337，进复试133+4专项均356【337-409】，单科70/78/115/93；拟录91+3专项均360【337-370】。近三年线320→303→337走高。复录比约1.4:1。官方2026目录拟招80",
+      "aiTag": "✅真AI方向",
+      "heatNet": "66",
+      "heatComp": "57",
+      "nn408avg": "93",
+      "nnRate": "70%",
+      "note": "计算机学院085410=英二数二408(22408)，拟招80(官方2026目录)；复试线337(自划线)；近三年线279/303/337走高，均360。分数线高于用户310档，珠三角热门",
+      "srcLabel": "官方+第三方",
+      "src": [
+        "总览",
+        "区域榜",
+        "招录比对比",
+        "N诺"
+      ],
+      "nnUrl": "https://noobdream.com/schoolinfo/138/"
+    },
+    {
+      "category": "C-对照",
+      "province": "广东",
+      "region": "华南",
+      "tier": "双非",
+      "subjectClass": "非408(809信号与系统)",
+      "direction": "不区分研究方向",
+      "line2026": "264",
+      "lineDelta": "=国家线",
+      "linesByYear": {
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026": null
+      },
+      "fill": "调剂",
+      "aiTag": "⚠️偏传统",
+      "heatNet": "72",
+      "heatComp": "45",
+      "nn408avg": "93",
+      "nnRate": "70%",
+      "note": "自动化学院085410=英二数二+809信号与系统(非408)；复试线264(国线)；调剂通知要求初试总分≥301",
+      "srcLabel": "官方",
+      "src": [
+        "总览",
+        "区域榜",
+        "招录比对比"
+      ],
+      "college": "自动化学院",
+      "dataQuality": {
+        "removedHistoricalLine": "301",
+        "reason": "非全日制调剂报名门槛，已迁入sourceRecords",
+        "legacyLine264Status": "本轮未用调剂通知重新证明普通复试线264"
+      },
+      "fieldSources": {
+        "dataQuality": [
+          "gdut-2026-auto-ai-part-time-transfer"
+        ]
+      }
+    }
+  ]
+}

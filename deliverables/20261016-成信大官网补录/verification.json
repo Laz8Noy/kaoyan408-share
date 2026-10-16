@@ -1,0 +1,18 @@
+{
+  "backup_files": 8,
+  "backup_hashes_match": true,
+  "added_source_records": 4,
+  "source_records_total_sqlite": 38,
+  "canonical_roundtrip": true,
+  "matrix_roundtrip": true,
+  "sqlite_roundtrip": true,
+  "sqlite_integrity": "ok",
+  "sqlite_foreign_key_violations": 0,
+  "transfer_origin_codes_present_in_official_html": true,
+  "first_batch_legacy_admission_quarantined": true,
+  "workbuddy_text_received": false,
+  "followup_backup_files": 15,
+  "followup_backup_hashes_match": true,
+  "classification_export_current_records": 38,
+  "first_batch_audit_records": 34
+}

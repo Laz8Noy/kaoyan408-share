@@ -57,7 +57,7 @@
     "2023": null,
     "2024": null,
     "2025": null,
-    "2026": "301"
+    "2026": null
    },
    "fill": "调剂",
    "aiTag": "⚠️偏传统",
@@ -72,7 +72,17 @@
     "区域榜",
     "招录比对比"
    ],
-   "college": "自动化学院"
+   "college": "自动化学院",
+   "dataQuality": {
+    "removedHistoricalLine": "301",
+    "reason": "非全日制调剂报名门槛，已迁入sourceRecords",
+    "legacyLine264Status": "本轮未用调剂通知重新证明普通复试线264"
+   },
+   "fieldSources": {
+    "dataQuality": [
+     "gdut-2026-auto-ai-part-time-transfer"
+    ]
+   }
   }
  ],
  "crossRefs": [
@@ -169,5 +179,46 @@
    "kaoqing_20260821.json"
   ],
   "caution": "机器自动整合，主体行口径=085410 相关招生；数字为资料时点(2026)汇总，正式报考以当年官方简章/研招网为准。"
- }
+ },
+ "sourceRecords": [
+  {
+   "id": "gdut-2026-auto-ai-part-time-transfer",
+   "year": 2026,
+   "college": "自动化学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "非全日制",
+   "topic": "transfer_policy",
+   "batch": "调剂报名",
+   "metrics": {
+    "minimum_initial_total": 301,
+    "eligible_categories": [
+     "理学（07）",
+     "工学（08）"
+    ],
+    "eligible_subjects": [
+     "思想政治理论",
+     "英语一或英语二",
+     "数学一或数学二",
+     "科目四相同相近"
+    ],
+    "application_start": "2026-04-08T00:00:00+08:00",
+    "application_end": "2026-04-08T12:00:00+08:00"
+   },
+   "scope": "301不是普通一志愿复试线；旧自动化unit学习方式未明确，故不自动挂接。",
+   "unitIndex": null,
+   "source": {
+    "url": "https://automation.gdut.edu.cn/info/1081/10526.htm",
+    "title": "广东工业大学自动化学院硕士研究生招生调剂通知（一）",
+    "publishedDate": "2026-04-01",
+    "collectedAt": "2026-10-15T16:12:21+00:00",
+    "tier": "T1",
+    "retrievalMethod": "web_indexed_official_page",
+    "downloadSha256": null
+   },
+   "evidenceLocation": null,
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
 }

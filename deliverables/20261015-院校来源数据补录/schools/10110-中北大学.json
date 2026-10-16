@@ -1,0 +1,166 @@
+{
+  "schema": "school-source-classification/v1",
+  "school": {
+    "school_key": "10110",
+    "code": "10110"
+  },
+  "name": "中北大学",
+  "scope": "本轮来源事实分类；旧招录统计的可信度不因补目录而升级",
+  "canonicalFile": "06-院校数据库/data/schools/001-中北大学.json",
+  "projects": [
+    {
+      "id": "project-942d68c1a7574c",
+      "college": "计算机科学与技术学院（大数据学院）",
+      "programCode": "085410",
+      "programName": "人工智能",
+      "direction": null,
+      "studyMode": null,
+      "legacyUnitIndices": [
+        0
+      ],
+      "annualData": [
+        {
+          "year": 2026,
+          "enrollment_plans": [],
+          "examinations": [
+            {
+              "id": "nuc-2026-ai-exam-change",
+              "year": 2026,
+              "college": "计算机科学与技术学院（大数据学院）",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": null,
+              "topic": "examinations",
+              "batch": "2026初试业务课调整",
+              "metrics": {
+                "previous_business_subject": "811数据结构",
+                "business_subject_code": "408",
+                "business_subject_name": "计算机学科专业基础",
+                "reference_scope": "参照教育部考试大纲"
+              },
+              "scope": "公告只证明第四单元改408，不用它确认英语和数学。",
+              "unitIndex": 0,
+              "source": {
+                "url": "https://cst.nuc.edu.cn/info/1039/8937.htm",
+                "title": "2026年硕士研究生招生考试科目调整通知",
+                "publishedDate": "2025-03-11",
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "93e8ce955f3100f00294fd14cf05d0e54932d8dbf57d921c395eeba8b589a8b1"
+              },
+              "evidenceLocation": null,
+              "verificationStatus": "checked_against_primary"
+            }
+          ],
+          "retest_requirements": [
+            {
+              "id": "nuc-2026-ai-retest-requirements",
+              "year": 2026,
+              "college": "计算机科学与技术学院（大数据学院）",
+              "programCode": "085410",
+              "programName": "人工智能",
+              "direction": null,
+              "studyMode": null,
+              "topic": "retest_requirements",
+              "batch": "2026复试科目与教材",
+              "metrics": {
+                "retest_subjects": "编程能力测试（上机）；计算机综合知识（含数据库和算法分析）",
+                "retest_references": [
+                  "Java 2实用教程（第5版）",
+                  "C++面向对象程序设计（第2版）",
+                  "数据库系统概论（第7版）",
+                  "算法分析与设计及案例教程"
+                ]
+              },
+              "scope": "仅085410行；085404行的数据库第6版和081200行的第5版不替换本行第7版。",
+              "unitIndex": 0,
+              "source": {
+                "url": "https://cst.nuc.edu.cn/info/1039/8937.htm",
+                "title": "2026年硕士研究生招生考试科目调整通知",
+                "publishedDate": "2025-03-11",
+                "collectedAt": "2026-10-15T16:12:21+00:00",
+                "tier": "T1",
+                "retrievalMethod": "downloaded_html",
+                "downloadSha256": "93e8ce955f3100f00294fd14cf05d0e54932d8dbf57d921c395eeba8b589a8b1"
+              },
+              "evidenceLocation": null,
+              "verificationStatus": "checked_against_primary"
+            }
+          ],
+          "retest_results": [],
+          "transfer_policy": []
+        }
+      ]
+    }
+  ],
+  "legacyUnits": [
+    {
+      "category": "S-主体",
+      "province": "山西",
+      "region": "华北",
+      "tier": "双非",
+      "subjectClass": "22408",
+      "direction": "电子信息-人工智能(085410)",
+      "college": "计算机科学与技术学院（大数据学院）",
+      "line2026": "264(国家线,NC)",
+      "lineDelta": "改考首年",
+      "linesByYear": {
+        "2023": null,
+        "2024": "324(自命题)",
+        "2025": null,
+        "2026": "264"
+      },
+      "plan2026": "7",
+      "fill": "一志愿不足+少量调剂",
+      "retestCnt": "6一志愿+3调剂",
+      "admitCnt": "5一志愿+1调剂",
+      "admitMax": "354",
+      "admitMin": "291",
+      "admitAvg": "315(一志愿)",
+      "scope": "085410人工智能(计算机学院/大数据学院)2026线国家线264；22408(2026改408,学硕811数据结构改408)；一志愿进复试6人+3调剂，进复试均分310【281-354】；拟录取一志愿5人+1调剂，一志愿拟录取均315【291-354】；408单科均分84",
+      "aiTag": "✅真AI方向",
+      "heatNet": "68",
+      "heatComp": "53",
+      "nn408avg": "84",
+      "nnRate": null,
+      "note": "⚠️纠正：原机构估算线319有误，N诺显示2026执行国家线264(NC)；一志愿仅6人进复试、录5人+1调剂，进复试均310【281-354】；408均分84；同院085404计算机技术线304；2026起学硕/专硕改408；[2026-10-05 回写] plan2026 改按目录拟招7人（T1 招生目录：007计算机科学与技术学院(大数据学院)全院拟招38、其中085410=7，kaoyan.koolearn.com/20251010/1883123.html），录取口径5一志愿+1调剂保留于admitCnt",
+      "srcLabel": "第三方+官方",
+      "src": [
+        "总览",
+        "区域榜",
+        "三源核对",
+        "N诺",
+        "官方(复试线/细则)"
+      ],
+      "lineUltimate2026": "264",
+      "nnProg": "电子信息-人工智能",
+      "nnCollege": "计算机科学与技术学院（大数据学院）",
+      "nnSubjects": "英二数二408",
+      "wdCount": "8",
+      "wdYears": "19考情,20考情,21考情,22考情,23考情,24考情,25考情,26考情",
+      "wdUrl26": "https://mp.weixin.qq.com/s/9G28Mu74bUcWWYm8icCPvg",
+      "kaoqingUrl": "https://noobdream.com/schoolinfo/234/",
+      "programCode": "085410",
+      "fieldSources": {
+        "programCode": [
+          "nuc-2026-ai-exam-change"
+        ],
+        "retestSubjects": [
+          "nuc-2026-ai-retest-requirements"
+        ],
+        "retestReferences": [
+          "nuc-2026-ai-retest-requirements"
+        ]
+      },
+      "retestSubjects": "编程能力测试（上机）；计算机综合知识（含数据库和算法分析）",
+      "retestReferences": [
+        "Java 2实用教程（第5版）",
+        "C++面向对象程序设计（第2版）",
+        "数据库系统概论（第7版）",
+        "算法分析与设计及案例教程"
+      ]
+    }
+  ]
+}

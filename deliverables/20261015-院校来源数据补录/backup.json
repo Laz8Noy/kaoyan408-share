@@ -1,0 +1,81 @@
+{
+  "backup_directory": ".dsh/backups/20261015-source-enrichment-000021",
+  "files": [
+    {
+      "path": "06-院校数据库/data/schools/001-深圳大学.json",
+      "sha256": "d36184a07e57bb8464029d542ecea68839e8d53ff54c32821ac4812f5b8418c5"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-湖北大学.json",
+      "sha256": "22c7a5144cf030b14a4c7b26e139b368ceb16a6d1d62c44efa42c9c80e6cbbd6"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-成都信息工程大学.json",
+      "sha256": "4961d42ffe298331e156a8e01ba3ece06965bdfbf9cfcc48a667fa52babf7618"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-广东工业大学.json",
+      "sha256": "3b54d549bdee795d02504ad0951a4652c71ecbf37e6ba10fc565ead11b358ecf"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-桂林电子科技大学.json",
+      "sha256": "045e4978a5fd74cddb2ee6ceceb8fcc06389e120d97ca828684168719b0f31ee"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-青海大学.json",
+      "sha256": "65d52deca64f0841be9588f6dc1587e3933a45906241a98229334e8c24ad3a6f"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-中北大学.json",
+      "sha256": "3aef5d102ed7844336576d7ae251f2b20fae803cde158f7ae94bde15d0986323"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-重庆邮电大学.json",
+      "sha256": "7334788b92a368a77cae1b25862f55e5b97ea8d60570c4286cec44d9d68a6b49"
+    },
+    {
+      "path": "09-生成脚本/build_unified_db.py",
+      "sha256": "3fe6e6802a40434e4ea53ab53ea2707dac59fe9195879c8c6f5224a920f23eef"
+    },
+    {
+      "path": "09-生成脚本/build_score_matrix.py",
+      "sha256": "f646d3a0e4486b917bb39eaea389e85e43aa7272d40cb115567400f95b678c1a"
+    },
+    {
+      "path": "06-院校数据库/data/meta.json",
+      "sha256": "c148f3f1f01cdc3d8510f1a7ebb240c2d204201b5e841790cc0d9d9c06988973"
+    },
+    {
+      "path": "06-院校数据库/data/score_matrix.json",
+      "sha256": "93a2a618effdfd5721e92964905bcb6aca2b4c51dda8ab27ab01e0a50fbd432c"
+    },
+    {
+      "path": "06-院校数据库/data/crosswalk.json",
+      "sha256": "460747feed8152829f29a167939785c9dbd52db4a99320428ed9aecc96c8f642"
+    },
+    {
+      "path": "06-院校数据库/data/schools_unified.json",
+      "sha256": "190ab7fe6d5a763f66b35cf8e7bffe50abee029ff46ee65a0afa281a4a72d5a8"
+    },
+    {
+      "path": "06-院校数据库/data/kaoyan408.db",
+      "sha256": "2c9016520aa0d28d6ceea05c9213b217259842b8a0c520ad04eb072e81350be4"
+    },
+    {
+      "path": "06-院校数据库/data/school_browser.json",
+      "sha256": "1605263bc2807336f473804d761382447eaa2d29bbfaaaea6c996be060255e27"
+    },
+    {
+      "path": "06-院校数据库/data/todo_patch_list.json",
+      "sha256": "e623ee100b824f4fa291332ee3bb7d55fe7dedef079f53ec1ce859f4f582eeff"
+    },
+    {
+      "path": "06-院校数据库/data/yz408_catalog.json",
+      "sha256": "fb127f06e9e750258420c844db72ea0c41b09a24ca2f492789632f8d49c94d4d"
+    },
+    {
+      "path": "06-院校数据库/data/dai408_scores.json",
+      "sha256": "914cafb44dec34d230f5292099936ba6b74ebd8f7c5baab07111453cf476ff4e"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "checked_date": "2026-10-15",
+  "source_archives_unchanged": true,
+  "sqlite_unchanged": true,
+  "rebuild_data_identical": true,
+  "output_backup_created": true,
+  "saved_output_pointers_and_record_links_valid": true,
+  "school_count": 8,
+  "project_count": 15,
+  "source_fields_preserved": 1150,
+  "unassigned_records": 4,
+  "schools": [
+    {
+      "school": "中北大学",
+      "projects": 1,
+      "source_fields_preserved": 109,
+      "unknown_program_codes": 0,
+      "unassigned_records": 1
+    },
+    {
+      "school": "湖北大学",
+      "projects": 2,
+      "source_fields_preserved": 153,
+      "unknown_program_codes": 0,
+      "unassigned_records": 0
+    },
+    {
+      "school": "深圳大学",
+      "projects": 3,
+      "source_fields_preserved": 133,
+      "unknown_program_codes": 3,
+      "unassigned_records": 0
+    },
+    {
+      "school": "桂林电子科技大学",
+      "projects": 2,
+      "source_fields_preserved": 145,
+      "unknown_program_codes": 0,
+      "unassigned_records": 0
+    },
+    {
+      "school": "成都信息工程大学",
+      "projects": 2,
+      "source_fields_preserved": 233,
+      "unknown_program_codes": 0,
+      "unassigned_records": 1
+    },
+    {
+      "school": "青海大学",
+      "projects": 2,
+      "source_fields_preserved": 147,
+      "unknown_program_codes": 2,
+      "unassigned_records": 2
+    },
+    {
+      "school": "广东工业大学",
+      "projects": 2,
+      "source_fields_preserved": 133,
+      "unknown_program_codes": 0,
+      "unassigned_records": 0
+    },
+    {
+      "school": "重庆邮电大学",
+      "projects": 1,
+      "source_fields_preserved": 97,
+      "unknown_program_codes": 1,
+      "unassigned_records": 0
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+ "schema": "kaoyan-school/v1",
+ "name": "武汉纺织大学",
+ "units": [
+  {
+   "category": "S-主体",
+   "province": "湖北",
+   "region": "华中",
+   "tier": "双非",
+   "subjectClass": "22408",
+   "direction": "电子信息-人工智能(085410)",
+   "college": "计算机与人工智能学院",
+   "line2026": "国家线(NC,264)",
+   "lineDelta": null,
+   "linesByYear": {
+    "2023": "330",
+    "2024": "310",
+    "2025": "262",
+    "2026": "国家线(264)"
+   },
+   "plan2026": null,
+   "fill": "一志愿为主+调剂",
+   "retestCnt": "20一志愿+调剂",
+   "admitCnt": "20一志愿+28调剂",
+   "admitMax": "348",
+   "admitMin": "268",
+   "admitAvg": "297",
+   "scope": "官网确认2026计算机与人工智能学院085410全日制接受调剂，具体名额以研招网系统为准；复试执行国家基本线且不二次划线。原N诺招录数字未由本批公告核对：085410电子信息-人工智能(计算机与人工智能学院)2026线国家线264；2026首改22408(2025为二二DS自命题)；一志愿进复试20人，进复试均分297【268-348】；拟录取20一志愿+28调剂均297【268-348】；408单科均分78",
+   "aiTag": "✅真AI方向",
+   "heatNet": null,
+   "heatComp": null,
+   "nn408avg": "78",
+   "nnRate": "100%",
+   "note": "真085410人工智能，2026首改22408(原二二DS自命题)；线国家线264，一志愿20人+28调剂，拟录取均297【268-348】；408均分78；同院电子信息-软件方向22408一志愿20+26调剂均307",
+   "srcLabel": "第三方",
+   "src": [
+    "N诺",
+    "官方(复试细则)",
+    "三源核对"
+   ],
+   "nnProg": "电子信息-人工智能",
+   "nnCollege": "计算机与人工智能学院",
+   "nnSubjects": "英二数二408",
+   "wdCount": "5",
+   "wdYears": "22考情分析,23考情分析,24考情分析,25考情分析,26考情分析",
+   "wdUrl26": "https://mp.weixin.qq.com/s/mus-sC-CRo_P4KDwliGibA",
+   "kaoqingUrl": "https://noobdream.com/schoolinfo/328/",
+   "programCode": "085410",
+   "studyMode": "全日制",
+   "fieldSources": {
+    "programCode": [
+     "wtu-2026-ai-transfer-policy"
+    ],
+    "studyMode": [
+     "wtu-2026-ai-transfer-policy"
+    ],
+    "linePolicy": [
+     "wtu-2026-ai-retest-rules"
+    ]
+   },
+   "dataQuality": {
+    "reclassifiedLegacyFields": {
+     "plan2026": "20一志愿+28调剂"
+    },
+    "reason": "20一志愿+28调剂是旧第三方招录人数说法，不是官方招生计划；调剂公告未给具体名额。"
+   }
+  }
+ ],
+ "categoryGuess": "N诺新增候选(已提升为主体)",
+ "crossRefs": [
+  {
+   "name": "电子信息-软件方向",
+   "subjects": "22408",
+   "line2026": "国家线(NC)",
+   "note": "2026首改408，一志愿20+26调剂，进复试均307【270-383】，408均分80"
+  }
+ ],
+ "kaoqingDetail2026": [
+  {
+   "college": "计算机与人工智能学院",
+   "tier": "双非",
+   "subjects": "22408",
+   "line2026": "国家线(264)",
+   "plan": null,
+   "retestCnt": "20一志愿+调剂",
+   "admitCnt": "20一志愿+28调剂",
+   "ratioRetest": null,
+   "ratioApply": null,
+   "admitMax": "348",
+   "admitMin": "268",
+   "admitAvg": "297",
+   "scope": "旧plan字段20一志愿+28调剂已移入dataQuality；官网调剂名额以研招网为准。真085410，2026首改408，线国家线264，一志愿拟录取均297【268-348】；408均分78",
+   "verify": "第三方(N诺)+官方(复试细则)",
+   "url": "https://noobdream.com/schoolinfo/328/"
+  }
+ ],
+ "nnCandidates": [],
+ "wangdaoLinks": {
+  "22考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666177513&idx=4&sn=be421bc6999ff63574e905d3d774fd7e&scene=21&poc_token=HFkTDGmjn5eQ_nZTXX_3fQ1RAgCaQyatsHy9FeX4",
+  "23考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666217357&idx=6&sn=9c12d151c863247d96df6389d8895e61&scene=21&poc_token=HFUTDGmjYpaFJd7-G_mPPX-gcIsM6C66n6td4FJK",
+  "24考情分析": "https://mp.weixin.qq.com/s?__biz=MzA4OTE4MjIwMA==&mid=2666233000&idx=5&sn=c101e4c2bf8790ca734e77d45873777a&scene=21&poc_token=HFMTDGmjn3CwD-NMTel0zZgDYbkV8y9Q2029wgOO",
+  "25考情分析": "https://mp.weixin.qq.com/s/OGtfni2gmLIv5frXF8WeIw",
+  "26考情分析": "https://mp.weixin.qq.com/s/mus-sC-CRo_P4KDwliGibA"
+ },
+ "updates2027": [
+  {
+   "院校": "武汉纺织大学",
+   "层次": "双非",
+   "专业/范围": "085400电子信息(软件/人工智能)",
+   "原科目": "二二DS(数据结构自命题)",
+   "新科目": "408",
+   "生效年份": "2026",
+   "来源": "N诺schoolinfo/328",
+   "备注": "2026起电子信息软件/人工智能改22408；2027维持408"
+  }
+ ],
+ "tutors": [],
+ "inTJList": null,
+ "inKeyList": null,
+ "conflicts": [],
+ "sources": [
+  {
+   "label": "N诺 武汉纺织大学",
+   "url": "https://noobdream.com/schoolinfo/328/"
+  },
+  {
+   "label": "武汉纺织大学计算机与人工智能学院2026复试细则(软件工程085405/人工智能085410)",
+   "url": "https://csai.wtu.edu.cn/__local/D/18/9E/B68186EA15F097553E57E82058A_38E63D0A_39DF1.pdf"
+  }
+ ],
+ "note": "真085410人工智能，2026首改22408，线国家线264、拟录取均297，贴近用户310档；首年改考408，分数线友好。",
+ "generated": {
+  "by": "etl_build_db.py",
+  "date": "2026-09-03",
+  "src": [
+   "全国408_085410双非热度版_终极版_20260826.xlsx::N诺新增候选校",
+   "王道考情链接总表_20260825.xlsx"
+  ],
+  "caution": "候选校：仅有N诺2026单条专业数据或王道链接，未做终极版主体档位评估。"
+ },
+ "sourceRecords": [
+  {
+   "id": "wtu-2026-ai-transfer-policy",
+   "year": 2026,
+   "college": "计算机与人工智能学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": "全日制",
+   "topic": "transfer_policy",
+   "batch": "2026调剂申请",
+   "metrics": {
+    "accepts_transfer": true,
+    "transfer_quota_published_here": false,
+    "required_line_policy": "national_A_for_origin_and_destination",
+    "initial_subject_similarity_required": true
+   },
+   "scope": "公告表列全日制085410，具体调剂名额以研招网系统为准；不能据此确定录取或一志愿计划。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://csai.wtu.edu.cn/info/1063/17087.htm",
+    "title": "武汉纺织大学计算机与人工智能学院2026年硕士研究生调剂公告",
+    "publishedDate": "2026-04-03",
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "2aa811a844364d9d2f7dcd2d71290458929c72048193ea8e5fcd860551e6f922"
+   },
+   "evidenceLocation": "正文招生专业表085410行与调剂条件第1至3项",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "wtu-2026-ai-retest-rules",
+   "year": 2026,
+   "college": "计算机与人工智能学院",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "retest_requirements",
+   "batch": "2026复试工作细则",
+   "metrics": {
+    "line_policy": "national_basic_by_discipline",
+    "college_second_line": false,
+    "minimum_retest_ratio": 1.2
+   },
+   "scope": "学院通用复试细则，未给085410独立数字线；特殊士兵计划另按学校方案。",
+   "unitIndex": 0,
+   "source": {
+    "url": "https://csai.wtu.edu.cn/__local/D/18/9E/B68186EA15F097553E57E82058A_38E63D0A_39DF1.pdf",
+    "title": "计算机与人工智能学院2026年硕士研究生复试录取工作实施细则",
+    "publishedDate": null,
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_pdf",
+    "downloadSha256": "d704e131a72e6af9697cc366eebb6609319309a842ff4ae046c34833070e09d5"
+   },
+   "evidenceLocation": "PDF第1页第三节，第2页列085410为复试专业",
+   "verificationStatus": "checked_against_primary"
+  },
+  {
+   "id": "wtu-2026-ai-exam-draft",
+   "year": 2026,
+   "college": "计算机学院（公告用名）",
+   "programCode": "085410",
+   "programName": "人工智能",
+   "direction": null,
+   "studyMode": null,
+   "topic": "examinations",
+   "batch": "2026目录及大纲初稿公告",
+   "metrics": {
+    "previous_business_subject_code": "848",
+    "new_business_subject_code": "408"
+   },
+   "scope": "学校公告称科目4由848调整为408，但声明目录及大纲为初稿，最终以正式发布为准；不证明英语和数学科目。",
+   "unitIndex": null,
+   "source": {
+    "url": "https://gs.wtu.edu.cn/info/1038/9392.htm",
+    "title": "关于发布武汉纺织大学2026年硕士研究生招生专业目录和大纲的公告",
+    "publishedDate": "2025-09-22",
+    "collectedAt": "2026-10-16T12:28:22+00:00",
+    "tier": "T1",
+    "retrievalMethod": "downloaded_html",
+    "downloadSha256": "b2986c0dbe2f92d4d2b1bc57b37f779c4394c15c7fab0c26c2880a0c314d06a1"
+   },
+   "evidenceLocation": "正文考试科目调整提示",
+   "verificationStatus": "checked_against_primary"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+  "directory": ".dsh/backups/20261016-expanded-official",
+  "files": [
+    {
+      "path": "06-院校数据库/data/schools/001-齐鲁工业大学.json",
+      "sha256": "9a836f90dc94f4ee8dd1431b47bcb35adc967b8b614b8c3cf137a0b4fd0d2775"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-武汉纺织大学.json",
+      "sha256": "4a3dfb08844a7deab9591e19993491352fa01155d6a1a9c58b7c709f2e4a5003"
+    },
+    {
+      "path": "06-院校数据库/data/schools/001-南京信息工程大学.json",
+      "sha256": "2cbe35d1e343c087804ff0387f1852ea3b253dfc3c0cc1012aa4d8c0bb68b0f5"
+    },
+    {
+      "path": "06-院校数据库/data/score_matrix.json",
+      "sha256": "a74c06a574bc3b66e27825420d04ad7598ab5288e241984105cefcbe2ab645a6"
+    },
+    {
+      "path": "06-院校数据库/data/kaoyan408.db",
+      "sha256": "b8e70ca23cac487e44baa89b5fb4908f62fcb1acfc2e0ef9d7edb2355457c660"
+    },
+    {
+      "path": "06-院校数据库/data/meta.json",
+      "sha256": "d3ea84d7c49e97ad759e80e2ad7f73e0076c56b34214c18893616b0f250383e5"
+    },
+    {
+      "path": "06-院校数据库/data/todo_patch_list.json",
+      "sha256": "d6253019f1d5279f90bcde27d38ec77f71f0d95bdfbecc15331a08e3db054f41"
+    },
+    {
+      "path": "06-院校数据库/data/crosswalk.json",
+      "sha256": "b18f0b3b35a8c7fe65005371563ab546e32e8cf7bfeaf595f9b29d45b54d48c0"
+    },
+    {
+      "path": "06-院校数据库/data/schools_unified.json",
+      "sha256": "04ee80d5a338c5cb9eb9b5b4dacc2714254352b5275608ef4bf9e32c11305c50"
+    },
+    {
+      "path": "06-院校数据库/data/school_browser.json",
+      "sha256": "0512baa0eb111bd17500b143771f63864f150e3f317b5a399afa846b71c217ad"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/tools/export_review.py",
+      "sha256": "5f300dd5d3aa401d4f2ae659944e7e9d9d79caa818c99d3bbabbff0739231879"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/verification.json",
+      "sha256": "ae022bc200ae2bf52e77e6f59bb1f074544c06d2fdeac4724ec743759322cab8"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/pending_items.json",
+      "sha256": "2c8ec3d95103386b9220e09a2bc3bad09c6a7843bffb5fc4abe21122ba1a8223"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/分类对照.md",
+      "sha256": "3313238af4fae812f7092bf5543d3d4889c32c9dd25e3ae41976e3deb58bd801"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/external_agents.json",
+      "sha256": "a9cf4ac17f083af441e02a4c374857f6bab1a396b8066805821bbab3128054a0"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10110-中北大学.json",
+      "sha256": "94316e74c9e405ada8a63b16206f0439398b524c7414e62ca0b2083d423b3724"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10512-湖北大学.json",
+      "sha256": "ea6c9bf073652f235d995889d6c056f6bcb75e0403fe9bda73751b6596921c03"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10590-深圳大学.json",
+      "sha256": "27751b4960aef506f755f207a00f1dfaf0a50440c3c5dded6b0e5e497d2348d9"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10595-桂林电子科技大学.json",
+      "sha256": "23af522849269a2d39cab69229113fbe0e585b0836918b780892ac5d488bee50"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10621-成都信息工程大学.json",
+      "sha256": "6455d0a427771649b1217ff19ddd0796d7ab5d6a7c97623a926c7a398d0a1765"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/10743-青海大学.json",
+      "sha256": "8758e6d3504c5563b70bf3dd4ab2a7eb205453c9161901f59ab98f4459aaa12d"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/11845-广东工业大学.json",
+      "sha256": "95ebc5cada393a506f4af5d05bddf1791d306832fbce35082e4a4f7472ea096c"
+    },
+    {
+      "path": "deliverables/20261015-院校来源数据补录/schools/X-重庆邮电大学-重庆邮电大学.json",
+      "sha256": "5fa5df055ca5a4854888631a7191e9cd78dbc19c114a2c66ba471d76ede6eb06"
+    },
+    {
+      "path": "09-生成脚本/build_score_matrix.py",
+      "sha256": "c302b7eb6ffddbd6369434e49a327a8b23434d8774dd470a82f8ac4d96e8b8c2"
+    },
+    {
+      "path": "09-生成脚本/build_unified_db.py",
+      "sha256": "56b9f6ea8467baf2fc2fdfaab00dc850753358a0f925b38e056b77076a40c991"
+    }
+  ]
+}

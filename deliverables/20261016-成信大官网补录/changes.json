@@ -1,0 +1,38 @@
+[
+  {
+    "path": "units[0].programCode",
+    "before": null,
+    "after": "085410",
+    "reason": "官网名单及调剂公告直接标明"
+  },
+  {
+    "path": "units[0].studyMode",
+    "before": null,
+    "after": "全日制",
+    "reason": "官网名单及调剂公告直接标明"
+  },
+  {
+    "path": "units[0].scope",
+    "before": "计划12，线264；一志愿/调剂成绩在学院官网动态页未能解析",
+    "after": "计划12、线264为旧汇总；官网第一批拟复试名单1人、第二批22人，未据名单确认录取人数。",
+    "reason": "旧说明称官网动态页无法解析，已取得两批表格"
+  },
+  {
+    "path": "kaoqingDetail2026.ai_first.admitCnt",
+    "before": 1,
+    "after": null,
+    "reason": "第一批官网只给拟复试名单，不能证明录取"
+  },
+  {
+    "path": "kaoqingDetail2026.ai_first.admitMin",
+    "before": 271,
+    "after": null,
+    "reason": "第一批官网只给拟复试名单，不能证明录取"
+  },
+  {
+    "path": "kaoqingDetail2026.ai_first.admitMax",
+    "before": 271,
+    "after": null,
+    "reason": "第一批官网只给拟复试名单，不能证明录取"
+  }
+]

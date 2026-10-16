@@ -1,0 +1,20 @@
+{
+  "newSchoolsWithRecords": 3,
+  "newSourceRecords": 9,
+  "newRecordsSqliteRoundtrip": 9,
+  "allSourceRecords": 47,
+  "classifiedSchools": 11,
+  "sourceRecordTierT1": 9,
+  "sqliteIntegrity": "ok",
+  "sqliteForeignKeyViolations": 0,
+  "backupFiles": 25,
+  "backupHashesMatched": 25,
+  "numericFieldsChangedFromPreBatch": {
+    "plan2026": 69,
+    "retestCnt": 84,
+    "admitCnt": 87
+  },
+  "compositePlanRowsKeptRawOnlyInSqlite": 66,
+  "qoderModel": "Qwen3.8-Flash",
+  "workbuddyModel": "deepseek-v4.1-flash"
+}
