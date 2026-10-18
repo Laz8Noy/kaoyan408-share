@@ -17,8 +17,8 @@
 
 - **院校数等规模数字必须带限定语**，唯一权威口径见 [`docs/口径.md`](docs/口径.md)。
   例：写"**249** 条（浏览器索引，含 72 条库外记录）"，不要单写"249 所院校"。
-- 目标口径以 **408 大类**为准（22408 / 11408 / 含 408 的自命题均欢迎）；库内历史数据以 **085410 · 22408** 收集最深，新数据不限口径（覆盖声明见根 README 主旨段）
-- 院校数据的结构化投稿（尤其 AI agent）走根 README「🤝 数据征集」节：每校一份 JSON 到 `06-院校数据库/contributions/`，门禁 C17 机检
+- 目标口径以 **408 大类**为准（22408 / 11408 / 含 408 的自命题均欢迎）；库内历史数据以 **085410 · 22408** 收集最深，新数据不限口径（覆盖限制见[根 README](README.md)）
+- 院校数据的结构化投稿（尤其 AI agent）见下文[结构化数据投稿](#结构化数据投稿)：每校一份 JSON 到 `06-院校数据库/contributions/`，门禁 C17 机检
 - 同校可能有 11408、自命题、非全，必须分学院标注，不要混成一行
 - 空值统一用 `null`，不要用 `"—"` 或空字符串；数值不要存成 `"264"` 这种字符串
 - 复合值要拆开：`8(一志愿)+12调剂` → `{value: 8, basis: "一志愿"}` + `{value: 12, basis: "调剂"}`
@@ -53,4 +53,60 @@ JSON 导出（`crosswalk.json`、`schools_unified.json`）。
 - 仓库内脚本一律用 `os.path` + 仓库相对路径，**不要写死盘符**（如以 `C:` 开头的绝对路径）
 - 文本文件统一 **UTF-8 无 BOM**、换行 **LF**（由 `.gitattributes` 的 `text=auto` 保证）
 - 不要提交 `__pycache__/`、`*.pyc`（`.gitignore` 已覆盖，属预防性提醒）
-- `07-考情资料/录取名单原始材料/` 下是网页原文快照，**保持原样不要改**（已在 `.gitattributes` 声明 `-text`）
+- `07-考情资料/录取名单原始材料/` 下保留的是去标识化后的网页快照，不要用未脱敏原件覆盖；去标识化规则与历史原件说明见该目录 `_脱敏记录.md`。`.gitattributes` 的 `-text` 仅用于避免换行转换。
+
+## 结构化数据投稿
+
+本库欢迎所有考 408 的同学与有大型模型额度的 AI agent 帮忙收集院校数据。**历史数据以 22408 / 085410 口径为主，新增收集不限口径**——11408 学硕、各校含 408 的自命题、其他专硕方向同样欢迎。
+
+### 先看缺口与冲突
+
+- [`06-院校数据库/data/todo_patch_list.json`](06-院校数据库/data/todo_patch_list.json)：177 校逐校缺口，`missing` 数组即待收字段，挑熟悉的学校领任务
+- [`06-院校数据库/data/conflicts_registry.json`](06-院校数据库/data/conflicts_registry.json)：待裁定冲突（附各方 claim 与裁定规则），能取证者可直接给出裁定证据
+
+### 每校一份 JSON，通过 Pull Request 投稿
+
+在 `06-院校数据库/contributions/` 下新建 `<学校名>.json`，**一校一文件、一 PR 一校**，schema 固定为 `contribution-v1`：
+
+```json
+{
+  "schema": "contribution-v1",
+  "school": "示例大学",
+  "unitCode": "10001",
+  "isNewSchool": true,
+  "collectedAt": "2026-10-06",
+  "collector": { "name": "agent:模型名 或 你的 GitHub ID" },
+  "entries": [
+    {
+      "college": "计算机学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        { "field": "line2026", "value": 300, "basis": "示例学院专业复试线",
+          "source": { "title": "示例：学院复试公告", "url": "https://example.org/replace-with-official-source", "tier": "T1", "date": "2026-10-06" } }
+      ]
+    }
+  ],
+  "notes": ""
+}
+```
+
+上例仅演示格式，学校、代码、数值、日期和来源均须替换为实际取证结果；投稿来源不能使用示例地址。已有院校应使用库内校名，并将 `isNewSchool` 设为 `false`。
+
+硬性格式约定（校验脚本逐条检查）：
+
+- `field` 必须是 06 正本 `units` 字段白名单内的名字（`line2026 / plan2026 / admitCnt / admitAvg / admitMin / admitMax / retestCnt / subjectClass / category` 等，全集见 06 正本任一校文件）
+- `source.tier` ∈ `T1（官方一手）/ T2（官方转载）/ T3（第三方）/ T4（本库旧值）`，分级定义见 [`docs/数据源与冲突裁定.md`](docs/数据源与冲突裁定.md)；`source.url` 必填且必须为 http(s) 直链
+- `collectedAt` 与 `source.date` 为 `YYYY-MM-DD`；`school` 必须已在库内（确为库外新校则置 `isNewSchool: true`）
+- 同一字段多来源打架时**全部列出**，不要自行取舍——裁定是维护者的活
+
+流程：提交前本地跑 `python 09-生成脚本/validate_contributions.py` 自检（发布门禁 C17 会再跑一遍）→ 发 PR → 维护者复核后合并进 06 正本。**投稿人不要直接改 `data/schools/*.json` 与任何派生文件**。
+
+### 投稿规则
+
+- 官方来源优先（T1 > T2 > T3），逐条附可点开的原文 URL 与取证日期；王道 / N诺等机构口径只作交叉参考并标注 tier
+- 数据落点只认 `06-院校数据库/contributions/`，禁止手改派生文件：`school_browser.json`、`搜索索引.json`、`kaoyan408.db`、索引页 / 浏览器页 HTML 等（均由脚本再生）
+- 不要直接运行 `09-生成脚本/integrate_three_sources.py`、`06-院校数据库/tools/etl_build_db.py`、`06-院校数据库/tools/update_verify_0903.py`（可能覆盖人工修正）
+- 编码 UTF-8 无 BOM、换行 LF；不要动页面的 h2/h3 结构与 `sec-` 锚点
+- PR 描述按模板勾选；不熟悉 JSON 时，也可按本文开头的提交建议发 Issue，附原始来源链接。
+
