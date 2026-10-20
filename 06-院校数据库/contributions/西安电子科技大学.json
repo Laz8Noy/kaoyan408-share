@@ -1,0 +1,99 @@
+{
+  "schema": "contribution-v1",
+  "school": "西安电子科技大学",
+  "isNewSchool": false,
+  "collectedAt": "2026-10-21",
+  "collector": {
+    "name": "agent:qoder-desktop（2026-10-21 从研究生院《2027年硕士研究生招生简章》页取目录附件直链，curl 带 Referer 下载 25 页 PDF，pypdf 按页还原「招生学院｜学科专业｜方向｜初试科目｜复试科目｜拟招生人数」列序）"
+  },
+  "notes": "库内这条 u27 的来源只有「N诺schoolinfo/41」（T3），且把范围写成「计算机/AI相关(计算机学院/AI学院/网安学院/卓越基地)」一句话带过。本轮换成 2027 官方目录原文，并纠正两点：①085410 在 017 人工智能学院只招 12 人（全日制），另有 019 光电工程学院以「基地专项」名义招 085410 共 30 人，库内完全没有后者；②该校所有 408 专业一律配 201 英语（一）＋301 数学（一），即 11408，没有 22408——这与库内 note 一致，但此前没有官方原文支撑。另外目录说明第 2 条明确「拟招生人数（不含推免）」，与暨南「已包含推免」相反，跨校比计划数时这个差别很关键。",
+  "entries": [
+    {
+      "college": "017 人工智能学院",
+      "major": "085410",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "11408",
+          "basis": "2027 目录：085410 为 201 英语（一）+ 301 数学（一）+ 408，不是 22408",
+          "source": {
+            "title": "西安电子科技大学2027年硕士研究生招生专业目录.pdf（25 页，第 5 页 017 人工智能学院）",
+            "url": "https://gr.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1281831001&wbfileid=0A0A1E22D2F47500B248F6850F857EDA",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文：「017人工智能学院 …… 085410 人工智能（专业学位）▲ ｜ 01大数据与人工智能 ｜ ①：101 思想政治理论 ②：201 英语（一）③：301 数学（一）④：408 计算机学科专业基础 ｜ 复试科目：9173 人工智能专业基础 ｜ 拟招生人数 12 ｜ 02电子信息（非全日制）1」。▲ 为目录注记符号，含义见 scope 条。",
+          "source": {
+            "title": "西安电子科技大学2027年硕士研究生招生专业目录.pdf（25 页，第 5 页）",
+            "url": "https://gr.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1281831001&wbfileid=0A0A1E22D2F47500B248F6850F857EDA",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "12（全日制·01大数据与人工智能，另非全 1；目录注明该人数不含推免）",
+          "basis": "目录「拟招生人数」列 + 说明第 2 条「拟招生人数（不含推免）……根据2026年硕士研究生招生人数拟定，仅供参考」",
+          "source": {
+            "title": "西安电子科技大学2027年硕士研究生招生专业目录.pdf（第 5 页 + 目录说明）",
+            "url": "https://gr.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1281831001&wbfileid=0A0A1E22D2F47500B248F6850F857EDA",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "scope",
+          "value": "同院其余行原文：「081100 控制科学与工程 00不区分研究方向 ④：821 电路、信号与系统 ｜ 复试 9171 电子信息专业基础 ｜ 2」；「140500 智能科学与技术★ 00不区分研究方向 ④：408 计算机学科专业基础 ｜ 复试 9173 人工智能专业基础 ｜ 48」；「1405J7 低空技术与工程 00不区分研究方向 ④：408 ｜ 2」；「085404 计算机技术（专业学位）01智能计算与应用 ④：408 ｜ 12；02电子信息（非全日制）1」。目录说明符号含义原文：「3.后缀标\"★\"专业为退役大学生士兵计划可报考专业。4.后缀标\"▲\"专业为少数民族高层次骨干人才计划可报考专业。」",
+          "source": {
+            "title": "西安电子科技大学2027年硕士研究生招生专业目录.pdf（第 5 页 + 说明）",
+            "url": "https://gr.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1281831001&wbfileid=0A0A1E22D2F47500B248F6850F857EDA",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "retestSubjects",
+          "value": "9173 人工智能专业基础（085410、085404、140500、1405J7 四个专业同卷）；同等学力加试参考书目页另列「085410人工智能 1.离散数学 2.数字电路与逻辑设计」",
+          "basis": "目录「复试科目」列 + 《2027年硕士研究生招生同等学力加试科目及参考书目》段",
+          "source": {
+            "title": "西安电子科技大学2027年硕士研究生招生专业目录.pdf（第 5 页、第 22-23 页）",
+            "url": "https://gr.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1281831001&wbfileid=0A0A1E22D2F47500B248F6850F857EDA",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "college": "019 光电工程学院",
+      "major": "085410",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文（第 7 页）：「019光电工程学院 …… 085410 人工智能（专业学位）｜ 01粤港澳大湾区基地专项 ｜ ①：101 思想政治理论 ②：201 英语（一）③：301 数学（一）④：408 计算机学科专业基础 ｜ 复试 9173 人工智能专业基础 ｜ 15 ｜ 02长三角基地专项 15 ｜ 03电子信息-粤港澳大湾区基地专项（非全日制）1 ｜ 04电子信息-长三角基地专项（非全日制）1」。即光电学院也以「基地专项」名义招 085410，两个基地各 15 人，合计比人工智能学院本部的 12 人还多——库内此前完全缺失这一段。",
+          "source": {
+            "title": "西安电子科技大学2027年硕士研究生招生专业目录.pdf（25 页，第 7 页）",
+            "url": "https://gr.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1281831001&wbfileid=0A0A1E22D2F47500B248F6850F857EDA",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "note",
+          "value": "同院 085412 网络与信息安全（专业学位）第四单元为「④：893 网络空间安全基础综合」（非 408），085408 光电信息工程为「④：851 物理光学与应用光学（二选一）」（非 408）——同一学院内 085410 考 408 而 085412/085408 考自命题，别按学院整体判定是否 408。另 001 通信工程学院 081000 信息与通信工程为「④：811 信号与系统、电路」（非 408，拟招 120）。",
+          "source": {
+            "title": "西安电子科技大学2027年硕士研究生招生专业目录.pdf（第 4、7 页）",
+            "url": "https://gr.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1281831001&wbfileid=0A0A1E22D2F47500B248F6850F857EDA",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        }
+      ]
+    }
+  ]
+}
