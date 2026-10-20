@@ -1,0 +1,125 @@
+{
+  "schema": "contribution-v1",
+  "school": "西安建筑科技大学",
+  "isNewSchool": false,
+  "collectedAt": "2026-10-21",
+  "collector": {
+    "name": "agent:qoder-desktop（2026-10-20 从研究生院《我校2027年硕士招生简章及专业目录（含导师）》页取附件直链，下载「02-2027年硕士研究生招生专业目录.pdf」8 页，pypdf 逐字提取）"
+  },
+  "notes": "本轮解决库内三处笼统/错项：①units 的 subjectClass 原为「推测408」；②college 原写「信息与控制工程学院」，2027 目录里没有这个学院名；③updates2027 原记「085410 408（2027维持）」，依据只是 7-20 调整公告未涉计算机类，属推定。实测：全目录「408」命中 0 次、085410 命中 0 次，电子信息按 085400 大类在三个学院招生，第四单元一律是 883 C语言程序设计。",
+  "entries": [
+    {
+      "college": "021 计算机与信息工程学院",
+      "major": "085400",
+      "subjectClass": "非408(883C语言程序设计)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(883C语言程序设计)",
+          "basis": "2027 专业目录：第四单元为自命题 883，全目录无 408",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文：「021计算机与信息工程学院 专业学位 (085400)电子信息 50(10) ｜ 01(全日制)计算机技术 ①101政治理论 ②201英语一 ③301数学一 ④883 C语言程序设计 ｜ 02(全日制)控制工程 ｜ 03(全日制)电子与通信工程」。括号内 10 为推免数；01/02/03 三个方向共用同一科目格。第四单元是自命题 883，不是统考 408。",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        },
+        {
+          "field": "college",
+          "value": "021 计算机与信息工程学院",
+          "basis": "2027 目录学院序号与全名；库内原记「信息与控制工程学院」在 2027 目录中不存在（全文检索 0 命中）",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        },
+        {
+          "field": "note",
+          "value": "两条证否：①全目录「408」零命中，该校 2027 没有任何专业初试考全国统考 408，库内「推测408」应下调为「非408」；②全目录无 085410，0854 系列只有 085400（电子信息，按方向 01 计算机技术／02 控制工程／03 电子与通信工程招生）与 001 安德学院的 085404。原 updates2027 那条「408（2027维持）」的推定依据（7-20 调整公告未涉计算机类）不成立——公告未涉是因为该校本来就不考 408。",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        },
+        {
+          "field": "scope",
+          "value": "同院学硕原文：「021计算机与信息工程学院 学术学位 (081200)计算机科学与技术 60(5) ｜ 01(全日制)图形图像技术及其应用 ①101政治理论 ②201英语一 ③301数学一 ④891数据结构 ……」；「(140500)智能科学与技术 10(5) ｜ ①101 ②201 ③301 ④895高级语言程序设计」。即学硕第四单元为 891／895 自命题。",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        }
+      ]
+    },
+    {
+      "college": "010 人工智能与机器人学院",
+      "major": "085400",
+      "subjectClass": "非408(883C语言程序设计)",
+      "fields": [
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文：「010人工智能与机器人学院 专业学位 (085400)电子信息 60(10) ｜ 01(全日制)计算机技术 ①101政治理论 ②201英语一 ③301数学一 ④883 C语言程序设计 ｜ 02(全日制)控制工程 ｜ 03(全日制)电子与通信工程」；同院学硕「(140500)智能科学与技术 30(5) ｜ ①101 ②201 ③301 ④895高级语言程序设计」。另有「010人工智能与机器人学院 学术学位 (0811Z1)智能建筑 5(2) ｜ ①101 ②201 ③301 ④836自动控制原理（含现代控制理论）」。",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        },
+        {
+          "field": "scope",
+          "value": "085400 电子信息在 2027 目录里由三个学院分别招生且科目相同（101/201/301/883）：010 人工智能与机器人学院 60(10)、021 计算机与信息工程学院 50(10)、022 国际理工学院 15（无推免列数值）。022 国际理工学院原文：「(085400)电子信息 15 ｜ 01(全日制)计算机技术 ①101政治理论 ②201英语一 ③301数学一 ④883 C语言程序设计 ｜ 02(全日制)控制工程 ｜ 03(全日制)电子与通信工程」。三院数字不能相加成一个「全校 085400 计划」。",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        }
+      ]
+    },
+    {
+      "college": "001 安德学院",
+      "major": "085404",
+      "subjectClass": "非408(883C语言程序设计)",
+      "fields": [
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文：「001安德学院 专业学位 (085404)计算机技术 15 00(全日制)不区分研究方向 ｜ ①101政治理论 ②201英语一 ③301数学一 ④883 C语言程序设计」。同院另有 (085801)电气工程 15（④874自动控制原理）、(085500)机械 15（④870机械设计），均为自命题。",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        },
+        {
+          "field": "remark",
+          "value": "安德学院的 085404 用英一＋数一（201/301），与多数学校 085404 走英二数二不同；若按「专硕＝22408」的直觉筛校会筛错这所。",
+          "source": {
+            "title": "02-西安建筑科技大学2027年硕士研究生招生专业目录.pdf（8 页）",
+            "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
+            "tier": "T1",
+            "date": "2026-10-20"
+          }
+        }
+      ]
+    }
+  ]
+}
