@@ -1,0 +1,71 @@
+{
+  "schema": "contribution-v1",
+  "school": "陕西师范大学",
+  "isNewSchool": false,
+  "collectedAt": "2026-10-21",
+  "collector": {
+    "name": "agent:qoder-desktop（2026-10-21 从研招网《2027年硕士研究生招生章程》页取 5 个附件，其中「全日制专业学位硕士研究生招生目录」xlsx 用 openpyxl 逐行解析；另取《2027年硕士研究生招生考试（初试）部分科目调整公告》正文表格）"
+  },
+  "notes": "库内这条 264 线、6 人计划、6+1 录取均来自 N诺。本轮补到 2027 目录原文：085410 在 020 人工智能与计算机学院，2027 普通招考仅 4 人（比 2026 的 6 人再缩），与 085404/085405/085411 共用同一个科目格（101/204/302/408），并且有明确的本科专业限制。另外该校 045114 现代教育技术 2027 把第四单元从 408 换成了 812 教育研究方法——这是「考出 408」的变动，按 408 筛校时要扣掉。",
+  "entries": [
+    {
+      "college": "020 人工智能与计算机学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "2027 全日制专业学位招生目录：0854 四个领域共用一个科目格「101/204/302/408」",
+          "source": {
+            "title": "陕西师范大学2027年全日制专业学位硕士研究生招生目录.xlsx（章程附件2）",
+            "url": "https://yz.snnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1403578136&wbfileid=1BB60F2A6AF5FCCB1F767376C2FB3940",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文（xlsx 第 45-49 行，招生单位 020 人工智能与计算机学院）：「045114 现代教育技术 6 ｜ ①101 ②204 ③333 教育综合 ④812 教育研究方法」；「085404 计算机技术 4 ｜ ①101 思想政治理论 ②204 英语（二）③302 数学（二）④408 计算机学科专业基础 ｜ 备注：只招收计算机类专业的本科毕业生」；「085405 软件工程 4」（科目与 085404 共用合并格）；「085410 人工智能 4」（科目与 085404 共用合并格）｜ 备注：「只招收计算机类、人工智能、机器人工程专业的本科毕业生」；「085411 大数据技术与工程 4」。",
+          "source": {
+            "title": "陕西师范大学2027年全日制专业学位硕士研究生招生目录.xlsx（第 45-49 行）",
+            "url": "https://yz.snnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1403578136&wbfileid=1BB60F2A6AF5FCCB1F767376C2FB3940",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "4（2027 普通招考人数；2026 为 6，再缩 2）",
+          "basis": "目录「普通招考人数」列",
+          "source": {
+            "title": "陕西师范大学2027年全日制专业学位硕士研究生招生目录.xlsx（第 48 行）",
+            "url": "https://yz.snnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1403578136&wbfileid=1BB60F2A6AF5FCCB1F767376C2FB3940",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "note",
+          "value": "报考限制（目录备注原文）：「只招收计算机类、人工智能、机器人工程专业的本科毕业生」——跨考考生直接不符合报考条件，这条比分数线更能决定能不能报。同院 085404 只收「计算机类」，085411 只收「计算机类、统计学类」。",
+          "source": {
+            "title": "陕西师范大学2027年全日制专业学位硕士研究生招生目录.xlsx（备注列）",
+            "url": "https://yz.snnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1403578136&wbfileid=1BB60F2A6AF5FCCB1F767376C2FB3940",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "remark",
+          "value": "408 换出记录（2027 科目调整公告原文）：「人工智能与计算机学院 045114 现代教育技术 ｜ 原科目 408 计算机学科专业基础 ｜ 调整后 812 教育研究方法 ｜ 只招收计算机类、教育学类专业的本科毕业生」。即该校 2027 有一个专业退出 408，统计「陕师大 408 招生规模」时应扣除这 6 人。公告发布时间 2026-06-17。",
+          "source": {
+            "title": "陕西师范大学2027年硕士研究生招生考试（初试）部分科目调整公告（2026-06-17）",
+            "url": "http://yz.snnu.edu.cn/info/1008/8181.htm",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        }
+      ]
+    }
+  ]
+}
