@@ -1,0 +1,87 @@
+{
+  "schema": "contribution-v1",
+  "school": "福州大学",
+  "isNewSchool": false,
+  "collectedAt": "2026-10-21",
+  "collector": {
+    "name": "agent:qoder-desktop（2026-10-21 从研究生院《2027年硕士研究生招生简章》页取两个 xlsx 目录附件（全日制/非全日制），openpyxl 逐行解析；学院层级的「拟招收N人」写在分节标题行，按行号回溯归位）"
+  },
+  "notes": "库内这条只有一个学院（计算机与大数据学院）和一个 366 的线。2027 目录里 085410 有**两个招生单位**：010 计算机与大数据学院（4 个方向）与 121 医学院（01 智能医学），两处都考 408、都是 204+302。另外该目录只给学院总计划（010 院 259 人、121 院 65 人），不印专业级人数，所以库内 plan2026=36 无法用这份目录证实或推翻。",
+  "entries": [
+    {
+      "college": "010 计算机与大数据学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "2027 全日制目录：204 英语（二）+ 302 数学（二）+ 408",
+          "source": {
+            "title": "福州大学2027年硕士研究生招生专业目录（全日制）.xlsx（章程附件1）",
+            "url": "https://yjsy.fzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1744984943&wbfileid=18305781",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文（xlsx 第 93-98 行，分节标题「010计算机与大数据学院（拟招收259人）」）：「085410人工智能（专业学位）｜ 01图像处理与模式分析 02机器学习与数据挖掘 03自然语言处理 04数据科学与智能计算 ｜ ①101思想政治理论 ②204英语（二）③302数学（二）④408计算机学科专业基础 ｜ 备注：复试包含机试和面试，其中机试的参考书目为：[1]李文新、郭炜、余华山.程序设计导引及在线实践（第2版）.清华大学出版社，2017；[2]王晓东.数据结构（C语言描述）（第3版）.电子工业出版社，2019. 本专业全日制学制为3年」。同院 085404 计算机技术（7 个方向）、085405 软件工程（3 个方向）科目相同；学硕 081200／083500 为 201+301+408。",
+          "source": {
+            "title": "福州大学2027年硕士研究生招生专业目录（全日制）.xlsx（第 93-98 行）",
+            "url": "https://yjsy.fzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1744984943&wbfileid=18305781",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "retestSubjects",
+          "value": "复试包含机试和面试；机试参考书 [1]《程序设计导引及在线实践（第2版）》清华大学出版社 2017、[2]《数据结构（C语言描述）（第3版）》电子工业出版社 2019（目录备注原文）",
+          "source": {
+            "title": "福州大学2027年硕士研究生招生专业目录（全日制）.xlsx（备注列）",
+            "url": "https://yjsy.fzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1744984943&wbfileid=18305781",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "remark",
+          "value": "两处未取到／不可比：①2027 目录不印专业级计划数，只写「010计算机与大数据学院（拟招收259人）」这种学院总数，库内 plan2026=36 无法据此核对；②2026 的 366 线本轮未取到官方原文——库内挂的《福州大学计算机与大数据学院2026复试方案》https://ccds.fzu.edu.cn/info/1138/11673.htm 抓回正文仅 675 字符（内容未随页面输出），故 366／复录 44／均分 381 仍为 N诺 口径。",
+          "source": {
+            "title": "福州大学计算机与大数据学院2026年复试方案（正文未取到）",
+            "url": "https://ccds.fzu.edu.cn/info/1138/11673.htm",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "college": "121 医学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectStatus",
+          "value": "2027 目录原文（xlsx 第 180-183 行，分节标题「121医学院（拟招收65人）」）：「085410人工智能（专业学位）｜ 01智能医学 ｜ ①101思想政治理论 ②204英语（二）③302数学（二）④408计算机学科专业基础 ｜ 备注：复试包含机试和面试……本专业全日制学制为3年」。这是库内完全缺失的第二个 085410 招生单位，方向为智能医学。",
+          "source": {
+            "title": "福州大学2027年硕士研究生招生专业目录（全日制）.xlsx（第 180-183 行）",
+            "url": "https://yjsy.fzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1744984943&wbfileid=18305781",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "note",
+          "value": "择校提示：想报福大 085410 但不想卷计算机学院的，医学院的 01 智能医学是同一专业代码、同一套 408 试卷、学院总计划 65 人的另一入口；两处复试都是机试+面试。跨学院同名专业不能合并统计，也不能默认同一院线。",
+          "source": {
+            "title": "福州大学2027年硕士研究生招生专业目录（全日制）.xlsx（010/121 两院段）",
+            "url": "https://yjsy.fzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1744984943&wbfileid=18305781",
+            "tier": "T1",
+            "date": "2026-10-21"
+          }
+        }
+      ]
+    }
+  ]
+}
