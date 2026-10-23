@@ -1,0 +1,99 @@
+{
+  "schema": "contribution-v1",
+  "school": "中原工学院",
+  "isNewSchool": false,
+  "collectedAt": "2026-10-23",
+  "collector": {
+    "name": "agent:qoder-desktop（研招网2027目录接口批量采集：按招生单位→0854大类→逐方向，含四门科目代码与拟招人数）"
+  },
+  "notes": "数据全部来自研招网2027年硕士专业目录（T1）。拟招生人数为2027口径，只能放自由文本字段；部分学校目录留空计0，已写「未公布」。同校多学院/方向分列未合并。nzsrsstr 标注「不含推免」的已注明。",
+  "entries": [
+    {
+      "college": "人工智能学院",
+      "major": "085404",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中原工学院）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10465",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085404 计算机技术（人工智能学院，全日制）｜ 研究方向：None 智能视觉计算与机器学习、None 自然语言处理与知识表示 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生人数：未公布（目录留空）。",
+          "basis": "研招网2027目录逐方向摘录（含2027拟招人数，不可当作2026或已下达计划）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中原工学院）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10465",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "自动化与电气工程学院",
+      "major": "085410",
+      "subjectClass": "非408(807)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(807)",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中原工学院）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10465",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085410 人工智能（自动化与电气工程学院，全日制）｜ 研究方向：None 人工智能新技术、None 智能感知与控制、None 智能无人系统控制与规划、None 视觉数据挖掘与模式识别 ｜ 初试 101 / 204 / 302 / 807 ｜ 拟招生人数：未公布（目录留空）。",
+          "basis": "研招网2027目录逐方向摘录（含2027拟招人数，不可当作2026或已下达计划）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中原工学院）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10465",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机学院",
+      "major": "085404",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中原工学院）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10465",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085404 计算机技术（计算机学院，全日制）｜ 研究方向：None 信息安全、None 智能视觉计算与机器学习、None 自然语言处理与知识表示 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生人数：未公布（目录留空）。",
+          "basis": "研招网2027目录逐方向摘录（含2027拟招人数，不可当作2026或已下达计划）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中原工学院）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10465",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    }
+  ]
+}
