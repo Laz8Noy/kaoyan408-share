@@ -7,7 +7,7 @@
   "collector": {
     "name": "agent:qoder-cli（2026-10-10 用校方目录系统两个未受反爬保护的接口直取原始行：POST /zsml/getTreeData 做 2027/2026 差集，GET zsmlYjfx 明细页逐字取科目，本人独立复现）"
   },
-  "notes": "反爬绕法（本机实测，可复用）：UESTC 的 `yzbm.uestc.edu.cn/zsml/sszsml/index/2027`、`yz.uestc.edu.cn/info/1006/5967.htm`、`gr.uestc.edu.cn`、`www.scse.uestc.edu.cn`、`www.iaa.uestc.edu.cn`、`icct.uestc.edu.cn` 对 curl 一律回瑞数 JS 挑战壳（响应体含 `$_ts=window['$_ts']`），WebFetch 同败；但两处 unprotected：①`POST https://yzbm.uestc.edu.cn/zsml/getTreeData`，表单 `nd=2027&zslb=1`，返回 JSON 院系-专业树（本人取到 25047 字节；把 `nd` 换成 2026 即得上一年树，用于判断某专业是否新开）；②明细页 `https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/<院系码>/<专业码>?ksfs=21`，表格直接嵌在静态 HTML（**`ksfs=` 留空会退回挑战页，必须带 `ksfs=21`**）；页面仍夹带一段 `$_ts` 脚本，但表格文字完整，本投稿摘录全部取自表格文字。校内《2027年硕士研究生招生章程》（yz.uestc.edu.cn/info/1006/5967.htm，2026-10-08）只声明「101思想政治理论、199管理类综合能力、201英语（一）、204英语（二）、301数学（一）、302数学（二）、303数学（三）、312心理学专业基础、408计算机学科专业基础等科目的考试大纲由教育部统一编制并统一命题，其他科目由我校自主命题」，不含分专业口径；`yz.uestc.edu.cn/sszs/tzgg.htm` 里只有 2026 年《初试科目调整公告（一）》（5486.htm）与《（二）》（5524.htm），**未见 2027 版调整公告**。本校为库外新校，province/region/tier/category 等元字段留给维护者裁定。",
+  "notes": "反爬绕法（本机实测，可复用）：UESTC 的 `yzbm.uestc.edu.cn/zsml/sszsml/index/2027`、`yz.uestc.edu.cn/info/1006/5967.htm`、`gr.uestc.edu.cn`、`www.scse.uestc.edu.cn`、`www.iaa.uestc.edu.cn`、`icct.uestc.edu.cn` 对 curl 一律回瑞数 JS 挑战壳（响应体含 `$_ts=window['$_ts']`），WebFetch 同败；但两处 unprotected：①`POST https://yzbm.uestc.edu.cn/zsml/getTreeData`，表单 `nd=2027&zslb=1`，返回 JSON 院系-专业树（本人取到 25047 字节；把 `nd` 换成 2026 即得上一年树，用于判断某专业是否新开）；②明细页 `https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/<院系码>/<专业码>?ksfs=21`，表格直接嵌在静态 HTML（**`ksfs=` 留空会退回挑战页，必须带 `ksfs=21`**）；页面仍夹带一段 `$_ts` 脚本，但表格文字完整，本投稿摘录全部取自表格文字。校内《2027年硕士研究生招生章程》（yz.uestc.edu.cn/info/1006/5967.htm，2026-10-08）只声明「101思想政治理论、199管理类综合能力、201英语（一）、204英语（二）、301数学（一）、302数学（二）、303数学（三）、312心理学专业基础、408计算机学科专业基础等科目的考试大纲由教育部统一编制并统一命题，其他科目由我校自主命题」，不含分专业口径；`yz.uestc.edu.cn/sszs/tzgg.htm` 里只有 2026 年《初试科目调整公告（一）》（5486.htm）与《（二）》（5524.htm），**未见 2027 版调整公告**。本校为库外新校，province/region/tier/category 等元字段留给维护者裁定。（2026-10-23 追加：研招网2027目录接口补充 3 个学院×专业条目，原条目未改动。）",
   "entries": [
     {
       "college": "航空航天学院（010）",
@@ -52,6 +52,93 @@
             "url": "https://yzbm.uestc.edu.cn/zsml/getTreeData",
             "tier": "T1",
             "date": "2026-10-10"
+          }
+        }
+      ]
+    },
+    {
+      "college": "智能计算研究院",
+      "major": "085404",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "11408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（电子科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10614",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085404 计算机技术（智能计算研究院，全日制）｜ 研究方向：None 不区分招生方向 ｜ 初试 101 / 201 / 301 / 408 ｜ 拟招生人数：48（其中统考拟招 14，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录（2027拟招人数，不可当作2026）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（电子科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10614",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "电子科技大学（深圳）高等研究院",
+      "major": "085404",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "11408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（电子科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10614",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085404 计算机技术（电子科技大学（深圳）高等研究院，全日制）｜ 研究方向：None 不区分招生方向 ｜ 初试 101 / 201 / 301 / 408 ｜ 拟招生人数：72（其中统考拟招 32，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录（2027拟招人数，不可当作2026）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（电子科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10614",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机科学与工程学院",
+      "major": "085404",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "11408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（电子科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10614",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085404 计算机技术（计算机科学与工程学院，全日制）｜ 研究方向：None 不区分招生方向 ｜ 初试 101 / 201 / 301 / 408 ｜ 拟招生人数：218（其中统考拟招 98，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录（2027拟招人数，不可当作2026）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（电子科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10614",
+            "tier": "T1",
+            "date": "2026-10-23"
           }
         }
       ]
