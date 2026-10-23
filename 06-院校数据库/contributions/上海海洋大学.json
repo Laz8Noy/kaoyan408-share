@@ -1,0 +1,99 @@
+{
+  "schema": "contribution-v1",
+  "school": "上海海洋大学",
+  "isNewSchool": false,
+  "collectedAt": "2026-10-23",
+  "collector": {
+    "name": "agent:qoder-desktop（研招网2027目录接口批量采集：按招生单位→0854大类→逐方向，含四门科目代码与拟招人数）"
+  },
+  "notes": "数据全部来自研招网2027年硕士专业目录（T1）。拟招生人数为2027口径，只能放自由文本字段；部分学校目录留空计0，已写「未公布」。同校多学院/方向分列未合并。nzsrsstr 标注「不含推免」的已注明。",
+  "entries": [
+    {
+      "college": "中国水产科学研究院",
+      "major": "085404",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（上海海洋大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10264",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085404 计算机技术（中国水产科学研究院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生人数：5（其中统考拟招 5，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录（含2027拟招人数，不可当作2026或已下达计划）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（上海海洋大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10264",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "信息学院",
+      "major": "085404",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（上海海洋大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10264",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085404 计算机技术（信息学院，全日制）｜ 研究方向：None 卓越工程师专项班 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生人数：20（其中统考拟招 65，不含推免）；75（其中统考拟招 65，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录（含2027拟招人数，不可当作2026或已下达计划）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（上海海洋大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10264",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "信息学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元科目代码",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（上海海洋大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10264",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085410 人工智能（信息学院，非全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生人数：50（其中统考拟招 50，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录（含2027拟招人数，不可当作2026或已下达计划）",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（上海海洋大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10264",
+            "tier": "T1",
+            "date": "2026-10-23"
+          }
+        }
+      ]
+    }
+  ]
+}
