@@ -134,6 +134,28 @@
             "tier": "T1",
             "date": "2026-10-08"
           }
+        },
+        {
+          "field": "plan2026",
+          "value": "25",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-成都信息工程大学.json（官方）",
+            "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "2",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-成都信息工程大学.json（官方）",
+            "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -202,6 +224,17 @@
             "tier": "T1",
             "date": "2026-10-08"
           }
+        },
+        {
+          "field": "plan2026",
+          "value": "12",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-成都信息工程大学.json（官方）",
+            "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -246,6 +279,39 @@
             "tier": "T1",
             "date": "2026-10-08"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-成都信息工程大学.json（官方）",
+            "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "25",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-成都信息工程大学.json（官方）",
+            "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "2",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-成都信息工程大学.json（官方）",
+            "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -289,6 +355,17 @@
             "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
             "tier": "T1",
             "date": "2026-10-08"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "2",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-成都信息工程大学.json（官方）",
+            "url": "https://jsjxy.cuit.edu.cn/info/1062/3251.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]

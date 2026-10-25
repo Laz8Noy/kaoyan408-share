@@ -124,6 +124,72 @@
             "tier": "T1",
             "date": "2026-10-21"
           }
+        },
+        {
+          "field": "plan2026",
+          "value": "约73(66+7专项)",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/26/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "81+11专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/26/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "66+7专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/26/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "404",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/26/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "379",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/26/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "439",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/26/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

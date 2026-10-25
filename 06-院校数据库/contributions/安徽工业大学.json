@@ -63,6 +63,50 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "294",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/zexiao/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "77",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/zexiao/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "62",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/zexiao/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "322",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/zexiao/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

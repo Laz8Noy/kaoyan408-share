@@ -121,6 +121,72 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "356",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "61+5专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "46+专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "375",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "356",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "420",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -149,6 +215,72 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10359",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "356",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "61+5专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "46+专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "375",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "356",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "420",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
           }
         }
       ]
@@ -353,6 +485,61 @@
             "tier": "T1",
             "date": "2026-10-24"
           }
+        },
+        {
+          "field": "retestCnt",
+          "value": "61+5专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "46+专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "375",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "356",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "420",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -438,6 +625,61 @@
             "title": "中国研究生招生信息网2027年硕士专业目录（合肥工业大学）",
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10359",
             "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "61+5专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "46+专项",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "375",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "356",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "420",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "N诺 该校考情（正本既有来源，未改动）",
+            "url": "https://noobdream.com/schoolinfo/203/",
+            "tier": "T3",
             "date": "2026-10-24"
           }
         }

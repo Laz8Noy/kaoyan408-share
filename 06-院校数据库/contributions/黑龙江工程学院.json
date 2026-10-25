@@ -34,6 +34,17 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-黑龙江工程学院.json（官方）",
+            "url": "https://www.hljit.edu.cn/dqxxgcxy/info/1016/6204.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

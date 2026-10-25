@@ -72,6 +72,28 @@
             "tier": "T1",
             "date": "2026-10-21"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北京信息科技大学.json（官方）",
+            "url": "https://m.shunyoutech.com/school387/fsx/3905.html",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "19",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北京信息科技大学.json（官方）",
+            "url": "https://m.shunyoutech.com/school387/fsx/3905.html",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

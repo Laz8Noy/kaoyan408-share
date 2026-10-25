@@ -63,6 +63,17 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-华东交通大学.json（官方）",
+            "url": "http://lxy.ecjtu.edu.cn/info/1060/7012.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

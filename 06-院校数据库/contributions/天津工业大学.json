@@ -53,6 +53,72 @@
             "tier": "T1",
             "date": "2026-10-21"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "332",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津工业大学.json（官方）",
+            "url": "https://yjsb.tiangong.edu.cn/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "33(31不含推免)",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津工业大学.json（官方）",
+            "url": "https://yjsb.tiangong.edu.cn/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "40",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津工业大学.json（官方）",
+            "url": "https://yjsb.tiangong.edu.cn/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "352.9",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津工业大学.json（官方）",
+            "url": "https://yjsb.tiangong.edu.cn/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "332",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津工业大学.json（官方）",
+            "url": "https://yjsb.tiangong.edu.cn/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "391",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津工业大学.json（官方）",
+            "url": "https://yjsb.tiangong.edu.cn/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

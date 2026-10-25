@@ -121,6 +121,28 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "315",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津理工大学.json（官方）",
+            "url": "https://cs.tjut.edu.cn/info/1062/2826.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "42",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-天津理工大学.json（官方）",
+            "url": "https://cs.tjut.edu.cn/info/1062/2826.htm",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

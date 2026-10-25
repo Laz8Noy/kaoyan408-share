@@ -34,6 +34,17 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "plan2026",
+          "value": "25/50待核",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-河北大学.json（官方）",
+            "url": "https://cs.hbu.cn/wzsy/yjsxx/details/3083",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -62,6 +73,17 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10075",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "25/50待核",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-河北大学.json（官方）",
+            "url": "https://cs.hbu.cn/wzsy/yjsxx/details/3083",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]

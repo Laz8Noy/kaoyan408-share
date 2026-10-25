@@ -34,6 +34,28 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-滁州学院.json（官方）",
+            "url": "https://m-jixun.iqihang.com/index.php?m=content&c=index&a=show&catid=21&id=734869",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "085410计划未单列;085404=45/085411=10",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-滁州学院.json（官方）",
+            "url": "https://m-jixun.iqihang.com/index.php?m=content&c=index&a=show&catid=21&id=734869",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

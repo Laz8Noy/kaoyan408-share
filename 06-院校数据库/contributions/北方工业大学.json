@@ -43,6 +43,17 @@
             "tier": "T1",
             "date": "2026-10-21"
           }
+        },
+        {
+          "field": "admitMin",
+          "value": "265",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -68,6 +79,39 @@
             "url": "https://yjsy.ncut.edu.cn/info/1185/5018.htm",
             "tier": "T1",
             "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "26",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "265",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]
@@ -98,6 +142,39 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "26",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "265",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -125,6 +202,17 @@
             "title": "中国研究生招生信息网2027年硕士专业目录（北方工业大学）",
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10009",
             "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "265",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
             "date": "2026-10-24"
           }
         }
@@ -212,6 +300,17 @@
             "title": "中国研究生招生信息网2027年硕士专业目录（北方工业大学）",
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10009",
             "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "265",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-北方工业大学.json（官方）",
+            "url": "https://www.kaoyana.com/s1250/085410/",
+            "tier": "T4",
             "date": "2026-10-24"
           }
         }

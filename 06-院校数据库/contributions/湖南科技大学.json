@@ -53,6 +53,28 @@
             "tier": "T1",
             "date": "2026-10-21"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "338",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-湖南科技大学.json（官方+机构）",
+            "url": "https://kaoyan.koolearn.com/20260504/1944414.html",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "55(口径待核)",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-湖南科技大学.json（官方+机构）",
+            "url": "https://kaoyan.koolearn.com/20260504/1944414.html",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -68,6 +90,28 @@
             "url": "https://graduate.hnust.edu.cn/zsgz/sszs/7268060002814a4cbfad82bc695441e6.htm",
             "tier": "T1",
             "date": "2026-10-21"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "338",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-湖南科技大学.json（官方+机构）",
+            "url": "https://kaoyan.koolearn.com/20260504/1944414.html",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "55(口径待核)",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-湖南科技大学.json（官方+机构）",
+            "url": "https://kaoyan.koolearn.com/20260504/1944414.html",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]
@@ -97,6 +141,28 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10534",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "338",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-湖南科技大学.json（官方+机构）",
+            "url": "https://kaoyan.koolearn.com/20260504/1944414.html",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "55(口径待核)",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-湖南科技大学.json（官方+机构）",
+            "url": "https://kaoyan.koolearn.com/20260504/1944414.html",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]

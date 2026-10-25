@@ -63,6 +63,17 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "300",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-大连理工大学.json（官方）",
+            "url": "https://www.51kywang.com/51kaoyanwang/vip_doc/30780466.html",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -91,6 +102,17 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10141",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "300",
+          "basis": "正本同单位既有值（原来源见 sourceNote，未改动）",
+          "source": {
+            "title": "本库正本 001-大连理工大学.json（官方）",
+            "url": "https://www.51kywang.com/51kaoyanwang/vip_doc/30780466.html",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]
