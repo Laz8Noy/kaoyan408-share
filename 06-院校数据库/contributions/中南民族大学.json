@@ -6,7 +6,7 @@
   "collector": {
     "name": "agent:qoder-desktop（研招网2027目录接口批量采集：按招生单位→0854大类→逐方向，含四门科目代码与拟招人数）"
   },
-  "notes": "数据全部来自研招网2027年硕士专业目录（T1）。拟招生人数为2027口径，只能放自由文本字段；部分学校目录留空计0，已写「未公布」。同校多学院/方向分列未合并。nzsrsstr 标注「不含推免」的已注明。",
+  "notes": "数据全部来自研招网2027年硕士专业目录（T1）。拟招生人数为2027口径，只能放自由文本字段；部分学校目录留空计0，已写「未公布」。同校多学院/方向分列未合并。nzsrsstr 标注「不含推免」的已注明。（2026-10-24 追加：同校其余 0854 专业代码 8 条，用于横向对照，原条目未改。）",
   "entries": [
     {
       "college": "卓越工程师学院",
@@ -120,6 +120,238 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "电子信息工程学院（机器人学院）",
+      "major": "085402",
+      "subjectClass": "非408(833)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(833)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085402 通信工程（含宽带网络、移动通信等）（电子信息工程学院（机器人学院），全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 833 ｜ 拟招生：73（统考 68，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "卓越工程师学院",
+      "major": "085402",
+      "subjectClass": "非408(833)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(833)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085402 通信工程（含宽带网络、移动通信等）（卓越工程师学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 833 ｜ 拟招生：9（统考 8，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机学院（人工智能学院）",
+      "major": "085406",
+      "subjectClass": "非408(843)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(843)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085406 控制工程（计算机学院（人工智能学院），全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 843 ｜ 拟招生：14（统考 12，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "卓越工程师学院",
+      "major": "085406",
+      "subjectClass": "非408(843)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(843)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085406 控制工程（卓越工程师学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 843 ｜ 拟招生：3（统考 2，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "电子信息工程学院（机器人学院）",
+      "major": "085408",
+      "subjectClass": "非408(834)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(834)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085408 光电信息工程（电子信息工程学院（机器人学院），全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 834 ｜ 拟招生：7（统考 6，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "卓越工程师学院",
+      "major": "085408",
+      "subjectClass": "非408(834)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(834)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085408 光电信息工程（卓越工程师学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 834 ｜ 拟招生：1（统考 0，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "生物医学工程学院",
+      "major": "085409",
+      "subjectClass": "非408(856)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(856)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085409 生物医学工程（生物医学工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 856 ｜ 拟招生：56（统考 55，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "卓越工程师学院",
+      "major": "085409",
+      "subjectClass": "非408(856)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(856)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085409 生物医学工程（卓越工程师学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 856 ｜ 拟招生：9（统考 7，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（中南民族大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10524",
+            "tier": "T1",
+            "date": "2026-10-24"
           }
         }
       ]

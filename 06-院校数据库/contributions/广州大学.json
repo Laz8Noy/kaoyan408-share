@@ -6,7 +6,7 @@
   "collector": {
     "name": "agent:qoder-cli（2026-10-10 用真浏览器渲染校方金智目录系统，006/024/025 三院 085410 的 2027 初试科目逐页取到原文；2026 学院目录另作对照）"
   },
-  "notes": "取证方式与坑：广大 2027《硕士研究生招生专业目录》在研究生院通知页（yjsy.gzhu.edu.cn/info/1008/114401.htm，2026-09-23）只是正文+一个外链，真正的科目表在金智 SPA：https://yjsyxt.gzhu.edu.cn/gsapp/sys/sszsjzapp/*default/index.do#/zsjz/1047c0ececac448cbad9b11e0395d6fb 。该 SPA 匿名 curl 只回 8451 字节框架（pageMeta 的 models/routes/datas 全为空对象），接口 getAppConfig/sszsjzapp-*.do GET 返回 0 字节、POST 为 Empty reply，猜 getIndexData.do / queryZsjzMl.do 全 404；因此网上流传「广大2027目录页面是空壳、看不出科目」的结论只对 curl 成立。本人为在浏览器里渲染后逐院系读取，目录行「查看」链接形如 #/zsjz/<id>/1/<学院码>/<专业码>，且改 hash 后必须 reload 才会渲染出科目区，否则会读到上一页残留（本次已按学院名逐条校验避免串页）。085410 在 2027 目录同时出现在 006 计算机科学与网络工程学院、024 网络空间安全学院、025 人工智能学院三个学院，本人逐个点开核对科目，未做跨院套用。（2026-10-23 追加：研招网2027目录接口补充 3 个学院×专业条目，原条目未改动。）",
+  "notes": "取证方式与坑：广大 2027《硕士研究生招生专业目录》在研究生院通知页（yjsy.gzhu.edu.cn/info/1008/114401.htm，2026-09-23）只是正文+一个外链，真正的科目表在金智 SPA：https://yjsyxt.gzhu.edu.cn/gsapp/sys/sszsjzapp/*default/index.do#/zsjz/1047c0ececac448cbad9b11e0395d6fb 。该 SPA 匿名 curl 只回 8451 字节框架（pageMeta 的 models/routes/datas 全为空对象），接口 getAppConfig/sszsjzapp-*.do GET 返回 0 字节、POST 为 Empty reply，猜 getIndexData.do / queryZsjzMl.do 全 404；因此网上流传「广大2027目录页面是空壳、看不出科目」的结论只对 curl 成立。本人为在浏览器里渲染后逐院系读取，目录行「查看」链接形如 #/zsjz/<id>/1/<学院码>/<专业码>，且改 hash 后必须 reload 才会渲染出科目区，否则会读到上一页残留（本次已按学院名逐条校验避免串页）。085410 在 2027 目录同时出现在 006 计算机科学与网络工程学院、024 网络空间安全学院、025 人工智能学院三个学院，本人逐个点开核对科目，未做跨院套用。（2026-10-23 追加：研招网2027目录接口补充 3 个学院×专业条目，原条目未改动。）（2026-10-24 追加：同校其余 0854 专业代码 16 条，用于横向对照，原条目未改。）",
   "entries": [
     {
       "college": "计算机科学与网络工程学院（006）",
@@ -192,6 +192,470 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "电子与通信工程学院",
+      "major": "085401",
+      "subjectClass": "非408(823)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(823)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085401 新一代电子信息技术（含量子技术等）（电子与通信工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 823 ｜ 拟招生：15（统考 14，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "电子与通信工程学院",
+      "major": "085402",
+      "subjectClass": "非408(823)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(823)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085402 通信工程（含宽带网络、移动通信等）（电子与通信工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 823 ｜ 拟招生：53（统考 52，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "电子与通信工程学院",
+      "major": "085403",
+      "subjectClass": "非408(823)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(823)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085403 集成电路工程（电子与通信工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 823 ｜ 拟招生：15（统考 14，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机科学与网络工程学院",
+      "major": "085405",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085405 软件工程（计算机科学与网络工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：14（统考 13，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "人工智能学院",
+      "major": "085405",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085405 软件工程（人工智能学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：20（统考 20，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "机械与电气工程学院",
+      "major": "085406",
+      "subjectClass": "非408(864)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(864)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085406 控制工程（机械与电气工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 864 ｜ 拟招生：35（统考 28，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "物理与材料科学学院",
+      "major": "085408",
+      "subjectClass": "非408(852)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(852)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085408 光电信息工程（物理与材料科学学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 852 ｜ 拟招生：32（统考 29，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机科学与网络工程学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085410 人工智能（计算机科学与网络工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：20（统考 18，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "网络空间安全学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085410 人工智能（网络空间安全学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：66（统考 61，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "人工智能学院",
+      "major": "085410",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085410 人工智能（人工智能学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：25（统考 20，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机科学与网络工程学院",
+      "major": "085411",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085411 大数据技术与工程（计算机科学与网络工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：8（统考 7，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "数学与信息科学学院",
+      "major": "085411",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085411 大数据技术与工程（数学与信息科学学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：20（统考 14，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "网络空间安全学院",
+      "major": "085411",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085411 大数据技术与工程（网络空间安全学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：26（统考 23，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机科学与网络工程学院",
+      "major": "085412",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085412 网络与信息安全（计算机科学与网络工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：3（统考 2，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "网络空间安全学院",
+      "major": "085412",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085412 网络与信息安全（网络空间安全学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：63（统考 59，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "人工智能学院",
+      "major": "085412",
+      "subjectClass": "22408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "22408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085412 网络与信息安全（人工智能学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 408 ｜ 拟招生：10（统考 10，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（广州大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11078",
+            "tier": "T1",
+            "date": "2026-10-24"
           }
         }
       ]

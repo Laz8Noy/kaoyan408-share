@@ -6,7 +6,7 @@
   "collector": {
     "name": "agent:qoder-desktop（研招网2027目录接口批量采集：按招生单位→0854大类→逐方向，含四门科目代码与拟招人数）"
   },
-  "notes": "数据全部来自研招网2027年硕士专业目录（T1）。拟招生人数为2027口径，只能放自由文本字段；部分学校目录留空计0，已写「未公布」。同校多学院/方向分列未合并。nzsrsstr 标注「不含推免」的已注明。",
+  "notes": "数据全部来自研招网2027年硕士专业目录（T1）。拟招生人数为2027口径，只能放自由文本字段；部分学校目录留空计0，已写「未公布」。同校多学院/方向分列未合并。nzsrsstr 标注「不含推免」的已注明。（2026-10-24 追加：同校其余 0854 专业代码 9 条，用于横向对照，原条目未改。）",
   "entries": [
     {
       "college": "卓越工程师学院",
@@ -120,6 +120,267 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        }
+      ]
+    },
+    {
+      "college": "物理与光电学院",
+      "major": "085400",
+      "subjectClass": "非408(863)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(863)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085400 电子信息（物理与光电学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 863 ｜ 拟招生：55（统考 50，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "卓越工程师学院",
+      "major": "085400",
+      "subjectClass": "非408(863)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(863)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085400 电子信息（卓越工程师学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 204 / 302 / 863 ｜ 拟招生：12（统考 12，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "浙江工业大学埃克塞特联合学院",
+      "major": "085400",
+      "subjectClass": "非408(828)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(828)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085400 电子信息（浙江工业大学埃克塞特联合学院，全日制）｜ 研究方向：控制工程、通信工程 ｜ 初试 101 / 201 / 301 / 828 ｜ 拟招生：17（统考 19，不含推免）；8（统考 19，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "信息工程学院",
+      "major": "085402",
+      "subjectClass": "非408(830)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(830)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085402 通信工程（含宽带网络、移动通信等）（信息工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 201 / 301 / 830 ｜ 拟招生：55（统考 47，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "计算机科学与技术学院（软件学院、人工智能学院）",
+      "major": "085405",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "11408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085405 软件工程（计算机科学与技术学院（软件学院、人工智能学院），全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 201 / 301 / 408 ｜ 拟招生：45（统考 30，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "能源与碳中和科教融合学院",
+      "major": "085405",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "11408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085405 软件工程（能源与碳中和科教融合学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 201 / 301 / 408 ｜ 拟招生：5（统考 3，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "卓越工程师学院",
+      "major": "085405",
+      "subjectClass": "11408",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "11408",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085405 软件工程（卓越工程师学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 201 / 301 / 408 ｜ 拟招生：17（统考 17，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "信息工程学院",
+      "major": "085406",
+      "subjectClass": "非408(828)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(828)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085406 控制工程（信息工程学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 201 / 301 / 828 ｜ 拟招生：172（统考 152，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
+      "college": "卓越工程师学院",
+      "major": "085406",
+      "subjectClass": "非408(828)",
+      "fields": [
+        {
+          "field": "subjectClass",
+          "value": "非408(828)",
+          "basis": "研招网2027目录第四单元",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "subjectStatus",
+          "value": "研招网2027目录原文：085406 控制工程（卓越工程师学院，全日制）｜ 研究方向：00 不区分研究方向 ｜ 初试 101 / 201 / 301 / 828 ｜ 拟招生：88（统考 88，不含推免）。",
+          "basis": "研招网2027目录逐方向摘录",
+          "source": {
+            "title": "中国研究生招生信息网2027年硕士专业目录（浙江工业大学）",
+            "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10337",
+            "tier": "T1",
+            "date": "2026-10-24"
           }
         }
       ]
