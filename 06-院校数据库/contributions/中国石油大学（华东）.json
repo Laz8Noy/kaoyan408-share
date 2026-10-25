@@ -169,6 +169,61 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "retestCnt",
+          "value": "17",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "11",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "331",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "301",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "373",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -197,6 +252,83 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10425",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "297",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "11",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "17",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "11",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "331",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "301",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "373",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与技术学院/青岛软件学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/143/",
+            "tier": "T3",
+            "date": "2026-10-24"
           }
         }
       ]

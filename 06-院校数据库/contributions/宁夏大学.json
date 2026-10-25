@@ -34,6 +34,61 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "retestCnt",
+          "value": "5一志愿+16调剂",
+          "basis": "正本同单位既有值（匹配学院：信息工程学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/55/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "5一志愿+5调剂",
+          "basis": "正本同单位既有值（匹配学院：信息工程学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/55/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "282(一志愿)",
+          "basis": "正本同单位既有值（匹配学院：信息工程学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/55/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "259",
+          "basis": "正本同单位既有值（匹配学院：信息工程学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/55/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "391",
+          "basis": "正本同单位既有值（匹配学院：信息工程学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/55/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

@@ -34,6 +34,61 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "retestCnt",
+          "value": "14+48调剂",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "12+23调剂",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "291",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "270",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "321",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -62,6 +117,83 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10320",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "264",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "约35(12一志愿+23调剂)",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "14+48调剂",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "12+23调剂",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "291",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "270",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "321",
+          "basis": "正本同单位既有值（匹配学院：智慧教育学院(计算机科学与技术学院)；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/323/",
+            "tier": "T3",
+            "date": "2026-10-24"
           }
         }
       ]

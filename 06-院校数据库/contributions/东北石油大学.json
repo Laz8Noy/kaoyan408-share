@@ -34,6 +34,17 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "plan2026",
+          "value": "7",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息技术学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/361/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

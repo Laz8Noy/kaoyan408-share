@@ -34,6 +34,61 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "retestCnt",
+          "value": "3",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "3",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "285",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "272",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "296",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -62,6 +117,83 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=10490",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "285",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "3",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "3",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "3",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "285",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "272",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "296",
+          "basis": "正本同单位既有值（匹配学院：计算机科学与工程学院（人工智能学院）；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/91/",
+            "tier": "T3",
+            "date": "2026-10-24"
           }
         }
       ]

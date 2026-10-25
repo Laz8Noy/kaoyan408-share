@@ -158,6 +158,83 @@
             "tier": "T1",
             "date": "2026-10-21"
           }
+        },
+        {
+          "field": "line2026",
+          "value": "360",
+          "basis": "正本同单位既有值（匹配学院：光电与智能研究院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/31/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "18",
+          "basis": "正本同单位既有值（匹配学院：光电与智能研究院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/31/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "24(光电与智能研究院)",
+          "basis": "正本同单位既有值（匹配学院：光电与智能研究院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/31/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "18",
+          "basis": "正本同单位既有值（匹配学院：光电与智能研究院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/31/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "382",
+          "basis": "正本同单位既有值（匹配学院：光电与智能研究院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/31/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "353",
+          "basis": "正本同单位既有值（匹配学院：光电与智能研究院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/31/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "405",
+          "basis": "正本同单位既有值（匹配学院：光电与智能研究院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/31/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },

@@ -34,6 +34,61 @@
             "tier": "T1",
             "date": "2026-10-23"
           }
+        },
+        {
+          "field": "retestCnt",
+          "value": "8一志愿+38调剂",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "8一志愿+12调剂",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "305",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "275",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "374",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -62,6 +117,83 @@
             "url": "https://yz.chsi.com.cn/zsml/dwzy.do?dwdm=11075",
             "tier": "T1",
             "date": "2026-10-23"
+          }
+        },
+        {
+          "field": "line2026",
+          "value": "305",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "plan2026",
+          "value": "8(一志愿)+12调剂",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "retestCnt",
+          "value": "8一志愿+38调剂",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitCnt",
+          "value": "8一志愿+12调剂",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitAvg",
+          "value": "305",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMin",
+          "value": "275",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
+          }
+        },
+        {
+          "field": "admitMax",
+          "value": "374",
+          "basis": "正本同单位既有值（匹配学院：计算机与信息学院；原来源未改动）",
+          "source": {
+            "title": "本库正本既有值",
+            "url": "https://noobdream.com/schoolinfo/98/",
+            "tier": "T3",
+            "date": "2026-10-24"
           }
         }
       ]
