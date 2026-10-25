@@ -9,6 +9,21 @@
   "notes": "本轮解决库内三处笼统/错项：①units 的 subjectClass 原为「推测408」；②college 原写「信息与控制工程学院」，2027 目录里没有这个学院名；③updates2027 原记「085410 408（2027维持）」，依据只是 7-20 调整公告未涉计算机类，属推定。实测：全目录「408」命中 0 次、085410 命中 0 次，电子信息按 085400 大类在三个学院招生，第四单元一律是 883 C语言程序设计。",
   "entries": [
     {
+      "fields": [
+        {
+          "field": "note",
+          "value": "【简评】双非｜陕西；2026 线/录取数据暂缺。",
+          "basis": "据本文件 2027 目录与 2026 数值汇总（院校→专业→明细）",
+          "source": {
+            "title": "本文件数据汇总（西安建筑科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
       "college": "021 计算机与信息工程学院",
       "major": "085400",
       "subjectClass": "非408(883C语言程序设计)",
@@ -64,6 +79,17 @@
             "tier": "T1",
             "date": "2026-10-20"
           }
+        },
+        {
+          "field": "remark",
+          "value": "2026 无历史数据：该专业可能为 2027 新开/首次招生，或当年未公布录取统计；本库不作推算，2027 口径以目录条目为准。",
+          "basis": "条目缺 2026 数值字段",
+          "source": {
+            "title": "本文件数据完整度标注（西安建筑科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
         }
       ]
     },
@@ -90,6 +116,17 @@
             "url": "https://yzb.xauat.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1471287094&wbfileid=333DDD6B5D29A9927CBAA8E761055568",
             "tier": "T1",
             "date": "2026-10-20"
+          }
+        },
+        {
+          "field": "remark",
+          "value": "2026 无历史数据：该专业可能为 2027 新开/首次招生，或当年未公布录取统计；本库不作推算，2027 口径以目录条目为准。",
+          "basis": "条目缺 2026 数值字段",
+          "source": {
+            "title": "本文件数据完整度标注（西安建筑科技大学）",
+            "url": "https://yz.chsi.com.cn/zsml/",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]

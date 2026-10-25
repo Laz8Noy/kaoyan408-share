@@ -9,6 +9,21 @@
   "notes": "取证方式与未完项：《肇庆学院2027年硕士研究生招生简章》（www.zqu.edu.cn/info/1321/144531.htm，发布 2026-09-30）正文只给学费/学制表，明写「具体专业的初试科目请参阅《肇庆学院2027年硕士研究生招生专业目录》」；该目录 PDF 本人未能取得——下载接口 /system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=...&wbfileid=<GUID> 需验证码，本人用会话 cookie 通过验证码三次（6081/0047/4215，www 与 yjsc 两域一致）后服务端固定报「For input string: C-」（该接口按数字 ID 解析，GUID 型 wbfileid 无法处理），属接口缺陷而非权限问题，故目录级人数表未取到。科目口径改由电子学院官方 2027 专业课考试大纲直证（见下）。官方域名：www.zqu.edu.cn 与 yjsc.zqu.edu.cn，网传 yjs.zqu.edu.cn 不可达。本校为库外新校且为新招单位，province/region/tier/category 等元字段本人未取证、留给维护者裁定。",
   "entries": [
     {
+      "fields": [
+        {
+          "field": "note",
+          "value": "【简评】层次未标注｜省份未标注；2026 线/录取数据暂缺。",
+          "basis": "据本文件 2027 目录与 2026 数值汇总（院校→专业→明细）",
+          "source": {
+            "title": "本文件数据汇总（肇庆学院）",
+            "url": "https://yz.chsi.com.cn/zsml/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
       "college": "电子学院",
       "major": "085401",
       "subjectClass": "非408(805电路)",
@@ -51,6 +66,17 @@
             "url": "https://eee.zqu.edu.cn/info/1186/42712.htm",
             "tier": "T1",
             "date": "2026-10-10"
+          }
+        },
+        {
+          "field": "remark",
+          "value": "2026 无历史数据：该专业可能为 2027 新开/首次招生，或当年未公布录取统计；本库不作推算，2027 口径以目录条目为准。",
+          "basis": "条目缺 2026 数值字段",
+          "source": {
+            "title": "本文件数据完整度标注（肇庆学院）",
+            "url": "https://yz.chsi.com.cn/zsml/",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]

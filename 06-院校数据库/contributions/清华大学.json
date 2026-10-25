@@ -10,6 +10,21 @@
   "notes": "取证方式：直接取《清华大学2027年硕士研究生招生专业目录_统招(含招生人数)》按院系页（yzbm.tsinghua.edu.cn，入口见 yz.tsinghua.edu.cn/zxgg.htm 2026-10-08 公告条目），与 2026 年同院系页逐行比对，非第三方汇总。本机 DNS 不解析 yzbm/yz.tsinghua.edu.cn，须 curl --resolve yzbm.tsinghua.edu.cn:443:101.6.15.67 才可取；列表接口 /publish/s02/s0203 返回 HTTP 500，只能按 ?yxsdm=<院系码>&ksfs= 逐院系抓。两点残留风险：①抓取后期站点开始对同一 IP 只回约 2800 字节占位页，410 软件学院与 412 网研院的 ④408 是首抓所见、复核未复现，本投稿未将其写成已证；②047 交叉信息研究院页面 zsml-table 只有表头与院系说明行、无专业行，属页面本身无内容，不代表未公布。考试科目列由前端 mergeCells 合并，纯 innerText 抓取易误读，本次按每行 cells 与 rowspan/colspan 逐行核验。",
   "entries": [
     {
+      "fields": [
+        {
+          "field": "note",
+          "value": "【简评】层次未标注｜省份未标注；2026 线/录取数据暂缺；无 2026 历史数据的条目 1 个（新开专业或当年未公布，未推算）：自动化系（025）·085410。",
+          "basis": "据本文件 2027 目录与 2026 数值汇总（院校→专业→明细）",
+          "source": {
+            "title": "本文件数据汇总（清华大学）",
+            "url": "https://yz.chsi.com.cn/zsml/",
+            "tier": "T4",
+            "date": "2026-10-24"
+          }
+        }
+      ]
+    },
+    {
       "college": "计算机科学与技术系（024）",
       "major": "085400",
       "subjectClass": "11408",
@@ -126,6 +141,17 @@
             "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/vvd93w2r903t3052?yxsdm=599&ksfs=",
             "tier": "T1",
             "date": "2026-10-10"
+          }
+        },
+        {
+          "field": "remark",
+          "value": "2026 无历史数据：该专业可能为 2027 新开/首次招生，或当年未公布录取统计；本库不作推算，2027 口径以目录条目为准。",
+          "basis": "条目缺 2026 数值字段",
+          "source": {
+            "title": "本文件数据完整度标注（清华大学）",
+            "url": "https://yz.chsi.com.cn/zsml/",
+            "tier": "T4",
+            "date": "2026-10-24"
           }
         }
       ]
